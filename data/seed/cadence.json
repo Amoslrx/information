@@ -1,0 +1,1294 @@
+{
+  "source": {
+    "method": "从历史校内通知推断, 统计口径见 scripts/build_cadence.py",
+    "input": "data/seed/notices.json",
+    "caveat": "这是统计推断, 不是官方赛程。仅表示往年在这些月份发过通知。",
+    "min_years": 2,
+    "coverage_threshold": 0.6
+  },
+  "schema_version": 1,
+  "count": 37,
+  "monthHistogram": {
+    "1": 17,
+    "2": 4,
+    "3": 63,
+    "4": 58,
+    "5": 33,
+    "6": 26,
+    "7": 15,
+    "8": 8,
+    "9": 27,
+    "10": 23,
+    "11": 14,
+    "12": 18
+  },
+  "items": [
+    {
+      "competition": "全国大学生数学建模竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "http://www.mcm.edu.cn/",
+      "dept": "教务处",
+      "yearsObserved": 9,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 21,
+      "months": {
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 5,
+        "7": 5,
+        "8": 4
+      },
+      "stableMonths": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "windowStart": 6,
+      "windowEnd": 8,
+      "windowLabel": "六月–八月",
+      "coverage": 0.667,
+      "confidence": "high",
+      "evidence": [
+        "2026-04-03",
+        "2025-08-10",
+        "2025-03-17",
+        "2024-03-29",
+        "2023-07-12",
+        "2023-06-20",
+        "2023-05-04",
+        "2022-07-15"
+      ]
+    },
+    {
+      "competition": "美国大学生数学建模竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "",
+      "dept": "教务处",
+      "yearsObserved": 7,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 14,
+      "months": {
+        "1": 6,
+        "2": 1,
+        "5": 1,
+        "10": 2,
+        "12": 4
+      },
+      "stableMonths": [
+        1,
+        10,
+        12
+      ],
+      "windowStart": 12,
+      "windowEnd": 1,
+      "windowLabel": "十二月–一月",
+      "coverage": 0.714,
+      "confidence": "high",
+      "evidence": [
+        "2026-01-27",
+        "2026-01-15",
+        "2025-10-30",
+        "2025-01-10",
+        "2024-10-23",
+        "2024-01-10",
+        "2023-12-22",
+        "2022-12-08"
+      ]
+    },
+    {
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "ee": 5,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.gcxl.edu.cn/new/index.html",
+      "dept": "",
+      "yearsObserved": 5,
+      "years": [
+        2021,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 9,
+      "months": {
+        "3": 2,
+        "5": 1,
+        "7": 1,
+        "9": 3,
+        "10": 1,
+        "12": 1
+      },
+      "stableMonths": [
+        9
+      ],
+      "windowStart": 7,
+      "windowEnd": 12,
+      "windowLabel": "七月–十二月",
+      "coverage": 0.667,
+      "confidence": "high",
+      "evidence": [
+        "2026-05-21",
+        "2025-03-27",
+        "2025-03-22",
+        "2024-12-01",
+        "2024-07-11",
+        "2023-10-08",
+        "2023-09-19",
+        "2023-09-15"
+      ]
+    },
+    {
+      "competition": "全国大学生电子设计竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "http://www.nuedcchina.com/",
+      "dept": "教务处",
+      "yearsObserved": 5,
+      "years": [
+        2020,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 15,
+      "months": {
+        "1": 2,
+        "3": 2,
+        "4": 5,
+        "5": 2,
+        "7": 1,
+        "11": 1,
+        "12": 2
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 3,
+      "windowEnd": 5,
+      "windowLabel": "三月–五月",
+      "coverage": 0.6,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-17",
+        "2026-03-10",
+        "2026-01-23",
+        "2026-01-13",
+        "2025-12-30",
+        "2025-12-18",
+        "2025-11-26",
+        "2025-04-17"
+      ]
+    },
+    {
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "http://www.jienengjianpai.org/",
+      "dept": "团委",
+      "yearsObserved": 4,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "noticeCount": 7,
+      "months": {
+        "3": 3,
+        "4": 2,
+        "5": 2
+      },
+      "stableMonths": [
+        3,
+        4,
+        5
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.714,
+      "confidence": "high",
+      "evidence": [
+        "2023-05-10",
+        "2023-03-23",
+        "2022-05-02",
+        "2022-03-23",
+        "2021-04-21",
+        "2021-03-24",
+        "2020-04-07"
+      ]
+    },
+    {
+      "competition": "中国国际大学生创新大赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "https://cy.ncss.cn/",
+      "dept": "教务处",
+      "yearsObserved": 3,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 25,
+      "months": {
+        "1": 2,
+        "3": 1,
+        "4": 4,
+        "5": 7,
+        "6": 7,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "12": 1
+      },
+      "stableMonths": [
+        4,
+        5,
+        6
+      ],
+      "windowStart": 4,
+      "windowEnd": 6,
+      "windowLabel": "四月–六月",
+      "coverage": 0.72,
+      "confidence": "medium",
+      "evidence": [
+        "2026-08-18",
+        "2026-07-31",
+        "2026-05-08",
+        "2026-04-30",
+        "2026-04-17",
+        "2026-04-16",
+        "2026-03-19",
+        "2025-12-12"
+      ]
+    },
+    {
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "ee": 5,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.socchina.net/",
+      "dept": "",
+      "yearsObserved": 3,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 5,
+      "months": {
+        "3": 2,
+        "4": 1,
+        "7": 1,
+        "9": 1
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.6,
+      "confidence": "medium",
+      "evidence": [
+        "2026-09-15",
+        "2026-03-02",
+        "2025-07-10",
+        "2025-03-13",
+        "2024-04-23"
+      ]
+    },
+    {
+      "competition": "全国大学生智能汽车竞赛",
+      "ee": 5,
+      "xjtuCat": "B类",
+      "url": "http://www.eepw.com.cn/event/action/freescale_car2012/",
+      "dept": "工程坊",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 3,
+      "months": {
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "stableMonths": [],
+      "windowStart": 4,
+      "windowEnd": 5,
+      "windowLabel": "四月–五月",
+      "coverage": 0.667,
+      "confidence": "low",
+      "evidence": [
+        "2026-05-11",
+        "2026-03-30",
+        "2025-04-15"
+      ]
+    },
+    {
+      "competition": "中国高校智能机器人创意大赛",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.robotcontest.cn/",
+      "dept": "",
+      "yearsObserved": 5,
+      "years": [
+        2018,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 6,
+      "months": {
+        "1": 1,
+        "3": 3,
+        "5": 1,
+        "12": 1
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 5,
+      "windowLabel": "三月–五月",
+      "coverage": 0.667,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-30",
+        "2026-01-29",
+        "2025-03-07",
+        "2024-03-22",
+        "2023-05-08",
+        "2018-12-21"
+      ]
+    },
+    {
+      "competition": "中国机器人及人工智能大赛",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://developer.apollo.auto/devcenter/gameOperations_cn.html?target=3",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 2
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 3,
+      "windowLabel": "三月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-03-12",
+        "2025-03-05"
+      ]
+    },
+    {
+      "competition": "全国大学生物联网设计竞赛",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://developer.huaweicloud.com/college/wulianwang.html",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 2
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 4,
+      "windowEnd": 4,
+      "windowLabel": "四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-28",
+        "2025-04-09"
+      ]
+    },
+    {
+      "competition": "全国大学生集成电路创新创业大赛",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://univ.ciciec.com/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 2
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 3,
+      "windowLabel": "三月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-03-04",
+        "2025-03-11"
+      ]
+    },
+    {
+      "competition": "全国大学生机械创新设计大赛",
+      "ee": 3,
+      "xjtuCat": "A类",
+      "url": "http://umic.ckcest.cn/",
+      "dept": "教务处",
+      "yearsObserved": 7,
+      "years": [
+        2019,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 10,
+      "months": {
+        "2": 1,
+        "3": 5,
+        "4": 2,
+        "5": 2
+      },
+      "stableMonths": [
+        3,
+        4
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.7,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-26",
+        "2026-03-10",
+        "2025-03-20",
+        "2024-02-26",
+        "2023-03-30",
+        "2022-05-16",
+        "2022-05-05",
+        "2022-03-24"
+      ]
+    },
+    {
+      "competition": "全国大学生物理实验竞赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://wlsycx.moocollege.com/",
+      "dept": "",
+      "yearsObserved": 7,
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 7,
+      "months": {
+        "3": 6,
+        "7": 1
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 3,
+      "windowLabel": "三月",
+      "coverage": 0.857,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-12",
+        "2025-03-10",
+        "2024-03-25",
+        "2023-03-29",
+        "2022-03-30",
+        "2021-03-26",
+        "2020-07-08"
+      ]
+    },
+    {
+      "competition": "中国大学生机械工程创新创意大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.gczbds.org",
+      "dept": "",
+      "yearsObserved": 4,
+      "years": [
+        2020,
+        2021,
+        2025,
+        2026
+      ],
+      "noticeCount": 7,
+      "months": {
+        "1": 1,
+        "3": 1,
+        "4": 3,
+        "5": 1,
+        "6": 1
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 4,
+      "windowEnd": 6,
+      "windowLabel": "四月–六月",
+      "coverage": 0.714,
+      "confidence": "high",
+      "evidence": [
+        "2026-05-29",
+        "2026-01-23",
+        "2025-06-10",
+        "2025-04-14",
+        "2025-04-11",
+        "2021-03-12",
+        "2020-04-29"
+      ]
+    },
+    {
+      "competition": "华为ICT 大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973",
+      "dept": "",
+      "yearsObserved": 4,
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "noticeCount": 4,
+      "months": {
+        "9": 3,
+        "11": 1
+      },
+      "stableMonths": [
+        9
+      ],
+      "windowStart": 9,
+      "windowEnd": 9,
+      "windowLabel": "九月",
+      "coverage": 0.75,
+      "confidence": "high",
+      "evidence": [
+        "2025-09-15",
+        "2024-09-26",
+        "2023-09-28",
+        "2022-11-25"
+      ]
+    },
+    {
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://dasai.lanqiao.cn/",
+      "dept": "",
+      "yearsObserved": 4,
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "noticeCount": 5,
+      "months": {
+        "3": 1,
+        "10": 4
+      },
+      "stableMonths": [
+        10
+      ],
+      "windowStart": 10,
+      "windowEnd": 10,
+      "windowLabel": "十月",
+      "coverage": 0.8,
+      "confidence": "high",
+      "evidence": [
+        "2024-10-08",
+        "2023-10-16",
+        "2022-10-25",
+        "2021-10-20",
+        "2021-03-02"
+      ]
+    },
+    {
+      "competition": "全国周培源大学生力学竞赛",
+      "ee": 3,
+      "xjtuCat": "B类",
+      "url": "http://zpy.cstam.org.cn/index.aspx",
+      "dept": "教务处",
+      "yearsObserved": 3,
+      "years": [
+        2019,
+        2021,
+        2024
+      ],
+      "noticeCount": 3,
+      "months": {
+        "2": 1,
+        "3": 1,
+        "12": 1
+      },
+      "stableMonths": [],
+      "windowStart": 2,
+      "windowEnd": 3,
+      "windowLabel": "二月–三月",
+      "coverage": 0.667,
+      "confidence": "medium",
+      "evidence": [
+        "2024-12-31",
+        "2021-03-02",
+        "2019-02-20"
+      ]
+    },
+    {
+      "competition": "iCAN 大学生创新创业大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.g-ican.com/home/index",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 2
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 4,
+      "windowEnd": 4,
+      "windowLabel": "四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-01",
+        "2025-04-07"
+      ]
+    },
+    {
+      "competition": "全国大学生光电设计竞赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://gd.p.moocollege.com/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 2
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 4,
+      "windowEnd": 4,
+      "windowLabel": "四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-16",
+        "2025-04-16"
+      ]
+    },
+    {
+      "competition": "国际大学生智能农业装备创新大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://uiaec.ujs.edu.cn",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2024,
+        2025
+      ],
+      "noticeCount": 2,
+      "months": {
+        "9": 2
+      },
+      "stableMonths": [
+        9
+      ],
+      "windowStart": 9,
+      "windowEnd": 9,
+      "windowLabel": "九月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2025-09-28",
+        "2024-09-20"
+      ]
+    },
+    {
+      "competition": "中国大学生物理学术竞赛",
+      "ee": 2,
+      "xjtuCat": "B类",
+      "url": "",
+      "dept": "教务处",
+      "yearsObserved": 9,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 9,
+      "months": {
+        "9": 3,
+        "10": 5,
+        "12": 1
+      },
+      "stableMonths": [
+        9,
+        10
+      ],
+      "windowStart": 9,
+      "windowEnd": 10,
+      "windowLabel": "九月–十月",
+      "coverage": 0.889,
+      "confidence": "high",
+      "evidence": [
+        "2026-09-23",
+        "2025-09-15",
+        "2024-10-08",
+        "2023-09-16",
+        "2022-12-05",
+        "2021-10-18",
+        "2020-10-26",
+        "2019-10-08"
+      ]
+    },
+    {
+      "competition": "全国三维数字化创新设计大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://3dds.3ddl.net/",
+      "dept": "",
+      "yearsObserved": 6,
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 8,
+      "months": {
+        "3": 3,
+        "4": 2,
+        "5": 1,
+        "9": 1,
+        "10": 1
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.625,
+      "confidence": "high",
+      "evidence": [
+        "2026-04-23",
+        "2026-04-16",
+        "2025-10-10",
+        "2024-03-19",
+        "2023-03-15",
+        "2022-03-23",
+        "2021-09-28",
+        "2021-05-31"
+      ]
+    },
+    {
+      "competition": "“中国软件杯”大学生软件设计大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.cnsoftbei.com/",
+      "dept": "",
+      "yearsObserved": 4,
+      "years": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 4,
+      "months": {
+        "4": 2,
+        "5": 2
+      },
+      "stableMonths": [
+        4,
+        5
+      ],
+      "windowStart": 4,
+      "windowEnd": 5,
+      "windowLabel": "四月–五月",
+      "coverage": 1.0,
+      "confidence": "high",
+      "evidence": [
+        "2026-04-23",
+        "2025-04-29",
+        "2024-05-01",
+        "2023-05-17"
+      ]
+    },
+    {
+      "competition": "中国大学生计算机设计大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://jsjds.blcu.edu.cn/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2024,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 1,
+        "4": 1
+      },
+      "stableMonths": [],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-03-04",
+        "2024-04-22"
+      ]
+    },
+    {
+      "competition": "中国高校计算机大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.c4best.cn/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 2
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 3,
+      "windowLabel": "三月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-03-03",
+        "2025-03-13"
+      ]
+    },
+    {
+      "competition": "全国大学生信息安全竞赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.ciscn.cn/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "6": 1,
+        "11": 1
+      },
+      "stableMonths": [],
+      "windowStart": 6,
+      "windowEnd": 11,
+      "windowLabel": "六月–十一月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-06-25",
+        "2025-11-18"
+      ]
+    },
+    {
+      "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.chengtudasai.com/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 2
+      },
+      "stableMonths": [
+        4
+      ],
+      "windowStart": 4,
+      "windowEnd": 4,
+      "windowLabel": "四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-09",
+        "2025-04-01"
+      ]
+    },
+    {
+      "competition": "全国大学生统计建模大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://tjjmds.ai-learning.net",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 1,
+        "5": 1
+      },
+      "stableMonths": [],
+      "windowStart": 4,
+      "windowEnd": 5,
+      "windowLabel": "四月–五月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-03",
+        "2025-05-20"
+      ]
+    },
+    {
+      "competition": "全球校园人工智能算法精英大赛",
+      "ee": 2,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://developer.huawei.com/consumer/cn/activity/digixActivity/digixdetail/101655281685926449?ha_source=HR&ha_sourceId=89000452",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 1,
+        "7": 1
+      },
+      "stableMonths": [],
+      "windowStart": 4,
+      "windowEnd": 7,
+      "windowLabel": "四月–七月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-30",
+        "2025-07-01"
+      ]
+    },
+    {
+      "competition": "全国大学生金相技能大赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.jxds.tech/",
+      "dept": "",
+      "yearsObserved": 9,
+      "years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 9,
+      "months": {
+        "3": 1,
+        "4": 4,
+        "5": 2,
+        "6": 1,
+        "9": 1
+      },
+      "stableMonths": [
+        4,
+        5
+      ],
+      "windowStart": 4,
+      "windowEnd": 5,
+      "windowLabel": "四月–五月",
+      "coverage": 0.667,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-26",
+        "2025-04-18",
+        "2024-04-08",
+        "2023-04-04",
+        "2022-04-15",
+        "2021-06-16",
+        "2020-09-01",
+        "2019-05-07"
+      ]
+    },
+    {
+      "competition": "全国大学生结构设计竞赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.structurecontest.com/",
+      "dept": "",
+      "yearsObserved": 6,
+      "years": [
+        2018,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 6,
+      "months": {
+        "2": 1,
+        "3": 3,
+        "4": 2
+      },
+      "stableMonths": [
+        3,
+        4
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.833,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-02",
+        "2025-02-27",
+        "2024-03-06",
+        "2023-04-03",
+        "2022-03-11",
+        "2018-04-24"
+      ]
+    },
+    {
+      "competition": "全国大学生广告艺术大赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://www.sun-ada.net/",
+      "dept": "",
+      "yearsObserved": 3,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 4,
+      "months": {
+        "1": 1,
+        "3": 2,
+        "6": 1
+      },
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 1,
+      "windowEnd": 3,
+      "windowLabel": "一月–三月",
+      "coverage": 0.75,
+      "confidence": "medium",
+      "evidence": [
+        "2026-03-25",
+        "2026-01-22",
+        "2025-03-07",
+        "2024-06-01"
+      ]
+    },
+    {
+      "competition": "全国高等院校数智化企业经营沙盘大赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "",
+      "dept": "",
+      "yearsObserved": 3,
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 3,
+      "months": {
+        "4": 1,
+        "5": 1,
+        "6": 1
+      },
+      "stableMonths": [],
+      "windowStart": 5,
+      "windowEnd": 6,
+      "windowLabel": "五月–六月",
+      "coverage": 0.667,
+      "confidence": "medium",
+      "evidence": [
+        "2026-05-04",
+        "2025-04-29",
+        "2024-06-05"
+      ]
+    },
+    {
+      "competition": "“学创杯”全国大学生创业综合模拟大赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.bster.cn/cyds/index",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 1,
+        "4": 1
+      },
+      "stableMonths": [],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-04-28",
+        "2025-03-24"
+      ]
+    },
+    {
+      "competition": "中国大学生服务外包创新创业大赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.fwwb.org.cn/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2024,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "3": 1,
+        "12": 1
+      },
+      "stableMonths": [],
+      "windowStart": 12,
+      "windowEnd": 3,
+      "windowLabel": "十二月–三月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-03-04",
+        "2024-12-25"
+      ]
+    },
+    {
+      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.3chuang.net/",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2024,
+        2025
+      ],
+      "noticeCount": 2,
+      "months": {
+        "12": 2
+      },
+      "stableMonths": [
+        12
+      ],
+      "windowStart": 12,
+      "windowEnd": 12,
+      "windowLabel": "十二月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2025-12-25",
+        "2024-12-18"
+      ]
+    }
+  ]
+}

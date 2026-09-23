@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>西交电气 · 竞赛信息站</title>
+<meta name="description" content="面向西安交通大学电气工程及其自动化专业的学科竞赛信息汇总：A/B类认定、教育部目录、官网入口、校内通知。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">EE</div>
+      <div class="brand-text">
+        <h1>西交电气 · 竞赛信息站</h1>
+        <p class="sub">学科竞赛 A/B 类 · 教育部目录 · 校内通知，一处查</p>
+      </div>
+    </div>
+    <div class="stats" id="headStats"></div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <div class="wrap">
+    <button class="tab is-active" data-view="catalog">竞赛目录 <span class="pill" id="tabCountCat"></span></button>
+    <button class="tab" data-view="rhythm">年度节律 <span class="pill" id="tabCountRhythm"></span></button>
+    <button class="tab" data-view="notices">校内通知 <span class="pill" id="tabCountNotice"></span></button>
+    <button class="tab" data-view="about">说明与来源</button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- ============ 竞赛目录 ============ -->
+  <section id="view-catalog" class="view is-active">
+    <div class="toolbar">
+      <div class="search-row">
+        <input id="q" type="search" placeholder="搜索竞赛名称、主办单位、说明…" autocomplete="off">
+        <button id="qClear" class="btn-ghost" title="清空" hidden>✕</button>
+      </div>
+
+      <div class="filter-row">
+        <label class="field">
+          <span>电气相关度</span>
+          <select id="fEE">
+            <option value="">全部</option>
+            <option value="5">仅 5 分（核心）</option>
+            <option value="4">4 分及以上</option>
+            <option value="3">3 分及以上</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>西交认定</span>
+          <select id="fCat">
+            <option value="">全部</option>
+            <option value="A类">A 类</option>
+            <option value="B类">B 类</option>
+            <option value="__unknown">未认定（待核）</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>教育部目录</span>
+          <select id="fMoe">
+            <option value="">全部</option>
+            <option value="yes">在目录内</option>
+            <option value="no">不在目录内</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>排序</span>
+          <select id="fSort">
+            <option value="ee">相关度优先</option>
+            <option value="recent">近期有通知优先</option>
+            <option value="notices">通知数优先</option>
+            <option value="moe">教育部目录序号</option>
+            <option value="name">名称</option>
+          </select>
+        </label>
+
+        <label class="check">
+          <input type="checkbox" id="fRecent">
+          <span>只看近期有通知</span>
+        </label>
+      </div>
+
+      <div class="result-row">
+        <span id="resultCount" class="muted"></span>
+        <button id="reset" class="btn-ghost">重置筛选</button>
+      </div>
+    </div>
+
+    <div id="catList" class="cards"></div>
+    <div id="catEmpty" class="empty" hidden>没有符合条件的竞赛，试试放宽筛选。</div>
+  </section>
+
+  <!-- ============ 年度节律 ============ -->
+  <section id="view-rhythm" class="view">
+
+    <div class="panel">
+      <h2 class="panel-title">全校竞赛通知的月度分布</h2>
+      <p class="panel-sub" id="rhythmInsight"></p>
+      <div id="monthChart" class="chart"></div>
+      <p class="muted" id="monthChartNote"></p>
+    </div>
+
+    <div class="panel">
+      <h2 class="panel-title">日历订阅</h2>
+      <p class="panel-sub">
+        订阅一次，每年到点自动提醒——不用记得回来看这个网站。事件在往年发通知的月份，
+        提前 7 天提醒。
+      </p>
+
+      <div class="cal-links">
+        <div class="cal-card">
+          <div class="cal-card-head">
+            <b>电气核心竞赛</b>
+            <a class="cal-dl" href="calendar/ee-core.ics" download>↓ 下载</a>
+          </div>
+          <span id="calCoreDesc" class="cal-desc"></span>
+          <div class="cal-url">
+            <input id="urlCore" readonly spellcheck="false" aria-label="电气核心竞赛日历订阅网址">
+            <button id="copyCore" class="cal-copy">复制</button>
+          </div>
+        </div>
+
+        <div class="cal-card">
+          <div class="cal-card-head">
+            <b>全部可推断节律的竞赛</b>
+            <a class="cal-dl" href="calendar/all.ics" download>↓ 下载</a>
+          </div>
+          <span id="calAllDesc" class="cal-desc"></span>
+          <div class="cal-url">
+            <input id="urlAll" readonly spellcheck="false" aria-label="全部竞赛日历订阅网址">
+            <button id="copyAll" class="cal-copy">复制</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="muted" id="calUrlHint"></p>
+
+      <details class="howto">
+        <summary>怎么订阅？</summary>
+        <ul>
+          <li><strong>iOS</strong>：设置 → 日历 → 账户 → 添加账户 → 其他 → 添加已订阅的日历 → 粘贴上面的网址。</li>
+          <li><strong>Android / Google 日历</strong>：其他日历 → 通过网址订阅 → 粘贴上面的网址。</li>
+          <li><strong>Outlook / Apple 日历（电脑）</strong>：添加日历 → 从网络订阅 → 粘贴上面的网址。</li>
+          <li><strong>只想看一眼</strong>：点「↓ 下载」，双击导入即可（但不会自动更新）。</li>
+        </ul>
+        <p class="muted">
+          必须用上面那个<strong>完整网址</strong>订阅，直接给日历 App 一个本地文件是不行的——
+          它需要能定期访问这个地址来取最新内容。
+        </p>
+      </details>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-row">
+        <input id="rq" type="search" placeholder="搜索竞赛名…" autocomplete="off">
+        <button id="rqClear" class="btn-ghost" title="清空" hidden>✕</button>
+      </div>
+      <div class="filter-row">
+        <label class="field">
+          <span>月份</span>
+          <select id="rMonth"><option value="">全部月份</option></select>
+        </label>
+        <label class="field">
+          <span>电气相关度</span>
+          <select id="rEE">
+            <option value="4">4 分及以上</option>
+            <option value="">全部</option>
+            <option value="5">仅 5 分</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>排序</span>
+          <select id="rSort">
+            <option value="months">月份先后</option>
+            <option value="ee">相关度优先</option>
+            <option value="years">观测年数优先</option>
+          </select>
+        </label>
+      </div>
+      <div class="result-row">
+        <span id="rhythmCount" class="muted"></span>
+        <button id="rReset" class="btn-ghost">重置筛选</button>
+      </div>
+    </div>
+
+    <div id="rhythmList" class="rhythm-list"></div>
+    <div id="rhythmEmpty" class="empty" hidden>没有符合条件的竞赛。</div>
+
+    <p class="hint" id="rhythmCaveat"></p>
+  </section>
+
+  <!-- ============ 校内通知 ============ -->
+  <section id="view-notices" class="view">
+    <div class="toolbar">
+      <div class="search-row">
+        <input id="nq" type="search" placeholder="搜索通知标题…" autocomplete="off">
+        <button id="nqClear" class="btn-ghost" title="清空" hidden>✕</button>
+      </div>
+      <div class="filter-row">
+        <label class="field">
+          <span>范围</span>
+          <select id="nScope">
+            <option value="">全部通知</option>
+            <option value="matched">仅已关联竞赛</option>
+            <option value="unmatched">仅未关联</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>时间</span>
+          <select id="nRange">
+            <option value="">全部时间</option>
+            <option value="365">近一年</option>
+            <option value="180">近半年</option>
+            <option value="90">近 90 天</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>排序</span>
+          <select id="nSort">
+            <option value="date">日期（新→旧）</option>
+            <option value="dateAsc">日期（旧→新）</option>
+          </select>
+        </label>
+      </div>
+      <div class="result-row">
+        <span id="noticeCount" class="muted"></span>
+        <button id="nReset" class="btn-ghost">重置筛选</button>
+      </div>
+    </div>
+
+    <p class="hint">
+      来源：<a id="srcNotice" href="#" target="_blank" rel="noopener">西安交通大学实践教学中心 · 竞赛栏目</a>。
+      「关联竞赛」为标题关键词自动匹配，可能有误，仅作提示。
+    </p>
+
+    <div id="noticeList" class="notices"></div>
+    <div id="noticeEmpty" class="empty" hidden>没有符合条件的通知。</div>
+  </section>
+
+  <!-- ============ 说明 ============ -->
+  <section id="view-about" class="view">
+    <div class="prose">
+      <h2>这个站是什么</h2>
+      <p>
+        把散落在「教育部竞赛目录」「学校 A/B 类认定名单」「实践教学中心通知」里的信息，
+        汇成一张按<strong>电气工程及其自动化</strong>相关度排序的总表。数据来自官方源，可重跑脚本重新生成。
+      </p>
+
+      <h2>必须知道的数据缺陷</h2>
+      <ul id="caveatList"></ul>
+
+      <h2>数据来源</h2>
+      <ul id="sourceList"></ul>
+
+      <h2>字段说明</h2>
+      <dl class="kv">
+        <dt>电气相关度</dt><dd>1–5 分。5 = 电气/自动化核心赛事，1 = 基本无关（其他学科专属）。<strong>为 AI 初判，需人工复核。</strong></dd>
+        <dt>西交认定</dt><dd>A 类 / B 类，来自西交名单。<strong>该名单为旧版且不完整</strong>，因此多数条目显示「未认定（待核）」——这不代表学校未认定。</dd>
+        <dt>教育部目录</dt><dd>是否在《2025 年教育部认可的全国大学生学科竞赛目录清单》（84 项）内。</dd>
+        <dt>归口部门</dt><dd>学校负责该赛事的部门：教务处 / 团委 / 工程坊 / 研究生院 / 医学部。</dd>
+      </dl>
+
+      <h2>怎么更新</h2>
+      <pre><code>python scripts\crawl_xjtu_notices.py    # 抓最新校内通知
+python scripts\parse_moe_catalog.py     # 解析教育部目录 PDF
+python scripts\parse_xjtu_ab.py         # 解析西交 A/B 名单 PDF
+python scripts\build_master_table.py    # 合并成总表
+python scripts\build_site_data.py       # 打包前端数据
+</code></pre>
+      <p class="muted">页面由 <code>site/data.js</code> 驱动，该文件由最后一步生成，请勿手工编辑。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span id="footMeta"></span>
+    <span class="muted">个人整理，非学校官方发布；报名与认定请以学校正式文件为准。</span>
+  </div>
+</footer>
+
+<!-- 详情抽屉 -->
+<div id="overlay" class="overlay" hidden></div>
+<aside id="drawer" class="drawer" hidden aria-modal="true" role="dialog">
+  <button id="drawerClose" class="drawer-close" aria-label="关闭">✕</button>
+  <div id="drawerBody"></div>
+</aside>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

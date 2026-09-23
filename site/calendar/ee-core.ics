@@ -1,0 +1,293 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//XJTU EE Competition Info//competitions.ics//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:西交电气 · 竞赛年度节律（电气核心）
+X-WR-CALDESC:仅电气相关度 >= 4 的竞赛。共 12 个。
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:P7D
+X-PUBLISHED-TTL:P7D
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe5@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270615
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生数学建模竞赛 · 往年 六月–八月 发通
+ 知
+DESCRIPTION:往年通知窗口：六月–八月（覆盖 67% 的历史通
+ 知）\n观测年数：9 年（2018、2019、2020、2021、2022、2023、2
+ 024、2025、2026）\n稳定出现月份：3月、4月、5月、6月、7
+ 月、8月\n电气相关度：5/5\n西交认定：A类\n归口部门：教
+ 务处\n官网：http://www.mcm.edu.cn/\n依据通知日期：2026-04-03
+ 、2025-08-10、2025-03-17、2024-03-29、2023-07-12\n\n※ 这是从历
+ 史校内通知统计推断的窗口，不是官方赛程，具体以学
+ 校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.mcm.edu.cn/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生数学建模竞赛 往年此时开始发通知
+ ，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-had8e4bb2a7a1@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261215
+RRULE:FREQ=YEARLY
+SUMMARY:美国大学生数学建模竞赛 · 往年 十二月–一月 发
+ 通知
+DESCRIPTION:往年通知窗口：十二月–一月（覆盖 71% 的历史
+ 通知）\n观测年数：7 年（2020、2021、2022、2023、2024、2025
+ 、2026）\n稳定出现月份：1月、10月、12月\n电气相关度：5
+ /5\n西交认定：A类\n归口部门：教务处\n依据通知日期：20
+ 26-01-27、2026-01-15、2025-10-30、2025-01-10、2024-10-23\n\n※ 这是
+ 从历史校内通知统计推断的窗口，不是官方赛程，具体
+ 以学校通知为准。
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:美国大学生数学建模竞赛 往年此时开始发通知
+ ，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe13@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270715
+RRULE:FREQ=YEARLY
+SUMMARY:中国大学生工程实践与创新能力大赛 · 往年 七月
+ –十二月 发通知
+DESCRIPTION:往年通知窗口：七月–十二月（覆盖 67% 的历史
+ 通知）\n观测年数：5 年（2021、2023、2024、2025、2026）\n稳
+ 定出现月份：9月\n电气相关度：5/5\n西交认定：未认定(
+ 待核)\n官网：http://www.gcxl.edu.cn/new/index.html\n依据通知日
+ 期：2026-05-21、2025-03-27、2025-03-22、2024-12-01、2024-07-11\n\n
+ ※ 这是从历史校内通知统计推断的窗口，不是官方赛程
+ ，具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.gcxl.edu.cn/new/index.html
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:中国大学生工程实践与创新能力大赛 往年此时
+ 开始发通知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe6@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生电子设计竞赛 · 往年 三月–五月 发通
+ 知
+DESCRIPTION:往年通知窗口：三月–五月（覆盖 60% 的历史通
+ 知）\n观测年数：5 年（2020、2022、2024、2025、2026）\n稳定
+ 出现月份：4月\n电气相关度：5/5\n西交认定：A类\n归口部
+ 门：教务处\n官网：http://www.nuedcchina.com/\n依据通知日期
+ ：2026-03-17、2026-03-10、2026-01-23、2026-01-13、2025-12-30\n\n※ 
+ 这是从历史校内通知统计推断的窗口，不是官方赛程，
+ 具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.nuedcchina.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生电子设计竞赛 往年此时开始发通知
+ ，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe52@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生节能减排社会实践与科技竞赛 · 往年 
+ 三月–四月 发通知
+DESCRIPTION:往年通知窗口：三月–四月（覆盖 71% 的历史通
+ 知）\n观测年数：4 年（2020、2021、2022、2023）\n稳定出现
+ 月份：3月、4月、5月\n电气相关度：5/5\n西交认定：A类\n
+ 归口部门：团委\n官网：http://www.jienengjianpai.org/\n依据通
+ 知日期：2023-05-10、2023-03-23、2022-05-02、2022-03-23、2021-04-21
+ \n\n※ 这是从历史校内通知统计推断的窗口，不是官方赛
+ 程，具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.jienengjianpai.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生节能减排社会实践与科技竞赛 往年
+ 此时开始发通知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe1@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270415
+RRULE:FREQ=YEARLY
+SUMMARY:中国国际大学生创新大赛 · 往年 四月–六月 发通
+ 知
+DESCRIPTION:往年通知窗口：四月–六月（覆盖 72% 的历史通
+ 知）\n观测年数：3 年（2024、2025、2026）\n稳定出现月份
+ ：4月、5月、6月\n电气相关度：5/5\n西交认定：A类\n归口
+ 部门：教务处\n官网：https://cy.ncss.cn/\n依据通知日期：202
+ 6-08-18、2026-07-31、2026-05-08、2026-04-30、2026-04-17\n\n※ 这是
+ 从历史校内通知统计推断的窗口，不是官方赛程，具体
+ 以学校通知为准。
+TRANSP:TRANSPARENT
+URL:https://cy.ncss.cn/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:中国国际大学生创新大赛 往年此时开始发通知
+ ，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe43@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生嵌入式芯片与系统设计竞赛 · 往年 三
+ 月–四月 发通知
+DESCRIPTION:往年通知窗口：三月–四月（覆盖 60% 的历史通
+ 知）\n观测年数：3 年（2024、2025、2026）\n稳定出现月份
+ ：3月\n电气相关度：5/5\n西交认定：未认定(待核)\n官网
+ ：http://www.socchina.net/\n依据通知日期：2026-09-15、2026-03-02
+ 、2025-07-10、2025-03-13、2024-04-23\n\n※ 这是从历史校内通知
+ 统计推断的窗口，不是官方赛程，具体以学校通知为准
+ 。
+TRANSP:TRANSPARENT
+URL:http://www.socchina.net/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生嵌入式芯片与系统设计竞赛 往年此
+ 时开始发通知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe11@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270415
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生智能汽车竞赛 · 往年 四月–五月 发通
+ 知
+DESCRIPTION:往年通知窗口：四月–五月（覆盖 67% 的历史通
+ 知）\n观测年数：2 年（2025、2026）\n电气相关度：5/5\n西
+ 交认定：B类\n归口部门：工程坊\n官网：http://www.eepw.com.c
+ n/event/action/freescale_car2012/\n依据通知日期：2026-05-11、2026-
+ 03-30、2025-04-15\n\n※ 这是从历史校内通知统计推断的窗口
+ ，不是官方赛程，具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.eepw.com.cn/event/action/freescale_car2012/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生智能汽车竞赛 往年此时开始发通知
+ ，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe49@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:中国高校智能机器人创意大赛 · 往年 三月–五月 
+ 发通知
+DESCRIPTION:往年通知窗口：三月–五月（覆盖 67% 的历史通
+ 知）\n观测年数：5 年（2018、2023、2024、2025、2026）\n稳定
+ 出现月份：3月\n电气相关度：4/5\n西交认定：未认定(待
+ 核)\n官网：http://www.robotcontest.cn/\n依据通知日期：2026-03-3
+ 0、2026-01-29、2025-03-07、2024-03-22、2023-05-08\n\n※ 这是从历
+ 史校内通知统计推断的窗口，不是官方赛程，具体以学
+ 校通知为准。
+TRANSP:TRANSPARENT
+URL:http://www.robotcontest.cn/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:中国高校智能机器人创意大赛 往年此时开始发
+ 通知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe51@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:中国机器人及人工智能大赛 · 往年 三月 发通知
+DESCRIPTION:往年通知窗口：三月（覆盖 100% 的历史通知）\n
+ 观测年数：2 年（2025、2026）\n稳定出现月份：3月\n电气
+ 相关度：4/5\n西交认定：未认定(待核)\n官网：https://develo
+ per.apollo.auto/devcenter/gameOperations_cn.html?target=3\n依据通知日
+ 期：2026-03-12、2025-03-05\n\n※ 这是从历史校内通知统计推
+ 断的窗口，不是官方赛程，具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:https://developer.apollo.auto/devcenter/gameOperations_cn.html?target=3
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:中国机器人及人工智能大赛 往年此时开始发通
+ 知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe65@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270415
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生物联网设计竞赛 · 往年 四月 发通知
+DESCRIPTION:往年通知窗口：四月（覆盖 100% 的历史通知）\n
+ 观测年数：2 年（2025、2026）\n稳定出现月份：4月\n电气
+ 相关度：4/5\n西交认定：未认定(待核)\n官网：https://develo
+ per.huaweicloud.com/college/wulianwang.html\n依据通知日期：2026-04-
+ 28、2025-04-09\n\n※ 这是从历史校内通知统计推断的窗口，
+ 不是官方赛程，具体以学校通知为准。
+TRANSP:TRANSPARENT
+URL:https://developer.huaweicloud.com/college/wulianwang.html
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生物联网设计竞赛 往年此时开始发通
+ 知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:xjtu-ee-comp-moe31@competition-info
+DTSTAMP:20260923T101610Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270315
+RRULE:FREQ=YEARLY
+SUMMARY:全国大学生集成电路创新创业大赛 · 往年 三月 发
+ 通知
+DESCRIPTION:往年通知窗口：三月（覆盖 100% 的历史通知）\n
+ 观测年数：2 年（2025、2026）\n稳定出现月份：3月\n电气
+ 相关度：4/5\n西交认定：未认定(待核)\n官网：http://univ.ci
+ ciec.com/\n依据通知日期：2026-03-04、2025-03-11\n\n※ 这是从
+ 历史校内通知统计推断的窗口，不是官方赛程，具体以
+ 学校通知为准。
+TRANSP:TRANSPARENT
+URL:http://univ.ciciec.com/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:全国大学生集成电路创新创业大赛 往年此时开
+ 始发通知，可以去实践教学中心看最新通知
+END:VALARM
+END:VEVENT
+END:VCALENDAR

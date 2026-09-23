@@ -1,0 +1,1023 @@
+[
+  {
+    "no": 1,
+    "name": "中国国际大学生创新大赛",
+    "url": "https://cy.ncss.cn/",
+    "domain": "cy.ncss.cn",
+    "status": 200,
+    "bytes": 62386,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 2,
+    "name": "“挑战杯”全国大学生课外学术科技作品竞赛",
+    "url": "http://www.tiaozhanbei.net/",
+    "domain": "www.tiaozhanbei.net",
+    "status": 200,
+    "bytes": 74385,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 3,
+    "name": "“挑战杯”中国大学生创业计划大赛",
+    "url": "http://www.tiaozhanbei.net/",
+    "domain": "www.tiaozhanbei.net",
+    "status": 200,
+    "bytes": 74385,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 4,
+    "name": "ACM-ICPC 国际大学生程序设计竞赛",
+    "url": "https://icpc.global/",
+    "domain": "icpc.global",
+    "status": 200,
+    "bytes": 2808,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 5,
+    "name": "全国大学生数学建模竞赛",
+    "url": "http://www.mcm.edu.cn/",
+    "domain": "www.mcm.edu.cn",
+    "status": 200,
+    "bytes": 10005,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 6,
+    "name": "全国大学生电子设计竞赛",
+    "url": "http://www.nuedcchina.com/",
+    "domain": "www.nuedcchina.com",
+    "status": 200,
+    "bytes": 18161,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 7,
+    "name": "中国大学生医学技术技能大赛",
+    "url": "https://medu.bjmu.edu.cn/cms/show.action?code=publish_4af037e16e264f60016eaa7dea950ef4&siteid=100001",
+    "domain": "medu.bjmu.edu.cn",
+    "status": 200,
+    "bytes": 33170,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 8,
+    "name": "全国大学生机械创新设计大赛",
+    "url": "http://umic.ckcest.cn/",
+    "domain": "umic.ckcest.cn",
+    "status": "ERR",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "no": 9,
+    "name": "全国大学生结构设计竞赛",
+    "url": "http://www.structurecontest.com/",
+    "domain": "www.structurecontest.com",
+    "status": 200,
+    "bytes": 1326,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 10,
+    "name": "全国大学生广告艺术大赛",
+    "url": "https://www.sun-ada.net/",
+    "domain": "www.sun-ada.net",
+    "status": 200,
+    "bytes": 22816,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 11,
+    "name": "全国大学生智能汽车竞赛",
+    "url": "http://www.eepw.com.cn/event/action/freescale_car2012/",
+    "domain": "www.eepw.com.cn",
+    "status": 200,
+    "bytes": 17348,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 12,
+    "name": "全国大学生电子商务“创新、创意及创业”挑战赛",
+    "url": "http://www.3chuang.net/",
+    "domain": "www.3chuang.net",
+    "status": 200,
+    "bytes": 1028,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 13,
+    "name": "中国大学生工程实践与创新能力大赛",
+    "url": "http://www.gcxl.edu.cn/new/index.html",
+    "domain": "www.gcxl.edu.cn",
+    "status": 200,
+    "bytes": 18609,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 14,
+    "name": "全国大学生物流设计大赛",
+    "url": "http://www.clpp.org.cn/",
+    "domain": "www.clpp.org.cn",
+    "status": 200,
+    "bytes": 98849,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 15,
+    "name": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛",
+    "url": "http://uchallenge.unipus.cn/",
+    "domain": "uchallenge.unipus.cn",
+    "status": 200,
+    "bytes": 42936,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "截止",
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 16,
+    "name": "两岸新锐设计竞赛·华灿奖",
+    "url": "http://www.huacanjiang.com/home",
+    "domain": "www.huacanjiang.com",
+    "status": "ERR",
+    "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+  },
+  {
+    "no": 17,
+    "name": "全国大学生创新创业训练计划年会展示",
+    "url": "http://gjcxcy.bjtu.edu.cn/Index.aspx",
+    "domain": "gjcxcy.bjtu.edu.cn",
+    "status": 200,
+    "bytes": 31160,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "通知"
+    ]
+  },
+  {
+    "no": 18,
+    "name": "全国大学生化工设计竞赛",
+    "url": "http://iche.zju.edu.cn/",
+    "domain": "iche.zju.edu.cn",
+    "status": 200,
+    "bytes": 66573,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 19,
+    "name": "全国大学生机器人大赛",
+    "url": "https://www.cnrobocon.net/",
+    "domain": "www.cnrobocon.net",
+    "status": 200,
+    "bytes": 39937,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 20,
+    "name": "全国大学生市场调查与分析大赛",
+    "url": "http://www.china-cssc.org/list-56-1.html",
+    "domain": "www.china-cssc.org",
+    "status": 200,
+    "bytes": 88704,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 21,
+    "name": "全国大学生先进成图技术与产品信息建模创新大赛",
+    "url": "http://www.chengtudasai.com/",
+    "domain": "www.chengtudasai.com",
+    "status": 200,
+    "bytes": 47215,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 22,
+    "name": "全国三维数字化创新设计大赛",
+    "url": "https://3dds.3ddl.net/",
+    "domain": "3dds.3ddl.net",
+    "status": 200,
+    "bytes": 98904,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 23,
+    "name": "“西门子杯”中国智能制造挑战赛",
+    "url": "http://www.siemenscup-cimc.org.cn/",
+    "domain": "www.siemenscup-cimc.org.cn",
+    "status": 200,
+    "bytes": 101287,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 24,
+    "name": "中国大学生服务外包创新创业大赛",
+    "url": "http://www.fwwb.org.cn/",
+    "domain": "www.fwwb.org.cn",
+    "status": 200,
+    "bytes": 43878,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "大赛"
+    ]
+  },
+  {
+    "no": 25,
+    "name": "中国大学生计算机设计大赛",
+    "url": "http://jsjds.blcu.edu.cn/",
+    "domain": "jsjds.blcu.edu.cn",
+    "status": 200,
+    "bytes": 20882,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 26,
+    "name": "中国高校计算机大赛",
+    "url": "http://www.c4best.cn/",
+    "domain": "www.c4best.cn",
+    "status": 200,
+    "bytes": 1268,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 27,
+    "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+    "url": "http://dasai.lanqiao.cn/",
+    "domain": "dasai.lanqiao.cn",
+    "status": 200,
+    "bytes": 1795,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 28,
+    "name": "米兰设计周--中国高校设计学科师生优秀作品展",
+    "url": "http://www.dandad.cn/",
+    "domain": "www.dandad.cn",
+    "status": 200,
+    "bytes": 33869,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 29,
+    "name": "全国大学生地质技能竞赛",
+    "url": "https://yuanxi.cugb.edu.cn/competition/",
+    "domain": "yuanxi.cugb.edu.cn",
+    "status": 200,
+    "bytes": 26584,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛"
+    ]
+  },
+  {
+    "no": 30,
+    "name": "全国大学生光电设计竞赛",
+    "url": "http://gd.p.moocollege.com/",
+    "domain": "gd.p.moocollege.com",
+    "status": 200,
+    "bytes": 1335,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 31,
+    "name": "全国大学生集成电路创新创业大赛",
+    "url": "http://univ.ciciec.com/",
+    "domain": "univ.ciciec.com",
+    "status": 200,
+    "bytes": 39789,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 32,
+    "name": "全国大学生金相技能大赛",
+    "url": "http://www.jxds.tech/",
+    "domain": "www.jxds.tech",
+    "status": 200,
+    "bytes": 47332,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 33,
+    "name": "全国大学生信息安全竞赛",
+    "url": "http://www.ciscn.cn/",
+    "domain": "www.ciscn.cn",
+    "status": 200,
+    "bytes": 81372,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 34,
+    "name": "未来设计师·全国高校数字艺术设计大赛",
+    "url": "https://www.ncda.org.cn/",
+    "domain": "www.ncda.org.cn",
+    "status": 200,
+    "bytes": 110947,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "截止",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 35,
+    "name": "全国周培源大学生力学竞赛",
+    "url": "http://zpy.cstam.org.cn/index.aspx",
+    "domain": "zpy.cstam.org.cn",
+    "status": "ERR",
+    "error": "TimeoutError: timed out"
+  },
+  {
+    "no": 36,
+    "name": "中国大学生机械工程创新创意大赛",
+    "url": "http://www.gczbds.org",
+    "domain": "www.gczbds.org",
+    "status": 200,
+    "bytes": 1335,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 37,
+    "name": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+    "url": "http://crc.drct-caa.org.cn/",
+    "domain": "crc.drct-caa.org.cn",
+    "status": "ERR",
+    "error": "URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>"
+  },
+  {
+    "no": 38,
+    "name": "“中国软件杯”大学生软件设计大赛",
+    "url": "http://www.cnsoftbei.com/",
+    "domain": "www.cnsoftbei.com",
+    "status": 200,
+    "bytes": 69866,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 39,
+    "name": "中美青年创客大赛",
+    "url": "https://chinaus-maker.cscse.edu.cn/",
+    "domain": "chinaus-maker.cscse.edu.cn",
+    "status": "ERR",
+    "error": "URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe lega"
+  },
+  {
+    "no": 40,
+    "name": "睿抗机器人开发者大赛(RAICOM)",
+    "url": "https://www.robocom.com.cn/",
+    "domain": "www.robocom.com.cn",
+    "status": 200,
+    "bytes": 11617,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "报名",
+      "大赛"
+    ]
+  },
+  {
+    "no": 41,
+    "name": "“大唐杯”全国大学生新一代信息通信技术大赛",
+    "url": "https://dtcup.dtxiaotangren.com",
+    "domain": "dtcup.dtxiaotangren.com",
+    "status": "ERR",
+    "error": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "no": 42,
+    "name": "华为ICT 大赛",
+    "url": "https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973",
+    "domain": "e.huawei.com",
+    "status": 200,
+    "bytes": 22073,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 43,
+    "name": "全国大学生嵌入式芯片与系统设计竞赛",
+    "url": "http://www.socchina.net/",
+    "domain": "www.socchina.net",
+    "status": 200,
+    "bytes": 12711,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 44,
+    "name": "全国大学生生命科学竞赛(CULSC)",
+    "url": "https://www.culsc.cn/#/",
+    "domain": "www.culsc.cn",
+    "status": 200,
+    "bytes": 2229,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 45,
+    "name": "全国大学生物理实验竞赛",
+    "url": "http://wlsycx.moocollege.com/",
+    "domain": "wlsycx.moocollege.com",
+    "status": 200,
+    "bytes": 1335,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 46,
+    "name": "国际高校 BIM 毕业设计创新大赛",
+    "url": "http://gxbsxs.glodonedu.com/",
+    "domain": "gxbsxs.glodonedu.com",
+    "status": 200,
+    "bytes": 743,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 47,
+    "name": "全国高校商业精英挑战赛",
+    "url": "http://cubec.org.cn/",
+    "domain": "cubec.org.cn",
+    "status": 200,
+    "bytes": 591,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 48,
+    "name": "“学创杯”全国大学生创业综合模拟大赛",
+    "url": "http://www.bster.cn/cyds/index",
+    "domain": "www.bster.cn",
+    "status": 200,
+    "bytes": 23858,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 49,
+    "name": "中国高校智能机器人创意大赛",
+    "url": "http://www.robotcontest.cn/",
+    "domain": "www.robotcontest.cn",
+    "status": 200,
+    "bytes": 1335,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 50,
+    "name": "中国好创意暨全国数字艺术设计大赛",
+    "url": "https://www.cdec.org.cn/",
+    "domain": "www.cdec.org.cn",
+    "status": 200,
+    "bytes": 68820,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 51,
+    "name": "中国机器人及人工智能大赛",
+    "url": "https://developer.apollo.auto/devcenter/gameOperations_cn.html?target=3",
+    "domain": "developer.apollo.auto",
+    "status": 200,
+    "bytes": 36187,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 52,
+    "name": "全国大学生节能减排社会实践与科技竞赛",
+    "url": "http://www.jienengjianpai.org/",
+    "domain": "www.jienengjianpai.org",
+    "status": 200,
+    "bytes": 35325,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 53,
+    "name": "“21 世纪杯”全国英语演讲比赛",
+    "url": "https://contest.i21st.cn/",
+    "domain": "contest.i21st.cn",
+    "status": 200,
+    "bytes": 4535,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 54,
+    "name": "iCAN 大学生创新创业大赛",
+    "url": "http://www.g-ican.com/home/index",
+    "domain": "www.g-ican.com",
+    "status": 200,
+    "bytes": 19989,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 55,
+    "name": "“工行杯”全国大学生金融科技创新大赛",
+    "url": "http://www.gonghangbei.com",
+    "domain": "www.gonghangbei.com",
+    "status": 200,
+    "bytes": 8505,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 56,
+    "name": "中华经典诵写讲大赛-①讲解大赛、②书写大赛、③诵读大赛、④篆刻大赛",
+    "url": "https://jdsxj.eduyun.cn/",
+    "domain": "jdsxj.eduyun.cn",
+    "status": 200,
+    "bytes": 6716,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 57,
+    "name": "“外教社杯”全国高校学生跨文化能力大赛",
+    "url": "https://ict.sflep.com/index.php?m=content&c=index&a=lists&catid=15",
+    "domain": "ict.sflep.com",
+    "status": 200,
+    "bytes": 29866,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 58,
+    "name": "百度之星程序设计大赛",
+    "url": "https://star.baidu.com/#/",
+    "domain": "star.baidu.com",
+    "status": 200,
+    "bytes": 2237,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 59,
+    "name": "全国大学生工业设计大赛",
+    "url": "https://www.cuidc.net/#/",
+    "domain": "www.cuidc.net",
+    "status": 200,
+    "bytes": 6766,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 60,
+    "name": "全国大学生水利创新设计大赛",
+    "url": "https://sljzw.hhu.edu.cn/fenhui/2023/0411/c12009a259306/page.htm",
+    "domain": "sljzw.hhu.edu.cn",
+    "status": 200,
+    "bytes": 10936,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 61,
+    "name": "全国大学生化工实验大赛",
+    "url": "http://www.cteic.com/higherEducation-199.html?www.kulayu.com",
+    "domain": "www.cteic.com",
+    "status": 200,
+    "bytes": 14609,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 62,
+    "name": "全国大学生化学实验创新设计大赛",
+    "url": "https://cid.nju.edu.cn/",
+    "domain": "cid.nju.edu.cn",
+    "status": 200,
+    "bytes": 14186,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 63,
+    "name": "全国大学生计算机系统统能力大赛",
+    "url": "https://compiler.educg.net/#/",
+    "domain": "compiler.educg.net",
+    "status": 200,
+    "bytes": 4049,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 64,
+    "name": "全国大学生花园设计建造竞赛",
+    "url": "http://www.lalavision.com/hysjjzjs",
+    "domain": "www.lalavision.com",
+    "status": 200,
+    "bytes": 181000,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 65,
+    "name": "全国大学生物联网设计竞赛",
+    "url": "https://developer.huaweicloud.com/college/wulianwang.html",
+    "domain": "developer.huaweicloud.com",
+    "status": 200,
+    "bytes": 108490,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛"
+    ]
+  },
+  {
+    "no": 66,
+    "name": "全国大学生信息安全与对抗技术竞赛",
+    "url": "http://www.isclab.org.cn",
+    "domain": "www.isclab.org.cn",
+    "status": 200,
+    "bytes": 80586,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 67,
+    "name": "全国大学生测绘学科创新创业智能大赛",
+    "url": "http://smt.whu.edu.cn/index.htm",
+    "domain": "smt.whu.edu.cn",
+    "status": 200,
+    "bytes": 31007,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 68,
+    "name": "全国大学生统计建模大赛",
+    "url": "http://tjjmds.ai-learning.net",
+    "domain": "tjjmds.ai-learning.net",
+    "status": 200,
+    "bytes": 53732,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 69,
+    "name": "全国大学生能源经济学术创意大赛",
+    "url": "http://energy.qibebt.ac.cn/eneco/contribution/index.html",
+    "domain": "energy.qibebt.ac.cn",
+    "status": 200,
+    "bytes": 1574,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 70,
+    "name": "全国大学生基础医学创新研究暨实验设计论坛(大赛)",
+    "url": "http://www.jcyxds.com/",
+    "domain": "www.jcyxds.com",
+    "status": 200,
+    "bytes": 1336,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛"
+    ]
+  },
+  {
+    "no": 71,
+    "name": "全国大学生数字媒体科技作品及创意竞赛",
+    "url": "http://mit.caai.cn/",
+    "domain": "mit.caai.cn",
+    "status": 200,
+    "bytes": 111154,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "报名",
+      "截止",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 73,
+    "name": "全国企业模拟竞赛大赛",
+    "url": "http://www.ibizsim.cn/",
+    "domain": "www.ibizsim.cn",
+    "status": 200,
+    "bytes": 5427,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 75,
+    "name": "全国数字建筑创新应用大赛",
+    "url": "http://bisai.ccen.com.cn",
+    "domain": "bisai.ccen.com.cn",
+    "status": 200,
+    "bytes": 922,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 76,
+    "name": "全球校园人工智能算法精英大赛",
+    "url": "https://developer.huawei.com/consumer/cn/activity/digixActivity/digixdetail/101655281685926449?ha_source=HR&ha_sourceId=89000452",
+    "domain": "developer.huawei.com",
+    "status": 200,
+    "bytes": 1376,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 77,
+    "name": "国际大学生智能农业装备创新大赛",
+    "url": "http://uiaec.ujs.edu.cn",
+    "domain": "uiaec.ujs.edu.cn",
+    "status": 200,
+    "bytes": 19897,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 78,
+    "name": "“科云杯”全国大学生财会职业能力大赛",
+    "url": "http://match.xmkeyun.com.cn/",
+    "domain": "match.xmkeyun.com.cn",
+    "status": 200,
+    "bytes": 14464,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 79,
+    "name": "世界职业院校技能大赛",
+    "url": "https://www.vcsc.org.cn/",
+    "domain": "www.vcsc.org.cn",
+    "status": 200,
+    "bytes": 6413,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 80,
+    "name": "全国大学生机器人大赛-RoboTac",
+    "url": "http://www.robotac.cn",
+    "domain": "www.robotac.cn",
+    "status": 200,
+    "bytes": 39174,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 81,
+    "name": "世界技能大赛",
+    "url": "https://worldskills.org/",
+    "domain": "worldskills.org",
+    "status": 200,
+    "bytes": 40864,
+    "has_yy_mm_dd": false,
+    "kw": []
+  },
+  {
+    "no": 82,
+    "name": "世界技能大赛中国选拔赛",
+    "url": "http://worldskillschina.mohrss.gov.cn/",
+    "domain": "worldskillschina.mohrss.gov.cn",
+    "status": 200,
+    "bytes": 44336,
+    "has_yy_mm_dd": true,
+    "kw": [
+      "报名",
+      "竞赛",
+      "大赛",
+      "通知"
+    ]
+  },
+  {
+    "no": 83,
+    "name": "一带一路暨金砖国家技能发展与技术创新大赛",
+    "url": "http://www.brskills.com/#/index",
+    "domain": "www.brskills.com",
+    "status": 200,
+    "bytes": 4643,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  },
+  {
+    "no": 84,
+    "name": "码蹄杯全国职业院校程序设计大赛",
+    "url": "https://matiji.net/matibei",
+    "domain": "matiji.net",
+    "status": 200,
+    "bytes": 4669,
+    "has_yy_mm_dd": false,
+    "kw": [
+      "大赛"
+    ]
+  }
+]

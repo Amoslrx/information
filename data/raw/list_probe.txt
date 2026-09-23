@@ -1,0 +1,51 @@
+﻿status 200 bytes 28043 ctype text/html
+decoded OK with utf-8
+
+--- ���Ӹ��� 900 �ַ� ---
+htm">��ҳ</a>
+
+                >
+
+                <a href="dcxm.htm">���´�ҵ</a>
+
+                >
+
+                <a href="js.htm">����</a>
+
+</div>
+
+
+
+                    </div>
+
+                    <span>����</span>
+
+                </div>
+
+                
+
+
+
+<script language="javascript" src="/system/resource/js/ajax.js"></script><ul class="listg clearfix">
+
+            <li>
+
+<i></i><span class="date-list">2026-09-23</span>
+
+            <a href="../info/1191/5526.htm" target="_blank" title="���ڿ�չ������ͨ��ѧ��ʮ�����ѧ������ѧ��������֪ͨ">���ڿ�չ������ͨ��ѧ��ʮ�����ѧ������ѧ��������֪ͨ</a>
+
+           </li>
+
+        <li>
+
+<i></i><span class="date-list">2026-09-15</span>
+
+            <a href="../info/1191/5522.htm" target="_blank" title="������֯2026��ȫ����ѧ��Ƕ��ʽоƬ��ϵͳ��ƾ���FPGA�����������������֪ͨ">������֯2026��ȫ����ѧ��Ƕ��ʽоƬ��ϵͳ��ƾ���FPGA�����������������֪ͨ</a>
+
+           </li>
+
+        <li>
+
+<i></i><span class="date-list">2026-09-02</span>
+
+            <a href="../in

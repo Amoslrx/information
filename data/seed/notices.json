@@ -1,0 +1,2769 @@
+{
+  "source": {
+    "title": "西安交通大学实践教学中心 · 竞赛通知",
+    "url": "http://pec.xjtu.edu.cn/cxcy/js.htm",
+    "host": "http://pec.xjtu.edu.cn",
+    "pages_crawled": 17,
+    "crawler": "scripts/crawl_xjtu_notices.py",
+    "note": "robots.txt 返回 404(未禁止); 页面为纯 HTML 稳定分页"
+  },
+  "schema_version": 1,
+  "count": 306,
+  "matched_count": 225,
+  "items": [
+    {
+      "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
+      "date": "2026-09-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+      "date": "2026-09-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
+      "date": "2026-09-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+      "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+      "moe_no": "37",
+      "matched_keyword": "RoboCup机器人世界杯中国赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
+      "date": "2026-08-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5512.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛获奖项目名单的通知",
+      "date": "2026-07-31",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5501.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
+      "date": "2026-07-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5492.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 1
+    },
+    {
+      "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通知",
+      "date": "2026-06-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5475.htm",
+      "competition": "全国大学生信息安全竞赛",
+      "moe_no": "33",
+      "matched_keyword": "全国大学生信息安全竞赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
+      "date": "2026-06-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5462.htm",
+      "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+      "moe_no": "37",
+      "matched_keyword": "RoboCup机器人世界杯中国赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
+      "date": "2026-06-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5454.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 1
+    },
+    {
+      "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
+      "date": "2026-05-29",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5442.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
+      "date": "2026-05-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5402.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
+      "date": "2026-05-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5361.htm",
+      "competition": "全国大学生智能汽车竞赛",
+      "moe_no": "11",
+      "matched_keyword": "全国大学生智能汽车竞赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安排的通知",
+      "date": "2026-05-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5346.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
+      "date": "2026-05-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5342.htm",
+      "competition": "全国高等院校数智化企业经营沙盘大赛",
+      "moe_no": "74",
+      "matched_keyword": "全国高等院校数智化企业经营沙盘大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
+      "date": "2026-04-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
+      "competition": "全球校园人工智能算法精英大赛",
+      "moe_no": "76",
+      "matched_keyword": "全球校园人工智能算法精英大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校内决赛名单及相关安排的通知",
+      "date": "2026-04-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5321.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
+      "date": "2026-04-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5313.htm",
+      "competition": "“学创杯”全国大学生创业综合模拟大赛",
+      "moe_no": "48",
+      "matched_keyword": "学创杯全国大学生创业综合模拟大赛",
+      "source_page": 1
+    },
+    {
+      "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
+      "date": "2026-04-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5311.htm",
+      "competition": "全国大学生物联网设计竞赛",
+      "moe_no": "65",
+      "matched_keyword": "全国大学生物联网设计竞赛",
+      "source_page": 1
+    },
+    {
+      "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
+      "date": "2026-04-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5291.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
+      "date": "2026-04-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5293.htm",
+      "competition": "“中国软件杯”大学生软件设计大赛",
+      "moe_no": "38",
+      "matched_keyword": "中国软件杯大学生软件设计大赛",
+      "source_page": 17
+    },
+    {
+      "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
+      "date": "2026-04-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5282.htm",
+      "competition": "全国大学生信息安全与对抗技术竞赛",
+      "moe_no": "66",
+      "matched_keyword": "信息安全与对抗技术竞赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
+      "date": "2026-04-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5271.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 17
+    },
+    {
+      "title": "第十四届全国大学生光电设计竞赛报名通知",
+      "date": "2026-04-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5261.htm",
+      "competition": "全国大学生光电设计竞赛",
+      "moe_no": "30",
+      "matched_keyword": "全国大学生光电设计竞赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）高教主赛道、青年红色筑梦之旅赛道第一轮网评结果的通知",
+      "date": "2026-04-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5262.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于全国三维数字化创新设计大赛18周年精英联赛校赛获奖结果的公示",
+      "date": "2026-04-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5263.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于开展第十九届（2026）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
+      "date": "2026-04-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5222.htm",
+      "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "moe_no": "21",
+      "matched_keyword": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
+      "date": "2026-04-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5205.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于延长国创赛校赛系统开放时间的通知",
+      "date": "2026-04-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5203.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 17
+    },
+    {
+      "title": "关于参加2026年第十二届全国大学生统计建模大赛西安交通大学校赛的通知",
+      "date": "2026-04-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5207.htm",
+      "competition": "全国大学生统计建模大赛",
+      "moe_no": "68",
+      "matched_keyword": "全国大学生统计建模大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于举办2026年第二十届iCAN大学生创新创业大赛的通知",
+      "date": "2026-04-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5181.htm",
+      "competition": "iCAN 大学生创新创业大赛",
+      "moe_no": "54",
+      "matched_keyword": "iCAN大学生创新创业大赛",
+      "source_page": 17
+    },
+    {
+      "title": "第二十一届全国大学生智能汽车竞赛报名通知",
+      "date": "2026-03-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5171.htm",
+      "competition": "全国大学生智能汽车竞赛",
+      "moe_no": "11",
+      "matched_keyword": "全国大学生智能汽车竞赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于举办第九届中国高校智能机器人创意大赛 VEX U 专项赛的通知",
+      "date": "2026-03-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5173.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于组织开展第十五届全国大学生金相技能大赛相关工作的通知",
+      "date": "2026-03-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
+      "date": "2026-03-26",
+      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于组织参加2026年第十八届“全国大学生广告艺术大赛”的通知",
+      "date": "2026-03-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5141.htm",
+      "competition": "全国大学生广告艺术大赛",
+      "moe_no": "10",
+      "matched_keyword": "全国大学生广告艺术大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于举办西安交通大学中国国际大学生创新大赛（2026）校内选拔赛的通知",
+      "date": "2026-03-19",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5111.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 17
+    },
+    {
+      "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
+      "date": "2026-03-17",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5093.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于组织第二十八届中国机器人及人工智能大赛报名的通知",
+      "date": "2026-03-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5081.htm",
+      "competition": "中国机器人及人工智能大赛",
+      "moe_no": "51",
+      "matched_keyword": "中国机器人及人工智能大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于举办西安交通大学第七届大学生物理实验竞赛（创新）的报名通知",
+      "date": "2026-03-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5082.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "大学生物理实验竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第一阶段校内选拔结果的通知",
+      "date": "2026-03-10",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5080.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于举办西安交通大学第十二届全国大学生机械创新设计大赛校赛的通知",
+      "date": "2026-03-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5076.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于组织参加“2026年中国大学生计算机设计大赛”校内赛的通知",
+      "date": "2026-03-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5068.htm",
+      "competition": "中国大学生计算机设计大赛",
+      "moe_no": "25",
+      "matched_keyword": "中国大学生计算机设计大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于“第十七届中国大学生服务外包创新创业大赛”报名参赛的通知",
+      "date": "2026-03-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5067.htm",
+      "competition": "中国大学生服务外包创新创业大赛",
+      "moe_no": "24",
+      "matched_keyword": "中国大学生服务外包创新创业大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于2026年第十届全国大学生集成电路创新创业大赛的通知",
+      "date": "2026-03-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5070.htm",
+      "competition": "全国大学生集成电路创新创业大赛",
+      "moe_no": "31",
+      "matched_keyword": "全国大学生集成电路创新创业大赛",
+      "source_page": 16
+    },
+    {
+      "title": "2026年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
+      "date": "2026-03-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5064.htm",
+      "competition": "中国高校计算机大赛",
+      "moe_no": "26",
+      "matched_keyword": "中国高校计算机大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于举行2026年全国大学生结构设计竞赛西安交通大学校赛暨陕西省省赛选拔赛的通知",
+      "date": "2026-03-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5061.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "全国大学生结构设计竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "2026年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
+      "date": "2026-03-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5063.htm",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于组织参加第九届中国高校智能机器人创意大赛的通知",
+      "date": "2026-01-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5052.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于组织参加第十一届全国大学生生命科学竞赛（创新创业类）的通知",
+      "date": "2026-01-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5044.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 16
+    },
+    {
+      "title": "关于公示西安交通大学2026年美国大学生数学建模竞赛校赛结果的通知",
+      "date": "2026-01-27",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5041.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于组织参加2026年全国大学生电子设计竞赛模拟电子系统设计专题赛的通知",
+      "date": "2026-01-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5034.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于开展2026年中国大学生机械工程创新创意大赛机械产品数字化设计赛报名工作的通知",
+      "date": "2026-01-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5033.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于第18届全国大学生广告艺术大赛营销创客单元报名参赛的通知",
+      "date": "2026-01-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5031.htm",
+      "competition": "全国大学生广告艺术大赛",
+      "moe_no": "10",
+      "matched_keyword": "全国大学生广告艺术大赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于举办西安交通大学2026年美国大学生数学建模竞赛（MCM/ICM）校内赛的通知",
+      "date": "2026-01-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5021.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 16
+    },
+    {
+      "title": "关于公示2026 年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第二阶段校内选拔结果的通知",
+      "date": "2026-01-13",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5014.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于公示2026年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第一阶段校内选拔结果的通知",
+      "date": "2025-12-30",
+      "url": "http://pec.xjtu.edu.cn/info/1190/5003.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加第十六届全国大学生电子商务 “创新、创意及创业”挑战赛的通知",
+      "date": "2025-12-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5001.htm",
+      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "moe_no": "12",
+      "matched_keyword": "全国大学生电子商务创新、创意及创业挑战赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加第十三届大学生新一代信息通信科技大赛的通知",
+      "date": "2025-12-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4993.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加2026年第八届码蹄杯全国大学生程序设计大赛的通知",
+      "date": "2025-12-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4991.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛的通知",
+      "date": "2025-12-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4976.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于做好西安交通大学中国国际大学生创新大赛（2026）参赛组织与重点项目培育工作的通知",
+      "date": "2025-12-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4951.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加第十一届全国大学生生命科学竞赛（科学探究类）的通知",
+      "date": "2025-11-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4928.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加2026年全国大学生电子设计竞赛信息科技前沿专题赛的通知",
+      "date": "2025-11-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4926.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织开展第十七届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
+      "date": "2025-11-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4925.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于第十九届全国大学生信息安全竞赛（创新实践能力赛）暨第三届“长城杯”网数智安全大赛（防护赛）的通知",
+      "date": "2025-11-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4924.htm",
+      "competition": "全国大学生信息安全竞赛",
+      "moe_no": "33",
+      "matched_keyword": "全国大学生信息安全竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加第十二届全国大学生能源经济学术创意大赛的通知",
+      "date": "2025-11-14",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4923.htm",
+      "competition": "全国大学生能源经济学术创意大赛",
+      "moe_no": "69",
+      "matched_keyword": "全国大学生能源经济学术创意大赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于第十七届蓝桥杯全国大学生软件和信息技术大赛报名的通知",
+      "date": "2025-11-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4921.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于全国大学生计算机应用能力与数字素养大赛暨第八届“传智杯”全国IT技能大赛报名通知",
+      "date": "2025-11-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4922.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织参加2026年美国大学生数学建模竞赛相关工作的通知",
+      "date": "2025-10-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4915.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于发布第十七届全国大学生数学竞赛考场信息的通知",
+      "date": "2025-10-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4913.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织开展第41届全国部分地区大学生物理竞赛报名工作的通知",
+      "date": "2025-10-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4903.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 15
+    },
+    {
+      "title": "关于组织开展全国三维数字化创新设计大赛18周年精英联赛报名工作的通知",
+      "date": "2025-10-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4891.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 15
+    },
+    {
+      "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
+      "date": "2025-09-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
+      "competition": "国际大学生智能农业装备创新大赛",
+      "moe_no": "77",
+      "matched_keyword": "国际大学生智能农业装备创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
+      "date": "2025-09-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4875.htm",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于组织2025年全国大学生数字媒体科技作品及创意竞赛报名的通知",
+      "date": "2025-09-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4878.htm",
+      "competition": "全国大学生数字媒体科技作品及创意竞赛",
+      "moe_no": "71",
+      "matched_keyword": "全国大学生数字媒体科技作品及创意竞赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
+      "date": "2025-09-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4874.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学2025年大学生数学建模竞赛校赛结果的通知",
+      "date": "2025-08-10",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4842.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于第十七届全国大学生数学竞赛西安交通大学报名的通知",
+      "date": "2025-07-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4841.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 14
+    },
+    {
+      "title": "2025年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名通知",
+      "date": "2025-07-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4828.htm",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于组织参加第七届全球校园人工智能算法精英大赛的通知",
+      "date": "2025-07-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4821.htm",
+      "competition": "全球校园人工智能算法精英大赛",
+      "moe_no": "76",
+      "matched_keyword": "全球校园人工智能算法精英大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内选拔赛高教主赛道、青年红色筑梦之旅赛道获奖名单的通知",
+      "date": "2025-06-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4816.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于做好西安交通大学中国国际大学生创新大赛（2025）国际参赛项目报名工作的通知",
+      "date": "2025-06-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4815.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）主赛道、红旅赛道拟推荐省赛项目名单的通知",
+      "date": "2025-06-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4772.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "2025年中国大学生机械工程创新创意大赛：“明石杯”微纳传感技术与智能应用赛西安交通大学校赛结果公布通知",
+      "date": "2025-06-10",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4773.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校赛决赛（主赛道、红旅赛道）结果的通知",
+      "date": "2025-05-31",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4753.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内决赛名单及相关安排的通知",
+      "date": "2025-05-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4735.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）第一轮网评结果的通知",
+      "date": "2025-05-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4732.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于公示“2025年第十一届全国大学生统计建模大赛”拟推荐陕西赛区复赛名单",
+      "date": "2025-05-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4731.htm",
+      "competition": "全国大学生统计建模大赛",
+      "moe_no": "68",
+      "matched_keyword": "全国大学生统计建模大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于西安交通大学中国国际大学生创新大赛（2025）校赛及下一步工作安排的通知",
+      "date": "2025-05-14",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4726.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于组织参加未来设计师·全国高校数字艺术设计大赛的通知",
+      "date": "2025-05-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4723.htm",
+      "competition": "未来设计师·全国高校数字艺术设计大赛",
+      "moe_no": "34",
+      "matched_keyword": "未来设计师全国高校数字艺术设计大赛",
+      "source_page": 14
+    },
+    {
+      "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的通知",
+      "date": "2025-05-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4721.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的预通知",
+      "date": "2025-04-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4713.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
+      "date": "2025-04-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4707.htm",
+      "competition": "全国高等院校数智化企业经营沙盘大赛",
+      "moe_no": "74",
+      "matched_keyword": "全国高等院校数智化企业经营沙盘大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织参加第十四届“中国软件杯”大学生软件设计大赛的通知",
+      "date": "2025-04-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4706.htm",
+      "competition": "“中国软件杯”大学生软件设计大赛",
+      "moe_no": "38",
+      "matched_keyword": "中国软件杯大学生软件设计大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
+      "date": "2025-04-29",
+      "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展百度之星程序设计大赛报名的通知",
+      "date": "2025-04-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4704.htm",
+      "competition": "百度之星程序设计大赛",
+      "moe_no": "58",
+      "matched_keyword": "百度之星程序设计大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
+      "date": "2025-04-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4702.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织参加2025年全国大学生电子设计竞赛的通知",
+      "date": "2025-04-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4701.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于举办第十三届全国大学生光电设计竞赛校赛报名的通知",
+      "date": "2025-04-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4695.htm",
+      "competition": "全国大学生光电设计竞赛",
+      "moe_no": "30",
+      "matched_keyword": "全国大学生光电设计竞赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展第二十届全国大学生智能汽车竞赛报名的通知",
+      "date": "2025-04-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4694.htm",
+      "competition": "全国大学生智能汽车竞赛",
+      "moe_no": "11",
+      "matched_keyword": "全国大学生智能汽车竞赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于举办2025年中国大学生机械工程创新创意大赛-“明石杯”微纳传感技术与智能应用赛校内选拔的通知",
+      "date": "2025-04-14",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4693.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
+      "date": "2025-04-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4691.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 13
+    },
+    {
+      "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
+      "date": "2025-04-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4683.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 13
+    },
+    {
+      "title": "关于2025年全国大学生计算机系统能力大赛的通知",
+      "date": "2025-04-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4682.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 13
+    },
+    {
+      "title": "2025年（第十二届）全国大学生物联网设计竞赛参赛通知",
+      "date": "2025-04-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4681.htm",
+      "competition": "全国大学生物联网设计竞赛",
+      "moe_no": "65",
+      "matched_keyword": "全国大学生物联网设计竞赛",
+      "source_page": 13
+    },
+    {
+      "title": "2025年第七届码蹄杯全国大学生程序设计大赛通知",
+      "date": "2025-04-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4671.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 13
+    },
+    {
+      "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
+      "date": "2025-04-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4661.htm",
+      "competition": "iCAN 大学生创新创业大赛",
+      "moe_no": "54",
+      "matched_keyword": "iCAN大学生创新创业大赛",
+      "source_page": 13
+    },
+    {
+      "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
+      "date": "2025-04-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4631.htm",
+      "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "moe_no": "21",
+      "matched_keyword": "全国大学生先进成图技术与产品信息建模创新大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
+      "date": "2025-04-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4652.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 13
+    },
+    {
+      "title": "关于公示2025年西安交通大学工创大赛工程场景数字化赛项拟推荐陕西赛区复赛名单",
+      "date": "2025-03-28",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4620.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于公示2025年中国大学生工程实践与创新能力大赛拟推荐陕西赛区复赛名单的通知",
+      "date": "2025-03-27",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4613.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于2025年工创大赛校赛工程场景数字化赛项的补充通知",
+      "date": "2025-03-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4616.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于“2025年学创杯全国大学生创业综合模拟大赛”的通知",
+      "date": "2025-03-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4596.htm",
+      "competition": "“学创杯”全国大学生创业综合模拟大赛",
+      "moe_no": "48",
+      "matched_keyword": "学创杯全国大学生创业综合模拟大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
+      "date": "2025-03-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4593.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于“第十届全国大学生生物医学工程创新设计竞赛”的通知",
+      "date": "2025-03-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4581.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
+      "date": "2025-03-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4571.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于公示入围2025年西安交通大学工创大赛企业运营仿真校赛决赛名单的通知",
+      "date": "2025-03-19",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4561.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
+      "date": "2025-03-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4542.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 12
+    },
+    {
+      "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
+      "date": "2025-03-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4541.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
+      "date": "2025-03-15",
+      "url": "http://pec.xjtu.edu.cn/info/1190/4521.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 12
+    },
+    {
+      "title": "关于2025年全国高校商业精英挑战赛的通知",
+      "date": "2025-03-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4504.htm",
+      "competition": "全国高校商业精英挑战赛",
+      "moe_no": "47",
+      "matched_keyword": "全国高校商业精英挑战赛",
+      "source_page": 12
+    },
+    {
+      "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
+      "date": "2025-03-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4501.htm",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "source_page": 12
+    },
+    {
+      "title": "2025年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
+      "date": "2025-03-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4502.htm",
+      "competition": "中国高校计算机大赛",
+      "moe_no": "26",
+      "matched_keyword": "中国高校计算机大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于邀请参加2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛的通知",
+      "date": "2025-03-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4493.htm",
+      "competition": "“大唐杯”全国大学生新一代信息通信技术大赛",
+      "moe_no": "41",
+      "matched_keyword": "大唐杯全国大学生新一代信息通信技术大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于2025年第九届全国大学生集成电路创新创业大赛的通知",
+      "date": "2025-03-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4492.htm",
+      "competition": "全国大学生集成电路创新创业大赛",
+      "moe_no": "31",
+      "matched_keyword": "全国大学生集成电路创新创业大赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
+      "date": "2025-03-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4491.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "大学生物理实验竞赛",
+      "source_page": 12
+    },
+    {
+      "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
+      "date": "2025-03-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4472.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于参加2025年米兰设计周--中国高校设计学科师生优秀作品展的通知",
+      "date": "2025-03-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4471.htm",
+      "competition": "米兰设计周--中国高校设计学科师生优秀作品展",
+      "moe_no": "28",
+      "matched_keyword": "米兰设计周中国高校设计学科师生优秀作品展",
+      "source_page": 11
+    },
+    {
+      "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
+      "date": "2025-03-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4481.htm",
+      "competition": "全国大学生广告艺术大赛",
+      "moe_no": "10",
+      "matched_keyword": "全国大学生广告艺术大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
+      "date": "2025-03-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4464.htm",
+      "competition": "中国机器人及人工智能大赛",
+      "moe_no": "51",
+      "matched_keyword": "中国机器人及人工智能大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
+      "date": "2025-03-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4461.htm",
+      "competition": "“西门子杯”中国智能制造挑战赛",
+      "moe_no": "23",
+      "matched_keyword": "西门子杯中国智能制造挑战赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于举行西安交通大学第七届大学生结构设计竞赛的通知",
+      "date": "2025-02-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4452.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "大学生结构设计竞赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
+      "date": "2025-01-14",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4411.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 11
+    },
+    {
+      "title": "关于公布中国国际大学生创新大赛（2025）学院联系人联系方式的通知",
+      "date": "2025-01-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4401.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
+      "date": "2025-01-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4403.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
+      "date": "2025-01-03",
+      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
+      "date": "2024-12-31",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4397.htm",
+      "competition": "全国周培源大学生力学竞赛",
+      "moe_no": "35",
+      "matched_keyword": "全国周培源大学生力学竞赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
+      "date": "2024-12-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4393.htm",
+      "competition": "中国大学生服务外包创新创业大赛",
+      "moe_no": "24",
+      "matched_keyword": "中国大学生服务外包创新创业大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加第十五届全国大学生电子商务“创新、创意及创业”挑战赛的通知",
+      "date": "2024-12-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4382.htm",
+      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "moe_no": "12",
+      "matched_keyword": "全国大学生电子商务创新、创意及创业挑战赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
+      "date": "2024-12-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
+      "date": "2024-10-31",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4314.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 11
+    },
+    {
+      "title": "关于组织开展西安交通大学2025年美国大学生数学建模竞赛相关工作的通知",
+      "date": "2024-10-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4309.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加首届教育信息技术应用创新大赛的通知",
+      "date": "2024-10-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4305.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 11
+    },
+    {
+      "title": "关于开展中国移动2024年创客马拉松大赛 西安交大-中国移动数字政府联合研究院专题赛的通知",
+      "date": "2024-10-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4301.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 11
+    },
+    {
+      "title": "关于组织参加第十六届蓝桥杯全国软件和信息技术专业人才大赛相关工作的通知",
+      "date": "2024-10-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4298.htm",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于开展西安交通大学第十一届大学生物理学术竞赛的通知",
+      "date": "2024-10-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4297.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织开展全国3D大赛17周年精英联赛（2024-2025）报名工作",
+      "date": "2024-09-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4296.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 10
+    },
+    {
+      "title": "关于组织开展华为ICT大赛2024-2025报名的通知",
+      "date": "2024-09-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4292.htm",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于开展西安交通大学第十届国际大学生智能农业装备创新大赛相关工作的通知",
+      "date": "2024-09-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4291.htm",
+      "competition": "国际大学生智能农业装备创新大赛",
+      "moe_no": "77",
+      "matched_keyword": "国际大学生智能农业装备创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织参加第十三届中国创新创业大赛北斗应用专业赛相关工作的通知",
+      "date": "2024-09-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4283.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 10
+    },
+    {
+      "title": "关于推荐参加中国国际大学生创新大赛（2024）总决赛项目的公示",
+      "date": "2024-09-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4276.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织开展第十六届全国大学生数学竞赛相关工作的通知",
+      "date": "2024-09-06",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4272.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 10
+    },
+    {
+      "title": "关于组织开展2025年中国大学生工程实践与创新能力大赛相关工作的预通知",
+      "date": "2024-07-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4254.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于报送西安交通大学中国国际大学生创新大赛（2024）陕西赛区省级复赛相关材料的通知",
+      "date": "2024-06-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4241.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于做好西安交通大学中国国际大学生创新大赛（2024）国际参赛项目邀请工作的通知",
+      "date": "2024-06-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4228.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于西安交通大学中国国际大学生创新大赛（2024） 校内决赛相关安排的通知",
+      "date": "2024-06-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4221.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "​关于举办2024全国高等院校数智化企业经营沙盘大赛校赛的通知",
+      "date": "2024-06-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4216.htm",
+      "competition": "全国高等院校数智化企业经营沙盘大赛",
+      "moe_no": "74",
+      "matched_keyword": "全国高等院校数智化企业经营沙盘大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于举办西安交通大学中国国际大学生创新大赛校内赛决赛及下一步工作安排的通知",
+      "date": "2024-06-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4211.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于举办2024年第十六届“全国大学生广告艺术大赛” 西安交通大学校赛的通知",
+      "date": "2024-06-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4199.htm",
+      "competition": "全国大学生广告艺术大赛",
+      "moe_no": "10",
+      "matched_keyword": "全国大学生广告艺术大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于举办中国国际大学生创新大赛（2024）校内选拔赛的通知",
+      "date": "2024-05-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4148.htm",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织参加第十三届中国软件杯大学生软件设计大赛的通知",
+      "date": "2024-05-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4146.htm",
+      "competition": "“中国软件杯”大学生软件设计大赛",
+      "moe_no": "38",
+      "matched_keyword": "中国软件杯大学生软件设计大赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织参加“第七届（2024）全国大学生嵌入式芯片与系统设计竞赛”的通知",
+      "date": "2024-04-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4134.htm",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "source_page": 10
+    },
+    {
+      "title": "关于组织参加“2024年（第17届）中国大学生计算机设计大赛”的通知",
+      "date": "2024-04-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4131.htm",
+      "competition": "中国大学生计算机设计大赛",
+      "moe_no": "25",
+      "matched_keyword": "中国大学生计算机设计大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展第十三届全国大学生金相技能大赛相关工作的通知",
+      "date": "2024-04-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4120.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织参加2024年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛的通知",
+      "date": "2024-04-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4117.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于开展2024年西安交通大学大学生数学建模竞赛的通知",
+      "date": "2024-03-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4092.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于2024年全国大学生物理实验竞赛（创新）报名通知",
+      "date": "2024-03-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4091.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "全国大学生物理实验竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展第七届中国高校智能机器人创意大赛的通知",
+      "date": "2024-03-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4090.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展2024第17届全国三维数字化创新设计大赛报名工作的通知",
+      "date": "2024-03-19",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4086.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于举行西安交通大学第六届大学生结构设计竞赛的通知",
+      "date": "2024-03-06",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4074.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "大学生结构设计竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于举办西安交通大学第十一届全国大学生机械创新设计大赛校赛的通知",
+      "date": "2024-02-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4061.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于举办西安交通大学2024年美国大学生数学建模竞赛校内赛的通知",
+      "date": "2024-01-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4051.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于开展西安交通大学2024年美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
+      "date": "2023-12-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/4032.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展第十五届蓝桥杯全国软件和信息技术专业人才大赛的通知",
+      "date": "2023-10-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3901.htm",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于举办西安交通大学首届软件开发大赛的通知",
+      "date": "2023-10-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3902.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 9
+    },
+    {
+      "title": "关于组织参加第十二届中国创新创业大赛轨道交通产业技术创新专业赛的通知",
+      "date": "2023-10-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3891.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展全国3D大赛16周年精英联赛（2023-2024）报名工作的通知",
+      "date": "2023-10-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3861.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 9
+    },
+    {
+      "title": "关于2023年中国大学生工程实践与创新能力大赛西安交通大学校赛安排的通知",
+      "date": "2023-10-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3871.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于组织开展华为ICT大赛2023-2024中国区实践赛/创新赛报名的通知",
+      "date": "2023-09-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3851.htm",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "source_page": 9
+    },
+    {
+      "title": "关于开展中国移动创客马拉松大赛西安交大-中国移动数字政府联合研究院专题赛的通知",
+      "date": "2023-09-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3854.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 9
+    },
+    {
+      "title": "关于组织参加首届企校协同创新大赛的通知",
+      "date": "2023-09-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3843.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 8
+    },
+    {
+      "title": "关于2023年中国大学生工程实践与创新能力大赛相关工作的补充通知",
+      "date": "2023-09-19",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3821.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于开展西安交通大学第十届大学生物理学术竞赛的通知",
+      "date": "2023-09-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3811.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织开展2023年中国大学生工程实践与创新能力大赛相关工作的通知",
+      "date": "2023-09-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3801.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于举办“萌新首秀 ”全国高校新生编程排位赛的通知",
+      "date": "2023-09-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3792.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 8
+    },
+    {
+      "title": "关于公布西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛获奖名单的通知",
+      "date": "2023-08-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3751.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 8
+    },
+    {
+      "title": "关于公示西安交通大学2023年大学生数学建模竞赛校赛结果的通知",
+      "date": "2023-07-12",
+      "url": "http://pec.xjtu.edu.cn/info/1190/3713.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于举办西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
+      "date": "2023-06-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3692.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 8
+    },
+    {
+      "title": "关于举办2023年西安交通大学大学生数学建模竞赛校赛的通知",
+      "date": "2023-06-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3681.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织参加第十二届中国软件杯大学生软件设计大赛的通知",
+      "date": "2023-05-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3621.htm",
+      "competition": "“中国软件杯”大学生软件设计大赛",
+      "moe_no": "38",
+      "matched_keyword": "中国软件杯大学生软件设计大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
+      "date": "2023-05-10",
+      "url": "http://pec.xjtu.edu.cn/info/1190/3611.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织开展第六届中国高校智能机器人创意大赛的通知",
+      "date": "2023-05-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3601.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于开展2023年西安交通大学大学生数学建模竞赛的通知",
+      "date": "2023-05-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3591.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织开展第十二届全国大学生金相技能大赛相关工作的通知",
+      "date": "2023-04-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3562.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于举行西安交通大学第五届大学生结构设计竞赛的通知",
+      "date": "2023-04-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3551.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "大学生结构设计竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织开展第十一届全国大学生机械创新设计大赛报名工作的通知",
+      "date": "2023-03-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3541.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于2023年全国大学生物理实验竞赛（创新）报名通知",
+      "date": "2023-03-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3531.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "全国大学生物理实验竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "date": "2023-03-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3502.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 8
+    },
+    {
+      "title": "关于组织开展2023第16届全国三维数字化创新设计大赛年度赛报名工作的通知",
+      "date": "2023-03-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3481.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于开展2023西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
+      "date": "2022-12-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3401.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于开展西安交通大学第九届大学生物理学术竞赛的通知",
+      "date": "2022-12-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3392.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于组织开展华为ICT大赛2022-2023中国区陕西省实践赛的通知",
+      "date": "2022-11-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3381.htm",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于组织开展第二届中望杯工业软件大赛报名工作的通知",
+      "date": "2022-11-06",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3331.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 7
+    },
+    {
+      "title": "关于组织开展第十四届蓝桥杯 全国软件和信息技术专业人才大赛的通知",
+      "date": "2022-10-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3312.htm",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于组织开展全国3D大赛15周年精英联赛（2022-2023）报名工作的通知",
+      "date": "2022-09-27",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3273.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 7
+    },
+    {
+      "title": "关于公示西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
+      "date": "2022-08-08",
+      "url": "http://pec.xjtu.edu.cn/info/1190/3211.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 7
+    },
+    {
+      "title": "关于公示2022年西安交通大学数学建模竞赛校赛获奖结果的通知",
+      "date": "2022-07-15",
+      "url": "http://pec.xjtu.edu.cn/info/1190/3194.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "数学建模竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于举办2022年西安交通大学大学生数学建模竞赛校赛的通知",
+      "date": "2022-06-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3175.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于举办西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
+      "date": "2022-06-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3161.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 7
+    },
+    {
+      "title": "关于举办第七届吉先锋大赛暨极氪校园创新创业大赛的通知",
+      "date": "2022-06-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3156.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 7
+    },
+    {
+      "title": "关于核对2022美国大学生数学建模竞赛获奖信息的通知",
+      "date": "2022-05-31",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3144.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于公示2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛选拔结果的通知",
+      "date": "2022-05-25",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3142.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于举办西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛的通知",
+      "date": "2022-05-19",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3121.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于公示西安交通大学第十届全国大学生机械创新设计大赛校赛获奖结果的通知",
+      "date": "2022-05-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3113.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于开展2022年西安交通大学大学生数学建模竞赛的通知",
+      "date": "2022-05-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3111.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
+      "date": "2022-05-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3106.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 7
+    },
+    {
+      "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
+      "date": "2022-05-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3104.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于组织西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）的通知",
+      "date": "2022-04-22",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3094.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于公示2022年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛校赛选拔结果的通知",
+      "date": "2022-04-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3073.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于组织开展第十一届全国大学生金相技能大赛相关工作的通知",
+      "date": "2022-04-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3052.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于举办第八届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
+      "date": "2022-04-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3055.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 6
+    },
+    {
+      "title": "关于组织参加2022年英特尔杯大学生电子设计竞赛 嵌入式系统专题邀请赛的通知",
+      "date": "2022-04-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3046.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "大学生电子设计竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于启动西安交通大学第八届中国国际“互联网+”大学生创新创业大赛第一轮项目征集工作的通知",
+      "date": "2022-03-31",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3041.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 6
+    },
+    {
+      "title": "关于开展西安交通大学2022年全国大学生物理实验竞赛（创新）报名通知",
+      "date": "2022-03-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3031.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "全国大学生物理实验竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于延期举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
+      "date": "2022-03-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3026.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于组织开展第15届全国三维数字化创新设计大赛年度赛（3D大赛）报名工作的通知",
+      "date": "2022-03-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3022.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于开展西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "date": "2022-03-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3021.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于公示西安交通大学全国3D大赛14周年精英联赛校内选拔赛结果的通知",
+      "date": "2022-03-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3020.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 6
+    },
+    {
+      "title": "关于举行西安交通大学第四届大学生结构设计竞赛的通知",
+      "date": "2022-03-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/3018.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "大学生结构设计竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于2022美国大学生数学建模竞赛（MCM/ICM）温馨提示",
+      "date": "2022-02-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2981.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于公示2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛结果的通知",
+      "date": "2022-01-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2971.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于举办2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛的通知",
+      "date": "2022-01-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2961.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于举办“数学建模创新思维”系列云讲座的通知",
+      "date": "2022-01-06",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2954.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 6
+    },
+    {
+      "title": "关于开展2022西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
+      "date": "2021-12-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2951.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 6
+    },
+    {
+      "title": "关于举办2021年首届西安交通大学力学与空天知识竞赛的通知",
+      "date": "2021-12-03",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2909.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展第十七届花旗杯金融创新应用大赛的通知",
+      "date": "2021-11-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2864.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展第十三届蓝桥杯全国软件和信息技术专业人才大赛的通知",
+      "date": "2021-10-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2821.htm",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于开展西安交通大学第八届大学生物理学术竞赛的通知",
+      "date": "2021-10-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2811.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展第14届全国三维数字化创新设计大赛精英联赛（2021-2022）（3D大赛）报名工作的通知",
+      "date": "2021-09-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2803.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于公布西安交通大学2021年中国大学生工程实践与创新能力大赛获奖名单的通知",
+      "date": "2021-09-08",
+      "url": "http://pec.xjtu.edu.cn/info/1190/2751.htm",
+      "competition": "中国大学生工程实践与创新能力大赛",
+      "moe_no": "13",
+      "matched_keyword": "中国大学生工程实践与创新能力大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于2021西安交通大学大学生数学建模竞赛下一步工作安排的通知",
+      "date": "2021-08-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2731.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于公示西安交通大学第七届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
+      "date": "2021-07-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2721.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于开展2021西安交通大学大学生数学建模竞赛的通知",
+      "date": "2021-07-14",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2701.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展西安交通大学第五届大学生金相技能大赛暨第十届全国大学生金相技能大赛预赛报名工作的通知",
+      "date": "2021-06-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2667.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展第14届全国三维数字化创新设计大赛（3D大赛）报名工作的通知",
+      "date": "2021-05-31",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2611.htm",
+      "competition": "全国三维数字化创新设计大赛",
+      "moe_no": "22",
+      "matched_keyword": "全国三维数字化创新设计大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于举办第七届中国国际“互联网+”大学生 创新创业大赛校内选拔赛的通知",
+      "date": "2021-05-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2503.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于组织开展第十届全国大学生机械创新设计大赛报名工作的通知",
+      "date": "2021-04-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2477.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "date": "2021-04-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2476.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于第七届全国大学生工程训练综合能力竞赛工业场景数字化、企业运营仿真赛项校赛评审结果的通知",
+      "date": "2021-04-09",
+      "url": "http://pec.xjtu.edu.cn/info/1190/1751.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于2021年全国大学生英语竞赛准考证及考试要求的通知",
+      "date": "2021-04-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2394.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于第七届全国大学生工程训练综合能力竞赛校赛评审结果的通知",
+      "date": "2021-04-05",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2395.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 5
+    },
+    {
+      "title": "关于2021年全国大学生物理实验竞赛（创新）报名通知",
+      "date": "2021-03-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2396.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "全国大学生物理实验竞赛",
+      "source_page": 5
+    },
+    {
+      "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "date": "2021-03-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2397.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于2021中国大学生机械工程创新创意大赛-  “明石杯”微纳传感技术与智能应用 大赛报名的通知",
+      "date": "2021-03-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2398.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于第七届全国大学生工程训练综合能力竞赛校内第一轮评审的通知",
+      "date": "2021-03-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2399.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于组织开展第十二届蓝桥杯全国软件和信息技术专业人才大赛的通知",
+      "date": "2021-03-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2400.htm",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "source_page": 4
+    },
+    {
+      "title": "“第十三届全国周培源大学生力学竞赛”报名通知",
+      "date": "2021-03-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2401.htm",
+      "competition": "全国周培源大学生力学竞赛",
+      "moe_no": "35",
+      "matched_keyword": "全国周培源大学生力学竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "2021年全国大学生英语竞赛报名通知",
+      "date": "2021-03-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2402.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于开展2021西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
+      "date": "2020-12-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2403.htm",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于组织开展第七届全国大学生工程训练综合能力竞赛相关工作的通知",
+      "date": "2020-12-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2404.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于领取第十二届全国大学生数学竞赛准考证的通知",
+      "date": "2020-11-16",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2406.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于公示2020年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+      "date": "2020-10-28",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2407.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于组织学生参加 西安交通大学第七届大学生物理学术竞赛的通知",
+      "date": "2020-10-26",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2408.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于第十二届全国大学生数学竞赛报名的通知",
+      "date": "2020-10-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2409.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于公示西安交通大学第六届中国国际 “互联网+”大学生创新创业大赛 校赛获奖结果的通知",
+      "date": "2020-09-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2410.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "西安交通大学第四届大学生金相技能大赛暨第九届全国大学生金相技能大赛预赛报名通知",
+      "date": "2020-09-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2412.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 4
+    },
+    {
+      "title": "西安交通大学兴庆校区2020年9月全国计算机等级考试报名通知",
+      "date": "2020-09-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2413.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于紫金奖•第二届中国（南京）大学生设计展报名通知",
+      "date": "2020-09-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2411.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 4
+    },
+    {
+      "title": "关于激活2020年全国大学生数学建模竞赛竞赛管理系统账号的通知",
+      "date": "2020-08-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2414.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "全国大学生数学建模竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于2020年全国大学生数学建模竞赛报名和参赛安排的通知",
+      "date": "2020-08-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2415.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "全国大学生数学建模竞赛",
+      "source_page": 4
+    },
+    {
+      "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
+      "date": "2020-07-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2416.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于开展2020西安交通大学大学生数学建模竞赛的通知",
+      "date": "2020-07-09",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2417.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于公示2020年全国大学生电子设计竞赛-瑞萨杯”信息科技前沿专题邀请赛校内赛结果的通知",
+      "date": "2020-07-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2418.htm",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于2020年全国大学生物理实验竞赛（创新）报名通知",
+      "date": "2020-07-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2419.htm",
+      "competition": "全国大学生物理实验竞赛",
+      "moe_no": "45",
+      "matched_keyword": "全国大学生物理实验竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于举办第六届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
+      "date": "2020-06-12",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2420.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于中国大学生机械工程创新创意大赛-2020“明石杯”微纳传感技术与智能应用大赛报名的通知",
+      "date": "2020-04-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2421.htm",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "date": "2020-04-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2422.htm",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于2020年全国大学生英语竞赛报名的通知",
+      "date": "2020-01-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2423.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于举办第三届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
+      "date": "2019-11-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2424.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于组织学生参加西安交通大学第六届大学生物理学术竞赛的通知",
+      "date": "2019-10-08",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2425.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于公示西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛获奖结果的通知",
+      "date": "2019-08-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2426.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于举办西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛的通知",
+      "date": "2019-06-15",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2427.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于公示第五届中国“互联网+”大学生创新创业大赛校内赛决赛项目的通知",
+      "date": "2019-06-13",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2428.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
+      "date": "2019-06-11",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2429.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于西安交通大学2019年大学生数学建模竞赛成绩的公告",
+      "date": "2019-05-23",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2430.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于公布第五届中国“互联网+”大学生创新创业大赛各学院联系人的通知",
+      "date": "2019-05-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2431.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "西安交通大学第三届大学生金相技能大赛暨第八届全国大学生金相技能大赛选拔赛报名通知",
+      "date": "2019-05-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2432.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 3
+    },
+    {
+      "title": "关于举办第五届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
+      "date": "2019-04-30",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2433.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 3
+    },
+    {
+      "title": "关于开展2019西安交通大学大学生数学建模竞赛的通知",
+      "date": "2019-04-29",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2434.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于举办第一届西安交通大学飞行器创意设计大赛的通知",
+      "date": "2019-04-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2435.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于第九届全国大学生机械创新设计大赛报名的通知",
+      "date": "2019-04-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2436.htm",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于2019年周培源力学竞赛辅导安排的通知",
+      "date": "2019-03-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2437.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "“第十二届全国周培源大学生力学竞赛”个人赛报名通知",
+      "date": "2019-02-20",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2438.htm",
+      "competition": "全国周培源大学生力学竞赛",
+      "moe_no": "35",
+      "matched_keyword": "全国周培源大学生力学竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于组织参加第二届中国高校智能机器人创意大赛的通知",
+      "date": "2018-12-21",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2439.htm",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于举办第二届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
+      "date": "2018-11-19",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2440.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于2018 年中国（小谷围）“互联网+交通运输”创新创业大赛之金溢杯•中国大学交通运输创客大赛报名的通知",
+      "date": "2018-11-07",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2441.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于组织学生参加西安交通大学第五届大学生物理学术竞赛的通知",
+      "date": "2018-10-17",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2442.htm",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于举办首届“能源 智慧 未来”全国大学生创新创业大赛的通知",
+      "date": "2018-07-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2443.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于表彰我校2018年全国大学生英语竞赛获奖学生的通报",
+      "date": "2018-06-06",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2445.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于表彰2018年西安交通大学数学建模竞赛获奖学生的通报",
+      "date": "2018-06-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2446.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "数学建模竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于数学建模竞赛论文写作的讲座通知",
+      "date": "2018-06-01",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2447.htm",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "数学建模竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "西安交通大学第二届大学生金相技能大赛暨第七届全国大学生金相技能大赛选拔赛报名通知",
+      "date": "2018-05-18",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2448.htm",
+      "competition": "全国大学生金相技能大赛",
+      "moe_no": "32",
+      "matched_keyword": "全国大学生金相技能大赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于2018本科生数学建模校内赛答辩的通知",
+      "date": "2018-05-10",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2449.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于公示2018年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+      "date": "2018-05-02",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2450.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    },
+    {
+      "title": "关于举办西安交通大学第一届“腾飞杯”大学生结构设计竞赛暨陕西省“争先杯”第二届大学生结构设计竞赛校内选拔报名的通知",
+      "date": "2018-04-24",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2451.htm",
+      "competition": "全国大学生结构设计竞赛",
+      "moe_no": "9",
+      "matched_keyword": "大学生结构设计竞赛",
+      "source_page": 2
+    },
+    {
+      "title": "关于领取2018年全国大学生英语竞赛准考证的通知",
+      "date": "2018-04-04",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2452.htm",
+      "competition": null,
+      "moe_no": null,
+      "matched_keyword": null,
+      "source_page": 2
+    }
+  ]
+}

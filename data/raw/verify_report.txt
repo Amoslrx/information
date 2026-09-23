@@ -1,0 +1,14 @@
+﻿[AB���� no-referer   ] status=200 bytes=3804     magic=b'<!DOC'
+[AB���� with-referer ] status=200 bytes=174955   magic=b'%PDF-'
+[.htm      ] status=200 bytes=28043  ����������=18
+       - ���ڿ�չ������ͨ��ѧ��ʮ�����ѧ������ѧ��������֪ͨ
+       - ������֯2026��ȫ����ѧ��Ƕ��ʽоƬ��ϵͳ��ƾ���FPGA�����������������֪ͨ
+       - ���ھٰ�2026�й���������RoboCup���������籭�й������й������˴����������ܾ���ˮ�»�����...
+[/2.htm    ] status=200 bytes=27650  ����������=18
+       - ���ڿ�չ2019������ͨ��ѧ��ѧ����ѧ��ģ������֪ͨ
+       - ���ھٰ��һ��������ͨ��ѧ������������ƴ�����֪ͨ
+       - ���ڵھŽ�ȫ����ѧ����е������ƴ���������֪ͨ
+[/18.htm   ] ERR HTTP Error 404: Not Found
+[/19.htm   ] ERR HTTP Error 404: Not Found
+[robots] http://pec.xjtu.edu.cn/robots.txt ERR HTTP Error 404: Not Found
+[robots] https://jwc.xjtu.edu.cn/robots.txt ERR HTTP Error 404: Not Found

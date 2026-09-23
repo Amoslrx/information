@@ -1,0 +1,56 @@
+# Git 属性配置
+#
+# ⚠️ 顺序很重要: gitattributes 里**后面的规则覆盖前面的**。
+#    所以 `* text=auto` 这个通配规则必须放在最前面, 否则会把下面
+#    `*.ics -text` 这类具体规则盖掉(踩过一次: .ics 仍被归一化成 LF)。
+#
+# 决定默认行为: 文本文件在仓库里统一存 LF。
+* text=auto
+
+# ============================================================
+# 最关键的一条: *.ics 必须锁成 CRLF
+# ============================================================
+# RFC 5545 规定 iCalendar 内容行以 CRLF 分隔。本机 git 配置是 core.autocrlf=true,
+# 默认会把 .ics 里的 CRLF 归一化成 LF 存进仓库 —— 于是 Netlify 的 Linux 检出
+# 拿到的是 LF 版本的日历文件, 严格的日历客户端可能解析失败。
+#
+# `-text` 的含义是"不做任何换行归一化", 仓库里存的就是磁盘上的原始字节(CRLF)。
+# 再加 `diff` 是为了让 git diff 仍按文本处理, 否则会被当成二进制显示
+# "Binary files differ", 没法 review。
+*.ics -text diff
+
+# 二进制资源一律不做换行转换
+*.pdf  -text
+*.png  -text
+*.jpg  -text
+*.jpeg -text
+*.gif  -text
+*.ico  -text
+*.woff -text
+*.woff2 -text
+*.zip  -text
+
+# ============================================================
+# 文本文件统一用 LF
+# ============================================================
+# 仓库里存 LF, 检出时也用 LF。这样 Windows 本地和 Netlify/GitHub Actions 的
+# Linux 环境拿到的是同一份内容, 避免"本地好好的, 线上出问题"。
+# 注意: 不要用 eol=crlf —— 那会让 Linux 侧也拿到 CRLF, 对 shell 脚本是有害的。
+*.py    text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.toml  text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+
+# Netlify 的 _headers / _redirects 用 LF
+_headers    text eol=lf
+_redirects  text eol=lf
+
+# .gitattributes 自身
+.gitattributes text eol=lf

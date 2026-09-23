@@ -1,0 +1,10 @@
+# 本地依赖目录(pip --target / npm --prefix 安装, 与全局环境隔离)
+.tools/
+.tools_js/
+
+# Python
+__pycache__/
+*.pyc
+
+# 原始下载件可重建, 但体量不大, 保留以便复核; 如需瘦身可取消下面注释
+# data/raw/*.pdf

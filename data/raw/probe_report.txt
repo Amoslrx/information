@@ -1,0 +1,27 @@
+﻿total=82   reachable=76   failed=6   
+reachable ��������ģʽ: 30
+
+--- ʧ���嵥 ---
+  8   ȫ����ѧ����е������ƴ���                      URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+  16  ����������ƾ��������ӽ�                       HTTPError: HTTP Error 503: Service Temporarily Unavailable
+  35  ȫ������Դ��ѧ����ѧ����                       TimeoutError: timed out
+  37  �й������˴����� RoboCup ���������籭�й���         URLError: <urlopen error [WinError 10061] ����Ŀ�����������ܾ����޷����ӡ�>
+  39  �������괴�ʹ���                           URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] u
+  41  �����Ʊ���ȫ����ѧ����һ����Ϣͨ�ż�������              URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+
+--- �ɴ����� ---
+  1   �й����ʴ�ѧ�����´���                        200 bytes=62386 date=True
+  2   ����ս����ȫ����ѧ������ѧ���Ƽ���Ʒ����               200 bytes=74385 date=True
+  3   ����ս�����й���ѧ����ҵ�ƻ�����                   200 bytes=74385 date=True
+  4   ACM-ICPC ���ʴ�ѧ��������ƾ���               200 bytes=2808 date=False
+  5   ȫ����ѧ����ѧ��ģ����                        200 bytes=10005 date=True
+  6   ȫ����ѧ��������ƾ���                        200 bytes=18161 date=True
+  7   �й���ѧ��ҽѧ�������ܴ���                      200 bytes=33170 date=True
+  9   ȫ����ѧ���ṹ��ƾ���                        200 bytes=1326 date=False
+  10  ȫ����ѧ�������������                        200 bytes=22816 date=False
+  11  ȫ����ѧ��������������                        200 bytes=17348 date=False
+  12  ȫ����ѧ���������񡰴��¡����⼰��ҵ����ս��             200 bytes=1028 date=False
+  13  �й���ѧ������ʵ���봴����������                   200 bytes=18609 date=True
+  14  ȫ����ѧ��������ƴ���                        200 bytes=98849 date=True
+  15  �������硤���ű�������⵱���й���ȫ����ѧ��������������       200 bytes=42936 date=True
+  17  ȫ����ѧ�����´�ҵѵ���ƻ����չʾ                  200 bytes=31160 date=True

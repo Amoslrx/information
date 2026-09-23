@@ -1,0 +1,25 @@
+# Netlify 构建配置
+#
+# 这是一个**纯静态站点, 不需要构建步骤**: site/data.js 与 site/calendar/*.ics
+# 已由脚本生成好并提交进仓库, 所以 command 留空, 直接把 site/ 当发布目录。
+#
+# 两种部署方式:
+#   1) Git 部署(推荐): Netlify 连上仓库, 每次 push 自动重新发布。
+#      配合 .github/workflows/update.yml, 数据每周自动更新并触发重新部署。
+#   2) 拖拽部署: 把 site/ 文件夹拖到 app.netlify.com/drop。
+#      拖拽时不会读这个文件, 但 site/_headers 仍然生效 —— 关键配置都放在那儿了。
+#
+# 注意: 不要加 catch-all 的 404 重定向。Netlify 会自动使用发布目录根下的
+# 404.html 处理找不到的路径, 多写一条 redirect 反而可能造成重定向问题。
+
+[build]
+  publish = "site"
+  command = ""
+
+# .ics 的 Content-Type 在 site/_headers 里也写了一份。
+# 这里保留一份是为了 Git 部署时更直观可见, 两处取值一致, 不冲突。
+[[headers]]
+  for = "/calendar/*.ics"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Content-Disposition = "inline"

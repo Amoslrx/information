@@ -1,0 +1,221 @@
+{
+  "source": {
+    "title": "学生学科/科技竞赛 A 类、B 类项目列表",
+    "url": "http://pec.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1723267192&wbfileid=5156266",
+    "warning": "经核对为不完整的旧版名单(2页/19项), 现行版本须向实践教学中心核对",
+    "retrieved_by": "scripts/parse_xjtu_ab.py"
+  },
+  "schema_version": 1,
+  "count": 19,
+  "items": [
+    {
+      "section": "学科竞赛",
+      "no": 1,
+      "xjtu_category": "A类",
+      "name": "美国大学生数学建模竞赛",
+      "level": "国际级",
+      "organizer": "美国自然基金协会、美国数学应用协会",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 616.4
+    },
+    {
+      "section": "学科竞赛",
+      "no": 2,
+      "xjtu_category": "A类",
+      "name": "全国大学生数学建模大赛",
+      "level": "国家级",
+      "organizer": "中国工业与应用数学学会",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 584.6
+    },
+    {
+      "section": "学科竞赛",
+      "no": 3,
+      "xjtu_category": "A类",
+      "name": "全国大学生机械创新设计大赛",
+      "level": "国家级",
+      "organizer": "全国大学生机械创新设计大赛组委会等",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 552.7
+    },
+    {
+      "section": "学科竞赛",
+      "no": 4,
+      "xjtu_category": "A类",
+      "name": "全国大学生电子设计竞赛",
+      "level": "国家级",
+      "organizer": "教育部高等教育司、信息产业部人事司",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 520.8
+    },
+    {
+      "section": "学科竞赛",
+      "no": 5,
+      "xjtu_category": "A类",
+      "name": "“全国研究生创新实践系列活动”主题赛事",
+      "level": "国家级",
+      "organizer": "教育部学位与研究生教育发展中心、中国科协青少年科技中心",
+      "owner_dept": "研究生院",
+      "source_page": 1,
+      "source_y": 481.1
+    },
+    {
+      "section": "学科竞赛",
+      "no": 6,
+      "xjtu_category": "A类",
+      "name": "全国大学生节能减排社会实践与科技竞赛",
+      "level": "国家级",
+      "organizer": "教育部高等学校能源动力学科教学指导委员会",
+      "owner_dept": "团委",
+      "source_page": 1,
+      "source_y": 433.8
+    },
+    {
+      "section": "学科竞赛",
+      "no": 7,
+      "xjtu_category": "B类",
+      "name": "全国大学生“飞思卡尔”杯智能汽车竞赛",
+      "level": "国家级",
+      "organizer": "教育部高等学校自动化专业教学指导分委员会",
+      "owner_dept": "工程坊",
+      "source_page": 1,
+      "source_y": 386.1
+    },
+    {
+      "section": "学科竞赛",
+      "no": 8,
+      "xjtu_category": "B类",
+      "name": "全国周培源大学生力学竞赛",
+      "level": "国家级",
+      "organizer": "教育部高等学校力学教学指导委员会力学基础课程教学指导分委员会、中国力学学会和周培源基金会共同主办",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 315.1
+    },
+    {
+      "section": "学科竞赛",
+      "no": 9,
+      "xjtu_category": "B类",
+      "name": "中国大学生物理学术竞赛",
+      "level": "国家级",
+      "organizer": "中国物理学会物理教学指导委员会",
+      "owner_dept": "教务处",
+      "source_page": 1,
+      "source_y": 252.0
+    },
+    {
+      "section": "学科竞赛",
+      "no": 10,
+      "xjtu_category": "B类",
+      "name": "全国高等医学院校大学生临床技能竞赛",
+      "level": "国家级",
+      "organizer": "教育部医学教育临床教学研究中心、教育部临床实践教学指导分委员会.",
+      "owner_dept": "医学部",
+      "source_page": 1,
+      "source_y": 204.6
+    },
+    {
+      "section": "科技竞赛",
+      "no": 1,
+      "xjtu_category": "A类",
+      "name": "“挑战杯”全国大学生课外学术科技作品竞赛",
+      "level": "国家级",
+      "organizer": "共青团中央、中国科协、教育部、全国学联、江苏省人民政府",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 642.5
+    },
+    {
+      "section": "科技竞赛",
+      "no": 2,
+      "xjtu_category": "A类",
+      "name": "“创青春”（原“挑战杯”）全国大学生创业大赛",
+      "level": "国家级",
+      "organizer": "共青团中央、中国科协、教育部、人力资源社会保障部",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 594.9
+    },
+    {
+      "section": "科技竞赛",
+      "no": 3,
+      "xjtu_category": "A类",
+      "name": "“互联网+”全国大学生创新创业大赛",
+      "level": "国家级",
+      "organizer": "教育部",
+      "owner_dept": "教务处",
+      "source_page": 2,
+      "source_y": 547.5
+    },
+    {
+      "section": "科技竞赛",
+      "no": 4,
+      "xjtu_category": "A类",
+      "name": "Robomasters全国大学生机器人大赛",
+      "level": "国家级",
+      "organizer": "共青团中央、全国学联",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 500.0
+    },
+    {
+      "section": "科技竞赛",
+      "no": 5,
+      "xjtu_category": "A类",
+      "name": "科研类全国航空航天模型锦标赛",
+      "level": "国家级",
+      "organizer": "教育部、科技部、国家体育总局",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 452.6
+    },
+    {
+      "section": "科技竞赛",
+      "no": 6,
+      "xjtu_category": "A类",
+      "name": "Robocon全国大学生机器人大赛",
+      "level": "国家级",
+      "organizer": "共青团中央、中央电视台",
+      "owner_dept": "工程坊",
+      "source_page": 2,
+      "source_y": 405.2
+    },
+    {
+      "section": "科技竞赛",
+      "no": 7,
+      "xjtu_category": "B类",
+      "name": "中国机器人大赛（暨RoboCup中国大赛）",
+      "level": "国家级",
+      "organizer": "中国机器人竞大赛委员会",
+      "owner_dept": "工程坊",
+      "source_page": 2,
+      "source_y": 357.6
+    },
+    {
+      "section": "科技竞赛",
+      "no": 9,
+      "xjtu_category": "B类",
+      "name": "ACM国际程序设计大赛",
+      "level": "国际级",
+      "organizer": "美国计算机协会",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 310.2
+    },
+    {
+      "section": "科技竞赛",
+      "no": 10,
+      "xjtu_category": "B类",
+      "name": "全国青少年科技创新大赛",
+      "level": "国家级",
+      "organizer": "中国科协",
+      "owner_dept": "团委",
+      "source_page": 2,
+      "source_y": 262.7
+    }
+  ]
+}

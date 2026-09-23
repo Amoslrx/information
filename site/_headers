@@ -1,0 +1,36 @@
+# Netlify 响应头配置
+# 放在发布目录里, 所以拖拽部署(drag & drop)和 Git 部署都会生效
+# —— 这点很关键: netlify.toml 只在 Git 部署时被读取。
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# ---- 日历订阅 ----
+# 必须给 text/calendar, 否则浏览器/日历 App 会把 .ics 当二进制下载,
+# "通过网址订阅"就会失败。这是最容易踩的坑。
+/calendar/*.ics
+  Content-Type: text/calendar; charset=utf-8
+  Content-Disposition: inline
+  Cache-Control: public, max-age=1800
+
+# ---- 数据层 ----
+# 每周由 GitHub Action 更新, 所以缓存时间给短一点, 但比 HTML 长。
+/data.js
+  Cache-Control: public, max-age=1800
+
+# ---- 页面 ----
+# 让 HTML 每次校验(站点内容会随数据更新变化)
+/index.html
+  Cache-Control: public, max-age=300, must-revalidate
+/
+  Cache-Control: public, max-age=300, must-revalidate
+
+# ---- 静态资源 ----
+# 文件名不带指纹, 所以不能长缓存, 但可以给一天。
+/style.css
+  Cache-Control: public, max-age=86400
+/app.js
+  Cache-Control: public, max-age=86400
