@@ -313,6 +313,7 @@
     return {
       q: $('nq').value.trim().toLowerCase(),
       scope: $('nScope').value,
+      site: $('nSite').value,
       range: $('nRange').value,
       sort: $('nSort').value
     };
@@ -321,8 +322,10 @@
   function renderNotices() {
     var f = readNoticeFilters();
     var list = NOTICES.filter(function (n) {
+      if (f.scope === 'competition' && !n.isCompetition) return false;
       if (f.scope === 'matched' && !n.competition) return false;
       if (f.scope === 'unmatched' && n.competition) return false;
+      if (f.site && n.site !== f.site) return false;
       if (f.range && daysSince(n.date) > +f.range) return false;
       if (f.q && n.title.toLowerCase().indexOf(f.q) === -1) return false;
       return true;
@@ -345,6 +348,9 @@
         lastGroup = g;
       }
       var sub = [];
+      if (n.site) {
+        sub.push('<span class="badge b-site">' + esc(n.site) + '</span>');
+      }
       if (n.competition) {
         sub.push('<button class="badge-link" data-name="' + esc(n.competition) + '">' +
                  '对应：' + esc(n.competition) + '</button>');
@@ -578,6 +584,24 @@
     renderRhythm();
   }
 
+  function initNotices() {
+    // 用数据里实际出现的来源填充下拉, 避免写死
+    var seen = [];
+    NOTICES.forEach(function (n) {
+      if (n.site && seen.indexOf(n.site) < 0) seen.push(n.site);
+    });
+    seen.sort();
+    var sel = $('nSite');
+    seen.forEach(function (s) {
+      var o = document.createElement('option');
+      o.value = s;
+      o.textContent = s + '（' + NOTICES.filter(function (n) {
+        return n.site === s;
+      }).length + ' 条）';
+      sel.appendChild(o);
+    });
+  }
+
   /* ---------------- 说明页 ---------------- */
 
   function renderAbout() {
@@ -587,16 +611,22 @@
 
     var src = D.sources || {};
     $('sourceList').innerHTML = [
-      src.moe ? '<li>' + esc(src.moe) + '</li>' : '',
-      src.xjtuNotice
-        ? '<li><a href="' + esc(src.xjtuNoticeUrl) + '" target="_blank" rel="noopener">' +
-          esc(src.xjtuNotice) + '</a>（' + (STATS.notices || 0) + ' 条，抓取 ' +
-          (STATS.crawledPages || 0) + ' 页）</li>'
-        : ''
-    ].join('');
+      src.moe ? '<li>' + esc(src.moe) + '</li>' : ''
+    ].concat((src.noticeSites || []).map(function (s) {
+      return '<li><a href="' + esc(s.base || '') + '" target="_blank" rel="noopener">' +
+             esc(s.label) + '</a>　只抓通知列表页，不抓正文</li>';
+    })).concat(
+      Object.keys(src.noticeSkipped || {}).length ? [
+        '<li class="muted">已评估但未纳入：' +
+        Object.keys(src.noticeSkipped).map(function (k) {
+          return esc(k.split('/')[0]);
+        }).join('、') + '</li>'
+      ] : []
+    ).join('');
 
-    var a = $('srcNotice');
-    if (src.xjtuNoticeUrl) { a.href = src.xjtuNoticeUrl; }
+    // 通知页的来源说明
+    var names = (src.noticeSites || []).map(function (s) { return s.label; });
+    $('srcNotice').textContent = names.length ? names.join(' · ') : '西安交通大学各站点';
   }
 
   /* ---------------- 事件绑定 ---------------- */
@@ -620,7 +650,7 @@
       renderCatalog();
     });
 
-    ['nq', 'nScope', 'nRange', 'nSort'].forEach(function (id) {
+    ['nq', 'nScope', 'nSite', 'nRange', 'nSort'].forEach(function (id) {
       var el = $(id);
       el.addEventListener(id === 'nq' ? 'input' : 'change', function () {
         $('nqClear').hidden = !$('nq').value;
@@ -632,7 +662,8 @@
     });
     $('nReset').addEventListener('click', function () {
       $('nq').value = ''; $('nqClear').hidden = true;
-      $('nScope').value = ''; $('nRange').value = ''; $('nSort').value = 'date';
+      $('nScope').value = 'competition'; $('nSite').value = '';
+      $('nRange').value = ''; $('nSort').value = 'date';
       renderNotices();
     });
 
@@ -678,6 +709,7 @@
     renderHead();
     initTabs();
     renderCatalog();
+    initNotices();
     renderNotices();
     initRhythm();
     renderAbout();

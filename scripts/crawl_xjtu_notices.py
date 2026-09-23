@@ -1,108 +1,203 @@
 # -*- coding: utf-8 -*-
-"""爬取西安交通大学实践教学中心「竞赛」栏目通知列表。
+"""多源抓取西安交通大学各站点的竞赛相关通知。
 
-来源: http://pec.xjtu.edu.cn/cxcy/js.htm  (第 1 页)
-      http://pec.xjtu.edu.cn/cxcy/js/N.htm  (第 N 页, 实测共 17 页)
-      robots.txt 返回 404(即未禁止), 页面为纯 HTML + 稳定分页, 无验证码。
+源清单(每个源的 HTML 结构都实测过):
+  1. pec  实践教学中心·竞赛     http://pec.xjtu.edu.cn/cxcy/js.htm      17 页
+  2. ee   电气学院·通知公告     http://ee.xjtu.edu.cn/jzxx.htm          48 页
+  3. jwc  教务处·教学通知       https://jwc.xjtu.edu.cn/jxxx/jxtz2.htm  620 页
+
+设计要点:
+  - **只爬每个源的前 N 页**, 再与已有的 notices.json 按 URL 合并。
+    这样每周跑一次很便宜, 而历史会逐周累积, 不会因为只爬前几页而丢数据。
+  - 每次都对**全部**记录重跑竞赛名匹配, 这样改进匹配规则后能立刻生效。
+  - 各源结构不同, 用 per-source 的正则与 URL 规则描述, 加新源只需加一条配置。
+  - 礼貌抓取: 请求间隔 + 自定义 UA + 失败即停不重试风暴。
+
+robots.txt 实测: pec / ee / jwc 均返回 404(未禁止)。只抓通知列表页, 不抓正文。
 
 输出: data/seed/notices.json
-      - 每条通知: 标题 / 发布日期 / 详情 URL / 抓取时间
-      - 尝试把通知标题关联到 competitions_master 里的竞赛(保守匹配, 宁缺勿错)
-
-页面结构(实测):
-    <li><i></i><span class="date-list">2026-09-23</span>
-        <a href="../info/1191/5526.htm" target="_blank" title="标题">标题</a></li>
 """
-import html
+import csv
+import gzip
+import html as htmllib
 import json
 import os
 import re
 import ssl
 import sys
 import time
+import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DST = os.path.join(ROOT, "data", "seed", "notices.json")
-MASTER = os.path.join(ROOT, "data", "seed", "competitions_master.csv")
+SEED = os.path.join(ROOT, "data", "seed")
+DST = os.path.join(SEED, "notices.json")
+MASTER = os.path.join(SEED, "competitions_master.csv")
 
-BASE = "http://pec.xjtu.edu.cn/cxcy/js"
-SOURCE = BASE + ".htm"
-HOST = "http://pec.xjtu.edu.cn"
-MAX_PAGES = 30          # 安全上限; 遇到 404 即停
-DELAY = 0.4             # 请求间隔, 对学校站点友好一些
+DELAY = 0.4          # 每次请求之间的间隔(秒)
+TIMEOUT = 25
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"),
-    "Referer": SOURCE,
     "Accept-Language": "zh-CN,zh;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
 }
-
-ITEM_RE = re.compile(
-    r'<span class="date-list">\s*(\d{4}-\d{2}-\d{2})\s*</span>\s*'
-    r'<a\s+href="([^"]+)"[^>]*?title="([^"]*)"',
-    re.S)
 
 CTX = ssl.create_default_context()
 CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
 
 
-def fetch(url, timeout=25):
+# ---------------------------------------------------------------- 源配置
+# 每个源:
+#   key/label   标识与展示名
+#   site        所属站点简称
+#   page_url(n) 第 n 页的列表地址
+#   pattern     在该页 HTML 上匹配 (日期, 链接, 标题) 的正则
+#   max_pages   每次最多爬多少页(前 N 页 = 最新的 N 页)
+#   normalize   可选, 对匹配到的标题做清理
+#
+# 注意各源字段顺序不同:
+#   pec : <span class="date-list">日期</span><a href title="标题">
+#   ee  : <a href><span>日期</span><h3>标题</h3></a>
+#   jwc : <a href><i>[分类]</i>标题</a><span>日期</span>
+SOURCES = [
+    {
+        "key": "pec",
+        "label": "实践教学中心 · 竞赛",
+        "site": "实践教学中心",
+        "base": "http://pec.xjtu.edu.cn/cxcy/js",
+        "page_url": lambda n, b: (b + ".htm") if n == 1 else ("%s/%d.htm" % (b, n)),
+        "pattern": re.compile(
+            r'<span class="date-list">\s*(\d{4}-\d{2}-\d{2})\s*</span>\s*'
+            r'<a\s+href="([^"]+)"[^>]*?title="([^"]*)"', re.S),
+        "order": ("date", "url", "title"),
+        "max_pages": 17,
+    },
+    {
+        "key": "ee",
+        "label": "电气学院 · 通知公告",
+        "site": "电气学院",
+        "base": "http://ee.xjtu.edu.cn/jzxx",
+        "page_url": lambda n, b: (b + ".htm") if n == 1 else ("%s/%d.htm" % (b, n)),
+        "pattern": re.compile(
+            r'<a\s+href="([^"]*info/\d+/\d+\.htm)">\s*'
+            r'<span>\s*(\d{4}-\d{2}-\d{2})\s*</span>\s*'
+            r'<h3>(.*?)</h3>', re.S),
+        "order": ("url", "date", "title"),
+        # 实测: 前 10 页 100 条里竞赛相关 0 条 —— 这个栏目实际是行政通知
+        # (转专业、推免实施细则、直博生确认、选课计划)。竞赛内容不在官网,
+        # 学院主要通过公众号发布。所以只保留 3 页做兜底, 靠 is_competition
+        # 过滤在页面上屏蔽噪声。
+        "max_pages": 3,
+    },
+    {
+        "key": "jwc",
+        "label": "教务处 · 教学通知",
+        "site": "教务处",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2",
+        "page_url": lambda n, b: (b + ".htm") if n == 1 else ("%s/%d.htm" % (b, n)),
+        "pattern": re.compile(
+            r'<a\s+href="([^"]*info/\d+/\d+\.htm)">'
+            r'(?:<i>\s*\[[^\]]*\]\s*</i>)?'
+            r'(.*?)</a>\s*<span>\s*(\d{4}-\d{2}-\d{2})\s*</span>', re.S),
+        "order": ("url", "title", "date"),
+        "max_pages": 5,
+    },
+]
+
+# 实测过但未纳入的源(记录原因, 免得以后重复调研):
+SKIPPED = {
+    "ee.xjtu.edu.cn/dtgh/txgz.htm": "电气学院·团学工作, 内容是党团活动(团组织生活会、党支部大会), 非竞赛; 且为图片卡片结构",
+    "news.xjtu.edu.cn": "图文新闻门户, 列表项无日期, 内容以新闻报道而非通知为主, 信号弱",
+    "gs.xjtu.edu.cn": "研究生院, 首页以招生/培养通知为主(录取通知书、导师培训), 与本科竞赛关系弱",
+    "tuanwei.xjtu.edu.cn": "校团委, 是 Nuxt.js 单页应用(路由 /passage?id=N), 需要额外解析 __NUXT__ 载荷",
+    "jwc竞赛专栏": "教务处无独立竞赛栏目 —— 实测创新大赛通知属于'教学通知'(jxtz2), 已包含在内",
+}
+
+
+# ---------------------------------------------------------------- 抓取
+def fetch(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout, context=CTX) as r:
-        return r.status, r.read()
+    with urllib.request.urlopen(req, timeout=TIMEOUT, context=CTX) as r:
+        raw = r.read()
+        if r.headers.get("Content-Encoding") == "gzip":
+            raw = gzip.decompress(raw)
+        return r.status, raw.decode("utf-8", "replace")
 
 
-def page_url(n):
-    return SOURCE if n == 1 else "%s/%d.htm" % (BASE, n)
+def clean_title(s):
+    s = re.sub(r"<[^>]+>", "", s)
+    s = htmllib.unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
 
 
-def abs_url(href):
-    href = html.unescape(href).strip()
-    if href.startswith("http"):
-        return href
-    if href.startswith("/"):
-        return HOST + href
-    # 形如 ../info/1191/5526.htm  ->  http://pec.xjtu.edu.cn/info/1191/5526.htm
-    return HOST + "/" + href.lstrip("./")
+def crawl_source(src, stats):
+    """爬一个源的前 max_pages 页, 返回通知列表。"""
+    out = []
+    for n in range(1, src["max_pages"] + 1):
+        url = src["page_url"](n, src["base"])
+        try:
+            status, text = fetch(url)
+        except Exception as e:
+            print("    [%s] 第 %d 页停止: %s" % (src["key"], n, str(e)[:60]))
+            break
+
+        hits = src["pattern"].findall(text)
+        if not hits:
+            print("    [%s] 第 %d 页无匹配, 停止" % (src["key"], n))
+            break
+
+        idx = {name: i for i, name in enumerate(src["order"])}
+        for h in hits:
+            rec = {
+                "date": h[idx["date"]],
+                "title": clean_title(h[idx["title"]]),
+                "url": urllib.parse.urljoin(url, htmllib.unescape(h[idx["url"]])),
+                "source": src["key"],
+                "site": src["site"],
+            }
+            if rec["title"] and rec["date"]:
+                out.append(rec)
+
+        stats[src["key"]] = stats.get(src["key"], 0) + len(hits)
+        print("    [%s] 第 %2d 页: %d 条 (源累计 %d)" % (src["key"], n, len(hits), len(out)))
+        time.sleep(DELAY)
+    return out
 
 
-def load_competitions():
-    """从总表读取竞赛名, 用于把通知关联到竞赛。"""
-    if not os.path.exists(MASTER):
-        return []
-    import csv
-    with open(MASTER, encoding="utf-8-sig", newline="") as f:
-        return list(csv.DictReader(f))
+# ---------------------------------------------------------------- 相关性分类
+# 多源聚合后, 教务处/电气学院的通知里会混进大量与竞赛无关的内容
+# (停水通知、考试安排、教材结算...)。按标题关键词打标, 站点默认只展示竞赛相关的。
+COMPETITION_WORDS = [
+    "竞赛", "大赛", "挑战杯", "选拔赛", "报名", "参赛", "创新创业", "创新大赛",
+    "学科竞赛", "科技竞赛", "擂台", "赛区", "杯赛", "初赛", "复赛", "决赛",
+    "校赛", "省赛", "国赛", "获奖", "佳绩", "夺冠", "特等奖", "一等奖", "二等奖",
+    "三等奖", "金奖", "银奖", "晋级", "训练营", "集训", "战队",
+]
 
 
-# 匹配时要去掉的通用前后缀, 否则"全国大学生"之类会导致大量误匹配
+def is_competition_related(title):
+    return any(w in title for w in COMPETITION_WORDS)
+
+
+# ---------------------------------------------------------------- 竞赛名匹配
 STRIP_PREFIX = ["全国大学生", "中国大学生", "全国高校", "中国高校", "全国",
                 "国际大学生", "大学生"]
 STRIP_SUFFIX = ["竞赛", "大赛", "比赛", "挑战赛", "赛", "(CULSC)", "（CULSC）"]
-# 太短的词容易误匹配, 低于该长度不作为关键词
 MIN_KEYWORD = 6
 
 
 def keywords_of(name):
-    """为一个竞赛名生成用于匹配通知标题的关键词。
-
-    要点: 通知标题里很少写完整赛名。例如
-      "中国机器人大赛（暨RoboCup中国大赛）" 在标题里是 "2026中国机器人大赛暨RoboCup机器人世界杯中国赛"
-    —— 所以除了全名, 还要按 "暨"/括号切出子串, 并去掉常见前后缀。
-    """
     n = re.sub(r"[“”\"'（）()·\-\s]", "", name)
     parts = {n}
-    # 按 "暨" 切分, 并单独取出括号内的内容
     for piece in re.split(r"暨", n):
         if len(piece) >= MIN_KEYWORD:
             parts.add(piece)
     for inner in re.findall(r"[（(]([^）)]*)[）)]", n):
         if len(inner) >= MIN_KEYWORD:
             parts.add(inner)
-    # 去掉括号后剩下的主干也要留一份
     stem = re.sub(r"[（(][^）)]*[）)]", "", n)
     if len(stem) >= MIN_KEYWORD:
         parts.add(stem)
@@ -119,10 +214,13 @@ def keywords_of(name):
     return {k for k in kws if len(k) >= MIN_KEYWORD}
 
 
-def build_matcher(comps):
-    """返回 [(keyword, 竞赛名, 教育部序号)] , 关键词长的优先。"""
+def load_competition_keywords():
+    if not os.path.exists(MASTER):
+        return []
+    with open(MASTER, encoding="utf-8-sig", newline="") as f:
+        rows = list(csv.DictReader(f))
     idx = []
-    for c in comps:
+    for c in rows:
         for kw in keywords_of(c["竞赛名称"]):
             idx.append((kw, c["竞赛名称"], c.get("教育部目录序号") or ""))
     idx.sort(key=lambda t: -len(t[0]))
@@ -130,7 +228,6 @@ def build_matcher(comps):
 
 
 def match_notice(title, idx):
-    """保守匹配: 命中最长的关键词, 且要求关键词确实出现在标题里。"""
     t = re.sub(r"[“”\"'（）()·\-\s]", "", title)
     for kw, name, no in idx:
         if kw in t:
@@ -138,79 +235,104 @@ def match_notice(title, idx):
     return None, None, None
 
 
+# ---------------------------------------------------------------- 主流程
+def load_existing():
+    if not os.path.exists(DST):
+        return []
+    try:
+        with open(DST, encoding="utf-8") as f:
+            return json.load(f).get("items", [])
+    except Exception:
+        return []
+
+
 def main():
-    comps = load_competitions()
-    idx = build_matcher(comps)
-    print("已载入竞赛 %d 条, 生成关键词 %d 个" % (len(comps), len(idx)))
+    existing = load_existing()
+    print("已有记录: %d 条(将按 URL 合并, 不丢历史)" % len(existing))
 
-    notices, seen = [], set()
-    pages_ok = 0
-    for n in range(1, MAX_PAGES + 1):
-        url = page_url(n)
-        try:
-            status, raw = fetch(url)
-        except Exception as e:
-            print("  第 %2d 页 停止: %s" % (n, str(e)[:60]))
-            break
-        text = raw.decode("utf-8", "replace")
-        hits = ITEM_RE.findall(text)
-        if not hits:
-            print("  第 %2d 页 无条目, 停止" % n)
-            break
-        pages_ok += 1
-        for date, href, title in hits:
-            u = abs_url(href)
-            if u in seen:
-                continue
-            seen.add(u)
-            title = html.unescape(title).strip()
-            cname, cno, kw = match_notice(title, idx)
-            notices.append({
-                "title": title,
-                "date": date,
-                "url": u,
-                "competition": cname,
-                "moe_no": cno,
-                "matched_keyword": kw,
-                "source_page": n,
-            })
-        print("  第 %2d 页: %d 条 (累计 %d)" % (n, len(hits), len(notices)))
-        time.sleep(DELAY)
+    fresh = []
+    stats = {}
+    for src in SOURCES:
+        print("\n=== %s (%s) ===" % (src["label"], src["key"]))
+        fresh.extend(crawl_source(src, stats))
 
-    notices.sort(key=lambda x: (x["date"], x["title"]), reverse=True)
-    matched = sum(1 for x in notices if x["competition"])
+    # ---- 按 URL 合并: 新抓的覆盖旧的(标题可能被修正) ----
+    merged = {}
+    for n in existing:
+        merged[n["url"]] = n
+    added = 0
+    for n in fresh:
+        u = n["url"]
+        if u not in merged:
+            added += 1
+        old = merged.get(u, {})
+        old.update(n)                    # 保留旧记录里可能有的额外字段
+        merged[u] = old
+
+    # ---- 对整个集合重跑竞赛名匹配(改进规则后能立即生效) ----
+    idx = load_competition_keywords()
+    print("\n竞赛关键词: %d 个 (覆盖 %d 条竞赛)" % (len(idx), len(set(k[1] for k in idx))))
+    items = list(merged.values())
+    for n in items:
+        cname, cno, kw = match_notice(n["title"], idx)
+        n["competition"] = cname or ""
+        n["moe_no"] = cno or ""
+        n["matched_keyword"] = kw or ""
+        n["is_competition"] = is_competition_related(n["title"])
+
+    items.sort(key=lambda x: (x["date"], x["title"]), reverse=True)
+    matched = sum(1 for n in items if n["competition"])
+    comp_related = sum(1 for n in items if n["is_competition"])
+
+    by_site = {}
+    by_site_comp = {}
+    for n in items:
+        s = n.get("site", "?")
+        by_site[s] = by_site.get(s, 0) + 1
+        if n["is_competition"]:
+            by_site_comp[s] = by_site_comp.get(s, 0) + 1
 
     payload = {
         "source": {
-            "title": "西安交通大学实践教学中心 · 竞赛通知",
-            "url": SOURCE,
-            "host": HOST,
-            "pages_crawled": pages_ok,
+            "title": "西安交通大学 · 竞赛相关通知(多源聚合)",
+            "sites": [{"key": s["key"], "label": s["label"], "base": s["base"],
+                       "pages_crawled_cap": s["max_pages"]} for s in SOURCES],
+            "skipped": SKIPPED,
             "crawler": "scripts/crawl_xjtu_notices.py",
-            "note": "robots.txt 返回 404(未禁止); 页面为纯 HTML 稳定分页",
+            "note": ("只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; "
+                     "robots.txt 实测均为 404 未禁止"),
         },
-        "schema_version": 1,
-        "count": len(notices),
+        "schema_version": 2,
+        "count": len(items),
         "matched_count": matched,
-        "items": notices,
+        "competition_related_count": comp_related,
+        "by_site": by_site,
+        "by_site_competition": by_site_comp,
+        "items": items,
     }
-    os.makedirs(os.path.dirname(DST), exist_ok=True)
+    os.makedirs(SEED, exist_ok=True)
     with open(DST, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print()
-    print("抓取页数 : %d" % pages_ok)
-    print("通知条数 : %d" % len(notices))
-    print("已关联竞赛: %d (%.0f%%)" % (matched, 100.0 * matched / max(len(notices), 1)))
-    if notices:
-        print("日期范围 : %s ~ %s" % (min(n["date"] for n in notices),
-                                      max(n["date"] for n in notices)))
-    print("written  : %s" % DST)
+    print("=" * 58)
+    print("本次新抓 : %d 条" % len(fresh))
+    print("新增(去重后): %d 条" % added)
+    print("合并后总计 : %d 条" % len(items))
+    print("其中竞赛相关: %d 条 (%.0f%%)" % (comp_related, 100.0 * comp_related / max(len(items), 1)))
+    print("已关联到具体竞赛: %d (%.0f%%)" % (matched, 100.0 * matched / max(len(items), 1)))
+    if items:
+        print("日期范围   : %s ~ %s" % (min(n["date"] for n in items),
+                                       max(n["date"] for n in items)))
+    print("按来源(总/竞赛相关):")
+    for k, v in sorted(by_site.items(), key=lambda kv: -kv[1]):
+        print("    %-14s %4d / %4d 条" % (k, v, by_site_comp.get(k, 0)))
+    print("written    : %s (%.0f KB)" % (DST, os.path.getsize(DST) / 1024.0))
     print()
-    print("=== 最近 8 条 ===")
-    for n in notices[:8]:
-        tag = ("→ " + n["competition"][:20]) if n["competition"] else ""
-        print("  %s  %s  %s" % (n["date"], n["title"][:44], tag))
+    print("=== 最近 8 条竞赛相关 ===")
+    for n in [x for x in items if x["is_competition"]][:8]:
+        tag = ("-> " + n["competition"][:18]) if n["competition"] else ""
+        print("  %s [%s] %s %s" % (n["date"], n.get("site", "?")[:5], n["title"][:36], tag))
 
 
 if __name__ == "__main__":

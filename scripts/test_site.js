@@ -57,13 +57,24 @@ function makeEl(id) {
   return el;
 }
 
-function makeDom() {
+function makeDom(selectDefaults) {
   const els = Object.create(null);
   const created = [];
   const document = {
     readyState: 'complete',
     body: makeEl('body'),
-    getElementById(id) { return els[id] || (els[id] = makeEl(id)); },
+    getElementById(id) {
+      if (!els[id]) {
+        const e = makeEl(id);
+        // 真实浏览器里 <select> 没有 selected 时取第一个 option 的值。
+        // 桩必须照做, 否则"默认筛选状态"这类 bug 在测试里根本暴露不出来。
+        if (selectDefaults && Object.prototype.hasOwnProperty.call(selectDefaults, id)) {
+          e.value = selectDefaults[id];
+        }
+        els[id] = e;
+      }
+      return els[id];
+    },
     querySelectorAll() { return []; },
     querySelector() { return null; },
     addEventListener() {},
@@ -75,6 +86,19 @@ function makeDom() {
     },
   };
   return { document, els, created };
+}
+
+// 从 index.html 解析每个 <select> 的默认值(第一个 option)。
+// 惰性求值: html 在文件后面才读取, 这里不能直接引用。
+let _selectDefaults = null;
+function getSelectDefaults() {
+  if (_selectDefaults) return _selectDefaults;
+  _selectDefaults = {};
+  for (const m of html.matchAll(/<select\s+id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g)) {
+    const first = m[2].match(/<option\s+value="([^"]*)"/);
+    _selectDefaults[m[1]] = first ? first[1] : '';
+  }
+  return _selectDefaults;
 }
 
 /* ---------- 载入 ---------- */
@@ -119,7 +143,7 @@ console.log('\n=== B. 用 DOM 桩运行 app.js ===');
 
 /** 在给定 location 下跑一遍 app.js, 返回它写出的 DOM 内容。 */
 function runApp(loc) {
-  const dom = makeDom();
+  const dom = makeDom(getSelectDefaults());
   const historyCalls = [];
   const windowObj = {
     scrollTo() {},
@@ -181,9 +205,14 @@ const cardCount = (catHTML.match(/class="card /g) || []).length;
 ok(cardCount === DATA.competitions.length,
    `默认渲染全部 ${DATA.competitions.length} 张竞赛卡片`, '实际 ' + cardCount);
 
+// 通知页默认只显示"竞赛相关"(过滤掉行政/教学通知)
 const noticeCount = (noticeHTML.match(/class="notice"/g) || []).length;
-ok(noticeCount === DATA.notices.length,
-   `默认渲染全部 ${DATA.notices.length} 条通知`, '实际 ' + noticeCount);
+const compRelated = DATA.notices.filter(n => n.isCompetition).length;
+ok(noticeCount === compRelated,
+   `默认只渲染竞赛相关通知 ${compRelated} 条`, '实际 ' + noticeCount);
+ok(noticeCount < DATA.notices.length,
+   '默认过滤掉了非竞赛通知', `${noticeCount} / ${DATA.notices.length}`);
+ok(noticeHTML.includes('badge b-site'), '通知渲染了来源徽章');
 
 ok(/共 \d+ 条/.test(els.resultCount.textContent || ''), '结果计数已写入');
 ok(els.tabCountCat.textContent === String(DATA.competitions.length), 'tab 上的竞赛数正确',
@@ -231,10 +260,15 @@ const histSum = Object.keys(DATA.monthHistogram || {})
 ok(histSum === DATA.stats.notices, '月度分布合计等于通知总数',
    histSum + ' vs ' + DATA.stats.notices);
 
-// 注意用 [" ] 收尾, 否则 class="rcard-main" 也会被算成卡片
+// 节律页默认按"电气相关度 >= 4"筛选(下拉第一个选项), 所以不是全部 37 个
+const cadAll = DATA.competitions.filter(c => c.cadence);
+const cadCore = cadAll.filter(c => (c.ee || 0) >= 4);
 const rcardCount = (rhythmHTML.match(/class="rcard[" ]/g) || []).length;
-ok(rcardCount === DATA.cadenceCount, '默认渲染出全部节律卡片',
-   rcardCount + ' vs ' + DATA.cadenceCount);
+ok(rcardCount === cadCore.length,
+   `默认按相关度>=4渲染节律卡片 ${cadCore.length} 张`,
+   rcardCount + ' vs ' + cadCore.length);
+ok(cadCore.length < cadAll.length, '节律默认过滤掉了相关度较低的竞赛',
+   `${cadCore.length} / ${cadAll.length}`);
 
 // 同理: 没有附加 class 的格子是 class="ms", 有附加的是 class="ms …", 两者都要算
 const stripCells = (rhythmHTML.match(/class="ms[" ]/g) || []).length;
@@ -244,12 +278,20 @@ ok(stripCells === rcardCount * 12, '每张节律卡片有 12 个月份格',
 ok(/高峰是/.test(els.rhythmInsight.innerHTML || ''), '生成了高峰月洞察文案');
 ok((els.rhythmCaveat.textContent || '').includes('不是官方赛程'), '节律页标注了推断性质');
 
-// 月份下拉被填充
-const opts = created.filter(e => e.tagName === 'OPTION');
-ok(opts.length >= 12, '月份下拉填充了 12 个选项', '实际 ' + opts.length);
-ok(opts.length >= 12 && opts[0].textContent === '一 月' && opts[11].textContent === '十二 月',
+// 下拉框: 按"挂在哪个 select 上"判断, 不要靠在 created 里的顺序
+const monthOpts = (els.rMonth.children || []).filter(e => e.tagName === 'OPTION');
+ok(monthOpts.length === 12, '月份下拉填充了 12 个选项', '实际 ' + monthOpts.length);
+ok(monthOpts.length === 12 && monthOpts[0].textContent === '一 月' &&
+   monthOpts[11].textContent === '十二 月',
    '月份下拉选项文案正确',
-   opts.length >= 12 ? opts[0].textContent + ' … ' + opts[11].textContent : '');
+   monthOpts.length === 12 ? monthOpts[0].textContent + ' … ' + monthOpts[11].textContent : '');
+
+// 来源下拉: 由数据里实际出现的来源动态生成
+const siteOpts = (els.nSite.children || []).filter(e => e.tagName === 'OPTION');
+const siteNames = Object.keys(DATA.stats.bySite || {});
+ok(siteOpts.length === siteNames.length,
+   `来源下拉填充了 ${siteNames.length} 个来源`,
+   '实际 ' + siteOpts.length);
 
 // 日历文件存在且事件数对得上
 const calDir = path.join(SITE, 'calendar');

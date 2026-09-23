@@ -61,6 +61,8 @@ def load_notices():
         "url": n["url"],
         "competition": n.get("competition") or "",
         "moeNo": int(n["moe_no"]) if str(n.get("moe_no") or "").isdigit() else None,
+        "site": n.get("site") or "",
+        "isCompetition": bool(n.get("is_competition", True)),
     } for n in d["items"]]
     return items, d.get("source", {})
 
@@ -111,16 +113,23 @@ def main():
         k = c["ee"] if c["ee"] is not None else 0
         ee_dist[k] = ee_dist.get(k, 0) + 1
     dates = [n["date"] for n in notices]
+    site_counts = {}
+    for n in notices:
+        s = n.get("site") or "?"
+        site_counts[s] = site_counts.get(s, 0) + 1
     stats = {
         "competitions": len(comps),
         "notices": len(notices),
         "noticesMatched": sum(1 for n in notices if n["competition"]),
+        "noticesCompetition": sum(1 for n in notices if n.get("isCompetition")),
         "noticeFrom": min(dates) if dates else "",
         "noticeTo": max(dates) if dates else "",
         "eeDist": ee_dist,
         "withUrl": sum(1 for c in comps if c["url"]),
         "xjtuKnown": sum(1 for c in comps if c["xjtuCat"] != UNKNOWN_CAT),
-        "crawledPages": nsrc.get("pages_crawled", 0),
+        "crawledPages": sum(int(s.get("pages_crawled_cap", 0))
+                            for s in nsrc.get("sites", [])),
+        "bySite": site_counts,
     }
 
     payload = {
@@ -138,7 +147,10 @@ def main():
         "sources": {
             "moe": "2025年教育部认可的全国大学生学科竞赛目录清单(84项)",
             "xjtuNotice": nsrc.get("title", ""),
-            "xjtuNoticeUrl": nsrc.get("url", ""),
+            "xjtuNoticeUrl": (nsrc.get("sites") or [{}])[0].get("base", ""),
+            "noticeSites": [{"key": s.get("key"), "label": s.get("label"),
+                             "base": s.get("base")} for s in nsrc.get("sites", [])],
+            "noticeSkipped": nsrc.get("skipped", {}),
         },
         "caveats": [
             "西交A/B名单为旧版不完整名单(2页/19项), 标「未认定(待核)」不代表学校未认定。",

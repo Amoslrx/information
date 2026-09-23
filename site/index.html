@@ -208,10 +208,15 @@
         <label class="field">
           <span>范围</span>
           <select id="nScope">
-            <option value="">全部通知</option>
+            <option value="competition">只看竞赛相关</option>
+            <option value="">全部通知（含行政/教学）</option>
             <option value="matched">仅已关联竞赛</option>
             <option value="unmatched">仅未关联</option>
           </select>
+        </label>
+        <label class="field">
+          <span>来源</span>
+          <select id="nSite"><option value="">全部来源</option></select>
         </label>
         <label class="field">
           <span>时间</span>
@@ -237,8 +242,9 @@
     </div>
 
     <p class="hint">
-      来源：<a id="srcNotice" href="#" target="_blank" rel="noopener">西安交通大学实践教学中心 · 竞赛栏目</a>。
-      「关联竞赛」为标题关键词自动匹配，可能有误，仅作提示。
+      来源：<span id="srcNotice"></span>（多源聚合）。
+      「关联竞赛」为标题关键词自动匹配，可能有误；
+      「竞赛相关」是按标题关键词打标，用于滤掉行政/教学类通知。
     </p>
 
     <div id="noticeList" class="notices"></div>

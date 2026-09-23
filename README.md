@@ -46,10 +46,20 @@ python -m http.server 8099 --directory site
 - **日历订阅**：`calendar/ee-core.ics` / `calendar/all.ics`，年度重复 + 提前 7 天提醒
 - 按月份筛选、搜索、排序
 
-**校内通知**（306 条，2018-04-04 ~ 2026-09-23）
-- 搜索、按范围（已关联 / 未关联）与时间（近 90 天 / 半年 / 一年）筛选
+**校内通知**（451 条，多源聚合，2003-12-22 ~ 2026-09-23）
+- **三个来源**：实践教学中心(306) · 教务处(45) · 电气学院(100)
+- **默认只显示竞赛相关**（按标题关键词打标，滤掉转专业/选课/停水这类行政通知）
+- 可按来源筛选、搜索、按范围（已关联/未关联）与时间（近 90 天/半年/一年）筛选
 - 按年月分组，90 天内的标 `NEW`
-- 每条显示自动关联到的竞赛，点一下跳到该竞赛详情
+- 每条显示来源徽章 + 自动关联到的竞赛，点一下跳到该竞赛详情
+
+> **多源抓取策略**：只爬每个源的前 N 页，再与历史按 URL 合并。
+> 每周跑一次很便宜，而历史会逐周累积，不会因为只爬前几页而丢数据。
+>
+> **实测过的其他源**（原因记录在 `crawl_xjtu_notices.py` 的 `SKIPPED` 里）：
+> 电气学院"团学工作"栏目是党团活动；交大新闻网是图文新闻且列表无日期；
+> 研究生院以招生培养为主；校团委是 Nuxt.js 单页应用需额外解析。
+> **电气学院官网没有竞赛通知栏目**——学院主要通过公众号发布（见下方"公众号"一节）。
 
 **说明与来源** — 数据缺陷、字段口径、更新命令
 
@@ -184,7 +194,7 @@ node   scripts\test_site.js
 | `data/seed/competitions_master.md` | 同一份数据的 Markdown 版 |
 | `data/seed/moj_2025_catalog.json` | 教育部 2025 认可竞赛目录 84 项（83 项含官网） |
 | `data/seed/xjtu_ab_list.json` | 西交 A/B 类名单 19 项（**旧版，不完整**） |
-| `data/seed/notices.json` | 校内通知 306 条（含自动关联到的竞赛） |
+| `data/seed/notices.json` | 校内通知 451 条（**多源聚合**，含自动关联到的竞赛与竞赛相关性标记） |
 | `data/seed/cadence.json` | 年度节律推断结果 37 个竞赛 + 全校月份分布 |
 | `data/curated/ee_relevance.json` | **电气相关度人工研判 —— 唯一应该手工编辑的数据文件** |
 
@@ -233,7 +243,7 @@ node   scripts\test_site.js
 # 依赖装在两个工作区内的目录, 与全局环境隔离
 python -m pip install --target .\.tools pypdf
 
-python scripts\crawl_xjtu_notices.py    # 抓校内通知(17页) → data/seed/notices.json
+python scripts\crawl_xjtu_notices.py    # 抓多源通知(实践教学中心/教务处/电气学院) → notices.json
 python scripts\parse_moe_catalog.py     # 教育部目录 PDF → JSON
 python scripts\parse_xjtu_ab.py         # 西交 A/B 名单 PDF → JSON
 python scripts\build_master_table.py    # 合并 → competitions_master.csv / .md
