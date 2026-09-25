@@ -521,9 +521,17 @@ const badLinkUrl = LINKS.filter(l => !/^https?:\/\//.test(l.url || ''));
 ok(badLinkUrl.length === 0, '所有网站网址都是绝对地址',
    badLinkUrl.map(l => l.name).join(', '));
 
-// 名称/网址不得重复(导航站重复条目会让人困惑)
-const dupUrl = LINKS.map(l => l.url).filter((u, i, a) => a.indexOf(u) !== i);
-ok(dupUrl.length === 0, '没有重复的网址', dupUrl.join(', '));
+// 名称/网址不得重复。**忽略协议**比较: 同一个站常同时有 http/https 两个版本
+// (实践教学中心就出现过), 只比字符串会漏掉这类重复。
+const linkKey = u => String(u || '').trim().toLowerCase()
+  .replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/+$/, '');
+const dupKey = LINKS.map(l => linkKey(l.url));
+const dupUrl = dupKey.filter((u, i, a) => a.indexOf(u) !== i);
+ok(dupUrl.length === 0, '没有重复的网址(忽略协议与 www)',
+   [...new Set(dupUrl)].join(', '));
+
+const dupName = LINKS.map(l => l.name).filter((n, i, a) => a.indexOf(n) !== i);
+ok(dupName.length === 0, '没有重名的网站', [...new Set(dupName)].join(', '));
 
 // 分类: chips 数量 = 分类数 + 1(全部)
 const chipHTML = els.linkChips.innerHTML || '';

@@ -46,10 +46,23 @@ def norm(s):
     return re.sub(r"\s+", "", s or "")
 
 
+def url_key(u):
+    """去重用的归一化 key: **忽略协议**、忽略 www、忽略结尾斜杠。
+
+    为什么不能直接比字符串: 同一个站点常同时有 http/https 两个版本
+    (例如实践教学中心 http://pec.xjtu.edu.cn/ 和 https://pec.xjtu.edu.cn/),
+    直接比会当成两条, 导航里出现重复条目。
+    """
+    u = (u or "").strip().lower()
+    u = re.sub(r"^https?://", "", u)
+    u = re.sub(r"^www\.", "", u)
+    return u.rstrip("/")
+
+
 def main():
     base = json.load(open(CURATED, encoding="utf-8"))
     items = base["items"]
-    existing = {i["url"].rstrip("/") for i in items}
+    existing = {url_key(i["url"]) for i in items}
     added_ocr, added_dept = [], []
 
     # ---- 来源 2: OCR 得到并实测过的站点 ----
@@ -57,7 +70,7 @@ def main():
         pj = json.load(open(PAIRS, encoding="utf-8"))
         for p in pj["pairs"]:
             url = p["url"]
-            if url.rstrip("/") in existing:
+            if url_key(url) in existing:
                 continue
             name = NAME_FIX.get(p["sub"], norm(p["name"]))
             cat = clean_cat(p["category"]) or "校内其余常用"
@@ -66,7 +79,7 @@ def main():
                 "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
                 "verified": p.get("status"),
             })
-            existing.add(url.rstrip("/"))
+            existing.add(url_key(url))
             added_ocr.append(name)
 
     # ---- 来源 3: 学院与书院主页 ----
@@ -74,14 +87,14 @@ def main():
         dj = json.load(open(DEPTS, encoding="utf-8"))
         for d in dj["items"]:
             url = d.get("homepage")
-            if not url or url.rstrip("/") in existing:
+            if not url or url_key(url) in existing:
                 continue
             items.append({
                 "name": d["name"], "url": url, "category": DEPT_CAT, "tags": [],
                 "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
                 "verified": d.get("status"),
             })
-            existing.add(url.rstrip("/"))
+            existing.add(url_key(url))
             added_dept.append(d["name"])
 
     # 全量归一化分类名 —— 新增条目会被 clean_cat 处理, 但**之前几轮已经写进
@@ -99,6 +112,27 @@ def main():
     if DEPT_CAT in present:
         order.append(DEPT_CAT)
 
+    # 全量二次去重: 之前几轮已经写进 JSON 的重复条目(协议不同)在这里清掉,
+    # 保留先出现的(curated 的说明更完整)。
+    seen_key, uniq = set(), []
+    for i in items:
+        k = url_key(i["url"])
+        if k in seen_key:
+            continue
+        seen_key.add(k)
+        uniq.append(i)
+    dropped = len(items) - len(uniq)
+    items = uniq
+
+    # 名称去重: 同名但不同站点时用域名首段区分。官网把 hpc.xjtu.edu.cn 也标为
+    # "网络信息中心", 与 nic.xjtu.edu.cn 撞名, 排在一起两条同名很困惑。
+    seen_name = set()
+    for i in items:
+        if i["name"] in seen_name:
+            host = url_key(i["url"]).split("/")[0]
+            i["name"] = "%s（%s）" % (i["name"], host.split(".")[0])
+        seen_name.add(i["name"])
+
     base["items"] = items
     base["_category_order"] = order
     base["_note"] = ("西交常用网站导航。三条来源: 人工整理 + 《西交常用网站汇总》截图(OCR) "
@@ -114,6 +148,7 @@ def main():
         by_cat[i["category"]] = by_cat.get(i["category"], 0) + 1
 
     print("总条目: %d" % len(items))
+    print("  去重丢弃: %d" % dropped)
     print("  其中新增(OCR截图): %d" % len(added_ocr))
     print("  其中新增(学院书院): %d" % len(added_dept))
     print("  分类数: %d" % len(by_cat))

@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-25 22:22
+// 生成时间: 2026-09-25 22:25
 window.SITE_DATA = {
- "generatedAt": "2026-09-25 22:22",
+ "generatedAt": "2026-09-25 22:25",
  "stats": {
   "competitions": 91,
   "notices": 451,
@@ -6867,14 +6867,6 @@ window.SITE_DATA = {
    "verified": 200
   },
   {
-   "name": "实践教学中心门户",
-   "url": "https://pec.xjtu.edu.cn/",
-   "category": "科创实践相关",
-   "tags": [],
-   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
-   "verified": 200
-  },
-  {
    "name": "财务处",
    "url": "https://jdcw.xjtu.edu.cn/",
    "category": "基础服务办理",
@@ -6902,14 +6894,6 @@ window.SITE_DATA = {
    "name": "教师个人主页",
    "url": "https://faculty.xjtu.edu.cn/",
    "category": "基础资源获取",
-   "tags": [],
-   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
-   "verified": 200
-  },
-  {
-   "name": "教务处",
-   "url": "https://due.xjtu.edu.cn/",
-   "category": "通知与信息公示",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -7139,14 +7123,6 @@ window.SITE_DATA = {
    "verified": 200
   },
   {
-   "name": "体育学院",
-   "url": "http://tyzx.xjtu.edu.cn/",
-   "category": "学院与书院",
-   "tags": [],
-   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
-   "verified": 200
-  },
-  {
    "name": "继续（网络）教育学院",
    "url": "http://sce.xjtu.edu.cn/",
    "category": "学院与书院",
@@ -7157,14 +7133,6 @@ window.SITE_DATA = {
   {
    "name": "国际教育学院",
    "url": "http://sie.xjtu.edu.cn/",
-   "category": "学院与书院",
-   "tags": [],
-   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
-   "verified": 200
-  },
-  {
-   "name": "钱学森学院",
-   "url": "http://bjb.xjtu.edu.cn/",
    "category": "学院与书院",
    "tags": [],
    "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
@@ -7291,7 +7259,7 @@ window.SITE_DATA = {
    "verified": 200
   },
   {
-   "name": "网络信息中心",
+   "name": "网络信息中心（hpc）",
    "url": "http://hpc.xjtu.edu.cn/",
    "category": "学院与书院",
    "tags": [],
