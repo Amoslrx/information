@@ -20,6 +20,11 @@ DST = os.path.join(SITE, "data.js")
 
 UNKNOWN_CAT = "未认定(待核)"
 
+# "校内选拔中" 的判定窗口(天): 这个天数内有校内选拔/校赛类通知, 且其截止时间
+# 未过(或没提取到截止时间), 就认为该竞赛当前可以报名。
+# 国家赛官网还没开放报名时, 校内选拔往往已经在跑了。
+SELECT_WINDOW = 120
+
 
 def load_competitions():
     path = os.path.join(SEED, "competitions_master.csv")
@@ -133,6 +138,17 @@ def main():
     for n in notices:
         if n["competition"]:
             by_name.setdefault(n["competition"], []).append(n)
+
+    import datetime as _dt
+
+    def days_ago(d):
+        try:
+            a = _dt.date(*[int(x) for x in d.split("-")])
+            b = _dt.date(*[int(x) for x in today.split("-")])
+            return (b - a).days
+        except Exception:
+            return 99999
+
     for c in comps:
         rel = by_name.get(c["name"], [])
         rel.sort(key=lambda x: x["date"], reverse=True)
@@ -145,6 +161,19 @@ def main():
         c["openDeadline"] = opens[0]["deadline"] if opens else ""
         c["openNoticeUrl"] = opens[0]["url"] if opens else ""
         c["isOpen"] = bool(opens)
+
+        # 校内选拔中: 近 SELECT_WINDOW 天内有"校内选拔/校赛"类通知, 且该通知的
+        # 截止时间还没过(或没提取到截止时间)。国家赛官网还没开放报名时,
+        # 校内选拔往往已经在跑了, 所以这一路也要算作"可以报名"。
+        cands = [n for n in rel
+                 if n["isCampus"]
+                 and days_ago(n["date"]) <= SELECT_WINDOW
+                 and (not n["deadline"] or n["deadline"] >= today)]
+        c["isSelecting"] = bool(cands)
+        c["selectNotice"] = cands[0] if cands else None
+        # 站点上"可报名"= 有未过期截止时间, 或正在校内选拔
+        c["isRecruiting"] = c["isOpen"] or c["isSelecting"]
+
         cad = cadence.get(c["name"])
         if cad:
             c["cadence"] = {
@@ -176,6 +205,8 @@ def main():
         "noticesCampus": sum(1 for n in notices if n.get("isCampus")),
         "noticesWithDeadline": sum(1 for n in notices if n.get("deadline")),
         "competitionsOpen": sum(1 for c in comps if c.get("isOpen")),
+        "competitionsSelecting": sum(1 for c in comps if c.get("isSelecting")),
+        "competitionsRecruiting": sum(1 for c in comps if c.get("isRecruiting")),
         "today": today,
         "noticeFrom": min(dates) if dates else "",
         "noticeTo": max(dates) if dates else "",

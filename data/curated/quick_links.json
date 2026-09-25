@@ -8,7 +8,6 @@
   "科创实践相关",
   "基础服务办理",
   "新生与入学",
-  "基础资源获取",
   "通知与信息公示",
   "校内已停用网站",
   "学院与书院"
@@ -291,7 +290,7 @@
   {
    "name": "教师个人主页",
    "url": "https://faculty.xjtu.edu.cn/",
-   "category": "基础资源获取",
+   "category": "日常学习相关",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -329,9 +328,9 @@
    "verified": 200
   },
   {
-   "name": "钱院门户",
+   "name": "钱学森学院 / 钱学森书院",
    "url": "https://bjb.xjtu.edu.cn/",
-   "category": "通知与信息公示",
+   "category": "学院与书院",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -659,14 +658,14 @@
   {
    "name": "网络信息中心（hpc）",
    "url": "http://hpc.xjtu.edu.cn/",
-   "category": "学院与书院",
+   "category": "基础服务办理",
    "tags": [],
    "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
    "verified": 200
   }
  ],
  "_curation": {
-  "_note": "人工指定的分类。改名用 category_renames; 单个站点归类别用 by_url(按 URL 匹配, 忽略协议/www/尾斜杠)。",
+  "_note": "人工指定的分类与名称。改名用 category_renames; 单个站点归类别用 by_url; 单个站点改名用 rename_by_url。匹配 URL 时忽略协议/www/尾斜杠。",
   "category_renames": {
    "放在前面": "常用"
   },
@@ -683,7 +682,13 @@
    "https://m.xjtu.edu.cn/": "基础服务办理",
    "https://nethelp.xjtu.edu.cn/": "基础服务办理",
    "http://hello.xjtu.edu.cn/": "新生与入学",
-   "https://xsxb.xjtu.edu.cn/": "新生与入学"
+   "https://xsxb.xjtu.edu.cn/": "新生与入学",
+   "https://bjb.xjtu.edu.cn/": "学院与书院",
+   "https://faculty.xjtu.edu.cn/": "日常学习相关",
+   "http://hpc.xjtu.edu.cn/": "基础服务办理"
+  },
+  "rename_by_url": {
+   "https://bjb.xjtu.edu.cn/": "钱学森学院 / 钱学森书院"
   }
  }
 }

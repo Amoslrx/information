@@ -133,6 +133,90 @@ def clean_title(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+# ---------------------------------------------------------------- API 源
+# 校团委是 Nuxt.js 单页应用: 页面内容全部由前端从 /api/v1 拉取, HTML 里没有数据
+# (__NUXT__ 载荷是空的)。逆向它的 JS bundle 后拿到确切接口, 注意参数是**小写**的
+# catalogId/page/limit —— 用大写的 Id/Page/Limit 会报"必填字段"错误。
+#   GET /api/v1/catalogs                              -> 栏目树(拿到 catalogId)
+#   GET /api/v1/secondCatalog?catalogId=&page=&limit= -> 二级栏目文章列表
+# 返回 {"success":true,"data":{"total":476,"data":[
+#         {"articleId":4760,"headline":"...","publish":"2026-09-14"}]}}
+# 文章地址: https://tuanwei.xjtu.edu.cn/passage?id={articleId}
+#
+# 这一路很关键: 挑战杯、腾飞杯这类归口团委的竞赛, 通知只发在这里,
+# 实践教学中心没有。
+API_BASE = "https://tuanwei.xjtu.edu.cn/api/v1"
+API_HEADERS = {
+    "User-Agent": HEADERS["User-Agent"],
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://tuanwei.xjtu.edu.cn/",
+}
+API_SOURCES = [
+    # 通知公告(id=9): 主力, 476 条, 首页 50 条里 40 条与竞赛相关
+    {"key": "tuanwei", "label": "校团委 · 通知公告", "site": "校团委",
+     "catalog_id": 9, "max_pages": 12, "limit": 50},
+    # 团学快讯(id=14): 1053 条, 更新最勤, 竞赛类占比低但时效好
+    {"key": "tuanwei_news", "label": "校团委 · 团学快讯", "site": "校团委",
+     "catalog_id": 14, "max_pages": 4, "limit": 50},
+    # 媒体聚焦(id=10) 与 活动预告(id=15): 量小, 顺带抓
+    {"key": "tuanwei_media", "label": "校团委 · 媒体聚焦", "site": "校团委",
+     "catalog_id": 10, "max_pages": 2, "limit": 50},
+    {"key": "tuanwei_act", "label": "校团委 · 活动预告", "site": "校团委",
+     "catalog_id": 15, "max_pages": 2, "limit": 50},
+]
+
+
+def crawl_api_source(src, stats):
+    """爬一个 API 源(团委这种客户端渲染的站点)。"""
+    out = []
+    for page in range(1, src["max_pages"] + 1):
+        q = urllib.parse.urlencode({"catalogId": src["catalog_id"],
+                                    "page": page, "limit": src["limit"]})
+        try:
+            req = urllib.request.Request(API_BASE + "/secondCatalog?" + q,
+                                         headers=API_HEADERS)
+            with urllib.request.urlopen(req, timeout=TIMEOUT, context=CTX) as r:
+                raw = r.read()
+                if r.headers.get("Content-Encoding") == "gzip":
+                    raw = gzip.decompress(raw)
+            d = json.loads(raw.decode("utf-8", "replace"))
+        except Exception as e:
+            print("    [%s] 第 %d 页停止: %s" % (src["key"], page, str(e)[:60]))
+            break
+
+        if not d.get("success"):
+            print("    [%s] 第 %d 页接口报错: %s" % (
+                src["key"], page, str(d.get("message"))[:50]))
+            break
+        block = d.get("data") or {}
+        rows = block.get("data") or []
+        if not rows:
+            print("    [%s] 第 %d 页无数据, 停止" % (src["key"], page))
+            break
+
+        for it in rows:
+            aid, head, pub = it.get("articleId"), it.get("headline"), it.get("publish")
+            if not (aid and head and pub):
+                continue
+            out.append({
+                "date": str(pub)[:10],
+                "title": re.sub(r"\s+", " ", head).strip(),
+                "url": "https://tuanwei.xjtu.edu.cn/passage?id=%s" % aid,
+                "source": src["key"],
+                "site": src["site"],
+            })
+
+        print("    [%s] 第 %2d 页: %d 条 (源累计 %d / 站内共 %s)" % (
+            src["key"], page, len(rows), len(out), block.get("total")))
+        if len(rows) < src["limit"]:
+            break
+        time.sleep(DELAY)
+    stats[src["key"]] = stats.get(src["key"], 0) + len(out)
+    return out
+
+
 def crawl_source(src, stats):
     """爬一个源的前 max_pages 页, 返回通知列表。"""
     out = []
@@ -255,6 +339,10 @@ def main():
     for src in SOURCES:
         print("\n=== %s (%s) ===" % (src["label"], src["key"]))
         fresh.extend(crawl_source(src, stats))
+
+    for src in API_SOURCES:
+        print("\n=== %s (%s) ===" % (src["label"], src["key"]))
+        fresh.extend(crawl_api_source(src, stats))
 
     # ---- 按 URL 合并: 新抓的覆盖旧的(标题可能被修正) ----
     merged = {}

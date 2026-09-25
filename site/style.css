@@ -288,10 +288,14 @@ code {
   border-left-color: #0b7a4b;
   background: linear-gradient(90deg, #f6fdf9, var(--surface) 46%);
 }
+/* 校内选拔中: 用另一种颜色区分, 避免和"有明确截止时间"混淆 */
+.card.is-selecting { border-left-color: #5b3fa8; }
 .open-tag {
   background: #0b7a4b; color: #fff; font-weight: 700;
   padding: 3px 10px; border-radius: 20px; font-size: 12px;
 }
+.open-tag.is-select { background: #5b3fa8; }
+.b-select { background: #f3eefb; color: #5b3fa8; font-weight: 700; }
 .notice-tag.is-campus { background: #f3eefb; color: #5b3fa8; font-weight: 600; }
 .b-campus { background: #f3eefb; color: #5b3fa8; font-weight: 600; }
 .deadline-tag {

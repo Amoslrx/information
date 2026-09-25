@@ -7,20 +7,20 @@
     "coverage_threshold": 0.6
   },
   "schema_version": 1,
-  "count": 37,
+  "count": 40,
   "monthHistogram": {
-    "1": 32,
-    "2": 10,
-    "3": 73,
-    "4": 71,
-    "5": 46,
-    "6": 41,
-    "7": 23,
-    "8": 17,
-    "9": 39,
-    "10": 30,
-    "11": 31,
-    "12": 38
+    "1": 56,
+    "2": 30,
+    "3": 172,
+    "4": 215,
+    "5": 189,
+    "6": 116,
+    "7": 63,
+    "8": 65,
+    "9": 128,
+    "10": 104,
+    "11": 87,
+    "12": 100
   },
   "items": [
     {
@@ -210,18 +210,20 @@
       "xjtuCat": "A类",
       "url": "http://www.jienengjianpai.org/",
       "dept": "团委",
-      "yearsObserved": 4,
+      "yearsObserved": 5,
       "years": [
+        2012,
         2020,
         2021,
         2022,
         2023
       ],
-      "noticeCount": 7,
+      "noticeCount": 14,
       "months": {
-        "3": 3,
-        "4": 2,
-        "5": 2
+        "2": 1,
+        "3": 5,
+        "4": 3,
+        "5": 5
       },
       "stableMonths": [
         3,
@@ -229,18 +231,57 @@
         5
       ],
       "windowStart": 3,
-      "windowEnd": 4,
-      "windowLabel": "三月–四月",
-      "coverage": 0.714,
+      "windowEnd": 5,
+      "windowLabel": "三月–五月",
+      "coverage": 0.929,
       "confidence": "high",
       "evidence": [
         "2023-05-10",
         "2023-03-23",
+        "2023-03-22",
+        "2022-05-09",
+        "2022-05-03",
         "2022-05-02",
         "2022-03-23",
-        "2021-04-21",
-        "2021-03-24",
-        "2020-04-07"
+        "2021-04-21"
+      ]
+    },
+    {
+      "competition": "“挑战杯”全国大学生课外学术科技作品竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "http://www.tiaozhanbei.net/",
+      "dept": "团委",
+      "yearsObserved": 3,
+      "years": [
+        2021,
+        2023,
+        2025
+      ],
+      "noticeCount": 8,
+      "months": {
+        "5": 1,
+        "6": 2,
+        "7": 3,
+        "8": 2
+      },
+      "stableMonths": [
+        6
+      ],
+      "windowStart": 7,
+      "windowEnd": 8,
+      "windowLabel": "七月–八月",
+      "coverage": 0.625,
+      "confidence": "medium",
+      "evidence": [
+        "2025-08-17",
+        "2025-08-13",
+        "2025-07-29",
+        "2025-07-24",
+        "2025-07-16",
+        "2025-06-23",
+        "2023-06-08",
+        "2021-05-25"
       ]
     },
     {
@@ -391,6 +432,46 @@
       ]
     },
     {
+      "competition": "“挑战杯”中国大学生创业计划大赛",
+      "ee": 4,
+      "xjtuCat": "A类",
+      "url": "http://www.tiaozhanbei.net/",
+      "dept": "团委",
+      "yearsObserved": 2,
+      "years": [
+        2024,
+        2026
+      ],
+      "noticeCount": 29,
+      "months": {
+        "4": 6,
+        "5": 6,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 3,
+        "10": 8
+      },
+      "stableMonths": [
+        5
+      ],
+      "windowStart": 4,
+      "windowEnd": 8,
+      "windowLabel": "四月–八月",
+      "coverage": 0.621,
+      "confidence": "low",
+      "evidence": [
+        "2026-08-17",
+        "2026-08-16",
+        "2026-06-22",
+        "2026-06-02",
+        "2026-05-11",
+        "2026-05-09",
+        "2026-05-08",
+        "2026-05-06"
+      ]
+    },
+    {
       "competition": "中国机器人及人工智能大赛",
       "ee": 4,
       "xjtuCat": "未认定(待核)",
@@ -416,6 +497,33 @@
       "evidence": [
         "2026-03-12",
         "2025-03-05"
+      ]
+    },
+    {
+      "competition": "全国大学生机器人大赛",
+      "ee": 4,
+      "xjtuCat": "A类",
+      "url": "https://www.cnrobocon.net/",
+      "dept": "工程坊",
+      "yearsObserved": 2,
+      "years": [
+        2015,
+        2023
+      ],
+      "noticeCount": 2,
+      "months": {
+        "5": 1,
+        "10": 1
+      },
+      "stableMonths": [],
+      "windowStart": 5,
+      "windowEnd": 10,
+      "windowLabel": "五月–十月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2023-10-08",
+        "2015-05-14"
       ]
     },
     {
@@ -480,8 +588,10 @@
       "xjtuCat": "A类",
       "url": "http://umic.ckcest.cn/",
       "dept": "教务处",
-      "yearsObserved": 7,
+      "yearsObserved": 9,
       "years": [
+        2013,
+        2018,
         2019,
         2021,
         2022,
@@ -490,21 +600,22 @@
         2025,
         2026
       ],
-      "noticeCount": 10,
+      "noticeCount": 12,
       "months": {
         "2": 1,
         "3": 5,
         "4": 2,
-        "5": 2
+        "5": 4
       },
       "stableMonths": [
         3,
-        4
+        4,
+        5
       ],
       "windowStart": 3,
-      "windowEnd": 4,
-      "windowLabel": "三月–四月",
-      "coverage": 0.7,
+      "windowEnd": 5,
+      "windowLabel": "三月–五月",
+      "coverage": 0.917,
       "confidence": "high",
       "evidence": [
         "2026-03-26",
@@ -868,15 +979,17 @@
       "xjtuCat": "未认定(待核)",
       "url": "http://www.cnsoftbei.com/",
       "dept": "",
-      "yearsObserved": 4,
+      "yearsObserved": 5,
       "years": [
+        2012,
         2023,
         2024,
         2025,
         2026
       ],
-      "noticeCount": 4,
+      "noticeCount": 5,
       "months": {
+        "3": 1,
         "4": 2,
         "5": 2
       },
@@ -887,13 +1000,14 @@
       "windowStart": 4,
       "windowEnd": 5,
       "windowLabel": "四月–五月",
-      "coverage": 1.0,
+      "coverage": 0.8,
       "confidence": "high",
       "evidence": [
         "2026-04-23",
         "2025-04-29",
         "2024-05-01",
-        "2023-05-17"
+        "2023-05-17",
+        "2012-03-29"
       ]
     },
     {
@@ -1179,6 +1293,37 @@
       ]
     },
     {
+      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "ee": 1,
+      "xjtuCat": "未认定(待核)",
+      "url": "http://www.3chuang.net/",
+      "dept": "",
+      "yearsObserved": 3,
+      "years": [
+        2018,
+        2024,
+        2025
+      ],
+      "noticeCount": 3,
+      "months": {
+        "4": 1,
+        "12": 2
+      },
+      "stableMonths": [
+        12
+      ],
+      "windowStart": 12,
+      "windowEnd": 12,
+      "windowLabel": "十二月",
+      "coverage": 0.667,
+      "confidence": "medium",
+      "evidence": [
+        "2025-12-25",
+        "2024-12-18",
+        "2018-04-28"
+      ]
+    },
+    {
       "competition": "全国高等院校数智化企业经营沙盘大赛",
       "ee": 1,
       "xjtuCat": "未认定(待核)",
@@ -1260,34 +1405,6 @@
       "evidence": [
         "2026-03-04",
         "2024-12-25"
-      ]
-    },
-    {
-      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
-      "ee": 1,
-      "xjtuCat": "未认定(待核)",
-      "url": "http://www.3chuang.net/",
-      "dept": "",
-      "yearsObserved": 2,
-      "years": [
-        2024,
-        2025
-      ],
-      "noticeCount": 2,
-      "months": {
-        "12": 2
-      },
-      "stableMonths": [
-        12
-      ],
-      "windowStart": 12,
-      "windowEnd": 12,
-      "windowLabel": "十二月",
-      "coverage": 1.0,
-      "confidence": "low",
-      "evidence": [
-        "2025-12-25",
-        "2024-12-18"
       ]
     }
   ]

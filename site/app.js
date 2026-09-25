@@ -95,7 +95,7 @@
     $('headStats').innerHTML = [
       ['竞赛条目', STATS.competitions],
       ['电气相关(≥4)', countEE(4)],
-      ['报名中', (COMPS.filter(function (c) { return c.isOpen; })).length],
+      ['可报名', (COMPS.filter(function (c) { return c.isRecruiting; })).length],
       ['校内通知', STATS.notices]
     ].map(function (p) {
       return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>';
@@ -172,7 +172,8 @@
 
   function filterComps(f) {
     return COMPS.filter(function (c) {
-      if (f.open && !c.isOpen) return false;
+      // "可报名" = 有未过期截止时间, 或正在校内选拔
+      if (f.open && !c.isRecruiting) return false;
       if (f.ee && !(c.ee != null && c.ee >= +f.ee)) return false;
       if (f.cat === '__unknown') { if (c.xjtuCat !== UNKNOWN_CAT) return false; }
       else if (f.cat && c.xjtuCat !== f.cat) return false;
@@ -194,11 +195,13 @@
     if (how === 'ee') {
       arr.sort(function (a, b) { return byEE(a, b) || a.name.localeCompare(b.name, 'zh'); });
     } else if (how === 'deadline') {
-      // 报名中的排最前(按截止日期由近到远), 其余按相关度
+      // 可报名的排最前(有明确截止的按截止日由近到远), 其余按相关度
       arr.sort(function (a, b) {
-        var oa = a.isOpen ? 1 : 0, ob = b.isOpen ? 1 : 0;
+        var oa = a.isRecruiting ? 1 : 0, ob = b.isRecruiting ? 1 : 0;
         if (oa !== ob) return ob - oa;
-        if (a.isOpen && b.isOpen) return a.openDeadline.localeCompare(b.openDeadline);
+        var da = a.openDeadline || '', db = b.openDeadline || '';
+        if (da && db) return da.localeCompare(db);
+        if (da !== db) return db ? 1 : -1;
         return byEE(a, b);
       });
     } else if (how === 'recent') {
@@ -255,10 +258,14 @@
       foot.push('<a class="link-official" href="' + esc(c.url) + '" target="_blank" ' +
                 'rel="noopener">官网 ' + esc(c.domain || '链接') + ' ↗</a>');
     }
-    // 报名中: 最显眼的位置
+    // 可报名: 最显眼的位置。两种来源分开说清楚, 不含糊
     if (c.isOpen) {
       foot.unshift('<span class="open-tag">报名中 · ' + fmtDeadline(c.openDeadline) +
                    ' 截止（还剩 ' + daysUntil(c.openDeadline) + ' 天）</span>');
+    } else if (c.isSelecting) {
+      var sn = c.selectNotice || {};
+      foot.unshift('<span class="open-tag is-select">校内选拔中 · ' +
+                   esc(sn.date || '') + ' 发布通知</span>');
     }
     if (c.latestNotice) {
       foot.push('<span class="notice-tag' + (fresh ? ' is-fresh' : '') + '">' +
@@ -273,13 +280,15 @@
     }
 
     return '' +
-      '<article class="card ee' + (c.ee || 1) + (c.isOpen ? ' is-open' : '') +
+      '<article class="card ee' + (c.ee || 1) +
+        (c.isOpen ? ' is-open' : (c.isSelecting ? ' is-selecting' : '')) +
         '" data-name="' + esc(c.name) + '">' +
         '<div class="card-top">' +
           '<h3 class="card-title">' + esc(c.name) + alias + '</h3>' +
         '</div>' +
         '<div class="badges">' +
           (c.isOpen ? '<span class="badge b-open">报名中</span>' : '') +
+          (c.isSelecting ? '<span class="badge b-select">校内选拔中</span>' : '') +
           eeBadge(c.ee) + catBadge(c.xjtuCat) + moeBadge(c) +
           (c.dept ? '<span class="badge b-dept">' + esc(c.dept) + '</span>' : '') +
         '</div>' +

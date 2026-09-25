@@ -2,7 +2,7 @@
  "source": "通知详情页正文",
  "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
  "min_score": 4,
- "count": 99,
+ "count": 121,
  "with_deadline": 68,
  "items": [
   {
@@ -889,6 +889,204 @@
    "deadline": "2024-11-04",
    "score": 4,
    "bodyLen": 2884,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+   "title": "关于2026年下半年全国大学英语四、六级考试报名的通知",
+   "noticeDate": "2026-09-09",
+   "deadline": "2026-12-12",
+   "score": 3,
+   "bodyLen": 2830,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4753",
+   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届\"挑战杯\"中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
+   "noticeDate": "2026-08-17",
+   "deadline": "2026-08-17",
+   "score": -12,
+   "bodyLen": 1491,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4752",
+   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
+   "noticeDate": "2026-08-16",
+   "deadline": "2026-08-16",
+   "score": 0,
+   "bodyLen": 1745,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4733",
+   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
+   "noticeDate": "2026-06-22",
+   "deadline": "2026-06-22",
+   "score": 0,
+   "bodyLen": 1480,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4725",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-06-02",
+   "deadline": "2026-06-02",
+   "score": 0,
+   "bodyLen": 1574,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4720",
+   "title": "西安交通大学第十三届“挑战杯”陕汽集团陕西省大学生创业计划竞赛申报作品公示",
+   "noticeDate": "2026-05-11",
+   "deadline": "2026-05-11",
+   "score": 3,
+   "bodyLen": 3122,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4719",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-05-11",
+   "deadline": "2026-05-11",
+   "score": 0,
+   "bodyLen": 1998,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4718",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-05-09",
+   "deadline": "2026-05-09",
+   "score": 0,
+   "bodyLen": 2086,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4717",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-05-08",
+   "deadline": "2026-05-08",
+   "score": 0,
+   "bodyLen": 1804,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4715",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-05-06",
+   "deadline": "2026-05-06",
+   "score": 0,
+   "bodyLen": 1477,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4711",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
+   "noticeDate": "2026-05-06",
+   "deadline": "2026-05-06",
+   "score": 0,
+   "bodyLen": 1822,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4706",
+   "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-30",
+   "deadline": "2026-04-30",
+   "score": 0,
+   "bodyLen": 1714,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4707",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-30",
+   "deadline": "2026-04-30",
+   "score": 0,
+   "bodyLen": 1647,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4703",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-28",
+   "deadline": "2026-04-28",
+   "score": 0,
+   "bodyLen": 1555,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4702",
+   "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-23",
+   "deadline": "2026-04-23",
+   "score": 0,
+   "bodyLen": 1654,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4699",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-22",
+   "deadline": "2026-04-22",
+   "score": 0,
+   "bodyLen": 2247,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10031.htm",
+   "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
+   "noticeDate": "2026-04-22",
+   "deadline": "2026-04-24",
+   "score": 3,
+   "bodyLen": 4205,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4696",
+   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
+   "noticeDate": "2026-04-15",
+   "deadline": "2026-04-15",
+   "score": 0,
+   "bodyLen": 1935,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4630",
+   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
+   "noticeDate": "2025-08-17",
+   "deadline": "2025-08-21",
+   "score": 0,
+   "bodyLen": 1769,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4629",
+   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
+   "noticeDate": "2025-08-13",
+   "deadline": "2025-08-13",
+   "score": 0,
+   "bodyLen": 1464,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4628",
+   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
+   "noticeDate": "2025-07-29",
+   "deadline": "2025-07-29",
+   "score": 0,
+   "bodyLen": 1547,
+   "snippet": ""
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4627",
+   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
+   "noticeDate": "2025-07-24",
+   "deadline": "2025-07-24",
+   "score": 0,
+   "bodyLen": 1836,
    "snippet": ""
   }
  ]

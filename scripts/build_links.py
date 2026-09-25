@@ -117,6 +117,13 @@ def main():
         want = by_url.get(url_key(i["url"]))
         if want:
             i["category"] = want
+    # 改名: OCR 读出来的名字常常不是正式名称(如 bjb.xjtu.edu.cn 被写成"钱院门户",
+    # 实际是钱学森学院/书院的站点), 按 URL 覆盖。
+    rename_by_url = {url_key(k): v for k, v in (cur.get("rename_by_url") or {}).items()}
+    for i in items:
+        want = rename_by_url.get(url_key(i["url"]))
+        if want:
+            i["name"] = want
 
     # 分类顺序: 学院与书院放最后; 数据里出现但预设没有的分类(如"校内已停用网站")补在它前面
     preset = [renames.get(c, c) for c in base.get("_category_order", []) if c != DEPT_CAT]

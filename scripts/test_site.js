@@ -593,6 +593,31 @@ ok(campus.length > 0, '识别出了校内选拔/校赛类通知', campus.length 
 const badCampus = DATA.competitions.filter(c => (c.campusNoticeCount || 0) > (c.noticeCount || 0));
 ok(badCampus.length === 0, '校内选拔条数不超过通知总数');
 
+// 校内选拔也算"可报名": 国家赛官网还没开报名时, 校内选拔往往已经在跑了
+const selecting = DATA.competitions.filter(c => c.isSelecting);
+const recruiting = DATA.competitions.filter(c => c.isRecruiting);
+ok(DATA.stats.competitionsSelecting === selecting.length,
+   '校内选拔中的竞赛数与统计一致');
+ok(DATA.stats.competitionsRecruiting === recruiting.length,
+   '可报名的竞赛数与统计一致', recruiting.length + ' vs ' + DATA.stats.competitionsRecruiting);
+ok(recruiting.every(c => c.isOpen || c.isSelecting),
+   '可报名 = 有截止时间 或 校内选拔中');
+ok(selecting.every(c => c.selectNotice && c.selectNotice.isCampus),
+   '校内选拔中的依据必须是校内选拔类通知');
+// 校内选拔窗口内的通知不能太老
+const stale = selecting.filter(c => {
+  const d = new Date(c.selectNotice.date + 'T00:00:00');
+  const t = new Date(DATA.stats.today + 'T00:00:00');
+  return Math.round((t - d) / 86400000) > 120;
+});
+ok(stale.length === 0, '校内选拔判定只看 120 天内的通知',
+   stale.map(c => c.name + ' ' + c.selectNotice.date).join(', '));
+// 两类标记都要能渲染出来(渲染是"报名中"优先, 因为信息更具体)
+ok(selecting.length > 0 ? catHTML.includes('badge b-select') : true,
+   '校内选拔中的竞赛有「校内选拔中」徽章');
+ok(selecting.length > 0 ? catHTML.includes('open-tag is-select') : true,
+   '校内选拔中显示了对应的通知日期');
+
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);
 if (fail) {
