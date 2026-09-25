@@ -79,8 +79,9 @@
     if (cat === UNKNOWN_CAT) {
       return '<span class="badge b-unk" title="西交旧名单里没有此赛事，不代表学校未认定">未认定（待核）</span>';
     }
-    var cls = cat === 'A类' ? 'b-a' : (cat === 'B类' ? 'b-b' : 'b-unk');
-    return '<span class="badge ' + cls + '">西交 ' + esc(cat) + '</span>';
+    var cls = cat === 'A类' ? 'b-a' : (cat === 'B类' ? 'b-b' : (cat === 'C类' ? 'b-c' : 'b-unk'));
+    var tip = cat === 'C类' ? ' title="电气工程学院认定的 C 类竞赛"' : '';
+    return '<span class="badge ' + cls + '"' + tip + '>西交 ' + esc(cat) + '</span>';
   }
 
   function moeBadge(c) {
@@ -313,6 +314,7 @@
       ['西交认定', c.xjtuCat],
       ['级别', c.level || '—'],
       ['归口部门', c.dept || '—'],
+      ['专项负责人', c.contact || '—'],
       ['教育部目录', c.inMoe ? '在目录内（第 ' + c.moeNo + ' 项）' : '不在 84 项目录内'],
       ['主办单位', c.organizer || '—'],
       ['西交名单用名', c.alias || '—'],

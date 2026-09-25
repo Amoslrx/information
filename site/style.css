@@ -194,6 +194,7 @@ code {
 .b-ee1 { background: var(--ee1-bg); color: var(--ee1); }
 .b-a { background: var(--a-bg); color: var(--a); }
 .b-b { background: var(--b-bg); color: var(--b); }
+.b-c { background: #f3eefb; color: #5b3fa8; }
 .b-unk { background: var(--unk-bg); color: var(--unk); font-weight: 500; }
 .b-moe { background: #eef7f0; color: #1f6b41; }
 .b-level { background: var(--line-2); color: var(--ink-2); font-weight: 500; }

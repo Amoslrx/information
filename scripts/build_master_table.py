@@ -18,6 +18,7 @@
 import csv
 import json
 import os
+import re
 from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,13 +27,20 @@ CURATED = os.path.join(ROOT, "data", "curated", "ee_relevance.json")
 
 HEADERS = ["竞赛名称", "电气相关度", "西交类别", "西交名单用名", "级别", "归口部门",
            "教育部目录", "教育部目录序号", "主办单位", "官网",
-           "相关理由", "数据来源", "最后核对"]
+           "相关理由", "专项负责人", "数据来源", "最后核对"]
 
 UNKNOWN_CAT = "未认定(待核)"
 SOURCE_MOE = "教育部2025目录"
 SOURCE_XJTU = "西交A/B名单(旧版)"
 SOURCE_BOTH = "教育部2025目录+西交A/B名单(旧版)"
+SOURCE_C = "电气学院C类列表"
 TODAY = "2026-09-23"
+
+
+def norm_name(s):
+    """竞赛名归一化, 用于把 C 类列表和目录里的同名赛事对上。"""
+    s = re.sub(r"[（）()【】\[\]“”\"'\s·、,，。\-—–_/\\]", "", s or "")
+    return s.lower()
 
 
 def load():
@@ -42,11 +50,13 @@ def load():
         xjtu = json.load(f)
     with open(CURATED, encoding="utf-8") as f:
         cur = json.load(f)
-    return moe, xjtu, cur
+    ccls_path = os.path.join(ROOT, "data", "curated", "xjtu_ee_c_class.json")
+    ccls = json.load(open(ccls_path, encoding="utf-8")) if os.path.exists(ccls_path) else {"items": []}
+    return moe, xjtu, cur, ccls
 
 
 def build():
-    moe, xjtu, cur = load()
+    moe, xjtu, cur, ccls = load()
     relevance = {int(k): v for k, v in cur["moe_relevance"].items()}
     x2m = {k: v for k, v in cur["xjtu_to_moe"].items() if not k.startswith("_")}
     xjtu_only = {r["key"]: r for r in cur["xjtu_only"]}
@@ -113,7 +123,58 @@ def build():
             "最后核对": TODAY,
         })
 
-    # ---- 3) 排序: 电气相关度降序, 其次教育部序号 ----
+    # ---- 3) 电气学院 C 类列表 ----
+    # 这是**学院级**认定(电气工程学院学生竞赛管理委员会), 与学校级 A/B 不同层级。
+    # 能对上目录里已有赛事的就补一个 C 类标注; 对不上的新增条目。
+    c_rows = []
+    for c in ccls.get("items", []):
+        nm = norm_name(c["name"])
+        target = None
+        # 3a) 显式指定优先(原文名称与目录不一致时, 由 curated 文件写明)
+        want_no = c.get("_match_moe")
+        if want_no:
+            for r in rows:
+                if r["教育部目录序号"] == want_no:
+                    target = r
+                    break
+        # 3b) 否则按名称匹配: 相等, 或一方包含另一方(短的 >= 6 字)
+        if target is None:
+            for r in rows:
+                rn = norm_name(r["竞赛名称"])
+                if rn == nm or (len(nm) >= 6 and len(rn) >= 6 and
+                                (nm in rn or rn in nm)):
+                    target = r
+                    break
+        if target is not None:
+            target["专项负责人"] = c.get("contact", "")
+            # 不覆盖学校级 A/B 认定, 只补空的
+            if target["西交类别"] == UNKNOWN_CAT:
+                target["西交类别"] = ccls["category"]
+            if SOURCE_C not in target["数据来源"]:
+                target["数据来源"] += "+" + SOURCE_C
+            if c.get("_name_note"):
+                target["相关理由"] = (target["相关理由"] + "；" +
+                                  c["_name_note"]).strip("；")
+        else:
+            c_rows.append({
+                "竞赛名称": c["name"],
+                "电气相关度": "",
+                "西交类别": ccls["category"],
+                "西交名单用名": "",
+                "级别": "",
+                "归口部门": "电气学院",
+                "教育部目录": "否",
+                "教育部目录序号": "",
+                "主办单位": "",
+                "官网": "",
+                "相关理由": c.get("_name_note", "") or "电气工程学院认定的 C 类竞赛。",
+                "专项负责人": c.get("contact", ""),
+                "数据来源": SOURCE_C,
+                "最后核对": TODAY,
+            })
+    rows.extend(c_rows)
+
+    # ---- 4) 排序: 电气相关度降序, 其次教育部序号 ----
     def sort_key(r):
         s = r["电气相关度"]
         s = s if isinstance(s, int) else -1
@@ -121,7 +182,7 @@ def build():
         return (-s, mno if isinstance(mno, int) else 999, r["竞赛名称"])
 
     rows.sort(key=sort_key)
-    return rows
+    return rows, len(c_rows)
 
 
 def write_csv(rows):
@@ -158,11 +219,14 @@ def write_md(rows):
 
 
 def main():
-    rows = build()
+    rows, c_new = build()
     c = write_csv(rows)
     m = write_md(rows)
 
     print("总行数: %d" % len(rows))
+    print("  C类列表新增   : %d" % c_new)
+    for cat in ("A类", "B类", "C类"):
+        print("  西交%s        : %d" % (cat, sum(1 for r in rows if r["西交类别"] == cat)))
     print("  教育部目录条目 : %d" % sum(1 for r in rows if r["教育部目录"] == "是"))
     print("  西交独有条目   : %d" % sum(1 for r in rows if r["教育部目录"] == "否"))
     print("  有西交类别     : %d" % sum(1 for r in rows if r["西交类别"] != UNKNOWN_CAT))

@@ -49,6 +49,7 @@ def load_competitions():
             "url": url,
             "domain": url.split("//")[-1].split("/")[0] if url else "",
             "reason": r["相关理由"].strip(),
+            "contact": (r.get("专项负责人") or "").strip(),
             "source": r["数据来源"].strip(),
         })
     return out
@@ -192,6 +193,9 @@ def main():
     for c in comps:
         k = c["ee"] if c["ee"] is not None else 0
         ee_dist[k] = ee_dist.get(k, 0) + 1
+    cat_dist = {}
+    for c in comps:
+        cat_dist[c["xjtuCat"]] = cat_dist.get(c["xjtuCat"], 0) + 1
     dates = [n["date"] for n in notices]
     site_counts = {}
     for n in notices:
@@ -211,6 +215,7 @@ def main():
         "noticeFrom": min(dates) if dates else "",
         "noticeTo": max(dates) if dates else "",
         "eeDist": ee_dist,
+        "catDist": cat_dist,
         "withUrl": sum(1 for c in comps if c["url"]),
         "xjtuKnown": sum(1 for c in comps if c["xjtuCat"] != UNKNOWN_CAT),
         "crawledPages": sum(int(s.get("pages_crawled_cap", 0))
@@ -241,10 +246,15 @@ def main():
             "noticeSkipped": nsrc.get("skipped", {}),
         },
         "caveats": [
-            "西交A/B名单为旧版不完整名单(2页/19项), 标「未认定(待核)」不代表学校未认定。",
+            "西交类别分三档: A类/B类 来自学校《学生学科/科技竞赛A类、B类项目列表》(旧版, 仅 2 页 19 项), "
+            "C类 来自《电气工程学院C类竞赛列表》(2026-03-25)。标「未认定(待核)」的不代表学校未认定, "
+            "只代表这两份名单里没有。",
+            "C 类认定会随学校文件、学科竞赛排行榜及竞赛影响力动态调整, 以学院最新通知为准。",
             "电气相关度为 AI 初判, 需人工复核(改 data/curated/ee_relevance.json)。",
-            "报名截止时间未结构化收录, 需人工维护; 通知标题与竞赛的关联为关键词自动匹配, 可能有误。",
-            "年度节律是从历史通知统计推断的窗口, 不是官方赛程, 仅表示往年在这些月份发过通知。",
+            "报名截止时间从通知正文按上下文打分提取, 只保留高置信度的; 标「校内选拔中」的依据是"
+            "近 120 天内的校内选拔类通知, 不等于国家赛官网已开放报名。",
+            "通知标题与竞赛的关联为关键词自动匹配, 可能有误。",
+            "年度节律是从历史通知统计推断的窗口, 不是官方赛程。",
         ],
     }
 

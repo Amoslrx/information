@@ -392,7 +392,19 @@ ok(matched === DATA.stats.noticesMatched, '通知关联数与统计一致',
 
 const unknown = countByOwn(0, '__unknown');
 const known = DATA.competitions.length - unknown;
-ok(known === 19, '有西交认定的共 19 条', '实际 ' + known);
+// 西交类别现在有三档: A/B 来自学校名单(旧版 19 项), C 来自电气工程学院列表(8 项)
+const ab = DATA.competitions.filter(c => c.xjtuCat === 'A类' || c.xjtuCat === 'B类').length;
+const cc = DATA.competitions.filter(c => c.xjtuCat === 'C类').length;
+ok(ab === 19, '西交 A/B 认定共 19 条(旧版名单)', '实际 ' + ab);
+ok(cc === 8, '西交 C 类共 8 条(电气学院列表)', '实际 ' + cc);
+ok(known === ab + cc, '有西交认定的 = A/B + C', `${known} vs ${ab + cc}`);
+// C 类条目必须都有专项负责人(那正是这份列表的用途)
+const cNoContact = DATA.competitions.filter(c => c.xjtuCat === 'C类' && !c.contact);
+ok(cNoContact.length === 0, 'C 类条目都带专项负责人',
+   cNoContact.map(c => c.name).join(', '));
+// C 类不得覆盖学校级 A/B 认定
+const cOverride = DATA.competitions.filter(c => c.xjtuCat === 'C类' && c.alias);
+ok(cOverride.length === 0, 'C 类未覆盖 A/B 认定');
 
 // 日期解析健壮性: 所有通知日期都必须是 YYYY-MM-DD
 const badDate = DATA.notices.filter(n => !/^\d{4}-\d{2}-\d{2}$/.test(n.date));
