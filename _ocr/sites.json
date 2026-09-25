@@ -1,0 +1,198 @@
+{
+ "good": [
+  {
+   "sub": "bb",
+   "url": "https://bb.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "bjb",
+   "url": "https://bjb.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "class",
+   "url": "https://class.xjtu.edu.cn/",
+   "status": 400,
+   "ok": true
+  },
+  {
+   "sub": "dean",
+   "url": "https://dean.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "due",
+   "url": "https://due.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "dzpz",
+   "url": "https://dzpz.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "ehall",
+   "url": "https://ehall.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "faculty",
+   "url": "https://faculty.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "hello",
+   "url": "http://hello.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "info",
+   "url": "https://info.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "jdcw",
+   "url": "https://jdcw.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "jdzfpt",
+   "url": "https://jdzfpt.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "jwxt",
+   "url": "https://jwxt.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "lms",
+   "url": "https://lms.xjtu.edu.cn/",
+   "status": 400,
+   "ok": true
+  },
+  {
+   "sub": "nethelp",
+   "url": "https://nethelp.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "nic",
+   "url": "https://nic.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "pec",
+   "url": "https://pec.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "stu",
+   "url": "https://stu.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "syxt",
+   "url": "https://syxt.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "tuanwei",
+   "url": "https://tuanwei.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "verify",
+   "url": "https://verify.xjtu.edu.cn/",
+   "status": 403,
+   "ok": true
+  },
+  {
+   "sub": "webvpn",
+   "url": "https://webvpn.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "wxjf",
+   "url": "https://wxjf.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "xkfw",
+   "url": "https://xkfw.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "xsxb",
+   "url": "https://xsxb.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "xxgk",
+   "url": "https://xxgk.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  },
+  {
+   "sub": "ywtb",
+   "url": "https://ywtb.xjtu.edu.cn/",
+   "status": 200,
+   "ok": true
+  }
+ ],
+ "bad": [
+  {
+   "sub": "bkkq",
+   "url": "https://bkkq.xjtu.edu.cn/",
+   "status": "ERR:URLError",
+   "ok": false
+  },
+  {
+   "sub": "ly",
+   "url": "https://ly.xjtu.edu.cn/",
+   "status": "ERR:URLError",
+   "ok": false
+  },
+  {
+   "sub": "pts",
+   "url": "https://pts.xjtu.edu.cn/",
+   "status": "ERR:URLError",
+   "ok": false
+  },
+  {
+   "sub": "tm",
+   "url": "https://tm.xjtu.edu.cn/",
+   "status": "ERR:URLError",
+   "ok": false
+  },
+  {
+   "sub": "vpahw",
+   "url": "https://vpahw.xjtu.edu.cn/",
+   "status": "ERR:URLError",
+   "ok": false
+  }
+ ]
+}

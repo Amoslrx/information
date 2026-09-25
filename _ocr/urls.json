@@ -1,0 +1,23 @@
+{
+ "note": "OCR 提取的候选, 未经连通性验证, 不可直接使用",
+ "candidates": [
+  "m.xjtu.edu.cn",
+  "nethelp.xjtu.edu.cn",
+  "xjtulib",
+  "https://rg.",
+  "https://shijian",
+  "https://pts.xjtu.edu.cn/xajtdx_lw",
+  "https://mp.weixin.qq.com/s/KXTE5tZdE834aVczZDWpLw",
+  "://cjxjtu",
+  "https://cet-bm.",
+  "开发维护:润铎/fjinze@stu.xjtu.edu.cn"
+ ],
+ "domains": {
+  "m.xjtu.edu.cn": 1,
+  "nethelp.xjtu.edu.cn": 1,
+  "xjtulib": 1,
+  "pts.xjtu.edu.cn": 1,
+  "cjxjtu": 1,
+  "stu.xjtu.edu.cn": 1
+ }
+}

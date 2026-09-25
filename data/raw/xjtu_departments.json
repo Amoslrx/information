@@ -1,0 +1,449 @@
+{
+ "source": "https://www.xjtu.edu.cn/yxsz.htm",
+ "items": [
+  {
+   "name": "数学学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1026",
+   "homepage": "http://math.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://math.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "物理学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2067",
+   "homepage": "http://phy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://phy.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "化学学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2072",
+   "homepage": "http://chem.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://chem.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "机械学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1027",
+   "homepage": "http://mec.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://mec.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "电气学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1028",
+   "homepage": "http://ee.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://ee.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "能动学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1029",
+   "homepage": "http://epe.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://epe.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "电信学部",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1030",
+   "homepage": "http://eie.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://eie.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "人工智能学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2207",
+   "homepage": "http://www.aiar.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://www.aiar.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "材料学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1032",
+   "homepage": "http://mse.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://mse.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "人居学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1033",
+   "homepage": "http://hsce.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://hsce.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "生命学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1034",
+   "homepage": "http://slst.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://slst.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "航天学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1035",
+   "homepage": "http://sae.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sae.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "化工学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1036",
+   "homepage": "http://clet.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://clet.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "仪器科学与技术学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2217",
+   "homepage": "http://ist.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://ist.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "经金学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1038",
+   "homepage": "http://sef.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sef.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "金禾经济中心",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1047",
+   "homepage": "http://jinhe.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://jinhe.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "管理学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1039",
+   "homepage": "http://som.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://som.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "公管学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1040",
+   "homepage": "http://sppa.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sppa.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "人文学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1041",
+   "homepage": "http://rwxy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://rwxy.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "新媒体学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1730",
+   "homepage": "http://xmtxy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://xmtxy.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "马克思主义学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1042",
+   "homepage": "http://marx.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://marx.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "外国语学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1044",
+   "homepage": "http://sfs.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sfs.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "体育学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1049",
+   "homepage": "http://tyzx.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://tyzx.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "继续（网络）教育学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1050",
+   "homepage": "http://sce.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sce.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "国际教育学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1052",
+   "homepage": "http://sie.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://sie.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "钱学森学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2157",
+   "homepage": "http://bjb.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://bjb.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "未来技术学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2117",
+   "homepage": "http://wljsxy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://wljsxy.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "西交米兰学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2177",
+   "homepage": "http://jsdi.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://jsdi.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "国家卓越工程师学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2227",
+   "homepage": "http://nse.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://nse.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "海南国际学院",
+   "href": "xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=2291",
+   "homepage": "",
+   "status": null,
+   "all_candidates": []
+  },
+  {
+   "name": "彭康书院",
+   "href": "bksy/pksy.htm",
+   "homepage": "http://pksy.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://pksy.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "文治书院",
+   "href": "bksy/wzsy.htm",
+   "homepage": "http://wen.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://mailto:liu.yu@mail.xjtu.edu.cn",
+    "http://mailto:liuhengjy@mail.xjtu.edu.cn",
+    "http://mailto:wangqi@mail.xjtu.edu.cn",
+    "http://wen.xjtu.edu.cn/",
+    "http://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=149",
+    "http://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=333"
+   ]
+  },
+  {
+   "name": "宗濂书院",
+   "href": "bksy/zlsy.htm",
+   "homepage": "http://zlsy.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://mailto:Zhanghd@mail.xjtu.edu.cn",
+    "http://mailto:chenyong@mail.xjtu.edu.cn/",
+    "http://mailto:entcyj@mail.xjtu.edu.cn",
+    "http://zlsy.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "启德书院",
+   "href": "bksy/qdsy.htm",
+   "homepage": "http://qdsy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://maito:liuhengjy@mail.xjtu.edu.cn",
+    "http://qdsy.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "仲英书院",
+   "href": "bksy/zysy.htm",
+   "homepage": "http://cy.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://cy.xjtu.edu.cn",
+    "http://mailto:yanyuanhui@mail.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "励志书院",
+   "href": "bksy/lzsy.htm",
+   "homepage": "http://lizhi.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://lizhi.xjtu.edu.cn/",
+    "http://mailto:xuhui678@mail.xjtu.edu.cn",
+    "http://mailto:xumin@mail.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "崇实书院",
+   "href": "bksy/cssy.htm",
+   "homepage": "http://cssy.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://cssy.xjtu.edu.cn/",
+    "http://mailto:xuebl091@xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "南洋书院",
+   "href": "bksy/nysy.htm",
+   "homepage": "http://nanyang.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://mailto:gr@mail.xjtu.edu.cn",
+    "http://mailto:lyhforever0123@mail.xjtu.edu.cn",
+    "http://nanyang.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "钱学森书院",
+   "href": "bksy/qxssy.htm",
+   "homepage": "http://bjb.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://bjb.xjtu.edu.cn/",
+    "http://mailto:icehot@xjtu.edu.cn",
+    "http://mailto:tianbo@xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "基础医学院",
+   "href": "new_son_xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1759",
+   "homepage": "http://bms.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://bms.xjtu.edu.cn/"
+   ]
+  },
+  {
+   "name": "公共卫生学院",
+   "href": "new_son_xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1760",
+   "homepage": "http://sph.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://sph.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "法医学院",
+   "href": "new_son_xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1762",
+   "homepage": "http://forensmed.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://forensmed.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "护理学系",
+   "href": "new_son_xynr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1763",
+   "homepage": "http://nursing.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://nursing.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "国际教育学院",
+   "href": "gjjl/gjjyxy.htm",
+   "homepage": "http://sie.xjtu.edu.cn",
+   "status": 200,
+   "all_candidates": [
+    "http://sie.xjtu.edu.cn"
+   ]
+  },
+  {
+   "name": "网络信息中心",
+   "href": "http://nic.xjtu.edu.cn/",
+   "homepage": "http://hpc.xjtu.edu.cn/",
+   "status": 200,
+   "all_candidates": [
+    "http://hpc.xjtu.edu.cn/",
+    "http://nethelp.xjtu.edu.cn/",
+    "http://vpn.xjtu.edu.cn/",
+    "http://wlaq.xjtu.edu.cn",
+    "http://wxjf.xjtu.edu.cn",
+    "http://xjtudj.edu.cn",
+    "https://article.xuexi.cn/articles/index.html?art_id=10460301655299547697&source=share&study_style_id=feeds_opaque&reco_id=10380bde6c88c0a88472000y&share_to=wx_single&study_share_enable=1&study_comment_disable=0&ptype=0&item_id=10460301655299547697",
+    "https://infosec.xjtu.edu.cn/client/",
+    "https://mp.weixin.qq.com/s/045dOhUxJ6AUdCG_sdmI6w",
+    "https://mp.weixin.qq.com/s/4AHOLb-Bb2zLzuACo5pp6w",
+    "https://mp.weixin.qq.com/s/Ilx4NeMVx3IaThJ0hEMP0w",
+    "https://mp.weixin.qq.com/s/JwwimomfDp9PG3jVNcwt8A?scene=1&click_id=1",
+    "https://mp.weixin.qq.com/s/Og5qDiYGmqiCouzjXWui8Q",
+    "https://mp.weixin.qq.com/s/Tx8jfQoHHt0dJ2senHe8_g",
+    "https://mp.weixin.qq.com/s/ULkiaYvTWhNRJ8UA0l9JgQ",
+    "https://mp.weixin.qq.com/s/XNMIMYpUVsAS9pE1FVSAYw",
+    "https://mp.weixin.qq.com/s/b2MrKUcEFtL1LNj6w4pDHA",
+    "https://mp.weixin.qq.com/s/k8lUw7XiTVogb0jTBZ_rGQ",
+    "https://mp.weixin.qq.com/s/x6wP6oUjTiTK-qQ3EREomg",
+    "https://news.xjtu.edu.cn/info/1033/226879.htm",
+    "https://wlaq.xjtu.edu.cn/index.htm",
+    "https://wps.xjtu.edu.cn/",
+    "https://www.huashangtop.com/topi/1/420194.html"
+   ]
+  }
+ ],
+ "resolved": 44,
+ "unresolved": 1
+}

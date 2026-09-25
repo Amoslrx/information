@@ -6,5 +6,9 @@
 __pycache__/
 *.pyc
 
+# OCR 中间产物: 切片体积大(约 3 MB)且可由 scripts/slice_png.py 重建, 不入库。
+# 识别结果(ocr.txt / cleaned.txt / pairs.json / sites.json)保留, 作为数据溯源证据。
+_ocr/slice_*.png
+
 # 原始下载件可重建, 但体量不大, 保留以便复核; 如需瘦身可取消下面注释
 # data/raw/*.pdf

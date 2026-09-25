@@ -1,0 +1,171 @@
+{
+ "pairs": [
+  {
+   "name": "学生邮箱使用",
+   "sub": "stu",
+   "url": "https://stu.xjtu.edu.cn/",
+   "status": 200,
+   "category": "放在前面"
+  },
+  {
+   "name": "迎新系统",
+   "sub": "hello",
+   "url": "http://hello.xjtu.edu.cn/",
+   "status": 200,
+   "category": "放在前面"
+  },
+  {
+   "name": "顾名思义",
+   "sub": "webvpn",
+   "url": "https://webvpn.xjtu.edu.cn/",
+   "status": 200,
+   "category": "放在前面"
+  },
+  {
+   "name": "新生选拔系统",
+   "sub": "xsxb",
+   "url": "https://xsxb.xjtu.edu.cn/",
+   "status": 200,
+   "category": "放在前面"
+  },
+  {
+   "name": "教务办事大厅新版",
+   "sub": "jwxt",
+   "url": "https://jwxt.xjtu.edu.cn/",
+   "status": 200,
+   "category": "课程规划相关"
+  },
+  {
+   "name": "本科选课",
+   "sub": "xkfw",
+   "url": "https://xkfw.xjtu.edu.cn/",
+   "status": 200,
+   "category": "课程规划相关"
+  },
+  {
+   "name": "教务办事大厅旧版",
+   "sub": "ehall",
+   "url": "https://ehall.xjtu.edu.cn/",
+   "status": 200,
+   "category": "课程规划相关"
+  },
+  {
+   "name": "思源学堂新版",
+   "sub": "lms",
+   "url": "https://lms.xjtu.edu.cn/",
+   "status": 400,
+   "category": "· 日常学习相关"
+  },
+  {
+   "name": "思源学堂门户",
+   "sub": "syxt",
+   "url": "https://syxt.xjtu.edu.cn/",
+   "status": 200,
+   "category": "· 日常学习相关"
+  },
+  {
+   "name": "统一支付平台",
+   "sub": "jdzfpt",
+   "url": "https://jdzfpt.xjtu.edu.cn/",
+   "status": 200,
+   "category": "基础服务办理"
+  },
+  {
+   "name": "师生可信电子凭证服务平台",
+   "sub": "dzpz",
+   "url": "https://dzpz.xjtu.edu.cn/",
+   "status": 200,
+   "category": "基础服务办理"
+  },
+  {
+   "name": "实践教学中心门户",
+   "sub": "pec",
+   "url": "https://pec.xjtu.edu.cn/",
+   "status": 200,
+   "category": "科创实践相关"
+  },
+  {
+   "name": "财务处",
+   "sub": "jdcw",
+   "url": "https://jdcw.xjtu.edu.cn/",
+   "status": 200,
+   "category": "基础服务办理"
+  },
+  {
+   "name": "网络信息服务缴费平台",
+   "sub": "wxjf",
+   "url": "https://wxjf.xjtu.edu.cn/",
+   "status": 200,
+   "category": "基础服务办理"
+  },
+  {
+   "name": "西交电子文件验证平台",
+   "sub": "verify",
+   "url": "https://verify.xjtu.edu.cn/",
+   "status": 403,
+   "category": "基础服务办理"
+  },
+  {
+   "name": "教师个人主页",
+   "sub": "faculty",
+   "url": "https://faculty.xjtu.edu.cn/",
+   "status": 200,
+   "category": "基础资源获取"
+  },
+  {
+   "name": "教务处",
+   "sub": "due",
+   "url": "https://due.xjtu.edu.cn/",
+   "status": 200,
+   "category": "通知与信息公示"
+  },
+  {
+   "name": "信息公开",
+   "sub": "xxgk",
+   "url": "https://xxgk.xjtu.edu.cn/",
+   "status": 200,
+   "category": "通知与信息公示"
+  },
+  {
+   "name": "综合信息服务",
+   "sub": "info",
+   "url": "https://info.xjtu.edu.cn/",
+   "status": 200,
+   "category": "通知与信息公示"
+  },
+  {
+   "name": "思源学堂旧版",
+   "sub": "bb",
+   "url": "https://bb.xjtu.edu.cn/",
+   "status": 200,
+   "category": "校内已停用网站"
+  },
+  {
+   "name": "校团委门户",
+   "sub": "tuanwei",
+   "url": "https://tuanwei.xjtu.edu.cn/",
+   "status": 200,
+   "category": "通知与信息公示"
+  },
+  {
+   "name": "钱院门户",
+   "sub": "bjb",
+   "url": "https://bjb.xjtu.edu.cn/",
+   "status": 200,
+   "category": "通知与信息公示"
+  },
+  {
+   "name": "直录播课",
+   "sub": "class",
+   "url": "https://class.xjtu.edu.cn/",
+   "status": 400,
+   "category": "校内已停用网站"
+  }
+ ],
+ "unmatched_subdomains": [
+  "dean",
+  "nethelp",
+  "nic",
+  "ywtb"
+ ]
+}

@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-25 21:49
+// 生成时间: 2026-09-25 22:22
 window.SITE_DATA = {
- "generatedAt": "2026-09-25 21:49",
+ "generatedAt": "2026-09-25 22:22",
  "stats": {
   "competitions": 91,
   "notices": 451,
@@ -6809,6 +6809,494 @@ window.SITE_DATA = {
    "category": "通知与信息公示",
    "tags": [],
    "desc": "校内新闻与要闻。竞赛获奖报道常在这里。"
+  },
+  {
+   "name": "迎新系统",
+   "url": "http://hello.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "新生选拔系统",
+   "url": "https://xsxb.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "本科选课",
+   "url": "https://xkfw.xjtu.edu.cn/",
+   "category": "课程规划相关",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "教务办事大厅旧版",
+   "url": "https://ehall.xjtu.edu.cn/",
+   "category": "课程规划相关",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "思源学堂（新版）",
+   "url": "https://lms.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 400
+  },
+  {
+   "name": "统一支付平台",
+   "url": "https://jdzfpt.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "师生可信电子凭证服务平台",
+   "url": "https://dzpz.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "实践教学中心门户",
+   "url": "https://pec.xjtu.edu.cn/",
+   "category": "科创实践相关",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "财务处",
+   "url": "https://jdcw.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "网络信息服务缴费平台",
+   "url": "https://wxjf.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "西交电子文件验证平台",
+   "url": "https://verify.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 403
+  },
+  {
+   "name": "教师个人主页",
+   "url": "https://faculty.xjtu.edu.cn/",
+   "category": "基础资源获取",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "教务处",
+   "url": "https://due.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "信息公开",
+   "url": "https://xxgk.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "综合信息服务",
+   "url": "https://info.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "思源学堂（旧版）",
+   "url": "https://bb.xjtu.edu.cn/",
+   "category": "校内已停用网站",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "校团委门户",
+   "url": "https://tuanwei.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "钱院门户",
+   "url": "https://bjb.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 200
+  },
+  {
+   "name": "直录播课堂",
+   "url": "https://class.xjtu.edu.cn/",
+   "category": "校内已停用网站",
+   "tags": [],
+   "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
+   "verified": 400
+  },
+  {
+   "name": "数学学院",
+   "url": "http://math.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "物理学院",
+   "url": "http://phy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "化学学院",
+   "url": "http://chem.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "机械学院",
+   "url": "http://mec.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "电气学院",
+   "url": "http://ee.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "能动学院",
+   "url": "http://epe.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "电信学部",
+   "url": "http://eie.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "人工智能学院",
+   "url": "http://www.aiar.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "材料学院",
+   "url": "http://mse.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "人居学院",
+   "url": "http://hsce.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "生命学院",
+   "url": "http://slst.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "航天学院",
+   "url": "http://sae.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "化工学院",
+   "url": "http://clet.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "仪器科学与技术学院",
+   "url": "http://ist.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "经金学院",
+   "url": "http://sef.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "金禾经济中心",
+   "url": "http://jinhe.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "管理学院",
+   "url": "http://som.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "公管学院",
+   "url": "http://sppa.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "人文学院",
+   "url": "http://rwxy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "新媒体学院",
+   "url": "http://xmtxy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "马克思主义学院",
+   "url": "http://marx.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "外国语学院",
+   "url": "http://sfs.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "体育学院",
+   "url": "http://tyzx.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "继续（网络）教育学院",
+   "url": "http://sce.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "国际教育学院",
+   "url": "http://sie.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "钱学森学院",
+   "url": "http://bjb.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "未来技术学院",
+   "url": "http://wljsxy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "西交米兰学院",
+   "url": "http://jsdi.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "国家卓越工程师学院",
+   "url": "http://nse.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "彭康书院",
+   "url": "http://pksy.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "文治书院",
+   "url": "http://wen.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "宗濂书院",
+   "url": "http://zlsy.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "启德书院",
+   "url": "http://qdsy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "仲英书院",
+   "url": "http://cy.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "励志书院",
+   "url": "http://lizhi.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "崇实书院",
+   "url": "http://cssy.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "南洋书院",
+   "url": "http://nanyang.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "基础医学院",
+   "url": "http://bms.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "公共卫生学院",
+   "url": "http://sph.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "法医学院",
+   "url": "http://forensmed.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "护理学系",
+   "url": "http://nursing.xjtu.edu.cn",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
+  },
+  {
+   "name": "网络信息中心",
+   "url": "http://hpc.xjtu.edu.cn/",
+   "category": "学院与书院",
+   "tags": [],
+   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "verified": 200
   }
  ],
  "quickLinkCategories": [
@@ -6819,7 +7307,8 @@ window.SITE_DATA = {
   "基础服务办理",
   "基础资源获取",
   "通知与信息公示",
-  "校外其余常用"
+  "校内已停用网站",
+  "学院与书院"
  ],
  "calendar": {
   "all": "calendar/all.ics",
