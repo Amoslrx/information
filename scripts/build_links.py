@@ -102,8 +102,31 @@ def main():
     for i in items:
         i["category"] = clean_cat(i["category"]) or "校内其余常用"
 
+    # ---- 人工分类指定 ----
+    # 刻意放在数据里(_curation)而不是写死在代码里: 想调整分类直接改 JSON 即可。
+    #   category_renames : 整体改名, 如 "放在前面" -> "常用"
+    #   by_url           : 单独指定某些站点归到哪个分类(按归一化 URL 匹配)
+    cur = base.get("_curation", {})
+    renames = cur.get("category_renames", {})
+    if renames:
+        for i in items:
+            if i["category"] in renames:
+                i["category"] = renames[i["category"]]
+    by_url = {url_key(k): v for k, v in (cur.get("by_url") or {}).items()}
+    for i in items:
+        want = by_url.get(url_key(i["url"]))
+        if want:
+            i["category"] = want
+
     # 分类顺序: 学院与书院放最后; 数据里出现但预设没有的分类(如"校内已停用网站")补在它前面
-    preset = [c for c in base.get("_category_order", []) if c != DEPT_CAT]
+    preset = [renames.get(c, c) for c in base.get("_category_order", []) if c != DEPT_CAT]
+    # 去重但保持顺序
+    seen_p, preset_u = set(), []
+    for c in preset:
+        if c not in seen_p:
+            seen_p.add(c)
+            preset_u.append(c)
+    preset = preset_u
     present = {i["category"] for i in items}
     order = [c for c in preset if c in present]
     for c in sorted(present):

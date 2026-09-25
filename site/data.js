@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-25 22:25
+// 生成时间: 2026-09-25 22:40
 window.SITE_DATA = {
- "generatedAt": "2026-09-25 22:25",
+ "generatedAt": "2026-09-25 22:40",
  "stats": {
   "competitions": 91,
   "notices": 451,
@@ -6619,7 +6619,7 @@ window.SITE_DATA = {
   {
    "name": "交大主门户",
    "url": "https://www.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "高频入口"
    ],
@@ -6628,7 +6628,7 @@ window.SITE_DATA = {
   {
    "name": "统一身份认证",
    "url": "https://login.xjtu.edu.cn/cas/login",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "统一认证",
     "高频入口"
@@ -6638,7 +6638,7 @@ window.SITE_DATA = {
   {
    "name": "移动交通大学",
    "url": "https://m.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "移动交大"
    ],
@@ -6647,7 +6647,7 @@ window.SITE_DATA = {
   {
    "name": "学生邮箱",
    "url": "https://stu.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "校园邮箱"
    ],
@@ -6656,7 +6656,7 @@ window.SITE_DATA = {
   {
    "name": "校园网申请",
    "url": "https://nethelp.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "校园网/VPN",
     "统一认证"
@@ -6666,7 +6666,7 @@ window.SITE_DATA = {
   {
    "name": "WebVPN",
    "url": "https://webvpn.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "校园网/VPN",
     "校外站点"
@@ -6676,7 +6676,7 @@ window.SITE_DATA = {
   {
    "name": "教务处",
    "url": "https://jwc.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [
     "重点网站"
    ],
@@ -6708,14 +6708,14 @@ window.SITE_DATA = {
   {
    "name": "本科教务",
    "url": "http://due.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [],
    "desc": "本科生教育相关通知与办事入口。"
   },
   {
    "name": "思源学堂",
    "url": "https://syxt.xjtu.edu.cn/",
-   "category": "日常学习相关",
+   "category": "常用",
    "tags": [
     "统一认证",
     "重点网站"
@@ -6725,7 +6725,7 @@ window.SITE_DATA = {
   {
    "name": "图书馆",
    "url": "https://www.lib.xjtu.edu.cn/",
-   "category": "日常学习相关",
+   "category": "常用",
    "tags": [
     "图书馆",
     "统一认证"
@@ -6813,7 +6813,7 @@ window.SITE_DATA = {
   {
    "name": "迎新系统",
    "url": "http://hello.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "新生与入学",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -6821,7 +6821,7 @@ window.SITE_DATA = {
   {
    "name": "新生选拔系统",
    "url": "https://xsxb.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "新生与入学",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -6829,7 +6829,7 @@ window.SITE_DATA = {
   {
    "name": "本科选课",
    "url": "https://xkfw.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -7268,11 +7268,12 @@ window.SITE_DATA = {
   }
  ],
  "quickLinkCategories": [
-  "放在前面",
+  "常用",
   "课程规划相关",
   "日常学习相关",
   "科创实践相关",
   "基础服务办理",
+  "新生与入学",
   "基础资源获取",
   "通知与信息公示",
   "校内已停用网站",

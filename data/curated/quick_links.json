@@ -2,11 +2,12 @@
  "_note": "西交常用网站导航。三条来源: 人工整理 + 《西交常用网站汇总》截图(OCR) + 学校官网院系页。**每条 URL 都经过真实请求验证**。",
  "_pending": "截图共 67 个站点, OCR 能读出名称但与完整 URL 有偏差(点号/冒号误识、换行截断), 因此只收录了能实测连通的条目。拿到原站 URL 后可精确抓取补全。",
  "_category_order": [
-  "放在前面",
+  "常用",
   "课程规划相关",
   "日常学习相关",
   "科创实践相关",
   "基础服务办理",
+  "新生与入学",
   "基础资源获取",
   "通知与信息公示",
   "校内已停用网站",
@@ -16,7 +17,7 @@
   {
    "name": "交大主门户",
    "url": "https://www.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "高频入口"
    ],
@@ -25,7 +26,7 @@
   {
    "name": "统一身份认证",
    "url": "https://login.xjtu.edu.cn/cas/login",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "统一认证",
     "高频入口"
@@ -35,7 +36,7 @@
   {
    "name": "移动交通大学",
    "url": "https://m.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "移动交大"
    ],
@@ -44,7 +45,7 @@
   {
    "name": "学生邮箱",
    "url": "https://stu.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "校园邮箱"
    ],
@@ -53,7 +54,7 @@
   {
    "name": "校园网申请",
    "url": "https://nethelp.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "基础服务办理",
    "tags": [
     "校园网/VPN",
     "统一认证"
@@ -63,7 +64,7 @@
   {
    "name": "WebVPN",
    "url": "https://webvpn.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "常用",
    "tags": [
     "校园网/VPN",
     "校外站点"
@@ -73,7 +74,7 @@
   {
    "name": "教务处",
    "url": "https://jwc.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [
     "重点网站"
    ],
@@ -105,14 +106,14 @@
   {
    "name": "本科教务",
    "url": "http://due.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [],
    "desc": "本科生教育相关通知与办事入口。"
   },
   {
    "name": "思源学堂",
    "url": "https://syxt.xjtu.edu.cn/",
-   "category": "日常学习相关",
+   "category": "常用",
    "tags": [
     "统一认证",
     "重点网站"
@@ -122,7 +123,7 @@
   {
    "name": "图书馆",
    "url": "https://www.lib.xjtu.edu.cn/",
-   "category": "日常学习相关",
+   "category": "常用",
    "tags": [
     "图书馆",
     "统一认证"
@@ -210,7 +211,7 @@
   {
    "name": "迎新系统",
    "url": "http://hello.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "新生与入学",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -218,7 +219,7 @@
   {
    "name": "新生选拔系统",
    "url": "https://xsxb.xjtu.edu.cn/",
-   "category": "放在前面",
+   "category": "新生与入学",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -226,7 +227,7 @@
   {
    "name": "本科选课",
    "url": "https://xkfw.xjtu.edu.cn/",
-   "category": "课程规划相关",
+   "category": "常用",
    "tags": [],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
@@ -663,5 +664,26 @@
    "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
    "verified": 200
   }
- ]
+ ],
+ "_curation": {
+  "_note": "人工指定的分类。改名用 category_renames; 单个站点归类别用 by_url(按 URL 匹配, 忽略协议/www/尾斜杠)。",
+  "category_renames": {
+   "放在前面": "常用"
+  },
+  "by_url": {
+   "https://www.xjtu.edu.cn/": "常用",
+   "https://jwc.xjtu.edu.cn/": "常用",
+   "https://due.xjtu.edu.cn/": "常用",
+   "https://stu.xjtu.edu.cn/": "常用",
+   "https://webvpn.xjtu.edu.cn/": "常用",
+   "https://syxt.xjtu.edu.cn/": "常用",
+   "https://www.lib.xjtu.edu.cn/": "常用",
+   "https://xkfw.xjtu.edu.cn/": "常用",
+   "https://login.xjtu.edu.cn/cas/login": "基础服务办理",
+   "https://m.xjtu.edu.cn/": "基础服务办理",
+   "https://nethelp.xjtu.edu.cn/": "基础服务办理",
+   "http://hello.xjtu.edu.cn/": "新生与入学",
+   "https://xsxb.xjtu.edu.cn/": "新生与入学"
+  }
+ }
 }
