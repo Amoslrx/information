@@ -1,12 +1,16 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-25 22:40
+// 生成时间: 2026-09-25 23:18
 window.SITE_DATA = {
- "generatedAt": "2026-09-25 22:40",
+ "generatedAt": "2026-09-25 23:18",
  "stats": {
   "competitions": 91,
   "notices": 451,
   "noticesMatched": 225,
   "noticesCompetition": 306,
+  "noticesCampus": 79,
+  "noticesWithDeadline": 68,
+  "competitionsOpen": 2,
+  "today": "2026-09-25",
   "noticeFrom": "2003-12-22",
   "noticeTo": "2026-09-23",
   "eeDist": {
@@ -48,8 +52,15 @@ window.SITE_DATA = {
     "competition": "中国国际大学生创新大赛",
     "moeNo": 1,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-08-28",
+    "deadlineScore": 6
    },
+   "campusNoticeCount": 13,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 2,
@@ -90,7 +101,11 @@ window.SITE_DATA = {
    "reason": "A类, 电气科创作品主力赛道",
    "source": "教育部2025目录+西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生数学建模竞赛",
@@ -114,8 +129,15 @@ window.SITE_DATA = {
     "competition": "全国大学生数学建模竞赛",
     "moeNo": 5,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-04-19",
+    "deadlineScore": 6
    },
+   "campusNoticeCount": 5,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2,
@@ -163,8 +185,15 @@ window.SITE_DATA = {
     "competition": "全国大学生电子设计竞赛",
     "moeNo": 6,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 8,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 2,
@@ -208,8 +237,15 @@ window.SITE_DATA = {
     "competition": "全国大学生智能汽车竞赛",
     "moeNo": 11,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "2026-05-20",
+    "deadlineScore": 6
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -247,8 +283,15 @@ window.SITE_DATA = {
     "competition": "中国大学生工程实践与创新能力大赛",
     "moeNo": 13,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2,
@@ -291,8 +334,15 @@ window.SITE_DATA = {
     "competition": "“西门子杯”中国智能制造挑战赛",
     "moeNo": 23,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2025-06-06",
+    "deadlineScore": 7
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生嵌入式芯片与系统设计竞赛",
@@ -316,8 +366,15 @@ window.SITE_DATA = {
     "competition": "全国大学生嵌入式芯片与系统设计竞赛",
     "moeNo": 43,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-09-22",
+    "deadlineScore": 8
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2,
@@ -358,8 +415,15 @@ window.SITE_DATA = {
     "competition": "全国大学生节能减排社会实践与科技竞赛",
     "moeNo": 52,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 3,
@@ -401,8 +465,15 @@ window.SITE_DATA = {
     "competition": "美国大学生数学建模竞赛",
     "moeNo": null,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 4,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 6,
@@ -439,7 +510,11 @@ window.SITE_DATA = {
    "reason": "A类创业赛道, 电气项目可报",
    "source": "教育部2025目录+西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生机器人大赛",
@@ -456,7 +531,11 @@ window.SITE_DATA = {
    "reason": "A类(Robocon), 电气自动化方向",
    "source": "教育部2025目录+西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生集成电路创新创业大赛",
@@ -480,8 +559,15 @@ window.SITE_DATA = {
     "competition": "全国大学生集成电路创新创业大赛",
     "moeNo": 31,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2
@@ -519,8 +605,15 @@ window.SITE_DATA = {
     "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
     "moeNo": 37,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "2026-09-10",
+    "deadlineScore": 6
+   },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“大唐杯”全国大学生新一代信息通信技术大赛",
@@ -544,8 +637,15 @@ window.SITE_DATA = {
     "competition": "“大唐杯”全国大学生新一代信息通信技术大赛",
     "moeNo": 41,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "中国高校智能机器人创意大赛",
@@ -569,8 +669,15 @@ window.SITE_DATA = {
     "competition": "中国高校智能机器人创意大赛",
     "moeNo": 49,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-05-08",
+    "deadlineScore": 9
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 1,
@@ -611,8 +718,15 @@ window.SITE_DATA = {
     "competition": "中国机器人及人工智能大赛",
     "moeNo": 51,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-06-07",
+    "deadlineScore": 8
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2
@@ -650,8 +764,15 @@ window.SITE_DATA = {
     "competition": "全国大学生物联网设计竞赛",
     "moeNo": 65,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 2
@@ -682,7 +803,11 @@ window.SITE_DATA = {
    "reason": "机器人对抗赛, 电气自动化方向",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "Robomasters全国大学生机器人大赛",
@@ -699,7 +824,11 @@ window.SITE_DATA = {
    "reason": "RoboMaster 机甲大师赛, 电气/机械/自动化主力",
    "source": "西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "ACM-ICPC 国际大学生程序设计竞赛",
@@ -716,7 +845,11 @@ window.SITE_DATA = {
    "reason": "程序设计能力, 电气学生可选修参与",
    "source": "教育部2025目录+西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生机械创新设计大赛",
@@ -740,8 +873,15 @@ window.SITE_DATA = {
     "competition": "全国大学生机械创新设计大赛",
     "moeNo": 8,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 6,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "2": 1,
@@ -776,7 +916,11 @@ window.SITE_DATA = {
    "reason": "大创成果展示, 电气项目可入围",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "蓝桥杯全国软件和信息技术专业人才大赛",
@@ -800,8 +944,15 @@ window.SITE_DATA = {
     "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
     "moeNo": 27,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -840,8 +991,15 @@ window.SITE_DATA = {
     "competition": "全国大学生光电设计竞赛",
     "moeNo": 30,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-05-08",
+    "deadlineScore": 6
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 2
@@ -879,8 +1037,15 @@ window.SITE_DATA = {
     "competition": "全国周培源大学生力学竞赛",
     "moeNo": 35,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2025-01-13",
+    "deadlineScore": 5
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "2": 1,
@@ -918,8 +1083,15 @@ window.SITE_DATA = {
     "competition": "中国大学生机械工程创新创意大赛",
     "moeNo": 36,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 3,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 1,
@@ -954,7 +1126,11 @@ window.SITE_DATA = {
    "reason": "机器人开发者, 交叉方向",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "华为ICT 大赛",
@@ -978,8 +1154,15 @@ window.SITE_DATA = {
     "competition": "华为ICT 大赛",
     "moeNo": 42,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "9": 3,
@@ -1018,8 +1201,15 @@ window.SITE_DATA = {
     "competition": "全国大学生物理实验竞赛",
     "moeNo": 45,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 6,
@@ -1058,8 +1248,15 @@ window.SITE_DATA = {
     "competition": "iCAN 大学生创新创业大赛",
     "moeNo": 54,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 2
@@ -1097,8 +1294,15 @@ window.SITE_DATA = {
     "competition": "百度之星程序设计大赛",
     "moeNo": 58,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生计算机系统统能力大赛",
@@ -1115,7 +1319,11 @@ window.SITE_DATA = {
    "reason": "计算机系统能力, 交叉",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生能源经济学术创意大赛",
@@ -1139,8 +1347,15 @@ window.SITE_DATA = {
     "competition": "全国大学生能源经济学术创意大赛",
     "moeNo": 69,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-02-23",
+    "deadlineScore": 6
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "国际大学生智能农业装备创新大赛",
@@ -1164,8 +1379,15 @@ window.SITE_DATA = {
     "competition": "国际大学生智能农业装备创新大赛",
     "moeNo": 77,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2025-12-01",
+    "deadlineScore": 7
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "9": 2
@@ -1203,8 +1425,15 @@ window.SITE_DATA = {
     "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
     "moeNo": 21,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "2026-04-21",
+    "deadlineScore": 7
    },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 2
@@ -1242,8 +1471,15 @@ window.SITE_DATA = {
     "competition": "全国三维数字化创新设计大赛",
     "moeNo": 22,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-06-01",
+    "deadlineScore": 5
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 3,
@@ -1285,8 +1521,15 @@ window.SITE_DATA = {
     "competition": "中国大学生计算机设计大赛",
     "moeNo": 25,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "2026-04-26",
+    "deadlineScore": 5
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -1323,8 +1566,15 @@ window.SITE_DATA = {
     "competition": "中国高校计算机大赛",
     "moeNo": 26,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 2
@@ -1362,8 +1612,15 @@ window.SITE_DATA = {
     "competition": "全国大学生信息安全竞赛",
     "moeNo": 33,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "6": 1,
@@ -1400,8 +1657,15 @@ window.SITE_DATA = {
     "competition": "“中国软件杯”大学生软件设计大赛",
     "moeNo": 38,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 2,
@@ -1434,7 +1698,11 @@ window.SITE_DATA = {
    "reason": "创客类, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生工业设计大赛",
@@ -1451,7 +1719,11 @@ window.SITE_DATA = {
    "reason": "工业设计, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生水利创新设计大赛",
@@ -1468,7 +1740,11 @@ window.SITE_DATA = {
    "reason": "水利类, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生信息安全与对抗技术竞赛",
@@ -1492,8 +1768,15 @@ window.SITE_DATA = {
     "competition": "全国大学生信息安全与对抗技术竞赛",
     "moeNo": 66,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生统计建模大赛",
@@ -1517,8 +1800,15 @@ window.SITE_DATA = {
     "competition": "全国大学生统计建模大赛",
     "moeNo": 68,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 1,
@@ -1555,8 +1845,15 @@ window.SITE_DATA = {
     "competition": "全国大学生数字媒体科技作品及创意竞赛",
     "moeNo": 71,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全球校园人工智能算法精英大赛",
@@ -1580,8 +1877,15 @@ window.SITE_DATA = {
     "competition": "全球校园人工智能算法精英大赛",
     "moeNo": 76,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-10-15",
+    "deadlineScore": 8
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "2026-10-15",
+   "openNoticeUrl": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
+   "isOpen": true,
    "cadence": {
     "months": {
      "4": 1,
@@ -1611,7 +1915,11 @@ window.SITE_DATA = {
    "reason": "技能大赛, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "世界技能大赛中国选拔赛",
@@ -1628,7 +1936,11 @@ window.SITE_DATA = {
    "reason": "技能大赛选拔, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "一带一路暨金砖国家技能发展与技术创新大赛",
@@ -1645,7 +1957,11 @@ window.SITE_DATA = {
    "reason": "技能发展与技术创新, 弱相关",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“全国研究生创新实践系列活动”主题赛事",
@@ -1662,7 +1978,11 @@ window.SITE_DATA = {
    "reason": "研究生为主, 本科生参与有限",
    "source": "西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "中国大学生物理学术竞赛",
@@ -1686,8 +2006,15 @@ window.SITE_DATA = {
     "competition": "中国大学生物理学术竞赛",
     "moeNo": null,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-11-25",
+    "deadlineScore": 7
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "2026-11-25",
+   "openNoticeUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+   "isOpen": true,
    "cadence": {
     "months": {
      "9": 3,
@@ -1721,7 +2048,11 @@ window.SITE_DATA = {
    "reason": "航空航天模型, 弱相关",
    "source": "西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "中国大学生医学技术技能大赛",
@@ -1738,7 +2069,11 @@ window.SITE_DATA = {
    "reason": "医学类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生结构设计竞赛",
@@ -1762,8 +2097,15 @@ window.SITE_DATA = {
     "competition": "全国大学生结构设计竞赛",
     "moeNo": 9,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": true,
+    "deadline": "2026-03-14",
+    "deadlineScore": 5
    },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "2": 1,
@@ -1804,8 +2146,15 @@ window.SITE_DATA = {
     "competition": "全国大学生广告艺术大赛",
     "moeNo": 10,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-06-02",
+    "deadlineScore": 12
    },
+   "campusNoticeCount": 2,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "1": 1,
@@ -1845,8 +2194,15 @@ window.SITE_DATA = {
     "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
     "moeNo": 12,
     "site": "实践教学中心",
-    "isCompetition": false
+    "isCompetition": false,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "12": 2
@@ -1877,7 +2233,11 @@ window.SITE_DATA = {
    "reason": "物流类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛",
@@ -1894,7 +2254,11 @@ window.SITE_DATA = {
    "reason": "外语类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "两岸新锐设计竞赛·华灿奖",
@@ -1911,7 +2275,11 @@ window.SITE_DATA = {
    "reason": "设计类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生化工设计竞赛",
@@ -1928,7 +2296,11 @@ window.SITE_DATA = {
    "reason": "化工类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生市场调查与分析大赛",
@@ -1945,7 +2317,11 @@ window.SITE_DATA = {
    "reason": "市场调查类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "中国大学生服务外包创新创业大赛",
@@ -1969,8 +2345,15 @@ window.SITE_DATA = {
     "competition": "中国大学生服务外包创新创业大赛",
     "moeNo": 24,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-03-20",
+    "deadlineScore": 5
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -2007,8 +2390,15 @@ window.SITE_DATA = {
     "competition": "米兰设计周--中国高校设计学科师生优秀作品展",
     "moeNo": 28,
     "site": "实践教学中心",
-    "isCompetition": false
-   }
+    "isCompetition": false,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生地质技能竞赛",
@@ -2025,7 +2415,11 @@ window.SITE_DATA = {
    "reason": "地质类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生金相技能大赛",
@@ -2049,8 +2443,15 @@ window.SITE_DATA = {
     "competition": "全国大学生金相技能大赛",
     "moeNo": 32,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-04-25",
+    "deadlineScore": 4
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -2093,8 +2494,15 @@ window.SITE_DATA = {
     "competition": "未来设计师·全国高校数字艺术设计大赛",
     "moeNo": 34,
     "site": "实践教学中心",
-    "isCompetition": true
-   }
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2025-07-01",
+    "deadlineScore": 7
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生生命科学竞赛(CULSC)",
@@ -2111,7 +2519,11 @@ window.SITE_DATA = {
    "reason": "生命科学类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "国际高校 BIM 毕业设计创新大赛",
@@ -2128,7 +2540,11 @@ window.SITE_DATA = {
    "reason": "建筑类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国高校商业精英挑战赛",
@@ -2152,8 +2568,15 @@ window.SITE_DATA = {
     "competition": "全国高校商业精英挑战赛",
     "moeNo": 47,
     "site": "实践教学中心",
-    "isCompetition": false
-   }
+    "isCompetition": false,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
+   },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“学创杯”全国大学生创业综合模拟大赛",
@@ -2177,8 +2600,15 @@ window.SITE_DATA = {
     "competition": "“学创杯”全国大学生创业综合模拟大赛",
     "moeNo": 48,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "2026-05-20",
+    "deadlineScore": 10
    },
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "3": 1,
@@ -2208,7 +2638,11 @@ window.SITE_DATA = {
    "reason": "数字艺术类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“21 世纪杯”全国英语演讲比赛",
@@ -2225,7 +2659,11 @@ window.SITE_DATA = {
    "reason": "英语演讲类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“工行杯”全国大学生金融科技创新大赛",
@@ -2242,7 +2680,11 @@ window.SITE_DATA = {
    "reason": "金融科技类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "中华经典诵写讲大赛-①讲解大赛、②书写大赛、③诵读大赛、④篆刻大赛",
@@ -2259,7 +2701,11 @@ window.SITE_DATA = {
    "reason": "语言文字类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“外教社杯”全国高校学生跨文化能力大赛",
@@ -2276,7 +2722,11 @@ window.SITE_DATA = {
    "reason": "外语类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生化工实验大赛",
@@ -2293,7 +2743,11 @@ window.SITE_DATA = {
    "reason": "化工类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生化学实验创新设计大赛",
@@ -2310,7 +2764,11 @@ window.SITE_DATA = {
    "reason": "化学类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生花园设计建造竞赛",
@@ -2327,7 +2785,11 @@ window.SITE_DATA = {
    "reason": "园林类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生测绘学科创新创业智能大赛",
@@ -2344,7 +2806,11 @@ window.SITE_DATA = {
    "reason": "测绘类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国大学生基础医学创新研究暨实验设计论坛(大赛)",
@@ -2361,7 +2827,11 @@ window.SITE_DATA = {
    "reason": "医学类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国本科院校税收风险管控赛例大赛",
@@ -2378,7 +2848,11 @@ window.SITE_DATA = {
    "reason": "财税类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国企业模拟竞赛大赛",
@@ -2395,7 +2869,11 @@ window.SITE_DATA = {
    "reason": "企业模拟类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国高等院校数智化企业经营沙盘大赛",
@@ -2419,8 +2897,15 @@ window.SITE_DATA = {
     "competition": "全国高等院校数智化企业经营沙盘大赛",
     "moeNo": 74,
     "site": "实践教学中心",
-    "isCompetition": true
+    "isCompetition": true,
+    "isCampus": false,
+    "deadline": "",
+    "deadlineScore": 0
    },
+   "campusNoticeCount": 1,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "cadence": {
     "months": {
      "4": 1,
@@ -2451,7 +2936,11 @@ window.SITE_DATA = {
    "reason": "建筑类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "“科云杯”全国大学生财会职业能力大赛",
@@ -2468,7 +2957,11 @@ window.SITE_DATA = {
    "reason": "财会类专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "世界职业院校技能大赛",
@@ -2485,7 +2978,11 @@ window.SITE_DATA = {
    "reason": "职业院校专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "码蹄杯全国职业院校程序设计大赛",
@@ -2502,7 +2999,11 @@ window.SITE_DATA = {
    "reason": "职业院校程序设计专属",
    "source": "教育部2025目录",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国青少年科技创新大赛",
@@ -2519,7 +3020,11 @@ window.SITE_DATA = {
    "reason": "面向青少年而非大学生",
    "source": "西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   },
   {
    "name": "全国高等医学院校大学生临床技能竞赛",
@@ -2536,7 +3041,11 @@ window.SITE_DATA = {
    "reason": "医学类专属",
    "source": "西交A/B名单(旧版)",
    "noticeCount": 0,
-   "latestNotice": null
+   "latestNotice": null,
+   "campusNoticeCount": 0,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false
   }
  ],
  "notices": [
@@ -2547,7 +3056,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-11-25",
+   "deadlineScore": 7
   },
   {
    "title": "关于公示2027年春季学期港澳台地区高校交换生项目推荐学生名单的通知",
@@ -2556,7 +3068,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于继续办理2025级各班教材结算的通知",
@@ -2565,7 +3080,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2026年春季学期期末试卷检查的通知",
@@ -2574,7 +3092,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于国庆期间主楼C座教室暂停使用的通知",
@@ -2583,7 +3104,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2025-2026学年第二学期本科教学“优秀研究生助教”评选工作的通知",
@@ -2592,7 +3116,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2026年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
@@ -2601,7 +3128,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于启动2026级本科生劳动教育并继续做好2023、2024、2025级本科生劳动教育的通知",
@@ -2610,7 +3140,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
@@ -2619,7 +3152,10 @@ window.SITE_DATA = {
    "competition": "全国大学生嵌入式芯片与系统设计竞赛",
    "moeNo": 43,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-09-22",
+   "deadlineScore": 8
   },
   {
    "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
@@ -2628,7 +3164,10 @@ window.SITE_DATA = {
    "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
    "moeNo": 37,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-09-10",
+   "deadlineScore": 6
   },
   {
    "title": "关于组建中国青年志愿者西安交通大学第29届研究生支教团的通知",
@@ -2637,7 +3176,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
@@ -2646,7 +3188,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-08-28",
+   "deadlineScore": 6
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛获奖项目名单的通知",
@@ -2655,7 +3200,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
@@ -2664,7 +3212,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2026-2027学年第一学期补考（含缓考）有关事宜的通知",
@@ -2673,7 +3224,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通知",
@@ -2682,7 +3236,10 @@ window.SITE_DATA = {
    "competition": "全国大学生信息安全竞赛",
    "moeNo": 33,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
@@ -2691,7 +3248,10 @@ window.SITE_DATA = {
    "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
    "moeNo": 37,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-06-30",
+   "deadlineScore": 6
   },
   {
    "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
@@ -2700,7 +3260,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-07-01",
+   "deadlineScore": 4
   },
   {
    "title": "电气工程学院储能科学与工程（储能系统）方向2026年本科生转专业工作方案",
@@ -2709,7 +3272,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气工程学院2026年本科生转专业工作方案",
@@ -2718,7 +3284,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
@@ -2727,7 +3296,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气工程学院2025级本科生专业选择工作方案",
@@ -2736,7 +3308,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2026年西安交通大学电气学院-帝国理工学院暑期短期交流访学项目选拔通知（面向西交米兰学院）",
@@ -2745,7 +3320,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
@@ -2754,7 +3332,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
@@ -2763,7 +3344,10 @@ window.SITE_DATA = {
    "competition": "全国大学生智能汽车竞赛",
    "moeNo": 11,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-05-20",
+   "deadlineScore": 6
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安排的通知",
@@ -2772,7 +3356,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-05-15",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
@@ -2781,7 +3368,10 @@ window.SITE_DATA = {
    "competition": "全国高等院校数智化企业经营沙盘大赛",
    "moeNo": 74,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
@@ -2790,7 +3380,10 @@ window.SITE_DATA = {
    "competition": "全球校园人工智能算法精英大赛",
    "moeNo": 76,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-10-15",
+   "deadlineScore": 8
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校内决赛名单及相关安排的通知",
@@ -2799,7 +3392,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
@@ -2808,7 +3404,10 @@ window.SITE_DATA = {
    "competition": "“学创杯”全国大学生创业综合模拟大赛",
    "moeNo": 48,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-05-20",
+   "deadlineScore": 10
   },
   {
    "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
@@ -2817,7 +3416,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物联网设计竞赛",
    "moeNo": 65,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
@@ -2826,7 +3428,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-06-01",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
@@ -2835,7 +3440,10 @@ window.SITE_DATA = {
    "competition": "“中国软件杯”大学生软件设计大赛",
    "moeNo": 38,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
@@ -2844,7 +3452,10 @@ window.SITE_DATA = {
    "competition": "全国大学生信息安全与对抗技术竞赛",
    "moeNo": 66,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
@@ -2853,7 +3464,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-07-15",
+   "deadlineScore": 5
   },
   {
    "title": "第十四届全国大学生光电设计竞赛报名通知",
@@ -2862,7 +3476,10 @@ window.SITE_DATA = {
    "competition": "全国大学生光电设计竞赛",
    "moeNo": 30,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-05-08",
+   "deadlineScore": 6
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）高教主赛道、青年红色筑梦之旅赛道第一轮网评结果的通知",
@@ -2871,7 +3488,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于全国三维数字化创新设计大赛18周年精英联赛校赛获奖结果的公示",
@@ -2880,7 +3500,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展第十九届（2026）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
@@ -2889,7 +3512,10 @@ window.SITE_DATA = {
    "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
    "moeNo": 21,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-04-21",
+   "deadlineScore": 7
   },
   {
    "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
@@ -2898,7 +3524,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-04-19",
+   "deadlineScore": 6
   },
   {
    "title": "关于延长国创赛校赛系统开放时间的通知",
@@ -2907,7 +3536,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于参加2026年第十二届全国大学生统计建模大赛西安交通大学校赛的通知",
@@ -2916,7 +3548,10 @@ window.SITE_DATA = {
    "competition": "全国大学生统计建模大赛",
    "moeNo": 68,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2026年第二十届iCAN大学生创新创业大赛的通知",
@@ -2925,7 +3560,10 @@ window.SITE_DATA = {
    "competition": "iCAN 大学生创新创业大赛",
    "moeNo": 54,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "第二十一届全国大学生智能汽车竞赛报名通知",
@@ -2934,7 +3572,10 @@ window.SITE_DATA = {
    "competition": "全国大学生智能汽车竞赛",
    "moeNo": 11,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第九届中国高校智能机器人创意大赛 VEX U 专项赛的通知",
@@ -2943,7 +3584,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-05-08",
+   "deadlineScore": 9
   },
   {
    "title": "关于组织开展第十五届全国大学生金相技能大赛相关工作的通知",
@@ -2952,7 +3596,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-04-25",
+   "deadlineScore": 4
   },
   {
    "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
@@ -2961,7 +3608,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年第十八届“全国大学生广告艺术大赛”的通知",
@@ -2970,7 +3620,10 @@ window.SITE_DATA = {
    "competition": "全国大学生广告艺术大赛",
    "moeNo": 10,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-06-02",
+   "deadlineScore": 12
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2026）校内选拔赛的通知",
@@ -2979,7 +3632,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-04-02",
+   "deadlineScore": 7
   },
   {
    "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
@@ -2988,7 +3644,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织第二十八届中国机器人及人工智能大赛报名的通知",
@@ -2997,7 +3656,10 @@ window.SITE_DATA = {
    "competition": "中国机器人及人工智能大赛",
    "moeNo": 51,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-06-07",
+   "deadlineScore": 8
   },
   {
    "title": "关于举办西安交通大学第七届大学生物理实验竞赛（创新）的报名通知",
@@ -3006,7 +3668,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第一阶段校内选拔结果的通知",
@@ -3015,7 +3680,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第十二届全国大学生机械创新设计大赛校赛的通知",
@@ -3024,7 +3692,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-03-11",
+   "deadlineScore": 7
   },
   {
    "title": "关于组织参加“2026年中国大学生计算机设计大赛”校内赛的通知",
@@ -3033,7 +3704,10 @@ window.SITE_DATA = {
    "competition": "中国大学生计算机设计大赛",
    "moeNo": 25,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-04-26",
+   "deadlineScore": 5
   },
   {
    "title": "关于“第十七届中国大学生服务外包创新创业大赛”报名参赛的通知",
@@ -3042,7 +3716,10 @@ window.SITE_DATA = {
    "competition": "中国大学生服务外包创新创业大赛",
    "moeNo": 24,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-03-20",
+   "deadlineScore": 5
   },
   {
    "title": "关于2026年第十届全国大学生集成电路创新创业大赛的通知",
@@ -3051,7 +3728,10 @@ window.SITE_DATA = {
    "competition": "全国大学生集成电路创新创业大赛",
    "moeNo": 31,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2026年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
@@ -3060,7 +3740,10 @@ window.SITE_DATA = {
    "competition": "中国高校计算机大赛",
    "moeNo": 26,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举行2026年全国大学生结构设计竞赛西安交通大学校赛暨陕西省省赛选拔赛的通知",
@@ -3069,7 +3752,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-03-14",
+   "deadlineScore": 5
   },
   {
    "title": "2026年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
@@ -3078,7 +3764,10 @@ window.SITE_DATA = {
    "competition": "全国大学生嵌入式芯片与系统设计竞赛",
    "moeNo": 43,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-04-20",
+   "deadlineScore": 10
   },
   {
    "title": "关于组织参加第九届中国高校智能机器人创意大赛的通知",
@@ -3087,7 +3776,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-03-06",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织参加第十一届全国大学生生命科学竞赛（创新创业类）的通知",
@@ -3096,7 +3788,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-04-20",
+   "deadlineScore": 6
   },
   {
    "title": "关于公示西安交通大学2026年美国大学生数学建模竞赛校赛结果的通知",
@@ -3105,7 +3800,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年全国大学生电子设计竞赛模拟电子系统设计专题赛的通知",
@@ -3114,7 +3812,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-04-15",
+   "deadlineScore": 5
   },
   {
    "title": "关于开展2026年中国大学生机械工程创新创意大赛机械产品数字化设计赛报名工作的通知",
@@ -3123,7 +3824,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第18届全国大学生广告艺术大赛营销创客单元报名参赛的通知",
@@ -3132,7 +3836,10 @@ window.SITE_DATA = {
    "competition": "全国大学生广告艺术大赛",
    "moeNo": 10,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学2026年美国大学生数学建模竞赛（MCM/ICM）校内赛的通知",
@@ -3141,7 +3848,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2026 年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第二阶段校内选拔结果的通知",
@@ -3150,7 +3860,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2026年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第一阶段校内选拔结果的通知",
@@ -3159,7 +3872,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十六届全国大学生电子商务 “创新、创意及创业”挑战赛的通知",
@@ -3168,7 +3884,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
    "moeNo": 12,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十三届大学生新一代信息通信科技大赛的通知",
@@ -3177,7 +3896,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年第八届码蹄杯全国大学生程序设计大赛的通知",
@@ -3186,7 +3908,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛的通知",
@@ -3195,7 +3920,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-12-31",
+   "deadlineScore": 10
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2026）参赛组织与重点项目培育工作的通知",
@@ -3204,7 +3932,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十一届全国大学生生命科学竞赛（科学探究类）的通知",
@@ -3213,7 +3944,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-03-31",
+   "deadlineScore": 9
   },
   {
    "title": "关于组织参加2026年全国大学生电子设计竞赛信息科技前沿专题赛的通知",
@@ -3222,7 +3956,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-12-24",
+   "deadlineScore": 10
   },
   {
    "title": "关于组织开展第十七届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
@@ -3231,7 +3968,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-12-05",
+   "deadlineScore": 7
   },
   {
    "title": "关于第十九届全国大学生信息安全竞赛（创新实践能力赛）暨第三届“长城杯”网数智安全大赛（防护赛）的通知",
@@ -3240,7 +3980,10 @@ window.SITE_DATA = {
    "competition": "全国大学生信息安全竞赛",
    "moeNo": 33,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十二届全国大学生能源经济学术创意大赛的通知",
@@ -3249,7 +3992,10 @@ window.SITE_DATA = {
    "competition": "全国大学生能源经济学术创意大赛",
    "moeNo": 69,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-02-23",
+   "deadlineScore": 6
   },
   {
    "title": "关于第十七届蓝桥杯全国大学生软件和信息技术大赛报名的通知",
@@ -3258,7 +4004,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-11-30",
+   "deadlineScore": 8
   },
   {
    "title": "关于全国大学生计算机应用能力与数字素养大赛暨第八届“传智杯”全国IT技能大赛报名通知",
@@ -3267,7 +4016,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2026年美国大学生数学建模竞赛相关工作的通知",
@@ -3276,7 +4028,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-11-16",
+   "deadlineScore": 4
   },
   {
    "title": "关于发布第十七届全国大学生数学竞赛考场信息的通知",
@@ -3285,7 +4040,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学电气工程学院2026年普通招考博士研究生“申请-考核”制实施细则",
@@ -3294,7 +4052,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2026电气学院直博生信息确认须知",
@@ -3303,7 +4064,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第41届全国部分地区大学生物理竞赛报名工作的通知",
@@ -3312,7 +4076,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-11-05",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织开展全国三维数字化创新设计大赛18周年精英联赛报名工作的通知",
@@ -3321,7 +4088,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-11-10",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
@@ -3330,7 +4100,10 @@ window.SITE_DATA = {
    "competition": "国际大学生智能农业装备创新大赛",
    "moeNo": 77,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-12-01",
+   "deadlineScore": 7
   },
   {
    "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
@@ -3339,7 +4112,10 @@ window.SITE_DATA = {
    "competition": "华为ICT 大赛",
    "moeNo": 42,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织2025年全国大学生数字媒体科技作品及创意竞赛报名的通知",
@@ -3348,7 +4124,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数字媒体科技作品及创意竞赛",
    "moeNo": 71,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
@@ -3357,7 +4136,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-10-22",
+   "deadlineScore": 7
   },
   {
    "title": "关于公示西安交通大学2025年大学生数学建模竞赛校赛结果的通知",
@@ -3366,7 +4148,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第十七届全国大学生数学竞赛西安交通大学报名的通知",
@@ -3375,7 +4160,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025-2026学年第一学期电气学院本科生选课指导计划",
@@ -3384,7 +4172,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名通知",
@@ -3393,7 +4184,10 @@ window.SITE_DATA = {
    "competition": "全国大学生嵌入式芯片与系统设计竞赛",
    "moeNo": 43,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-09-22",
+   "deadlineScore": 10
   },
   {
    "title": "西交•通全球暑期学校（XJTISS）课程通知-真空电弧理论、仿真、实验技术及应用",
@@ -3402,7 +4196,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第七届全球校园人工智能算法精英大赛的通知",
@@ -3411,7 +4208,10 @@ window.SITE_DATA = {
    "competition": "全球校园人工智能算法精英大赛",
    "moeNo": 76,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-10-31",
+   "deadlineScore": 7
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内选拔赛高教主赛道、青年红色筑梦之旅赛道获奖名单的通知",
@@ -3420,7 +4220,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2025）国际参赛项目报名工作的通知",
@@ -3429,7 +4232,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-07-02",
+   "deadlineScore": 11
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）主赛道、红旅赛道拟推荐省赛项目名单的通知",
@@ -3438,7 +4244,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年中国大学生机械工程创新创意大赛：“明石杯”微纳传感技术与智能应用赛西安交通大学校赛结果公布通知",
@@ -3447,7 +4256,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校赛决赛（主赛道、红旅赛道）结果的通知",
@@ -3456,7 +4268,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内决赛名单及相关安排的通知",
@@ -3465,7 +4280,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）第一轮网评结果的通知",
@@ -3474,7 +4292,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示“2025年第十一届全国大学生统计建模大赛”拟推荐陕西赛区复赛名单",
@@ -3483,7 +4304,10 @@ window.SITE_DATA = {
    "competition": "全国大学生统计建模大赛",
    "moeNo": 68,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2025）校赛及下一步工作安排的通知",
@@ -3492,7 +4316,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加未来设计师·全国高校数字艺术设计大赛的通知",
@@ -3501,7 +4328,10 @@ window.SITE_DATA = {
    "competition": "未来设计师·全国高校数字艺术设计大赛",
    "moeNo": 34,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-07-01",
+   "deadlineScore": 7
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的通知",
@@ -3510,7 +4340,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-05-09",
+   "deadlineScore": 6
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的预通知",
@@ -3519,7 +4352,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-05-09",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
@@ -3528,7 +4364,10 @@ window.SITE_DATA = {
    "competition": "全国高等院校数智化企业经营沙盘大赛",
    "moeNo": 74,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十四届“中国软件杯”大学生软件设计大赛的通知",
@@ -3537,7 +4376,10 @@ window.SITE_DATA = {
    "competition": "“中国软件杯”大学生软件设计大赛",
    "moeNo": 38,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-07-15",
+   "deadlineScore": 5
   },
   {
    "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
@@ -3546,7 +4388,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展百度之星程序设计大赛报名的通知",
@@ -3555,7 +4400,10 @@ window.SITE_DATA = {
    "competition": "百度之星程序设计大赛",
    "moeNo": 58,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
@@ -3564,7 +4412,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-04-18",
+   "deadlineScore": 4
   },
   {
    "title": "关于组织参加2025年全国大学生电子设计竞赛的通知",
@@ -3573,7 +4424,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第十三届全国大学生光电设计竞赛校赛报名的通知",
@@ -3582,7 +4436,10 @@ window.SITE_DATA = {
    "competition": "全国大学生光电设计竞赛",
    "moeNo": 30,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-05-20",
+   "deadlineScore": 6
   },
   {
    "title": "电气学院关于2024-2025学年第二学期博士资格考核工作的通知",
@@ -3591,7 +4448,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第二十届全国大学生智能汽车竞赛报名的通知",
@@ -3600,7 +4460,10 @@ window.SITE_DATA = {
    "competition": "全国大学生智能汽车竞赛",
    "moeNo": 11,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2025年中国大学生机械工程创新创意大赛-“明石杯”微纳传感技术与智能应用赛校内选拔的通知",
@@ -3609,7 +4472,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-05-20",
+   "deadlineScore": 10
   },
   {
    "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
@@ -3618,7 +4484,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-05-15",
+   "deadlineScore": 15
   },
   {
    "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
@@ -3627,7 +4496,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-06-07",
+   "deadlineScore": 9
   },
   {
    "title": "关于2025年全国大学生计算机系统能力大赛的通知",
@@ -3636,7 +4508,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年（第十二届）全国大学生物联网设计竞赛参赛通知",
@@ -3645,7 +4520,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物联网设计竞赛",
    "moeNo": 65,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年第七届码蹄杯全国大学生程序设计大赛通知",
@@ -3654,7 +4532,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
@@ -3663,7 +4544,10 @@ window.SITE_DATA = {
    "competition": "iCAN 大学生创新创业大赛",
    "moeNo": 54,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-07-31",
+   "deadlineScore": 8
   },
   {
    "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
@@ -3672,7 +4556,10 @@ window.SITE_DATA = {
    "competition": "全国大学生先进成图技术与产品信息建模创新大赛",
    "moeNo": 21,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-04-03",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
@@ -3681,7 +4568,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-05-01",
+   "deadlineScore": 8
   },
   {
    "title": "关于公示2025年西安交通大学工创大赛工程场景数字化赛项拟推荐陕西赛区复赛名单",
@@ -3690,7 +4580,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2025年中国大学生工程实践与创新能力大赛拟推荐陕西赛区复赛名单的通知",
@@ -3699,7 +4592,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2025年工创大赛校赛工程场景数字化赛项的补充通知",
@@ -3708,7 +4604,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于“2025年学创杯全国大学生创业综合模拟大赛”的通知",
@@ -3717,7 +4616,10 @@ window.SITE_DATA = {
    "competition": "“学创杯”全国大学生创业综合模拟大赛",
    "moeNo": 48,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
@@ -3726,7 +4628,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于“第十届全国大学生生物医学工程创新设计竞赛”的通知",
@@ -3735,7 +4640,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
@@ -3744,7 +4652,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-04-30",
+   "deadlineScore": 9
   },
   {
    "title": "关于公示入围2025年西安交通大学工创大赛企业运营仿真校赛决赛名单的通知",
@@ -3753,7 +4664,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
@@ -3762,7 +4676,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-04-06",
+   "deadlineScore": 6
   },
   {
    "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
@@ -3771,7 +4688,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-03-25",
+   "deadlineScore": 4
   },
   {
    "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
@@ -3780,7 +4700,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-03-15",
+   "deadlineScore": 5
   },
   {
    "title": "关于2025年全国高校商业精英挑战赛的通知",
@@ -3789,7 +4712,10 @@ window.SITE_DATA = {
    "competition": "全国高校商业精英挑战赛",
    "moeNo": 47,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
@@ -3798,7 +4724,10 @@ window.SITE_DATA = {
    "competition": "全国大学生嵌入式芯片与系统设计竞赛",
    "moeNo": 43,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-04-25",
+   "deadlineScore": 10
   },
   {
    "title": "2025年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
@@ -3807,7 +4736,10 @@ window.SITE_DATA = {
    "competition": "中国高校计算机大赛",
    "moeNo": 26,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于邀请参加2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛的通知",
@@ -3816,7 +4748,10 @@ window.SITE_DATA = {
    "competition": "“大唐杯”全国大学生新一代信息通信技术大赛",
    "moeNo": 41,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2025年第九届全国大学生集成电路创新创业大赛的通知",
@@ -3825,7 +4760,10 @@ window.SITE_DATA = {
    "competition": "全国大学生集成电路创新创业大赛",
    "moeNo": 31,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
@@ -3834,7 +4772,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
@@ -3843,7 +4784,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-06-15",
+   "deadlineScore": 5
   },
   {
    "title": "关于参加2025年米兰设计周--中国高校设计学科师生优秀作品展的通知",
@@ -3852,7 +4796,10 @@ window.SITE_DATA = {
    "competition": "米兰设计周--中国高校设计学科师生优秀作品展",
    "moeNo": 28,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
@@ -3861,7 +4808,10 @@ window.SITE_DATA = {
    "competition": "全国大学生广告艺术大赛",
    "moeNo": 10,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-06-13",
+   "deadlineScore": 12
   },
   {
    "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
@@ -3870,7 +4820,10 @@ window.SITE_DATA = {
    "competition": "中国机器人及人工智能大赛",
    "moeNo": 51,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-06-30",
+   "deadlineScore": 8
   },
   {
    "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
@@ -3879,7 +4832,10 @@ window.SITE_DATA = {
    "competition": "“西门子杯”中国智能制造挑战赛",
    "moeNo": 23,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-06-06",
+   "deadlineScore": 7
   },
   {
    "title": "关于举行西安交通大学第七届大学生结构设计竞赛的通知",
@@ -3888,7 +4844,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
@@ -3897,7 +4856,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公布中国国际大学生创新大赛（2025）学院联系人联系方式的通知",
@@ -3906,7 +4868,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
@@ -3915,7 +4880,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2025-01-13",
+   "deadlineScore": 5
   },
   {
    "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
@@ -3924,7 +4892,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
@@ -3933,7 +4904,10 @@ window.SITE_DATA = {
    "competition": "全国周培源大学生力学竞赛",
    "moeNo": 35,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-01-13",
+   "deadlineScore": 5
   },
   {
    "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
@@ -3942,7 +4916,10 @@ window.SITE_DATA = {
    "competition": "中国大学生服务外包创新创业大赛",
    "moeNo": 24,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2025-03-20",
+   "deadlineScore": 4
   },
   {
    "title": "关于组织参加第十五届全国大学生电子商务“创新、创意及创业”挑战赛的通知",
@@ -3951,7 +4928,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
    "moeNo": 12,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
@@ -3960,7 +4940,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2024-12-02",
+   "deadlineScore": 10
   },
   {
    "title": "新一轮本科教育教学审核评估知识问答",
@@ -3969,7 +4952,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
@@ -3978,7 +4964,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2024-11-04",
+   "deadlineScore": 4
   },
   {
    "title": "关于组织开展西安交通大学2025年美国大学生数学建模竞赛相关工作的通知",
@@ -3987,7 +4976,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加首届教育信息技术应用创新大赛的通知",
@@ -3996,7 +4988,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展中国移动2024年创客马拉松大赛 西安交大-中国移动数字政府联合研究院专题赛的通知",
@@ -4005,7 +5000,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十六届蓝桥杯全国软件和信息技术专业人才大赛相关工作的通知",
@@ -4014,7 +5012,10 @@ window.SITE_DATA = {
    "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
    "moeNo": 27,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第十一届大学生物理学术竞赛的通知",
@@ -4023,7 +5024,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展全国3D大赛17周年精英联赛（2024-2025）报名工作",
@@ -4032,7 +5036,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展华为ICT大赛2024-2025报名的通知",
@@ -4041,7 +5048,10 @@ window.SITE_DATA = {
    "competition": "华为ICT 大赛",
    "moeNo": 42,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第十届国际大学生智能农业装备创新大赛相关工作的通知",
@@ -4050,7 +5060,10 @@ window.SITE_DATA = {
    "competition": "国际大学生智能农业装备创新大赛",
    "moeNo": 77,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十三届中国创新创业大赛北斗应用专业赛相关工作的通知",
@@ -4059,7 +5072,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于推荐参加中国国际大学生创新大赛（2024）总决赛项目的公示",
@@ -4068,7 +5084,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十六届全国大学生数学竞赛相关工作的通知",
@@ -4077,7 +5096,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2025年中国大学生工程实践与创新能力大赛相关工作的预通知",
@@ -4086,7 +5108,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于报送西安交通大学中国国际大学生创新大赛（2024）陕西赛区省级复赛相关材料的通知",
@@ -4095,7 +5120,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2024）国际参赛项目邀请工作的通知",
@@ -4104,7 +5132,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2024） 校内决赛相关安排的通知",
@@ -4113,7 +5144,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "​关于举办2024全国高等院校数智化企业经营沙盘大赛校赛的通知",
@@ -4122,7 +5156,10 @@ window.SITE_DATA = {
    "competition": "全国高等院校数智化企业经营沙盘大赛",
    "moeNo": 74,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛校内赛决赛及下一步工作安排的通知",
@@ -4131,7 +5168,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2024年第十六届“全国大学生广告艺术大赛” 西安交通大学校赛的通知",
@@ -4140,7 +5180,10 @@ window.SITE_DATA = {
    "competition": "全国大学生广告艺术大赛",
    "moeNo": 10,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办中国国际大学生创新大赛（2024）校内选拔赛的通知",
@@ -4149,7 +5192,10 @@ window.SITE_DATA = {
    "competition": "中国国际大学生创新大赛",
    "moeNo": 1,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十三届中国软件杯大学生软件设计大赛的通知",
@@ -4158,7 +5204,10 @@ window.SITE_DATA = {
    "competition": "“中国软件杯”大学生软件设计大赛",
    "moeNo": 38,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加“第七届（2024）全国大学生嵌入式芯片与系统设计竞赛”的通知",
@@ -4167,7 +5216,10 @@ window.SITE_DATA = {
    "competition": "全国大学生嵌入式芯片与系统设计竞赛",
    "moeNo": 43,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加“2024年（第17届）中国大学生计算机设计大赛”的通知",
@@ -4176,7 +5228,10 @@ window.SITE_DATA = {
    "competition": "中国大学生计算机设计大赛",
    "moeNo": 25,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十三届全国大学生金相技能大赛相关工作的通知",
@@ -4185,7 +5240,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2024年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛的通知",
@@ -4194,7 +5252,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2024年西安交通大学大学生数学建模竞赛的通知",
@@ -4203,7 +5264,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2024年全国大学生物理实验竞赛（创新）报名通知",
@@ -4212,7 +5276,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第七届中国高校智能机器人创意大赛的通知",
@@ -4221,7 +5288,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2024第17届全国三维数字化创新设计大赛报名工作的通知",
@@ -4230,7 +5300,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举行西安交通大学第六届大学生结构设计竞赛的通知",
@@ -4239,7 +5312,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第十一届全国大学生机械创新设计大赛校赛的通知",
@@ -4248,7 +5324,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学2024年美国大学生数学建模竞赛校内赛的通知",
@@ -4257,7 +5336,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2024年美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -4266,7 +5348,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十五届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -4275,7 +5360,10 @@ window.SITE_DATA = {
    "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
    "moeNo": 27,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学首届软件开发大赛的通知",
@@ -4284,7 +5372,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十二届中国创新创业大赛轨道交通产业技术创新专业赛的通知",
@@ -4293,7 +5384,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展全国3D大赛16周年精英联赛（2023-2024）报名工作的通知",
@@ -4302,7 +5396,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2023年中国大学生工程实践与创新能力大赛西安交通大学校赛安排的通知",
@@ -4311,7 +5408,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展华为ICT大赛2023-2024中国区实践赛/创新赛报名的通知",
@@ -4320,7 +5420,10 @@ window.SITE_DATA = {
    "competition": "华为ICT 大赛",
    "moeNo": 42,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展中国移动创客马拉松大赛西安交大-中国移动数字政府联合研究院专题赛的通知",
@@ -4329,7 +5432,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加首届企校协同创新大赛的通知",
@@ -4338,7 +5444,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2023年中国大学生工程实践与创新能力大赛相关工作的补充通知",
@@ -4347,7 +5456,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第十届大学生物理学术竞赛的通知",
@@ -4356,7 +5468,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2023年中国大学生工程实践与创新能力大赛相关工作的通知",
@@ -4365,7 +5480,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办“萌新首秀 ”全国高校新生编程排位赛的通知",
@@ -4374,7 +5492,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公布西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛获奖名单的通知",
@@ -4383,7 +5504,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学2023年大学生数学建模竞赛校赛结果的通知",
@@ -4392,7 +5516,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
@@ -4401,7 +5528,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2023年西安交通大学大学生数学建模竞赛校赛的通知",
@@ -4410,7 +5540,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第十二届中国软件杯大学生软件设计大赛的通知",
@@ -4419,7 +5552,10 @@ window.SITE_DATA = {
    "competition": "“中国软件杯”大学生软件设计大赛",
    "moeNo": 38,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
@@ -4428,7 +5564,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第六届中国高校智能机器人创意大赛的通知",
@@ -4437,7 +5576,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2023年西安交通大学大学生数学建模竞赛的通知",
@@ -4446,7 +5588,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十二届全国大学生金相技能大赛相关工作的通知",
@@ -4455,7 +5600,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举行西安交通大学第五届大学生结构设计竞赛的通知",
@@ -4464,7 +5612,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十一届全国大学生机械创新设计大赛报名工作的通知",
@@ -4473,7 +5624,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2023年全国大学生物理实验竞赛（创新）报名通知",
@@ -4482,7 +5636,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -4491,7 +5648,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展2023第16届全国三维数字化创新设计大赛年度赛报名工作的通知",
@@ -4500,7 +5660,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2023西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -4509,7 +5672,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第九届大学生物理学术竞赛的通知",
@@ -4518,7 +5684,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展华为ICT大赛2022-2023中国区陕西省实践赛的通知",
@@ -4527,7 +5696,10 @@ window.SITE_DATA = {
    "competition": "华为ICT 大赛",
    "moeNo": 42,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第二届中望杯工业软件大赛报名工作的通知",
@@ -4536,7 +5708,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十四届蓝桥杯 全国软件和信息技术专业人才大赛的通知",
@@ -4545,7 +5720,10 @@ window.SITE_DATA = {
    "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
    "moeNo": 27,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展全国3D大赛15周年精英联赛（2022-2023）报名工作的通知",
@@ -4554,7 +5732,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
@@ -4563,7 +5744,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2022年西安交通大学数学建模竞赛校赛获奖结果的通知",
@@ -4572,7 +5756,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2022年西安交通大学大学生数学建模竞赛校赛的通知",
@@ -4581,7 +5768,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
@@ -4590,7 +5780,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第七届吉先锋大赛暨极氪校园创新创业大赛的通知",
@@ -4599,7 +5792,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于核对2022美国大学生数学建模竞赛获奖信息的通知",
@@ -4608,7 +5804,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛选拔结果的通知",
@@ -4617,7 +5816,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛的通知",
@@ -4626,7 +5828,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学第十届全国大学生机械创新设计大赛校赛获奖结果的通知",
@@ -4635,7 +5840,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2022年西安交通大学大学生数学建模竞赛的通知",
@@ -4644,7 +5852,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
@@ -4653,7 +5864,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
@@ -4662,7 +5876,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）的通知",
@@ -4671,7 +5888,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2022年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛校赛选拔结果的通知",
@@ -4680,7 +5900,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十一届全国大学生金相技能大赛相关工作的通知",
@@ -4689,7 +5912,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第八届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -4698,7 +5924,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加2022年英特尔杯大学生电子设计竞赛 嵌入式系统专题邀请赛的通知",
@@ -4707,7 +5936,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于启动西安交通大学第八届中国国际“互联网+”大学生创新创业大赛第一轮项目征集工作的通知",
@@ -4716,7 +5948,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2022年全国大学生物理实验竞赛（创新）报名通知",
@@ -4725,7 +5960,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于延期举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
@@ -4734,7 +5972,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第15届全国三维数字化创新设计大赛年度赛（3D大赛）报名工作的通知",
@@ -4743,7 +5984,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -4752,7 +5996,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学全国3D大赛14周年精英联赛校内选拔赛结果的通知",
@@ -4761,7 +6008,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举行西安交通大学第四届大学生结构设计竞赛的通知",
@@ -4770,7 +6020,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2022美国大学生数学建模竞赛（MCM/ICM）温馨提示",
@@ -4779,7 +6032,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛结果的通知",
@@ -4788,7 +6044,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛的通知",
@@ -4797,7 +6056,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办“数学建模创新思维”系列云讲座的通知",
@@ -4806,7 +6068,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2022西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -4815,7 +6080,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办2021年首届西安交通大学力学与空天知识竞赛的通知",
@@ -4824,7 +6092,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十七届花旗杯金融创新应用大赛的通知",
@@ -4833,7 +6104,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十三届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -4842,7 +6116,10 @@ window.SITE_DATA = {
    "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
    "moeNo": 27,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学第八届大学生物理学术竞赛的通知",
@@ -4851,7 +6128,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第14届全国三维数字化创新设计大赛精英联赛（2021-2022）（3D大赛）报名工作的通知",
@@ -4860,7 +6140,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公布西安交通大学2021年中国大学生工程实践与创新能力大赛获奖名单的通知",
@@ -4869,7 +6152,10 @@ window.SITE_DATA = {
    "competition": "中国大学生工程实践与创新能力大赛",
    "moeNo": 13,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2021西安交通大学大学生数学建模竞赛下一步工作安排的通知",
@@ -4878,7 +6164,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学第七届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
@@ -4887,7 +6176,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2021西安交通大学大学生数学建模竞赛的通知",
@@ -4896,7 +6188,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展西安交通大学第五届大学生金相技能大赛暨第十届全国大学生金相技能大赛预赛报名工作的通知",
@@ -4905,7 +6200,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第14届全国三维数字化创新设计大赛（3D大赛）报名工作的通知",
@@ -4914,7 +6212,10 @@ window.SITE_DATA = {
    "competition": "全国三维数字化创新设计大赛",
    "moeNo": 22,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第七届中国国际“互联网+”大学生 创新创业大赛校内选拔赛的通知",
@@ -4923,7 +6224,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十届全国大学生机械创新设计大赛报名工作的通知",
@@ -4932,7 +6236,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -4941,7 +6248,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛工业场景数字化、企业运营仿真赛项校赛评审结果的通知",
@@ -4950,7 +6260,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2021年全国大学生英语竞赛准考证及考试要求的通知",
@@ -4959,7 +6272,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛校赛评审结果的通知",
@@ -4968,7 +6284,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2021年全国大学生物理实验竞赛（创新）报名通知",
@@ -4977,7 +6296,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -4986,7 +6308,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2021中国大学生机械工程创新创意大赛- “明石杯”微纳传感技术与智能应用 大赛报名的通知",
@@ -4995,7 +6320,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛校内第一轮评审的通知",
@@ -5004,7 +6332,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第十二届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -5013,7 +6344,10 @@ window.SITE_DATA = {
    "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
    "moeNo": 27,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "“第十三届全国周培源大学生力学竞赛”报名通知",
@@ -5022,7 +6356,10 @@ window.SITE_DATA = {
    "competition": "全国周培源大学生力学竞赛",
    "moeNo": 35,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2021年全国大学生英语竞赛报名通知",
@@ -5031,7 +6368,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2021西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -5040,7 +6380,10 @@ window.SITE_DATA = {
    "competition": "美国大学生数学建模竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织开展第七届全国大学生工程训练综合能力竞赛相关工作的通知",
@@ -5049,7 +6392,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于领取第十二届全国大学生数学竞赛准考证的通知",
@@ -5058,7 +6404,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2020年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
@@ -5067,7 +6416,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织学生参加 西安交通大学第七届大学生物理学术竞赛的通知",
@@ -5076,7 +6428,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第十二届全国大学生数学竞赛报名的通知",
@@ -5085,7 +6440,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学第六届中国国际 “互联网+”大学生创新创业大赛 校赛获奖结果的通知",
@@ -5094,7 +6452,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第四届大学生金相技能大赛暨第九届全国大学生金相技能大赛预赛报名通知",
@@ -5103,7 +6464,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学兴庆校区2020年9月全国计算机等级考试报名通知",
@@ -5112,7 +6476,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于紫金奖•第二届中国（南京）大学生设计展报名通知",
@@ -5121,7 +6488,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于激活2020年全国大学生数学建模竞赛竞赛管理系统账号的通知",
@@ -5130,7 +6500,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2020年全国大学生数学建模竞赛报名和参赛安排的通知",
@@ -5139,7 +6512,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
@@ -5148,7 +6524,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2020西安交通大学大学生数学建模竞赛的通知",
@@ -5157,7 +6536,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2020年全国大学生电子设计竞赛-瑞萨杯”信息科技前沿专题邀请赛校内赛结果的通知",
@@ -5166,7 +6548,10 @@ window.SITE_DATA = {
    "competition": "全国大学生电子设计竞赛",
    "moeNo": 6,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2020年全国大学生物理实验竞赛（创新）报名通知",
@@ -5175,7 +6560,10 @@ window.SITE_DATA = {
    "competition": "全国大学生物理实验竞赛",
    "moeNo": 45,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第六届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -5184,7 +6572,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于中国大学生机械工程创新创意大赛-2020“明石杯”微纳传感技术与智能应用大赛报名的通知",
@@ -5193,7 +6584,10 @@ window.SITE_DATA = {
    "competition": "中国大学生机械工程创新创意大赛",
    "moeNo": 36,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -5202,7 +6596,10 @@ window.SITE_DATA = {
    "competition": "全国大学生节能减排社会实践与科技竞赛",
    "moeNo": 52,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2020年全国大学生英语竞赛报名的通知",
@@ -5211,7 +6608,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】大功率电动汽车充电接口模拟器及检测系统",
@@ -5220,7 +6620,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】渐近圆锥天线加工",
@@ -5229,7 +6632,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】微弱信号探测模块",
@@ -5238,7 +6644,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士生中期考核时间通知",
@@ -5247,7 +6656,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】电磁脉冲锥型辐射天线及标准场建立方法",
@@ -5256,7 +6668,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公开招考博士生现场确认的说明",
@@ -5265,7 +6680,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于召开第七届（2020 年）全国高等学校电气类专业教学改革研讨会的第一次通知",
@@ -5274,7 +6692,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-许雯珺",
@@ -5283,7 +6704,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告 唐磊",
@@ -5292,7 +6716,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于邀请参加广西珞桂节能环保研究院项目论证评审会的函",
@@ -5301,7 +6728,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】电子加速器测试用直流源",
@@ -5310,7 +6740,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "会议通知",
@@ -5319,7 +6752,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】广州配电网全景信息可视化平台数据服务",
@@ -5328,7 +6764,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士中期考核通知",
@@ -5337,7 +6776,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】ELG-2/EGPS-1022低能电子枪",
@@ -5346,7 +6788,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】EGH-6002 / EGPS-6002高能电子枪",
@@ -5355,7 +6800,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】高压脉冲电源",
@@ -5364,7 +6812,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】冲击发生器大尺寸均压环",
@@ -5373,7 +6824,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】电气学院教师办公座椅",
@@ -5382,7 +6836,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-孟鑫",
@@ -5391,7 +6848,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】数字示波器",
@@ -5400,7 +6860,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】ICCD光谱仪系统维修服务",
@@ -5409,7 +6872,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "重点实验室2020年中青年基础研究创新基金申报通知",
@@ -5418,7 +6884,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第三届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
@@ -5427,7 +6896,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "高耐电强度绝缘基础与应用研讨会",
@@ -5436,7 +6908,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2020年寒假电气学院-早稻田IPS学院短期交流项目预选拔通知",
@@ -5445,7 +6920,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年IEEE APPEEC会议暨澳门研学计划选拔通知",
@@ -5454,7 +6932,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "11月8日学术报告",
@@ -5463,7 +6944,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "“盛剑霓教授西迁精神与教学思想”座谈会暨学术报告会",
@@ -5472,7 +6956,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "Huang Yi教授讲座通知",
@@ -5481,7 +6968,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】带直流剩余电流检测功能的直流断路器",
@@ -5490,7 +6980,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学工程硕士计算方法、英语 考试考场安排",
@@ -5499,7 +6992,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】晶闸管",
@@ -5508,7 +7004,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "14日讲座通知",
@@ -5517,7 +7016,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织学生参加西安交通大学第六届大学生物理学术竞赛的通知",
@@ -5526,7 +7028,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【采购公告】环保气体冲击绝缘试验腔移动平台系统和电极精细加工/表面处理",
@@ -5535,7 +7040,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】3M™ Novec™ 4710 绝缘保护气体",
@@ -5544,7 +7052,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "采购公告",
@@ -5553,7 +7064,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】不同气氛压力舱",
@@ -5562,7 +7076,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "直流输电与电力电子专业委员会关于推迟中国电机工程学会直流输电与电力电子专委会2019年学术年会征文截止时间的通知",
@@ -5571,7 +7088,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士论文答辩公告-刘帅",
@@ -5580,7 +7100,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-王亚楠",
@@ -5589,7 +7112,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2019年度中国电机工程学会会士提名（推荐）的通知",
@@ -5598,7 +7124,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "中国电机工程学会关于外籍会士提名（推荐）的通知",
@@ -5607,7 +7136,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-李亚飞",
@@ -5616,7 +7148,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-张伟",
@@ -5625,7 +7160,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-何佳熹",
@@ -5634,7 +7172,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛获奖结果的通知",
@@ -5643,7 +7184,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于横向科研合同立项申请线上审批试运行的通知",
@@ -5652,7 +7196,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019-2002学年课程开课学期变更通知",
@@ -5661,7 +7208,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于发布《研究生奖助金评审实施细则》工作安排的通知",
@@ -5670,7 +7220,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "罗先觉名师工作室课程建设报告会",
@@ -5679,7 +7232,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年“优秀本科生”计划选拔通知",
@@ -5688,7 +7244,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学电气工程学院2019年夏令营活动安排",
@@ -5697,7 +7256,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "中国电机工程学会直流输电与电力电子专业委员会关于2019年学术年会征文通知",
@@ -5706,7 +7268,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年全国优秀大学生夏令营审核结果查询与学生确认的通知",
@@ -5715,7 +7280,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛的通知",
@@ -5724,7 +7292,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士中期考核时间地点通知",
@@ -5733,7 +7304,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示第五届中国“互联网+”大学生创新创业大赛校内赛决赛项目的通知",
@@ -5742,7 +7316,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
@@ -5751,7 +7328,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年9月入学博士新生调档政审说明",
@@ -5760,7 +7340,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】质谱分析仪",
@@ -5769,7 +7352,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】气相色谱仪",
@@ -5778,7 +7364,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士中期考核通知",
@@ -5787,7 +7376,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于西安交通大学2019年大学生数学建模竞赛成绩的公告",
@@ -5796,7 +7388,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年春季学期研究生海外访学奖助金评定通知",
@@ -5805,7 +7400,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】示波器",
@@ -5814,7 +7412,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公布第五届中国“互联网+”大学生创新创业大赛各学院联系人的通知",
@@ -5823,7 +7424,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "国网四川省电力公司研究生工作站2019年招收计划",
@@ -5832,7 +7436,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】脉冲电容器",
@@ -5841,7 +7448,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年非全日制工程博士笔试和面试安排",
@@ -5850,7 +7460,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第三届大学生金相技能大赛暨第八届全国大学生金相技能大赛选拔赛报名通知",
@@ -5859,7 +7472,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第五届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -5868,7 +7484,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于开展2019西安交通大学大学生数学建模竞赛的通知",
@@ -5877,7 +7496,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】绝缘诊断分析仪",
@@ -5886,7 +7508,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】高速相机",
@@ -5895,7 +7520,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年秋季公开招考博士研究生综合面试安排",
@@ -5904,7 +7532,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "学术活动通知",
@@ -5913,7 +7544,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于召开第六届（2019 年）全国高校电气类专业教学改革研讨会的第二轮通知",
@@ -5922,7 +7556,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "中国电机工程学会直流输电与电力电子专业委员会关于2019年学术年会征文通知",
@@ -5931,7 +7568,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年4月20日英语及计算方法补考考场安排",
@@ -5940,7 +7580,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学电气学院2017级普通硕士申请博士资格通知",
@@ -5949,7 +7592,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第一届西安交通大学飞行器创意设计大赛的通知",
@@ -5958,7 +7604,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年哈佛大学医学院NSG生物医学工程实验室联合培养研究生项目选拔通知（电气学院）",
@@ -5967,7 +7616,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "工程硕士2019年上半年《计算方法》和《英语》补考名单",
@@ -5976,7 +7628,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于第九届全国大学生机械创新设计大赛报名的通知",
@@ -5985,7 +7640,10 @@ window.SITE_DATA = {
    "competition": "全国大学生机械创新设计大赛",
    "moeNo": 8,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】电工综合实验装置",
@@ -5994,7 +7652,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019级研究生新生体检表寄送通知",
@@ -6003,7 +7664,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2019年周培源力学竞赛辅导安排的通知",
@@ -6012,7 +7676,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】数据采集卡",
@@ -6021,7 +7688,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年大学联合培养双学位（米兰理工、法国高电）选拔通知",
@@ -6030,7 +7700,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年西安交通大学电气学院-日本早稻田大学IPS“3+2”项目选拔通知",
@@ -6039,7 +7712,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学电力电子与工业自动化2019学术年会(2019 PEREC Symposium on Power Electronics and Industrial Automat...",
@@ -6048,7 +7724,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2019年度陕西省自然科学基础研究计划项目结题有关事项的通知",
@@ -6057,7 +7736,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "“第十二届全国周培源大学生力学竞赛”个人赛报名通知",
@@ -6066,7 +7748,10 @@ window.SITE_DATA = {
    "competition": "全国周培源大学生力学竞赛",
    "moeNo": 35,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "李泓研究员讲座通知——固态电池：从基础到应用",
@@ -6075,7 +7760,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "博士学位论文答辩公告表-王永生",
@@ -6084,7 +7772,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学电力电子与工业自动化2019学术年会的通知",
@@ -6093,7 +7784,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年全日制硕士学位论文盲审的具体安排",
@@ -6102,7 +7796,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "《电网络理论》考试时间地点",
@@ -6111,7 +7808,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】高压放大器",
@@ -6120,7 +7820,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "【单一来源公告】低频介电谱仪",
@@ -6129,7 +7832,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2019年春季选课、选班、改课、重修通知及选课指南下载",
@@ -6138,7 +7844,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "电气学院2019年工程硕士复试科目确认通知",
@@ -6147,7 +7856,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于提交申请海外访学奖助金材料的通知",
@@ -6156,7 +7868,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "电气学院",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织参加第二届中国高校智能机器人创意大赛的通知",
@@ -6165,7 +7880,10 @@ window.SITE_DATA = {
    "competition": "中国高校智能机器人创意大赛",
    "moeNo": 49,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办第二届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
@@ -6174,7 +7892,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2018 年中国（小谷围）“互联网+交通运输”创新创业大赛之金溢杯•中国大学交通运输创客大赛报名的通知",
@@ -6183,7 +7904,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于组织学生参加西安交通大学第五届大学生物理学术竞赛的通知",
@@ -6192,7 +7916,10 @@ window.SITE_DATA = {
    "competition": "中国大学生物理学术竞赛",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办首届“能源 智慧 未来”全国大学生创新创业大赛的通知",
@@ -6201,7 +7928,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于表彰我校2018年全国大学生英语竞赛获奖学生的通报",
@@ -6210,7 +7940,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于表彰2018年西安交通大学数学建模竞赛获奖学生的通报",
@@ -6219,7 +7952,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于数学建模竞赛论文写作的讲座通知",
@@ -6228,7 +7964,10 @@ window.SITE_DATA = {
    "competition": "全国大学生数学建模竞赛",
    "moeNo": 5,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第二届大学生金相技能大赛暨第七届全国大学生金相技能大赛选拔赛报名通知",
@@ -6237,7 +7976,10 @@ window.SITE_DATA = {
    "competition": "全国大学生金相技能大赛",
    "moeNo": 32,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2018本科生数学建模校内赛答辩的通知",
@@ -6246,7 +7988,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公示2018年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
@@ -6255,7 +8000,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于举办西安交通大学第一届“腾飞杯”大学生结构设计竞赛暨陕西省“争先杯”第二届大学生结构设计竞赛校内选拔报名的通知",
@@ -6264,7 +8012,10 @@ window.SITE_DATA = {
    "competition": "全国大学生结构设计竞赛",
    "moeNo": 9,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于领取2018年全国大学生英语竞赛准考证的通知",
@@ -6273,7 +8024,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "实践教学中心",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于2012级英语课网上补选的通知",
@@ -6282,7 +8036,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2014年西安交通大学跨校辅修专业报名通知",
@@ -6291,7 +8048,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2014年密西根大学迪尔本分校交流学习选拔通知",
@@ -6300,7 +8060,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2014年加州大学伯克利分校Summer School选拔报名通知",
@@ -6309,7 +8072,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学2014年辅修专业教学计划",
@@ -6318,7 +8084,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2013年陕西公办普通本科高等学校教学改革研究项目我校获批名单",
@@ -6327,7 +8096,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2013—2014学年第1学期教育质量督导情况简报（二）",
@@ -6336,7 +8108,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2013—2014学年第1学期教育质量督导情况简报（一）",
@@ -6345,7 +8120,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学本科“十二五”规划教材建设第二批立项项目",
@@ -6354,7 +8132,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学本科“十二五”规划教材建设第一批立项项目",
@@ -6363,7 +8144,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "普通高等教育第一批“十二五” 本科国家级规划教材书目我校入选名单",
@@ -6372,7 +8156,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "关于公布新一届“西安交通大学教育质量专家督导组”成员名单的通知",
@@ -6381,7 +8168,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2011年陕西普通高等学校教学改革研究项目我校获批名单",
@@ -6390,7 +8180,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2011年陕西普通高等学校优秀教材名单",
@@ -6399,7 +8192,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学英文授课课程详表",
@@ -6408,7 +8204,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "C9暑期联合社会实践项目简介",
@@ -6417,7 +8216,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2004-2009年国家级教改项目清单",
@@ -6426,7 +8228,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第十一届优秀教材获奖名单",
@@ -6435,7 +8240,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2009年陕西普通高等学校优秀教材奖名单",
@@ -6444,7 +8252,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2009年我校获批11项陕西普通本科高等学校教学改革研究项目",
@@ -6453,7 +8264,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2007年陕西高等教育教学改革研究项目立项名单",
@@ -6462,7 +8276,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "普通高等教育“十一五”国家级规划教材(补充)选题我校入选名单",
@@ -6471,7 +8288,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2007年陕西普通高校优秀教材获奖名单",
@@ -6480,7 +8300,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第十届优秀教材获奖名单",
@@ -6489,7 +8312,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学本科“十一五”规划教材建设第二批立项项目",
@@ -6498,7 +8324,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学本科“十一五”规划教材建设第一批立项项目",
@@ -6507,7 +8336,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "教育部公布“十一五”国家级规划教材我校入选名单",
@@ -6516,7 +8348,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学2004年本科教学改革研究项目",
@@ -6525,7 +8360,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学1998年教改项目一览",
@@ -6534,7 +8372,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "1997年国家级教改项目一览",
@@ -6543,7 +8384,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "第三轮陕西高等教育教学改革研究项目",
@@ -6552,7 +8396,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "2005年陕西普通高等学校优秀教材获奖名单",
@@ -6561,7 +8408,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "我校承担的陕西“21世纪初高等教育教学改革工程”研究项目",
@@ -6570,7 +8420,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学第九届优秀教材获奖名单",
@@ -6579,7 +8432,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": true
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "1999年陕西省项目一览",
@@ -6588,7 +8444,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   },
   {
    "title": "西安交通大学“新世纪本科生系列教材”第一批立项项目",
@@ -6597,7 +8456,10 @@ window.SITE_DATA = {
    "competition": "",
    "moeNo": null,
    "site": "教务处",
-   "isCompetition": false
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0
   }
  ],
  "monthHistogram": {

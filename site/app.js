@@ -49,6 +49,19 @@
 
   function isFresh(dateStr) { return daysSince(dateStr) <= FRESH_DAYS; }
 
+  /** 距目标日期还有多少天(未来为正)。 */
+  function daysUntil(dateStr) {
+    var d = parseDate(dateStr);
+    if (!d) return null;
+    return Math.round((d - today()) / 86400000);
+  }
+
+  /** "2026-10-15" -> "10月15日" */
+  function fmtDeadline(dateStr) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr || '');
+    return m ? (+m[2]) + '月' + (+m[3]) + '日' : (dateStr || '');
+  }
+
   function $(id) { return document.getElementById(id); }
 
   /* ---------------- 徽章 ---------------- */
@@ -81,7 +94,8 @@
   function renderHead() {
     $('headStats').innerHTML = [
       ['竞赛条目', STATS.competitions],
-      ['电气相关(≥4)', STATS.competitions ? countEE(4) : 0],
+      ['电气相关(≥4)', countEE(4)],
+      ['报名中', (COMPS.filter(function (c) { return c.isOpen; })).length],
       ['校内通知', STATS.notices]
     ].map(function (p) {
       return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>';
@@ -151,12 +165,14 @@
       cat: $('fCat').value,
       moe: $('fMoe').value,
       sort: $('fSort').value,
-      recent: $('fRecent').checked
+      recent: $('fRecent').checked,
+      open: $('fOpen').checked
     };
   }
 
   function filterComps(f) {
     return COMPS.filter(function (c) {
+      if (f.open && !c.isOpen) return false;
       if (f.ee && !(c.ee != null && c.ee >= +f.ee)) return false;
       if (f.cat === '__unknown') { if (c.xjtuCat !== UNKNOWN_CAT) return false; }
       else if (f.cat && c.xjtuCat !== f.cat) return false;
@@ -177,6 +193,14 @@
     var arr = list.slice();
     if (how === 'ee') {
       arr.sort(function (a, b) { return byEE(a, b) || a.name.localeCompare(b.name, 'zh'); });
+    } else if (how === 'deadline') {
+      // 报名中的排最前(按截止日期由近到远), 其余按相关度
+      arr.sort(function (a, b) {
+        var oa = a.isOpen ? 1 : 0, ob = b.isOpen ? 1 : 0;
+        if (oa !== ob) return ob - oa;
+        if (a.isOpen && b.isOpen) return a.openDeadline.localeCompare(b.openDeadline);
+        return byEE(a, b);
+      });
     } else if (how === 'recent') {
       arr.sort(function (a, b) {
         var da = a.latestNotice ? a.latestNotice.date : '';
@@ -231,6 +255,11 @@
       foot.push('<a class="link-official" href="' + esc(c.url) + '" target="_blank" ' +
                 'rel="noopener">官网 ' + esc(c.domain || '链接') + ' ↗</a>');
     }
+    // 报名中: 最显眼的位置
+    if (c.isOpen) {
+      foot.unshift('<span class="open-tag">报名中 · ' + fmtDeadline(c.openDeadline) +
+                   ' 截止（还剩 ' + daysUntil(c.openDeadline) + ' 天）</span>');
+    }
     if (c.latestNotice) {
       foot.push('<span class="notice-tag' + (fresh ? ' is-fresh' : '') + '">' +
                 '最新通知 ' + esc(c.latestNotice.date) +
@@ -239,13 +268,19 @@
     } else {
       foot.push('<span class="notice-tag">暂无关联通知</span>');
     }
+    if (c.campusNoticeCount) {
+      foot.push('<span class="notice-tag is-campus">校内选拔 ' + c.campusNoticeCount + ' 条</span>');
+    }
 
     return '' +
-      '<article class="card ee' + (c.ee || 1) + '" data-name="' + esc(c.name) + '">' +
+      '<article class="card ee' + (c.ee || 1) + (c.isOpen ? ' is-open' : '') +
+        '" data-name="' + esc(c.name) + '">' +
         '<div class="card-top">' +
           '<h3 class="card-title">' + esc(c.name) + alias + '</h3>' +
         '</div>' +
-        '<div class="badges">' + eeBadge(c.ee) + catBadge(c.xjtuCat) + moeBadge(c) +
+        '<div class="badges">' +
+          (c.isOpen ? '<span class="badge b-open">报名中</span>' : '') +
+          eeBadge(c.ee) + catBadge(c.xjtuCat) + moeBadge(c) +
           (c.dept ? '<span class="badge b-dept">' + esc(c.dept) + '</span>' : '') +
         '</div>' +
         (meta.length ? '<div class="card-meta">' + meta.join('') + '</div>' : '') +
@@ -324,6 +359,8 @@
     var f = readNoticeFilters();
     var list = NOTICES.filter(function (n) {
       if (f.scope === 'competition' && !n.isCompetition) return false;
+      if (f.scope === 'campus' && !n.isCampus) return false;
+      if (f.scope === 'deadline' && !n.deadline) return false;
       if (f.scope === 'matched' && !n.competition) return false;
       if (f.scope === 'unmatched' && n.competition) return false;
       if (f.site && n.site !== f.site) return false;
@@ -352,6 +389,13 @@
       if (n.site) {
         sub.push('<span class="badge b-site">' + esc(n.site) + '</span>');
       }
+      if (n.deadline) {
+        var dl = daysUntil(n.deadline);
+        var dlCls = dl !== null && dl >= 0 ? 'deadline-tag is-open' : 'deadline-tag';
+        sub.push('<span class="' + dlCls + '">报名截止 ' + fmtDeadline(n.deadline) +
+                 (dl !== null && dl >= 0 ? '（还剩 ' + dl + ' 天）' : '（已过）') + '</span>');
+      }
+      if (n.isCampus) sub.push('<span class="badge b-campus">校内选拔</span>');
       if (n.competition) {
         sub.push('<button class="badge-link" data-name="' + esc(n.competition) + '">' +
                  '对应：' + esc(n.competition) + '</button>');
@@ -727,7 +771,7 @@
   /* ---------------- 事件绑定 ---------------- */
 
   function bind() {
-    var catInputs = ['q', 'fEE', 'fCat', 'fMoe', 'fSort', 'fRecent'];
+    var catInputs = ['q', 'fEE', 'fCat', 'fMoe', 'fSort', 'fRecent', 'fOpen'];
     catInputs.forEach(function (id) {
       var el = $(id);
       el.addEventListener(id === 'q' ? 'input' : 'change', function () {
@@ -741,7 +785,7 @@
     $('reset').addEventListener('click', function () {
       $('q').value = ''; $('qClear').hidden = true;
       $('fEE').value = ''; $('fCat').value = ''; $('fMoe').value = '';
-      $('fSort').value = 'ee'; $('fRecent').checked = false;
+      $('fSort').value = 'ee'; $('fRecent').checked = false; $('fOpen').checked = false;
       renderCatalog();
     });
 

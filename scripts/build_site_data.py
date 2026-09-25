@@ -49,21 +49,50 @@ def load_competitions():
     return out
 
 
-def load_notices():
+def load_deadlines():
+    """报名截止时间(从通知正文提取, 见 scripts/extract_deadlines.py)。
+
+    只取分数 >= min_score 的 —— 分数低说明上下文不足以确认那是"报名截止",
+    宁可没有, 也不能给错的截止时间。
+    """
+    path = os.path.join(SEED, "deadlines.json")
+    if not os.path.exists(path):
+        return {}, 4
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    ms = d.get("min_score", 4)
+    out = {}
+    for r in d.get("items", []):
+        if r.get("deadline") and r.get("score", 0) >= ms:
+            out[r["url"]] = {"deadline": r["deadline"], "score": r["score"]}
+    return out, ms
+
+
+# 校内选拔/校赛 的判定词
+CAMPUS_WORDS = ("校内选拔", "校赛", "校内赛", "校决赛", "校内决赛", "校内", "校初赛")
+
+
+def load_notices(deadlines, min_score):
     path = os.path.join(SEED, "notices.json")
     if not os.path.exists(path):
         return [], {}
     with open(path, encoding="utf-8") as f:
         d = json.load(f)
-    items = [{
-        "title": n["title"],
-        "date": n["date"],
-        "url": n["url"],
-        "competition": n.get("competition") or "",
-        "moeNo": int(n["moe_no"]) if str(n.get("moe_no") or "").isdigit() else None,
-        "site": n.get("site") or "",
-        "isCompetition": bool(n.get("is_competition", True)),
-    } for n in d["items"]]
+    items = []
+    for n in d["items"]:
+        dl = deadlines.get(n["url"])
+        items.append({
+            "title": n["title"],
+            "date": n["date"],
+            "url": n["url"],
+            "competition": n.get("competition") or "",
+            "moeNo": int(n["moe_no"]) if str(n.get("moe_no") or "").isdigit() else None,
+            "site": n.get("site") or "",
+            "isCompetition": bool(n.get("is_competition", True)),
+            "isCampus": any(w in n["title"] for w in CAMPUS_WORDS),
+            "deadline": dl["deadline"] if dl else "",
+            "deadlineScore": dl["score"] if dl else 0,
+        })
     return items, d.get("source", {})
 
 
@@ -91,9 +120,13 @@ def load_cadence():
 
 def main():
     comps = load_competitions()
-    notices, nsrc = load_notices()
+    deadlines, min_score = load_deadlines()
+    notices, nsrc = load_notices(deadlines, min_score)
     cadence, month_hist = load_cadence()
     links, cat_order = load_quick_links()
+
+    # 今天(用于判断"报名中")
+    today = datetime.now().strftime("%Y-%m-%d")
 
     # 竞赛名 -> 通知列表
     by_name = {}
@@ -105,6 +138,13 @@ def main():
         rel.sort(key=lambda x: x["date"], reverse=True)
         c["noticeCount"] = len(rel)
         c["latestNotice"] = rel[0] if rel else None
+        c["campusNoticeCount"] = sum(1 for n in rel if n["isCampus"])
+        # 报名中: 取该竞赛**所有**通知里最晚的一个未过期截止时间
+        opens = [n for n in rel if n["deadline"] and n["deadline"] >= today]
+        opens.sort(key=lambda x: x["deadline"])
+        c["openDeadline"] = opens[0]["deadline"] if opens else ""
+        c["openNoticeUrl"] = opens[0]["url"] if opens else ""
+        c["isOpen"] = bool(opens)
         cad = cadence.get(c["name"])
         if cad:
             c["cadence"] = {
@@ -133,6 +173,10 @@ def main():
         "notices": len(notices),
         "noticesMatched": sum(1 for n in notices if n["competition"]),
         "noticesCompetition": sum(1 for n in notices if n.get("isCompetition")),
+        "noticesCampus": sum(1 for n in notices if n.get("isCampus")),
+        "noticesWithDeadline": sum(1 for n in notices if n.get("deadline")),
+        "competitionsOpen": sum(1 for c in comps if c.get("isOpen")),
+        "today": today,
         "noticeFrom": min(dates) if dates else "",
         "noticeTo": max(dates) if dates else "",
         "eeDist": ee_dist,

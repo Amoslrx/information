@@ -76,11 +76,17 @@
           <span>排序</span>
           <select id="fSort">
             <option value="ee">相关度优先</option>
+            <option value="deadline">报名截止优先</option>
             <option value="recent">近期有通知优先</option>
             <option value="notices">通知数优先</option>
             <option value="moe">教育部目录序号</option>
             <option value="name">名称</option>
           </select>
+        </label>
+
+        <label class="check is-hot">
+          <input type="checkbox" id="fOpen">
+          <span>只看报名中</span>
         </label>
 
         <label class="check">
@@ -210,6 +216,8 @@
           <span>范围</span>
           <select id="nScope">
             <option value="competition">只看竞赛相关</option>
+            <option value="campus">只看校内选拔 / 校赛</option>
+            <option value="deadline">只看有截止时间</option>
             <option value="">全部通知（含行政/教学）</option>
             <option value="matched">仅已关联竞赛</option>
             <option value="unmatched">仅未关联</option>

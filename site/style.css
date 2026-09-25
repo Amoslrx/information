@@ -280,6 +280,30 @@ code {
 .kv dt { font-weight: 650; font-size: 13.5px; margin-top: 11px; }
 .kv dd { margin: 3px 0 0; font-size: 13.5px; color: var(--ink-2); }
 
+/* ---------------- 报名中 / 校内选拔 ---------------- */
+.b-open {
+  background: #e3f5ec; color: #0b7a4b; font-weight: 700;
+}
+.card.is-open {
+  border-left-color: #0b7a4b;
+  background: linear-gradient(90deg, #f6fdf9, var(--surface) 46%);
+}
+.open-tag {
+  background: #0b7a4b; color: #fff; font-weight: 700;
+  padding: 3px 10px; border-radius: 20px; font-size: 12px;
+}
+.notice-tag.is-campus { background: #f3eefb; color: #5b3fa8; font-weight: 600; }
+.b-campus { background: #f3eefb; color: #5b3fa8; font-weight: 600; }
+.deadline-tag {
+  background: var(--line-2); color: var(--ink-2);
+  padding: 2px 8px; border-radius: 20px; font-size: 11.5px; font-weight: 600;
+}
+.deadline-tag.is-open { background: #e3f5ec; color: #0b7a4b; }
+.check.is-hot {
+  border-color: #9dd3b8; background: #eefaf3;
+}
+.check.is-hot span { color: #0b7a4b; font-weight: 600; }
+
 /* ---------------- 常用网站 ---------------- */
 .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
 .chip {

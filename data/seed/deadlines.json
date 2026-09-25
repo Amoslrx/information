@@ -1,0 +1,895 @@
+{
+ "source": "通知详情页正文",
+ "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
+ "min_score": 4,
+ "count": 99,
+ "with_deadline": 68,
+ "items": [
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+   "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
+   "noticeDate": "2026-09-23",
+   "deadline": "2026-11-25",
+   "score": 7,
+   "bodyLen": 1699,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+   "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+   "noticeDate": "2026-09-15",
+   "deadline": "2026-09-22",
+   "score": 8,
+   "bodyLen": 1451,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
+   "noticeDate": "2026-09-02",
+   "deadline": "2026-09-10",
+   "score": 6,
+   "bodyLen": 1541,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5512.htm",
+   "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
+   "noticeDate": "2026-08-18",
+   "deadline": "2026-08-28",
+   "score": 6,
+   "bodyLen": 3430,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5492.htm",
+   "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
+   "noticeDate": "2026-07-28",
+   "deadline": "2026-10-11",
+   "score": 3,
+   "bodyLen": 3261,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5462.htm",
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
+   "noticeDate": "2026-06-17",
+   "deadline": "2026-06-30",
+   "score": 6,
+   "bodyLen": 1513,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5454.htm",
+   "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
+   "noticeDate": "2026-06-16",
+   "deadline": "2026-07-01",
+   "score": 4,
+   "bodyLen": 1676,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5402.htm",
+   "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
+   "noticeDate": "2026-05-21",
+   "deadline": "2027-07-08",
+   "score": 0,
+   "bodyLen": 1907,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5361.htm",
+   "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
+   "noticeDate": "2026-05-11",
+   "deadline": "2026-05-20",
+   "score": 6,
+   "bodyLen": 1757,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5346.htm",
+   "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安排的通知",
+   "noticeDate": "2026-05-08",
+   "deadline": "2026-05-15",
+   "score": 5,
+   "bodyLen": 1448,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5342.htm",
+   "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
+   "noticeDate": "2026-05-04",
+   "deadline": "2026-05-16",
+   "score": 3,
+   "bodyLen": 1842,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
+   "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
+   "noticeDate": "2026-04-30",
+   "deadline": "2026-10-15",
+   "score": 8,
+   "bodyLen": 2823,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5313.htm",
+   "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
+   "noticeDate": "2026-04-28",
+   "deadline": "2026-05-20",
+   "score": 10,
+   "bodyLen": 1680,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5291.htm",
+   "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
+   "noticeDate": "2026-04-23",
+   "deadline": "2026-06-01",
+   "score": 5,
+   "bodyLen": 1868,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5293.htm",
+   "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
+   "noticeDate": "2026-04-23",
+   "deadline": "2026-04-23",
+   "score": 3,
+   "bodyLen": 3040,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5282.htm",
+   "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
+   "noticeDate": "2026-04-22",
+   "deadline": "2026-04-24",
+   "score": 3,
+   "bodyLen": 3429,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5271.htm",
+   "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
+   "noticeDate": "2026-04-17",
+   "deadline": "2026-07-15",
+   "score": 5,
+   "bodyLen": 1899,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5261.htm",
+   "title": "第十四届全国大学生光电设计竞赛报名通知",
+   "noticeDate": "2026-04-16",
+   "deadline": "2026-05-08",
+   "score": 6,
+   "bodyLen": 1513,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5222.htm",
+   "title": "关于开展第十九届（2026）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
+   "noticeDate": "2026-04-09",
+   "deadline": "2026-04-21",
+   "score": 7,
+   "bodyLen": 1229,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5205.htm",
+   "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
+   "noticeDate": "2026-04-03",
+   "deadline": "2026-04-19",
+   "score": 6,
+   "bodyLen": 1582,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5181.htm",
+   "title": "关于举办2026年第二十届iCAN大学生创新创业大赛的通知",
+   "noticeDate": "2026-04-01",
+   "deadline": "2026-04-01",
+   "score": -12,
+   "bodyLen": 2049,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5171.htm",
+   "title": "第二十一届全国大学生智能汽车竞赛报名通知",
+   "noticeDate": "2026-03-30",
+   "deadline": "2026-06-20",
+   "score": 1,
+   "bodyLen": 1778,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5173.htm",
+   "title": "关于举办第九届中国高校智能机器人创意大赛 VEX U 专项赛的通知",
+   "noticeDate": "2026-03-30",
+   "deadline": "2026-05-08",
+   "score": 9,
+   "bodyLen": 1536,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
+   "title": "关于组织开展第十五届全国大学生金相技能大赛相关工作的通知",
+   "noticeDate": "2026-03-26",
+   "deadline": "2026-04-25",
+   "score": 4,
+   "bodyLen": 1780,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5141.htm",
+   "title": "关于组织参加2026年第十八届“全国大学生广告艺术大赛”的通知",
+   "noticeDate": "2026-03-25",
+   "deadline": "2026-06-02",
+   "score": 12,
+   "bodyLen": 2114,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5111.htm",
+   "title": "关于举办西安交通大学中国国际大学生创新大赛（2026）校内选拔赛的通知",
+   "noticeDate": "2026-03-19",
+   "deadline": "2026-04-02",
+   "score": 7,
+   "bodyLen": 3818,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1190/5093.htm",
+   "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
+   "noticeDate": "2026-03-17",
+   "deadline": "2026-03-17",
+   "score": 2,
+   "bodyLen": 931,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5081.htm",
+   "title": "关于组织第二十八届中国机器人及人工智能大赛报名的通知",
+   "noticeDate": "2026-03-12",
+   "deadline": "2026-06-07",
+   "score": 8,
+   "bodyLen": 2808,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5082.htm",
+   "title": "关于举办西安交通大学第七届大学生物理实验竞赛（创新）的报名通知",
+   "noticeDate": "2026-03-12",
+   "deadline": "2026-04-12",
+   "score": 1,
+   "bodyLen": 1319,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1190/5080.htm",
+   "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第一阶段校内选拔结果的通知",
+   "noticeDate": "2026-03-10",
+   "deadline": "2026-03-10",
+   "score": 2,
+   "bodyLen": 944,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5076.htm",
+   "title": "关于举办西安交通大学第十二届全国大学生机械创新设计大赛校赛的通知",
+   "noticeDate": "2026-03-10",
+   "deadline": "2026-03-11",
+   "score": 7,
+   "bodyLen": 2186,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5068.htm",
+   "title": "关于组织参加“2026年中国大学生计算机设计大赛”校内赛的通知",
+   "noticeDate": "2026-03-04",
+   "deadline": "2026-04-26",
+   "score": 5,
+   "bodyLen": 1938,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5067.htm",
+   "title": "关于“第十七届中国大学生服务外包创新创业大赛”报名参赛的通知",
+   "noticeDate": "2026-03-04",
+   "deadline": "2026-03-20",
+   "score": 5,
+   "bodyLen": 2036,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5061.htm",
+   "title": "关于举行2026年全国大学生结构设计竞赛西安交通大学校赛暨陕西省省赛选拔赛的通知",
+   "noticeDate": "2026-03-02",
+   "deadline": "2026-03-14",
+   "score": 5,
+   "bodyLen": 2141,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5063.htm",
+   "title": "2026年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
+   "noticeDate": "2026-03-02",
+   "deadline": "2026-04-20",
+   "score": 10,
+   "bodyLen": 1188,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5052.htm",
+   "title": "关于组织参加第九届中国高校智能机器人创意大赛的通知",
+   "noticeDate": "2026-01-29",
+   "deadline": "2026-03-06",
+   "score": 5,
+   "bodyLen": 4617,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5044.htm",
+   "title": "关于组织参加第十一届全国大学生生命科学竞赛（创新创业类）的通知",
+   "noticeDate": "2026-01-27",
+   "deadline": "2026-04-20",
+   "score": 6,
+   "bodyLen": 2297,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5034.htm",
+   "title": "关于组织参加2026年全国大学生电子设计竞赛模拟电子系统设计专题赛的通知",
+   "noticeDate": "2026-01-23",
+   "deadline": "2026-04-15",
+   "score": 5,
+   "bodyLen": 1838,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5033.htm",
+   "title": "关于开展2026年中国大学生机械工程创新创意大赛机械产品数字化设计赛报名工作的通知",
+   "noticeDate": "2026-01-23",
+   "deadline": "2026-01-23",
+   "score": 0,
+   "bodyLen": 2927,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5031.htm",
+   "title": "关于第18届全国大学生广告艺术大赛营销创客单元报名参赛的通知",
+   "noticeDate": "2026-01-22",
+   "deadline": "2026-01-22",
+   "score": -8,
+   "bodyLen": 3009,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5021.htm",
+   "title": "关于举办西安交通大学2026年美国大学生数学建模竞赛（MCM/ICM）校内赛的通知",
+   "noticeDate": "2026-01-15",
+   "deadline": "2026-01-17",
+   "score": 2,
+   "bodyLen": 1553,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1190/5014.htm",
+   "title": "关于公示2026 年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第二阶段校内选拔结果的通知",
+   "noticeDate": "2026-01-13",
+   "deadline": "2026-01-15",
+   "score": 2,
+   "bodyLen": 904,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1190/5003.htm",
+   "title": "关于公示2026年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第一阶段校内选拔结果的通知",
+   "noticeDate": "2025-12-30",
+   "deadline": "2025-12-30",
+   "score": 3,
+   "bodyLen": 931,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4993.htm",
+   "title": "关于组织参加第十三届大学生新一代信息通信科技大赛的通知",
+   "noticeDate": "2025-12-23",
+   "deadline": "2026-04-04",
+   "score": 2,
+   "bodyLen": 2212,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4991.htm",
+   "title": "关于组织参加2026年第八届码蹄杯全国大学生程序设计大赛的通知",
+   "noticeDate": "2025-12-23",
+   "deadline": "2026-03-22",
+   "score": 0,
+   "bodyLen": 1925,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4976.htm",
+   "title": "关于组织参加2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛的通知",
+   "noticeDate": "2025-12-18",
+   "deadline": "2025-12-31",
+   "score": 10,
+   "bodyLen": 1629,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4928.htm",
+   "title": "关于组织参加第十一届全国大学生生命科学竞赛（科学探究类）的通知",
+   "noticeDate": "2025-11-27",
+   "deadline": "2026-03-31",
+   "score": 9,
+   "bodyLen": 2194,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4926.htm",
+   "title": "关于组织参加2026年全国大学生电子设计竞赛信息科技前沿专题赛的通知",
+   "noticeDate": "2025-11-26",
+   "deadline": "2025-12-24",
+   "score": 10,
+   "bodyLen": 1765,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4925.htm",
+   "title": "关于组织开展第十七届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
+   "noticeDate": "2025-11-24",
+   "deadline": "2025-12-05",
+   "score": 7,
+   "bodyLen": 2380,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4923.htm",
+   "title": "关于组织参加第十二届全国大学生能源经济学术创意大赛的通知",
+   "noticeDate": "2025-11-14",
+   "deadline": "2026-02-23",
+   "score": 6,
+   "bodyLen": 2349,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4921.htm",
+   "title": "关于第十七届蓝桥杯全国大学生软件和信息技术大赛报名的通知",
+   "noticeDate": "2025-11-12",
+   "deadline": "2025-11-30",
+   "score": 8,
+   "bodyLen": 1772,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4922.htm",
+   "title": "关于全国大学生计算机应用能力与数字素养大赛暨第八届“传智杯”全国IT技能大赛报名通知",
+   "noticeDate": "2025-11-12",
+   "deadline": "2025-11-12",
+   "score": 3,
+   "bodyLen": 1870,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4915.htm",
+   "title": "关于组织参加2026年美国大学生数学建模竞赛相关工作的通知",
+   "noticeDate": "2025-10-30",
+   "deadline": "2025-11-16",
+   "score": 4,
+   "bodyLen": 1764,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4903.htm",
+   "title": "关于组织开展第41届全国部分地区大学生物理竞赛报名工作的通知",
+   "noticeDate": "2025-10-20",
+   "deadline": "2025-11-05",
+   "score": 5,
+   "bodyLen": 1391,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4891.htm",
+   "title": "关于组织开展全国三维数字化创新设计大赛18周年精英联赛报名工作的通知",
+   "noticeDate": "2025-10-10",
+   "deadline": "2025-11-10",
+   "score": 5,
+   "bodyLen": 1839,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
+   "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
+   "noticeDate": "2025-09-28",
+   "deadline": "2025-12-01",
+   "score": 7,
+   "bodyLen": 1937,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4875.htm",
+   "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
+   "noticeDate": "2025-09-15",
+   "deadline": "2025-09-15",
+   "score": 3,
+   "bodyLen": 2613,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4878.htm",
+   "title": "关于组织2025年全国大学生数字媒体科技作品及创意竞赛报名的通知",
+   "noticeDate": "2025-09-15",
+   "deadline": "2025-09-15",
+   "score": 0,
+   "bodyLen": 1883,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4874.htm",
+   "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
+   "noticeDate": "2025-09-15",
+   "deadline": "2025-10-22",
+   "score": 7,
+   "bodyLen": 1789,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4841.htm",
+   "title": "关于第十七届全国大学生数学竞赛西安交通大学报名的通知",
+   "noticeDate": "2025-07-24",
+   "deadline": "2025-09-30",
+   "score": 3,
+   "bodyLen": 3179,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4828.htm",
+   "title": "2025年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名通知",
+   "noticeDate": "2025-07-10",
+   "deadline": "2025-09-22",
+   "score": 10,
+   "bodyLen": 1227,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4821.htm",
+   "title": "关于组织参加第七届全球校园人工智能算法精英大赛的通知",
+   "noticeDate": "2025-07-01",
+   "deadline": "2025-10-31",
+   "score": 7,
+   "bodyLen": 3123,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4816.htm",
+   "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内选拔赛高教主赛道、青年红色筑梦之旅赛道获奖名单的通知",
+   "noticeDate": "2025-06-26",
+   "deadline": "2025-06-30",
+   "score": 0,
+   "bodyLen": 1090,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4815.htm",
+   "title": "关于做好西安交通大学中国国际大学生创新大赛（2025）国际参赛项目报名工作的通知",
+   "noticeDate": "2025-06-26",
+   "deadline": "2025-07-02",
+   "score": 11,
+   "bodyLen": 1935,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4723.htm",
+   "title": "关于组织参加未来设计师·全国高校数字艺术设计大赛的通知",
+   "noticeDate": "2025-05-09",
+   "deadline": "2025-07-01",
+   "score": 7,
+   "bodyLen": 2071,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4721.htm",
+   "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的通知",
+   "noticeDate": "2025-05-08",
+   "deadline": "2025-05-09",
+   "score": 6,
+   "bodyLen": 3988,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4713.htm",
+   "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的预通知",
+   "noticeDate": "2025-04-30",
+   "deadline": "2025-05-09",
+   "score": 5,
+   "bodyLen": 3582,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4707.htm",
+   "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
+   "noticeDate": "2025-04-29",
+   "deadline": "2025-05-09",
+   "score": 3,
+   "bodyLen": 1924,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4706.htm",
+   "title": "关于组织参加第十四届“中国软件杯”大学生软件设计大赛的通知",
+   "noticeDate": "2025-04-29",
+   "deadline": "2025-07-15",
+   "score": 5,
+   "bodyLen": 2812,
+   "snippet": ""
+  },
+  {
+   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+   "error": "HTTP 404"
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4704.htm",
+   "title": "关于组织开展百度之星程序设计大赛报名的通知",
+   "noticeDate": "2025-04-24",
+   "deadline": "2025-04-24",
+   "score": -2,
+   "bodyLen": 1840,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4702.htm",
+   "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
+   "noticeDate": "2025-04-18",
+   "deadline": "2025-04-18",
+   "score": 4,
+   "bodyLen": 1578,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4701.htm",
+   "title": "关于组织参加2025年全国大学生电子设计竞赛的通知",
+   "noticeDate": "2025-04-17",
+   "deadline": "2025-04-17",
+   "score": 3,
+   "bodyLen": 1742,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4695.htm",
+   "title": "关于举办第十三届全国大学生光电设计竞赛校赛报名的通知",
+   "noticeDate": "2025-04-16",
+   "deadline": "2025-05-20",
+   "score": 6,
+   "bodyLen": 958,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4694.htm",
+   "title": "关于组织开展第二十届全国大学生智能汽车竞赛报名的通知",
+   "noticeDate": "2025-04-15",
+   "deadline": "2025-05-18",
+   "score": 3,
+   "bodyLen": 2081,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4693.htm",
+   "title": "关于举办2025年中国大学生机械工程创新创意大赛-“明石杯”微纳传感技术与智能应用赛校内选拔的通知",
+   "noticeDate": "2025-04-14",
+   "deadline": "2025-05-20",
+   "score": 10,
+   "bodyLen": 3162,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4691.htm",
+   "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
+   "noticeDate": "2025-04-11",
+   "deadline": "2025-05-15",
+   "score": 15,
+   "bodyLen": 2714,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4683.htm",
+   "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
+   "noticeDate": "2025-04-09",
+   "deadline": "2025-06-07",
+   "score": 9,
+   "bodyLen": 2295,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4661.htm",
+   "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
+   "noticeDate": "2025-04-07",
+   "deadline": "2025-07-31",
+   "score": 8,
+   "bodyLen": 2080,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4631.htm",
+   "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
+   "noticeDate": "2025-04-01",
+   "deadline": "2025-04-03",
+   "score": 5,
+   "bodyLen": 1176,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4652.htm",
+   "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
+   "noticeDate": "2025-04-01",
+   "deadline": "2025-05-01",
+   "score": 8,
+   "bodyLen": 1826,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4593.htm",
+   "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
+   "noticeDate": "2025-03-22",
+   "deadline": "2025-03-26",
+   "score": 0,
+   "bodyLen": 1768,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4571.htm",
+   "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
+   "noticeDate": "2025-03-20",
+   "deadline": "2025-04-30",
+   "score": 9,
+   "bodyLen": 1826,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4542.htm",
+   "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
+   "noticeDate": "2025-03-17",
+   "deadline": "2025-04-06",
+   "score": 6,
+   "bodyLen": 1549,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4541.htm",
+   "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
+   "noticeDate": "2025-03-17",
+   "deadline": "2025-03-25",
+   "score": 4,
+   "bodyLen": 2474,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1190/4521.htm",
+   "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
+   "noticeDate": "2025-03-15",
+   "deadline": "2025-03-15",
+   "score": 5,
+   "bodyLen": 941,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4501.htm",
+   "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
+   "noticeDate": "2025-03-13",
+   "deadline": "2025-04-25",
+   "score": 10,
+   "bodyLen": 1241,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4491.htm",
+   "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
+   "noticeDate": "2025-03-10",
+   "deadline": "2025-04-06",
+   "score": 3,
+   "bodyLen": 1261,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4472.htm",
+   "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
+   "noticeDate": "2025-03-07",
+   "deadline": "2025-06-15",
+   "score": 5,
+   "bodyLen": 3418,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4481.htm",
+   "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
+   "noticeDate": "2025-03-07",
+   "deadline": "2025-06-13",
+   "score": 12,
+   "bodyLen": 2215,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4464.htm",
+   "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
+   "noticeDate": "2025-03-05",
+   "deadline": "2025-06-30",
+   "score": 8,
+   "bodyLen": 2833,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4461.htm",
+   "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
+   "noticeDate": "2025-03-05",
+   "deadline": "2025-06-06",
+   "score": 7,
+   "bodyLen": 1919,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4411.htm",
+   "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
+   "noticeDate": "2025-01-14",
+   "deadline": "2025-03-03",
+   "score": 3,
+   "bodyLen": 3195,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4403.htm",
+   "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
+   "noticeDate": "2025-01-10",
+   "deadline": "2025-01-13",
+   "score": 5,
+   "bodyLen": 1492,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
+   "noticeDate": "2025-01-03",
+   "deadline": null,
+   "score": -99,
+   "bodyLen": 1036,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4397.htm",
+   "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
+   "noticeDate": "2024-12-31",
+   "deadline": "2025-01-13",
+   "score": 5,
+   "bodyLen": 1092,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4393.htm",
+   "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
+   "noticeDate": "2024-12-25",
+   "deadline": "2025-03-20",
+   "score": 4,
+   "bodyLen": 1839,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
+   "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
+   "noticeDate": "2024-12-01",
+   "deadline": "2024-12-02",
+   "score": 10,
+   "bodyLen": 2766,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/4314.htm",
+   "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
+   "noticeDate": "2024-10-31",
+   "deadline": "2024-11-04",
+   "score": 4,
+   "bodyLen": 2884,
+   "snippet": ""
+  }
+ ]
+}

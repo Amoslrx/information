@@ -549,6 +549,50 @@ ok(/createElement\('textarea'\)/.test(appSrc),
    '复制降级路径会临时创建 textarea(应对无 input 的按钮)');
 ok(/navigator\.clipboard/.test(appSrc), '优先使用 clipboard API');
 
+console.log('\n=== H. 报名中 / 报名截止 / 校内选拔 ===');
+
+const openComps = DATA.competitions.filter(c => c.isOpen);
+ok(DATA.stats.competitionsOpen === openComps.length,
+   '报名中的竞赛数与统计一致', openComps.length + ' vs ' + DATA.stats.competitionsOpen);
+
+// 报名中的卡片必须有醒目标记(用户要的核心功能)
+ok((catHTML.match(/class="open-tag"/g) || []).length === openComps.length,
+   `渲染了 ${openComps.length} 个「报名中」标记`,
+   '实际 ' + (catHTML.match(/class="open-tag"/g) || []).length);
+ok(openComps.length > 0 ? catHTML.includes('badge b-open') : true,
+   '报名中的竞赛有「报名中」徽章');
+ok(!catHTML.includes('class="open-tag">报名中 · 截止 undefined'),
+   '报名中标签的日期格式正确');
+
+// 报名中条目的截止日期必须是未来
+const todayStr = DATA.stats.today;
+const badOpen = openComps.filter(c => !(c.openDeadline > todayStr));
+ok(badOpen.length === 0, '报名中的截止日期都晚于今天',
+   badOpen.map(c => c.name + ' ' + c.openDeadline).join(', '));
+
+// 只有分数达标的通知才会带截止时间(宁缺勿错)
+const withDl = DATA.notices.filter(n => n.deadline);
+const lowScore = withDl.filter(n => (n.deadlineScore || 0) < 4);
+ok(lowScore.length === 0, '所有截止时间都达到分数阈值(>=4)',
+   lowScore.length ? lowScore.length + ' 条低于阈值' : '');
+ok(DATA.stats.noticesWithDeadline === withDl.length,
+   '含截止时间的通知数与统计一致');
+// 截止日期格式
+const badDl = withDl.filter(n => !/^\d{4}-\d{2}-\d{2}$/.test(n.deadline));
+ok(badDl.length === 0, '截止日期格式合法', badDl.length ? badDl.length + ' 条异常' : '');
+// 截止日期不得早于通知发布日(否则是提取错了)
+const dlBefore = withDl.filter(n => n.deadline < n.date);
+ok(dlBefore.length === 0, '截止日期不早于通知发布日期',
+   dlBefore.slice(0, 2).map(n => n.date + '->' + n.deadline).join(', '));
+
+// 校内选拔
+const campus = DATA.notices.filter(n => n.isCampus);
+ok(DATA.stats.noticesCampus === campus.length, '校内选拔通知数与统计一致');
+ok(campus.length > 0, '识别出了校内选拔/校赛类通知', campus.length + ' 条');
+// 竞赛卡片上的校内选拔计数不得超过其通知总数
+const badCampus = DATA.competitions.filter(c => (c.campusNoticeCount || 0) > (c.noticeCount || 0));
+ok(badCampus.length === 0, '校内选拔条数不超过通知总数');
+
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);
 if (fail) {

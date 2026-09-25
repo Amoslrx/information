@@ -46,6 +46,11 @@ jobs:
       - name: 抓取校内通知
         run: python scripts/crawl_xjtu_notices.py
 
+      # 抓通知详情页正文, 提取「报名截止时间」。增量: 已抓过的通知会跳过,
+      # 所以每周只新增少量请求。必须在 build_site_data 之前跑。
+      - name: 提取报名截止时间
+        run: python scripts/extract_deadlines.py
+
       # ---------- 解析(用仓库内的 PDF/文本, 幂等) ----------
       - name: 解析教育部竞赛目录
         run: python scripts/parse_moe_catalog.py
