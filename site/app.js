@@ -89,6 +89,7 @@
     $('tabCountCat').textContent = String(STATS.competitions || 0);
     $('tabCountNotice').textContent = String(STATS.notices || 0);
     $('tabCountRhythm').textContent = String(D.cadenceCount || 0);
+    $('tabCountLinks').textContent = String((D.quickLinks || []).length);
 
     $('footMeta').textContent = '数据生成于 ' + (D.generatedAt || '—') +
       '｜竞赛 ' + (STATS.competitions || 0) + ' 条、通知 ' + (STATS.notices || 0) +
@@ -529,16 +530,29 @@
       }, 1600);
     };
     var fallback = function () {
-      // 老办法: 选中 input 再 execCommand。file:// 下也能用。
-      var input = btn.parentNode.querySelector('input');
-      if (!input) return;
-      var ro = input.readOnly;
-      input.readOnly = false;
-      input.select();
-      if (input.setSelectionRange) input.setSelectionRange(0, input.value.length);
       var ok = false;
-      try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
-      input.readOnly = ro;
+      var input = btn.parentNode ? btn.parentNode.querySelector('input') : null;
+      if (input) {
+        // 日历订阅那种: 旁边就有一个 readonly input
+        var ro = input.readOnly;
+        input.readOnly = false;
+        input.select();
+        if (input.setSelectionRange) input.setSelectionRange(0, input.value.length);
+        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+        input.readOnly = ro;
+      } else {
+        // 「复制地址」按钮旁边没有 input, 临时造一个 textarea 来选中复制
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        if (ta.setSelectionRange) ta.setSelectionRange(0, ta.value.length);
+        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+        if (ta.parentNode && ta.parentNode.removeChild) ta.parentNode.removeChild(ta);
+      }
       flash(ok ? '已复制' : '请手动复制');
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -600,6 +614,87 @@
       }).length + ' 条）';
       sel.appendChild(o);
     });
+  }
+
+  /* ---------------- 常用网站 ---------------- */
+
+  var LINKS = [];        // 载入后填充(见 initLinks)
+
+  function linkCategories() {
+    var order = (D.quickLinkCategories || []).slice();
+    var seen = {};
+    LINKS.forEach(function (l) { seen[l.category] = (seen[l.category] || 0) + 1; });
+    var out = order.filter(function (c) { return seen[c]; });
+    Object.keys(seen).forEach(function (c) {
+      if (out.indexOf(c) < 0) out.push(c);
+    });
+    return out;
+  }
+
+  function renderLinkChips(active) {
+    var cats = linkCategories();
+    var html = '<button class="chip' + (!active ? ' is-on' : '') +
+               '" data-cat="">全部 ' + LINKS.length + '</button>';
+    html += cats.map(function (c) {
+      var n = LINKS.filter(function (l) { return l.category === c; }).length;
+      return '<button class="chip' + (active === c ? ' is-on' : '') +
+             '" data-cat="' + esc(c) + '">' + esc(c) + ' ' + n + '</button>';
+    }).join('');
+    $('linkChips').innerHTML = html;
+  }
+
+  function renderQuickLinks() {
+    var q = $('lq').value.trim().toLowerCase();
+    var cat = $('linkChips').getAttribute('data-active') || '';
+    var list = LINKS.filter(function (l) {
+      if (cat && l.category !== cat) return false;
+      if (q) {
+        var hay = [l.name, l.url, l.desc, l.category].concat(l.tags || [])
+          .join(' ').toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    $('linkCount').textContent = '共 ' + list.length + ' 个' +
+      (list.length !== LINKS.length ? '（总 ' + LINKS.length + ' 个）' : '');
+    $('linkEmpty').hidden = list.length > 0;
+
+    $('linkList').innerHTML = list.map(function (l) {
+      var tags = (l.tags || []).map(function (t) {
+        return '<span class="badge b-tag">' + esc(t) + '</span>';
+      }).join('');
+      return '' +
+        '<div class="lcard">' +
+          '<div class="lcard-head">' +
+            '<h3>' + esc(l.name) + '</h3>' +
+            '<span class="badge b-cat">' + esc(l.category) + '</span>' +
+          '</div>' +
+          '<code class="lurl">' + esc(l.url) + '</code>' +
+          (l.desc ? '<p class="ldesc">' + esc(l.desc) + '</p>' : '') +
+          (tags ? '<div class="badges">' + tags + '</div>' : '') +
+          '<div class="lacts">' +
+            '<a class="btn-primary btn-sm" href="' + esc(l.url) +
+              '" target="_blank" rel="noopener">点击跳转</a>' +
+            '<button class="cal-copy" data-url="' + esc(l.url) + '">复制地址</button>' +
+          '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  function initLinks() {
+    LINKS = D.quickLinks || [];
+    if (!LINKS.length) return;
+    $('linkChips').setAttribute('data-active', '');
+    renderLinkChips('');
+
+    var note = $('linkNote');
+    if (note) {
+      note.textContent = '共 ' + LINKS.length +
+        ' 个站点，每条都实测过连通性。标「统一认证」的站点要用统一身份认证账号登录；' +
+        '校外访问校内资源走 WebVPN。';
+    }
+    renderQuickLinks();
   }
 
   /* ---------------- 说明页 ---------------- */
@@ -696,6 +791,38 @@
     $('copyAll').addEventListener('click', function () {
       copyText($('urlAll').value, $('copyAll'));
     });
+
+    // 常用网站: 分类 chips 与复制按钮都用容器级委托,
+    // 因为内容是动态重建的, 逐个绑会丢。
+    $('lq').addEventListener('input', function () {
+      $('lqClear').hidden = !$('lq').value;
+      renderQuickLinks();
+    });
+    $('lqClear').addEventListener('click', function () {
+      $('lq').value = ''; $('lqClear').hidden = true; renderQuickLinks();
+    });
+    $('lReset').addEventListener('click', function () {
+      $('lq').value = ''; $('lqClear').hidden = true;
+      $('linkChips').setAttribute('data-active', '');
+      renderLinkChips('');
+      renderQuickLinks();
+    });
+    $('linkChips').addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t || !t.getAttribute) return;
+      var cat = t.getAttribute('data-cat');
+      if (cat === null || cat === undefined) return;
+      $('linkChips').setAttribute('data-active', cat);
+      renderLinkChips(cat);
+      renderQuickLinks();
+    });
+    $('linkList').addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t || !t.getAttribute) return;
+      var url = t.getAttribute('data-url');
+      if (!url) return;
+      copyText(url, t);
+    });
   }
 
   /* ---------------- 启动 ---------------- */
@@ -712,6 +839,7 @@
     initNotices();
     renderNotices();
     initRhythm();
+    initLinks();
     renderAbout();
     bind();
   }

@@ -280,6 +280,51 @@ code {
 .kv dt { font-weight: 650; font-size: 13.5px; margin-top: 11px; }
 .kv dd { margin: 3px 0 0; font-size: 13.5px; color: var(--ink-2); }
 
+/* ---------------- 常用网站 ---------------- */
+.chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; }
+.chip {
+  appearance: none; cursor: pointer; font: inherit; font-size: 13px;
+  padding: 6px 12px; border-radius: 20px;
+  border: 1px solid var(--line); background: #fbfcfe; color: var(--ink-2);
+  transition: background .14s, border-color .14s, color .14s;
+}
+.chip:hover { border-color: var(--primary); color: var(--primary); }
+.chip.is-on {
+  background: var(--primary); border-color: var(--primary);
+  color: #fff; font-weight: 600;
+}
+
+.link-grid {
+  display: grid; gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+}
+.lcard {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 13px 15px;
+  box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px;
+}
+.lcard-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; flex-wrap: wrap;
+}
+.lcard-head h3 { margin: 0; font-size: 14.5px; font-weight: 620; }
+.b-cat { background: var(--primary-bg); color: var(--primary-2); font-weight: 500; }
+.b-tag { background: #f3eefb; color: #5b3fa8; font-weight: 500; }
+
+.lurl {
+  display: block; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11.5px; line-height: 1.5; color: var(--ink-2);
+  background: #f7f9fc; border: 1px solid var(--line-2); border-radius: 7px;
+  padding: 7px 9px; word-break: break-all;
+}
+.ldesc { margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.6; }
+.lacts { display: flex; gap: 8px; margin-top: auto; padding-top: 4px; }
+.btn-sm { padding: 7px 14px; font-size: 13px; border-radius: 8px; }
+
+@media (max-width: 640px) {
+  .link-grid { grid-template-columns: 1fr; }
+}
+
 /* ---------------- drawer ---------------- */
 .overlay {
   position: fixed; inset: 0; background: rgba(16,32,48,.4);

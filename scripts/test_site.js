@@ -33,6 +33,7 @@ function ok(cond, label, detail) {
 /* 真实 DOM 对 innerHTML / textContent 赋值会做字符串强制转换,
    桩也照做, 否则会报出浏览器里根本不存在的"类型错误"。 */
 function makeEl(id) {
+  const attrs = Object.create(null);
   const el = {
     id: id, value: '', checked: false,
     hidden: false, style: {}, href: '',
@@ -40,9 +41,20 @@ function makeEl(id) {
     classList: { add() {}, remove() {}, toggle() {}, contains() { return false; } },
     addEventListener() {},
     appendChild(child) { el.children.push(child); return child; },
+    removeChild(child) {
+      const i = el.children.indexOf(child);
+      if (i >= 0) el.children.splice(i, 1);
+      return child;
+    },
     querySelectorAll() { return []; },
     querySelector() { return null; },
-    getAttribute() { return null; },
+    // 真实属性存储: data-* 这类状态必须能读回来,
+    // 否则"分类切换"之类依赖属性的逻辑在测试里完全看不见。
+    setAttribute(k, v) { attrs[k] = String(v); },
+    getAttribute(k) {
+      return Object.prototype.hasOwnProperty.call(attrs, k) ? attrs[k] : null;
+    },
+    removeAttribute(k) { delete attrs[k]; },
     closest() { return null; },
   };
   let _html = '', _text = '';
@@ -482,6 +494,52 @@ ok(!!hashRun && hashRun.historyCalls.indexOf('#rhythm') >= 0,
 // 无 hash 时不应改写地址
 ok(remoteHistory.length === 0, '默认(无 hash)不写入 history',
    JSON.stringify(remoteHistory));
+
+console.log('\n=== G. 常用网站 ===');
+
+const linkHTML = els.linkList.innerHTML || '';
+const LINKS = DATA.quickLinks || [];
+
+ok(LINKS.length > 0, '载入了常用网站数据', LINKS.length + ' 个');
+ok(els.tabCountLinks.textContent === String(LINKS.length),
+   'tab 上的常用网站数正确', 'tabCountLinks=' + els.tabCountLinks.textContent);
+
+const lcardCount = (linkHTML.match(/class="lcard"/g) || []).length;
+ok(lcardCount === LINKS.length, `默认渲染全部 ${LINKS.length} 个网站卡片`,
+   '实际 ' + lcardCount);
+
+// 每张卡片必须有可点的跳转链接和可用的复制按钮(这是用户明确要的功能)
+ok((linkHTML.match(/class="btn-primary btn-sm"/g) || []).length === LINKS.length,
+   '每个网站都有「点击跳转」按钮');
+ok((linkHTML.match(/class="cal-copy" data-url=/g) || []).length === LINKS.length,
+   '每个网站都有带 data-url 的「复制地址」按钮');
+ok((linkHTML.match(/class="lurl"/g) || []).length === LINKS.length,
+   '每个网站都显示了完整网址');
+
+// 所有网址必须是绝对地址(复制出去要能直接用)
+const badLinkUrl = LINKS.filter(l => !/^https?:\/\//.test(l.url || ''));
+ok(badLinkUrl.length === 0, '所有网站网址都是绝对地址',
+   badLinkUrl.map(l => l.name).join(', '));
+
+// 名称/网址不得重复(导航站重复条目会让人困惑)
+const dupUrl = LINKS.map(l => l.url).filter((u, i, a) => a.indexOf(u) !== i);
+ok(dupUrl.length === 0, '没有重复的网址', dupUrl.join(', '));
+
+// 分类: chips 数量 = 分类数 + 1(全部)
+const chipHTML = els.linkChips.innerHTML || '';
+const chipCount = (chipHTML.match(/class="chip/g) || []).length;
+const cats = [...new Set(LINKS.map(l => l.category))];
+ok(chipCount === cats.length + 1,
+   `分类 chips = 分类数 + 1(全部)`, `${chipCount} vs ${cats.length + 1}`);
+ok(chipHTML.includes('全部'), 'chips 含「全部」');
+// 每个条目都要有分类, 否则会从分类视图里消失
+const noCat = LINKS.filter(l => !l.category);
+ok(noCat.length === 0, '每个网站都有分类', noCat.map(l => l.name).join(', '));
+
+// 复制功能的降级路径: 「复制地址」按钮旁边没有 input, 必须能临时造 textarea
+ok(/createElement\('textarea'\)/.test(appSrc),
+   '复制降级路径会临时创建 textarea(应对无 input 的按钮)');
+ok(/navigator\.clipboard/.test(appSrc), '优先使用 clipboard API');
 
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);

@@ -67,6 +67,16 @@ def load_notices():
     return items, d.get("source", {})
 
 
+def load_quick_links():
+    """常用网站导航(人工维护, 每条均实测过连通性)。"""
+    path = os.path.join(ROOT, "data", "curated", "quick_links.json")
+    if not os.path.exists(path):
+        return [], []
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    return d.get("items", []), d.get("_category_order", [])
+
+
 def load_cadence():
     """年度节律(由 scripts/build_cadence.py 推断)。不存在时返回空, 站点照常工作。"""
     path = os.path.join(SEED, "cadence.json")
@@ -83,6 +93,7 @@ def main():
     comps = load_competitions()
     notices, nsrc = load_notices()
     cadence, month_hist = load_cadence()
+    links, cat_order = load_quick_links()
 
     # 竞赛名 -> 通知列表
     by_name = {}
@@ -139,6 +150,8 @@ def main():
         "notices": notices,
         "monthHistogram": {str(m): month_hist.get(m, 0) for m in range(1, 13)},
         "cadenceCount": len(cadence),
+        "quickLinks": links,
+        "quickLinkCategories": cat_order,
         "calendar": {
             "all": "calendar/all.ics",
             "eeCore": "calendar/ee-core.ics",
@@ -172,6 +185,7 @@ def main():
     print("通知 : %d (已关联 %d, %s ~ %s)" % (
         stats["notices"], stats["noticesMatched"], stats["noticeFrom"], stats["noticeTo"]))
     print("节律 : %d 个竞赛可推断年度窗口" % len(cadence))
+    print("常用网站: %d 个链接, %d 个分类" % (len(links), len(cat_order)))
     print("相关度分布: %s" % dict(sorted(ee_dist.items())))
     print("written: %s (%.0f KB)" % (DST, os.path.getsize(DST) / 1024.0))
 

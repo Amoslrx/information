@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-23 20:20
+// 生成时间: 2026-09-25 21:49
 window.SITE_DATA = {
- "generatedAt": "2026-09-23 20:20",
+ "generatedAt": "2026-09-25 21:49",
  "stats": {
   "competitions": 91,
   "notices": 451,
@@ -6615,6 +6615,212 @@ window.SITE_DATA = {
   "12": 38
  },
  "cadenceCount": 37,
+ "quickLinks": [
+  {
+   "name": "交大主门户",
+   "url": "https://www.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [
+    "高频入口"
+   ],
+   "desc": "西安交通大学官方网站总入口。"
+  },
+  {
+   "name": "统一身份认证",
+   "url": "https://login.xjtu.edu.cn/cas/login",
+   "category": "放在前面",
+   "tags": [
+    "统一认证",
+    "高频入口"
+   ],
+   "desc": "凭录取通知书上的学号注册统一身份认证账号。标有「统一认证」的站点都需要用它登录。"
+  },
+  {
+   "name": "移动交通大学",
+   "url": "https://m.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [
+    "移动交大"
+   ],
+   "desc": "交大移动端入口，主要功能是把「一网通办」搬到手机上。"
+  },
+  {
+   "name": "学生邮箱",
+   "url": "https://stu.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [
+    "校园邮箱"
+   ],
+   "desc": "学生邮箱服务入口。使用前需先在「一网通办」完成邮箱注册。"
+  },
+  {
+   "name": "校园网申请",
+   "url": "https://nethelp.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [
+    "校园网/VPN",
+    "统一认证"
+   ],
+   "desc": "校园网与 XJTU-STU / xjtu5g 等网络的开通与自助服务。"
+  },
+  {
+   "name": "WebVPN",
+   "url": "https://webvpn.xjtu.edu.cn/",
+   "category": "放在前面",
+   "tags": [
+    "校园网/VPN",
+    "校外站点"
+   ],
+   "desc": "校外访问校内资源用。注意它和「校园网」是两个不同的东西：校园网解决上网，WebVPN 解决访问校内站点。"
+  },
+  {
+   "name": "教务处",
+   "url": "https://jwc.xjtu.edu.cn/",
+   "category": "课程规划相关",
+   "tags": [
+    "重点网站"
+   ],
+   "desc": "教学通知、培养方案、校历、选课相关通知。"
+  },
+  {
+   "name": "教务处系统",
+   "url": "https://jwxt.xjtu.edu.cn/",
+   "category": "课程规划相关",
+   "tags": [
+    "统一认证"
+   ],
+   "desc": "选课、课程、成绩查询。"
+  },
+  {
+   "name": "校历",
+   "url": "https://jwc.xjtu.edu.cn/xxfw/xl.htm",
+   "category": "课程规划相关",
+   "tags": [],
+   "desc": "本科生校历：开学、考试周、假期安排。"
+  },
+  {
+   "name": "培养方案",
+   "url": "https://jwc.xjtu.edu.cn/jxxx/pyfa.htm",
+   "category": "课程规划相关",
+   "tags": [],
+   "desc": "各专业培养方案，查学分要求和课程设置。"
+  },
+  {
+   "name": "本科教务",
+   "url": "http://due.xjtu.edu.cn/",
+   "category": "课程规划相关",
+   "tags": [],
+   "desc": "本科生教育相关通知与办事入口。"
+  },
+  {
+   "name": "思源学堂",
+   "url": "https://syxt.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [
+    "统一认证",
+    "重点网站"
+   ],
+   "desc": "课程平台（LMS）：课件、作业、课程通知。"
+  },
+  {
+   "name": "图书馆",
+   "url": "https://www.lib.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [
+    "图书馆",
+    "统一认证"
+   ],
+   "desc": "馆藏检索、借阅、数据库与电子资源。"
+  },
+  {
+   "name": "学生邮箱收信",
+   "url": "https://mail.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [
+    "校园邮箱"
+   ],
+   "desc": "收发邮件。学校通知常发到学生邮箱。"
+  },
+  {
+   "name": "体育中心",
+   "url": "https://tyzx.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [],
+   "desc": "体育课、体测、场馆相关通知。"
+  },
+  {
+   "name": "心理咨询",
+   "url": "https://xlzx.xjtu.edu.cn/",
+   "category": "日常学习相关",
+   "tags": [],
+   "desc": "心理健康教育与咨询预约。"
+  },
+  {
+   "name": "实践教学中心",
+   "url": "http://pec.xjtu.edu.cn/",
+   "category": "科创实践相关",
+   "tags": [
+    "重点网站"
+   ],
+   "desc": "竞赛、大创项目、工程训练的主管单位。本网站的竞赛通知主要来自这里。"
+  },
+  {
+   "name": "实践教学中心 · 竞赛栏目",
+   "url": "http://pec.xjtu.edu.cn/cxcy/js.htm",
+   "category": "科创实践相关",
+   "tags": [
+    "高频入口"
+   ],
+   "desc": "校内竞赛通知的集中入口，本网站的主数据源。"
+  },
+  {
+   "name": "教务处 · 教学通知",
+   "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2.htm",
+   "category": "科创实践相关",
+   "tags": [],
+   "desc": "创新大赛、学科竞赛的校内选拔通知会发在这里。"
+  },
+  {
+   "name": "学生处",
+   "url": "https://xsc.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "奖助学金、评奖评优、学生事务。"
+  },
+  {
+   "name": "就业创业中心",
+   "url": "https://job.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [],
+   "desc": "招聘信息、宣讲会、就业手续。"
+  },
+  {
+   "name": "网络信息中心",
+   "url": "https://nic.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [
+    "校园网/VPN"
+   ],
+   "desc": "校园网、邮箱、统一认证等服务的运维与技术文档。"
+  },
+  {
+   "name": "交大新闻网",
+   "url": "http://news.xjtu.edu.cn/",
+   "category": "通知与信息公示",
+   "tags": [],
+   "desc": "校内新闻与要闻。竞赛获奖报道常在这里。"
+  }
+ ],
+ "quickLinkCategories": [
+  "放在前面",
+  "课程规划相关",
+  "日常学习相关",
+  "科创实践相关",
+  "基础服务办理",
+  "基础资源获取",
+  "通知与信息公示",
+  "校外其余常用"
+ ],
  "calendar": {
   "all": "calendar/all.ics",
   "eeCore": "calendar/ee-core.ics",
