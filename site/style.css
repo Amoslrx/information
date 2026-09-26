@@ -354,6 +354,20 @@ code {
   .link-grid { grid-template-columns: 1fr; }
 }
 
+/* ---------------- 视图标题 / 嵌入块 ---------------- */
+.view-title {
+  margin: 0 0 14px; font-size: 17px; font-weight: 650;
+  padding-bottom: 10px; border-bottom: 2px solid var(--line);
+}
+/* 年度节律现在是「学科竞赛」页里的一段, 不再是独立视图 */
+.rhythm-block {
+  display: block; margin-top: 36px;
+  padding-top: 10px; border-top: 2px solid var(--line);
+}
+
+/* 导航变多后允许换行, 比横向滚动更好用 */
+.tabs .wrap { flex-wrap: wrap; overflow: visible; }
+
 /* ---------------- drawer ---------------- */
 .overlay {
   position: fixed; inset: 0; background: rgba(16,32,48,.4);

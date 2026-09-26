@@ -19,32 +19,62 @@
         "label": "教务处 · 教学通知",
         "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2",
         "pages_crawled_cap": 5
+      },
+      {
+        "key": "jwc_ksap",
+        "label": "教务处 · 考试安排",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/ksap",
+        "pages_crawled_cap": 6
+      },
+      {
+        "key": "jwc_jsap",
+        "label": "教务处 · 竞赛安排",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsap",
+        "pages_crawled_cap": 6
+      },
+      {
+        "key": "jwc_kcap",
+        "label": "教务处 · 课程安排",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/kcap",
+        "pages_crawled_cap": 5
+      },
+      {
+        "key": "jwc_xjgl",
+        "label": "教务处 · 学籍管理",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/xjgl",
+        "pages_crawled_cap": 5
+      },
+      {
+        "key": "jwc_pyfa",
+        "label": "教务处 · 培养方案",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/pyfa",
+        "pages_crawled_cap": 2
       }
     ],
     "skipped": {
       "ee.xjtu.edu.cn/dtgh/txgz.htm": "电气学院·团学工作, 内容是党团活动(团组织生活会、党支部大会), 非竞赛; 且为图片卡片结构",
       "news.xjtu.edu.cn": "图文新闻门户, 列表项无日期, 内容以新闻报道而非通知为主, 信号弱",
       "gs.xjtu.edu.cn": "研究生院, 首页以招生/培养通知为主(录取通知书、导师培训), 与本科竞赛关系弱",
-      "tuanwei.xjtu.edu.cn": "校团委, 是 Nuxt.js 单页应用(路由 /passage?id=N), 需要额外解析 __NUXT__ 载荷",
-      "jwc竞赛专栏": "教务处无独立竞赛栏目 —— 实测创新大赛通知属于'教学通知'(jxtz2), 已包含在内"
+      "xsc.xjtu.edu.cn": "学生处, 已实测可抓但模板与现有解析器不同(日期为 <b>25</b><i>2026/06</i> 拆开), 待接入。栏目: xgdt/tzgg.htm 通知公告 / szzc/ztjy.htm 思政之窗 / szzc/znjh.htm 综能计划",
+      "tyzx.xjtu.edu.cn": "体育中心, 已实测可抓但日期只有 MM/DD 没有年份, 需要按抓取时间推断, 风险较高。栏目: ywbl/hdbm.htm 活动报名 / qzty/jshd.htm 竞赛活动"
     },
     "crawler": "scripts/crawl_xjtu_notices.py",
     "note": "只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; robots.txt 实测均为 404 未禁止"
   },
   "schema_version": 2,
-  "count": 1325,
-  "matched_count": 279,
-  "competition_related_count": 502,
+  "count": 1671,
+  "matched_count": 297,
+  "competition_related_count": 555,
   "by_site": {
     "实践教学中心": 306,
-    "教务处": 52,
-    "校团委": 867,
+    "教务处": 264,
+    "校团委": 1001,
     "电气学院": 100
   },
   "by_site_competition": {
     "实践教学中心": 299,
-    "校团委": 191,
-    "教务处": 12
+    "校团委": 198,
+    "教务处": 58
   },
   "items": [
     {
@@ -129,7 +159,7 @@
       "date": "2026-09-18",
       "title": "关于启动2026级本科生劳动教育并继续做好2023、2024、2025级本科生劳动教育的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1176/10470.htm",
-      "source": "jwc",
+      "source": "jwc_pyfa",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -160,11 +190,55 @@
       "is_competition": true
     },
     {
+      "date": "2026-09-15",
+      "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+      "moe_no": "43",
+      "matched_keyword": "全国大学生嵌入式芯片与系统设计竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-15",
+      "title": "关于2026年国庆、中秋节放假调休及教学工作安排的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2026-09-14",
       "title": "西安交通大学第29届研究生支教团成员招募名单公示",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4760",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-12",
+      "title": "关于公布2026-2027学年第一学期停开课程的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "关于新学期新版考勤系统试运行的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10446.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -185,7 +259,7 @@
       "date": "2026-09-09",
       "title": "关于2026年下半年全国大学英语四、六级考试报名的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
-      "source": "jwc",
+      "source": "jwc_ksap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -204,6 +278,17 @@
       "is_competition": false
     },
     {
+      "date": "2026-09-07",
+      "title": "关于2026-2027学年第一学期本科生学籍注册工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
       "date": "2026-09-02",
       "url": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
@@ -213,6 +298,17 @@
       "source_page": 1,
       "source": "pec",
       "site": "实践教学中心",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-02",
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选...",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+      "moe_no": "37",
+      "matched_keyword": "RoboCup机器人世界杯中国赛",
       "is_competition": true
     },
     {
@@ -231,6 +327,61 @@
       "title": "关于组建中国青年志愿者西安交通大学第29届研究生支教团的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
       "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-08-29",
+      "title": "关于2026级本科生新生选拔数学测试的通知（更新中2-1200）",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10438.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-08-28",
+      "title": "关于开展2026级新生2026-2027学年第一学期选课指导的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10437.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-08-28",
+      "title": "关于公布2026-2027学年第一学期停开课程的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10434.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-08-28",
+      "title": "关于2026-2027学年第一学期本科新生选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10436.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-08-24",
+      "title": "关于2026级新生进校英语测试的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10432.htm",
+      "source": "jwc_ksap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -280,6 +431,17 @@
       "source_page": 1,
       "source": "pec",
       "site": "实践教学中心",
+      "is_competition": true
+    },
+    {
+      "date": "2026-08-18",
+      "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10431.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国国际大学生创新大赛",
+      "moe_no": "1",
+      "matched_keyword": "中国国际大学生创新大赛",
       "is_competition": true
     },
     {
@@ -395,10 +557,32 @@
     },
     {
       "date": "2026-07-31",
+      "title": "关于公示2026年本科生转专业拟录取名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10422.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-31",
       "title": "交大青年：盛夏躬身践初心 笃行实干绽芳华",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4742",
       "source": "tuanwei_news",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-29",
+      "title": "关于公布2025-2026学年暑期停开课程的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10415.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -428,11 +612,66 @@
       "is_competition": true
     },
     {
+      "date": "2026-07-28",
+      "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10414.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-07-27",
+      "title": "2026年法学院转专业面试名单",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10413.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-25",
+      "title": "电气工程学院2026年本科生转专业综合考查安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10411.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-23",
+      "title": "关于2026-2027学年第一学期本科生（不含2026级）选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10403.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2026-07-21",
       "title": "九载桨声连两岸 同心逐梦启新程 第九届高校青年赛艇文化研习营举行",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4741",
       "source": "tuanwei_news",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-21",
+      "title": "2026年经济与金融学院接收本科生转专业考核安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10400.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -462,10 +701,65 @@
     },
     {
       "date": "2026-07-20",
+      "title": "2026年金禾经济研究中心转专业笔试及面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10398.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-20",
       "title": "2026年西安交通大学“攀登计划”优秀大学生赴省直机关见习启动会举行",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4738",
       "source": "tuanwei_news",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-20",
+      "title": "2026年管理学院接收本科生转专业考核安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10395.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-20",
+      "title": "2026年生命科学与技术学院接收本科生转专业考核安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10396.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-20",
+      "title": "2026年仪器科学与技术学院转专业笔面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10394.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-07-17",
+      "title": "关于2025-2026学年暑期重修班开课、选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10391.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -497,7 +791,7 @@
       "date": "2026-07-08",
       "title": "关于2026-2027学年第一学期补考（含缓考）有关事宜的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1171/10365.htm",
-      "source": "jwc",
+      "source": "jwc_ksap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -539,6 +833,17 @@
       "is_competition": true
     },
     {
+      "date": "2026-06-25",
+      "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通...",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10355.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生信息安全竞赛",
+      "moe_no": "33",
+      "matched_keyword": "全国大学生信息安全竞赛",
+      "is_competition": true
+    },
+    {
       "date": "2026-06-22",
       "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4733",
@@ -547,6 +852,17 @@
       "competition": "“挑战杯”中国大学生创业计划大赛",
       "moe_no": "3",
       "matched_keyword": "挑战杯中国大学生创业计划",
+      "is_competition": true
+    },
+    {
+      "date": "2026-06-22",
+      "title": "2026年9月“全国计算机等级考试”西安交通大学兴庆校区考点报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
       "is_competition": true
     },
     {
@@ -561,6 +877,17 @@
       "is_competition": true
     },
     {
+      "date": "2026-06-17",
+      "title": "关于公示2026年中国大学生机械工程创新创意大赛：第七届“明石杯”微纳传感技术与智能应用赛西安交通大...",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10341.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "is_competition": true
+    },
+    {
       "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
       "date": "2026-06-17",
       "url": "http://pec.xjtu.edu.cn/info/1191/5462.htm",
@@ -570,6 +897,17 @@
       "source_page": 1,
       "source": "pec",
       "site": "实践教学中心",
+      "is_competition": true
+    },
+    {
+      "date": "2026-06-17",
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔...",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10342.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+      "moe_no": "37",
+      "matched_keyword": "RoboCup机器人世界杯中国赛",
       "is_competition": true
     },
     {
@@ -593,6 +931,17 @@
       "source_page": 1,
       "source": "pec",
       "site": "实践教学中心",
+      "is_competition": true
+    },
+    {
+      "date": "2026-06-16",
+      "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
       "is_competition": true
     },
     {
@@ -623,6 +972,28 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4728",
       "source": "tuanwei_news",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-06-08",
+      "title": "2026年6月全国大学英语四、六级预测考试考生名单及考场安排通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10327.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-06-05",
+      "title": "2025-2026学年第二学期大学英语课程口语机考考场安排通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10324.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -685,11 +1056,33 @@
       "is_competition": true
     },
     {
+      "date": "2026-05-29",
+      "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10261.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生机械工程创新创意大赛",
+      "moe_no": "36",
+      "matched_keyword": "中国大学生机械工程创新创意大赛",
+      "is_competition": true
+    },
+    {
       "date": "2026-05-26",
       "title": "电气工程学院2025级本科生专业选择工作方案",
       "url": "http://ee.xjtu.edu.cn/info/1124/15448.htm",
       "source": "ee",
       "site": "电气学院",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-05-26",
+      "title": "关于开展2027版本科专业培养方案修订调研工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/10236.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -735,6 +1128,28 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4722",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-05-12",
+      "title": "关于西安交通大学2026年上半年全国大学英语四六级口语考试的温馨提示",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10143.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-05-12",
+      "title": "关于2026年春季体质健康标准测试的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10141.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -1889,6 +2304,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2025-12-08",
+      "title": "关于启动2025级本科生劳动教育并继续做好2023、2024级本科生劳动教育的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/9421.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2025-12-05",
@@ -3146,6 +3572,17 @@
       "is_competition": false
     },
     {
+      "date": "2024-12-10",
+      "title": "关于启动2024级本科生劳动教育并继续做好2023级本科生劳动教育的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/8522.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
       "date": "2024-12-01",
       "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
@@ -4122,6 +4559,17 @@
       "is_competition": true
     },
     {
+      "date": "2024-03-19",
+      "title": "关于启动2023级本科生劳动教育实践环节特色项目课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/8000.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于举行西安交通大学第六届大学生结构设计竞赛的通知",
       "date": "2024-03-06",
       "url": "http://pec.xjtu.edu.cn/info/1191/4074.htm",
@@ -4262,6 +4710,17 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4535",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2023-12-26",
+      "title": "关于启动2023级本科生劳动教育的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/7880.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -4655,6 +5114,17 @@
       "is_competition": false
     },
     {
+      "date": "2023-09-08",
+      "title": "关于核对确认2023-2024学年第二学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6173.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于公布西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛获奖名单的通知",
       "date": "2023-08-07",
       "url": "http://pec.xjtu.edu.cn/info/1191/3751.htm",
@@ -4677,6 +5147,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2023-07-11",
+      "title": "关于2023版本科培养方案答辩论证会议安排的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6186.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "title": "关于举办西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
@@ -5307,6 +5788,17 @@
       "is_competition": false
     },
     {
+      "date": "2023-03-06",
+      "title": "关于核对确认2023-2024学年第一学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6172.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2023-01-19",
       "title": "西安交通大学第34届“腾飞杯”创新创业大赛创业赛获奖名单公示",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4456",
@@ -5363,6 +5855,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2022-11-15",
+      "title": "关于开展2023版本科生培养方案修订工作的预通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6175.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2022-11-11",
@@ -5611,6 +6114,17 @@
       "is_competition": false
     },
     {
+      "date": "2022-07-20",
+      "title": "关于做好2021级西交利物浦大学交流生课程体系录入工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6169.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于公示2022年西安交通大学数学建模竞赛校赛获奖结果的通知",
       "date": "2022-07-15",
       "url": "http://pec.xjtu.edu.cn/info/1190/3194.htm",
@@ -5639,6 +6153,17 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4411",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2022-07-01",
+      "title": "关于落实2022—2023学年2022级教学日历的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6174.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -5924,6 +6449,17 @@
       "is_competition": true
     },
     {
+      "date": "2022-04-08",
+      "title": "关于落实2022—2023学年教学日历的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6168.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于启动西安交通大学第八届中国国际“互联网+”大学生创新创业大赛第一轮项目征集工作的通知",
       "date": "2022-03-31",
       "url": "http://pec.xjtu.edu.cn/info/1191/3041.htm",
@@ -6006,6 +6542,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2022-03-09",
+      "title": "关于核对确认2022-2023学年第一学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6171.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2022-02-18",
@@ -6110,6 +6657,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2021-12-16",
+      "title": "团委党支部召开党风廉政宣传教育专题组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4369",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2021-12-15",
@@ -6227,6 +6785,17 @@
       "is_competition": true
     },
     {
+      "date": "2021-09-22",
+      "title": "关于核对确认2021-2022学年第二学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6181.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2021-09-15",
       "title": "西安交通大学团委院处磋商采购中标（成交）公告",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4354",
@@ -6287,6 +6856,17 @@
       "title": "弘扬传统文化，讲述中国故事",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4348",
       "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2021-08-26",
+      "title": "团委党支部召开党史学习教育专题组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4344",
+      "source": "tuanwei_party",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -6648,6 +7228,17 @@
       "is_competition": true
     },
     {
+      "date": "2021-03-22",
+      "title": "关于核对确认2021-2022学年第一学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6179.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "title": "关于2021中国大学生机械工程创新创意大赛- “明石杯”微纳传感技术与智能应用 大赛报名的通知",
       "date": "2021-03-12",
       "url": "http://pec.xjtu.edu.cn/info/1191/2398.htm",
@@ -6712,6 +7303,17 @@
       "title": "齐心谋划十四五 凝聚团青共奋进",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4317",
       "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2021-01-23",
+      "title": "团委举行2020年领导班子和校管干部述职述廉及民主测评工作会暨团委党支部民主评议专题组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4316",
+      "source": "tuanwei_party",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -6797,6 +7399,17 @@
       "source": "pec",
       "site": "实践教学中心",
       "is_competition": true
+    },
+    {
+      "date": "2020-11-06",
+      "title": "最佳团日 | 一粥一饭来之不易，勤俭节约有你有我",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4308",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2020-11-06",
@@ -6944,6 +7557,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": true
+    },
+    {
+      "date": "2020-09-04",
+      "title": "关于核对确认2020-2021学年第二学期教学计划的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6188.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2020-09-04",
@@ -7132,6 +7756,17 @@
       "is_competition": true
     },
     {
+      "date": "2020-05-28",
+      "title": "党委副书记宫辉参加团委党支部组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4277",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2020-05-25",
       "title": "党委副书记宫辉参加团委党支部组织生活会",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4276",
@@ -7277,10 +7912,43 @@
       "is_competition": false
     },
     {
+      "date": "2020-04-03",
+      "title": "【战“疫”英雄讲团课】英雄无愧初心，“青”听战疫故事",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4262",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2020-04-03",
+      "title": "【战“疫”英雄讲团课】英雄恪尽职守，“疫”线实时开讲",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4263",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2020-04-02",
       "title": "【战“疫”英雄讲团课】英雄载誉归来，线上重磅开讲",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4260",
       "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2020-03-27",
+      "title": "【战“疫”英雄讲团课】英雄载誉归来，线上重磅开讲",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4259",
+      "source": "tuanwei_youth",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -7341,6 +8009,28 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2020-03-03",
+      "title": "【众志成城克时艰】团委党支部召开“凝心共聚力，青春战疫情” 主题组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4240",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2020-03-03",
+      "title": "【众志成城克时艰】 “众志成城，抗击疫情，交大赛艇在行动”主题团员大会举行",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4245",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2020-03-03",
@@ -7433,6 +8123,17 @@
     },
     {
       "date": "2019-12-30",
+      "title": "“团”聚青春︱那是我作为一名团员的故事开始",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4235",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2019-12-30",
       "title": "2020新年音乐会",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4234",
       "source": "tuanwei_news",
@@ -7447,6 +8148,17 @@
       "title": "同向同行，共阅中国",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4232",
       "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2019-12-29",
+      "title": "【“团”聚青春】新时代 我们的共青团",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4233",
+      "source": "tuanwei_youth",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -7945,6 +8657,17 @@
       "url": "http://ee.xjtu.edu.cn/info/1124/9634.htm",
       "source": "ee",
       "site": "电气学院",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2019-09-20",
+      "title": "关于更新2019版本科生培养方案课程教学大纲的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1176/6178.htm",
+      "source": "jwc_pyfa",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -9287,6 +10010,17 @@
       "is_competition": true
     },
     {
+      "date": "2018-10-30",
+      "title": "最佳团日｜电类805——我们，就是西迁精神新传人",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=217",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2018-10-26",
       "title": "日本民音艺术团受邀来我校演出",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4106",
@@ -9420,10 +10154,142 @@
       "is_competition": false
     },
     {
+      "date": "2018-09-04",
+      "title": "在爱国奉献中书写精彩人生",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=214",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "习近平：青年要自觉践行社会主义核心价值观 ——在北京大学师生座谈会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=213",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "习近平：在纪念马克思诞辰200周年大会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=216",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "习近平总书记对西安交大“西迁精神”作出重要指示",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=215",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "中国共产党党章",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=211",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "中国共产党党务公开条例（试行）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=212",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-04",
+      "title": "中共中央组织部 中共中央宣传部关于在广大知识分子中深入开展“弘扬爱国奋斗精神、建功立业新时代”活动的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=210",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2018-09-03",
       "title": "【西安日报】聚焦交大学子丝路跨国实践",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4168",
       "source": "tuanwei_media",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-02",
+      "title": "王小力常务副书记参加学武党支部与团委党支部联合组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=201",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-02",
+      "title": "团委学习习近平总书记重要指示精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=207",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-02",
+      "title": "团委召开“建合格支部，做合格党员”专题组织生活会 开展党员民主评议",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=206",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-02",
+      "title": "【聚焦创新港】团委党支部前往创新港开展学习调研",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=202",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-09-02",
+      "title": "【务实奋进新时代】团委传达学习暑期工作会议精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=200",
+      "source": "tuanwei_party",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -9545,6 +10411,138 @@
       "title": "“四海一家·丝路长安”陕港同行青年交流活动在西安交大举行",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4074",
       "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "青春逢盛世 奋进正当时",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4072",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "西安交通大学开展“弘扬爱国奋斗精神，建功立业新时代”专题学习",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4063",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "社会各界青年热议团十八大:生逢强国时代 不负青春使命",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4070",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "把从严治团要求落到实处",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4073",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "奏响新时代的青春之歌——共青团十八大解放军和武警部队代表风采录",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4069",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "奋发谱写新时代共青团事业新篇章",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4068",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "党旗所指就是团旗所向——习近平这样擘画新时代共青团",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4066",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "从“红船精神”到“西迁精神”：伟大精神凝聚磅礴力量",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4062",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "习近平这样彰显信仰的底色",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4067",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "三论学习贯彻习近平总书记同团中央新一届领导班子成员集体谈话时的重要讲话精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4065",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "【中国之声特别策划】青年的事儿 习总书记很牵挂",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4071",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-08-09",
+      "title": "“习近平关于青年工作的重要思想”座谈会召开",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4064",
+      "source": "tuanwei_youth",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -10321,6 +11319,17 @@
     },
     {
       "date": "2018-03-12",
+      "title": "【奋斗2018】团委：不忘初心，砥砺前行 为创造留下历史印记新贡献而奋斗",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=199",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2018-03-12",
       "title": "【公示】2017年度“中国大学生自强之星”活动陕西省获奖人选",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=3957",
       "source": "tuanwei",
@@ -10342,10 +11351,703 @@
       "is_competition": false
     },
     {
+      "date": "2017-12-28",
+      "title": "党支部组织委员",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=196",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-12-28",
+      "title": "党支部宣传委员",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=197",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-12-28",
+      "title": "党支部副书记",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=195",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-12-28",
+      "title": "党支部书记",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=194",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜钱学森74——放飞心，跟党走",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=193",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜钱学森72——最佳团日初赛回顾",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=192",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜自动化74——韶华 追忆 西迁路",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=191",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜电信79——我们正青春",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=189",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜机类78——最佳团日初赛总结",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=190",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜机类737——过来！看过来！团日活动的重磅推送！",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=188",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日｜学博军71——乘风破浪",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=187",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日丨电信类711——最佳团日活动进展介绍",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=181",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日丨电信73——如果没有鹿晗，它就上热搜了",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=183",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日丨文试73——恭喜文试73入选团日复赛，我们会更加努力的哟",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=182",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日 | 计算机75——雷马屏峨 弦歌不辍",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=185",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日 | 机类74——功不唐捐，激动！",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=186",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-29",
+      "title": "最佳团日 | 日语71——忆昔西交足迹，领略校史风华",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=184",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日｜机类722班——我们的最佳团日",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=176",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日｜机类721班——不忘初心，继往开来",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=177",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日｜文试74——青春踏上新征程，我们与党共成长",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=178",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日丨软件71——迎接十九大，我们是认真的。",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=180",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日丨生命71--团日活动回顾",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=179",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日 | 计试71——团日活动",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=173",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日 | 管工71——长安何处在，只在马蹄下",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=171",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日 | 电气75——团日活动宣传",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=172",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日 | 电信77——齐齐潮信挺进复赛",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=175",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-22",
+      "title": "最佳团日 | 机类720——回顾我们的最佳团日",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=174",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-17",
+      "title": "人民日报十论学习贯彻党的十九大精神（二）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=169",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-17",
+      "title": "人民日报十论学习贯彻党的十九大精神（一）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=168",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-15",
+      "title": "最佳团日 | 机类733——八，代表着什么",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=166",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-15",
+      "title": "最佳团日 | 机类718——最佳团日初赛回顾",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=164",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-15",
+      "title": "最佳团日 | 文试72——纸上桃源 第二弹",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=163",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-15",
+      "title": "最佳团日 | 数学72——我们的团日",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=167",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2017-11-14",
       "title": "【公示】我校2017年“示范团支部”创建和“魅力团支书”寻访活动申报结果",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=3875",
       "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-10",
+      "title": "中共中央关于认真学习宣传贯彻党的十九大精神的决定",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=161",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-08",
+      "title": "最佳团日 | 钱学森书院、励志书院第三十二届“最佳团日”初赛答辩成功举办",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=159",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2017-11-08",
+      "title": "最佳团日 | 规培76班——规培76绿带侠",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=156",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-08",
+      "title": "最佳团日 | 管工71班——“青春之问”采访活动",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=157",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-08",
+      "title": "最佳团日 | 电气76——76单车旅行",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=158",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-08",
+      "title": "最佳团日 | 少年班5153——因为我们正少年",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=160",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-11-03",
+      "title": "中国共产党第十九届中央委员会第一次全体会议公报",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=155",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-27",
+      "title": "肩负历史重任 开创复兴伟业",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=154",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-26",
+      "title": "人民日报社论：夺取新时代中国特色社会主义伟大胜利",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=153",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-23",
+      "title": "关于十九大报告，你必须知道的“关键词”",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=151",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-23",
+      "title": "习近平总书记关于青年工作的重要论述",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=152",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-20",
+      "title": "校团委召开十九大报告精神专题学习组织生活会",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=150",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-20",
+      "title": "图解十九大报告",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=148",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-20",
+      "title": "关于下发 9 月团组织生活指导意见的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=149",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-19",
+      "title": "最佳团日 | 软件72班——庆党十九大专访",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=147",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-19",
+      "title": "最佳团日 | 生命71班——“不忘初心”采访活动",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=146",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-17",
+      "title": "推动全面从严治党向纵深发展",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=145",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-16",
+      "title": "关于在全校集中开展“学习总书记讲话 做合格共青团员”教育实践的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=144",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "校团委学习贯彻寒假工作会议精神 带领团学组织追赶超越",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=142",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "最佳团日 | 电气75班——兴庆公园采访老人及绘制海报活动",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=136",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "最佳团日 | 生命71班——崇先仰贤签名活动",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=135",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "最佳团日 | 生命71班——定向越野争霸赛",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=137",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "团委召开专题组织生活会 学习巡视工作动员会讲话精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=140",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "关于下发“培育和践行社会主义核心价值观”题团组织生活指导意见的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=143",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-13",
+      "title": "习近平在省部级主要领导干部专题研讨班开班式上发表重要讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=141",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-12",
+      "title": "图解习近平总书记在“7·26”省部级领导干部研讨班上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=133",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-12",
+      "title": "十九大之前一定要知道的关键词（四）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=132",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-12",
+      "title": "十九大之前一定要知道的关键词（二）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=130",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-12",
+      "title": "十九大之前一定要知道的关键词（三）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=131",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-10-12",
+      "title": "十九大之前一定要知道的关键词（一）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=129",
+      "source": "tuanwei_party",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -10434,6 +12136,336 @@
       "title": "【通知】关于下发“培育和践行社会主义核心价值观”主题团组织生活指导意见的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=3717",
       "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "致首届亚非青年联欢节的贺信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3680",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "致清华大学建校105周年的贺信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3674",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "致2015世界机器人大会开幕的贺信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3671",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "给“国培计划（2014）”北师大贵州研修班参训教师的回信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3668",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：广大青年要坚定不移跟着中国共产党走",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3678",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：在纪念红军长征胜利80周年大会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3684",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：在文艺工作座谈会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3670",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：在庆祝中国共产党成立95周年大会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3679",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：在2015年春节团拜会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3659",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平：为建设世界科技强国而奋斗",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3677",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平总书记给大陈岛老垦荒队员的后代、浙江省台州市椒江区12名小学生的回信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3676",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平总书记给北京市八一学校科普小卫星研制团队学生的回信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3686",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平总书记在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的重要讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3662",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在颁发“中国人民抗日战争胜利70周年”纪念章仪式上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3667",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在纪念陈云同志诞辰110周年座谈会上的重要讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3664",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在第二届世界互联网大会开幕式上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3672",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在在知识分子、劳动模范、青年代表座谈会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3675",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在博鳌亚洲论坛2015年年会开幕式上的演讲",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3660",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在全国高校思想政治工作会议上的讲话精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3685",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在会见中国少年先锋队第七次全国代表大会代表时的讲话概要",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3663",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在二十国集团领导人杭州峰会上的开幕辞",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3682",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平在中央第六次西藏工作座谈会上的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3666",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平回母校八一学校：到这里就没有首长了，都是学生",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3681",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平向首届清华大学苏世民书院开学典礼致贺信",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3683",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平出席联合国发展峰会并发表重要讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3669",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平出席第十五届中越青年友好会见活动时的讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3661",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平出席中央党的群团工作会议并发表讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3665",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "习近平主持会议并发表“三严三实”重要讲话",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3673",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "2014年学校共青团工作要点",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3656",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2017-03-06",
+      "title": "2013年学校共青团工作要点",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=3655",
+      "source": "tuanwei_youth",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
@@ -10870,6 +12902,39 @@
       "is_competition": false
     },
     {
+      "date": "2015-05-26",
+      "title": "关于领取第十届周培源力学竞赛准考证的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6749.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-05-25",
+      "title": "关于2015年下半年全国计算机等级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6736.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-05-15",
+      "title": "关于2015年校内英语四级考试的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6706.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2015-05-14",
       "title": "RoboMasters2015全国大学生机器人大赛西北分区赛",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=97",
@@ -10890,6 +12955,50 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2015-05-06",
+      "title": "西安交通大学第一届大学生物理学术竞赛决赛通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6695.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-05-05",
+      "title": "关于公布2015年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6707.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-05-05",
+      "title": "2015年上半年全国计算机等级考试成绩查询通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6717.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2015-04-28",
+      "title": "关于我校第七届全国大学生机械创新设计大赛报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6715.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "is_competition": true
     },
     {
       "date": "2015-04-28",
@@ -10936,6 +13045,50 @@
       "is_competition": false
     },
     {
+      "date": "2015-04-16",
+      "title": "机械工程学院接收2014级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3965.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2015-04-16",
+      "title": "关于领取陕西省数学竞赛参赛资料的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6690.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-04-10",
+      "title": "关于2014级本科生转专业的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3966.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2015-04-08",
+      "title": "关于2015年全国大学生英语竞赛听力相关安排的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6691.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2015-04-05",
       "title": "关于举办2015“逐梦交大，我的青春我的团”社团年度十大人物评选活动的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2926",
@@ -10945,6 +13098,94 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2015-04-03",
+      "title": "2015年全国大学生英语竞赛准考证领取通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6753.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-04-01",
+      "title": "关于聘请2015年大学生数学建模竞赛指导教师暨校内赛题目征集的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6728.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-04-01",
+      "title": "关于开展西安交通大学2015年大学生数学建模竞赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6754.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-03-18",
+      "title": "关于参加陕西高校第十次大学生高等数学竞赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6737.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-03-17",
+      "title": "关于发放第六届全国大学生数学竞赛获奖证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6732.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-03-11",
+      "title": "关于2015年6月全国大学外语四、六级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6743.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2015-03-10",
+      "title": "关于2015年3月全国计算机等级考试网上打印准考证的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6693.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2015-03-09",
+      "title": "第十届全国周培源大学生力学竞赛报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6696.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国周培源大学生力学竞赛",
+      "moe_no": "35",
+      "matched_keyword": "全国周培源大学生力学竞赛",
+      "is_competition": true
     },
     {
       "date": "2015-03-04",
@@ -10963,6 +13204,50 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2840",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2015-01-15",
+      "title": "关于表彰第六届全国大学生机械创新设计大赛获奖师生的通报",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6703.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-01-15",
+      "title": "关于表彰2014年全国大学生电子设计竞赛获奖师生的通报",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6712.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生电子设计竞赛",
+      "moe_no": "6",
+      "matched_keyword": "全国大学生电子设计竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-01-15",
+      "title": "关于表彰2014年全国大学生数学建模竞赛获奖师生的通报",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6723.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "全国大学生数学建模竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2015-01-06",
+      "title": "关于网报2015年上半年全国计算机等级考试的学生进行现场确认的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6742.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11002,11 +13287,55 @@
       "is_competition": false
     },
     {
+      "date": "2014-12-26",
+      "title": "2015年上半年全国计算机等级考试暂停网上报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6734.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-12-22",
+      "title": "关于2015年上半年全国计算机等级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6757.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2014-12-16",
       "title": "关于选派优秀大学生2015年寒假到政府机关见习的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2758",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-12-05",
+      "title": "关于领取2014年9月全国计算机等级考试合格证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6738.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-12-04",
+      "title": "关于2014-2015学年第一学期学生证补办的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3996.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11112,6 +13441,17 @@
       "is_competition": false
     },
     {
+      "date": "2014-11-25",
+      "title": "2015年全国大学生英语竞赛报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6692.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2014-11-20",
       "title": "第六届彭康之夜",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=69",
@@ -11165,6 +13505,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2014-11-19",
+      "title": "西安交通大学第一届大学生物理学术竞赛初赛通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6714.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "is_competition": true
     },
     {
       "date": "2014-10-31",
@@ -11233,11 +13584,77 @@
       "is_competition": true
     },
     {
+      "date": "2014-10-20",
+      "title": "关于领取第六届全国大学生数学竞赛准考证的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6716.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-10-20",
+      "title": "关于取消2014年11月四、六级网考的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6698.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-10-15",
+      "title": "关于组织学生参加西安交通大学第一届大学生物理学术竞赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6724.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2014-10-15",
+      "title": "2014年11月全国大学英语四、六级网考报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6725.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2014-10-14",
       "title": "关于2014年选派团干部到县级团委挂职工作的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2473",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-10-13",
+      "title": "关于2015届毕业班图像信息采集期间课程安排的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3980.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-10-13",
+      "title": "关于2015届普通本科毕业生图像信息采集的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3955.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11271,6 +13688,17 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=33",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-29",
+      "title": "关于2014-2015学年第一学期基础通识类选修课和基础通识类核心课改选通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4507.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11321,6 +13749,17 @@
       "is_competition": false
     },
     {
+      "date": "2014-09-19",
+      "title": "关于本学期基础通识类选修课和基础通识类核心课选课通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4520.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-09-18",
       "title": "2015届研究生支教团成员公示",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2385",
@@ -11343,11 +13782,55 @@
       "is_competition": true
     },
     {
+      "date": "2014-09-17",
+      "title": "2014-2015学年第一学期《计算机应用基础专题实验》课程安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4541.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-16",
+      "title": "西安交通大学2015年招收推荐免试研究生章程",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3957.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-16",
+      "title": "关于2015届毕业生免试推荐研究生信息报送的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3960.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-09-16",
       "title": "2014诺贝尔奖得主西安交大校园行讲座(三)",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=40",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-16",
+      "title": "2014-2015学年第一学期2013级24式太极拳课程安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4585.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11365,11 +13848,33 @@
       "is_competition": false
     },
     {
+      "date": "2014-09-14",
+      "title": "关于2014年12月全国大学外语四、六级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6704.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2014-09-10",
       "title": "多国航天员报告会通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=30",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-10",
+      "title": "关于领取2014年下半年全国计算机等级考试《准考证》的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6739.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11420,11 +13925,110 @@
       "is_competition": false
     },
     {
+      "date": "2014-09-05",
+      "title": "关于本学期2013级《大学英语》、《体育》课补选的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4564.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-05",
+      "title": "关于做好推荐2015届优秀本科毕业生免试攻读硕士学位研究生的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3967.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-05",
+      "title": "关于2014级体育选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4504.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-09-05",
+      "title": "关于2014级《大学英语》课表安排的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4579.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-09-02",
       "title": "【中秋节活动】NEW PLAN",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=32",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-07-24",
+      "title": "关于公布2013级转专业终审合格名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3979.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-07-24",
+      "title": "关于公布2012级金禾中心转专业终审合格名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3986.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-07-21",
+      "title": "关于公布2014-2015学年第一学期课表的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4554.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-07-21",
+      "title": "关于2014年暑假《高等数学》、《大学物理》重修班开课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4493.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-07-10",
+      "title": "关于暑假期间开放自习教室的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4527.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11442,11 +14046,385 @@
       "is_competition": false
     },
     {
+      "date": "2014-06-30",
+      "title": "关于2013-2014学年夏季小学期基础通识类课程改选和退选的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4543.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-27",
+      "title": "关于夏季小学期《英语强化班》开课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4522.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-27",
+      "title": "关于发放2014年全国大学生英语竞赛获奖证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6751.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-06-26",
+      "title": "关于领取2014年3月全国计算机等级考试合格证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6721.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-26",
+      "title": "关于表彰2014年全国大学生英语竞赛获奖学生的通报",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6705.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-06-25",
+      "title": "关于开办《高等数学》、《大学物理》重修班的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4580.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-25",
+      "title": "2014年第六届全国大学生数学竞赛报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6731.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-06-19",
+      "title": "关于2014届毕业生延长学习时间及结业有关事宜的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3988.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-17",
+      "title": "关于公布金禾经济研究中心2012级本科生转专业初审名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3964.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-06-16",
       "title": "关于选派优秀大学生到政府机关见习工作的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2338",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-10",
+      "title": "关于全国大学外语四六级考试期间停课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4517.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-06",
+      "title": "关于公布2013级转专业初审合格名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3956.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-06-03",
+      "title": "关于2014年下半年全国计算机等级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6720.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-06-03",
+      "title": "2013-2014学年第二学期《生命科学导论》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6964.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-29",
+      "title": "数学与统计学院2013级转专业学生面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3972.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-29",
+      "title": "2013-2014学年第二学期拓展类英语课程考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6983.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-29",
+      "title": "2013-2014学年第二学期《电力工程》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6977.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-29",
+      "title": "2013-2014学年第二学期《机械设计基础48学时》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6995.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-27",
+      "title": "关于在2012级本科生中选拔法学卓越班学生的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3952.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-27",
+      "title": "关于在2012级中选拔经济学（数量经济与金融）试点班学生的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3970.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-27",
+      "title": "2013-2014学年第二学期《微型计算机原理与接口技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6989.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-26",
+      "title": "电气学院2013级转专业学生面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3961.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-26",
+      "title": "化学工程与技术学院2013级转专业学生面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3993.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-26",
+      "title": "关于2013-2014学年第二学期学生证补办的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3953.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-26",
+      "title": "2013-2014学年第二学期《智能仪器与虚拟仪器设计》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6970.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-23",
+      "title": "2013-2014学年第二学期《机械系统故障诊断》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6973.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-22",
+      "title": "电子与信息工程学院2013级转专业面试通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3975.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-22",
+      "title": "材料学院2013级转专业面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3985.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-22",
+      "title": "2013-2014第二学期大学数学期末讲座安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4573.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-21",
+      "title": "能源与动力工程学院接收2013级转专业学生面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3977.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-21",
+      "title": "关于表彰2014年美国大学生数学建模竞赛我校获奖学生和指导教师的通报",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6733.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "美国大学生数学建模竞赛",
+      "moe_no": "",
+      "matched_keyword": "美国大学生数学建模竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2014-05-21",
+      "title": "2013-2014学年第二学期《电工电子技术1》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6961.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-21",
+      "title": "2013-2014学年第二学期《模拟电子技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6967.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-21",
+      "title": "2013-2014学年第二学期2013级大学英语考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6962.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-20",
+      "title": "关于结业生换发毕业证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3963.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11464,6 +14442,83 @@
       "is_competition": false
     },
     {
+      "date": "2014-05-20",
+      "title": "2013-2014学年第二学期基础通识类课程《数据库基础及应用》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6969.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-20",
+      "title": "2013-2014学年第二学期《数控技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6993.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-20",
+      "title": "2013-2014学年第二学期《数学建模Ⅰ》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6972.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-20",
+      "title": "2013-2014学年第二学期《光电检测技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7010.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-20",
+      "title": "2013-2014学年第二学期2013级《工程分析程序设计》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6999.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-19",
+      "title": "机械工程学院2013级本科生转专业考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6963.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-19",
+      "title": "2013-2014学年第二学期2013级《计算机程序设计》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7006.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-05-16",
       "title": "中国大学生威盛中国芯·HTC·计算机表演赛方案",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2329",
@@ -11475,11 +14530,121 @@
       "is_competition": false
     },
     {
+      "date": "2014-05-15",
+      "title": "经金学院2013级本科生转专业面试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3951.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-15",
+      "title": "2013-2014学年第二学期《社会学概论》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6980.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-14",
+      "title": "第十届周培源杯全国大学生力学竞赛辅导报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6709.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2014-05-14",
       "title": "“冰力玩家HIGH歌校园行”走进西安交通大学",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=27",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-14",
+      "title": "2013-2014学年第二学期《机电液传动与控制》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6981.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-12",
+      "title": "2013-2014学年第二学期《音乐鉴赏》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6971.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-12",
+      "title": "2013-2014学年第二学期《金属成形工艺及模具》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6988.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-09",
+      "title": "电气学院、电信学院2013级本科生转专业考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6979.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-09",
+      "title": "2013-2014学年第二学期《特种加工技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6991.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-09",
+      "title": "2013-2014学年第二学期《模具特种加工技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6992.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-09",
+      "title": "2013-2014学年第二学期《工程经济学》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6959.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11498,10 +14663,87 @@
     },
     {
       "date": "2014-05-08",
+      "title": "关于2014年校内英语四级考试的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7004.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-08",
       "title": "“爱我中华，青春更隽永”西安交通大学传统文化月活动一览",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=26",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-08",
+      "title": "2013-2014学年第二学期《电工电子技术1》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6975.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-08",
+      "title": "2013-2014学年第二学期《流体传动与伺服控制》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7003.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-08",
+      "title": "2013-2014学年第二学期《机械自动化器件及其应用》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7009.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-08",
+      "title": "2013-2014学年第二学期《机械电子工程基础》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7000.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-06",
+      "title": "2013-2014学年第二学期《有限元分析及工程应用》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6958.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-06",
+      "title": "2013-2014学年第二学期2010级《国家学生体质健康标准》补测安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6978.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11552,6 +14794,39 @@
       "is_competition": false
     },
     {
+      "date": "2014-05-04",
+      "title": "2013-2014学年第二学期《模拟电子技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6966.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-05-04",
+      "title": "2013-2014学年第二学期《数字电子技术》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6985.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-30",
+      "title": "2013-2014学年夏季小学期基础通识类课程改选通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4526.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-04-29",
       "title": "“弘扬体育精神，‘武’动青春梦想”——西安交通大学第十二届武术文化节大型综艺晚会重磅来袭！",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=24",
@@ -11585,6 +14860,314 @@
       "is_competition": false
     },
     {
+      "date": "2014-04-28",
+      "title": "2013-2014学年第二学期《摩擦学》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6987.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-28",
+      "title": "2013-2014学年夏季小学期基础通识类课程考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6974.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-26",
+      "title": "金禾经济研究中心接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3978.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "航天航空学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3987.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "经济与金融学院接收转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3995.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "理学院接收2013级转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3959.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "数学与统计学院接收2013级转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3968.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "关于夏季小学期《英语强化班》选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4500.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "公共政策与管理学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3981.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "2013-2014学年第二学期机械学院专业选修课考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6986.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-25",
+      "title": "2013-2014学年第二学期《概率论》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6982.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "软件学院接收2013级本科生转专业实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3990.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "外国语学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3982.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "化工学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3950.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "关于取消2014年5月四、六级网考的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6730.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "人居学院接收2013级转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3971.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-24",
+      "title": "2013-2014学年第二学期《大学物理Ⅰ1、Ⅱ1、A1》期中考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7007.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-23",
+      "title": "电子与信息工程学院接收2013级本科生转专业实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3991.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-23",
+      "title": "医学部接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3974.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-23",
+      "title": "关于公布2014年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6711.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-04-22",
+      "title": "关于2013-2014学年夏季小学期选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4608.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-21",
+      "title": "2014年5月全国大学英语四、六级网考报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6689.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-04-21",
+      "title": "2014-2015学年第一学期2013级《大学英语》选课通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4591.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-18",
+      "title": "2013-2014学年第二学期《工程制图2》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6998.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-16",
+      "title": "关于“五一”国际劳动节放假的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4603.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-16",
+      "title": "2013-2014学年第二学期《高等数学》期中考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6976.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-15",
+      "title": "关于运动会期间停课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4600.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-14",
+      "title": "2013-2014学年第二学期《数学物理方程》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6965.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-04-10",
       "title": "关于推选第九届“中国青少年科技创新奖”候选人的通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2218",
@@ -11608,10 +15191,65 @@
     },
     {
       "date": "2014-04-09",
+      "title": "海外交流面试辅导讲座通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4593.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-09",
+      "title": "关于领取2014年大学生英语竞赛准考证的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6701.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-04-09",
+      "title": "关于2013级英语课网上选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4604.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-09",
+      "title": "关于2013级体育课网上选课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4607.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-09",
       "title": "“纵论四海”高端报告会第二十二讲通知",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=2216",
       "source": "tuanwei",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-09",
+      "title": "2013-2014学年第二学期《数学建模Ⅱ》《线性代数》课程考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7005.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -11805,10 +15443,208 @@
       "is_competition": false
     },
     {
+      "date": "2014-04-04",
+      "title": "中国共产主义青年团章程",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=2171",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-04",
+      "title": "中国共产主义青年团团旗",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=2170",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-04",
+      "title": "中国共产主义青年团团徽",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=2169",
+      "source": "tuanwei_youth",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-03",
+      "title": "2013-2014学年第二学期《计算方法》考试安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/6994.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-02",
+      "title": "2013-2014学年第二学期健康标准补测通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/7008.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-21",
+      "title": "关于全国大学外语四、六级考试报名采集图像信息的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6755.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-03-21",
+      "title": "关于2014年6月全国大学外语四、六级考试报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6744.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-03-19",
+      "title": "关于申报新增基础通识类选修课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4592.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-19",
+      "title": "关于本学期校内英语四级培训班开课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4609.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-17",
+      "title": "关于本学期基础通识类选修课和基础通识类核心课改选通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4601.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-12",
+      "title": "关于2014届毕业生招聘期间调课的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4596.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-07",
+      "title": "2013-2014学年第二学期2012级《会计学》辅修课程安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4597.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-06",
+      "title": "2013-2014学年第二学期2012级德语辅修课程安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4598.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-04",
+      "title": "2013-2014学年第二学期2012级24式太极拳课程安排（雁塔校区）",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4599.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-03",
+      "title": "关于本学期基础通识类选修课和基础通识类核心课选课通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4606.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-02-28",
+      "title": "2012级24式简化太极拳目标教学实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4595.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-02-25",
+      "title": "2013-2014学年第二学期2011级德语辅修课程安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4602.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-02-21",
+      "title": "大学数学系列课程补考复习讲座时间安排",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4605.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2014-02-21",
       "title": "关于2012级英语课网上补选的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4594.htm",
-      "source": "jwc",
+      "source": "jwc_kcap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",

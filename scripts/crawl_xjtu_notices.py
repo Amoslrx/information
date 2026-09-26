@@ -107,13 +107,40 @@ SOURCES = [
     },
 ]
 
+# 教务处「教学通知」下的子栏目 —— 模板与主栏目一致, 复用同一个解析器即可。
+# 这些子栏目和站点的 5 大类直接对应, 比主栏目的混合流干净得多:
+#   ksap 考试安排(98页) 四六级 / 计算机等级 / 补考   -> 等级考试
+#   jsap 竞赛安排(49页) 竞赛报名通知                -> 学科竞赛
+#   kcap 课程安排(88页) 选课 / 停开课 / 调休         -> 教学信息
+#   xjgl 学籍管理(72页) 学籍注册 / 转专业            -> 教学信息
+#   pyfa 培养方案(2页)  劳动教育等                   -> 教学信息
+_JWC_SUB = re.compile(
+    r'<a\s+href="([^"]*info/\d+/\d+\.htm)">'
+    r'(?:<i>\s*\[[^\]]*\]\s*</i>)?'
+    r'(.*?)</a>\s*<span>\s*(\d{4}-\d{2}-\d{2})\s*</span>', re.S)
+for _key, _label, _pages in [("ksap", "考试安排", 6), ("jsap", "竞赛安排", 6),
+                             ("kcap", "课程安排", 5), ("xjgl", "学籍管理", 5),
+                             ("pyfa", "培养方案", 2)]:
+    SOURCES.append({
+        "key": "jwc_" + _key,
+        "label": "教务处 · " + _label,
+        "site": "教务处",
+        "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/" + _key,
+        "page_url": lambda n, b: (b + ".htm") if n == 1 else ("%s/%d.htm" % (b, n)),
+        "pattern": _JWC_SUB,
+        "order": ("url", "title", "date"),
+        "max_pages": _pages,
+    })
+
 # 实测过但未纳入的源(记录原因, 免得以后重复调研):
 SKIPPED = {
     "ee.xjtu.edu.cn/dtgh/txgz.htm": "电气学院·团学工作, 内容是党团活动(团组织生活会、党支部大会), 非竞赛; 且为图片卡片结构",
     "news.xjtu.edu.cn": "图文新闻门户, 列表项无日期, 内容以新闻报道而非通知为主, 信号弱",
     "gs.xjtu.edu.cn": "研究生院, 首页以招生/培养通知为主(录取通知书、导师培训), 与本科竞赛关系弱",
-    "tuanwei.xjtu.edu.cn": "校团委, 是 Nuxt.js 单页应用(路由 /passage?id=N), 需要额外解析 __NUXT__ 载荷",
-    "jwc竞赛专栏": "教务处无独立竞赛栏目 —— 实测创新大赛通知属于'教学通知'(jxtz2), 已包含在内",
+    "xsc.xjtu.edu.cn": ("学生处, 已实测可抓但模板与现有解析器不同(日期为 <b>25</b><i>2026/06</i> 拆开), "
+                        "待接入。栏目: xgdt/tzgg.htm 通知公告 / szzc/ztjy.htm 思政之窗 / szzc/znjh.htm 综能计划"),
+    "tyzx.xjtu.edu.cn": ("体育中心, 已实测可抓但日期只有 MM/DD 没有年份, 需要按抓取时间推断, "
+                         "风险较高。栏目: ywbl/hdbm.htm 活动报名 / qzty/jshd.htm 竞赛活动"),
 }
 
 
@@ -164,7 +191,16 @@ API_SOURCES = [
     {"key": "tuanwei_media", "label": "校团委 · 媒体聚焦", "site": "校团委",
      "catalog_id": 10, "max_pages": 2, "limit": 50},
     {"key": "tuanwei_act", "label": "校团委 · 活动预告", "site": "校团委",
-     "catalog_id": 15, "max_pages": 2, "limit": 50},
+     "catalog_id": 15, "max_pages": 3, "limit": 50},
+    # 下面几个服务于站点的 5 大类: 社会实践 / 文体竞赛(艺术团) / 思政学习(党建团建)
+    {"key": "tuanwei_practice", "label": "校团委 · 社会实践", "site": "校团委",
+     "catalog_id": 26, "max_pages": 3, "limit": 50},
+    {"key": "tuanwei_art", "label": "校团委 · 学生艺术团", "site": "校团委",
+     "catalog_id": 29, "max_pages": 2, "limit": 50},
+    {"key": "tuanwei_party", "label": "校团委 · 党建", "site": "校团委",
+     "catalog_id": 18, "max_pages": 2, "limit": 50},
+    {"key": "tuanwei_youth", "label": "校团委 · 团建", "site": "校团委",
+     "catalog_id": 19, "max_pages": 2, "limit": 50},
 ]
 
 

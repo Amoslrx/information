@@ -152,13 +152,27 @@ const unstyled = [...usedCls].filter(c => !styledCls.has(c));
 ok(unstyled.length === 0, 'app.js 用到的 class 在 CSS 里有定义',
    unstyled.length ? '未定义: ' + unstyled.join(', ') : '');
 
-// 三个 view 的 id 与 tab 的 data-view 对得上
-const views = new Set([...html.matchAll(/id="view-([a-z]+)"/g)].map(m => m[1]));
+// 每个 tab 的 data-view 都要有对应 section。现在 4 个分类 tab 共用 view-notices,
+// 所以是"多对一"而不是一一对应。
 const tabViews = new Set([...html.matchAll(/data-view="([a-z]+)"/g)].map(m => m[1]));
-const viewMismatch = [...tabViews].filter(v => !views.has(v)).concat(
-  [...views].filter(v => !tabViews.has(v)));
-ok(viewMismatch.length === 0, 'tab 的 data-view 与 section id 一一对应',
-   viewMismatch.length ? '不匹配: ' + viewMismatch.join(', ') : '');
+const viewIds = new Set([...html.matchAll(/<section id="(view-[a-z]+)"/g)].map(m => m[1]));
+const missingView = [...tabViews].filter(v => !viewIds.has('view-' + v));
+ok(missingView.length === 0, '每个 tab 的 data-view 都有对应 section',
+   missingView.length ? '缺: ' + missingView.join(', ') : '');
+
+// 4 个分类 tab 必须带 data-group
+const groupTabs = [...html.matchAll(/data-view="notices"\s+data-group="([^"]+)"/g)]
+  .map(m => m[1]);
+ok(groupTabs.length === 4, '有 4 个分类 tab 共用通知视图', '实际 ' + groupTabs.length);
+const GROUPS = ['学科竞赛', '文体竞赛', '社会实践', '思政学习', '教学信息'];
+ok(groupTabs.every(g => GROUPS.indexOf(g) >= 0),
+   'data-group 取值都是 5 大类之一', groupTabs.join(', '));
+
+// 年度节律已并入「学科竞赛」页, 不再是独立视图
+ok(!/<section id="view-rhythm" class="view"/.test(html),
+   '年度节律不再是独立视图');
+ok(html.includes('class="rhythm-block"'),
+   '年度节律作为嵌入块留在页面上');
 
 console.log('\n=== B. 用 DOM 桩运行 app.js ===');
 
@@ -219,26 +233,74 @@ console.log('    数据: 竞赛 %d / 通知 %d', DATA.competitions.length, DATA.
 console.log('\n=== C. 渲染结果断言 ===');
 
 const catHTML = els.catList.innerHTML || '';
-const noticeHTML = els.noticeList.innerHTML || '';
+// noticeHTML 在后面用分类视图的 DOM 定义(通知列表已改为懒渲染)
 const headHTML = els.headStats.innerHTML || '';
 
 const cardCount = (catHTML.match(/class="card /g) || []).length;
 ok(cardCount === DATA.competitions.length,
    `默认渲染全部 ${DATA.competitions.length} 张竞赛卡片`, '实际 ' + cardCount);
 
-// 通知页默认只显示"竞赛相关"(过滤掉行政/教学通知)
+// 通知列表已改为懒渲染: 默认停在「学科竞赛」页, 初始不渲染通知。
+// 用 hash 直接进某个分类标签来测——4 个分类 tab 共用 view-notices, 靠 data-group 过滤。
+ok(!els.noticeList || (els.noticeList.innerHTML || '') === '',
+   '初始不渲染通知(懒渲染, 避免一次渲染 1600+ 条)');
+
+function runGroup(group) {
+  return runApp({
+    href: 'https://x.netlify.app/#notices-' + encodeURIComponent(group),
+    protocol: 'https:', hostname: 'x.netlify.app',
+    hash: '#notices-' + encodeURIComponent(group), pathname: '/',
+  });
+}
+
+// 每个分类只渲染该类的通知, 而且合计要等于总条数(不能丢件)
+let sumByGroup = 0;
+GROUPS.forEach(function (g) {
+  const r = runGroup(g);
+  const n = (r.els.noticeList.innerHTML.match(/class="notice"/g) || []).length;
+  const want = DATA.notices.filter(x => x.group === g).length;
+  sumByGroup += want;
+  ok(n === want, `「${g}」只渲染该类通知 ${want} 条`, '实际 ' + n);
+  if (n > 0) {
+    // 列表标题要写明当前是哪一类
+    ok((r.els.noticeTitle.textContent || '').indexOf(g) >= 0,
+       `「${g}」页标题标明类别`, r.els.noticeTitle.textContent);
+  }
+  ok((r.els.noticeList.innerHTML.match(/class="notice"/g) || []).length ===
+     (r.els.noticeList.innerHTML.match(/class="notice"/g) || []).length,
+     `「${g}」分类过滤生效`);
+});
+
+const totalGroups = GROUPS.reduce(
+  (a, g) => a + DATA.notices.filter(x => x.group === g).length, 0);
+ok(totalGroups <= DATA.notices.length,
+   '5 大类条数合计不超过总数(剩下的归"其他")',
+   `${totalGroups} / ${DATA.notices.length}`);
+ok(DATA.stats.noticeGroup && Object.keys(DATA.stats.noticeGroup).length >= 5,
+   '统计里有 5 大类分布');
+
+// 回到默认 tab(学科竞赛)时通知区不应被渲染
+const back = runApp(REMOTE);
+ok(!back.els.noticeList || (back.els.noticeList.innerHTML || '') === '',
+   '默认页(学科竞赛)仍不渲染通知');
+
+// 下面这些断言用分类视图的 DOM
+const noticeHTML = runGroup('学科竞赛').els.noticeList.innerHTML || '';
 const noticeCount = (noticeHTML.match(/class="notice"/g) || []).length;
-const compRelated = DATA.notices.filter(n => n.isCompetition).length;
-ok(noticeCount === compRelated,
-   `默认只渲染竞赛相关通知 ${compRelated} 条`, '实际 ' + noticeCount);
-ok(noticeCount < DATA.notices.length,
-   '默认过滤掉了非竞赛通知', `${noticeCount} / ${DATA.notices.length}`);
+ok(noticeCount > 0, '学科竞赛类有通知', noticeCount + ' 条');
 ok(noticeHTML.includes('badge b-site'), '通知渲染了来源徽章');
 
 ok(/共 \d+ 条/.test(els.resultCount.textContent || ''), '结果计数已写入');
 ok(els.tabCountCat.textContent === String(DATA.competitions.length), 'tab 上的竞赛数正确',
    'tabCountCat=' + els.tabCountCat.textContent);
-ok(els.tabCountNotice.textContent === String(DATA.notices.length), 'tab 上的通知数正确');
+// 4 个分类 tab 的数字各自等于该类通知数
+[['tabCountArt', '文体竞赛'], ['tabCountPractice', '社会实践'],
+ ['tabCountIdeo', '思政学习'], ['tabCountTeach', '教学信息']].forEach(function (p) {
+  const want = DATA.notices.filter(x => x.group === p[1]).length;
+  ok(els[p[0]] && els[p[0]].textContent === String(want),
+     `tab「${p[1]}」的计数正确 (${want})`,
+     els[p[0]] ? els[p[0]].textContent : '元素不存在');
+});
 
 // 头部统计
 ok(headHTML.includes(String(DATA.competitions.length)), '头部统计含竞赛数');
@@ -270,8 +332,9 @@ console.log('\n=== D. 年度节律与日历 ===');
 const rhythmHTML = els.rhythmList.innerHTML || '';
 const chartHTML = els.monthChart.innerHTML || '';
 
-ok(els.tabCountRhythm.textContent === String(DATA.cadenceCount),
-   'tab 上的节律数正确', 'tabCountRhythm=' + els.tabCountRhythm.textContent);
+// 年度节律已并入「学科竞赛」页, 不再有独立的 tab 计数
+ok(!html.includes('tabCountRhythm'), '年度节律不再占独立 tab');
+ok(els.monthChart && els.rhythmList, '节律图与列表仍渲染(嵌在学科竞赛页里)');
 
 const barCount = (chartHTML.match(/class="bar-col/g) || []).length;
 ok(barCount === 12, '月度柱状图渲染 12 根柱子', '实际 ' + barCount);

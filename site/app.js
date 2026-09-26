@@ -144,9 +144,14 @@
       return '<div class="stat"><b>' + p[1] + '</b><span>' + p[0] + '</span></div>';
     }).join('');
     $('tabCountCat').textContent = String(STATS.competitions || 0);
-    $('tabCountNotice').textContent = String(STATS.notices || 0);
-    $('tabCountRhythm').textContent = String(D.cadenceCount || 0);
     $('tabCountLinks').textContent = String((D.quickLinks || []).length);
+    // 5 大类里的另外 4 类, 数量来自按类别分类后的通知
+    var g = STATS.noticeGroup || {};
+    [['tabCountArt', '文体竞赛'], ['tabCountPractice', '社会实践'],
+     ['tabCountIdeo', '思政学习'], ['tabCountTeach', '教学信息']].forEach(function (p) {
+      var el = $(p[0]);
+      if (el) el.textContent = String(g[p[1]] || 0);
+    });
 
     $('footMeta').textContent = '数据生成于 ' + (D.generatedAt || '—') +
       '｜竞赛 ' + (STATS.competitions || 0) + ' 条、通知 ' + (STATS.notices || 0) +
@@ -160,15 +165,24 @@
 
   /* ---------------- 标签页 ---------------- */
 
-  function activateView(name, doScroll) {
+  function activateView(name, doScroll, group) {
     var tabs = document.querySelectorAll('.tab');
     var views = document.querySelectorAll('.view');
+    // 4 个分类 tab 共用 view-notices, 靠 data-group 区分; 高亮要按 group 精确匹配
     Array.prototype.forEach.call(tabs, function (x) {
-      x.classList.toggle('is-active', x.getAttribute('data-view') === name);
+      var same = x.getAttribute('data-view') === name;
+      if (same && name === 'notices') {
+        same = (x.getAttribute('data-group') || '') === (group || '');
+      }
+      x.classList.toggle('is-active', same);
     });
     Array.prototype.forEach.call(views, function (v) {
       v.classList.toggle('is-active', v.id === 'view-' + name);
     });
+    if (name === 'notices') {
+      activeGroup = group || '';
+      renderNotices();
+    }
     if (doScroll) {
       try { window.scrollTo({ top: 0, behavior: 'smooth' }); }
       catch (e) { try { window.scrollTo(0, 0); } catch (e2) { /* 忽略 */ } }
@@ -178,7 +192,8 @@
     try {
       var url = (name === 'catalog')
         ? location.pathname + location.search
-        : '#' + name;
+        : (name === 'notices' && group ? '#notices-' + encodeURIComponent(group)
+                                       : '#' + name);
       if (window.history && window.history.replaceState) {
         window.history.replaceState(null, '', url);
       }
@@ -189,12 +204,14 @@
     var tabs = document.querySelectorAll('.tab');
     Array.prototype.forEach.call(tabs, function (t) {
       t.addEventListener('click', function () {
-        activateView(t.getAttribute('data-view'), true);
+        activateView(t.getAttribute('data-view'), true, t.getAttribute('data-group'));
       });
     });
-    // 支持用 #rhythm / #notices / #about 直接进入对应标签
+    // 支持 #rhythm / #notices / #about 直接进入对应标签, 以及 #notices-文体竞赛
     var h = String(location.hash || '').replace(/^#/, '');
-    if (h && document.getElementById('view-' + h)) {
+    if (h.indexOf('notices-') === 0) {
+      activateView('notices', false, decodeURIComponent(h.slice(8)));
+    } else if (h && document.getElementById('view-' + h)) {
       activateView(h, false);
     }
   }
@@ -399,11 +416,15 @@
 
   /* ---------------- 校内通知 ---------------- */
 
+  // 当前查看的大类('' = 全部)。4 个分类 tab 共用 view-notices, 靠它区分。
+  var activeGroup = '';
+
   function readNoticeFilters() {
     return {
       q: $('nq').value.trim().toLowerCase(),
       scope: $('nScope').value,
       site: $('nSite').value,
+      cat: $('nCat') ? $('nCat').value : '',
       range: $('nRange').value,
       sort: $('nSort').value
     };
@@ -411,7 +432,10 @@
 
   function renderNotices() {
     var f = readNoticeFilters();
+    // 分类 tab 指定的类别优先; 用户在下拉里显式选择可以覆盖它
+    var group = f.cat || activeGroup;
     var list = NOTICES.filter(function (n) {
+      if (group && n.group !== group) return false;
       if (f.scope === 'competition' && !n.isCompetition) return false;
       if (f.scope === 'campus' && !n.isCampus) return false;
       if (f.scope === 'deadline' && !n.deadline) return false;
@@ -428,8 +452,14 @@
       return f.sort === 'dateAsc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
     });
 
+    var title = $('noticeTitle');
+    if (title) {
+      title.textContent = activeGroup ? activeGroup + '（' + list.length + ' 条）'
+                                      : '全部通知（' + list.length + ' 条）';
+    }
     $('noticeCount').textContent = '共 ' + list.length + ' 条' +
-      (list.length !== NOTICES.length ? '（总 ' + NOTICES.length + ' 条）' : '');
+      (group || f.scope || f.site || f.range || f.q
+        ? '（全部通知 ' + NOTICES.length + ' 条）' : '');
     $('noticeEmpty').hidden = list.length > 0;
 
     // 按年月分组
@@ -844,8 +874,9 @@
       renderCatalog();
     });
 
-    ['nq', 'nScope', 'nSite', 'nRange', 'nSort'].forEach(function (id) {
+    ['nq', 'nCat', 'nScope', 'nSite', 'nRange', 'nSort'].forEach(function (id) {
       var el = $(id);
+      if (!el) return;
       el.addEventListener(id === 'nq' ? 'input' : 'change', function () {
         $('nqClear').hidden = !$('nq').value;
         renderNotices();
@@ -856,8 +887,8 @@
     });
     $('nReset').addEventListener('click', function () {
       $('nq').value = ''; $('nqClear').hidden = true;
-      $('nScope').value = 'competition'; $('nSite').value = '';
-      $('nRange').value = ''; $('nSort').value = 'date';
+      $('nCat').value = ''; $('nScope').value = '';
+      $('nSite').value = ''; $('nRange').value = ''; $('nSort').value = 'date';
       renderNotices();
     });
 
@@ -936,7 +967,8 @@
     initTabs();
     renderCatalog();
     initNotices();
-    renderNotices();
+    // 通知列表是懒渲染的: 默认停在「学科竞赛」页, 没必要先把 1600+ 条通知
+    // 全渲染出来。切到分类标签时由 activateView 触发。
     initRhythm();
     initLinks();
     renderAbout();

@@ -2,8 +2,8 @@
  "source": "通知详情页正文",
  "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
  "min_score": 4,
- "count": 121,
- "with_deadline": 68,
+ "count": 128,
+ "with_deadline": 74,
  "items": [
   {
    "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
@@ -1087,6 +1087,69 @@
    "deadline": "2025-07-24",
    "score": 0,
    "bodyLen": 1836,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+   "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+   "noticeDate": "2026-09-15",
+   "deadline": "2026-09-22",
+   "score": 8,
+   "bodyLen": 2219,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选...",
+   "noticeDate": "2026-09-02",
+   "deadline": "2026-09-10",
+   "score": 6,
+   "bodyLen": 2309,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10431.htm",
+   "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
+   "noticeDate": "2026-08-18",
+   "deadline": "2026-08-28",
+   "score": 6,
+   "bodyLen": 4263,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10414.htm",
+   "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
+   "noticeDate": "2026-07-28",
+   "deadline": "2026-10-11",
+   "score": 3,
+   "bodyLen": 4029,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
+   "title": "2026年9月“全国计算机等级考试”西安交通大学兴庆校区考点报名通知",
+   "noticeDate": "2026-06-22",
+   "deadline": "2026-09-14",
+   "score": 6,
+   "bodyLen": 2271,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10342.htm",
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔...",
+   "noticeDate": "2026-06-17",
+   "deadline": "2026-06-30",
+   "score": 6,
+   "bodyLen": 2369,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
+   "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
+   "noticeDate": "2026-06-16",
+   "deadline": "2026-07-01",
+   "score": 4,
+   "bodyLen": 2512,
    "snippet": ""
   }
  ]

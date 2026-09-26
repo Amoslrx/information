@@ -1,14 +1,14 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-26 13:19
+// 生成时间: 2026-09-26 13:36
 window.SITE_DATA = {
- "generatedAt": "2026-09-26 13:19",
+ "generatedAt": "2026-09-26 13:36",
  "stats": {
   "competitions": 94,
-  "notices": 1325,
-  "noticesMatched": 279,
-  "noticesCompetition": 502,
-  "noticesCampus": 89,
-  "noticesWithDeadline": 68,
+  "notices": 1671,
+  "noticesMatched": 297,
+  "noticesCompetition": 555,
+  "noticesCampus": 97,
+  "noticesWithDeadline": 74,
   "competitionsOpen": 2,
   "competitionsSelecting": 2,
   "competitionsRecruiting": 4,
@@ -29,13 +29,30 @@ window.SITE_DATA = {
    "未认定(待核)": 67,
    "C类": 8
   },
+  "noticeCat": {
+   "学科竞赛": 499,
+   "其他": 640,
+   "教学信息": 200,
+   "社会实践": 143,
+   "文体竞赛": 59,
+   "等级考试": 28,
+   "思政学习": 102
+  },
+  "noticeGroup": {
+   "学科竞赛": 527,
+   "其他": 640,
+   "教学信息": 200,
+   "社会实践": 143,
+   "文体竞赛": 59,
+   "思政学习": 102
+  },
   "withUrl": 83,
   "xjtuKnown": 27,
-  "crawledPages": 25,
+  "crawledPages": 49,
   "bySite": {
    "实践教学中心": 306,
-   "教务处": 52,
-   "校团委": 867,
+   "教务处": 264,
+   "校团委": 1001,
    "电气学院": 100
   }
  },
@@ -55,7 +72,7 @@ window.SITE_DATA = {
    "reason": "全校最高含金量赛事, 电气项目常参赛(原互联网+)",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 25,
+   "noticeCount": 26,
    "latestNotice": {
     "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
     "date": "2026-08-18",
@@ -66,7 +83,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-08-28",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 13,
    "openDeadline": "",
@@ -83,7 +102,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "isRecruiting": true,
    "cadence": {
@@ -94,7 +115,7 @@ window.SITE_DATA = {
      "5": 7,
      "6": 7,
      "7": 1,
-     "8": 1,
+     "8": 2,
      "9": 1,
      "12": 1
     },
@@ -107,7 +128,7 @@ window.SITE_DATA = {
     "windowEnd": 6,
     "windowLabel": "四月–六月",
     "yearsObserved": 3,
-    "coverage": 0.72,
+    "coverage": 0.692,
     "confidence": "medium"
    }
   },
@@ -137,7 +158,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -179,7 +202,7 @@ window.SITE_DATA = {
    "reason": "A类, 电气保研加分主力赛事",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 21,
+   "noticeCount": 24,
    "latestNotice": {
     "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
     "date": "2026-04-03",
@@ -190,9 +213,11 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-04-19",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
-   "campusNoticeCount": 5,
+   "campusNoticeCount": 6,
    "openDeadline": "",
    "openNoticeUrl": "",
    "isOpen": false,
@@ -201,8 +226,9 @@ window.SITE_DATA = {
    "isRecruiting": false,
    "cadence": {
     "months": {
+     "1": 1,
      "3": 2,
-     "4": 2,
+     "4": 4,
      "5": 3,
      "6": 5,
      "7": 5,
@@ -216,11 +242,11 @@ window.SITE_DATA = {
      7,
      8
     ],
-    "windowStart": 6,
+    "windowStart": 5,
     "windowEnd": 8,
-    "windowLabel": "六月–八月",
-    "yearsObserved": 9,
-    "coverage": 0.667,
+    "windowLabel": "五月–八月",
+    "yearsObserved": 10,
+    "coverage": 0.708,
     "confidence": "high"
    }
   },
@@ -239,7 +265,7 @@ window.SITE_DATA = {
    "reason": "电气/电子最核心赛事, 西交承办组委会",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 15,
+   "noticeCount": 16,
    "latestNotice": {
     "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
     "date": "2026-03-17",
@@ -250,7 +276,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 8,
    "openDeadline": "",
@@ -261,7 +289,7 @@ window.SITE_DATA = {
    "isRecruiting": false,
    "cadence": {
     "months": {
-     "1": 2,
+     "1": 3,
      "3": 2,
      "4": 5,
      "5": 2,
@@ -270,13 +298,14 @@ window.SITE_DATA = {
      "12": 2
     },
     "stableMonths": [
+     1,
      4
     ],
-    "windowStart": 3,
-    "windowEnd": 5,
-    "windowLabel": "三月–五月",
-    "yearsObserved": 5,
-    "coverage": 0.6,
+    "windowStart": 1,
+    "windowEnd": 4,
+    "windowLabel": "一月–四月",
+    "yearsObserved": 6,
+    "coverage": 0.625,
     "confidence": "high"
    }
   },
@@ -306,7 +335,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "2026-05-20",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -356,7 +387,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -411,7 +444,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2025-06-06",
-    "deadlineScore": 7
+    "deadlineScore": 7,
+    "cat": "其他",
+    "group": "其他"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -436,7 +471,7 @@ window.SITE_DATA = {
    "reason": "嵌入式芯片与系统, 电气核心方向",
    "contact": "",
    "source": "教育部2025目录",
-   "noticeCount": 5,
+   "noticeCount": 6,
    "latestNotice": {
     "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
     "date": "2026-09-15",
@@ -447,7 +482,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-09-22",
-    "deadlineScore": 8
+    "deadlineScore": 8,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -461,16 +498,16 @@ window.SITE_DATA = {
      "3": 2,
      "4": 1,
      "7": 1,
-     "9": 1
+     "9": 2
     },
     "stableMonths": [
      3
     ],
     "windowStart": 3,
-    "windowEnd": 4,
-    "windowLabel": "三月–四月",
+    "windowEnd": 7,
+    "windowLabel": "三月–七月",
     "yearsObserved": 3,
-    "coverage": 0.6,
+    "coverage": 0.667,
     "confidence": "medium"
    }
   },
@@ -500,7 +537,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -544,7 +583,7 @@ window.SITE_DATA = {
    "reason": "西交A类, 国际级数学建模, 电气保研加分",
    "contact": "",
    "source": "西交A/B名单(旧版)",
-   "noticeCount": 14,
+   "noticeCount": 15,
    "latestNotice": {
     "title": "关于公示西安交通大学2026年美国大学生数学建模竞赛校赛结果的通知",
     "date": "2026-01-27",
@@ -555,7 +594,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 4,
    "openDeadline": "",
@@ -568,20 +609,21 @@ window.SITE_DATA = {
     "months": {
      "1": 6,
      "2": 1,
-     "5": 1,
+     "5": 2,
      "10": 2,
      "12": 4
     },
     "stableMonths": [
      1,
+     5,
      10,
      12
     ],
     "windowStart": 12,
     "windowEnd": 1,
     "windowLabel": "十二月–一月",
-    "yearsObserved": 7,
-    "coverage": 0.714,
+    "yearsObserved": 8,
+    "coverage": 0.667,
     "confidence": "high"
    }
   },
@@ -611,7 +653,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -667,7 +711,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -716,7 +762,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -755,7 +803,7 @@ window.SITE_DATA = {
    "reason": "西交B类, 机器人方向",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 2,
+   "noticeCount": 4,
    "latestNotice": {
     "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
     "date": "2026-09-02",
@@ -766,9 +814,11 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "2026-09-10",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
-   "campusNoticeCount": 2,
+   "campusNoticeCount": 4,
    "openDeadline": "",
    "openNoticeUrl": "",
    "isOpen": false,
@@ -802,7 +852,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -838,7 +890,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-05-08",
-    "deadlineScore": 9
+    "deadlineScore": 9,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -891,7 +945,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-06-07",
-    "deadlineScore": 8
+    "deadlineScore": 8,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -941,7 +997,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1055,7 +1113,7 @@ window.SITE_DATA = {
    "reason": "A类, 机电交叉方向",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 12,
+   "noticeCount": 14,
    "latestNotice": {
     "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
     "date": "2026-03-26",
@@ -1066,7 +1124,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 6,
    "openDeadline": "",
@@ -1077,9 +1137,10 @@ window.SITE_DATA = {
    "isRecruiting": false,
    "cadence": {
     "months": {
+     "1": 1,
      "2": 1,
      "3": 5,
-     "4": 2,
+     "4": 3,
      "5": 4
     },
     "stableMonths": [
@@ -1090,8 +1151,8 @@ window.SITE_DATA = {
     "windowStart": 3,
     "windowEnd": 5,
     "windowLabel": "三月–五月",
-    "yearsObserved": 9,
-    "coverage": 0.917,
+    "yearsObserved": 10,
+    "coverage": 0.857,
     "confidence": "high"
    }
   },
@@ -1146,7 +1207,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1197,7 +1260,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-05-08",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -1236,7 +1301,7 @@ window.SITE_DATA = {
    "reason": "西交B类, 力学为电气基础课",
    "contact": "",
    "source": "教育部2025目录+西交A/B名单(旧版)",
-   "noticeCount": 3,
+   "noticeCount": 4,
    "latestNotice": {
     "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
     "date": "2024-12-31",
@@ -1247,7 +1312,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2025-01-13",
-    "deadlineScore": 5
+    "deadlineScore": 5,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1259,16 +1326,18 @@ window.SITE_DATA = {
    "cadence": {
     "months": {
      "2": 1,
-     "3": 1,
+     "3": 2,
      "12": 1
     },
-    "stableMonths": [],
+    "stableMonths": [
+     3
+    ],
     "windowStart": 2,
     "windowEnd": 3,
     "windowLabel": "二月–三月",
-    "yearsObserved": 3,
-    "coverage": 0.667,
-    "confidence": "medium"
+    "yearsObserved": 4,
+    "coverage": 0.75,
+    "confidence": "high"
    }
   },
   {
@@ -1286,20 +1355,22 @@ window.SITE_DATA = {
    "reason": "机械工程创新, 机电交叉",
    "contact": "",
    "source": "教育部2025目录",
-   "noticeCount": 7,
+   "noticeCount": 9,
    "latestNotice": {
-    "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
-    "date": "2026-05-29",
-    "url": "http://pec.xjtu.edu.cn/info/1190/5442.htm",
+    "title": "关于公示2026年中国大学生机械工程创新创意大赛：第七届“明石杯”微纳传感技术与智能应用赛西安交通大...",
+    "date": "2026-06-17",
+    "url": "https://jwc.xjtu.edu.cn/info/1172/10341.htm",
     "competition": "中国大学生机械工程创新创意大赛",
     "moeNo": 36,
-    "site": "实践教学中心",
+    "site": "教务处",
     "isCompetition": true,
-    "isCampus": true,
+    "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
-   "campusNoticeCount": 3,
+   "campusNoticeCount": 4,
    "openDeadline": "",
    "openNoticeUrl": "",
    "isOpen": false,
@@ -1314,7 +1385,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "isRecruiting": true,
    "cadence": {
@@ -1322,17 +1395,18 @@ window.SITE_DATA = {
      "1": 1,
      "3": 1,
      "4": 3,
-     "5": 1,
-     "6": 1
+     "5": 2,
+     "6": 2
     },
     "stableMonths": [
-     4
+     4,
+     6
     ],
     "windowStart": 4,
     "windowEnd": 6,
     "windowLabel": "四月–六月",
     "yearsObserved": 4,
-    "coverage": 0.714,
+    "coverage": 0.778,
     "confidence": "high"
    }
   },
@@ -1387,7 +1461,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1438,7 +1514,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1489,7 +1567,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1539,7 +1619,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1600,7 +1682,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-02-23",
-    "deadlineScore": 6
+    "deadlineScore": 6,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1636,7 +1720,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2025-12-01",
-    "deadlineScore": 7
+    "deadlineScore": 7,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1686,7 +1772,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "2026-04-21",
-    "deadlineScore": 7
+    "deadlineScore": 7,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -1736,7 +1824,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-06-01",
-    "deadlineScore": 5
+    "deadlineScore": 5,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -1790,7 +1880,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "2026-04-26",
-    "deadlineScore": 5
+    "deadlineScore": 5,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -1839,7 +1931,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -1878,7 +1972,7 @@ window.SITE_DATA = {
    "reason": "信息安全, 弱相关",
    "contact": "",
    "source": "教育部2025目录",
-   "noticeCount": 2,
+   "noticeCount": 3,
    "latestNotice": {
     "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通知",
     "date": "2026-06-25",
@@ -1889,7 +1983,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1900,15 +1996,15 @@ window.SITE_DATA = {
    "isRecruiting": false,
    "cadence": {
     "months": {
-     "6": 1,
+     "6": 2,
      "11": 1
     },
     "stableMonths": [],
     "windowStart": 6,
-    "windowEnd": 11,
-    "windowLabel": "六月–十一月",
+    "windowEnd": 6,
+    "windowLabel": "六月",
     "yearsObserved": 2,
-    "coverage": 1.0,
+    "coverage": 0.667,
     "confidence": "low"
    }
   },
@@ -1938,7 +2034,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -1991,7 +2089,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2027,7 +2127,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2088,7 +2190,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2124,7 +2228,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -2173,7 +2279,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2209,7 +2317,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-10-15",
-    "deadlineScore": 8
+    "deadlineScore": 8,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "2026-10-15",
@@ -2347,7 +2457,7 @@ window.SITE_DATA = {
    "reason": "物理学术竞赛, 弱相关",
    "contact": "",
    "source": "西交A/B名单(旧版)",
-   "noticeCount": 9,
+   "noticeCount": 12,
    "latestNotice": {
     "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
     "date": "2026-09-23",
@@ -2358,7 +2468,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-11-25",
-    "deadlineScore": 7
+    "deadlineScore": 7,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "2026-11-25",
@@ -2369,8 +2481,10 @@ window.SITE_DATA = {
    "isRecruiting": true,
    "cadence": {
     "months": {
+     "5": 1,
      "9": 3,
-     "10": 5,
+     "10": 6,
+     "11": 1,
      "12": 1
     },
     "stableMonths": [
@@ -2380,8 +2494,8 @@ window.SITE_DATA = {
     "windowStart": 9,
     "windowEnd": 10,
     "windowLabel": "九月–十月",
-    "yearsObserved": 9,
-    "coverage": 0.889,
+    "yearsObserved": 11,
+    "coverage": 0.75,
     "confidence": "high"
    }
   },
@@ -2461,7 +2575,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": true,
     "deadline": "2026-03-14",
-    "deadlineScore": 5
+    "deadlineScore": 5,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -2514,7 +2630,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-06-02",
-    "deadlineScore": 12
+    "deadlineScore": 12,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 2,
    "openDeadline": "",
@@ -2566,7 +2684,9 @@ window.SITE_DATA = {
     "isCompetition": false,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "其他",
+    "group": "其他"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -2742,7 +2862,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-03-20",
-    "deadlineScore": 5
+    "deadlineScore": 5,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2791,7 +2913,9 @@ window.SITE_DATA = {
     "isCompetition": false,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "其他",
+    "group": "其他"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2852,7 +2976,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-04-25",
-    "deadlineScore": 4
+    "deadlineScore": 4,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2907,7 +3033,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2025-07-01",
-    "deadlineScore": 7
+    "deadlineScore": 7,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -2993,7 +3121,9 @@ window.SITE_DATA = {
     "isCompetition": false,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "其他",
+    "group": "其他"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -3029,7 +3159,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "2026-05-20",
-    "deadlineScore": 10
+    "deadlineScore": 10,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -3378,7 +3510,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 1,
    "openDeadline": "",
@@ -3528,7 +3662,9 @@ window.SITE_DATA = {
     "isCompetition": true,
     "isCampus": false,
     "deadline": "",
-    "deadlineScore": 0
+    "deadlineScore": 0,
+    "cat": "学科竞赛",
+    "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
    "openDeadline": "",
@@ -3650,7 +3786,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-11-25",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2027年春季学期港澳台地区高校交换生项目推荐学生名单的通知",
@@ -3662,7 +3800,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于继续办理2025级各班教材结算的通知",
@@ -3674,7 +3814,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于开展2026年春季学期期末试卷检查的通知",
@@ -3686,7 +3828,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于国庆期间主楼C座教室暂停使用的通知",
@@ -3698,7 +3842,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2025-2026学年第二学期本科教学“优秀研究生助教”评选工作的通知",
@@ -3710,7 +3856,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于开展2026年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
@@ -3722,7 +3870,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于启动2026级本科生劳动教育并继续做好2023、2024、2025级本科生劳动教育的通知",
@@ -3734,7 +3884,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "百卅薪火传新程 交大青年竞风采——我校学子在\"传习杯\"四所交通大学联合演讲比赛中 取得佳绩",
@@ -3746,7 +3898,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
@@ -3758,7 +3912,37 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-09-22",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+   "date": "2026-09-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+   "competition": "全国大学生嵌入式芯片与系统设计竞赛",
+   "moeNo": 43,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-09-22",
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2026年国庆、中秋节放假调休及教学工作安排的通知",
+   "date": "2026-09-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第29届研究生支教团成员招募名单公示",
@@ -3770,7 +3954,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于公布2026-2027学年第一学期停开课程的通知",
+   "date": "2026-09-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于新学期新版考勤系统试运行的通知",
+   "date": "2026-09-11",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10446.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "这个暑假，西安交大五千余名师生 ——将课堂搬进西部的山野乡村",
@@ -3782,7 +3996,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2026年下半年全国大学英语四、六级考试报名的通知",
@@ -3794,7 +4010,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "研聚力量，攀登致远！2026 年 “攀登计划” 研究生骨干研习营正式开营",
@@ -3806,7 +4024,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于2026-2027学年第一学期本科生学籍注册工作的通知",
+   "date": "2026-09-07",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
@@ -3818,7 +4052,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-09-10",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选...",
+   "date": "2026-09-02",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+   "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+   "moeNo": 37,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-09-10",
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "青春志愿守一线 温情护航新征程",
@@ -3830,7 +4080,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组建中国青年志愿者西安交通大学第29届研究生支教团的通知",
@@ -3842,7 +4094,79 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于2026级本科生新生选拔数学测试的通知（更新中2-1200）",
+   "date": "2026-08-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10438.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于开展2026级新生2026-2027学年第一学期选课指导的通知",
+   "date": "2026-08-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10437.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于公布2026-2027学年第一学期停开课程的通知",
+   "date": "2026-08-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10434.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2026-2027学年第一学期本科新生选课的通知",
+   "date": "2026-08-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10436.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2026级新生进校英语测试的通知",
+   "date": "2026-08-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10432.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "赓续西迁志，问道天山行",
@@ -3854,7 +4178,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "青春力量赋能乡村振兴 西安交通大学志愿团队走进安康平利开展公益实践",
@@ -3866,7 +4192,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "点赞交大学子！1个人、1团队获评2025年“中国大学生自强之星”！",
@@ -3878,7 +4206,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
@@ -3890,7 +4220,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-08-28",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
+   "date": "2026-08-18",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10431.htm",
+   "competition": "中国国际大学生创新大赛",
+   "moeNo": 1,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-08-28",
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生跨校参与其他高校推荐申报的第十五届\"挑战杯\"中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
@@ -3902,7 +4248,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
@@ -3914,7 +4262,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "实践周报 | 8月2日-8月9日",
@@ -3926,7 +4276,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "青年实干家计划 | 扎根一线淬初心，挺膺实干显担当",
@@ -3938,7 +4290,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "双向奔赴！她，收到交大录取通知书了",
@@ -3950,7 +4304,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "实践周报 | 7月27日 - 8月2日",
@@ -3962,7 +4318,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交大学生辩论队荣获2026国际华语辩论邀请赛高校组资格赛冠军",
@@ -3974,7 +4332,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "特等奖！西安交大在第十九届全国大学生节能减排竞赛中创佳绩",
@@ -3986,7 +4346,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第40届全国青少年科技创新大赛在西安交通大学落幕",
@@ -3998,7 +4360,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛获奖项目名单的通知",
@@ -4010,7 +4374,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于公示2026年本科生转专业拟录取名单的通知",
+   "date": "2026-07-31",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10422.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "交大青年：盛夏躬身践初心 笃行实干绽芳华",
@@ -4022,7 +4402,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于公布2025-2026学年暑期停开课程的通知",
+   "date": "2026-07-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10415.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "跨越24年的“双向奔赴”：滇西女孩圆梦交大，背后是368颗滚烫的初心",
@@ -4034,7 +4430,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
@@ -4046,7 +4444,65 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
+   "date": "2026-07-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10414.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2026年法学院转专业面试名单",
+   "date": "2026-07-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10413.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "电气工程学院2026年本科生转专业综合考查安排",
+   "date": "2026-07-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10411.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2026-2027学年第一学期本科生（不含2026级）选课的通知",
+   "date": "2026-07-23",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10403.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "九载桨声连两岸 同心逐梦启新程 第九届高校青年赛艇文化研习营举行",
@@ -4058,7 +4514,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2026年经济与金融学院接收本科生转专业考核安排",
+   "date": "2026-07-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10400.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "追梦思源！2026年青少年高校科学营圆满落幕",
@@ -4070,7 +4542,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "向西而歌！西安交通大学第28届研究生支教团，出征！",
@@ -4082,7 +4556,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "2026年金禾经济研究中心转专业笔试及面试安排",
+   "date": "2026-07-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10398.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2026年西安交通大学“攀登计划”优秀大学生赴省直机关见习启动会举行",
@@ -4094,7 +4584,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "2026年管理学院接收本科生转专业考核安排",
+   "date": "2026-07-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10395.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2026年生命科学与技术学院接收本科生转专业考核安排",
+   "date": "2026-07-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10396.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2026年仪器科学与技术学院转专业笔面试安排",
+   "date": "2026-07-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/10394.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2025-2026学年暑期重修班开课、选课的通知",
+   "date": "2026-07-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10391.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【陕西日报】一个夏令营，如何成为城市“邀请函”？",
@@ -4106,7 +4654,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2026“挑战杯—国创赛”金奖项目夏令营在西安交大开营",
@@ -4118,7 +4668,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2026-2027学年第一学期补考（含缓考）有关事宜的通知",
@@ -4130,7 +4682,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学2026毕业生欢庆之夜落幕",
@@ -4142,7 +4696,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "研究生会2026年第一期“薪火计划”研究生骨干 研修班圆满收官",
@@ -4154,7 +4710,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通知",
@@ -4166,7 +4724,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2026年第十九届全国大学生信息安全竞赛（作品赛）暨第三届“长城杯”网数智安全大赛（作品赛）的通...",
+   "date": "2026-06-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10355.htm",
+   "competition": "全国大学生信息安全竞赛",
+   "moeNo": 33,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
@@ -4178,7 +4752,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2026年9月“全国计算机等级考试”西安交通大学兴庆校区考点报名通知",
+   "date": "2026-06-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-09-14",
+   "deadlineScore": 6,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学学生跨校组队参加2026年度中国青年科技创新“揭榜挂帅”擂台赛（新能源赛道）的公示",
@@ -4190,7 +4780,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于公示2026年中国大学生机械工程创新创意大赛：第七届“明石杯”微纳传感技术与智能应用赛西安交通大...",
+   "date": "2026-06-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10341.htm",
+   "competition": "中国大学生机械工程创新创意大赛",
+   "moeNo": 36,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
@@ -4202,7 +4808,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-06-30",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔...",
+   "date": "2026-06-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10342.htm",
+   "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
+   "moeNo": 37,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-06-30",
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学2026年“中国茅台·国之栋梁”本硕博优才计划（研究生）评选通知",
@@ -4214,7 +4836,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
@@ -4226,7 +4850,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-07-01",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
+   "date": "2026-06-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "2026-07-01",
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2026年“西部计划”志愿者拟录取名单公示",
@@ -4238,7 +4878,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学：以志愿服务践行西迁精神",
@@ -4250,7 +4892,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“大国重器进校园”活动顺利举行—— “华龙一号”总设计师走进西安交通大学",
@@ -4262,7 +4906,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2026年6月全国大学英语四、六级预测考试考生名单及考场安排通知",
+   "date": "2026-06-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10327.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2025-2026学年第二学期大学英语课程口语机考考场安排通知",
+   "date": "2026-06-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10324.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "电气工程学院储能科学与工程（储能系统）方向2026年本科生转专业工作方案",
@@ -4274,7 +4948,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "电气工程学院2026年本科生转专业工作方案",
@@ -4286,7 +4962,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4298,7 +4976,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025-2026学年社团优秀指导教师与社团年度人物评选决赛暨“青衿”骨干培训项目第五期顺利举行",
@@ -4310,7 +4990,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
@@ -4322,7 +5004,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2026 年中国大学生机械工程创新创意大赛机械产品数字化设计赛校赛评审结果的公示",
+   "date": "2026-05-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10261.htm",
+   "competition": "中国大学生机械工程创新创意大赛",
+   "moeNo": 36,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "电气工程学院2025级本科生专业选择工作方案",
@@ -4334,7 +5032,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于开展2027版本科专业培养方案修订调研工作的通知",
+   "date": "2026-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/10236.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2026年西安交通大学电气学院-帝国理工学院暑期短期交流访学项目选拔通知（面向西交米兰学院）",
@@ -4346,7 +5060,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
@@ -4358,7 +5074,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "双轮驱动育英才 | 西安交大与科大讯飞共建“攀登计划”实践基地",
@@ -4370,7 +5088,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "繁星计划｜开心麻花即兴喜剧再度登陆交大",
@@ -4382,7 +5102,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于西安交通大学2026年上半年全国大学英语四六级口语考试的温馨提示",
+   "date": "2026-05-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10143.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2026年春季体质健康标准测试的通知",
+   "date": "2026-05-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10141.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第十三届“挑战杯”陕汽集团陕西省大学生创业计划竞赛申报作品公示",
@@ -4394,7 +5144,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4406,7 +5158,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
@@ -4418,7 +5172,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-05-20",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4430,7 +5186,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4442,7 +5200,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安排的通知",
@@ -4454,7 +5214,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-05-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学研究生支教团：为山区孩子补上素质教育课",
@@ -4466,7 +5228,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "活动预热 | “草本有灵·岐黄同行”中医药文化主题游园会来啦！",
@@ -4478,7 +5242,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4490,7 +5256,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
@@ -4502,7 +5270,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "《未来我来——2026五四青年节特别节目》播出：交大青年讲述西迁故事",
@@ -4514,7 +5284,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "The Faces｜第二届白鸽音乐节阵容揭晓 ！",
@@ -4526,7 +5298,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "追光的你丨青春正当时",
@@ -4538,7 +5312,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
@@ -4550,7 +5326,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "传西迁精神 续百卅荣光 立青春壮志 赴强国征程",
@@ -4562,7 +5340,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "五四青年节：致全校青年的一封信",
@@ -4574,7 +5354,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
@@ -4586,7 +5368,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-10-15",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4598,7 +5382,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4610,7 +5396,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校内决赛名单及相关安排的通知",
@@ -4622,7 +5410,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "承百卅荣光，赴青春之约 | @交大青年，五四主题团日邀你赴约",
@@ -4634,7 +5424,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
@@ -4646,7 +5438,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-05-20",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4658,7 +5452,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
@@ -4670,7 +5466,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
@@ -4682,7 +5480,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-06-01",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
@@ -4694,7 +5494,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4706,7 +5508,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第二届白鸽音乐节正式官宣！",
@@ -4718,7 +5522,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4730,7 +5536,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
@@ -4742,7 +5550,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
@@ -4754,7 +5564,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "《当代青年》2026年4月·上半月目录",
@@ -4766,7 +5578,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第37届“腾飞杯”创新创业大赛决赛圆满举行",
@@ -4778,7 +5592,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校2025年度学雷锋志愿服务优秀个人、组织及项目的公示",
@@ -4790,7 +5606,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
@@ -4802,7 +5620,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-07-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届全国大学生光电设计竞赛报名通知",
@@ -4814,7 +5634,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-05-08",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）高教主赛道、青年红色筑梦之旅赛道第一轮网评结果的通知",
@@ -4826,7 +5648,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于全国三维数字化创新设计大赛18周年精英联赛校赛获奖结果的公示",
@@ -4838,7 +5662,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
@@ -4850,7 +5676,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "习近平：传承弘扬西迁精神聚焦国家重大战略需求 为建设教育强国科技强国人才强国作出新贡献",
@@ -4862,7 +5690,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "习近平总书记给四所交通大学全体师生的回信引发西安交大学子的热烈反响",
@@ -4874,7 +5704,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展第十九届（2026）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
@@ -4886,7 +5718,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-04-21",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学建校130周年暨西迁70年：薪火筑梦 科创图强",
@@ -4898,7 +5732,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "「向西而歌」交通大学校友歌会圆满落幕",
@@ -4910,7 +5746,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "百卅交大 青年作答",
@@ -4922,7 +5760,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
@@ -4934,7 +5774,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-04-19",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于延长国创赛校赛系统开放时间的通知",
@@ -4946,7 +5788,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于参加2026年第十二届全国大学生统计建模大赛西安交通大学校赛的通知",
@@ -4958,7 +5802,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2026年第二十届iCAN大学生创新创业大赛的通知",
@@ -4970,7 +5816,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第二十一届全国大学生智能汽车竞赛报名通知",
@@ -4982,7 +5830,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第九届中国高校智能机器人创意大赛 VEX U 专项赛的通知",
@@ -4994,7 +5844,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-05-08",
-   "deadlineScore": 9
+   "deadlineScore": 9,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十五届全国大学生金相技能大赛相关工作的通知",
@@ -5006,7 +5858,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-04-25",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
@@ -5018,7 +5872,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2026年第十八届“全国大学生广告艺术大赛”的通知",
@@ -5030,7 +5886,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-06-02",
-   "deadlineScore": 12
+   "deadlineScore": 12,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2026）校内选拔赛的通知",
@@ -5042,7 +5900,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-04-02",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "体教融合点亮大山孩子“乒乓梦”",
@@ -5054,7 +5914,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
@@ -5066,7 +5928,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "活动招募 | 文明餐桌践新风，青春志愿共同行",
@@ -5078,7 +5942,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展我校2025年度学雷锋志愿服务优秀个人及集体评选工作的通知",
@@ -5090,7 +5956,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“品读共荐贺校庆”启动啦！等你携一卷书香，为百卅添彩！",
@@ -5102,7 +5970,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织第二十八届中国机器人及人工智能大赛报名的通知",
@@ -5114,7 +5984,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-06-07",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第七届大学生物理实验竞赛（创新）的报名通知",
@@ -5126,7 +5998,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第一阶段校内选拔结果的通知",
@@ -5138,7 +6012,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第十二届全国大学生机械创新设计大赛校赛的通知",
@@ -5150,7 +6026,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-03-11",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "三月春风暖，雷锋伴我行！2026雷锋月志愿活动超全速览",
@@ -5162,7 +6040,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "赓续百卅薪火，笃行致远初心",
@@ -5174,7 +6054,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学建校130周年暨西迁70周年校庆志愿者誓师大会暨首场培训顺利举行",
@@ -5186,7 +6068,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织参加“2026年中国大学生计算机设计大赛”校内赛的通知",
@@ -5198,7 +6082,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-04-26",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于“第十七届中国大学生服务外包创新创业大赛”报名参赛的通知",
@@ -5210,7 +6096,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-03-20",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2026年第十届全国大学生集成电路创新创业大赛的通知",
@@ -5222,7 +6110,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【繁星计划】西安交响乐团弦乐四重奏交大专场音乐会",
@@ -5234,7 +6124,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "2026年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
@@ -5246,7 +6138,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举行2026年全国大学生结构设计竞赛西安交通大学校赛暨陕西省省赛选拔赛的通知",
@@ -5258,7 +6152,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2026-03-14",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2026年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
@@ -5270,7 +6166,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-04-20",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学2026年“攀登计划”学生科创训练营侧记",
@@ -5282,7 +6180,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大青年：躬身实践长真才实学，假期奋斗展青春风采",
@@ -5294,7 +6194,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织参加第九届中国高校智能机器人创意大赛的通知",
@@ -5306,7 +6208,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-03-06",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "创新机制守安全，精准排查护科研",
@@ -5318,7 +6222,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加第十一届全国大学生生命科学竞赛（创新创业类）的通知",
@@ -5330,7 +6236,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-04-20",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学2026年美国大学生数学建模竞赛校赛结果的通知",
@@ -5342,7 +6250,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2026年全国大学生电子设计竞赛模拟电子系统设计专题赛的通知",
@@ -5354,7 +6264,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-04-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2026年中国大学生机械工程创新创意大赛机械产品数字化设计赛报名工作的通知",
@@ -5366,7 +6278,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第18届全国大学生广告艺术大赛营销创客单元报名参赛的通知",
@@ -5378,7 +6292,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学2026年美国大学生数学建模竞赛（MCM/ICM）校内赛的通知",
@@ -5390,7 +6306,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2026 年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第二阶段校内选拔结果的通知",
@@ -5402,7 +6320,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学、陕西省科技资源统筹中心负责同志与“挑战杯-国创赛” 金奖项目夏令营首批入驻团队座谈交流",
@@ -5414,7 +6334,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【中国青年报】“无止”架桥20载 惠及乡亲50万 西安交大青春赋能助力乡村振兴",
@@ -5426,7 +6348,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示2026年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第一阶段校内选拔结果的通知",
@@ -5438,7 +6362,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "元旦游园会，倒计时一天！",
@@ -5450,7 +6376,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "百卅辉光 七秩日新 以乐为媒 共迎新岁",
@@ -5462,7 +6390,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "元旦游园会，倒计时三天！",
@@ -5474,7 +6404,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加第十六届全国大学生电子商务 “创新、创意及创业”挑战赛的通知",
@@ -5486,7 +6418,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2026新港新年音乐会 | 演出信息、领票方式来啦！",
@@ -5498,7 +6432,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "百卅正青春 | 倒计时三天！新年音乐会与你不见不散~",
@@ -5510,7 +6446,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加第十三届大学生新一代信息通信科技大赛的通知",
@@ -5522,7 +6460,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2026年第八届码蹄杯全国大学生程序设计大赛的通知",
@@ -5534,7 +6474,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛的通知",
@@ -5546,7 +6488,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-12-31",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "以史铭记致西迁 十年追寻忆芳华",
@@ -5558,7 +6502,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【陕西日报头版】连心桥",
@@ -5570,7 +6516,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2026）参赛组织与重点项目培育工作的通知",
@@ -5582,7 +6530,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于启动2025级本科生劳动教育并继续做好2023、2024级本科生劳动教育的通知",
+   "date": "2025-12-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/9421.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学建校130周年暨西迁70周年校庆公告（第二号）",
@@ -5594,7 +6558,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "爱国奋斗，追求卓越 | 第十届社会实践青年研究年会顺利举办",
@@ -5606,7 +6572,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织参加第十一届全国大学生生命科学竞赛（科学探究类）的通知",
@@ -5618,7 +6586,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-03-31",
-   "deadlineScore": 9
+   "deadlineScore": 9,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2026年全国大学生电子设计竞赛信息科技前沿专题赛的通知",
@@ -5630,7 +6600,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-12-24",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十七届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
@@ -5642,7 +6614,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-12-05",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十九届全国大学生信息安全竞赛（创新实践能力赛）暨第三届“长城杯”网数智安全大赛（防护赛）的通知",
@@ -5654,7 +6628,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十二届全国大学生能源经济学术创意大赛的通知",
@@ -5666,7 +6642,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2026-02-23",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十七届蓝桥杯全国大学生软件和信息技术大赛报名的通知",
@@ -5678,7 +6656,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-11-30",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于全国大学生计算机应用能力与数字素养大赛暨第八届“传智杯”全国IT技能大赛报名通知",
@@ -5690,7 +6670,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "整装待发，第28届研支团赴附属中学跟岗实训启动！",
@@ -5702,7 +6684,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“繁星计划”美育大讲堂 | 敬一丹与交大青年的“传热之约”",
@@ -5714,7 +6698,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "五地共绘青春育人画卷",
@@ -5726,7 +6712,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学仙交仙乐合唱团亮相“和平颂”合唱展演",
@@ -5738,7 +6726,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于组织参加2026年美国大学生数学建模竞赛相关工作的通知",
@@ -5750,7 +6740,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-11-16",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“繁星计划”美育大讲堂 | 冯远征：青春有我 岁月有痕",
@@ -5762,7 +6754,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第二十七届学生社团大会顺利召开",
@@ -5774,7 +6768,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于发布第十七届全国大学生数学竞赛考场信息的通知",
@@ -5786,7 +6782,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学电气工程学院2026年普通招考博士研究生“申请-考核”制实施细则",
@@ -5798,7 +6796,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2026电气学院直博生信息确认须知",
@@ -5810,7 +6810,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“百卅恰青春”西安交通大学第47届本科生迎新晚会倾情上演",
@@ -5822,7 +6824,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于组织开展第41届全国部分地区大学生物理竞赛报名工作的通知",
@@ -5834,7 +6838,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-11-05",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展全国三维数字化创新设计大赛18周年精英联赛报名工作的通知",
@@ -5846,7 +6852,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-11-10",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
@@ -5858,7 +6866,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-12-01",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第28届研究生支教团成员招募名单公示",
@@ -5870,7 +6880,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
@@ -5882,7 +6894,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织2025年全国大学生数字媒体科技作品及创意竞赛报名的通知",
@@ -5894,7 +6908,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
@@ -5906,7 +6922,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-10-22",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
@@ -5918,7 +6936,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
@@ -5930,7 +6950,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学2025年大学生数学建模竞赛校赛结果的通知",
@@ -5942,7 +6964,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
@@ -5954,7 +6978,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十七届全国大学生数学竞赛西安交通大学报名的通知",
@@ -5966,7 +6992,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
@@ -5978,7 +7006,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025-2026学年第一学期电气学院本科生选课指导计划",
@@ -5990,7 +7020,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于我校学生加入外校队伍参加第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”应用赛的公示",
@@ -6002,7 +7034,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名通知",
@@ -6014,7 +7048,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-09-22",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西交•通全球暑期学校（XJTISS）课程通知-真空电弧理论、仿真、实验技术及应用",
@@ -6026,7 +7062,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于组织参加第七届全球校园人工智能算法精英大赛的通知",
@@ -6038,7 +7076,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-10-31",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内选拔赛高教主赛道、青年红色筑梦之旅赛道获奖名单的通知",
@@ -6050,7 +7090,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2025）国际参赛项目报名工作的通知",
@@ -6062,7 +7104,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-07-02",
-   "deadlineScore": 11
+   "deadlineScore": 11,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加第十九届“挑战杯”全国大学生课外学术科技作品竞赛的公示",
@@ -6074,7 +7118,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年“西部计划”志愿者招募入选名单公示",
@@ -6086,7 +7132,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）主赛道、红旅赛道拟推荐省赛项目名单的通知",
@@ -6098,7 +7146,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年中国大学生机械工程创新创意大赛：“明石杯”微纳传感技术与智能应用赛西安交通大学校赛结果公布通知",
@@ -6110,7 +7160,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校赛决赛（主赛道、红旅赛道）结果的通知",
@@ -6122,7 +7174,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内决赛名单及相关安排的通知",
@@ -6134,7 +7188,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加第十五届“挑战杯”甘肃省大学生课外学术科技作品竞赛的公示",
@@ -6146,7 +7202,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）第一轮网评结果的通知",
@@ -6158,7 +7216,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示“2025年第十一届全国大学生统计建模大赛”拟推荐陕西赛区复赛名单",
@@ -6170,7 +7230,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学“中国茅台·国之栋梁”本硕博优才计划（研究生）评选结果的公示",
@@ -6182,7 +7244,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2025）校赛及下一步工作安排的通知",
@@ -6194,7 +7258,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加未来设计师·全国高校数字艺术设计大赛的通知",
@@ -6206,7 +7272,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-07-01",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的通知",
@@ -6218,7 +7286,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-05-09",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的预通知",
@@ -6230,7 +7300,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-05-09",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
@@ -6242,7 +7314,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十四届“中国软件杯”大学生软件设计大赛的通知",
@@ -6254,7 +7328,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-07-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
@@ -6266,7 +7342,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学“中国茅台·国之栋梁”本硕博优才计划（研究生）评选通知",
@@ -6278,7 +7356,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展百度之星程序设计大赛报名的通知",
@@ -6290,7 +7370,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学参加第十五届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛作品公示",
@@ -6302,7 +7384,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加第十五届“挑战杯”陕西省大学生课外学术科技作品竞赛的公示",
@@ -6314,7 +7398,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
@@ -6326,7 +7412,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-04-18",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2025年全国大学生电子设计竞赛的通知",
@@ -6338,7 +7426,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第十三届全国大学生光电设计竞赛校赛报名的通知",
@@ -6350,7 +7440,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-05-20",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "电气学院关于2024-2025学年第二学期博士资格考核工作的通知",
@@ -6362,7 +7454,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展第二十届全国大学生智能汽车竞赛报名的通知",
@@ -6374,7 +7468,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2025年中国大学生机械工程创新创意大赛-“明石杯”微纳传感技术与智能应用赛校内选拔的通知",
@@ -6386,7 +7482,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-05-20",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
@@ -6398,7 +7496,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-05-15",
-   "deadlineScore": 15
+   "deadlineScore": 15,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
@@ -6410,7 +7510,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-06-07",
-   "deadlineScore": 9
+   "deadlineScore": 9,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2025年全国大学生计算机系统能力大赛的通知",
@@ -6422,7 +7524,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年（第十二届）全国大学生物联网设计竞赛参赛通知",
@@ -6434,7 +7538,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年第七届码蹄杯全国大学生程序设计大赛通知",
@@ -6446,7 +7552,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
@@ -6458,7 +7566,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-07-31",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
@@ -6470,7 +7580,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-04-03",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
@@ -6482,7 +7594,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-05-01",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2025年西安交通大学工创大赛工程场景数字化赛项拟推荐陕西赛区复赛名单",
@@ -6494,7 +7608,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2025年中国大学生工程实践与创新能力大赛拟推荐陕西赛区复赛名单的通知",
@@ -6506,7 +7622,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2025年工创大赛校赛工程场景数字化赛项的补充通知",
@@ -6518,7 +7636,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学“人工智能先导计划”——“火山杯”人工智能创新大赛等你参与",
@@ -6530,7 +7650,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于“2025年学创杯全国大学生创业综合模拟大赛”的通知",
@@ -6542,7 +7664,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
@@ -6554,7 +7678,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于“第十届全国大学生生物医学工程创新设计竞赛”的通知",
@@ -6566,7 +7692,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
@@ -6578,7 +7706,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-04-30",
-   "deadlineScore": 9
+   "deadlineScore": 9,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十九届“挑战杯”大学生课外学术科技作品竞赛跨校参与相关信息的公示",
@@ -6590,7 +7720,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示入围2025年西安交通大学工创大赛企业运营仿真校赛决赛名单的通知",
@@ -6602,7 +7734,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
@@ -6614,7 +7748,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-04-06",
-   "deadlineScore": 6
+   "deadlineScore": 6,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
@@ -6626,7 +7762,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-03-25",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
@@ -6638,7 +7776,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-03-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2025年全国高校商业精英挑战赛的通知",
@@ -6650,7 +7790,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
@@ -6662,7 +7804,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-04-25",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2025年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
@@ -6674,7 +7818,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于邀请参加2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛的通知",
@@ -6686,7 +7832,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2025年第九届全国大学生集成电路创新创业大赛的通知",
@@ -6698,7 +7846,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
@@ -6710,7 +7860,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
@@ -6722,7 +7874,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-06-15",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于参加2025年米兰设计周--中国高校设计学科师生优秀作品展的通知",
@@ -6734,7 +7888,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
@@ -6746,7 +7902,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-06-13",
-   "deadlineScore": 12
+   "deadlineScore": 12,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
@@ -6758,7 +7916,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-06-30",
-   "deadlineScore": 8
+   "deadlineScore": 8,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
@@ -6770,7 +7930,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-06-06",
-   "deadlineScore": 7
+   "deadlineScore": 7,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举行西安交通大学第七届大学生结构设计竞赛的通知",
@@ -6782,7 +7944,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
@@ -6794,7 +7958,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公布中国国际大学生创新大赛（2025）学院联系人联系方式的通知",
@@ -6806,7 +7972,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
@@ -6818,7 +7986,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "2025-01-13",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
@@ -6830,7 +8000,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
@@ -6842,7 +8014,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-01-13",
-   "deadlineScore": 5
+   "deadlineScore": 5,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
@@ -6854,7 +8028,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2025-03-20",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十五届全国大学生电子商务“创新、创意及创业”挑战赛的通知",
@@ -6866,7 +8042,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于启动2024级本科生劳动教育并继续做好2023级本科生劳动教育的通知",
+   "date": "2024-12-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/8522.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
@@ -6878,7 +8070,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2024-12-02",
-   "deadlineScore": 10
+   "deadlineScore": 10,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "新一轮本科教育教学审核评估知识问答",
@@ -6890,7 +8084,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
@@ -6902,7 +8098,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "2024-11-04",
-   "deadlineScore": 4
+   "deadlineScore": 4,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评委嘉宾接待用车服务采购项目公示",
@@ -6914,7 +8112,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛闭幕会主会场及分会场氛围服务项目公示",
@@ -6926,7 +8126,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛赛事物料设计制作服务项目公示",
@@ -6938,7 +8140,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛校园内外氛围营造服务采购项目公示",
@@ -6950,7 +8154,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛成果展及赛场布置服务项目公示",
@@ -6962,7 +8168,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛酒店住宿用餐会议服务院处磋商公告",
@@ -6974,7 +8182,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评委嘉宾接待用车服务采购项目院处磋商公告",
@@ -6986,7 +8196,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛参赛证件采购项目院处磋商公告",
@@ -6998,7 +8210,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展西安交通大学2025年美国大学生数学建模竞赛相关工作的通知",
@@ -7010,7 +8224,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛交通服务采购项目院处磋商公告",
@@ -7022,7 +8238,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 赛事物料设计制作服务项目院处磋商公告",
@@ -7034,7 +8252,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 氛围营造服务采购项目院处磋商公告",
@@ -7046,7 +8266,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 成果展及赛场布置服务项目院处磋商公告",
@@ -7058,7 +8280,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目公示",
@@ -7070,7 +8294,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目院处磋商公告",
@@ -7082,7 +8308,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加首届教育信息技术应用创新大赛的通知",
@@ -7094,7 +8322,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”奖牌设计及制作采购项目院处磋商公告",
@@ -7106,7 +8336,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛直播设备租赁服务采购项目公示",
@@ -7118,7 +8350,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展中国移动2024年创客马拉松大赛 西安交大-中国移动数字政府联合研究院专题赛的通知",
@@ -7130,7 +8364,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十六届蓝桥杯全国软件和信息技术专业人才大赛相关工作的通知",
@@ -7142,7 +8378,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第十一届大学生物理学术竞赛的通知",
@@ -7154,7 +8392,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛直播设备租赁服务采购项目院处磋商公告",
@@ -7166,7 +8406,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展全国3D大赛17周年精英联赛（2024-2025）报名工作",
@@ -7178,7 +8420,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划“一带一路”国际邀请赛机票采购项目院处磋商公告",
@@ -7190,7 +8434,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展华为ICT大赛2024-2025报名的通知",
@@ -7202,7 +8448,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛闭幕会彩排设备租赁服务公示",
@@ -7214,7 +8462,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第27届研究生支教团成员招募名单公示",
@@ -7226,7 +8476,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展西安交通大学第十届国际大学生智能农业装备创新大赛相关工作的通知",
@@ -7238,7 +8490,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛会务系统开发服务项目公示",
@@ -7250,7 +8504,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛闭幕会彩排设备租赁院处磋商公告",
@@ -7262,7 +8518,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十三届中国创新创业大赛北斗应用专业赛相关工作的通知",
@@ -7274,7 +8532,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛会务系统开发服务项目院处磋商公告",
@@ -7286,7 +8546,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于推荐参加中国国际大学生创新大赛（2024）总决赛项目的公示",
@@ -7298,7 +8560,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "中国青年志愿者协会会员推荐人选公示",
@@ -7310,7 +8574,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织开展第十六届全国大学生数学竞赛相关工作的通知",
@@ -7322,7 +8588,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目院处磋商公告",
@@ -7334,7 +8602,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大与咸阳市政府共建“攀登计划”实践基地",
@@ -7346,7 +8616,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学青年之家西侧院设计及布展服务采购项目院处磋商公告",
@@ -7358,7 +8630,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评审系统开发服务项目公示",
@@ -7370,7 +8644,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评审系统开发服务项目院处磋商公告",
@@ -7382,7 +8658,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大与国家能源集团建立“攀登计划”实践基地",
@@ -7394,7 +8672,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
@@ -7406,7 +8686,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学在全省高校团干部素质能力大赛中再获佳绩",
@@ -7418,7 +8700,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划竞赛宣传片视频服务采购项目院处磋商公告",
@@ -7430,7 +8714,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划主题曲MV视频服务采购项目院处磋商公告",
@@ -7442,7 +8728,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "听党指挥跟党走，追求卓越建新功！2024年暑期“三下乡”社会实践行前动员会举行",
@@ -7454,7 +8742,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
@@ -7466,7 +8756,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2025年中国大学生工程实践与创新能力大赛相关工作的预通知",
@@ -7478,7 +8770,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛报名系统开发服务项目公示",
@@ -7490,7 +8784,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛酒店住宿用餐场地租赁服务院处磋商公告",
@@ -7502,7 +8798,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛报名系统开发服务项目院处磋商公告",
@@ -7514,7 +8812,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于报送西安交通大学中国国际大学生创新大赛（2024）陕西赛区省级复赛相关材料的通知",
@@ -7526,7 +8826,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大召开星航、攀登临时党支部服务退休老同志工作推进会",
@@ -7538,7 +8840,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于做好西安交通大学中国国际大学生创新大赛（2024）国际参赛项目邀请工作的通知",
@@ -7550,7 +8854,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学中国国际大学生创新大赛（2024） 校内决赛相关安排的通知",
@@ -7562,7 +8868,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大在陕西省大学生创业计划竞赛中获11项金奖，再捧“挑战杯”！",
@@ -7574,7 +8882,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "​关于举办2024全国高等院校数智化企业经营沙盘大赛校赛的通知",
@@ -7586,7 +8896,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学中国国际大学生创新大赛校内赛决赛及下一步工作安排的通知",
@@ -7598,7 +8910,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2024年第十六届“全国大学生广告艺术大赛” 西安交通大学校赛的通知",
@@ -7610,7 +8924,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
@@ -7622,7 +8938,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”中国大学生创业计划 竞赛开、闭幕式导演团队服务采购项目 院处磋商公告",
@@ -7634,7 +8952,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
@@ -7646,7 +8966,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第十二届“挑战杯”陕西省大学生创业计划竞赛作品校内公示",
@@ -7658,7 +8980,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
@@ -7670,7 +8994,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校教师指导外校队伍参加“挑战杯”省赛的公示",
@@ -7682,7 +9008,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第十二届“挑战杯”陕西省大学生创业计划竞赛作品校内公示",
@@ -7694,7 +9022,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办中国国际大学生创新大赛（2024）校内选拔赛的通知",
@@ -7706,7 +9036,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十三届中国软件杯大学生软件设计大赛的通知",
@@ -7718,7 +9050,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
@@ -7730,7 +9064,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加“第七届（2024）全国大学生嵌入式芯片与系统设计竞赛”的通知",
@@ -7742,7 +9078,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "传承西迁精神，共担时代使命",
@@ -7754,7 +9092,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加“2024年（第17届）中国大学生计算机设计大赛”的通知",
@@ -7766,7 +9106,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "持续攀登，双轮驱动！交大师生赴上海开展研学实践",
@@ -7778,7 +9120,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织开展第十三届全国大学生金相技能大赛相关工作的通知",
@@ -7790,7 +9134,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2024年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛的通知",
@@ -7802,7 +9148,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大与隆基绿能科技股份有限公司共建“攀登计划”实践基地",
@@ -7814,7 +9162,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
@@ -7826,7 +9176,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "校党委书记卢建军调研指导共青团工作",
@@ -7838,7 +9190,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2024年西安交通大学大学生数学建模竞赛的通知",
@@ -7850,7 +9204,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2024年全国大学生物理实验竞赛（创新）报名通知",
@@ -7862,7 +9218,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第七届中国高校智能机器人创意大赛的通知",
@@ -7874,7 +9232,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2024年度共青团工作研究课题申报工作的通知",
@@ -7886,7 +9246,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展2024第17届全国三维数字化创新设计大赛报名工作的通知",
@@ -7898,7 +9260,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于启动2023级本科生劳动教育实践环节特色项目课的通知",
+   "date": "2024-03-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/8000.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举行西安交通大学第六届大学生结构设计竞赛的通知",
@@ -7910,7 +9288,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第十一届全国大学生机械创新设计大赛校赛的通知",
@@ -7922,7 +9302,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学以“三个坚持”打造“星航计划”实践育人新机制",
@@ -7934,7 +9316,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于第28届中国青年五四奖章推荐人选的公示",
@@ -7946,7 +9330,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "通知丨2023-2024年度“陕西省大学生自强之星”推报正式开始",
@@ -7958,7 +9344,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大学子赴河钢集团有限公司开展“攀登计划”研学实践",
@@ -7970,7 +9358,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "第三十五届“腾飞杯”大赛“攀登计划”企业专项赛启动仪式举行",
@@ -7982,7 +9372,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "基础学科辅导团长期志愿者招募",
@@ -7994,7 +9386,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "冬雪已至，来做校园小星星啦！",
@@ -8006,7 +9400,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“救”在身边 生命守护者的星航之歌",
@@ -8018,7 +9414,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于举办西安交通大学2024年美国大学生数学建模竞赛校内赛的通知",
@@ -8030,7 +9428,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2024年“攀登计划”学生科创挑战营的通知",
@@ -8042,7 +9442,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2024年寒假“返家乡”社会实践活动的通知",
@@ -8054,7 +9456,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于启动2023级本科生劳动教育的通知",
+   "date": "2023-12-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/7880.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于开展西安交通大学2024年美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -8066,7 +9484,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "交大学子赴北京市开展“攀登计划”研学实践",
@@ -8078,7 +9498,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "《张朝阳的物理课》火爆开讲！（内附直播回放入口）",
@@ -8090,7 +9512,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "听党指挥跟党走，追求卓越建新功",
@@ -8102,7 +9526,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大学子走进西安华为研究所开展“攀登计划”研学实践",
@@ -8114,7 +9540,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "第十九届中国青少年发展论坛在西安举办",
@@ -8126,7 +9554,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第四期“青春交点”理论交流研讨会顺利举办",
@@ -8138,7 +9568,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "党、校办党支部，团委党支部与星航志愿服务团临时党支部开展支部共建活动",
@@ -8150,7 +9582,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交大学生赛艇队获第45届香港赛艇锦标赛2项冠军",
@@ -8162,7 +9596,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "团建·通知 | 第三十八届“最佳团日”决赛答辩研究生团支部晋级名单",
@@ -8174,7 +9610,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "团建·通知 | 第三十八届“最佳团日”决赛答辩本科生团支部晋级名单",
@@ -8186,7 +9624,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于开展第三十五届“腾飞杯”大赛 “特变电工”创新专项赛的通知",
@@ -8198,7 +9638,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "卢建军调研指导学校共青团工作",
@@ -8210,7 +9652,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大师生赴贵州开展“攀登计划”研学实践",
@@ -8222,7 +9666,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于遴选大学生赴运城市开展见习实践的通知",
@@ -8234,7 +9680,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织申报2022-2023年度校园文化及精神文明单项奖和集体奖的通知",
@@ -8246,7 +9694,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学第三十五届“腾飞杯”创新创业大赛暨“挑战杯”国赛选拔的通知",
@@ -8258,7 +9708,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "交大学子赴上海市开展“攀登计划”研学实践",
@@ -8270,7 +9722,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2023年西安交通大学“青年党政机关和基层社区服务计划”学员考核名单",
@@ -8282,7 +9736,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "教育系统第31届世界大学生夏季运动会先进集体和先进个人推荐公示",
@@ -8294,7 +9750,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于组织开展第十五届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -8306,7 +9764,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学首届软件开发大赛的通知",
@@ -8318,7 +9778,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十二届中国创新创业大赛轨道交通产业技术创新专业赛的通知",
@@ -8330,7 +9792,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展全国3D大赛16周年精英联赛（2023-2024）报名工作的通知",
@@ -8342,7 +9806,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于学校推荐参加2023年全国大学生机器人科技创新交流营暨机器人大赛作品的公示",
@@ -8354,7 +9820,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2023年中国大学生工程实践与创新能力大赛西安交通大学校赛安排的通知",
@@ -8366,7 +9834,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展华为ICT大赛2023-2024中国区实践赛/创新赛报名的通知",
@@ -8378,7 +9848,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展中国移动创客马拉松大赛西安交大-中国移动数字政府联合研究院专题赛的通知",
@@ -8390,7 +9862,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第26届研究生支教团成员招募名单公示",
@@ -8402,7 +9876,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于组织参加首届企校协同创新大赛的通知",
@@ -8414,7 +9890,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2023年中国大学生工程实践与创新能力大赛相关工作的补充通知",
@@ -8426,7 +9904,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第十届大学生物理学术竞赛的通知",
@@ -8438,7 +9918,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2023年中国大学生工程实践与创新能力大赛相关工作的通知",
@@ -8450,7 +9932,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办“萌新首秀 ”全国高校新生编程排位赛的通知",
@@ -8462,7 +9946,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于核对确认2023-2024学年第二学期教学计划的通知",
+   "date": "2023-09-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6173.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于公布西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛获奖名单的通知",
@@ -8474,7 +9974,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学2023年大学生数学建模竞赛校赛结果的通知",
@@ -8486,7 +9988,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2023版本科培养方案答辩论证会议安排的通知",
+   "date": "2023-07-11",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6186.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于举办西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
@@ -8498,7 +10016,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2023年西安交通大学大学生数学建模竞赛校赛的通知",
@@ -8510,7 +10030,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
@@ -8522,7 +10044,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于学校推荐参加2023年“挑战杯”全国大学生课外学术科技作品竞赛作品的公示",
@@ -8534,7 +10058,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西迁主题情景剧《向西，再向西》受邀参与庆祝全国科技工作者日主场活动暨全国创新争先奖表彰大会演出",
@@ -8546,7 +10072,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第五届“中兴捧月”模拟面试大赛落幕",
@@ -8558,7 +10086,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "新新论坛第六十九讲：怎样认识和做好新闻评论",
@@ -8570,7 +10100,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大获第十四届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛最高荣誉",
@@ -8582,7 +10114,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第十二届中国软件杯大学生软件设计大赛的通知",
@@ -8594,7 +10128,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学星航志愿服务团临时党支部成立大会举行",
@@ -8606,7 +10142,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交通大学彭康书院、丝路之声广播剧创研基地“文化育人”合作签约暨《彭康》“大先生”广播剧启动仪式举行",
@@ -8618,7 +10156,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学—香港中文大学人口迁移联合研究中心港方主任同钰莹来访",
@@ -8630,7 +10170,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "卢建军会见陕西省市场监督管理局党组书记、局长张小平一行",
@@ -8642,7 +10184,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "全国妇联副主席、书记处书记吴海鹰一行参观交大西迁博物馆",
@@ -8654,7 +10198,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
@@ -8666,7 +10212,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第六届中国高校智能机器人创意大赛的通知",
@@ -8678,7 +10226,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "中国青年报报道西安交大探索破解工科人才培养困局",
@@ -8690,7 +10240,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【主题教育】前沿院党委：扎实开展学习贯彻习近平新时代中国特色社会主义思想主题教育",
@@ -8702,7 +10254,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "点赞！郑南宁院士荣获2022年度“吴文俊人工智能最高成就奖”！",
@@ -8714,7 +10268,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大获2023MATE国际水下机器人大赛中国大陆赛区总冠军",
@@ -8726,7 +10282,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大召开党委常委会会议 传达学习中共中央政治局会议精神 和习近平总书记重要指示重要回信精神 以高质量调查研究扎实推进主题教育走深走实",
@@ -8738,7 +10296,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交大举办新时代计算机学科创新发展论坛",
@@ -8750,7 +10310,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大学子李沛言、王凯入选人民日报国家奖学金获奖学生代表名录",
@@ -8762,7 +10324,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "《新能源系统与装备（英文）》创刊发布会在创新港举行",
@@ -8774,7 +10338,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2023年西安交通大学大学生数学建模竞赛的通知",
@@ -8786,7 +10352,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十四届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛申报作品公示",
@@ -8798,7 +10366,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校学生加入外校队伍参加“挑战杯”陕西省赛的公示",
@@ -8810,7 +10380,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大召开学生工作专题会议",
@@ -8822,7 +10394,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大召开2022年度校园安全综合治理工作会议",
@@ -8834,7 +10408,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【127校庆】西安交通大学召开“产教融合、协同育人”创新工程推进大会",
@@ -8846,7 +10422,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【127校庆】西安交大举办2021-2022年度 “闪亮的青春”交大榜样发布会",
@@ -8858,7 +10436,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "全国高校前列！西安交大获批第二期教育部供需对接就业育人项目110项",
@@ -8870,7 +10450,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【127校庆】西安交通大学新版英文主页、音视频网站上线",
@@ -8882,7 +10464,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第34届“腾飞杯”大赛创新赛道获奖名单公示",
@@ -8894,7 +10478,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十二届全国大学生金相技能大赛相关工作的通知",
@@ -8906,7 +10492,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举行西安交通大学第五届大学生结构设计竞赛的通知",
@@ -8918,7 +10506,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十一届全国大学生机械创新设计大赛报名工作的通知",
@@ -8930,7 +10520,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2023年全国大学生物理实验竞赛（创新）报名通知",
@@ -8942,7 +10534,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【课程思政 交大行动】西安交通大学获批省级课程思政示范项目数再创新高",
@@ -8954,7 +10548,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【科技自立自强】西安交大科研人员在聚电解质增韧双网络水凝胶方面取得重要进展",
@@ -8966,7 +10562,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【中国社会科学报整版】让学术之花在希望的田野上更加芬芳",
@@ -8978,7 +10576,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学获批建设外科重症与生命支持教育部重点实验室",
@@ -8990,7 +10590,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【五育并举促全面发展】兴庆宫公园——西安交大再添校外美育实践基地",
@@ -9002,7 +10604,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【中国青年报头版】探讨科技创新与成果转化 大学生微创营在西安交大举办",
@@ -9014,7 +10618,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大郭菊娥教授荣获全国五一巾帼标兵称号",
@@ -9026,7 +10632,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "卢建军调研人工智能学院",
@@ -9038,7 +10646,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【光明日报】王乐 孙早：三问数字产业绿色低碳发展",
@@ -9050,7 +10660,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "中国华能集团有限公司—西安交通大学能源安全技术研究院学术委员会第二次会议召开",
@@ -9062,7 +10674,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“校园文化建设与创新” ——第三期“青春交点”理论交流研讨会举办",
@@ -9074,7 +10688,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -9086,7 +10702,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -9098,7 +10716,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展2023第16届全国三维数字化创新设计大赛年度赛报名工作的通知",
@@ -9110,7 +10730,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "同济大学党委常务副书记冯身洪一行来创新港交流座谈",
@@ -9122,7 +10744,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【西迁新传人】张旭超：想把“沐秦”小坦克开进更多果园",
@@ -9134,7 +10758,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【聚焦全国两会】卢建军委员做客人民网“强国说”",
@@ -9146,7 +10772,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【强军战歌嘹亮】我的军旅梦：发扬医护精神，戍守祖国南疆",
@@ -9158,7 +10786,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于核对确认2023-2024学年第一学期教学计划的通知",
+   "date": "2023-03-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6172.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第34届“腾飞杯”创新创业大赛创业赛获奖名单公示",
@@ -9170,7 +10814,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2022年西安交通大学青年“爱国、奋斗”精神研讨会 暨第二期“青春交点”理论交流研讨会顺利举办",
@@ -9182,7 +10828,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2023西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -9194,7 +10842,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第九届大学生物理学术竞赛的通知",
@@ -9206,7 +10856,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展华为ICT大赛2022-2023中国区陕西省实践赛的通知",
@@ -9218,7 +10870,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于开展2023版本科生培养方案修订工作的预通知",
+   "date": "2022-11-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6175.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "党的二十大报告在“人民公仆”养成行动学员中引发热烈反响",
@@ -9230,7 +10898,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展第二届中望杯工业软件大赛报名工作的通知",
@@ -9242,7 +10912,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十四届蓝桥杯 全国软件和信息技术专业人才大赛的通知",
@@ -9254,7 +10926,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "团委党支部、学生会党支部、研究生支教团党支部开展2022年9月组织生活",
@@ -9266,7 +10940,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【支部共建解难题】团委党支部、学生组织党支部在服务学生成长发展中务实作风担当作为",
@@ -9278,7 +10954,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于组织开展全国3D大赛15周年精英联赛（2022-2023）报名工作的通知",
@@ -9290,7 +10968,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学25届研究生支教团成员招募名单公示",
@@ -9302,7 +10982,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“喜迎二十大、永远跟党走、奋进新征程”主题文艺作品征集及评选活动结果公示",
@@ -9314,7 +10996,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【青春共家国】石榴结籽一家亲 ，同心共筑中国梦",
@@ -9326,7 +11010,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大学生赛艇队在2022年银川全国名校赛艇邀请赛中斩获一金一银",
@@ -9338,7 +11024,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】青春建功新时代，民族团结一家亲",
@@ -9350,7 +11038,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】同上一次课",
@@ -9362,7 +11052,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】不忘跟党初心，牢记青春使命",
@@ -9374,7 +11066,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【中国青年报】十年易春秋，我还是曾经那个少年",
@@ -9386,7 +11080,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】在实践中长才干，在奋斗中显担当",
@@ -9398,7 +11094,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【青春共家国】同阅中国文化 助力文化交流",
@@ -9410,7 +11108,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第十五届全国大学生节能减排竞赛交大学子再拔头筹",
@@ -9422,7 +11122,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
@@ -9434,7 +11136,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【青春共家国】汉藏之约跨雪域，不忘青春进行时",
@@ -9446,7 +11150,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】向西而歌，行走在雪域高原上的红色精神宣讲队",
@@ -9458,7 +11164,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】出发，到祖国和人民最需要的地方去！",
@@ -9470,7 +11178,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学青年讲师团暑期集体备课会召开",
@@ -9482,7 +11192,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于做好2021级西交利物浦大学交流生课程体系录入工作的通知",
+   "date": "2022-07-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6169.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于公示2022年西安交通大学数学建模竞赛校赛获奖结果的通知",
@@ -9494,7 +11220,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "点赞！这些交大人又获奖了！",
@@ -9506,7 +11234,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展“支教筑梦，青春远航”专题社会实践活动的通知",
@@ -9518,7 +11248,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于落实2022—2023学年2022级教学日历的通知",
+   "date": "2022-07-01",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6174.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于雷驰等同志职务任免的通知",
@@ -9530,7 +11276,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办2022年西安交通大学大学生数学建模竞赛校赛的通知",
@@ -9542,7 +11290,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十三届“中国青少年科技创新奖”陕西省候选人补充材料说明的公示",
@@ -9554,7 +11304,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
@@ -9566,7 +11318,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第七届吉先锋大赛暨极氪校园创新创业大赛的通知",
@@ -9578,7 +11332,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学助力陕西省“乡村振兴·科技赋能”科技教育乡村行活动",
@@ -9590,7 +11346,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "媒体聚焦西安交大第三十二届“腾飞杯”创新创业大赛",
@@ -9602,7 +11360,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于核对2022美国大学生数学建模竞赛获奖信息的通知",
@@ -9614,7 +11374,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于史旭东等同志职务任免的通知",
@@ -9626,7 +11388,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛选拔结果的通知",
@@ -9638,7 +11402,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛的通知",
@@ -9650,7 +11416,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第十一届 “挑战杯”陕西省大学生创业计划竞赛作品校内公示",
@@ -9662,7 +11430,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于我校推荐参评第十三届“中国青少年科技创新奖”的公示",
@@ -9674,7 +11444,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示西安交通大学第十届全国大学生机械创新设计大赛校赛获奖结果的通知",
@@ -9686,7 +11458,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2022年西安交通大学大学生数学建模竞赛的通知",
@@ -9698,7 +11472,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
@@ -9710,7 +11486,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
@@ -9722,7 +11500,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
@@ -9734,7 +11514,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
@@ -9746,7 +11528,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）的通知",
@@ -9758,7 +11542,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2022年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛校赛选拔结果的通知",
@@ -9770,7 +11556,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十一届全国大学生金相技能大赛相关工作的通知",
@@ -9782,7 +11570,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第八届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -9794,7 +11584,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加2022年英特尔杯大学生电子设计竞赛 嵌入式系统专题邀请赛的通知",
@@ -9806,7 +11598,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于落实2022—2023学年教学日历的通知",
+   "date": "2022-04-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6168.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于启动西安交通大学第八届中国国际“互联网+”大学生创新创业大赛第一轮项目征集工作的通知",
@@ -9818,7 +11626,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2022年全国大学生物理实验竞赛（创新）报名通知",
@@ -9830,7 +11640,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于延期举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
@@ -9842,7 +11654,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第15届全国三维数字化创新设计大赛年度赛（3D大赛）报名工作的通知",
@@ -9854,7 +11668,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -9866,7 +11682,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学全国3D大赛14周年精英联赛校内选拔赛结果的通知",
@@ -9878,7 +11696,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举行西安交通大学第四届大学生结构设计竞赛的通知",
@@ -9890,7 +11710,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于核对确认2022-2023学年第一学期教学计划的通知",
+   "date": "2022-03-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6171.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "团委党支部组织召开2021年度党史学习教育专题组织生活会",
@@ -9902,7 +11738,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于2022美国大学生数学建模竞赛（MCM/ICM）温馨提示",
@@ -9914,7 +11752,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学2022年青少年志愿服务论坛征文通知",
@@ -9926,7 +11766,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于推荐我校第20届“陕西青年五四奖章”候选人（集体）的公示",
@@ -9938,7 +11780,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "团委召开2021年度工作总结研讨会传达共青团十八届六中全会会议精神",
@@ -9950,7 +11794,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛结果的通知",
@@ -9962,7 +11808,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛的通知",
@@ -9974,7 +11822,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办“数学建模创新思维”系列云讲座的通知",
@@ -9986,7 +11836,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2022西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -9998,7 +11850,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "团委党支部召开党风廉政宣传教育专题组织生活会",
+   "date": "2021-12-16",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4369",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "南京农业大学一行赴西安交通大学考察调研",
@@ -10010,7 +11878,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于巴桑泽仁等同志职务任免的通知",
@@ -10022,7 +11892,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办2021年首届西安交通大学力学与空天知识竞赛的通知",
@@ -10034,7 +11906,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2020-2021学年学术科研等七类校园文化及精神文明单项奖和校园文化突出贡献奖评定结果的公示",
@@ -10046,7 +11920,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展第十七届花旗杯金融创新应用大赛的通知",
@@ -10058,7 +11934,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十三届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -10070,7 +11948,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第八届大学生物理学术竞赛的通知",
@@ -10082,7 +11962,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "共青团浙江省委一行赴西安交通大学开展调研工作",
@@ -10094,7 +11976,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第33届“腾飞杯”大赛院赛选推各院联系方式",
@@ -10106,7 +11990,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第14届全国三维数字化创新设计大赛精英联赛（2021-2022）（3D大赛）报名工作的通知",
@@ -10118,7 +12004,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于核对确认2021-2022学年第二学期教学计划的通知",
+   "date": "2021-09-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6181.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学团委院处磋商采购中标（成交）公告",
@@ -10130,7 +12032,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学团委乐器采购院处磋商公告",
@@ -10142,7 +12046,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学团委乐器采购院处磋商公告",
@@ -10154,7 +12060,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公布西安交通大学2021年中国大学生工程实践与创新能力大赛获奖名单的通知",
@@ -10166,7 +12074,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "脚踏实地，青春献国：西交学子社会实践全面开花",
@@ -10178,7 +12088,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "弘扬传统文化，讲述中国故事",
@@ -10190,7 +12102,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "团委党支部召开党史学习教育专题组织生活会",
+   "date": "2021-08-26",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4344",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【青春共家国】西安交通大学学子投身特色社会调研",
@@ -10202,7 +12130,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春共家国】到祖国最需要的地方建功立业——记西安交通大学选调生",
@@ -10214,7 +12144,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“海阔凭鱼跃，天高任鸟飞” ——将青春的故事书写在祖国的大地",
@@ -10226,7 +12158,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2021西安交通大学大学生数学建模竞赛下一步工作安排的通知",
@@ -10238,7 +12172,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示西安交通大学第七届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
@@ -10250,7 +12186,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2021西安交通大学大学生数学建模竞赛的通知",
@@ -10262,7 +12200,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "《长征组歌》汇演抢票成功名单",
@@ -10274,7 +12214,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于段恒强等同志职务任免的通知",
@@ -10286,7 +12228,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于姜飒等同志职务任免的通知",
@@ -10298,7 +12242,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展西安交通大学第五届大学生金相技能大赛暨第十届全国大学生金相技能大赛预赛报名工作的通知",
@@ -10310,7 +12256,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第14届全国三维数字化创新设计大赛（3D大赛）报名工作的通知",
@@ -10322,7 +12270,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十七届“挑战杯”全国大学生课外学术科技作品竞赛 西安交通大学参赛项目的公示",
@@ -10334,7 +12284,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "《永远是少年》抢票结果公示",
@@ -10346,7 +12298,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“海陆丝路，东西交响”音乐党课抢票结果公示",
@@ -10358,7 +12312,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "牢记初心使命，志做时代青年",
@@ -10370,7 +12326,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第七届中国国际“互联网+”大学生 创新创业大赛校内选拔赛的通知",
@@ -10382,7 +12340,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "化学学院S0112团支部开展“学党史、强信念、跟党走”主题团日活动",
@@ -10394,7 +12354,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于组织开展第十届全国大学生机械创新设计大赛报名工作的通知",
@@ -10406,7 +12368,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -10418,7 +12382,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "树立服务国家信念 建设世界一流大学",
@@ -10430,7 +12396,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛工业场景数字化、企业运营仿真赛项校赛评审结果的通知",
@@ -10442,7 +12410,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2021年全国大学生英语竞赛准考证及考试要求的通知",
@@ -10454,7 +12424,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于陕西省第六届大学生艺术展演校内赛获奖通知",
@@ -10466,7 +12438,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛校赛评审结果的通知",
@@ -10478,7 +12452,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第32届“腾飞杯”创新创业大赛获奖名单",
@@ -10490,7 +12466,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第32届“腾飞杯”创新创业大赛获奖名单",
@@ -10502,7 +12480,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2021年全国大学生物理实验竞赛（创新）报名通知",
@@ -10514,7 +12494,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "团委召开团学骨干党风廉政建设 和党史学习教育暨技能培训会",
@@ -10526,7 +12508,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "中国银行陕西省分行来校开展青年大学习",
@@ -10538,7 +12522,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "中国银行陕西省分行来校开展青年大学习",
@@ -10550,7 +12536,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -10562,7 +12550,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于核对确认2021-2022学年第一学期教学计划的通知",
+   "date": "2021-03-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6179.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2021中国大学生机械工程创新创意大赛- “明石杯”微纳传感技术与智能应用 大赛报名的通知",
@@ -10574,7 +12578,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第七届全国大学生工程训练综合能力竞赛校内第一轮评审的通知",
@@ -10586,7 +12592,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织开展第十二届蓝桥杯全国软件和信息技术专业人才大赛的通知",
@@ -10598,7 +12606,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“第十三届全国周培源大学生力学竞赛”报名通知",
@@ -10610,7 +12620,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2021年全国大学生英语竞赛报名通知",
@@ -10622,7 +12634,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "齐心谋划十四五 凝聚团青共奋进",
@@ -10634,7 +12648,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "团委举行2020年领导班子和校管干部述职述廉及民主测评工作会暨团委党支部民主评议专题组织生活会",
+   "date": "2021-01-23",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4316",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于开展2021西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
@@ -10646,7 +12676,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“挑战杯”中国创业大赛：西安交大再捧“优胜杯”",
@@ -10658,7 +12690,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第三届高校青年“爱国、奋斗”精神研讨会暨陕西高校青年爱国奋斗宣讲联盟成立仪式举行",
@@ -10670,7 +12704,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织开展第七届全国大学生工程训练综合能力竞赛相关工作的通知",
@@ -10682,7 +12718,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2019-2020年度校园文化及精神文明单项奖和集体奖评定结果的通报",
@@ -10694,7 +12732,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "一批批西安交大研究生支教团成员奔赴西部贫困地区支教，服务逾万学生——18年青春接力聚萤成光",
@@ -10706,7 +12746,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于领取第十二届全国大学生数学竞赛准考证的通知",
@@ -10718,7 +12760,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "最佳团日 | 一粥一饭来之不易，勤俭节约有你有我",
+   "date": "2020-11-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4308",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【最佳团日】一粥一饭来之不易，勤俭节约有你有我",
@@ -10730,7 +12788,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "陕西省普通高校中华优秀传统文化传承基地座谈会在我校成功召开",
@@ -10742,7 +12802,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "困难群众是总书记最牵挂的人",
@@ -10754,7 +12816,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "四校联动学“四史”，“穿越历史的红色传承”主题团课第三讲成功开讲",
@@ -10766,7 +12830,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于公示2020年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
@@ -10778,7 +12844,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织学生参加 西安交通大学第七届大学生物理学术竞赛的通知",
@@ -10790,7 +12858,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于第十二届全国大学生数学竞赛报名的通知",
@@ -10802,7 +12872,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学第二十三届研究生支教团招募名单公示",
@@ -10814,7 +12886,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交大走进武关镇开展“西迁精神”宣讲会",
@@ -10826,7 +12900,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大湖州连心谈，共建实践新篇章",
@@ -10838,7 +12914,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学第二十三届研究生支教团报名预通知",
@@ -10850,7 +12928,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于公示西安交通大学第六届中国国际 “互联网+”大学生创新创业大赛 校赛获奖结果的通知",
@@ -10862,7 +12942,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十三届全国大学生节能减排竞赛交大学子拔得头筹",
@@ -10874,7 +12956,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于核对确认2020-2021学年第二学期教学计划的通知",
+   "date": "2020-09-04",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6188.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "一等奖6项！西安交大在第十九届 全国机器人大赛RoboMaster线上评审中斩获佳绩",
@@ -10886,7 +12984,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学学生会、研究生会传达学习全国青联十三届全委会和全国学联二十七大会议精神",
@@ -10898,7 +12998,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第四届大学生金相技能大赛暨第九届全国大学生金相技能大赛预赛报名通知",
@@ -10910,7 +13012,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学兴庆校区2020年9月全国计算机等级考试报名通知",
@@ -10922,7 +13026,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "关于紫金奖•第二届中国（南京）大学生设计展报名通知",
@@ -10934,7 +13040,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于激活2020年全国大学生数学建模竞赛竞赛管理系统账号的通知",
@@ -10946,7 +13054,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2020年全国大学生数学建模竞赛报名和参赛安排的通知",
@@ -10958,7 +13068,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
@@ -10970,7 +13082,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2020西安交通大学大学生数学建模竞赛的通知",
@@ -10982,7 +13096,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于公示2020年全国大学生电子设计竞赛-瑞萨杯”信息科技前沿专题邀请赛校内赛结果的通知",
@@ -10994,7 +13110,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2020年全国大学生物理实验竞赛（创新）报名通知",
@@ -11006,7 +13124,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2020年西部计划招募入选名单公示",
@@ -11018,7 +13138,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2020年“西部计划”志愿者拟录取名单公示",
@@ -11030,7 +13152,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "职为等你 才聚黄冈",
@@ -11042,7 +13166,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "职为等你 才聚黄冈",
@@ -11054,7 +13180,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第六届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -11066,7 +13194,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "党委副书记宫辉参加团委党支部组织生活会",
+   "date": "2020-05-28",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4277",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "党委副书记宫辉参加团委党支部组织生活会",
@@ -11078,7 +13222,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交大在第十九届“陕西青年五四奖章”评选表彰中获得五项殊荣",
@@ -11090,7 +13236,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第三十一届“腾飞杯”创新创业大赛创新赛道终审决赛的通知",
@@ -11102,7 +13250,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "践行青年志愿者精神",
@@ -11114,7 +13264,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交大张正良获第24届“中国青年五四奖章”",
@@ -11126,7 +13278,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【战“疫”英雄讲团课】青春在战\"疫\"中闪耀",
@@ -11138,7 +13292,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于中国大学生机械工程创新创意大赛-2020“明石杯”微纳传感技术与智能应用大赛报名的通知",
@@ -11150,7 +13306,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【通知】2020年西部计划报名通知",
@@ -11162,7 +13320,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -11174,7 +13334,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【124校庆】看百人云齐奏，唱《为世界之光》",
@@ -11186,7 +13348,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【124校庆】“西北有高楼，上与浮云齐”——精选诗词作品",
@@ -11198,7 +13362,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
@@ -11210,7 +13376,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "社会温暖进校园，共抗疫情盼明天",
@@ -11222,7 +13390,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "【战“疫”英雄讲团课】英雄无愧初心，“青”听战疫故事",
+   "date": "2020-04-03",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4262",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "【战“疫”英雄讲团课】英雄恪尽职守，“疫”线实时开讲",
+   "date": "2020-04-03",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4263",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【战“疫”英雄讲团课】英雄载誉归来，线上重磅开讲",
@@ -11234,7 +13432,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "【战“疫”英雄讲团课】英雄载誉归来，线上重磅开讲",
+   "date": "2020-03-27",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4259",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【战“疫”英雄讲团课】@全体交大团员青年，英雄载誉归来，线上重磅开讲！",
@@ -11246,7 +13460,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【奋翅起高飞】交大学子积极开展寒假社会实践",
@@ -11258,7 +13474,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学青年热议 习近平总书记给在首钢医院实习的西藏大学医学院学生的回信",
@@ -11270,7 +13488,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【众志成城克时艰】西安交大研支团勇担青春责任",
@@ -11282,7 +13502,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【众志成城克时艰】投身疫情防控，青年学子在行动（一）： 我们在属地，我们在社区",
@@ -11294,7 +13516,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "【众志成城克时艰】团委党支部召开“凝心共聚力，青春战疫情” 主题组织生活会",
+   "date": "2020-03-03",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4240",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "【众志成城克时艰】 “众志成城，抗击疫情，交大赛艇在行动”主题团员大会举行",
+   "date": "2020-03-03",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4245",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“交小桐-疫情防控青年先锋队”在行动：你们的身后，我们来守候",
@@ -11306,7 +13558,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "团委党支部召开“坚决打赢疫情防控阻击战”组织生活会",
@@ -11318,7 +13572,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "战疫情，文艺有力量！",
@@ -11330,7 +13586,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于2020年全国大学生英语竞赛报名的通知",
@@ -11342,7 +13600,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【单一来源公告】大功率电动汽车充电接口模拟器及检测系统",
@@ -11354,7 +13614,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】关于团委文员选聘结果的公示",
@@ -11366,7 +13628,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【采购公告】渐近圆锥天线加工",
@@ -11378,7 +13642,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】微弱信号探测模块",
@@ -11390,7 +13656,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "“团”聚青春︱那是我作为一名团员的故事开始",
+   "date": "2019-12-30",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4235",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2020新年音乐会",
@@ -11402,7 +13684,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "同向同行，共阅中国",
@@ -11414,7 +13698,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "【“团”聚青春】新时代 我们的共青团",
+   "date": "2019-12-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4233",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士生中期考核时间通知",
@@ -11426,7 +13726,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】电磁脉冲锥型辐射天线及标准场建立方法",
@@ -11438,7 +13740,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公开招考博士生现场确认的说明",
@@ -11450,7 +13754,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于召开第七届（2020 年）全国高等学校电气类专业教学改革研讨会的第一次通知",
@@ -11462,7 +13768,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "博士学位论文答辩公告表-许雯珺",
@@ -11474,7 +13782,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "博士学位论文答辩公告 唐磊",
@@ -11486,7 +13796,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "第十四届全国运动会、第十一届残运会暨第八届特奥会 志愿服务主题文化标识征集活动发布会举办",
@@ -11498,7 +13810,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【心中的旗帜】扬帆志愿新时代 做好西迁新传人",
@@ -11510,7 +13824,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交大第三十四届“最佳团日”决赛暨颁奖礼举行",
@@ -11522,7 +13838,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于邀请参加广西珞桂节能环保研究院项目论证评审会的函",
@@ -11534,7 +13852,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】电子加速器测试用直流源",
@@ -11546,7 +13866,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "会议通知",
@@ -11558,7 +13880,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】广州配电网全景信息可视化平台数据服务",
@@ -11570,7 +13894,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士中期考核通知",
@@ -11582,7 +13908,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】ELG-2/EGPS-1022低能电子枪",
@@ -11594,7 +13922,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】EGH-6002 / EGPS-6002高能电子枪",
@@ -11606,7 +13936,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【采购公告】高压脉冲电源",
@@ -11618,7 +13950,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【采购公告】冲击发生器大尺寸均压环",
@@ -11630,7 +13964,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【采购公告】电气学院教师办公座椅",
@@ -11642,7 +13978,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士学位论文答辩公告表-孟鑫",
@@ -11654,7 +13992,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【单一来源公告】数字示波器",
@@ -11666,7 +14006,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】ICCD光谱仪系统维修服务",
@@ -11678,7 +14020,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学校召开“一岗双责”专题工作会议",
@@ -11690,7 +14034,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "重点实验室2020年中青年基础研究创新基金申报通知",
@@ -11702,7 +14048,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大在第十六届挑战杯中荣获全国“优胜杯”",
@@ -11714,7 +14062,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第三届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
@@ -11726,7 +14076,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "高耐电强度绝缘基础与应用研讨会",
@@ -11738,7 +14090,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第二届“公益之星”总决赛在创新港举办",
@@ -11750,7 +14104,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "中国西部科技创新港首场草地音乐节举办",
@@ -11762,7 +14118,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2020年寒假电气学院-早稻田IPS学院短期交流项目预选拔通知",
@@ -11774,7 +14132,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "电气学院2019年IEEE APPEEC会议暨澳门研学计划选拔通知",
@@ -11786,7 +14146,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "11月8日学术报告",
@@ -11798,7 +14160,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“盛剑霓教授西迁精神与教学思想”座谈会暨学术报告会",
@@ -11810,7 +14174,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "Huang Yi教授讲座通知",
@@ -11822,7 +14188,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春告白祖国】“时光70年，我眼中的祖国”实践育人风采展启动",
@@ -11834,7 +14202,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【采购公告】带直流剩余电流检测功能的直流断路器",
@@ -11846,7 +14216,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第七届国际文化节隆重举行",
@@ -11858,7 +14230,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交大获得2019年中国国际飞行器设计挑战赛一等奖",
@@ -11870,7 +14244,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【预告】“时光70年，我眼中的祖国”实践风采育人展",
@@ -11882,7 +14258,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【通知】第三十四届“最佳团日”启动",
@@ -11894,7 +14272,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交通大学工程硕士计算方法、英语 考试考场安排",
@@ -11906,7 +14286,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【采购公告】晶闸管",
@@ -11918,7 +14300,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "14日讲座通知",
@@ -11930,7 +14314,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织学生参加西安交通大学第六届大学生物理学术竞赛的通知",
@@ -11942,7 +14328,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【采购公告】环保气体冲击绝缘试验腔移动平台系统和电极精细加工/表面处理",
@@ -11954,7 +14342,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于更新2019版本科生培养方案课程教学大纲的通知",
+   "date": "2019-09-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1176/6178.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【单一来源公告】3M™ Novec™ 4710 绝缘保护气体",
@@ -11966,7 +14370,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【通知】关于从2020届本科毕业生中招募志愿者参加第二十二届研究生支教团的通知",
@@ -11978,7 +14384,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "采购公告",
@@ -11990,7 +14398,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】不同气氛压力舱",
@@ -12002,7 +14412,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "直流输电与电力电子专业委员会关于推迟中国电机工程学会直流输电与电力电子专委会2019年学术年会征文截止时间的通知",
@@ -12014,7 +14426,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士论文答辩公告-刘帅",
@@ -12026,7 +14440,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "博士学位论文答辩公告表-王亚楠",
@@ -12038,7 +14454,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2019年度中国电机工程学会会士提名（推荐）的通知",
@@ -12050,7 +14468,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "中国电机工程学会关于外籍会士提名（推荐）的通知",
@@ -12062,7 +14482,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士学位论文答辩公告表-李亚飞",
@@ -12074,7 +14496,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "博士学位论文答辩公告表-张伟",
@@ -12086,7 +14510,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "博士学位论文答辩公告表-何佳熹",
@@ -12098,7 +14524,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "《青年强·中国强》八一建军节开播",
@@ -12110,7 +14538,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛获奖结果的通知",
@@ -12122,7 +14552,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大赛艇队勇夺2019赛艇联盟大师赛三金四银一铜",
@@ -12134,7 +14566,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "同心营秦腔日：体验陕西秦腔魅力 传承优秀传统文化",
@@ -12146,7 +14580,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "全国各民族大中学生暑期“同心营”在西安交大举行",
@@ -12158,7 +14594,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【中国科学报】西安交大航模队：蓝天翱翔，再创辉煌",
@@ -12170,7 +14608,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于横向科研合同立项申请线上审批试运行的通知",
@@ -12182,7 +14622,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019-2002学年课程开课学期变更通知",
@@ -12194,7 +14636,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于发布《研究生奖助金评审实施细则》工作安排的通知",
@@ -12206,7 +14650,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "罗先觉名师工作室课程建设报告会",
@@ -12218,7 +14664,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "电气学院2019年“优秀本科生”计划选拔通知",
@@ -12230,7 +14678,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】单位出访公示",
@@ -12242,7 +14692,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "张迈曾书记参加学武党支部、团委党支部组织生活会",
@@ -12254,7 +14706,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "“灼耀新途”2019届毕业生欢庆之夜星光绽放",
@@ -12266,7 +14720,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学电气工程学院2019年夏令营活动安排",
@@ -12278,7 +14734,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "教育部专项工作组来校调研高雅艺术进校园 和中华优秀传统文化传承基地建设成效",
@@ -12290,7 +14748,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "团中央基层建设部来校调研",
@@ -12302,7 +14762,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "中国电机工程学会直流输电与电力电子专业委员会关于2019年学术年会征文通知",
@@ -12314,7 +14776,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年全国优秀大学生夏令营审核结果查询与学生确认的通知",
@@ -12326,7 +14790,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛的通知",
@@ -12338,7 +14804,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "博士中期考核时间地点通知",
@@ -12350,7 +14818,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示第五届中国“互联网+”大学生创新创业大赛校内赛决赛项目的通知",
@@ -12362,7 +14832,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
@@ -12374,7 +14846,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "电气学院2019年9月入学博士新生调档政审说明",
@@ -12386,7 +14860,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】质谱分析仪",
@@ -12398,7 +14874,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】气相色谱仪",
@@ -12410,7 +14888,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士中期考核通知",
@@ -12422,7 +14902,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于西安交通大学2019年大学生数学建模竞赛成绩的公告",
@@ -12434,7 +14916,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2019年春季学期研究生海外访学奖助金评定通知",
@@ -12446,7 +14930,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】示波器",
@@ -12458,7 +14944,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大举行创新港“青年先锋队”成立暨学生誓师大会",
@@ -12470,7 +14958,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公布第五届中国“互联网+”大学生创新创业大赛各学院联系人的通知",
@@ -12482,7 +14972,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "国网四川省电力公司研究生工作站2019年招收计划",
@@ -12494,7 +14986,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【活动预告】第三十九届“交大之星”决赛之巅",
@@ -12506,7 +15000,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公告】湖北省黄冈市2019年人才招聘引进公告",
@@ -12518,7 +15014,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】脉冲电容器",
@@ -12530,7 +15028,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年非全日制工程博士笔试和面试安排",
@@ -12542,7 +15042,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第三届大学生金相技能大赛暨第八届全国大学生金相技能大赛选拔赛报名通知",
@@ -12554,7 +15056,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第五届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
@@ -12566,7 +15070,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展2019西安交通大学大学生数学建模竞赛的通知",
@@ -12578,7 +15084,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【活动预告】“流光‘艺’彩”2019交大校园艺术节通知",
@@ -12590,7 +15098,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【团学快讯】陕国投团委书记李臻带领党团青年骨干来我校交流学习",
@@ -12602,7 +15112,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【团学快讯】西安交大举办2019“灞河竞渡”赛艇挑战赛决赛",
@@ -12614,7 +15126,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】绝缘诊断分析仪",
@@ -12626,7 +15140,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】高速相机",
@@ -12638,7 +15154,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "电气学院2019年秋季公开招考博士研究生综合面试安排",
@@ -12650,7 +15168,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学术活动通知",
@@ -12662,7 +15182,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于召开第六届（2019 年）全国高校电气类专业教学改革研讨会的第二轮通知",
@@ -12674,7 +15196,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "中国电机工程学会直流输电与电力电子专业委员会关于2019年学术年会征文通知",
@@ -12686,7 +15210,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年4月20日英语及计算方法补考考场安排",
@@ -12698,7 +15224,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学电气学院2017级普通硕士申请博士资格通知",
@@ -12710,7 +15238,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第一届西安交通大学飞行器创意设计大赛的通知",
@@ -12722,7 +15252,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【公告】西安交通大学第十八届“腾飞杯”课外学术科技作品竞赛获奖名单",
@@ -12734,7 +15266,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【123校庆】韩鹏杰、路一鸣畅聊论辩与人生",
@@ -12746,7 +15280,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年哈佛大学医学院NSG生物医学工程实验室联合培养研究生项目选拔通知（电气学院）",
@@ -12758,7 +15294,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "工程硕士2019年上半年《计算方法》和《英语》补考名单",
@@ -12770,7 +15308,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于第九届全国大学生机械创新设计大赛报名的通知",
@@ -12782,7 +15322,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【公示】单位出访公示",
@@ -12794,7 +15336,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】电工综合实验装置",
@@ -12806,7 +15350,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019级研究生新生体检表寄送通知",
@@ -12818,7 +15364,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2019年周培源力学竞赛辅导安排的通知",
@@ -12830,7 +15378,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【单一来源公告】数据采集卡",
@@ -12842,7 +15392,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年大学联合培养双学位（米兰理工、法国高电）选拔通知",
@@ -12854,7 +15406,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【预告】清华大学苏世民书院招生宣讲会",
@@ -12866,7 +15420,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【通知】关于选拔推荐“2019全球青年领袖峰会”参会学生的通知",
@@ -12878,7 +15434,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年西安交通大学电气学院-日本早稻田大学IPS“3+2”项目选拔通知",
@@ -12890,7 +15448,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学电力电子与工业自动化2019学术年会(2019 PEREC Symposium on Power Electronics and Industrial Automat...",
@@ -12902,7 +15462,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】2019“知行中国-中美高校学生领袖学院”项目校内遴选结果",
@@ -12914,7 +15476,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】第18届“陕西青年五四奖章”推荐人选",
@@ -12926,7 +15490,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2019年度陕西省自然科学基础研究计划项目结题有关事项的通知",
@@ -12938,7 +15504,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "讲座预告：百年科幻中国梦—从《新中国未来记》到《流浪地球》",
@@ -12950,7 +15518,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "讲座预告：2019经典品读会——解读《道德经》《孟子》中的人文智慧",
@@ -12962,7 +15532,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“第十二届全国周培源大学生力学竞赛”个人赛报名通知",
@@ -12974,7 +15546,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "李泓研究员讲座通知——固态电池：从基础到应用",
@@ -12986,7 +15560,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "博士学位论文答辩公告表-王永生",
@@ -12998,7 +15574,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "寒假battle | 校领导慰问，原来他们在搞这些黑科技！",
@@ -13010,7 +15588,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "我校团委获“青春影像”全国大中学生原创视频大赛优秀组织奖",
@@ -13022,7 +15602,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学电力电子与工业自动化2019学术年会的通知",
@@ -13034,7 +15616,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "电气学院2019年全日制硕士学位论文盲审的具体安排",
@@ -13046,7 +15630,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "寒假battle | 学生赛艇队吹响2019冬训集结号",
@@ -13058,7 +15644,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "《电网络理论》考试时间地点",
@@ -13070,7 +15658,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【单一来源公告】高压放大器",
@@ -13082,7 +15672,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【单一来源公告】低频介电谱仪",
@@ -13094,7 +15686,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019年春季选课、选班、改课、重修通知及选课指南下载",
@@ -13106,7 +15700,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "电气学院2019年工程硕士复试科目确认通知",
@@ -13118,7 +15714,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于提交申请海外访学奖助金材料的通知",
@@ -13130,7 +15728,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2019年新年音乐会精彩上演",
@@ -13142,7 +15742,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2019新年音乐会即将举行",
@@ -13154,7 +15756,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展第十八届“腾飞杯”课外学术科技作品竞赛作品中期审核的通知",
@@ -13166,7 +15770,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于组织参加第二届中国高校智能机器人创意大赛的通知",
@@ -13178,7 +15784,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "校团委场地管理员招聘公告",
@@ -13190,7 +15798,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "兰州大学团委王睿娜副书记一行来我校交流",
@@ -13202,7 +15812,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "传秦韵之美 耀中华文化——仲英书院举办“结缘秦腔”系列活动",
@@ -13214,7 +15826,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【四个一百】讲座：“九州名家”33讲—国际法治三人谈",
@@ -13226,7 +15840,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：联合国维和行动及中国参与",
@@ -13238,7 +15854,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：秦声有情，它远比你想象的有趣......",
@@ -13250,7 +15868,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：听郭烈锦院士如何解“燃煤之疾”",
@@ -13262,7 +15882,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第十一届温暖校工表彰大会举行",
@@ -13274,7 +15896,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2018年主持人大赛决赛落下帷幕",
@@ -13286,7 +15910,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "二附院共青团第十五次代表大会顺利召开",
@@ -13298,7 +15924,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大“艺暖长安”艺术扶贫文艺演出走进柞水",
@@ -13310,7 +15938,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "浙江理工大学团委吕媛媛书记一行来我校交流",
@@ -13322,7 +15952,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【四个一百】教育部中华优秀传统文化传承基地系列首场报告举行 李梅：一曲《大树西迁》，一首西迁赞歌",
@@ -13334,7 +15966,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第二届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
@@ -13346,7 +15980,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学入选第一批中华优秀传统文化传承基地",
@@ -13358,7 +15994,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "抱“持”梦想，做“主”青春——西安交通大学主持人大赛初赛落下帷幕",
@@ -13370,7 +16008,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "团委集体学习“西迁人”爱国奋斗先进事迹报告会",
@@ -13382,7 +16022,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2018 年中国（小谷围）“互联网+交通运输”创新创业大赛之金溢杯•中国大学交通运输创客大赛报名的通知",
@@ -13394,7 +16036,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "最佳团日｜电类805——我们，就是西迁精神新传人",
+   "date": "2018-10-30",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=217",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "日本民音艺术团受邀来我校演出",
@@ -13406,7 +16064,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【通知】关于在学生中开展主题征文和书法绘画摄影作品征集活动的通知",
@@ -13418,7 +16078,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于组织学生参加西安交通大学第五届大学生物理学术竞赛的通知",
@@ -13430,7 +16092,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【公示】单位出访公示",
@@ -13442,7 +16106,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "中国教育电视台特别节目：梦朝远方 传承西迁精神",
@@ -13454,7 +16120,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【通知】关于举办西安交通大学第十八届“腾飞杯”课外学术科技作品竞赛的通知",
@@ -13466,7 +16134,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【公示】2019届研究生支教团成员招募名单公示",
@@ -13478,7 +16148,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“与信仰对话”——河北梆子《牺牲》走进西安交通大学",
@@ -13490,7 +16162,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "香港中文大学内地大学生香港文化交流营活动",
@@ -13502,7 +16176,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【青春力行】交大学子赴土耳其开展“丝路聚交”海外社会实践",
@@ -13514,7 +16190,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【中国网】西安交通大学国际实践团暑期探访土耳其",
@@ -13526,7 +16204,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "社会媒体聚焦“新生第一课” 传递爱国奋斗的交大故事",
@@ -13538,7 +16218,107 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "在爱国奉献中书写精彩人生",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=214",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：青年要自觉践行社会主义核心价值观 ——在北京大学师生座谈会上的讲话",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=213",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：在纪念马克思诞辰200周年大会上的讲话",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=216",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平总书记对西安交大“西迁精神”作出重要指示",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=215",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "中国共产党党章",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=211",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "中国共产党党务公开条例（试行）",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=212",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "中共中央组织部 中共中央宣传部关于在广大知识分子中深入开展“弘扬爱国奋斗精神、建功立业新时代”活动的通知",
+   "date": "2018-09-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=210",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【西安日报】聚焦交大学子丝路跨国实践",
@@ -13550,7 +16330,79 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "王小力常务副书记参加学武党支部与团委党支部联合组织生活会",
+   "date": "2018-09-02",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=201",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "团委学习习近平总书记重要指示精神",
+   "date": "2018-09-02",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=207",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "团委召开“建合格支部，做合格党员”专题组织生活会 开展党员民主评议",
+   "date": "2018-09-02",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=206",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "【聚焦创新港】团委党支部前往创新港开展学习调研",
+   "date": "2018-09-02",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=202",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "【务实奋进新时代】团委传达学习暑期工作会议精神",
+   "date": "2018-09-02",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=200",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【陕西日报】交大“最美志愿者”：4200米高原上的接力“播种”",
@@ -13562,7 +16414,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【中国社会工作】西安交大学生公益团队：桥无止 爱无限",
@@ -13574,7 +16428,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【中国青年网】西安交大打造“四级五定”实践育人模式 引领学生做爱国奋进新青年",
@@ -13586,7 +16442,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大学子参加世界大学生赛艇锦标赛 助力中国队夺得最好战绩",
@@ -13598,7 +16456,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大学子出征第15届世界大学生赛艇锦标赛",
@@ -13610,7 +16470,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大在全国大学生赛艇锦标赛中勇夺三金一银 获世界大学生赛艇锦标赛参赛资格",
@@ -13622,7 +16484,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【教育部网站】西安交大“四个加强”开展大学生暑期社会实践",
@@ -13634,7 +16498,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "央视二套《经济半小时》报道西安交大“雪域女团”的支教故事",
@@ -13646,7 +16512,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交大学子出征第15届世界大学生赛艇锦标赛",
@@ -13658,7 +16526,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大团委书记周远当选共青团十八届中央委员会委员",
@@ -13670,7 +16540,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“四海一家·丝路长安”陕港同行青年交流活动在西安交大举行",
@@ -13682,7 +16554,177 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "青春逢盛世 奋进正当时",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4072",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "西安交通大学开展“弘扬爱国奋斗精神，建功立业新时代”专题学习",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4063",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "社会各界青年热议团十八大:生逢强国时代 不负青春使命",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4070",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "把从严治团要求落到实处",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4073",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "奏响新时代的青春之歌——共青团十八大解放军和武警部队代表风采录",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4069",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "奋发谱写新时代共青团事业新篇章",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4068",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "党旗所指就是团旗所向——习近平这样擘画新时代共青团",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4066",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "从“红船精神”到“西迁精神”：伟大精神凝聚磅礴力量",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4062",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平这样彰显信仰的底色",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4067",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "三论学习贯彻习近平总书记同团中央新一届领导班子成员集体谈话时的重要讲话精神",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4065",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "【中国之声特别策划】青年的事儿 习总书记很牵挂",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4071",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "“习近平关于青年工作的重要思想”座谈会召开",
+   "date": "2018-08-09",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4064",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学生艺术团社会实践团队：探索非遗宝库 弘扬传统文化",
@@ -13694,7 +16736,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交大邓睿涵同学荣获第13届两岸大学校园歌手邀请赛季军",
@@ -13706,7 +16750,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交大召开2018年暑期“三下乡”社会实践出征仪式",
@@ -13718,7 +16764,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学团委与张掖市团委共建社会实践基地",
@@ -13730,7 +16778,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举办首届“能源 智慧 未来”全国大学生创新创业大赛的通知",
@@ -13742,7 +16792,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【陕西日报】头版：西安交大“四个一百”育人行动纪实",
@@ -13754,7 +16806,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大学生团队获阿里巴巴Fashion AI全球挑战赛冠军",
@@ -13766,7 +16820,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大学生创业团队摘得2018中美青年创客大赛（西安赛区）桂冠",
@@ -13778,7 +16834,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【青春力行】西安交通大学“寻访医疗正能量 迎接中国医师节” 扁鹊论医公益研修营正式启动",
@@ -13790,7 +16848,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "中青网专访团十八大代表周远：西迁精神根植交大学子心灵",
@@ -13802,7 +16862,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大“梦朝远方”2018届毕业生欢庆晚会举行",
@@ -13814,7 +16876,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "第七届杭州中国名校龙舟竞渡西安交大创佳绩",
@@ -13826,7 +16890,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【四个一百】第三期“百本经典”阅读指导会开讲",
@@ -13838,7 +16904,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【当代女报】封面人物：雪莲少女白玛央金",
@@ -13850,7 +16918,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "王小力常务副书记参加学武党支部与团委党支部联合组织生活会",
@@ -13862,7 +16932,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【西安日报】西安交大勇夺三金一银 获世界大学生赛艇锦标赛参赛资格",
@@ -13874,7 +16946,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【CCTV2第一时间】“高招进行时”首期走进西安交通大学",
@@ -13886,7 +16960,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【四个一百】第三期“百本经典”阅读指导会开讲",
@@ -13898,7 +16974,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于表彰我校2018年全国大学生英语竞赛获奖学生的通报",
@@ -13910,7 +16988,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于表彰2018年西安交通大学数学建模竞赛获奖学生的通报",
@@ -13922,7 +17002,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【中国青年报】白玛央金：饮水思源 扶贫扶智",
@@ -13934,7 +17016,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2017年度“中国大学生自强之星”颁奖典礼在西安交大举行",
@@ -13946,7 +17030,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【中国青年报】白玛央金：饮水思源 扶贫扶智",
@@ -13958,7 +17044,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于数学建模竞赛论文写作的讲座通知",
@@ -13970,7 +17058,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第十二届“创源”科技学术论坛闭幕 周卫健院士作特邀报告",
@@ -13982,7 +17072,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【四个一百】西安交大第二季“21天悦读养成计划”落幕",
@@ -13994,7 +17086,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【香港文汇报】西安交大学子心系故土 组团返乡支教",
@@ -14006,7 +17100,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "第八届全国大学生机械创新设计大赛陕西赛区竞赛 西安交大再创佳绩",
@@ -14018,7 +17114,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【四个一百】“芳年华月，向西而歌”西迁精神主题诗歌朗诵会 暨2018社团年度人物表彰大会举行",
@@ -14030,7 +17128,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第二届大学生金相技能大赛暨第七届全国大学生金相技能大赛选拔赛报名通知",
@@ -14042,7 +17142,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【中国青年报】头版头条：西藏女孩带“雪域女团”反哺家乡",
@@ -14054,7 +17156,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：人文大牛与您相约学术论坛！",
@@ -14066,7 +17170,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "我校学子喜获“中国大学生自强之星标兵”",
@@ -14078,7 +17184,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "岁月神偷 边走边唱——周笔畅走进西安交大",
@@ -14090,7 +17198,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2018年“中国电信奖学金” 暨“践行社会主义核心价值观先进个人”校级遴选的公示",
@@ -14102,7 +17212,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "激扬青春梦想 凝聚志愿力量",
@@ -14114,7 +17226,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "交大原创话剧《追忆西迁年华——向西而歌》走进长安大学",
@@ -14126,7 +17240,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "2018世界知名大学西安博览会在交大启动",
@@ -14138,7 +17254,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【通知】关于组织开展2018年“中国电信奖学金” 暨“践行社会主义核心价值观先进个人” 遴选寻访活动的通知",
@@ -14150,7 +17268,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2018本科生数学建模校内赛答辩的通知",
@@ -14162,7 +17282,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学龙舟队应邀参加浙江卫视《奔跑吧》节目录制",
@@ -14174,7 +17296,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大举办学生科技社团获奖新闻发布会",
@@ -14186,7 +17310,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大学子参加央视“五月的鲜花”文艺汇演展现“科技范”",
@@ -14198,7 +17324,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "『四个一百』讲座：韩鹏杰教授《道德经》阅读指导会",
@@ -14210,7 +17338,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：四院院士与您相聚交大！",
@@ -14222,7 +17352,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "『四个一百』报告：你不能错过的诺奖大师！",
@@ -14234,7 +17366,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "汇聚青春能量 绽放梦想荣光 学生合唱团举办专场音乐会",
@@ -14246,7 +17380,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "交大学子参加央视“五月的鲜花”文艺汇演展现“科技范”",
@@ -14258,7 +17394,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "不忘初心 爱国奋斗 铸梦新时代 西安交通大学举办五四青年节主题团日系列活动",
@@ -14270,7 +17408,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "社会媒体聚焦“灞河竞渡”赛艇挑战赛暨两岸赛艇文化研习营",
@@ -14282,7 +17422,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示2018年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
@@ -14294,7 +17436,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2018西安交通大学“灞河竞渡”赛艇挑战赛 暨两岸赛艇文化研习营举行",
@@ -14306,7 +17450,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大ACM队首次入围第42届 国际大学生程序设计竞赛全球总决赛",
@@ -14318,7 +17464,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第八届全国大学生电子商务“创新、创意及创业”挑战赛 西安交通大学“腾飞杯”校赛举行",
@@ -14330,7 +17478,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“世界名校·艇进中原”赛艇挑战赛西安交大斩获一金一银",
@@ -14342,7 +17492,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大ACM队首次入围第42届 国际大学生程序设计竞赛全球总决赛并获佳绩",
@@ -14354,7 +17506,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第一届“腾飞杯”大学生结构设计竞赛暨陕西省“争先杯”第二届大学生结构设计竞赛校内选拔报名的通知",
@@ -14366,7 +17520,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【陕西日报】西安交大发布“100本经典”书单",
@@ -14378,7 +17534,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "电影《后来的我们》走进西安交大",
@@ -14390,7 +17548,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "港澳台生赛艇体验营开营",
@@ -14402,7 +17562,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【四个一百】西安交大举办“100本经典”（2018版）发布会",
@@ -14414,7 +17576,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "团委党支部前往创新港开展学习调研",
@@ -14426,7 +17590,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "社会媒体聚焦交大学生航模队首夺国际比赛总冠军",
@@ -14438,7 +17604,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "社会媒体聚焦交大学生航模队首夺国际比赛总冠军",
@@ -14450,7 +17618,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于领取2018年全国大学生英语竞赛准考证的通知",
@@ -14462,7 +17632,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【新华网】西安交大学子的爱心陪伴",
@@ -14474,7 +17646,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【新华网】西安交大学子的爱心陪伴",
@@ -14486,7 +17660,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "无私奉献，扎根西部——管理、电气、航天和外语学院西迁精神专场报告会圆满举办",
@@ -14498,7 +17674,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】2018“孔子行脚”支教项目志愿者公示",
@@ -14510,7 +17688,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "【奋斗2018】团委：不忘初心，砥砺前行 为创造留下历史印记新贡献而奋斗",
+   "date": "2018-03-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=199",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】2017年度“中国大学生自强之星”活动陕西省获奖人选",
@@ -14522,7 +17716,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】“希捷—小平基金”科技创新奖学金评审结果",
@@ -14534,7 +17730,471 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "党支部组织委员",
+   "date": "2017-12-28",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=196",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "党支部宣传委员",
+   "date": "2017-12-28",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=197",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "党支部副书记",
+   "date": "2017-12-28",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=195",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "党支部书记",
+   "date": "2017-12-28",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=194",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜钱学森74——放飞心，跟党走",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=193",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜钱学森72——最佳团日初赛回顾",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=192",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜自动化74——韶华 追忆 西迁路",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=191",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜电信79——我们正青春",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=189",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜机类78——最佳团日初赛总结",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=190",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜机类737——过来！看过来！团日活动的重磅推送！",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=188",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜学博军71——乘风破浪",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=187",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日丨电信类711——最佳团日活动进展介绍",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=181",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日丨电信73——如果没有鹿晗，它就上热搜了",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=183",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日丨文试73——恭喜文试73入选团日复赛，我们会更加努力的哟",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=182",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 计算机75——雷马屏峨 弦歌不辍",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=185",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 机类74——功不唐捐，激动！",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=186",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 日语71——忆昔西交足迹，领略校史风华",
+   "date": "2017-11-29",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=184",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜机类722班——我们的最佳团日",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=176",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜机类721班——不忘初心，继往开来",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=177",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日｜文试74——青春踏上新征程，我们与党共成长",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=178",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日丨软件71——迎接十九大，我们是认真的。",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=180",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日丨生命71--团日活动回顾",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=179",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 计试71——团日活动",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=173",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 管工71——长安何处在，只在马蹄下",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=171",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 电气75——团日活动宣传",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=172",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 电信77——齐齐潮信挺进复赛",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=175",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 机类720——回顾我们的最佳团日",
+   "date": "2017-11-22",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=174",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "人民日报十论学习贯彻党的十九大精神（二）",
+   "date": "2017-11-17",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=169",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "人民日报十论学习贯彻党的十九大精神（一）",
+   "date": "2017-11-17",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=168",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "最佳团日 | 机类733——八，代表着什么",
+   "date": "2017-11-15",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=166",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 机类718——最佳团日初赛回顾",
+   "date": "2017-11-15",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=164",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 文试72——纸上桃源 第二弹",
+   "date": "2017-11-15",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=163",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 数学72——我们的团日",
+   "date": "2017-11-15",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=167",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "【公示】我校2017年“示范团支部”创建和“魅力团支书”寻访活动申报结果",
@@ -14546,7 +18206,429 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "中共中央关于认真学习宣传贯彻党的十九大精神的决定",
+   "date": "2017-11-10",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=161",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "最佳团日 | 钱学森书院、励志书院第三十二届“最佳团日”初赛答辩成功举办",
+   "date": "2017-11-08",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=159",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 规培76班——规培76绿带侠",
+   "date": "2017-11-08",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=156",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 管工71班——“青春之问”采访活动",
+   "date": "2017-11-08",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=157",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 电气76——76单车旅行",
+   "date": "2017-11-08",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=158",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 少年班5153——因为我们正少年",
+   "date": "2017-11-08",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=160",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "中国共产党第十九届中央委员会第一次全体会议公报",
+   "date": "2017-11-03",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=155",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "肩负历史重任 开创复兴伟业",
+   "date": "2017-10-27",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=154",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "人民日报社论：夺取新时代中国特色社会主义伟大胜利",
+   "date": "2017-10-26",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=153",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于十九大报告，你必须知道的“关键词”",
+   "date": "2017-10-23",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=151",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平总书记关于青年工作的重要论述",
+   "date": "2017-10-23",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=152",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "校团委召开十九大报告精神专题学习组织生活会",
+   "date": "2017-10-20",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=150",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "图解十九大报告",
+   "date": "2017-10-20",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=148",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于下发 9 月团组织生活指导意见的通知",
+   "date": "2017-10-20",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=149",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "最佳团日 | 软件72班——庆党十九大专访",
+   "date": "2017-10-19",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=147",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 生命71班——“不忘初心”采访活动",
+   "date": "2017-10-19",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=146",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "推动全面从严治党向纵深发展",
+   "date": "2017-10-17",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=145",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于在全校集中开展“学习总书记讲话 做合格共青团员”教育实践的通知",
+   "date": "2017-10-16",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=144",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "校团委学习贯彻寒假工作会议精神 带领团学组织追赶超越",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=142",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "最佳团日 | 电气75班——兴庆公园采访老人及绘制海报活动",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=136",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 生命71班——崇先仰贤签名活动",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=135",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "最佳团日 | 生命71班——定向越野争霸赛",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=137",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "团委召开专题组织生活会 学习巡视工作动员会讲话精神",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=140",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
+  },
+  {
+   "title": "关于下发“培育和践行社会主义核心价值观”题团组织生活指导意见的通知",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=143",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在省部级主要领导干部专题研讨班开班式上发表重要讲话",
+   "date": "2017-10-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=141",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "图解习近平总书记在“7·26”省部级领导干部研讨班上的讲话",
+   "date": "2017-10-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=133",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "十九大之前一定要知道的关键词（四）",
+   "date": "2017-10-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=132",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "十九大之前一定要知道的关键词（二）",
+   "date": "2017-10-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=130",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "十九大之前一定要知道的关键词（三）",
+   "date": "2017-10-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=131",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "十九大之前一定要知道的关键词（一）",
+   "date": "2017-10-12",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=129",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】2018届研究生支教团成员公示",
@@ -14558,7 +18640,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【公示】关于团委劳务派遣职员选聘结果的公示",
@@ -14570,7 +18654,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】单位出访公示",
@@ -14582,7 +18668,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】单位出访公示",
@@ -14594,7 +18682,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【表彰】关于表彰2016年度西安交通大学青年志愿者组织奖、项目奖、个人奖的决定",
@@ -14606,7 +18696,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "【表彰】关于表彰“中国西部科技创新港”主题诗歌征集活动优秀作品的通知",
@@ -14618,7 +18710,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "崇实书院第五届交大老少交流会圆满举办",
@@ -14630,7 +18724,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【通知】关于下发“培育和践行社会主义核心价值观”主题团组织生活指导意见的通知",
@@ -14642,7 +18738,429 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "致首届亚非青年联欢节的贺信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3680",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "致清华大学建校105周年的贺信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3674",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "致2015世界机器人大会开幕的贺信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3671",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "给“国培计划（2014）”北师大贵州研修班参训教师的回信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3668",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：广大青年要坚定不移跟着中国共产党走",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3678",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：在纪念红军长征胜利80周年大会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3684",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：在文艺工作座谈会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3670",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "习近平：在庆祝中国共产党成立95周年大会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3679",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：在2015年春节团拜会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3659",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平：为建设世界科技强国而奋斗",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3677",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平总书记给大陈岛老垦荒队员的后代、浙江省台州市椒江区12名小学生的回信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3676",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平总书记给北京市八一学校科普小卫星研制团队学生的回信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3686",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平总书记在庆祝“五一”国际劳动节暨表彰全国劳动模范和先进工作者大会上的重要讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3662",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在颁发“中国人民抗日战争胜利70周年”纪念章仪式上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3667",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在纪念陈云同志诞辰110周年座谈会上的重要讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3664",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在第二届世界互联网大会开幕式上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3672",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在在知识分子、劳动模范、青年代表座谈会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3675",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在博鳌亚洲论坛2015年年会开幕式上的演讲",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3660",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "习近平在全国高校思想政治工作会议上的讲话精神",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3685",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在会见中国少年先锋队第七次全国代表大会代表时的讲话概要",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3663",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在二十国集团领导人杭州峰会上的开幕辞",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3682",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平在中央第六次西藏工作座谈会上的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3666",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平回母校八一学校：到这里就没有首长了，都是学生",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3681",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平向首届清华大学苏世民书院开学典礼致贺信",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3683",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平出席联合国发展峰会并发表重要讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3669",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平出席第十五届中越青年友好会见活动时的讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3661",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平出席中央党的群团工作会议并发表讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3665",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "习近平主持会议并发表“三严三实”重要讲话",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3673",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "2014年学校共青团工作要点",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3656",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013年学校共青团工作要点",
+   "date": "2017-03-06",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=3655",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大《追忆西迁年华——向西而歌》话剧走进西电",
@@ -14654,7 +19172,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【通知】雷锋医护进社区，多学科义诊等您来！",
@@ -14666,7 +19186,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】关于对学校第十六届“陕西五四青年奖章”申报人和申报集体的公示",
@@ -14678,7 +19200,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】2016年度“中国大学生自强之星”校级寻访结果公示",
@@ -14690,7 +19214,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】单位出访公示",
@@ -14702,7 +19228,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【公示】单位出访公示",
@@ -14714,7 +19242,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2016年崇实书院暑期社会实践答辩大会圆满举办",
@@ -14726,7 +19256,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2017届研究生支教团成员公示",
@@ -14738,7 +19270,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于从2017届本科毕业生中招募志愿者参加第十九届研究生支教团的通知",
@@ -14750,7 +19284,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展“第十一届中国艺术节志愿者”招募工作的通知",
@@ -14762,7 +19298,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "《长征组歌》交响合唱音乐会走进西安交通大学",
@@ -14774,7 +19312,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "《长征组歌》交响合唱音乐会走进西安交通大学",
@@ -14786,7 +19326,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "“希捷—小平基金”科技创新奖学金评审结果公示",
@@ -14798,7 +19340,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2016年大学生暑期“三下乡”社会实践活动的通知",
@@ -14810,7 +19354,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于共青团西安交通大学第二十八届委员会委员候选人预备人选的公示",
@@ -14822,7 +19368,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "《思源回响》原创视听音乐会",
@@ -14834,7 +19382,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“美丽交大”系列活动之“爱花爱草，春映校园”活动",
@@ -14846,7 +19396,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于推荐第十届“中国青少年科技创新奖”候选人的通知",
@@ -14858,7 +19410,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于推荐第十届“中国青少年科技创新奖”候选人的通知",
@@ -14870,7 +19424,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于申报第15届“陕西青年五四奖章”人选的通知",
@@ -14882,7 +19438,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2016年寒假到政府机关见习学生名单公示",
@@ -14894,7 +19452,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于表彰校庆吉祥物设计作品的决定",
@@ -14906,7 +19466,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学第十一届“腾飞杯”创业竞赛暨2016年“国家大学生创业训练计划”项目选拔的通知",
@@ -14918,7 +19480,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2015年度“中国大学生自强之星”活动陕西候选人评选推荐人选公示",
@@ -14930,7 +19494,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“学而”讲坛——教授系列讲座第360讲",
@@ -14942,7 +19508,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第十届“创源”科技学术论坛远航系列报告 ----大数据时代下精准医疗的计算框架",
@@ -14954,7 +19522,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“学而”讲坛——教授系列讲座第359讲",
@@ -14966,7 +19536,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公布践行社会主义核心价值观“出彩团支部”创建和“魅力团支书”寻访活动 获奖名单的通知",
@@ -14978,7 +19550,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "2015年寻访“中国大学生自强之星”活动通知",
@@ -14990,7 +19564,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展西安交通大学第三十届“最佳团日”评选活动的通知",
@@ -15002,7 +19578,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "“风云两甲子，弦歌三世纪”西安交通大学建校120周年暨迁校60周年文艺晚会节目征集的通知",
@@ -15014,7 +19592,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "“风云两甲子，弦歌三世纪”----百年交大，书香校园系列活动的通知",
@@ -15026,7 +19606,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2016届研究生支教团成员公示",
@@ -15038,7 +19620,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展2015年学生参加科技竞赛获得免试研究生资格认定考核工作的通知",
@@ -15050,7 +19634,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于从2016届本科毕业生中招募志愿者参加第十八届研究生支教团的通知",
@@ -15062,7 +19648,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展践行社会主义核心价值观“出彩团支部”创建和“魅力团支书”寻访活动的通知",
@@ -15074,7 +19662,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "建校120周年暨迁校60周年纪念活动吉祥物及纪念品设计方案征集",
@@ -15086,7 +19676,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于将陕西省12市、区见习实践纳入人文社科经管类学生专业实习培养方案及硕士研究生培养计划的通知",
@@ -15098,7 +19690,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展2015年大学生暑期“三下乡”社会实践活动的通知",
@@ -15110,7 +19704,51 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于领取第十届周培源力学竞赛准考证的通知",
+   "date": "2015-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6749.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2015年下半年全国计算机等级考试报名的通知",
+   "date": "2015-05-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6736.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2015年校内英语四级考试的通知",
+   "date": "2015-05-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6706.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "RoboMasters2015全国大学生机器人大赛西北分区赛",
@@ -15122,7 +19760,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2015高雅艺术进校园|中国东方演艺集团大型歌舞晚会《水墨中华》",
@@ -15134,7 +19774,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "西安交通大学第一届大学生物理学术竞赛决赛通知",
+   "date": "2015-05-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6695.htm",
+   "competition": "中国大学生物理学术竞赛",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于公布2015年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+   "date": "2015-05-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6707.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2015年上半年全国计算机等级考试成绩查询通知",
+   "date": "2015-05-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6717.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于我校第七届全国大学生机械创新设计大赛报名的通知",
+   "date": "2015-04-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6715.htm",
+   "competition": "全国大学生机械创新设计大赛",
+   "moeNo": 8,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“共和国的脊梁—科学大师名校宣传工程”通知公告",
@@ -15146,7 +19844,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【共和国的脊梁】“科学大师名校宣传工程”汇演活动即将走进西安交大",
@@ -15158,7 +19858,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "交大吉尼斯,王者之战",
@@ -15170,7 +19872,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大第三十五届交大之星",
@@ -15182,7 +19886,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "机械工程学院接收2014级转专业学生实施办法",
+   "date": "2015-04-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3965.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于领取陕西省数学竞赛参赛资料的通知",
+   "date": "2015-04-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6690.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2014级本科生转专业的通知",
+   "date": "2015-04-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3966.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2015年全国大学生英语竞赛听力相关安排的通知",
+   "date": "2015-04-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6691.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办2015“逐梦交大，我的青春我的团”社团年度十大人物评选活动的通知",
@@ -15194,7 +19956,121 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2015年全国大学生英语竞赛准考证领取通知",
+   "date": "2015-04-03",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6753.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于聘请2015年大学生数学建模竞赛指导教师暨校内赛题目征集的通知",
+   "date": "2015-04-01",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6728.htm",
+   "competition": "全国大学生数学建模竞赛",
+   "moeNo": 5,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于开展西安交通大学2015年大学生数学建模竞赛的通知",
+   "date": "2015-04-01",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6754.htm",
+   "competition": "全国大学生数学建模竞赛",
+   "moeNo": 5,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于参加陕西高校第十次大学生高等数学竞赛的通知",
+   "date": "2015-03-18",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6737.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于发放第六届全国大学生数学竞赛获奖证书的通知",
+   "date": "2015-03-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6732.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2015年6月全国大学外语四、六级考试报名的通知",
+   "date": "2015-03-11",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6743.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2015年3月全国计算机等级考试网上打印准考证的通知",
+   "date": "2015-03-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6693.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "第十届全国周培源大学生力学竞赛报名通知",
+   "date": "2015-03-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6696.htm",
+   "competition": "全国周培源大学生力学竞赛",
+   "moeNo": 35,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办陕西省“青春年华•中国梦” 诗词征文大赛的通知",
@@ -15206,7 +20082,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于申报第14届“陕西青年五四奖章”人选的通知",
@@ -15218,7 +20096,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于表彰第六届全国大学生机械创新设计大赛获奖师生的通报",
+   "date": "2015-01-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6703.htm",
+   "competition": "全国大学生机械创新设计大赛",
+   "moeNo": 8,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于表彰2014年全国大学生电子设计竞赛获奖师生的通报",
+   "date": "2015-01-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6712.htm",
+   "competition": "全国大学生电子设计竞赛",
+   "moeNo": 6,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于表彰2014年全国大学生数学建模竞赛获奖师生的通报",
+   "date": "2015-01-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6723.htm",
+   "competition": "全国大学生数学建模竞赛",
+   "moeNo": 5,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于网报2015年上半年全国计算机等级考试的学生进行现场确认的通知",
+   "date": "2015-01-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6742.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学2015年新年音乐会",
@@ -15230,7 +20166,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "创业讲座—抓住创新创业的黄金十年",
@@ -15242,7 +20180,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2015年寒假到政府机关见习学生名单公示",
@@ -15254,7 +20194,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "2015年上半年全国计算机等级考试暂停网上报名通知",
+   "date": "2014-12-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6734.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2015年上半年全国计算机等级考试报名的通知",
+   "date": "2014-12-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6757.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "关于选派优秀大学生2015年寒假到政府机关见习的通知",
@@ -15266,7 +20236,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于领取2014年9月全国计算机等级考试合格证书的通知",
+   "date": "2014-12-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6738.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2014-2015学年第一学期学生证补办的通知",
+   "date": "2014-12-04",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3996.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“彭康之夜”总决赛",
@@ -15278,7 +20278,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "外语·人生讲座",
@@ -15290,7 +20292,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“通视大讲堂”系列讲座第18讲",
@@ -15302,7 +20306,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“九州名家”报告会第二十八讲通知",
@@ -15314,7 +20320,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2014年度新东方自强之星奖学金和新东方西部特困大学生专项助学金评选推荐人选公示",
@@ -15326,7 +20334,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "彭康书院第五届“职要有你”模拟招聘大赛决赛",
@@ -15338,7 +20348,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学第十六届“腾飞杯”课外学术科技作品竞赛的通知",
@@ -15350,7 +20362,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "仲英书院“K歌之王”总决选",
@@ -15362,7 +20376,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“K歌之王”总决选",
@@ -15374,7 +20390,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2015年全国大学生英语竞赛报名通知",
+   "date": "2014-11-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6692.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第六届彭康之夜",
@@ -15386,7 +20418,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第六届彭康之夜",
@@ -15398,7 +20432,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第五届文治达人",
@@ -15410,7 +20446,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲人跑，英为爱——慈善跑步活动",
@@ -15422,7 +20460,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲人跑，英为爱——慈善跑步活动",
@@ -15434,7 +20474,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "西安交通大学第一届大学生物理学术竞赛初赛通知",
+   "date": "2014-11-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6714.htm",
+   "competition": "中国大学生物理学术竞赛",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第二十五届“校园之春”陕西省大学生文化艺术节校园原创歌曲大赛总决赛",
@@ -15446,7 +20502,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第二十五届“校园之春”陕西省大学生文化艺术节校园原创歌曲大赛总决赛",
@@ -15458,7 +20516,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "深圳卫视“名嘴进高校”—刘和平专场讲座预告",
@@ -15470,7 +20530,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "深圳卫视“名嘴进高校”—刘和平专场讲座预告",
@@ -15482,7 +20544,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第36届迎新晚会重磅来袭",
@@ -15494,7 +20558,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "全国首届大学生税收辩论赛（西安赛区）在我校举办",
@@ -15506,7 +20572,65 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "关于领取第六届全国大学生数学竞赛准考证的通知",
+   "date": "2014-10-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6716.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于取消2014年11月四、六级网考的通知",
+   "date": "2014-10-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6698.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织学生参加西安交通大学第一届大学生物理学术竞赛的通知",
+   "date": "2014-10-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6724.htm",
+   "competition": "中国大学生物理学术竞赛",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2014年11月全国大学英语四、六级网考报名通知",
+   "date": "2014-10-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6725.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2014年选派团干部到县级团委挂职工作的通知",
@@ -15518,7 +20642,37 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于2015届毕业班图像信息采集期间课程安排的通知",
+   "date": "2014-10-13",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3980.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2015届普通本科毕业生图像信息采集的通知",
+   "date": "2014-10-13",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3955.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2014级新生组建团支部及办理团组织关系转接工作的通知",
@@ -15530,7 +20684,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "“学而”讲坛——教授系列讲座第293讲",
@@ -15542,7 +20698,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第36届迎新晚会节目征集正式启动啦！",
@@ -15554,7 +20712,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "关于2014-2015学年第一学期基础通识类选修课和基础通识类核心课改选通知",
+   "date": "2014-09-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4507.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学第二十九届“最佳团日”评选活动通知",
@@ -15566,7 +20740,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于招募 “于右任先生日记及书法精品回故乡特展”志愿者的通知",
@@ -15578,7 +20754,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学学生会志愿者大队开始招募啦！",
@@ -15590,7 +20768,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "新生杯篮球赛明日正式开始",
@@ -15602,7 +20782,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "关于本学期基础通识类选修课和基础通识类核心课选课通知",
+   "date": "2014-09-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4520.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2015届研究生支教团成员公示",
@@ -15614,7 +20810,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "第12届“新生杯”综合棋类比赛火热报名",
@@ -15626,7 +20824,51 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2014-2015学年第一学期《计算机应用基础专题实验》课程安排",
+   "date": "2014-09-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4541.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "西安交通大学2015年招收推荐免试研究生章程",
+   "date": "2014-09-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3957.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于2015届毕业生免试推荐研究生信息报送的通知",
+   "date": "2014-09-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3960.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2014诺贝尔奖得主西安交大校园行讲座(三)",
@@ -15638,7 +20880,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2014-2015学年第一学期2013级24式太极拳课程安排",
+   "date": "2014-09-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4585.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "新生面对面——交大学子理想首发站",
@@ -15650,7 +20908,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于2014年12月全国大学外语四、六级考试报名的通知",
+   "date": "2014-09-14",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6704.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "多国航天员报告会通知",
@@ -15662,7 +20936,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于领取2014年下半年全国计算机等级考试《准考证》的通知",
+   "date": "2014-09-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6739.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "梧桐苑东门，教师节纪念品免费发送",
@@ -15674,7 +20964,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于从2015届本科毕业生中招募志愿者参加第十七届研究生支教团的通知",
@@ -15686,7 +20978,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2014诺贝尔奖得主西安交大校园行讲座(二)",
@@ -15698,7 +20992,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2014诺贝尔奖得主西安交大校园行讲座(一)",
@@ -15710,7 +21006,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于本学期2013级《大学英语》、《体育》课补选的通知",
+   "date": "2014-09-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4564.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "关于做好推荐2015届优秀本科毕业生免试攻读硕士学位研究生的通知",
+   "date": "2014-09-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3967.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2014级体育选课的通知",
+   "date": "2014-09-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4504.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "关于2014级《大学英语》课表安排的通知",
+   "date": "2014-09-05",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4579.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "【中秋节活动】NEW PLAN",
@@ -15722,7 +21076,79 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于公布2013级转专业终审合格名单的通知",
+   "date": "2014-07-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3979.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于公布2012级金禾中心转专业终审合格名单的通知",
+   "date": "2014-07-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3986.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于公布2014-2015学年第一学期课表的通知",
+   "date": "2014-07-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4554.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2014年暑假《高等数学》、《大学物理》重修班开课的通知",
+   "date": "2014-07-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4493.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于暑假期间开放自习教室的通知",
+   "date": "2014-07-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4527.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2014年暑期政府见习大学生选拔结果公示",
@@ -15734,7 +21160,135 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于2013-2014学年夏季小学期基础通识类课程改选和退选的通知",
+   "date": "2014-06-30",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4543.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于夏季小学期《英语强化班》开课的通知",
+   "date": "2014-06-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4522.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于发放2014年全国大学生英语竞赛获奖证书的通知",
+   "date": "2014-06-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6751.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于领取2014年3月全国计算机等级考试合格证书的通知",
+   "date": "2014-06-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6721.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于表彰2014年全国大学生英语竞赛获奖学生的通报",
+   "date": "2014-06-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6705.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于开办《高等数学》、《大学物理》重修班的通知",
+   "date": "2014-06-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4580.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2014年第六届全国大学生数学竞赛报名通知",
+   "date": "2014-06-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6731.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2014届毕业生延长学习时间及结业有关事宜的通知",
+   "date": "2014-06-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3988.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于公布金禾经济研究中心2012级本科生转专业初审名单的通知",
+   "date": "2014-06-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3964.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于选派优秀大学生到政府机关见习工作的通知",
@@ -15746,7 +21300,359 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "关于全国大学外语四六级考试期间停课的通知",
+   "date": "2014-06-10",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4517.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于公布2013级转专业初审合格名单的通知",
+   "date": "2014-06-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3956.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2014年下半年全国计算机等级考试报名的通知",
+   "date": "2014-06-03",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6720.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2013-2014学年第二学期《生命科学导论》考试安排",
+   "date": "2014-06-03",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6964.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "数学与统计学院2013级转专业学生面试安排",
+   "date": "2014-05-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3972.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期拓展类英语课程考试安排",
+   "date": "2014-05-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6983.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《电力工程》考试安排",
+   "date": "2014-05-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6977.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《机械设计基础48学时》考试安排",
+   "date": "2014-05-29",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6995.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于在2012级本科生中选拔法学卓越班学生的通知",
+   "date": "2014-05-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3952.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于在2012级中选拔经济学（数量经济与金融）试点班学生的通知",
+   "date": "2014-05-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3970.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《微型计算机原理与接口技术》考试安排",
+   "date": "2014-05-27",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6989.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "电气学院2013级转专业学生面试安排",
+   "date": "2014-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3961.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "化学工程与技术学院2013级转专业学生面试安排",
+   "date": "2014-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3993.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2013-2014学年第二学期学生证补办的通知",
+   "date": "2014-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3953.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《智能仪器与虚拟仪器设计》考试安排",
+   "date": "2014-05-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6970.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《机械系统故障诊断》考试安排",
+   "date": "2014-05-23",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6973.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "电子与信息工程学院2013级转专业面试通知",
+   "date": "2014-05-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3975.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "材料学院2013级转专业面试安排",
+   "date": "2014-05-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3985.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014第二学期大学数学期末讲座安排",
+   "date": "2014-05-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4573.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "能源与动力工程学院接收2013级转专业学生面试安排",
+   "date": "2014-05-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3977.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于表彰2014年美国大学生数学建模竞赛我校获奖学生和指导教师的通报",
+   "date": "2014-05-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6733.htm",
+   "competition": "美国大学生数学建模竞赛",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2013-2014学年第二学期《电工电子技术1》考试安排",
+   "date": "2014-05-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6961.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《模拟电子技术》考试安排",
+   "date": "2014-05-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6967.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2013级大学英语考试安排",
+   "date": "2014-05-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6962.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于结业生换发毕业证书的通知",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3963.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于组织开展2014 年大学生暑期“三下乡”社会实践活动的通知",
@@ -15758,7 +21664,107 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "2013-2014学年第二学期基础通识类课程《数据库基础及应用》考试安排",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6969.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《数控技术》考试安排",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6993.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《数学建模Ⅰ》考试安排",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6972.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2013-2014学年第二学期《光电检测技术》考试安排",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7010.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2013级《工程分析程序设计》考试安排",
+   "date": "2014-05-20",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6999.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "机械工程学院2013级本科生转专业考试安排",
+   "date": "2014-05-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6963.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2013级《计算机程序设计》考试安排",
+   "date": "2014-05-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7006.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "中国大学生威盛中国芯·HTC·计算机表演赛方案",
@@ -15770,7 +21776,51 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "经金学院2013级本科生转专业面试安排",
+   "date": "2014-05-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3951.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《社会学概论》考试安排",
+   "date": "2014-05-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6980.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "第十届周培源杯全国大学生力学竞赛辅导报名通知",
+   "date": "2014-05-14",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6709.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“冰力玩家HIGH歌校园行”走进西安交通大学",
@@ -15782,7 +21832,107 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《机电液传动与控制》考试安排",
+   "date": "2014-05-14",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6981.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《音乐鉴赏》考试安排",
+   "date": "2014-05-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6971.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《金属成形工艺及模具》考试安排",
+   "date": "2014-05-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6988.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "电气学院、电信学院2013级本科生转专业考试安排",
+   "date": "2014-05-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6979.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《特种加工技术》考试安排",
+   "date": "2014-05-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6991.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《模具特种加工技术》考试安排",
+   "date": "2014-05-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6992.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《工程经济学》考试安排",
+   "date": "2014-05-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6959.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于转发《陕西广播电视台全国公益广告大赛征稿启事》的通知",
@@ -15794,7 +21944,23 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2014年校内英语四级考试的通知",
+   "date": "2014-05-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7004.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
   },
   {
    "title": "“爱我中华，青春更隽永”西安交通大学传统文化月活动一览",
@@ -15806,7 +21972,93 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《电工电子技术1》考试安排",
+   "date": "2014-05-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6975.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《流体传动与伺服控制》考试安排",
+   "date": "2014-05-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7003.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《机械自动化器件及其应用》考试安排",
+   "date": "2014-05-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7009.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《机械电子工程基础》考试安排",
+   "date": "2014-05-08",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7000.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《有限元分析及工程应用》考试安排",
+   "date": "2014-05-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6958.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2010级《国家学生体质健康标准》补测安排",
+   "date": "2014-05-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6978.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学学生赛艇俱乐部经理团队招募",
@@ -15818,7 +22070,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2014年大学生志愿服务西部计划招募通知",
@@ -15830,7 +22084,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展节能宣传作品征集活动的通知",
@@ -15842,7 +22098,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2014—2015年度共青团西安交通大学基层干部联谊会主席团换届竞选的通知",
@@ -15854,7 +22112,51 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "2013-2014学年第二学期《模拟电子技术》考试安排",
+   "date": "2014-05-04",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6966.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《数字电子技术》考试安排",
+   "date": "2014-05-04",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6985.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年夏季小学期基础通识类课程改选通知",
+   "date": "2014-04-30",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4526.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "“弘扬体育精神，‘武’动青春梦想”——西安交通大学第十二届武术文化节大型综艺晚会重磅来袭！",
@@ -15866,7 +22168,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "“弘扬体育精神，‘武’动青春梦想”——西安交通大学第十二届武术文化节大型综艺晚会重磅来袭！",
@@ -15878,7 +22182,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "“舌尖上的“战争” ——陕西省第四届秦风杯辩论赛正式开幕",
@@ -15890,7 +22196,401 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "2013-2014学年第二学期《摩擦学》考试安排",
+   "date": "2014-04-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6987.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年夏季小学期基础通识类课程考试安排",
+   "date": "2014-04-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6974.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "金禾经济研究中心接收2013级转专业学生实施办法",
+   "date": "2014-04-26",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3978.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "航天航空学院接收2013级转专业学生实施办法",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3987.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "经济与金融学院接收转专业本科生实施办法",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3995.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "理学院接收2013级转专业本科生实施办法",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3959.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "数学与统计学院接收2013级转专业本科生实施办法",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3968.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于夏季小学期《英语强化班》选课的通知",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4500.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "公共政策与管理学院接收2013级转专业学生实施办法",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3981.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期机械学院专业选修课考试安排",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6986.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《概率论》考试安排",
+   "date": "2014-04-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6982.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "软件学院接收2013级本科生转专业实施办法",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3990.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "外国语学院接收2013级转专业学生实施办法",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3982.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "化工学院接收2013级转专业学生实施办法",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3950.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于取消2014年5月四、六级网考的通知",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6730.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "人居学院接收2013级转专业本科生实施办法",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3971.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《大学物理Ⅰ1、Ⅱ1、A1》期中考试安排",
+   "date": "2014-04-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7007.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "电子与信息工程学院接收2013级本科生转专业实施办法",
+   "date": "2014-04-23",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3991.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "医学部接收2013级转专业学生实施办法",
+   "date": "2014-04-23",
+   "url": "https://jwc.xjtu.edu.cn/info/1095/3974.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于公布2014年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
+   "date": "2014-04-23",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6711.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2013-2014学年夏季小学期选课的通知",
+   "date": "2014-04-22",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4608.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2014年5月全国大学英语四、六级网考报名通知",
+   "date": "2014-04-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6689.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "2014-2015学年第一学期2013级《大学英语》选课通知",
+   "date": "2014-04-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4591.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《工程制图2》考试安排",
+   "date": "2014-04-18",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6998.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于“五一”国际劳动节放假的通知",
+   "date": "2014-04-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4603.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期《高等数学》期中考试安排",
+   "date": "2014-04-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6976.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于运动会期间停课的通知",
+   "date": "2014-04-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4600.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
+  },
+  {
+   "title": "2013-2014学年第二学期《数学物理方程》考试安排",
+   "date": "2014-04-14",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6965.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于推选第九届“中国青少年科技创新奖”候选人的通知",
@@ -15902,7 +22602,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“纵论四海”高端报告会第二十二讲通知",
@@ -15914,7 +22616,65 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "海外交流面试辅导讲座通知",
+   "date": "2014-04-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4593.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于领取2014年大学生英语竞赛准考证的通知",
+   "date": "2014-04-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6701.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2013级英语课网上选课的通知",
+   "date": "2014-04-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4604.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于2013级体育课网上选课的通知",
+   "date": "2014-04-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4607.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "“纵论四海”高端报告会第二十二讲通知",
@@ -15926,7 +22686,23 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《数学建模Ⅱ》《线性代数》课程考试安排",
+   "date": "2014-04-09",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7005.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第七届“节能减排”大赛通知",
@@ -15938,7 +22714,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于申报第13 届“陕西青年五四奖章”人选的通知",
@@ -15950,7 +22728,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于招募遴选我校寒假到省政府机关见习学生的通知",
@@ -15962,7 +22742,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举办“多彩社团，我的青春梦” 2014社团年度十大人物评选活动的通知",
@@ -15974,7 +22756,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2014年元旦活动的通知",
@@ -15986,7 +22770,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "青春的选择—燕君芳女士创业经验分享讲座",
@@ -15998,7 +22784,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第八届西安交通大学“创源”科技学术论坛",
@@ -16010,7 +22798,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "校庆特辑之“校友指南针”活动——交大杰出校友江忠永报告会通知",
@@ -16022,7 +22812,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "文治讲坛之“走进MOOC”报告会举行",
@@ -16034,7 +22826,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "教师节，我们一起为老师祝福",
@@ -16046,7 +22840,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学而讲坛：音乐的基本问题及认识",
@@ -16058,7 +22854,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学而讲坛：孙子兵法与人生智慧",
@@ -16070,7 +22868,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学而讲坛：孔子思想对二十一世纪人类文明的启示",
@@ -16082,7 +22882,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "创源论坛：房地产市场分析",
@@ -16094,7 +22896,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“学而讲坛”七周年：易中天《中华文明的根基》专题讲座",
@@ -16106,7 +22910,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“学而”讲坛——教授系列讲座第263讲",
@@ -16118,7 +22924,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于启动2014年本科生科研训练和实践创新基金项目申报工作的通知",
@@ -16130,7 +22938,261 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
+  },
+  {
+   "title": "中国共产主义青年团章程",
+   "date": "2014-04-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=2171",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "中国共产主义青年团团旗",
+   "date": "2014-04-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=2170",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "中国共产主义青年团团徽",
+   "date": "2014-04-04",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=2169",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "2013-2014学年第二学期《计算方法》考试安排",
+   "date": "2014-04-03",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/6994.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期健康标准补测通知",
+   "date": "2014-04-02",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/7008.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于全国大学外语四、六级考试报名采集图像信息的通知",
+   "date": "2014-03-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6755.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于2014年6月全国大学外语四、六级考试报名的通知",
+   "date": "2014-03-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/6744.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于申报新增基础通识类选修课的通知",
+   "date": "2014-03-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4592.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于本学期校内英语四级培训班开课的通知",
+   "date": "2014-03-19",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4609.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "等级考试",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于本学期基础通识类选修课和基础通识类核心课改选通知",
+   "date": "2014-03-17",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4601.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
+  },
+  {
+   "title": "关于2014届毕业生招聘期间调课的通知",
+   "date": "2014-03-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4596.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2012级《会计学》辅修课程安排",
+   "date": "2014-03-07",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4597.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2012级德语辅修课程安排",
+   "date": "2014-03-06",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4598.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2012级24式太极拳课程安排（雁塔校区）",
+   "date": "2014-03-04",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4599.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "关于本学期基础通识类选修课和基础通识类核心课选课通知",
+   "date": "2014-03-03",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4606.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2012级24式简化太极拳目标教学实施办法",
+   "date": "2014-02-28",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4595.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "2013-2014学年第二学期2011级德语辅修课程安排",
+   "date": "2014-02-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4602.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
+  },
+  {
+   "title": "大学数学系列课程补考复习讲座时间安排",
+   "date": "2014-02-21",
+   "url": "https://jwc.xjtu.edu.cn/info/1093/4605.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于2012级英语课网上补选的通知",
@@ -16142,7 +23204,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2014年西安交通大学跨校辅修专业报名通知",
@@ -16154,7 +23218,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2014年密西根大学迪尔本分校交流学习选拔通知",
@@ -16166,7 +23232,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2014年加州大学伯克利分校Summer School选拔报名通知",
@@ -16178,7 +23246,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2014年辅修专业教学计划",
@@ -16190,7 +23260,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2013年陕西公办普通本科高等学校教学改革研究项目我校获批名单",
@@ -16202,7 +23274,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2013—2014学年第1学期教育质量督导情况简报（二）",
@@ -16214,7 +23288,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学第十届“腾飞杯”大学生创业计划竞赛的通知",
@@ -16226,7 +23302,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "著名军旅作家党益民学术报告通知",
@@ -16238,7 +23316,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公示首届“勇创杯”大学生“微重力健康生活”创意设计大赛获奖作品的通知",
@@ -16250,7 +23330,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于开展西安交通大学第二十八届“最佳团日”评选活动的通知",
@@ -16262,7 +23344,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "2013—2014学年第1学期教育质量督导情况简报（一）",
@@ -16274,7 +23358,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展“为建设海洋强国奉献青春”第六届全国大中学生海洋知识竞赛活动的通知",
@@ -16286,7 +23372,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2014届研究生支教团成员公示",
@@ -16298,7 +23386,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于从2014届本科毕业生中招募志愿者参加第十六届研究生支教团的通知",
@@ -16310,7 +23400,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "研发主管",
@@ -16322,7 +23414,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "生物信息工程师",
@@ -16334,7 +23428,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "市场策划总监",
@@ -16346,7 +23442,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "宏观经济研究人员",
@@ -16358,7 +23456,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "北京诺禾致源生物信息技术有限公司",
@@ -16370,7 +23470,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "北京诺禾致源生物信息技术有限公司",
@@ -16382,7 +23484,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "北京诺禾致源生物信息技术有限公司",
@@ -16394,7 +23498,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "储备主管",
@@ -16406,7 +23512,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于组织参加第九届“花旗杯”金融创新应用大赛的通知",
@@ -16418,7 +23526,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办第八届全国信息技术应用水平大赛的通知",
@@ -16430,7 +23540,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学本科“十二五”规划教材建设第二批立项项目",
@@ -16442,7 +23554,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学本科“十二五”规划教材建设第一批立项项目",
@@ -16454,7 +23568,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "普通高等教育第一批“十二五” 本科国家级规划教材书目我校入选名单",
@@ -16466,7 +23582,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学首届“勇创杯”大学生“微重力健康生活”创意设计大赛选拔赛通知",
@@ -16478,7 +23596,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于推荐第八届“中国青少年科技创新奖”候选人的通知",
@@ -16490,7 +23610,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2013年大学生暑期“三下乡”社会实践活动正式启动",
@@ -16502,7 +23624,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2013年大学生暑期“三下乡”社会实践活动正式启动",
@@ -16514,7 +23638,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "刘墉讲座通知",
@@ -16526,7 +23652,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "刘墉讲座通知",
@@ -16538,7 +23666,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于第六届全国大学生机械创新设计大赛报名的通知",
@@ -16550,7 +23680,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于在全校2011级各专业本科生中选拔法学卓越班学生的通知",
@@ -16562,7 +23694,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学2013年ACM-ICPC程序设计竞赛的通知",
@@ -16574,7 +23708,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交通大学2013年大学生志愿服务西部计划招募通知",
@@ -16586,7 +23722,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "九州名家”系列高端讲座第二十四讲通知",
@@ -16598,7 +23736,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“九州名家”系列高端讲座第二十四讲通知",
@@ -16610,7 +23750,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于推选西安交通大学第三十一届学生委员会委员候选人的通知",
@@ -16622,7 +23764,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于征集西安交通大学第三十一次学生代表大会代表提案的通知",
@@ -16634,7 +23778,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于进行我校第三十一次学生代表大会代表选举工作的通知",
@@ -16646,7 +23792,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于评选我校“优秀学生分会”、“优秀班委会”、“优秀学生干部”的通知",
@@ -16658,7 +23806,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于召开我校第三十一次学生代表大会的通知",
@@ -16670,7 +23820,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学首届创业实践大赛暨第九届“腾飞杯”大学生创业计划大赛的通知",
@@ -16682,7 +23834,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于举办西安交通大学首届创业实践大赛暨第九届“腾飞杯”大学生创业计划大赛的通知",
@@ -16694,7 +23848,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2012年度“新东方西部特困大学生专项助学金”推荐人选公示",
@@ -16706,7 +23862,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学教育基金会徽标（LOGO）设计大赛的通知",
@@ -16718,7 +23876,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "西安交大辩论队参加“德辩”2013大专华语辩论会之世界精英邀请赛取得佳绩",
@@ -16730,7 +23890,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交大2013年硕士生入学考试初试成绩公布",
@@ -16742,7 +23904,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2012年度寻访“中国大学生自强之星”和推荐“新东方西部特困助学金”候选人的通知",
@@ -16754,7 +23918,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于公布新一届“西安交通大学教育质量专家督导组”成员名单的通知",
@@ -16766,7 +23932,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于选拔西安交通大学学生到省政府机关见习的通知",
@@ -16778,7 +23946,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“纵论四海”系列高端报告会第二十讲通知",
@@ -16790,7 +23960,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于清理整顿校园内各类橱窗、广告悬置物和张贴物的通知",
@@ -16802,7 +23974,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【ISAX思远讲坛】留学那些事",
@@ -16814,7 +23988,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第6届大学生“企业社会责任”征文大赛——洞察社会 领导未来",
@@ -16826,7 +24002,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "【思远讲坛】听美国企业家谈成功",
@@ -16838,7 +24016,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“我心中的赞歌献给最亲爱的党——用最美的声音谱写十八大的礼赞”主题晚会即将登场",
@@ -16850,7 +24030,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "孙振宇大使将做客西安交大“纵论四海”第十八场报告会",
@@ -16862,7 +24044,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2013届研究生支教团成员公示",
@@ -16874,7 +24058,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于从2013届本科毕业生中招募志愿者参加第十五届研究生支教团的通知",
@@ -16886,7 +24072,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "让我们的思想和精神丰富起来",
@@ -16898,7 +24086,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交大人才培养系列报道：改革研究生培养机制 提高研究生培养质量",
@@ -16910,7 +24100,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "【中国科学报】西安交通大学校长郑南宁：教育是一门需要认真研究的艺术",
@@ -16922,7 +24114,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举行2012届学生毕业典礼的通知",
@@ -16934,7 +24128,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2011年陕西普通高等学校教学改革研究项目我校获批名单",
@@ -16946,7 +24142,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2011年陕西普通高等学校优秀教材名单",
@@ -16958,7 +24156,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学英文授课课程详表",
@@ -16970,7 +24170,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交大人才培养系列报道：在工程坊实践创新梦想",
@@ -16982,7 +24184,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "中国教育报》：西安交大构筑学生自主发展的温馨家园",
@@ -16994,7 +24198,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "《中国科学报》：没“水分”的教师培训才具吸引力",
@@ -17006,7 +24212,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“2012年西安交通大学毕业生欢庆之夜”开始报名啦！！",
@@ -17018,7 +24226,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "关于推选西安交通大学第三十届第三任学生委员会委员候选人的通知",
@@ -17030,7 +24240,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学关于组织开展2012年大学生暑期“三下乡” 社会实践活动的通知",
@@ -17042,7 +24254,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "仲英书院2012年“我的大学生活”中期答辩通过小组名单",
@@ -17054,7 +24268,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "CNEX-AOC“明日家园”主题纪录片影展",
@@ -17066,7 +24282,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2012年三花控股集团有限公司暑期夏令营活动通知",
@@ -17078,7 +24296,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学创业训练项目通知",
@@ -17090,7 +24310,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办仲英书院2012年“春诵夏行”之“爱在路上，知行之旅”暑期志愿服务活动的通知",
@@ -17102,7 +24324,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举办2012年度大学生心理健康月活动的通知",
@@ -17114,7 +24338,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲英书院“春诵夏行”之“英仔晒书会”系列活动读书心得征稿大赛",
@@ -17126,7 +24352,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "文治宗濂合办讲座——“青年中国说”之如何面对现代高风险社会",
@@ -17138,7 +24366,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "32届交大之星——“年轻，无所畏”五月华丽绽放",
@@ -17150,7 +24380,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2012年暑期实习生招聘会参会企业名单公布",
@@ -17162,7 +24394,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "科学道德和学风建设宣讲系列报告——弘扬科学道德 加强学风建设",
@@ -17174,7 +24408,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "你与财富之间的距离——“未来经济领袖课堂”即将举行",
@@ -17186,7 +24422,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "中国银行.西安交通大学学生话剧团成立15周年原创独幕剧专场晚会即将上演",
@@ -17198,7 +24436,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "招募“第五届全国大学生节能减排社会实践与科技竞赛决赛”志愿者通知",
@@ -17210,7 +24450,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于启动我校2012年国家大学生创业训练项目的通知",
@@ -17222,7 +24464,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2012年全国大学生管理决策模拟大赛通知",
@@ -17234,7 +24478,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于招募“第五届全国大学生节能减排大赛”志愿者的通知",
@@ -17246,7 +24492,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "国学雅汇第三十六期——“国乐大家高校行”国乐启蒙音乐会",
@@ -17258,7 +24506,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第三届《我的大学生活》立项报告审核通过名单",
@@ -17270,7 +24520,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "经营自己—大学生职业生涯规划讲座",
@@ -17282,7 +24534,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "宪梓堂将于明晚转播央视《五月的鲜花》晚会",
@@ -17294,7 +24548,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于下发2012年5月-6月团组织生活主题的通知",
@@ -17306,7 +24562,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2012年“五一”国际劳动节放假安排的通知",
@@ -17318,7 +24576,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "教育部关于全面提高高等教育质量的若干意见",
@@ -17330,7 +24590,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "美国驻华大使骆家辉演讲通知",
@@ -17342,7 +24604,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学2012年大学生志愿服务西部计划招募通知",
@@ -17354,7 +24618,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展2012西安交通大学本科生就读体验调查的通知",
@@ -17366,7 +24632,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "内布拉斯加大学周文艺汇演通知",
@@ -17378,7 +24646,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学2012年大学生志愿服务西部计划招募通知",
@@ -17390,7 +24660,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "模拟招聘大会简历模板下载",
@@ -17402,7 +24674,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲英书院学生获奖申报通知及附件下载",
@@ -17414,7 +24688,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "就业中心《职前教育网络课堂介绍》",
@@ -17426,7 +24702,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2012西安交通大学本科生就读体验调查指南",
@@ -17438,7 +24716,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于我校参加全省第三届大学生艺术展演活动获奖结果的公示",
@@ -17450,7 +24730,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学数学建模校内赛报名通知",
@@ -17462,7 +24744,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "仲英书院第三届《我的大学生活》选题立项书",
@@ -17474,7 +24758,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲英书院“优衣库”奖学金推荐名单公示",
@@ -17486,7 +24772,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2011—2012学年西安交通大学 学生社团“争甲评优”活动的通知",
@@ -17498,7 +24786,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“纵论四海”高端报告会第十七讲通知",
@@ -17510,7 +24800,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2011年度“全国优秀共青团员”公示表",
@@ -17522,7 +24814,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第一届“中国软件杯”大学生软件设计大赛通知",
@@ -17534,7 +24828,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于“优衣库奖学金”的推荐通知",
@@ -17546,7 +24842,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2012年清明节放假的通知",
@@ -17558,7 +24856,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "仲英书院关于面向2011级学生开设《我的大学生活》通识训练课程的通知",
@@ -17570,7 +24870,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "选课温馨提示",
@@ -17582,7 +24884,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "安 全 紧 急 通 报",
@@ -17594,7 +24898,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲英书院唐仲英德育奖学金公示",
@@ -17606,7 +24912,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "全国道德模范高校巡讲活动通知",
@@ -17618,7 +24926,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学学生宿舍选装空调须知",
@@ -17630,7 +24940,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2011级“唐仲英德育奖学金”评选的通知",
@@ -17642,7 +24954,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第五届全国大学生节能减排社会实践与 科技竞赛校内选拔赛的通知",
@@ -17654,7 +24968,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "仲英书院“蒲公英讲堂”开讲通知",
@@ -17666,7 +24982,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2012年启程日本项目校园大使招聘",
@@ -17678,7 +24996,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "仲英书院学生代表大会常务委员会 换届选举结果的公示",
@@ -17690,7 +25010,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于申报第11届“陕西青年五四奖章”人选的通知",
@@ -17702,7 +25024,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "英国北方大学联合会2012留英硕士交流见面会邀请函",
@@ -17714,7 +25038,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "英国北方大学联合会2012留英硕士交流见面会邀请函",
@@ -17726,7 +25052,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "英国北方大学联合会2012留英硕士交流见面会邀请函",
@@ -17738,7 +25066,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "讲 座 通 知：相约在春天-说给校园女生的悄悄话",
@@ -17750,7 +25080,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于仲英书院公共活动区开放的通知",
@@ -17762,7 +25094,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第五届全国大学生节能减排社会实践与科技竞赛校内选拔赛的通知",
@@ -17774,7 +25108,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": true,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "仔英新闻社招新活动正式启动",
@@ -17786,7 +25122,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于第五届节能减排大赛的报名通知",
@@ -17798,7 +25136,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“中国大学生自强之星”和“新东方西部特困大学生专项助学金”候选人的通知",
@@ -17810,7 +25150,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于积极参加首届陕西省青年公文协作大赛的通知",
@@ -17822,7 +25164,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于2011年度“中国大学生自强之星”和“新东方西部特困大学生专项助学金”的通知",
@@ -17834,7 +25178,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2012元旦游园会的通知",
@@ -17846,7 +25192,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“天涯咫尺，爱心接力，以爱之名，温暖寒冬”崇实书院学生会暖冬行动开始了",
@@ -17858,7 +25206,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“天涯咫尺，爱心接力，以爱之名，温暖寒冬”崇实书院学生会暖冬行动启动",
@@ -17870,7 +25220,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学首届“搜下留情”精英团队赛的通知",
@@ -17882,7 +25234,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "纪念钱学森诞辰100周年系列活动之讲座《钱学森先生改变和影响了我的人生轨迹》",
@@ -17894,7 +25248,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展西安交通大学2011年度优秀志愿者评选表彰活动的通知",
@@ -17906,7 +25262,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "仲英书院英仔爱心社地铁志愿者招新",
@@ -17918,7 +25276,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“纵论四海”高端报告会第十五讲通知",
@@ -17930,7 +25290,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "诺基亚青年就业创业大讲堂即将开讲",
@@ -17942,7 +25304,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "我校首届网络安全技术挑战赛即将开战",
@@ -17954,7 +25318,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "美国马萨诸塞大学洛威尔分校校长讲座通知",
@@ -17966,7 +25332,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“2011高雅艺术进校园”国家京剧院走进西安交通大学",
@@ -17978,7 +25346,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "有关“腾飞杯”报名截止时间延长的通知",
@@ -17990,7 +25360,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展西安交通大学第二十六届“最佳团日”评选活动的通知",
@@ -18002,7 +25374,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于开展西安交通大学第二十六届“最佳团日”评选活动的通知",
@@ -18014,7 +25388,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "开启追梦年华——我校第33届迎新晚会即将开幕",
@@ -18026,7 +25402,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【HOT】研究生迎新晚会重磅来袭！神秘达人组合等你来~",
@@ -18038,7 +25416,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "【HOT】研究生迎新晚会重磅来袭！神秘达人组合等你来~",
@@ -18050,7 +25430,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学2012届研究生支教团成员公示",
@@ -18062,7 +25444,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学学生艺术团2011~2012学年第一期相约星期三",
@@ -18074,7 +25458,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于第四届全国大学生语言文字基本功大赛的通知",
@@ -18086,7 +25472,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“九州名家”系列高端讲座之二十二讲通知",
@@ -18098,7 +25486,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "有关2011年“西安交通大学——第四军医大学”赛艇对抗赛的通知",
@@ -18110,7 +25500,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于从2012届本科毕业生中招募志愿者参加第十四届研究生支教团的通知",
@@ -18122,7 +25514,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举办“西安交通大学第二届大学生职业规划大赛”的通知",
@@ -18134,7 +25528,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "关于做好2011年“三下乡”暑期社会实践后期总结工作的通知",
@@ -18146,7 +25542,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "7月3日毕业生欢庆之夜，在宪梓堂等着你哦！",
@@ -18158,7 +25556,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学2011年“搜下留情”精英团队赛筹备组成员招募公告",
@@ -18170,7 +25570,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展2011年度寻访“天翼希望之星”活动的通知",
@@ -18182,7 +25584,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“首届大学生聚交影像节”作品征集通知",
@@ -18194,7 +25598,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "校团委关于开展纪念建党九十周年系列活动的通知",
@@ -18206,7 +25612,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2011—2012年度学生社团联合会主席团换届竞选的通知",
@@ -18218,7 +25626,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学机械学院 NSK技术交流会",
@@ -18230,7 +25640,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学2011年大学生志愿服务西部计划招募通知",
@@ -18242,7 +25654,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于评选表彰西安交通大学优秀团员优秀团干部和先进团组织的通知",
@@ -18254,7 +25668,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于召开我校共青团第二十七次代表大会的通知",
@@ -18266,7 +25682,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "DS SIMULIA 西安培训讲座",
@@ -18278,7 +25696,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“创新改变时代、梦想引领未来”三一（中国）工程机械工业设计大赛参赛通知",
@@ -18290,7 +25710,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "第五届“创源”科技学术论坛之“为天下人造车”——现代电动汽车技术",
@@ -18302,7 +25724,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "社联十五周年庆“传统文化节”讲座之——中国传统文化思想",
@@ -18314,7 +25738,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学校园模拟大赛正式启动",
@@ -18326,7 +25752,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "名企名人系列报告会通知",
@@ -18338,7 +25766,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "名企名人系列报告会通知",
@@ -18350,7 +25780,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "创业英雄进校园系列讲座通知---北京万通公司董事长冯仑先生演讲会",
@@ -18362,7 +25794,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "社联主席干事见面会",
@@ -18374,7 +25808,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "紧急通知：部分世园会志愿者通行证申请表需再次报送",
@@ -18386,7 +25822,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于我校世园会志愿者培训的通知",
@@ -18398,7 +25836,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "名企名家系列讲座通知",
@@ -18410,7 +25850,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2011年西安地区特殊人士亲子运动会志愿者招募通知",
@@ -18422,7 +25864,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于遴选“AIA求职王语文比赛”参赛选手的通知",
@@ -18434,7 +25878,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于“AIA学术及文化交流项目” 7月团通知",
@@ -18446,7 +25892,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于上报《2011西安世园会境内人员通行证申请表》相关材料的紧急通知",
@@ -18458,7 +25906,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "世园会志愿者最终名单信息核对的通知",
@@ -18470,7 +25920,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "重要通知",
@@ -18482,7 +25934,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "政审表填写说明",
@@ -18494,7 +25948,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学世园会志愿者入选名单",
@@ -18506,7 +25962,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学世园会志愿者面试公示名单及面试安排",
@@ -18518,7 +25976,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于世园会志愿者选拔第二轮面试工作的说明",
@@ -18530,7 +25990,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "世园会志愿者笔试加试考场安排",
@@ -18542,7 +26004,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于世园会志愿者选拔工作的说明",
@@ -18554,7 +26018,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "世园会志愿者初试考试安排下载",
@@ -18566,7 +26032,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于开展西安交通大学世园会志愿者选拔、培训工作的通知",
@@ -18578,7 +26046,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于延长大学生报名参加世园会志愿者截止日期的通知",
@@ -18590,7 +26060,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于2010年“中国大学生自强之星”评选及推荐“新东方西部特困助学金”候选人的通知",
@@ -18602,7 +26074,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2011年元旦游园会的通知",
@@ -18614,7 +26088,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "爱国周活动前期宣传",
@@ -18626,7 +26102,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "校团委发稿须知",
@@ -18638,7 +26116,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2011年学生团体票的通知",
@@ -18650,7 +26130,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第二届“我和我的交大”校园原创文学大赛征稿启事",
@@ -18662,7 +26144,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "“九州名家”系列高端报告会之第十九讲通知",
@@ -18674,7 +26158,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "九州名家第十八讲：陆德先生“2010年中国经济走势及对策”专题讲座",
@@ -18686,7 +26172,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "天津卫视《声震八方》西安交通大学路演会",
@@ -18698,7 +26186,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "2011届研究生支教团选拔结果公示",
@@ -18710,7 +26200,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于从2011届本科毕业生中招募志愿者参加第十三届研究生支教团的通知",
@@ -18722,7 +26214,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“世博会”奥地利“巴赫勒”合唱团将来我校交流演出",
@@ -18734,7 +26228,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于公示“西安交通大学首届创意大赛”获奖名单的通知",
@@ -18746,7 +26242,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "C9暑期联合社会实践项目简介",
@@ -18758,7 +26256,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "6.22国家芭蕾舞团演出领票通知",
@@ -18770,7 +26270,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "学生领取交大兴庆校区室内游泳池免费体验游泳票的通知",
@@ -18782,7 +26284,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "西安交通大学2010年毕业生“欢腾之夜”演员火热征集中",
@@ -18794,7 +26298,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "我校艺术团将参加“五月的鲜花”大型文艺演出活动",
@@ -18806,7 +26312,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "我校2010年学生暑期社会实践活动正式启动",
@@ -18818,7 +26326,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "“西部情怀·相约交大”三校联合文艺演出将隆重上演",
@@ -18830,7 +26340,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "1111111111111",
@@ -18842,7 +26354,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第九届海峡两岸知识大赛 海选报名开始啦！",
@@ -18854,7 +26368,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2004-2009年国家级教改项目清单",
@@ -18866,7 +26382,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学大学生志愿服务西部计划招募通知",
@@ -18878,7 +26396,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于表彰西安交通大学2009年共青团工作先进个人的决定",
@@ -18890,7 +26410,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于表彰西安交通大学2009年“红旗团工委”“特色团工委”的决定",
@@ -18902,7 +26424,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "《当前宏观经济形势及“十二五”发展战略分析》讲座通知",
@@ -18914,7 +26438,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "花样青春 决战舞台",
@@ -18926,7 +26452,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于评选表彰西安交通大学2009～2010学年优秀团员、优秀团干部和先进团组织的通知",
@@ -18938,7 +26466,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办西安交通大学团校第十八期“精英班”的通知",
@@ -18950,7 +26480,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于举办西安交通大学团校第十八期“精英班”的通知",
@@ -18962,7 +26494,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "关于举办西安交通大学团校第十七期“领导班”的通知",
@@ -18974,7 +26508,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "思政学习",
+   "group": "思政学习"
   },
   {
    "title": "西安交通大学2010年大学生志愿服务西部计划招募通知",
@@ -18986,7 +26522,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "相约交大，共度五四",
@@ -18998,7 +26536,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于参与“我与祖国共奋进——伴我成长的歌声”青春歌会活动的通知",
@@ -19010,7 +26550,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展“2009中国大学生年度人物”评选活动的通知",
@@ -19022,7 +26564,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展“2009中国大学生年度人物”评选活动的通知",
@@ -19034,7 +26578,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展“2009中国大学生年度人物”评选活动的通知",
@@ -19046,7 +26592,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于开展“2009中国大学生年度人物”评选活动的通知",
@@ -19058,7 +26606,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学赈灾志愿者招募启事",
@@ -19070,7 +26620,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学赈灾志愿者招募启事",
@@ -19082,7 +26634,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "关于举办“西安交通大学创意大赛”的通知",
@@ -19094,7 +26648,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "话剧《我和你，在一起》周三18：50 宪梓堂 倾情上演",
@@ -19106,7 +26662,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "文体竞赛",
+   "group": "文体竞赛"
   },
   {
    "title": "关于开展“爱心汇甘泉，真情暖心田”――情系灾区募捐活动的通知",
@@ -19118,7 +26676,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "科技总动员 你我来参与",
@@ -19130,7 +26690,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“骨干班”培训——王小力书记讲座",
@@ -19142,7 +26704,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于2010年上海世博会陕西省园区志愿者入选人员",
@@ -19154,7 +26718,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2010年上海世博会陕西园区志愿者进入面试人员笔试成绩公告",
@@ -19166,7 +26732,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "[新学期 相约星期三]重磅出击！！！",
@@ -19178,7 +26746,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "世博会志愿者选拔复试名单",
@@ -19190,7 +26760,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "西安交通大学第十一届优秀教材获奖名单",
@@ -19202,7 +26774,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2009年陕西普通高等学校优秀教材奖名单",
@@ -19214,7 +26788,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "“新东方西部特困大学生专项助学金”候选人公示",
@@ -19226,7 +26802,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于推荐2009年度“中国大学生自强之星”候选人的通知",
@@ -19238,7 +26816,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
@@ -19250,7 +26830,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
   },
   {
    "title": "2009年我校获批11项陕西普通本科高等学校教学改革研究项目",
@@ -19262,7 +26844,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "fdsgdgdhdfhdhdfhdh",
@@ -19274,7 +26858,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "“大学生社区挂职锻炼”志愿服务志愿者招募启事",
@@ -19286,7 +26872,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "社会实践",
+   "group": "社会实践"
   },
   {
    "title": "2007年陕西高等教育教学改革研究项目立项名单",
@@ -19298,7 +26886,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "普通高等教育“十一五”国家级规划教材(补充)选题我校入选名单",
@@ -19310,7 +26900,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2007年陕西普通高校优秀教材获奖名单",
@@ -19322,7 +26914,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第十届优秀教材获奖名单",
@@ -19334,7 +26928,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学本科“十一五”规划教材建设第二批立项项目",
@@ -19346,7 +26942,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学本科“十一五”规划教材建设第一批立项项目",
@@ -19358,7 +26956,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "教育部公布“十一五”国家级规划教材我校入选名单",
@@ -19370,7 +26970,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学2004年本科教学改革研究项目",
@@ -19382,7 +26984,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学1998年教改项目一览",
@@ -19394,7 +26998,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "1997年国家级教改项目一览",
@@ -19406,7 +27012,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "第三轮陕西高等教育教学改革研究项目",
@@ -19418,7 +27026,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2005年陕西普通高等学校优秀教材获奖名单",
@@ -19430,7 +27040,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "我校承担的陕西“21世纪初高等教育教学改革工程”研究项目",
@@ -19442,7 +27054,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第九届优秀教材获奖名单",
@@ -19454,7 +27068,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "1999年陕西省项目一览",
@@ -19466,7 +27082,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   },
   {
    "title": "西安交通大学“新世纪本科生系列教材”第二批立项项目",
@@ -19478,7 +27096,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学“新世纪本科生系列教材”第一批立项项目",
@@ -19490,7 +27110,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学“新世纪本科生系列教材”列入国家“十五”教材建设规划项目",
@@ -19502,7 +27124,9 @@ window.SITE_DATA = {
    "isCompetition": false,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "2002年全国普通高等学校优秀教材西安交通大学获奖书目",
@@ -19514,7 +27138,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第八届优秀教材获奖名单",
@@ -19526,7 +27152,9 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "教学信息",
+   "group": "教学信息"
   },
   {
    "title": "西安交通大学第七届优秀讲义获奖名单",
@@ -19538,22 +27166,24 @@ window.SITE_DATA = {
    "isCompetition": true,
    "isCampus": false,
    "deadline": "",
-   "deadlineScore": 0
+   "deadlineScore": 0,
+   "cat": "其他",
+   "group": "其他"
   }
  ],
  "monthHistogram": {
-  "1": 56,
-  "2": 30,
-  "3": 172,
-  "4": 215,
-  "5": 189,
-  "6": 116,
-  "7": 63,
-  "8": 65,
-  "9": 128,
-  "10": 104,
-  "11": 87,
-  "12": 100
+  "1": 61,
+  "2": 33,
+  "3": 225,
+  "4": 265,
+  "5": 247,
+  "6": 136,
+  "7": 83,
+  "8": 84,
+  "9": 162,
+  "10": 134,
+  "11": 127,
+  "12": 114
  },
  "cadenceCount": 40,
  "quickLinks": [
@@ -20261,17 +27891,44 @@ window.SITE_DATA = {
     "key": "jwc",
     "label": "教务处 · 教学通知",
     "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2"
+   },
+   {
+    "key": "jwc_ksap",
+    "label": "教务处 · 考试安排",
+    "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/ksap"
+   },
+   {
+    "key": "jwc_jsap",
+    "label": "教务处 · 竞赛安排",
+    "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsap"
+   },
+   {
+    "key": "jwc_kcap",
+    "label": "教务处 · 课程安排",
+    "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/kcap"
+   },
+   {
+    "key": "jwc_xjgl",
+    "label": "教务处 · 学籍管理",
+    "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/xjgl"
+   },
+   {
+    "key": "jwc_pyfa",
+    "label": "教务处 · 培养方案",
+    "base": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/pyfa"
    }
   ],
   "noticeSkipped": {
    "ee.xjtu.edu.cn/dtgh/txgz.htm": "电气学院·团学工作, 内容是党团活动(团组织生活会、党支部大会), 非竞赛; 且为图片卡片结构",
    "news.xjtu.edu.cn": "图文新闻门户, 列表项无日期, 内容以新闻报道而非通知为主, 信号弱",
    "gs.xjtu.edu.cn": "研究生院, 首页以招生/培养通知为主(录取通知书、导师培训), 与本科竞赛关系弱",
-   "tuanwei.xjtu.edu.cn": "校团委, 是 Nuxt.js 单页应用(路由 /passage?id=N), 需要额外解析 __NUXT__ 载荷",
-   "jwc竞赛专栏": "教务处无独立竞赛栏目 —— 实测创新大赛通知属于'教学通知'(jxtz2), 已包含在内"
+   "xsc.xjtu.edu.cn": "学生处, 已实测可抓但模板与现有解析器不同(日期为 <b>25</b><i>2026/06</i> 拆开), 待接入。栏目: xgdt/tzgg.htm 通知公告 / szzc/ztjy.htm 思政之窗 / szzc/znjh.htm 综能计划",
+   "tyzx.xjtu.edu.cn": "体育中心, 已实测可抓但日期只有 MM/DD 没有年份, 需要按抓取时间推断, 风险较高。栏目: ywbl/hdbm.htm 活动报名 / qzty/jshd.htm 竞赛活动"
   }
  },
  "caveats": [
+  "信息按 5 大类组织（学科竞赛 / 文体竞赛 / 社会实践 / 思政学习 / 教学信息），口径参照《西安交通大学本科生综合素质测评内容及评分标准》（xsc.xjtu.edu.cn/info/1038/13333.htm）的评分维度。",
+  "**分类是按标题关键词自动打的**，一条通知只归一类（取最具体的那类）。标题写得诗的（尤其团委的叙事性新闻）会落到「其他」，共 640 条。",
   "西交类别分三档: A类/B类 来自学校《学生学科/科技竞赛A类、B类项目列表》(旧版, 仅 2 页 19 项), C类 来自《电气工程学院C类竞赛列表》(2026-03-25)。标「未认定(待核)」的不代表学校未认定, 只代表这两份名单里没有。",
   "C 类认定会随学校文件、学科竞赛排行榜及竞赛影响力动态调整, 以学院最新通知为准。",
   "电气相关度为 AI 初判, 需人工复核(改 data/curated/ee_relevance.json)。",

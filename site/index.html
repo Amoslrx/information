@@ -24,9 +24,11 @@
 
 <nav class="tabs">
   <div class="wrap">
-    <button class="tab is-active" data-view="catalog">竞赛目录 <span class="pill" id="tabCountCat"></span></button>
-    <button class="tab" data-view="rhythm">年度节律 <span class="pill" id="tabCountRhythm"></span></button>
-    <button class="tab" data-view="notices">校内通知 <span class="pill" id="tabCountNotice"></span></button>
+    <button class="tab is-active" data-view="catalog">学科竞赛 <span class="pill" id="tabCountCat"></span></button>
+    <button class="tab" data-view="notices" data-group="文体竞赛">文体竞赛 <span class="pill" id="tabCountArt"></span></button>
+    <button class="tab" data-view="notices" data-group="社会实践">社会实践 <span class="pill" id="tabCountPractice"></span></button>
+    <button class="tab" data-view="notices" data-group="思政学习">思政学习 <span class="pill" id="tabCountIdeo"></span></button>
+    <button class="tab" data-view="notices" data-group="教学信息">教学信息 <span class="pill" id="tabCountTeach"></span></button>
     <button class="tab" data-view="links">常用网站 <span class="pill" id="tabCountLinks"></span></button>
     <button class="tab" data-view="about">说明与来源</button>
   </div>
@@ -104,10 +106,8 @@
 
     <div id="catList" class="cards"></div>
     <div id="catEmpty" class="empty" hidden>没有符合条件的竞赛，试试放宽筛选。</div>
-  </section>
-
-  <!-- ============ 年度节律 ============ -->
-  <section id="view-rhythm" class="view">
+    <!-- ---- 年度节律与日历(并入学科竞赛页) ---- -->
+  <section id="view-rhythm" class="rhythm-block">
 
     <div class="panel">
       <h2 class="panel-title">全校竞赛通知的月度分布</h2>
@@ -205,8 +205,11 @@
     <p class="hint" id="rhythmCaveat"></p>
   </section>
 
+</section>
+
   <!-- ============ 校内通知 ============ -->
   <section id="view-notices" class="view">
+    <h2 class="view-title" id="noticeTitle">全部通知</h2>
     <div class="toolbar">
       <div class="search-row">
         <input id="nq" type="search" placeholder="搜索通知标题…" autocomplete="off">
@@ -214,12 +217,24 @@
       </div>
       <div class="filter-row">
         <label class="field">
+          <span>信息类别</span>
+          <select id="nCat">
+            <option value="">全部类别</option>
+            <option value="学科竞赛">学科竞赛</option>
+            <option value="等级考试">等级考试</option>
+            <option value="文体竞赛">文体竞赛</option>
+            <option value="社会实践">社会实践</option>
+            <option value="思政学习">思政学习</option>
+            <option value="教学信息">教学信息</option>
+          </select>
+        </label>
+        <label class="field">
           <span>范围</span>
           <select id="nScope">
+            <option value="">不限</option>
             <option value="competition">只看竞赛相关</option>
             <option value="campus">只看校内选拔 / 校赛</option>
             <option value="deadline">只看有截止时间</option>
-            <option value="">全部通知（含行政/教学）</option>
             <option value="matched">仅已关联竞赛</option>
             <option value="unmatched">仅未关联</option>
           </select>
