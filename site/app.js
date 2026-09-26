@@ -64,6 +64,48 @@
 
   function $(id) { return document.getElementById(id); }
 
+  /* ---------------- 搜索匹配 ---------------- */
+
+  /**
+   * 搜索用的文本归一化。
+   *
+   * 朴素子串匹配在中文里很难用: 标题常写成「四、六级」「"挑战杯"」
+   * 「全国大学生（电子设计）竞赛」, 用户输入「四六级」「挑战杯」就搜不到。
+   * 所以两边都先归一化 —— 全角转半角、去掉所有标点与空白 —— 再比较,
+   * 这样「四、六级」与「四六级」归一化后是同一个串。
+   */
+  var PUNCT_RE = /[\s\-_.,;:!?'"`~@#$%^&*()\[\]{}<>\/\\|+=、，。；：！？""''《》〈〉【】〔〕（）·—…￥　]/g;
+
+  function normText(s) {
+    return String(s == null ? '' : s)
+      .replace(/[\uFF01-\uFF5E]/g, function (ch) {   // 全角 ASCII -> 半角
+        return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0);
+      })
+      .toLowerCase()
+      .replace(PUNCT_RE, '');
+  }
+
+  /**
+   * 归一化后再包含匹配; 不中时退回"顺序子序列"匹配,
+   * 于是「电赛」也能搜到「电子设计竞赛」。
+   * 返回 2 = 包含(精确), 1 = 模糊(子序列), 0 = 不匹配。
+   */
+  function matchScore(hay, needle) {
+    if (!needle) return 2;
+    if (hay.indexOf(needle) >= 0) return 2;
+    if (needle.length < 2) return 0;      // 单字的模糊匹配噪声太大, 不做
+    var i = 0;
+    for (var j = 0; j < hay.length && i < needle.length; j++) {
+      if (hay[j] === needle[i]) i++;
+    }
+    return i === needle.length ? 1 : 0;
+  }
+
+  /** 把若干字段拼成已归一化的搜索串。 */
+  function haystack(parts) {
+    return normText(parts.filter(Boolean).join(' '));
+  }
+
   /* ---------------- 徽章 ---------------- */
 
   function eeClass(ee) { return 'b-ee' + (ee || 1); }
@@ -182,9 +224,10 @@
       if (f.moe === 'no' && c.inMoe) return false;
       if (f.recent && !(c.latestNotice && isFresh(c.latestNotice.date))) return false;
       if (f.q) {
-        var hay = [c.name, c.alias, c.organizer, c.reason, c.dept, c.domain,
-                   c.moeNo ? String(c.moeNo) : ''].join(' ').toLowerCase();
-        if (hay.indexOf(f.q) === -1) return false;
+        var hay = haystack([c.name, c.alias, c.organizer, c.reason, c.dept,
+                            c.domain, c.contact,
+                            c.moeNo ? String(c.moeNo) : '']);
+        if (matchScore(hay, normText(f.q)) === 0) return false;
       }
       return true;
     });
@@ -376,7 +419,8 @@
       if (f.scope === 'unmatched' && n.competition) return false;
       if (f.site && n.site !== f.site) return false;
       if (f.range && daysSince(n.date) > +f.range) return false;
-      if (f.q && n.title.toLowerCase().indexOf(f.q) === -1) return false;
+      if (f.q && matchScore(haystack([n.title, n.competition, n.site]),
+                            normText(f.q)) === 0) return false;
       return true;
     });
 
@@ -495,7 +539,7 @@
     var list = all.filter(function (c) {
       if (f.ee && !(c.ee != null && c.ee >= +f.ee)) return false;
       if (f.month && !inWindow(c.cadence, +f.month)) return false;
-      if (f.q && c.name.toLowerCase().indexOf(f.q) === -1) return false;
+      if (f.q && matchScore(haystack([c.name]), normText(f.q)) === 0) return false;
       return true;
     });
 
@@ -699,14 +743,14 @@
   }
 
   function renderQuickLinks() {
-    var q = $('lq').value.trim().toLowerCase();
+    var q = normText($('lq').value);
     var cat = $('linkChips').getAttribute('data-active') || '';
     var list = LINKS.filter(function (l) {
       if (cat && l.category !== cat) return false;
       if (q) {
-        var hay = [l.name, l.url, l.desc, l.category].concat(l.tags || [])
-          .join(' ').toLowerCase();
-        if (hay.indexOf(q) === -1) return false;
+        var hay = haystack([l.name, l.url, l.desc, l.category]
+          .concat(l.tags || []));
+        if (matchScore(hay, q) === 0) return false;
       }
       return true;
     });

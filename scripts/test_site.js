@@ -34,12 +34,21 @@ function ok(cond, label, detail) {
    桩也照做, 否则会报出浏览器里根本不存在的"类型错误"。 */
 function makeEl(id) {
   const attrs = Object.create(null);
+  const handlers = Object.create(null);
   const el = {
     id: id, value: '', checked: false,
     hidden: false, style: {}, href: '',
     tagName: '', children: [],
     classList: { add() {}, remove() {}, toggle() {}, contains() { return false; } },
-    addEventListener() {},
+    // 记录事件处理器, 让测试能真的触发交互(输入搜索词、切筛选),
+    // 而不是只能检查初始渲染。
+    addEventListener(type, fn) {
+      (handlers[type] || (handlers[type] = [])).push(fn);
+    },
+    __handlers: handlers,
+    __fire(type, ev) {
+      (handlers[type] || []).forEach(fn => fn(ev || {}));
+    },
     appendChild(child) { el.children.push(child); return child; },
     removeChild(child) {
       const i = el.children.indexOf(child);
@@ -629,6 +638,61 @@ ok(selecting.length > 0 ? catHTML.includes('badge b-select') : true,
    '校内选拔中的竞赛有「校内选拔中」徽章');
 ok(selecting.length > 0 ? catHTML.includes('open-tag is-select') : true,
    '校内选拔中显示了对应的通知日期');
+
+console.log('\n=== I. 搜索: 标点 / 全半角归一化 ===');
+
+/** 设置搜索框并触发 input, 返回渲染出的 HTML。 */
+function searchCatalog(q) {
+  els.q.value = q;
+  els.q.__fire('input');
+  return els.catList.innerHTML || '';
+}
+function searchNotices(q, scope) {
+  els.nq.value = q;
+  if (scope !== undefined) els.nScope.value = scope;
+  els.nq.__fire('input');
+  return els.noticeList.innerHTML || '';
+}
+
+// 回归: 用户报的问题是「四六级」搜不到「四、六级」。
+// 数据里真实存在这条通知, 用它验证。
+let hit = searchNotices('四六级', '');
+ok(hit.includes('四、六级') || hit.includes('四六级'),
+   '搜「四六级」能命中「四、六级」', '结果长度 ' + hit.length);
+ok(hit.includes('class="notice"'), '该次搜索确实有结果', '结果长度 ' + hit.length);
+
+// 竞赛名里的顿号: 全国大学生电子商务“创新、创意及创业”挑战赛
+hit = searchCatalog('创新创意');
+ok(hit.includes('创新、创意及创业'), '搜「创新创意」能命中「创新、创意及创业」');
+
+// 书名号/引号隔开的情况
+hit = searchCatalog('西门子杯');
+ok(hit.includes('西门子'), '搜「西门子杯」能命中「“西门子杯”…」');
+
+// 全角/半角: 用全角字母搜也应命中
+hit = searchCatalog('ＲＡＩＣＯＭ');
+ok(/RAICOM/i.test(hit), '全角「ＲＡＩＣＯＭ」能命中「RAICOM」', '结果长度 ' + hit.length);
+
+// 模糊回退: 顺序子序列。"电赛" 应能搜到 "电子设计竞赛"
+hit = searchCatalog('电赛');
+ok(hit.includes('电子设计竞赛'), '搜「电赛」能模糊命中「电子设计竞赛」');
+
+// 但不应把完全无关的都拉进来(模糊匹配不能失控)
+const fuzzyCards = (hit.match(/class="card /g) || []).length;
+ok(fuzzyCards > 0 && fuzzyCards < DATA.competitions.length,
+   '模糊匹配有结果但不是全量', fuzzyCards + ' / ' + DATA.competitions.length);
+
+// 标点差异不应影响结果的条数: 「四六级」与「四、六级」结果应一致
+const a1 = (searchNotices('四六级', '').match(/class="notice"/g) || []).length;
+const a2 = (searchNotices('四、六级', '').match(/class="notice"/g) || []).length;
+ok(a1 === a2 && a1 > 0, '「四六级」与「四、六级」搜到的条数相同',
+   a1 + ' vs ' + a2);
+
+// 清空搜索应恢复
+els.nq.value = ''; els.nq.__fire('input');
+els.q.value = ''; els.q.__fire('input');
+ok((els.catList.innerHTML.match(/class="card /g) || []).length === DATA.competitions.length,
+   '清空搜索后恢复全部竞赛');
 
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);
