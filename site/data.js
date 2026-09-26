@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-26 00:15
+// 生成时间: 2026-09-26 13:19
 window.SITE_DATA = {
- "generatedAt": "2026-09-26 00:15",
+ "generatedAt": "2026-09-26 13:19",
  "stats": {
   "competitions": 94,
   "notices": 1325,
@@ -19567,6 +19567,17 @@ window.SITE_DATA = {
    "desc": "西安交通大学官方网站总入口。"
   },
   {
+   "name": "一网通办",
+   "url": "https://ywtb.xjtu.edu.cn/",
+   "category": "基础服务办理",
+   "tags": [
+    "统一认证",
+    "高频入口",
+    "电脑端"
+   ],
+   "desc": "电脑端办事主入口（移动端对应「移动交通大学」App）。选课、成绩、缴费、证明打印等大部分校内事务都在这里。"
+  },
+  {
    "name": "统一身份认证",
    "url": "https://login.xjtu.edu.cn/cas/login",
    "category": "基础服务办理",
@@ -19583,7 +19594,7 @@ window.SITE_DATA = {
    "tags": [
     "移动交大"
    ],
-   "desc": "交大移动端入口，主要功能是把「一网通办」搬到手机上。"
+   "desc": "移动交通大学 App 下载页（不是网页版功能）。这个地址在电脑和手机上返回的都是同一个下载页，电脑上只能扫码下载 App；要在电脑上办事请用「一网通办」。"
   },
   {
    "name": "学生邮箱",
@@ -19610,7 +19621,8 @@ window.SITE_DATA = {
    "category": "常用",
    "tags": [
     "校园网/VPN",
-    "校外站点"
+    "校外站点",
+    "统一认证"
    ],
    "desc": "校外访问校内资源用。注意它和「校园网」是两个不同的东西：校园网解决上网，WebVPN 解决访问校内站点。"
   },
@@ -19771,7 +19783,9 @@ window.SITE_DATA = {
    "name": "本科选课",
    "url": "https://xkfw.xjtu.edu.cn/",
    "category": "常用",
-   "tags": [],
+   "tags": [
+    "统一认证"
+   ],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
   },
@@ -19859,7 +19873,9 @@ window.SITE_DATA = {
    "name": "思源学堂（旧版）",
    "url": "https://bb.xjtu.edu.cn/",
    "category": "校内已停用网站",
-   "tags": [],
+   "tags": [
+    "统一认证"
+   ],
    "desc": "来自《西交常用网站汇总》截图，网址已实测连通。",
    "verified": 200
   },
@@ -20203,8 +20219,10 @@ window.SITE_DATA = {
    "name": "网络信息中心（hpc）",
    "url": "http://hpc.xjtu.edu.cn/",
    "category": "基础服务办理",
-   "tags": [],
-   "desc": "学院/书院官网主页（从学校官网院系页解析并实测连通）。",
+   "tags": [
+    "校园网"
+   ],
+   "desc": "高性能计算平台。实测打开会跳到 IP 认证页 —— **需要连接校园网**，校外访问不了（WebVPN 也未必覆盖）。",
    "verified": 200
   }
  ],
