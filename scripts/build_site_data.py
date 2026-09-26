@@ -11,6 +11,7 @@
 import csv
 import json
 import os
+import re
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -81,6 +82,80 @@ def classify_notice(title):
         if any(k in t for k in kws):
             return name, group
     return "其他", "其他"
+
+
+# ---------------------------------------------------------------- 公众号
+# 微信公众号没有公开 API: 只能从搜狗微信搜索拿到 标题/日期/摘要/公众号名,
+# 没有正文, 也没有可直连的文章地址(搜狗跳转被反爬拦)。详见 scripts/crawl_wechat.py。
+#
+# 搜狗是按内容匹配的, 会返回外校和媒体号, 所以必须按公众号名过滤。
+XJTU_ACC_RE = re.compile(
+    r"(西安交通|西安交大|西交大|仙交|XJTU|xjtu|彭康|文治|宗濂|启德|仲英|励志|崇实"
+    r"|南洋书院|钱学森|电气工程学院|电信学部|交小|西迁|思辩学社|科技创新指导中心"
+    r"|社会实践|招生办|公寓管理)")
+# 明确不是本校的, 即使命中上面的模式也要剔除
+NOT_XJTU_RE = re.compile(
+    r"(上海交通|上海交大|西南交通|信阳师范|香港|五峰書院|苏农|龙岩学院|安徽医专"
+    r"|广药|RUC|郑州|宝鸡|医学人文|交通工程学院|附小)")
+
+# 公众号侧的补充关键词: 「一周活动早知道」「丰富活动等你来」这类周活动汇总,
+# 是德育积分里"第一类基础分: 参与学校/书院/学院/班级组织的重大活动"的信息来源。
+WECHAT_EXTRA = [
+    ("集体活动", "集体活动", [
+        "活动预告", "一周活动", "丰富活动", "活动早知道", "周活动", "活动总结",
+        "活动回顾", "活动来啦", "生日会", "游园", "联谊", "素质拓展", "素拓",
+        "院庆", "校庆", "招新", "纳新",
+    ]),
+]
+
+
+def classify_wechat(title):
+    """公众号文章归类: 先走通用规则, 再走公众号侧的补充词。"""
+    cat, group = classify_notice(title)
+    if cat == "其他":
+        for name, group2, kws in WECHAT_EXTRA:
+            if any(k in (title or "") for k in kws):
+                return name, group2
+    return cat, group
+
+
+def is_xjtu_account(acc):
+    if not acc:
+        return False
+    if NOT_XJTU_RE.search(acc):
+        return False
+    return bool(XJTU_ACC_RE.search(acc))
+
+
+def load_wechat():
+    """公众号文章线索(标题/日期/摘要)。按公众号名过滤到本校。"""
+    path = os.path.join(SEED, "wechat.json")
+    if not os.path.exists(path):
+        return [], {}
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    items, dropped = [], 0
+    for x in d.get("items", []):
+        if not is_xjtu_account(x.get("account", "")):
+            dropped += 1
+            continue
+        cat, group = classify_wechat(x.get("title", ""))
+        items.append({
+            "title": x.get("title", ""),
+            "date": x.get("date", ""),
+            "snippet": x.get("snippet", ""),
+            "account": x.get("account", ""),
+            "cat": cat,
+            "group": group,
+            "searchUrl": x.get("searchUrl", ""),
+        })
+    items.sort(key=lambda x: (x["date"], x["title"]), reverse=True)
+    stat = {"total": len(items), "dropped": dropped,
+            "byAccount": {}, "byGroup": {}}
+    for x in items:
+        stat["byAccount"][x["account"]] = stat["byAccount"].get(x["account"], 0) + 1
+        stat["byGroup"][x["group"]] = stat["byGroup"].get(x["group"], 0) + 1
+    return items, stat
 
 
 def load_competitions():
@@ -190,6 +265,7 @@ def main():
     notices, nsrc = load_notices(deadlines, min_score)
     cadence, month_hist = load_cadence()
     links, cat_order = load_quick_links()
+    wx, wx_stat = load_wechat()
 
     # 今天(用于判断"报名中")
     today = datetime.now().strftime("%Y-%m-%d")
@@ -299,6 +375,8 @@ def main():
         "cadenceCount": len(cadence),
         "quickLinks": links,
         "quickLinkCategories": cat_order,
+        "wechat": wx,
+        "wechatStat": wx_stat,
         "calendar": {
             "all": "calendar/all.ics",
             "eeCore": "calendar/ee-core.ics",

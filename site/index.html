@@ -29,6 +29,7 @@
     <button class="tab" data-view="notices" data-group="社会实践">社会实践 <span class="pill" id="tabCountPractice"></span></button>
     <button class="tab" data-view="notices" data-group="思政学习">思政学习 <span class="pill" id="tabCountIdeo"></span></button>
     <button class="tab" data-view="notices" data-group="教学信息">教学信息 <span class="pill" id="tabCountTeach"></span></button>
+    <button class="tab" data-view="wechat">公众号 <span class="pill" id="tabCountWx"></span></button>
     <button class="tab" data-view="links">常用网站 <span class="pill" id="tabCountLinks"></span></button>
     <button class="tab" data-view="about">说明与来源</button>
   </div>
@@ -274,6 +275,55 @@
 
     <div id="noticeList" class="notices"></div>
     <div id="noticeEmpty" class="empty" hidden>没有符合条件的通知。</div>
+  </section>
+
+  <!-- ============ 公众号 ============ -->
+  <section id="view-wechat" class="view">
+    <h2 class="view-title">公众号文章线索</h2>
+    <div class="notice-warn">
+      <strong>这里只有标题、日期、摘要，没有正文。</strong>
+      微信公众号没有公开 API：能拿到这些来自搜狗微信搜索，但
+      <strong>拿不到可直连的文章地址</strong>（搜狗的中转跳转被反爬拦截）。
+      想看全文请点「微信里搜这条」，或直接在微信里搜公众号名。
+      文章标题和摘要足够判断「有什么活动、什么时候办」。
+    </div>
+
+    <div class="toolbar">
+      <div class="search-row">
+        <input id="wq" type="search" placeholder="搜索文章标题、摘要、公众号…（如 夜跑、运动会、一周活动）" autocomplete="off">
+        <button id="wqClear" class="btn-ghost" title="清空" hidden>✕</button>
+      </div>
+      <div class="chips" id="wxChips"></div>
+      <div class="filter-row">
+        <label class="field">
+          <span>公众号</span>
+          <select id="wAcc"><option value="">全部公众号</option></select>
+        </label>
+        <label class="field">
+          <span>时间</span>
+          <select id="wRange">
+            <option value="">全部时间</option>
+            <option value="180">近半年</option>
+            <option value="365">近一年</option>
+            <option value="730">近两年</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>排序</span>
+          <select id="wSort">
+            <option value="date">日期（新→旧）</option>
+            <option value="dateAsc">日期（旧→新）</option>
+          </select>
+        </label>
+      </div>
+      <div class="result-row">
+        <span id="wxCount" class="muted"></span>
+        <button id="wReset" class="btn-ghost">重置筛选</button>
+      </div>
+    </div>
+
+    <div id="wxList" class="wx-list"></div>
+    <div id="wxEmpty" class="empty" hidden>没有匹配的文章。</div>
   </section>
 
   <!-- ============ 常用网站 ============ -->

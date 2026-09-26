@@ -757,6 +757,59 @@ els.q.value = ''; els.q.__fire('input');
 ok((els.catList.innerHTML.match(/class="card /g) || []).length === DATA.competitions.length,
    '清空搜索后恢复全部竞赛');
 
+console.log('\n=== J. 公众号文章线索 ===');
+
+const WX = DATA.wechat || [];
+ok(WX.length > 0, '载入了公众号文章', WX.length + ' 篇');
+ok(els.tabCountWx.textContent === String(WX.length),
+   'tab 上的公众号文章数正确', 'tabCountWx=' + els.tabCountWx.textContent);
+
+// 只保留本校公众号 —— 搜狗是按内容匹配的, 会返回外校和媒体号
+const badAcc = WX.filter(x => !/(西安交通|西安交大|西交大|仙交|XJTU|xjtu|彭康|文治|宗濂|启德|仲英|励志|崇实|南洋书院|钱学森|电气工程学院|电信学部|交小|西迁|社会实践|招生办|公寓管理)/.test(x.account || ''));
+ok(badAcc.length === 0, '公众号全部与本校相关',
+   badAcc.slice(0, 3).map(x => x.account).join(', '));
+const noiseAcc = WX.filter(x => /(上海交通|上海交大|西南交通|信阳师范|香港|五峰書院|苏农|央视|人民网|新华网)/.test(x.account || ''));
+ok(noiseAcc.length === 0, '已剔除校外/媒体公众号',
+   noiseAcc.slice(0, 3).map(x => x.account).join(', '));
+
+// 每条必须有标题、日期、公众号 —— 缺了就没法用
+ok(WX.every(x => x.title), '每篇都有标题');
+ok(WX.every(x => /^\d{4}-\d{2}-\d{2}$/.test(x.date)), '每篇日期格式合法',
+   WX.filter(x => !/^\d{4}-\d{2}-\d{2}$/.test(x.date)).slice(0, 2).map(x => x.title).join(', '));
+ok(WX.every(x => x.account), '每篇都有公众号名');
+
+// 必须给出去搜狗搜原文的入口(拿不到直链, 这是唯一能看正文的路)
+ok(WX.every(x => /^https:\/\/weixin\.sogou\.com\//.test(x.searchUrl || '')),
+   '每篇都带「去搜狗搜原文」的链接');
+
+// 渲染
+const wxHTML = els.wxList.innerHTML || '';
+ok((wxHTML.match(/class="wxcard"/g) || []).length === WX.length,
+   `默认渲染全部 ${WX.length} 篇`, 
+   (wxHTML.match(/class="wxcard"/g) || []).length + ' 篇');
+ok(wxHTML.includes('class="wxsnip"'), '渲染了摘要');
+ok(wxHTML.includes('notice-warn') || html.includes('notice-warn'),
+   '页面上明确标注了「只有标题摘要、没有正文」的局限');
+
+// 分类 chips
+const wxChipCount = ((els.wxChips.innerHTML || '').match(/class="chip/g) || []).length;
+const wxGroups = [...new Set(WX.map(x => x.group))];
+ok(wxChipCount === wxGroups.length + 1,
+   'chips = 分类数 + 1(全部)', `${wxChipCount} vs ${wxGroups.length + 1}`);
+
+// 搜索: 用户点名的活动应能搜到
+function searchWx(q) {
+  els.wq.value = q;
+  els.wq.__fire('input');
+  return els.wxList.innerHTML || '';
+}
+[['夜跑', '星荧夜跑'], ['活动预告', '活动预告'], ['南洋书院', '南洋']].forEach(function (p) {
+  const r = searchWx(p[0]);
+  ok(r.includes(p[1]) || (r.match(/class="wxcard"/g) || []).length > 0,
+     `搜「${p[0]}」有结果`);
+});
+els.wq.value = ''; els.wq.__fire('input');
+
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);
 if (fail) {

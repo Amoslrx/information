@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-09-26 13:36
+// 生成时间: 2026-09-26 13:58
 window.SITE_DATA = {
- "generatedAt": "2026-09-26 13:36",
+ "generatedAt": "2026-09-26 13:58",
  "stats": {
   "competitions": 94,
   "notices": 1671,
@@ -27867,6 +27867,1068 @@ window.SITE_DATA = {
   "校内已停用网站",
   "学院与书院"
  ],
+ "wechat": [
+  {
+   "title": "劳育育人|宗濂明德书院开展爱国卫生集体劳动志愿者活动",
+   "date": "2026-09-24",
+   "snippet": "宗濂明德书院开展爱国卫生集体劳动志愿者活动圆满结束活动背景为持续推进书院文明环境建设,扎实落实劳动教育要求,营造干净整...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B3%E8%82%B2%E8%82%B2%E4%BA%BA%7C%E5%AE%97%E6%BF%82%E6%98%8E%E5%BE%B7%E4%B9%A6%E9%99%A2%E5%BC%80%E5%B1%95%E7%88%B1%E5%9B%BD%E5%8D%AB%E7%94%9F%E9%9B%86%E4%BD%93%E5%8A%B3%E5%8A%A8%E5%BF%97%E6%84%BF%E8%80%85%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "外国语学院彭康书院师生联合第一、二党支部开展中英青年联谊活动",
+   "date": "2026-09-20",
+   "snippet": "外国语学院彭康书院师生联合第一、二党支部开展中英青年联谊活动近日,英国切斯特女王学校来访学生参加2026西安交通大学-利物...",
+   "account": "西安交大彭康书院党总支",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%AD%A6%E9%99%A2%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%B8%88%E7%94%9F%E8%81%94%E5%90%88%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%85%9A%E6%94%AF%E9%83%A8%E5%BC%80%E5%B1%95%E4%B8%AD%E8%8B%B1%E9%9D%92%E5%B9%B4%E8%81%94%E8%B0%8A%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "【亮点有励】励志书院党建工作专门委员会招新|组织部:以初心筑信仰,以笃行赴新程",
+   "date": "2026-09-20",
+   "snippet": "对下面向全院学生开展思想引领、培养服务、活动组织等工作,是连接党组织与青年学生的重要桥梁.部门特点及优势励志书院党建专...",
+   "account": "励志党总支",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%BA%AE%E7%82%B9%E6%9C%89%E5%8A%B1%E3%80%91%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E5%85%9A%E5%BB%BA%E5%B7%A5%E4%BD%9C%E4%B8%93%E9%97%A8%E5%A7%94%E5%91%98%E4%BC%9A%E6%8B%9B%E6%96%B0%7C%E7%BB%84%E7%BB%87%E9%83%A8%3A%E4%BB%A5%E5%88%9D%E5%BF%83%E7%AD%91%E4%BF%A1%E4%BB%B0%2C%E4%BB%A5%E7%AC%83%E8%A1%8C%E8%B5%B4%E6%96%B0%E7%A8%8B"
+  },
+  {
+   "title": "【支部活动】电信学部南洋书院师生联合第二党支部召开八月党小组会",
+   "date": "2026-09-16",
+   "snippet": "电信学部南洋书院师生联合第二党支部召开八月党小组会01第一党... 批评环节直指党小组建设中存在的突出问题,集中表现为参与活动...",
+   "account": "南洋书院党总支",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%94%AF%E9%83%A8%E6%B4%BB%E5%8A%A8%E3%80%91%E7%94%B5%E4%BF%A1%E5%AD%A6%E9%83%A8%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E5%B8%88%E7%94%9F%E8%81%94%E5%90%88%E7%AC%AC%E4%BA%8C%E5%85%9A%E6%94%AF%E9%83%A8%E5%8F%AC%E5%BC%80%E5%85%AB%E6%9C%88%E5%85%9A%E5%B0%8F%E7%BB%84%E4%BC%9A"
+  },
+  {
+   "title": "活动预告 | 青春彭康 强国担当——迎西安交通大学建校130周年暨西迁70周年、彭康书院20周年院庆系列活动",
+   "date": "2026-04-01",
+   "snippet": "青春彭康 强国担当迎西安交通大学建校130周年暨西迁70周年、彭康书院20周年院庆系列活动活动宗旨本次系列活动,以纪念西安交通...",
+   "account": "西迁之光",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E9%9D%92%E6%98%A5%E5%BD%AD%E5%BA%B7%20%E5%BC%BA%E5%9B%BD%E6%8B%85%E5%BD%93%E2%80%94%E2%80%94%E8%BF%8E%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%BB%BA%E6%A0%A1130%E5%91%A8%E5%B9%B4%E6%9A%A8%E8%A5%BF%E8%BF%8170%E5%91%A8%E5%B9%B4%E3%80%81"
+  },
+  {
+   "title": "活动总结|春日不迟,相逢有时——崇实书院三月生日会活动回顾",
+   "date": "2026-03-31",
+   "snippet": "春日不散场,美好留心间本次活动面向崇实书院三月生日的同学,在崇实二楼温馨举办.从手作的专注到游戏的欢笑,从一杯特饮的甜...",
+   "account": "崇实书院宿生会",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93%7C%E6%98%A5%E6%97%A5%E4%B8%8D%E8%BF%9F%2C%E7%9B%B8%E9%80%A2%E6%9C%89%E6%97%B6%E2%80%94%E2%80%94%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E4%B8%89%E6%9C%88%E7%94%9F%E6%97%A5%E4%BC%9A%E6%B4%BB%E5%8A%A8%E5%9B%9E%E9%A1%BE"
+  },
+  {
+   "title": "丰富活动等你来丨3.30-4.5崇实书院活动预告",
+   "date": "2026-03-30",
+   "snippet": "丰富活动等你来 3.30-4.5崇实书院活动预告新的一周即将开启!“丰富活动等你来”栏目持续更新,帮助大家更好地安排时间,快来积...",
+   "account": "崇实书院青年之声",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A83.30-4.5%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "一周活动早知道 | 3.30-4.5南洋书院活动预告",
+   "date": "2026-03-29",
+   "snippet": "3.30-4.5南洋书院活动预告一周活动早知道智享之夜・学术酒会拒绝枯燥学术!智享之夜・学术酒会带你解锁全新交流方式!轻松酒会...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.30-4.5%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "【支部活动】电气学院南洋书院师生联合第二党支部三月组织生活圆满召开",
+   "date": "2026-03-25",
+   "snippet": "电气学院南洋书院师生联合第二党支部三月组织生活圆满召开会议前言为深入学习、树立、践行正确政绩观,遵从党组织部署要求,...",
+   "account": "南洋书院党总支",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%94%AF%E9%83%A8%E6%B4%BB%E5%8A%A8%E3%80%91%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E5%B8%88%E7%94%9F%E8%81%94%E5%90%88%E7%AC%AC%E4%BA%8C%E5%85%9A%E6%94%AF%E9%83%A8%E4%B8%89%E6%9C%88%E7%BB%84%E7%BB%87%E7%94%9F%E6%B4%BB%E5%9C%86%E6%BB%A1%E5%8F%AC%E5%BC%80"
+  },
+  {
+   "title": "【活动通知】樱韵交大·仲英春行 | 仲英书院樱花节摄影活动进行中",
+   "date": "2026-03-24",
+   "snippet": "仲英书院樱花节摄影活动来啦!- Cherry Blossom -春风翻过秦岭,吹醒了兴庆宫的梧桐,也吹开了西安交大的樱花,时隔一年,第五届...",
+   "account": "西安交通大学仲英书院",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B4%BB%E5%8A%A8%E9%80%9A%E7%9F%A5%E3%80%91%E6%A8%B1%E9%9F%B5%E4%BA%A4%E5%A4%A7%C2%B7%E4%BB%B2%E8%8B%B1%E6%98%A5%E8%A1%8C%20%7C%20%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E6%A8%B1%E8%8A%B1%E8%8A%82%E6%91%84%E5%BD%B1%E6%B4%BB%E5%8A%A8%E8%BF%9B%E8%A1%8C%E4%B8%AD"
+  },
+  {
+   "title": "【亮点有励】励志书院党总支春节寻找“年味”活动领奖通知",
+   "date": "2026-03-24",
+   "snippet": "西安交通大学励志书院党总支寻找“年味”活动领奖通知春节期间,励志书院党总支以“寻找'年味'”为主题,组织开展了摄影分享...",
+   "account": "励志党总支",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%BA%AE%E7%82%B9%E6%9C%89%E5%8A%B1%E3%80%91%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E5%85%9A%E6%80%BB%E6%94%AF%E6%98%A5%E8%8A%82%E5%AF%BB%E6%89%BE%E2%80%9C%E5%B9%B4%E5%91%B3%E2%80%9D%E6%B4%BB%E5%8A%A8%E9%A2%86%E5%A5%96%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "一周活动早知道 | 3.23-3.29南洋书院活动预告",
+   "date": "2026-03-22",
+   "snippet": "3.23-3.29南洋书院活动预告_一周活动早知道_百卅峥嵘,逐浪前行——贺建校130周年暨西迁70周年校庆游园活动值此建校一百三十周...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.23-3.29%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "活动预告 | 宗濂尚德书院校园光影·班级印象摄影征集活动正式来袭!!",
+   "date": "2026-03-20",
+   "snippet": "宗濂尚德书院校园光影·班级印象摄影征集活动正式来袭!!这一次我们不只找摄影师更在寻找最懂生活的你用镜头捕捉光影用影像讲...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E5%AE%97%E6%BF%82%E5%B0%9A%E5%BE%B7%E4%B9%A6%E9%99%A2%E6%A0%A1%E5%9B%AD%E5%85%89%E5%BD%B1%C2%B7%E7%8F%AD%E7%BA%A7%E5%8D%B0%E8%B1%A1%E6%91%84%E5%BD%B1%E5%BE%81%E9%9B%86%E6%B4%BB%E5%8A%A8%E6%AD%A3%E5%BC%8F%E6%9D%A5%E8%A2%AD%21%21"
+  },
+  {
+   "title": "雷锋月系列活动 | 励志书院2025年度优秀志愿者报名通知",
+   "date": "2026-03-18",
+   "snippet": "励志书院组织相关志愿活动参与情况;3.志愿活动中的主要工作和突出贡献;4.个人的优势和特长;5.对各类志愿活动的感悟与心得....",
+   "account": "西安交通大学励志书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%9B%B7%E9%94%8B%E6%9C%88%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%20%7C%20%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A22025%E5%B9%B4%E5%BA%A6%E4%BC%98%E7%A7%80%E5%BF%97%E6%84%BF%E8%80%85%E6%8A%A5%E5%90%8D%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "西安交通大学第三十七届“腾飞杯”创新创业大赛航天航空学院院赛顺利举办",
+   "date": "2026-03-17",
+   "snippet": "我院顺利举办西安交通大学第37届“腾飞杯”创新创业大赛航天航空学院院赛.自赛事启动以来,学院高度重视、积极动员,通过线上...",
+   "account": "交小航",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%83%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E8%88%AA%E5%A4%A9%E8%88%AA%E7%A9%BA%E5%AD%A6%E9%99%A2%E9%99%A2%E8%B5%9B%E9%A1%BA%E5%88%A9%E4%B8%BE%E5%8A%9E"
+  },
+  {
+   "title": "植此青绿 共绣书香——励志书院植树节主题实践活动举行",
+   "date": "2026-03-17",
+   "snippet": "植此青绿共绣书香励志书院植树节主题实践活动举行春回大地,万物复苏3月12日植树节上午,励志书院团委学生会在东六宿舍区组织...",
+   "account": "西安交通大学励志书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%A4%8D%E6%AD%A4%E9%9D%92%E7%BB%BF%20%E5%85%B1%E7%BB%A3%E4%B9%A6%E9%A6%99%E2%80%94%E2%80%94%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E6%A4%8D%E6%A0%91%E8%8A%82%E4%B8%BB%E9%A2%98%E5%AE%9E%E8%B7%B5%E6%B4%BB%E5%8A%A8%E4%B8%BE%E8%A1%8C"
+  },
+  {
+   "title": "西安交通大学第37届“腾飞杯”创新创业大赛二附院院赛圆满收官",
+   "date": "2026-03-16",
+   "snippet": "西安交通大学第37届“腾飞杯”创新创业大赛二附院院赛腾飞杯院级评审3月12日下午,西安交大二附院团委举办西安交通大学第三十...",
+   "account": "xjtu2yuanyouth",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC37%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E4%BA%8C%E9%99%84%E9%99%A2%E9%99%A2%E8%B5%9B%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98"
+  },
+  {
+   "title": "仲英书院团委志愿服务优秀个人名单公示",
+   "date": "2026-03-15",
+   "snippet": "仲英书院团委志愿服务优秀个人名单公示在2025-2026学年第一学期,仲英书院的同学们踊跃参与志愿者活动,在学习的同时不忘服务...",
+   "account": "仲英青年",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E5%9B%A2%E5%A7%94%E5%BF%97%E6%84%BF%E6%9C%8D%E5%8A%A1%E4%BC%98%E7%A7%80%E4%B8%AA%E4%BA%BA%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA"
+  },
+  {
+   "title": "丰富活动等你来丨3.9-3.15崇实书院活动预告",
+   "date": "2026-03-09",
+   "snippet": "3.9-3.15崇实书院活动预告新的一周如约而至,为了帮助大家更好地安排时间,“丰富活动等你来”栏目持续更新,快快参与到活动中...",
+   "account": "崇实书院青年之声",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A83.9-3.15%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "一周活动早知道 | 3.9-3.15南洋书院活动预告",
+   "date": "2026-03-08",
+   "snippet": "3.9-3.15南洋书院活动预告一周活动早知道“吾师有约”本科生导师午餐会为搭建师生零距离交流平台,精准助力本科生锚定学业航向...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.9-3.15%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "丰富活动等你来丨3.2-3.8崇实书院活动预告",
+   "date": "2026-03-02",
+   "snippet": "丰富活动等你来丨3.2-3.8崇实书院活动预告 新的学期就要开始啦!“丰富活动等你来”栏目持续更新中~以下我们将为你提前梳理第一...",
+   "account": "崇实书院青年之声",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A83.2-3.8%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "我在兴庆湖畔等你 ——西安交通大学*宜春中学“校园大使回母校”宣讲活动",
+   "date": "2026-02-28",
+   "snippet": "团结奋进回母校精准赋能促升学西安交通大学*宜春中学“校园大使”宣讲活动纪实活动前言冬日暖阳浸润宜中,青春薪火接续相传....",
+   "account": "西安交通大学交小招",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%91%E5%9C%A8%E5%85%B4%E5%BA%86%E6%B9%96%E7%95%94%E7%AD%89%E4%BD%A0%20%E2%80%94%E2%80%94%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%2A%E5%AE%9C%E6%98%A5%E4%B8%AD%E5%AD%A6%E2%80%9C%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E5%9B%9E%E6%AF%8D%E6%A0%A1%E2%80%9D%E5%AE%A3%E8%AE%B2%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "仲英书院学生会党史进部门活动",
+   "date": "2026-02-13",
+   "snippet": "2月7日,仲英书院学生会开展党史学习进部门活动.此次活动帮助学生会成员进一步了解党的光辉历程与优良作风,加强思想淬炼与品...",
+   "account": "仲英书院学生会",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A%E5%85%9A%E5%8F%B2%E8%BF%9B%E9%83%A8%E9%97%A8%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "活动预告|西法大x西交大模拟法庭展演活动—遗产继承纠纷案",
+   "date": "2024-05-15",
+   "snippet": "西安交通大学法律爱好者协会承办的模拟法庭展演活动即将展开.届时,西北政法大学的同学将以事实为依据,以法律为准绳,为同学...",
+   "account": "法协XJTU",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%7C%E8%A5%BF%E6%B3%95%E5%A4%A7x%E8%A5%BF%E4%BA%A4%E5%A4%A7%E6%A8%A1%E6%8B%9F%E6%B3%95%E5%BA%AD%E5%B1%95%E6%BC%94%E6%B4%BB%E5%8A%A8%E2%80%94%E9%81%97%E4%BA%A7%E7%BB%A7%E6%89%BF%E7%BA%A0%E7%BA%B7%E6%A1%88"
+  },
+  {
+   "title": "一周活动早知道 | 5.6-5.12南洋书院活动预告",
+   "date": "2024-05-05",
+   "snippet": "HI SPRING5.6-5.12南洋书院活动预告 一周活动早知道 春风里带着甜甜的味道细雨轻柔地抚摸着每一个小芽儿一转眼五月已然到来来...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%205.6-5.12%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "活动总结 | 宗濂书院团委组织开展“国家安全,青春挺膺”系列活动",
+   "date": "2024-04-23",
+   "snippet": "宗濂书院团委组织开展“国家安全,青春挺膺”系列活动为了巩固深化团员和青年主题教育成果,引导广大团员青年提升国家安全意识...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93%20%7C%20%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%9B%A2%E5%A7%94%E7%BB%84%E7%BB%87%E5%BC%80%E5%B1%95%E2%80%9C%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%2C%E9%9D%92%E6%98%A5%E6%8C%BA%E8%86%BA%E2%80%9D%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "一周活动早知道 | 4.22-4.28南洋书院活动预告",
+   "date": "2024-04-21",
+   "snippet": "4.22-4.28南洋书院活动预告X一周活动早知道最美人间四月天,回归自然,拥抱春天,新的一周又要来啦!书院下周活动安排如下~4月...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%204.22-4.28%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "文治书院举办2023-2024学年第三届“文治好班委”评选活动",
+   "date": "2024-04-08",
+   "snippet": "-Good Working Class Committee of WenZhi-凝聚班团力量彰显青春担当文治书院第三届“文治好班委”评选活动为表彰在引领班级良...",
+   "account": "文治书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E4%B8%BE%E5%8A%9E2023-2024%E5%AD%A6%E5%B9%B4%E7%AC%AC%E4%B8%89%E5%B1%8A%E2%80%9C%E6%96%87%E6%B2%BB%E5%A5%BD%E7%8F%AD%E5%A7%94%E2%80%9D%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "【128周年校庆】交大西迁博物馆校庆系列活动预告来啦!",
+   "date": "2024-04-03",
+   "snippet": "校庆日西迁馆活动预告春风的拂面,我们迎来了一年一度的校庆日... 启德书院、经金学院、交大西迁馆活动承办:启德书院学生经济学...",
+   "account": "交大西迁博物馆",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90128%E5%91%A8%E5%B9%B4%E6%A0%A1%E5%BA%86%E3%80%91%E4%BA%A4%E5%A4%A7%E8%A5%BF%E8%BF%81%E5%8D%9A%E7%89%A9%E9%A6%86%E6%A0%A1%E5%BA%86%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%E6%9D%A5%E5%95%A6%21"
+  },
+  {
+   "title": "【多彩崇实】丰富活动等你来丨3.25-3.31崇实书院活动预告",
+   "date": "2024-03-24",
+   "snippet": "丰富活动等你来崇实书院第五周活动预告新的一周开始啦,“丰富活动等你来”栏目持续陪伴大家,帮助大家更好的安排时间,快快参...",
+   "account": "西安交通大学崇实书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%A4%9A%E5%BD%A9%E5%B4%87%E5%AE%9E%E3%80%91%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A83.25-3.31%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "星荧夜跑,快乐校园|“开学第一跑”畅快开启!",
+   "date": "2024-03-14",
+   "snippet": "“我和跑步有个约定”开学第一跑 随着新学期的到来,我们又迎来了令人期待的星荧夜跑活动.为了感谢同学们上学期对夜跑活动的...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%98%9F%E8%8D%A7%E5%A4%9C%E8%B7%91%2C%E5%BF%AB%E4%B9%90%E6%A0%A1%E5%9B%AD%7C%E2%80%9C%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E8%B7%91%E2%80%9D%E7%95%85%E5%BF%AB%E5%BC%80%E5%90%AF%21"
+  },
+  {
+   "title": "祝贺!西安交通大学第35届“腾飞杯”大赛创业赛道获奖项目公示",
+   "date": "2024-03-10",
+   "snippet": "西安交通大学第35届“腾飞杯”大赛创业赛道获奖项目公示504个项目报名参赛482个项目团队通过资格审核471件作品进入网评282件...",
+   "account": "西安交大科技创新指导中心",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A5%9D%E8%B4%BA%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC35%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%A4%A7%E8%B5%9B%E5%88%9B%E4%B8%9A%E8%B5%9B%E9%81%93%E8%8E%B7%E5%A5%96%E9%A1%B9%E7%9B%AE%E5%85%AC%E7%A4%BA"
+  },
+  {
+   "title": "一周活动早知道 | 3.11-3.17南洋书院活动预告",
+   "date": "2024-03-10",
+   "snippet": "3.11-3.17南洋书院活动预告一周活动早知道春风和煦,万物复苏.明媚的一周即将开始,来看看下周书院将举办哪些活动吧~ 3月11日-...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.11-3.17%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "一周活动早知道 | 3.4-3.10南洋书院活动预告",
+   "date": "2024-03-03",
+   "snippet": "- 一周活动早知道-3.4-3.10南洋书院活动预告 四季交叠,新岁可期. 寒气消弭,沐浴春风. 伴随春日的渐进,新学期也开始啦! 来看...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.4-3.10%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "于道此互助 千里共同风——文治书院建筑系搬迁志愿活动",
+   "date": "2024-02-26",
+   "snippet": "于道此互助千里共同风-2.24文治书院建筑系搬迁志愿活动 -一:活动背景介绍在2.24日,文治书院建筑系大一至大五由兴庆校区搬迁至...",
+   "account": "文治书院学生会",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%8E%E9%81%93%E6%AD%A4%E4%BA%92%E5%8A%A9%20%E5%8D%83%E9%87%8C%E5%85%B1%E5%90%8C%E9%A3%8E%E2%80%94%E2%80%94%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%BB%BA%E7%AD%91%E7%B3%BB%E6%90%AC%E8%BF%81%E5%BF%97%E6%84%BF%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "校园大使 | 西交大*潮实 我们的青春在此刻握手",
+   "date": "2024-02-18",
+   "snippet": "西安交通大学*潮实学子的专题宣讲会准时开始.主讲人王洽不仅... Part 4实践感悟校园大使实践活动感悟吴恒楷这已经是我第二年参...",
+   "account": "交小招",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%20%7C%20%E8%A5%BF%E4%BA%A4%E5%A4%A7%2A%E6%BD%AE%E5%AE%9E%20%E6%88%91%E4%BB%AC%E7%9A%84%E9%9D%92%E6%98%A5%E5%9C%A8%E6%AD%A4%E5%88%BB%E6%8F%A1%E6%89%8B"
+  },
+  {
+   "title": "实践指南 | 西安交通大学社会实践投稿指南",
+   "date": "2024-01-22",
+   "snippet": "南西安交通大学社会实践投稿指南各位同学,大家好!本周我们将... 钱学森书院、彭康书院、电气学院、电信学部、能动学院、前沿院...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E6%8C%87%E5%8D%97%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E6%8A%95%E7%A8%BF%E6%8C%87%E5%8D%97"
+  },
+  {
+   "title": "“暖暖饺子宴”活动预告",
+   "date": "2023-12-15",
+   "snippet": "“暖暖饺子宴”活动预告“白天最是时光短,花饺入汤暖夜长”.... 启德书院监察部将举办“暖暖饺子宴”活动!!!我们把祝福包在...",
+   "account": "青听启德",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E6%9A%96%E6%9A%96%E9%A5%BA%E5%AD%90%E5%AE%B4%E2%80%9D%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "仲英书院成功举办职规大赛同期活动——参观科大讯飞丝路总部",
+   "date": "2023-12-14",
+   "snippet": "微信:西安交通大学仲英书院 在西安交通大学职业规划大赛期间,仲英书院组织学生代表来到科大讯飞丝路总部参观学习.本次活动...",
+   "account": "西安交通大学仲英书院",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E6%88%90%E5%8A%9F%E4%B8%BE%E5%8A%9E%E8%81%8C%E8%A7%84%E5%A4%A7%E8%B5%9B%E5%90%8C%E6%9C%9F%E6%B4%BB%E5%8A%A8%E2%80%94%E2%80%94%E5%8F%82%E8%A7%82%E7%A7%91%E5%A4%A7%E8%AE%AF%E9%A3%9E%E4%B8%9D%E8%B7%AF%E6%80%BB%E9%83%A8"
+  },
+  {
+   "title": "【活力崇实】丰富活动等你来丨11.27-12.3崇实书院活动预告",
+   "date": "2023-11-26",
+   "snippet": "【丰富活动等你来】11.27-12.3崇实书院活动预告...... 新的一周要开始啦,从本周开始,崇实书院将会推出“丰富活动等你来”系列栏...",
+   "account": "西安交通大学崇实书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B4%BB%E5%8A%9B%E5%B4%87%E5%AE%9E%E3%80%91%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A811.27-12.3%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "一周活动早知道 | 11.20-11.26南洋书院活动预告",
+   "date": "2023-11-19",
+   "snippet": "11.20-11.26南洋书院活动预告 新的一周又要开始啦,丰富的活动等你来参加哦~0111月20日-11月22日 15:00-17:00职业规划大赛提升...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%2011.20-11.26%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "彭康书院举办消防疏散演练活动",
+   "date": "2023-11-11",
+   "snippet": "消防记心中安全伴我行彭康书院全国消防日校园消防演练全国消防日 2023年11月9日,是第32个全国消防日,活动主题为“预防为...",
+   "account": "西安交通大学彭康书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E4%B8%BE%E5%8A%9E%E6%B6%88%E9%98%B2%E7%96%8F%E6%95%A3%E6%BC%94%E7%BB%83%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "文治书院关于举办职业规划大赛“啄木鸟杯”院级赛的通知",
+   "date": "2023-11-06",
+   "snippet": "大赛同期活动文治书院2023年11月6日图文来源 | 文治书院排版 | 郭金剑审核 | 李经纬",
+   "account": "文治书院一等青年",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B%E2%80%9C%E5%95%84%E6%9C%A8%E9%B8%9F%E6%9D%AF%E2%80%9D%E9%99%A2%E7%BA%A7%E8%B5%9B%E7%9A%84%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "通知 | 西安交通大学社会实践宣讲团宣讲课单上线啦~",
+   "date": "2023-11-04",
+   "snippet": "组建的2023年西安交通大学社会实践宣讲团,以“星航篇”和“攀登篇”为两个主要宣讲方向,向广大青年党团支部分享实践历程,在...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E5%AE%A3%E8%AE%B2%E5%9B%A2%E5%AE%A3%E8%AE%B2%E8%AF%BE%E5%8D%95%E4%B8%8A%E7%BA%BF%E5%95%A6~"
+  },
+  {
+   "title": "活动预热 | 仲英书院⨯启德书院第三十五届“腾飞杯”宣讲会来啦!",
+   "date": "2023-11-01",
+   "snippet": "02宣讲会预告—活动主题—仲英书院⨯启德书院第三十五届腾飞杯动员大会暨科创经验分享会—活动时间—2023年11月5日(本周日)...",
+   "account": "仲英青年",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E7%83%AD%20%7C%20%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E2%A8%AF%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A2%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%94%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%AE%A3%E8%AE%B2%E4%BC%9A%E6%9D%A5%E5%95%A6%21"
+  },
+  {
+   "title": "西安交通大学社会实践宣讲团试讲改稿会举办",
+   "date": "2023-10-27",
+   "snippet": "西安交通大学社会实践宣讲团试讲改稿会在西安交通大学兴庆校区主楼B-202举办.西安交通大学团委副书记石杨根、励志书院团委副...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E5%AE%A3%E8%AE%B2%E5%9B%A2%E8%AF%95%E8%AE%B2%E6%94%B9%E7%A8%BF%E4%BC%9A%E4%B8%BE%E5%8A%9E"
+  },
+  {
+   "title": "西安交通大学第四届飞盘新秀杯",
+   "date": "2023-10-03",
+   "snippet": "西安交通大学第四届飞盘新秀杯- 青春展风采 运动向未来 -伴随着... 参加比赛即获得德育分中0.3分集体活动分. 2. 本科生和研究生均...",
+   "account": "仙交大Frisbee",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%9B%9B%E5%B1%8A%E9%A3%9E%E7%9B%98%E6%96%B0%E7%A7%80%E6%9D%AF"
+  },
+  {
+   "title": "乒乓|2023年西安交通大学电气学院研究生“教研室杯”乒乓球赛",
+   "date": "2023-09-29",
+   "snippet": "拥有正式学籍的西安交通大学电气学院在校全日制研究生和老师.2. 政治思想进步,遵守运动员规则.竞赛规程1. 比赛分小组循环赛和...",
+   "account": "西安交通大学电气工程学院",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B9%92%E4%B9%93%7C2023%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E7%A0%94%E7%A9%B6%E7%94%9F%E2%80%9C%E6%95%99%E7%A0%94%E5%AE%A4%E6%9D%AF%E2%80%9D%E4%B9%92%E4%B9%93%E7%90%83%E8%B5%9B"
+  },
+  {
+   "title": "西安交通大学宗濂书院党总支朋辈党员项目组2023级“医新绘党 献礼国庆”特色主题活动来啦",
+   "date": "2023-09-23",
+   "snippet": "此次活动不仅有助于增强宗濂书院2023级学生的爱国爱党情怀,同时也能提升他们的集体凝聚力与荣誉感,培养艺术素养和创新能力,...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%85%9A%E6%80%BB%E6%94%AF%E6%9C%8B%E8%BE%88%E5%85%9A%E5%91%98%E9%A1%B9%E7%9B%AE%E7%BB%842023%E7%BA%A7%E2%80%9C%E5%8C%BB%E6%96%B0%E7%BB%98%E5%85%9A%20%E7%8C%AE%E7%A4%BC%E5%9B%BD%E5%BA%86%E2%80%9D%E7%89%B9%E8%89%B2%E4%B8%BB%E9%A2%98"
+  },
+  {
+   "title": "通知 | 关于文治书院新生刷楼活动的通知",
+   "date": "2023-08-18",
+   "snippet": "文治书院刷楼活动开始啦!期待你们的加入!✦✦转眼间,23级的新生就已经来到了学校.为了帮助新同学们了解各个社团和学生组织...",
+   "account": "文治书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E5%85%B3%E4%BA%8E%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E6%96%B0%E7%94%9F%E5%88%B7%E6%A5%BC%E6%B4%BB%E5%8A%A8%E7%9A%84%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "交大一附院在学校第三十四届“腾飞杯”创新创业大赛中荣获佳绩",
+   "date": "2023-05-24",
+   "snippet": "5月22日上午,西安交通大学第三十四届“腾飞杯”创新创业大赛闭幕式暨第三十五届“腾飞杯”特变电工专项赛启动仪式在中国西部...",
+   "account": "西安交大第一附属医院",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A4%E5%A4%A7%E4%B8%80%E9%99%84%E9%99%A2%E5%9C%A8%E5%AD%A6%E6%A0%A1%E7%AC%AC%E4%B8%89%E5%8D%81%E5%9B%9B%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E4%B8%AD%E8%8D%A3%E8%8E%B7%E4%BD%B3%E7%BB%A9"
+  },
+  {
+   "title": "西安交通大学电气学院荣命哲教授课题组面向2024届本科毕业生招收推免研究生",
+   "date": "2023-05-04",
+   "snippet": "中国研究生电子设计竞赛国家二等奖和三等奖多项、西安交通大学“腾飞杯”创新创业大赛金奖和特等奖.主要从事无线电能传输、光...",
+   "account": "XJTU荣命哲老师课题组",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E8%8D%A3%E5%91%BD%E5%93%B2%E6%95%99%E6%8E%88%E8%AF%BE%E9%A2%98%E7%BB%84%E9%9D%A2%E5%90%912024%E5%B1%8A%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F%E6%8B%9B%E6%94%B6%E6%8E%A8%E5%85%8D%E7%A0%94%E7%A9%B6%E7%94%9F"
+  },
+  {
+   "title": "经金学院启德书本科生第二党支部 | “青春向党,筑梦基层”——建功基层线上交流活动预告",
+   "date": "2023-04-13",
+   "snippet": "经金学院启德书院本科生第一、二、三党支部联合举办了建功基层线上交流活动.★活动预告建功基层线上交流活动01活动时间本周日...",
+   "account": "西安交大就业创业",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E9%87%91%E5%AD%A6%E9%99%A2%E5%90%AF%E5%BE%B7%E4%B9%A6%E6%9C%AC%E7%A7%91%E7%94%9F%E7%AC%AC%E4%BA%8C%E5%85%9A%E6%94%AF%E9%83%A8%20%7C%20%E2%80%9C%E9%9D%92%E6%98%A5%E5%90%91%E5%85%9A%2C%E7%AD%91%E6%A2%A6%E5%9F%BA%E5%B1%82%E2%80%9D%E2%80%94%E2%80%94%E5%BB%BA%E5%8A%9F%E5%9F%BA%E5%B1%82%E7%BA%BF%E4%B8%8A%E4%BA%A4%E6%B5%81%E6%B4%BB"
+  },
+  {
+   "title": "西安交通大学第六届魅力团支书评选活动宗濂书院选拔答辩",
+   "date": "2023-04-08",
+   "snippet": "宗濂书院团委组织建设中心在线上举办了西安交通大学团干部素质能力大赛暨第六届魅力团支书评选活动选拔答辩.参加该活动的评委...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%85%AD%E5%B1%8A%E9%AD%85%E5%8A%9B%E5%9B%A2%E6%94%AF%E4%B9%A6%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E9%80%89%E6%8B%94%E7%AD%94%E8%BE%A9"
+  },
+  {
+   "title": "新生杯丨半决赛预告",
+   "date": "2023-04-01",
+   "snippet": "预告♫. ♪ ~ ♬..♩~ ♫. ♪..♩~ ♫. ♪ ♫. ♪ ~ ♬..♩~ ♫.西入秦 安... 4启德书院启迪智慧,辩天下公理;德行天下,论人间万象.供稿 ...",
+   "account": "西安交大思辩学社",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E7%94%9F%E6%9D%AF%E4%B8%A8%E5%8D%8A%E5%86%B3%E8%B5%9B%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "励学业 | 励志书院最美笔记评选活动圆满结束啦!",
+   "date": "2022-12-10",
+   "snippet": "Part.1励志书院“十佳最美笔记”获得者:徐立宁 强基数学2202... 本次活动的最终目的并不只是为了评选出这些获奖的同学,更是为...",
+   "account": "西安交通大学励志书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B1%E5%AD%A6%E4%B8%9A%20%7C%20%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E6%9C%80%E7%BE%8E%E7%AC%94%E8%AE%B0%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%E5%9C%86%E6%BB%A1%E7%BB%93%E6%9D%9F%E5%95%A6%21"
+  },
+  {
+   "title": "宗濂书院志愿活动组织者须知",
+   "date": "2022-11-26",
+   "snippet": "宗濂书院志愿活动 组织者须知活动申报程序提前填写《宗濂书院活动工时申请表》(见附录三),并将文件名按照“承办单位-活动名...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%BF%97%E6%84%BF%E6%B4%BB%E5%8A%A8%E7%BB%84%E7%BB%87%E8%80%85%E9%A1%BB%E7%9F%A5"
+  },
+  {
+   "title": "励志书院益智桌游大赛来啦!!!",
+   "date": "2022-11-18",
+   "snippet": "励志书院星空间 活动奖品 天黑请闭眼:前三名:精美摆件前九名:精美书签其余比赛项目:前三名:精美书签CREATIVE ...",
+   "account": "西安交通大学励志书院",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E7%9B%8A%E6%99%BA%E6%A1%8C%E6%B8%B8%E5%A4%A7%E8%B5%9B%E6%9D%A5%E5%95%A6%21%21%21"
+  },
+  {
+   "title": "西安交通大学秋季学期就业服务及职业指导活动预告(2022年11月7日至11月13日)",
+   "date": "2022-11-07",
+   "snippet": "就业服务及职业指导活动预告我校于2022年11月7日至11月13日期... 李军,2011届西安交通大学,软件学院硕士毕业,OPPO西安影像...",
+   "account": "西安交大就业创业",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%8F%8A%E8%81%8C%E4%B8%9A%E6%8C%87%E5%AF%BC%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%282022%E5%B9%B411%E6%9C%887%E6%97%A5%E8%87%B311%E6%9C%8813"
+  },
+  {
+   "title": "西安交通大学秋季学期就业服务及职业指导活动预告 (2022年10月31日至11月6日)",
+   "date": "2022-10-31",
+   "snippet": "其他活动敬请关注“西安交大就业创业”公众号.职业咨询:线上... 陈永华,西安交通大学研究生院学位办主任,航天航空学院党委副...",
+   "account": "西安交大就业创业",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%8F%8A%E8%81%8C%E4%B8%9A%E6%8C%87%E5%AF%BC%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%282022%E5%B9%B410%E6%9C%8831%E6%97%A5%E8%87%B311%E6%9C%88"
+  },
+  {
+   "title": "最佳团日|励志书院优秀活动集锦",
+   "date": "2022-10-28",
+   "snippet": "最佳团日励志书院优秀活动集锦2022年10月,励志书院大一及预科各团支部开展了以“百年团青正风华,青春献礼二十大”为主题的...",
+   "account": "西安交通大学励志书院",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%9C%80%E4%BD%B3%E5%9B%A2%E6%97%A5%7C%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E4%BC%98%E7%A7%80%E6%B4%BB%E5%8A%A8%E9%9B%86%E9%94%A6"
+  },
+  {
+   "title": "最佳团日·风采 | 仲英书院优秀活动集锦(一)",
+   "date": "2022-10-26",
+   "snippet": "·最佳团日·仲英书院优秀活动集锦2022年10月,仲英书院各团支部开展了“百年团青正风华,青春献礼二十大”的主题团日活动....",
+   "account": "西安交大团委团建中心",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%9C%80%E4%BD%B3%E5%9B%A2%E6%97%A5%C2%B7%E9%A3%8E%E9%87%87%20%7C%20%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E4%BC%98%E7%A7%80%E6%B4%BB%E5%8A%A8%E9%9B%86%E9%94%A6%28%E4%B8%80%29"
+  },
+  {
+   "title": "西安交通大学电气工程学院“最佳团日”院级答辩会顺利举办",
+   "date": "2022-10-23",
+   "snippet": "电气工程学院于3-2030会议室举办西安交通大学第37届“最佳团日”活动院级答辩会.本次“最佳团日”院级答辩会共有23个新生团...",
+   "account": "西安交通大学电气工程学院",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E2%80%9C%E6%9C%80%E4%BD%B3%E5%9B%A2%E6%97%A5%E2%80%9D%E9%99%A2%E7%BA%A7%E7%AD%94%E8%BE%A9%E4%BC%9A%E9%A1%BA%E5%88%A9%E4%B8%BE%E5%8A%9E"
+  },
+  {
+   "title": "赛事通知 | 文治书院新生杯手游比赛重磅来袭",
+   "date": "2022-10-14",
+   "snippet": "文治书院新生杯手游比赛期待你的参加!图文来源:文治书院学生会文体活动部图文排版:文治书院学生会宣传部图文审核:李经纬...",
+   "account": "文治书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%B5%9B%E4%BA%8B%E9%80%9A%E7%9F%A5%20%7C%20%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E6%96%B0%E7%94%9F%E6%9D%AF%E6%89%8B%E6%B8%B8%E6%AF%94%E8%B5%9B%E9%87%8D%E7%A3%85%E6%9D%A5%E8%A2%AD"
+  },
+  {
+   "title": "最佳团日 | 西安交通大学电气工程学院举办“最佳团日”分享会",
+   "date": "2022-10-12",
+   "snippet": "推进西安交通大学电气工程学院第37届“最佳团日”活动顺利进行,保持学院团日活动的先进性和丰富性,西安交通大学电气工程学院...",
+   "account": "西安交通大学电气工程学院",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%9C%80%E4%BD%B3%E5%9B%A2%E6%97%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E4%B8%BE%E5%8A%9E%E2%80%9C%E6%9C%80%E4%BD%B3%E5%9B%A2%E6%97%A5%E2%80%9D%E5%88%86%E4%BA%AB%E4%BC%9A"
+  },
+  {
+   "title": "彭 · 活动 | 星荧夜跑新规则!!!",
+   "date": "2022-10-10",
+   "snippet": "星荧夜跑+ + + + + + + + + + + 无论你是刚刚入学的大一新生还是热爱跑步的体育健将无论你为不断的跑操发愁还是讨厌乏味的形式都不...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E6%98%9F%E8%8D%A7%E5%A4%9C%E8%B7%91%E6%96%B0%E8%A7%84%E5%88%99%21%21%21"
+  },
+  {
+   "title": "实践通知 | 西安交通大学2022年暑期“三下乡”社会实践活动宣讲会来了!",
+   "date": "2022-06-07",
+   "snippet": "西安交通大学2022年暑期“三下乡”社会实践活动宣讲会暨立邦“未来之星”青年设计师大赛暨全国大学生优秀设计作业及作品征集宣...",
+   "account": "西安交通大学励志书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E9%80%9A%E7%9F%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62022%E5%B9%B4%E6%9A%91%E6%9C%9F%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E6%B4%BB%E5%8A%A8%E5%AE%A3%E8%AE%B2%E4%BC%9A%E6%9D%A5%E4%BA%86%21"
+  },
+  {
+   "title": "彭 · 活动 | 彭康书院2022年度重温入团仪式暨五四表彰大会顺利召开",
+   "date": "2022-05-17",
+   "snippet": "相信本次活动能够激励彭康书院全团员再接再厉,不忘初心、牢记使命,为实现中华民族的伟大复兴而奋斗!-pengkang 2006-图文 / ...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A22022%E5%B9%B4%E5%BA%A6%E9%87%8D%E6%B8%A9%E5%85%A5%E5%9B%A2%E4%BB%AA%E5%BC%8F%E6%9A%A8%E4%BA%94%E5%9B%9B%E8%A1%A8%E5%BD%B0%E5%A4%A7%E4%BC%9A%E9%A1%BA%E5%88%A9%E5%8F%AC%E5%BC%80"
+  },
+  {
+   "title": "“濂青”活动——宗濂书院“濂系新时代,青向新征程”系列活动启动仪式暨“七个一工程”总结大会",
+   "date": "2022-05-11",
+   "snippet": "“濂青”活动——宗濂书院“濂系新时代,青向新征程”系列活动启动仪式暨“七个一工程”总结大会为做好喜迎二十大与建团百年氛...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E6%BF%82%E9%9D%92%E2%80%9D%E6%B4%BB%E5%8A%A8%E2%80%94%E2%80%94%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E2%80%9C%E6%BF%82%E7%B3%BB%E6%96%B0%E6%97%B6%E4%BB%A3%2C%E9%9D%92%E5%90%91%E6%96%B0%E5%BE%81%E7%A8%8B%E2%80%9D%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%E5%90%AF%E5%8A%A8%E4%BB%AA%E5%BC%8F%E6%9A%A8%E2%80%9C%E4%B8%83%E4%B8%AA%E4%B8%80%E5%B7%A5%E7%A8%8B"
+  },
+  {
+   "title": "【活动预告】立行计划往期优秀同学寄语",
+   "date": "2022-05-03",
+   "snippet": "【活动预告】立行计划往期优秀同学寄语“百年团青正风华,青春... 于2021年启德书院“立行计划”中获得一等奖.“立行计划”是一...",
+   "account": "青听启德",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%E3%80%91%E7%AB%8B%E8%A1%8C%E8%AE%A1%E5%88%92%E5%BE%80%E6%9C%9F%E4%BC%98%E7%A7%80%E5%90%8C%E5%AD%A6%E5%AF%84%E8%AF%AD"
+  },
+  {
+   "title": "西安交通大学电气学院荣命哲教授课题组面向2023届本科毕业生招收推免研究生",
+   "date": "2022-04-24",
+   "snippet": "现任西安交通大学未来技术学院/现代产业学院副院长、实践教学中... 并5次获得“互联网+”、“挑战杯”竞赛国家级奖励.研究方向:...",
+   "account": "XJTU荣命哲老师课题组",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E8%8D%A3%E5%91%BD%E5%93%B2%E6%95%99%E6%8E%88%E8%AF%BE%E9%A2%98%E7%BB%84%E9%9D%A2%E5%90%912023%E5%B1%8A%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F%E6%8B%9B%E6%94%B6%E6%8E%A8%E5%85%8D%E7%A0%94%E7%A9%B6%E7%94%9F"
+  },
+  {
+   "title": "西安交通大学第五届魅力团支书评选活动宗濂书院初赛答辩",
+   "date": "2022-04-06",
+   "snippet": "西安交通大学第五届魅力团支书评选活动宗濂书院初赛答辩为进一步提高我校基层团组织的活力和凝聚力,全面加强共青团干部队伍建...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%94%E5%B1%8A%E9%AD%85%E5%8A%9B%E5%9B%A2%E6%94%AF%E4%B9%A6%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%88%9D%E8%B5%9B%E7%AD%94%E8%BE%A9"
+  },
+  {
+   "title": "励打卡|励志书院寒假健身活动",
+   "date": "2022-01-25",
+   "snippet": "励打卡|励志书院寒假健身活动STRENGTHEN YOUR BODY主办方西安交通大学励志书院学生会活 动 介 绍一起健身吧等冬去春来对于...",
+   "account": "西安交通大学励志书院",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B1%E6%89%93%E5%8D%A1%7C%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E5%AF%92%E5%81%87%E5%81%A5%E8%BA%AB%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "【仲英书院】集体之星评选",
+   "date": "2021-06-04",
+   "snippet": "仲英书院学生会“雷厉锋行”主题活动仲英书院学生会,一个“全心全意为英仔服务”的集体.作为学生组织,他们做好思想引领,向...",
+   "account": "仲英青年",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E3%80%91%E9%9B%86%E4%BD%93%E4%B9%8B%E6%98%9F%E8%AF%84%E9%80%89"
+  },
+  {
+   "title": "交大再现“硬核”宿舍!他们都将进入名校深造",
+   "date": "2021-05-31",
+   "snippet": "曾任西安交大校园大使、参与新型城镇化进程中农业转移人口的生计与可持续发展研究.现保研至西安交通大学人工智能学院.学习方...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A4%E5%A4%A7%E5%86%8D%E7%8E%B0%E2%80%9C%E7%A1%AC%E6%A0%B8%E2%80%9D%E5%AE%BF%E8%88%8D%21%E4%BB%96%E4%BB%AC%E9%83%BD%E5%B0%86%E8%BF%9B%E5%85%A5%E5%90%8D%E6%A0%A1%E6%B7%B1%E9%80%A0"
+  },
+  {
+   "title": "西安交通大学2021年就业文化节系列活动预告",
+   "date": "2021-05-17",
+   "snippet": "西安交通大学2021年就业文化节系列活动预告为贯彻落实党中央、... -25日雁塔校区10号楼104启德书院5月20日腾讯会议二附院5月20...",
+   "account": "西安交大就业创业",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62021%E5%B9%B4%E5%B0%B1%E4%B8%9A%E6%96%87%E5%8C%96%E8%8A%82%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "彭 · 活动 | 彭康书院 “重温入团仪式,不忘初心使命”五四主题活动",
+   "date": "2021-04-30",
+   "snippet": "彭康书院“重温入团仪式,不忘初心使命”五四主题活动活动总述4月28日下午,彭康书院团工委团组织建设指导中心于西安交通大学...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%20%E2%80%9C%E9%87%8D%E6%B8%A9%E5%85%A5%E5%9B%A2%E4%BB%AA%E5%BC%8F%2C%E4%B8%8D%E5%BF%98%E5%88%9D%E5%BF%83%E4%BD%BF%E5%91%BD%E2%80%9D%E4%BA%94%E5%9B%9B%E4%B8%BB%E9%A2%98%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "彭康书院开展党员宿舍挂牌行动",
+   "date": "2021-04-02",
+   "snippet": "彭康书院开展党员宿舍挂牌行动 为庆祝迎接中国共产党建党100周... 总而言之,这是一个十分有意义的活动,为我们提供了一个自我激...",
+   "account": "西安交大彭康书院党总支",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%BC%80%E5%B1%95%E5%85%9A%E5%91%98%E5%AE%BF%E8%88%8D%E6%8C%82%E7%89%8C%E8%A1%8C%E5%8A%A8"
+  },
+  {
+   "title": "工作室介绍&活动预告|南洋书院大学生职业规划发展工作室成立",
+   "date": "2021-03-16",
+   "snippet": "南洋书院东九110的大门,时刻为大家敞开.线上活动报名线下团体辅导报名图文来源:南洋书院学生会创新发展部责任编辑:蒲乐之...",
+   "account": "仙交大南洋书院学生会",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%B7%A5%E4%BD%9C%E5%AE%A4%E4%BB%8B%E7%BB%8D%26%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%7C%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E5%8F%91%E5%B1%95%E5%B7%A5%E4%BD%9C%E5%AE%A4%E6%88%90%E7%AB%8B"
+  },
+  {
+   "title": "社会实践︱西安交通大学启德书院2021大学生寒假“三下乡”社会实践评审结果公示",
+   "date": "2021-03-07",
+   "snippet": "西安交通大学启德书院2021大学生寒假“三下乡”社会实践评审结果公示2021年3月5日19:30-21:30,由启德书院团工委实践部举办的...",
+   "account": "西安交通大学启德书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%EF%B8%B1%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A22021%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%AF%92%E5%81%87%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%85%AC%E7%A4%BA"
+  },
+  {
+   "title": "饮水思源,西安交通大学2021年校园大使招募啦!",
+   "date": "2020-12-09",
+   "snippet": "西安交通大学校园大使活动,是由西安交通大学招生办与共青团西安交通大学委员会联合主办的大学生寒假实践活动.校园大使活动的...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%A5%AE%E6%B0%B4%E6%80%9D%E6%BA%90%2C%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62021%E5%B9%B4%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E6%8B%9B%E5%8B%9F%E5%95%A6%21"
+  },
+  {
+   "title": "活动预告 | 启德书院第三期“导师有约”",
+   "date": "2020-11-05",
+   "snippet": "启德书院第三期导师有约--倾城花开,赏美妆之妙有没有人告诉你... 又能接近你的笑颜,那么,请关注我们的美妆活动吧.当话语变得...",
+   "account": "西安交通大学启德书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A2%E7%AC%AC%E4%B8%89%E6%9C%9F%E2%80%9C%E5%AF%BC%E5%B8%88%E6%9C%89%E7%BA%A6%E2%80%9D"
+  },
+  {
+   "title": "彭 · 活动|创建文明校园之彭康书院在行动",
+   "date": "2020-09-24",
+   "snippet": "创建文明校园,交大在行动,彭康书院在行动.“群贤毕至少长咸集”创建文明校园,彭康书院在行动!今天,彭康书院从书院老师,...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%7C%E5%88%9B%E5%BB%BA%E6%96%87%E6%98%8E%E6%A0%A1%E5%9B%AD%E4%B9%8B%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%9C%A8%E8%A1%8C%E5%8A%A8"
+  },
+  {
+   "title": "启德聚焦 | 西安交通大学启德书院2020年大学生暑期“三下乡”社会实践评审结果公示",
+   "date": "2020-09-06",
+   "snippet": "西安交通大学启德书院2020年大学生暑期“三下乡”社会实践评审结果公示结果公示 …西安交通大学启德书院2020年大学生暑期“三...",
+   "account": "西安交通大学启德书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%90%AF%E5%BE%B7%E8%81%9A%E7%84%A6%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A22020%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E6%9C%9F%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C"
+  },
+  {
+   "title": "【社会实践】西安交通大学钱学森书院党员科普宣传团走进宁陕县皇冠镇",
+   "date": "2020-07-31",
+   "snippet": "“三下乡”暑期实践的一部分,同时也是西安交通大学钱学森书院师生联合党支部“七一”系列活动的组成部分.通过党员科普宣传团...",
+   "account": "西安交大钱学森学院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E3%80%91%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%92%B1%E5%AD%A6%E6%A3%AE%E4%B9%A6%E9%99%A2%E5%85%9A%E5%91%98%E7%A7%91%E6%99%AE%E5%AE%A3%E4%BC%A0%E5%9B%A2%E8%B5%B0%E8%BF%9B%E5%AE%81%E9%99%95%E5%8E%BF%E7%9A%87%E5%86%A0%E9%95%87"
+  },
+  {
+   "title": "书院与你过暑假 | 文治书院暑假活动来啦!",
+   "date": "2020-07-30",
+   "snippet": "将你喜欢的书籍与志同道合的同学分享,将阅读的欢乐绽放在文治书院内.活动时间:2020.8.1-8.21内容:读书分享活动一共持续21天...",
+   "account": "文治书院学生会",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B9%A6%E9%99%A2%E4%B8%8E%E4%BD%A0%E8%BF%87%E6%9A%91%E5%81%87%20%7C%20%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E6%9A%91%E5%81%87%E6%B4%BB%E5%8A%A8%E6%9D%A5%E5%95%A6%21"
+  },
+  {
+   "title": "预告|崇实书院“萌宠大作战”活动",
+   "date": "2020-04-13",
+   "snippet": "预告 | 崇实书院“萌宠大作战”活动转眼已是人间四月,万物苏生,一切顺遂.不知道在这段漫长的自我隔离中,大家身边有没有一些...",
+   "account": "崇实书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%A2%84%E5%91%8A%7C%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E2%80%9C%E8%90%8C%E5%AE%A0%E5%A4%A7%E4%BD%9C%E6%88%98%E2%80%9D%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "【快讯】仲英书院职业发展工作室正式揭牌",
+   "date": "2019-12-26",
+   "snippet": "本次活动由仲英书院院务主任黄丽宁主持,学生就业创业中心主任郑旭红、主管刘海荣,仲英书院院务副主任陶磊、主任助理杨艳丽、...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%BF%AB%E8%AE%AF%E3%80%91%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E5%B7%A5%E4%BD%9C%E5%AE%A4%E6%AD%A3%E5%BC%8F%E6%8F%AD%E7%89%8C"
+  },
+  {
+   "title": "招募|还在等什么?下一位校园大使就是你~",
+   "date": "2019-11-26",
+   "snippet": "校园大使寒假实践?西安交大校园大使寒假实践——寒假返校宣传服务活动,是由西安交通大学招生办与共青团西安交大委员会联合主...",
+   "account": "西安交大团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%8B%9B%E5%8B%9F%7C%E8%BF%98%E5%9C%A8%E7%AD%89%E4%BB%80%E4%B9%88%3F%E4%B8%8B%E4%B8%80%E4%BD%8D%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E5%B0%B1%E6%98%AF%E4%BD%A0~"
+  },
+  {
+   "title": "【青春告白祖国】宗濂书院:举办系列活动,献礼祖国",
+   "date": "2019-10-11",
+   "snippet": "宗濂书院团工委开展了丰富多彩的“青春告白祖国”系列主题活动,激励、引导全体团员抒发对伟大祖国的热忱和自豪感,以实际行动...",
+   "account": "西安交大团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E9%9D%92%E6%98%A5%E5%91%8A%E7%99%BD%E7%A5%96%E5%9B%BD%E3%80%91%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%3A%E4%B8%BE%E5%8A%9E%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%2C%E7%8C%AE%E7%A4%BC%E7%A5%96%E5%9B%BD"
+  },
+  {
+   "title": "彭 · 活动 | 【青春告白祖国】彭康书院开展青春告白祖国系列活动",
+   "date": "2019-10-01",
+   "snippet": "探索真理的毅力,彭康书院于2019年暑假组织多支社会实践队伍前往祖国各地,在丰富多彩的实践活动中向祖国深情告白.. 本次...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E3%80%90%E9%9D%92%E6%98%A5%E5%91%8A%E7%99%BD%E7%A5%96%E5%9B%BD%E3%80%91%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%BC%80%E5%B1%95%E9%9D%92%E6%98%A5%E5%91%8A%E7%99%BD%E7%A5%96%E5%9B%BD%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "【崇实书院】宣讲第一弹 · 预告",
+   "date": "2019-08-08",
+   "snippet": "从而集结学长学姐对相关话题进行宣讲介绍的活动.本届崇实书院宣讲会将会以QQ直播的方式在崇实书院新生群内进行.宣讲会集结...",
+   "account": "崇实书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E3%80%91%E5%AE%A3%E8%AE%B2%E7%AC%AC%E4%B8%80%E5%BC%B9%20%C2%B7%20%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "西安交通大学电气工程学院“电气之星”表彰评选办法",
+   "date": "2019-05-22",
+   "snippet": "评选范围和对象西安交通大学电气工程学院全日制研究生(包括硕... 4.成绩优异,在省级以上学科竞赛中获奖,能够帮助和带动身边同...",
+   "account": "西安交通大学电气工程学院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E2%80%9C%E7%94%B5%E6%B0%94%E4%B9%8B%E6%98%9F%E2%80%9D%E8%A1%A8%E5%BD%B0%E8%AF%84%E9%80%89%E5%8A%9E%E6%B3%95"
+  },
+  {
+   "title": "活动预告 | 中美贸易战的理论渊源",
+   "date": "2019-05-15",
+   "snippet": "活动预告讲座题目:中美贸易战的理论渊源——兼论中国古代何以强大特朗普为什么会重竖关税的大旗?这背后的经济学理论渊源是什...",
+   "account": "西安交通大学启德书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E4%B8%AD%E7%BE%8E%E8%B4%B8%E6%98%93%E6%88%98%E7%9A%84%E7%90%86%E8%AE%BA%E6%B8%8A%E6%BA%90"
+  },
+  {
+   "title": "2019年西安交通大学唐仲英爱心社换届通知",
+   "date": "2019-04-13",
+   "snippet": "越公益越有爱,西安交通大学唐仲英爱心社(以下简称爱心社)是学生处下属实践类公益社团,成立于2003年,是由获得唐仲英德育奖...",
+   "account": "西安交大唐仲英爱心社",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2019%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%94%90%E4%BB%B2%E8%8B%B1%E7%88%B1%E5%BF%83%E7%A4%BE%E6%8D%A2%E5%B1%8A%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "彭 · 活动 | 彭康书院社团负责人全体会议",
+   "date": "2018-11-05",
+   "snippet": "彭康书院才能更好地发展. 最后是各社团负责人的讨论时间,大家各抒己见,交流了发展社团的方法,以及社团活动中有趣的事. ...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E7%A4%BE%E5%9B%A2%E8%B4%9F%E8%B4%A3%E4%BA%BA%E5%85%A8%E4%BD%93%E4%BC%9A%E8%AE%AE"
+  },
+  {
+   "title": "“腾飞杯“30年 | 交大人就应该参加一次腾飞杯!",
+   "date": "2018-10-19",
+   "snippet": "★腾飞杯★西安交通大学为了进一步激发我校学生崇尚科学、追求真理、锐意创新、迎接挑战的精神,培养和锻炼我校学生创新意识、...",
+   "account": "西安交大团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9C30%E5%B9%B4%20%7C%20%E4%BA%A4%E5%A4%A7%E4%BA%BA%E5%B0%B1%E5%BA%94%E8%AF%A5%E5%8F%82%E5%8A%A0%E4%B8%80%E6%AC%A1%E8%85%BE%E9%A3%9E%E6%9D%AF%21"
+  },
+  {
+   "title": "仲英书院举行宿舍革命仪式暨2018级舍长大会",
+   "date": "2018-09-28",
+   "snippet": "仲英书院院务主任黄丽宁等出席了会议,与仲英书院的社团代表以及所有新任舍长一同见证仲英书院“宿舍革命”活动的启动.新任社...",
+   "account": "XJTU公寓管理",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E4%B8%BE%E8%A1%8C%E5%AE%BF%E8%88%8D%E9%9D%A9%E5%91%BD%E4%BB%AA%E5%BC%8F%E6%9A%A82018%E7%BA%A7%E8%88%8D%E9%95%BF%E5%A4%A7%E4%BC%9A"
+  },
+  {
+   "title": "西安交通大学校园大使走进吴江经济技术开发区活动圆满举行!",
+   "date": "2018-08-13",
+   "snippet": "2018年8月6日至10日,西安交通大学15名学生校园大使在就创中心李勇副主任和王冲猴老师的带领下,赴苏州市吴江经济技术开发区...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E8%B5%B0%E8%BF%9B%E5%90%B4%E6%B1%9F%E7%BB%8F%E6%B5%8E%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E5%8C%BA%E6%B4%BB%E5%8A%A8%E5%9C%86%E6%BB%A1%E4%B8%BE%E8%A1%8C%21"
+  },
+  {
+   "title": "首次参赛勇夺全球冠军!西安交大学生团队在国际未来能源挑战赛中一举夺魁",
+   "date": "2018-07-25",
+   "snippet": "该赛事是国际上新能源发电领域最高级别的大学生创新竞赛.西安交通大学电气工程学院学生组成的参赛团队在来自新加坡国立大学、...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%A6%96%E6%AC%A1%E5%8F%82%E8%B5%9B%E5%8B%87%E5%A4%BA%E5%85%A8%E7%90%83%E5%86%A0%E5%86%9B%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9B%A2%E9%98%9F%E5%9C%A8%E5%9B%BD%E9%99%85%E6%9C%AA%E6%9D%A5%E8%83%BD%E6%BA%90%E6%8C%91%E6%88%98%E8%B5%9B%E4%B8%AD%E4%B8%80%E4%B8%BE%E5%A4%BA%E9%AD%81"
+  },
+  {
+   "title": "“腾飞杯”30年 | 西安交通大学第一届大学生结构设计竞赛",
+   "date": "2018-04-24",
+   "snippet": "文治书院联合举办西安交通大学第一届“腾飞杯”大学生结构设计竞赛.现将竞赛有关事宜通知下:竞赛时间2018年5月23日参赛对象...",
+   "account": "西安交大团委",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D30%E5%B9%B4%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%B1%8A%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B"
+  },
+  {
+   "title": "『 节目征集 』仲英书院十周年院庆节目征集开始啦!",
+   "date": "2018-03-20",
+   "snippet": "仲英书院十周年院庆节目征集开始啦曾经:2008年在这一年,西安交通大学仲英书院成立,这里是所有英仔梦开始的地方.如今:...",
+   "account": "仲英书院学生会",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%8E%20%E8%8A%82%E7%9B%AE%E5%BE%81%E9%9B%86%20%E3%80%8F%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E5%8D%81%E5%91%A8%E5%B9%B4%E9%99%A2%E5%BA%86%E8%8A%82%E7%9B%AE%E5%BE%81%E9%9B%86%E5%BC%80%E5%A7%8B%E5%95%A6%21"
+  },
+  {
+   "title": "西安交通大学“腾飞杯”英语演讲大赛暨2018年“外研社杯”全国英语演讲大赛选拔通知",
+   "date": "2018-03-08",
+   "snippet": "西安交通大学“腾飞杯”英语演讲大赛暨2018年“外研社杯”全国英语演讲大赛选拔通知Notification for Xi'an Jiaotong University ...",
+   "account": "西安交大国际教育学院",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2%E5%A4%A7%E8%B5%9B%E6%9A%A82018%E5%B9%B4%E2%80%9C%E5%A4%96%E7%A0%94%E7%A4%BE%E6%9D%AF%E2%80%9D%E5%85%A8%E5%9B%BD%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2%E5%A4%A7%E8%B5%9B%E9%80%89%E6%8B%94%E9%80%9A"
+  },
+  {
+   "title": "西安交通大学第十二届“腾飞杯”创业竞赛创业计划类金奖合集",
+   "date": "2018-01-05",
+   "snippet": "以上九个项目为西安交通大学第十二届腾飞杯创业竞赛创业计划类金奖项目,如有专家、校友、风投对我校优秀项目感兴趣,愿意进一...",
+   "account": "西安交大就业创业",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E4%B8%9A%E7%AB%9E%E8%B5%9B%E5%88%9B%E4%B8%9A%E8%AE%A1%E5%88%92%E7%B1%BB%E9%87%91%E5%A5%96%E5%90%88%E9%9B%86"
+  },
+  {
+   "title": "大事件:仙交大2018年校园大使招募啦!",
+   "date": "2017-11-21",
+   "snippet": "(校园大使活动最终解释权归西安交通大学招生办所有)2017年校园大使返校宣讲共有300多支队伍,1000多人参加,异常火爆!小伙...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%A4%A7%E4%BA%8B%E4%BB%B6%3A%E4%BB%99%E4%BA%A4%E5%A4%A72018%E5%B9%B4%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E6%8B%9B%E5%8B%9F%E5%95%A6%21"
+  },
+  {
+   "title": "西安交通大学崇实书院德育积分办法",
+   "date": "2017-09-07",
+   "snippet": "德育积分办法以每学年为一个德育积分周期,自前一年的九月一日... 接受广大学生的监督,公示无异议则作为评奖依据.积分包括如下...",
+   "account": "崇实团子酱",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E5%BE%B7%E8%82%B2%E7%A7%AF%E5%88%86%E5%8A%9E%E6%B3%95"
+  },
+  {
+   "title": "西安交通大学2017年大学生创业实践大赛开始啦!",
+   "date": "2017-04-06",
+   "snippet": "2018年7月前西安交通大学在籍注册的全日制学生均可参加.2.如... 德育积分加分证明,由就业中心向大赛获奖团队成员开具.项目通...",
+   "account": "西安交大就业创业",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62017%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E4%B8%9A%E5%AE%9E%E8%B7%B5%E5%A4%A7%E8%B5%9B%E5%BC%80%E5%A7%8B%E5%95%A6%21"
+  },
+  {
+   "title": "搜索吧,交大!",
+   "date": "2017-03-22",
+   "snippet": "三月二十六日9:30-11:00(共1个半小时)比赛地点:西安交大兴庆校区参赛对象:西安交大全体学生可加德育积分哦!",
+   "account": "崇实团子酱",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%90%9C%E7%B4%A2%E5%90%A7%2C%E4%BA%A4%E5%A4%A7%21"
+  },
+  {
+   "title": "西安交通大学2017届毕业生冬季招聘会预告",
+   "date": "2016-11-16",
+   "snippet": "时间:2016年11月17日9:00-15:30地点:思源活动中心、青年之家西安交通大学2017届毕业生冬季大型招聘会将于11月17日在西安交...",
+   "account": "西交大生活圈",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62017%E5%B1%8A%E6%AF%95%E4%B8%9A%E7%94%9F%E5%86%AC%E5%AD%A3%E6%8B%9B%E8%81%98%E4%BC%9A%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "快收藏!崇实书院德育积分办法(2016年5月修订)",
+   "date": "2016-05-04",
+   "snippet": "基础分(满分为60分).包括参与学校、崇实书院、学生所在学院、班级组织的重大活动,参加学业辅导活动...课外学习积分(满分为3分).依照学校“课外8学分记录卡”的记录或有关规定进行积分,参加讲座每次积0.5分.在创新、创业、文体、科技等各类竞赛中获奖积分(满分为12分).参加创新、创业、文体、科技活动,社会实践、专业竞赛并获得奖励者...",
+   "account": "西安交通大学崇实书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BF%AB%E6%94%B6%E8%97%8F%21%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E5%BE%B7%E8%82%B2%E7%A7%AF%E5%88%86%E5%8A%9E%E6%B3%95%282016%E5%B9%B45%E6%9C%88%E4%BF%AE%E8%AE%A2%29"
+  },
+  {
+   "title": "文 · 转 文治书院宿舍默契大赛来啦",
+   "date": "2016-04-23",
+   "snippet": "本活动面向文治书院全体学生开放,不收取任何费用.2.以宿舍内2-4人组成团队并报名.3.活动预定于4月24日晚在文治书院进行.4....",
+   "account": "西安交通大学文治书院",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%20%C2%B7%20%E8%BD%AC%20%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%AE%BF%E8%88%8D%E9%BB%98%E5%A5%91%E5%A4%A7%E8%B5%9B%E6%9D%A5%E5%95%A6"
+  }
+ ],
+ "wechatStat": {
+  "total": 111,
+  "dropped": 55,
+  "byAccount": {
+   "西安交通大学宗濂书院": 9,
+   "西安交大彭康书院党总支": 2,
+   "励志党总支": 2,
+   "南洋书院党总支": 2,
+   "西迁之光": 1,
+   "崇实书院宿生会": 1,
+   "崇实书院青年之声": 3,
+   "西安交通大学南洋书院": 8,
+   "西安交通大学仲英书院": 2,
+   "西安交通大学励志书院": 7,
+   "交小航": 1,
+   "xjtu2yuanyouth": 1,
+   "仲英青年": 3,
+   "西安交通大学交小招": 1,
+   "仲英书院学生会": 2,
+   "法协XJTU": 1,
+   "文治书院学生会": 5,
+   "交大西迁博物馆": 1,
+   "西安交通大学崇实书院": 3,
+   "西安交通大学彭康书院团委": 7,
+   "西安交大科技创新指导中心": 1,
+   "交小招": 1,
+   "西安交通大学社会实践": 2,
+   "青听启德": 2,
+   "西安交通大学彭康书院": 1,
+   "文治书院一等青年": 1,
+   "仙交大Frisbee": 1,
+   "西安交通大学电气工程学院": 4,
+   "西安交大第一附属医院": 1,
+   "XJTU荣命哲老师课题组": 2,
+   "西安交大就业创业": 8,
+   "西安交大思辩学社": 1,
+   "西安交大团委团建中心": 1,
+   "西安交通大学": 2,
+   "仙交大南洋书院学生会": 1,
+   "西安交通大学启德书院": 4,
+   "西安交通大学招生办": 2,
+   "西安交大钱学森学院": 1,
+   "崇实书院学生会": 2,
+   "西安交大团委": 4,
+   "西安交大唐仲英爱心社": 1,
+   "XJTU公寓管理": 1,
+   "西安交大国际教育学院": 1,
+   "崇实团子酱": 2,
+   "西交大生活圈": 1,
+   "西安交通大学文治书院": 1
+  },
+  "byGroup": {
+   "社会实践": 13,
+   "思政学习": 10,
+   "集体活动": 28,
+   "文体竞赛": 6,
+   "其他": 37,
+   "学科竞赛": 12,
+   "教学信息": 5
+  }
+ },
  "calendar": {
   "all": "calendar/all.ics",
   "eeCore": "calendar/ee-core.ics",

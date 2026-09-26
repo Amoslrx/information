@@ -152,6 +152,8 @@
       var el = $(p[0]);
       if (el) el.textContent = String(g[p[1]] || 0);
     });
+    var wc = $('tabCountWx');
+    if (wc) wc.textContent = String((D.wechat || []).length);
 
     $('footMeta').textContent = '数据生成于 ' + (D.generatedAt || '—') +
       '｜竞赛 ' + (STATS.competitions || 0) + ' 条、通知 ' + (STATS.notices || 0) +
@@ -745,6 +747,97 @@
     });
   }
 
+  /* ---------------- 公众号文章线索 ---------------- */
+
+  var WX = [];
+
+  function wxGroups() {
+    var order = ['学科竞赛', '等级考试', '集体活动', '文体竞赛', '社会实践', '思政学习', '教学信息'];
+    var seen = {};
+    WX.forEach(function (x) { seen[x.group] = (seen[x.group] || 0) + 1; });
+    var out = order.filter(function (g) { return seen[g]; });
+    Object.keys(seen).forEach(function (g) { if (out.indexOf(g) < 0) out.push(g); });
+    return out;
+  }
+
+  function renderWxChips(active) {
+    var groups = wxGroups();
+    var html = '<button class="chip' + (!active ? ' is-on' : '') +
+               '" data-g="">全部 ' + WX.length + '</button>';
+    html += groups.map(function (g) {
+      var n = WX.filter(function (x) { return x.group === g; }).length;
+      return '<button class="chip' + (active === g ? ' is-on' : '') +
+             '" data-g="' + esc(g) + '">' + esc(g) + ' ' + n + '</button>';
+    }).join('');
+    $('wxChips').innerHTML = html;
+  }
+
+  function renderWeChat() {
+    var q = normText($('wq').value);
+    var g = $('wxChips').getAttribute('data-active') || '';
+    var acc = $('wAcc').value;
+    var range = $('wRange').value;
+    var sort = $('wSort').value;
+
+    var list = WX.filter(function (x) {
+      if (g && x.group !== g) return false;
+      if (acc && x.account !== acc) return false;
+      if (range && daysSince(x.date) > +range) return false;
+      if (q && matchScore(haystack([x.title, x.snippet, x.account, x.cat]),
+                          q) === 0) return false;
+      return true;
+    });
+    list.sort(function (a, b) {
+      return sort === 'dateAsc' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
+    });
+
+    $('wxCount').textContent = '共 ' + list.length + ' 篇' +
+      (list.length !== WX.length ? '（收录 ' + WX.length + ' 篇）' : '');
+    $('wxEmpty').hidden = list.length > 0;
+
+    $('wxList').innerHTML = list.map(function (x) {
+      var fresh = isFresh(x.date);
+      return '' +
+        '<article class="wxcard">' +
+          '<div class="wxcard-head">' +
+            '<h3>' + esc(x.title) + '</h3>' +
+            '<span class="badge b-cat">' + esc(x.cat) + '</span>' +
+          '</div>' +
+          '<div class="wxcard-meta">' +
+            '<span class="badge b-site">' + esc(x.account || '未知公众号') + '</span>' +
+            '<span class="wxdate">' + esc(x.date) +
+              '（' + agoText(daysSince(x.date)) + '）</span>' +
+            (fresh ? '<span class="fresh-dot">NEW</span>' : '') +
+          '</div>' +
+          (x.snippet ? '<p class="wxsnip">' + esc(x.snippet) + '</p>' : '') +
+          '<div class="wxacts">' +
+            (x.searchUrl ? '<a class="btn-primary btn-sm" href="' + esc(x.searchUrl) +
+              '" target="_blank" rel="noopener">微信里搜这条 ↗</a>' : '') +
+            '<span class="muted">正文需在微信里查看</span>' +
+          '</div>' +
+        '</article>';
+    }).join('');
+  }
+
+  function initWeChat() {
+    WX = D.wechat || [];
+    if (!WX.length) return;
+    $('wxChips').setAttribute('data-active', '');
+    renderWxChips('');
+    // 公众号下拉(按条数排序)
+    var cnt = {};
+    WX.forEach(function (x) { cnt[x.account] = (cnt[x.account] || 0) + 1; });
+    var sel = $('wAcc');
+    Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; })
+      .forEach(function (a) {
+        var o = document.createElement('option');
+        o.value = a;
+        o.textContent = a + '（' + cnt[a] + '）';
+        sel.appendChild(o);
+      });
+    renderWeChat();
+  }
+
   /* ---------------- 常用网站 ---------------- */
 
   var LINKS = [];        // 载入后填充(见 initLinks)
@@ -914,6 +1007,35 @@
       renderRhythm();
     });
 
+    // 公众号: chips 与筛选
+    ['wq', 'wAcc', 'wRange', 'wSort'].forEach(function (id) {
+      var el = $(id);
+      if (!el) return;
+      el.addEventListener(id === 'wq' ? 'input' : 'change', function () {
+        $('wqClear').hidden = !$('wq').value;
+        renderWeChat();
+      });
+    });
+    $('wqClear').addEventListener('click', function () {
+      $('wq').value = ''; $('wqClear').hidden = true; renderWeChat();
+    });
+    $('wReset').addEventListener('click', function () {
+      $('wq').value = ''; $('wqClear').hidden = true;
+      $('wxChips').setAttribute('data-active', '');
+      renderWxChips('');
+      $('wAcc').value = ''; $('wRange').value = ''; $('wSort').value = 'date';
+      renderWeChat();
+    });
+    $('wxChips').addEventListener('click', function (e) {
+      var t = e.target;
+      if (!t || !t.getAttribute) return;
+      var g = t.getAttribute('data-g');
+      if (g === null || g === undefined) return;
+      $('wxChips').setAttribute('data-active', g);
+      renderWxChips(g);
+      renderWeChat();
+    });
+
     // 日历订阅网址复制
     $('copyCore').addEventListener('click', function () {
       copyText($('urlCore').value, $('copyCore'));
@@ -971,6 +1093,7 @@
     // 全渲染出来。切到分类标签时由 activateView 触发。
     initRhythm();
     initLinks();
+    initWeChat();
     renderAbout();
     bind();
   }

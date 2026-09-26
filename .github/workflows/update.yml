@@ -51,6 +51,12 @@ jobs:
       - name: 提取报名截止时间
         run: python scripts/extract_deadlines.py
 
+      # 公众号文章线索(标题/日期/摘要)。**允许失败**: 搜狗微信搜索会封机房 IP,
+      # GitHub Actions 的 IP 很可能被拦; 被拦就用仓库里已有的数据, 不影响其他步骤。
+      - name: 抓取公众号文章线索
+        continue-on-error: true
+        run: python scripts/crawl_wechat.py
+
       # ---------- 解析(用仓库内的 PDF/文本, 幂等) ----------
       - name: 解析教育部竞赛目录
         run: python scripts/parse_moe_catalog.py
