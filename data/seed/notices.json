@@ -62,21 +62,186 @@
     "note": "只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; robots.txt 实测均为 404 未禁止"
   },
   "schema_version": 2,
-  "count": 1671,
-  "matched_count": 297,
-  "competition_related_count": 555,
+  "count": 1691,
+  "matched_count": 301,
+  "competition_related_count": 565,
   "by_site": {
-    "实践教学中心": 306,
-    "教务处": 264,
-    "校团委": 1001,
+    "校团委": 1005,
+    "实践教学中心": 309,
+    "教务处": 277,
     "电气学院": 100
   },
   "by_site_competition": {
-    "实践教学中心": 299,
-    "校团委": 198,
-    "教务处": 58
+    "实践教学中心": 302,
+    "教务处": 65,
+    "校团委": 198
   },
   "items": [
+    {
+      "date": "2026-10-04",
+      "title": "赓续百卅西迁薪火，青春建功挺膺新程，第四十一届“最佳团日”来啦！",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4765",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-10-04",
+      "title": "2026年“首雁计划”暑期实验室安全巡查工作总结",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4764",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5535.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-02",
+      "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10497.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-30",
+      "title": "关于第42届全国部分地区大学生物理竞赛西安交通大学报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10496.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-30",
+      "title": "关于第 3 届学研杯大学物理强基邀请赛II卷西安交通大学报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10495.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-30",
+      "title": "关于开展2026年学籍处理与毕业年级确认工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10494.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": "第二十四届金秋外语节活动预告",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10493.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5533.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-29",
+      "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10491.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-28",
+      "title": "向西而歌传薪火，西迁精神进北疆",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4762",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "关于落实2026-2027学年第二学期教学任务的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10489.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "关于组织2026年全国大学生数字媒体科技作品及创意竞赛报名的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5531.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生数字媒体科技作品及创意竞赛",
+      "moe_no": "71",
+      "matched_keyword": "全国大学生数字媒体科技作品及创意竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-28",
+      "title": "关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10483.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-24",
+      "title": "梧影流光，百团齐辉——2026年社团博览会圆满落幕！",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4763",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
       "date": "2026-09-23",
@@ -87,6 +252,17 @@
       "source_page": 1,
       "source": "pec",
       "site": "实践教学中心",
+      "is_competition": true
+    },
+    {
+      "date": "2026-09-23",
+      "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10490.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "中国大学生物理学术竞赛",
+      "moe_no": "",
+      "matched_keyword": "物理学术竞赛",
       "is_competition": true
     },
     {
@@ -13045,6 +13221,17 @@
       "is_competition": false
     },
     {
+      "date": "2015-04-17",
+      "title": "法学院接收2014级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3947.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2015-04-16",
       "title": "机械工程学院接收2014级转专业学生实施办法",
       "url": "https://jwc.xjtu.edu.cn/info/1095/3965.htm",
@@ -13556,6 +13743,17 @@
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=53",
       "source": "tuanwei_act",
       "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-10-28",
+      "title": "关于教室调用的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/4560.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -15499,6 +15697,17 @@
     },
     {
       "date": "2014-03-21",
+      "title": "关于推迟四、六级网考网上确认信息的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6710.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-21",
       "title": "关于全国大学外语四、六级考试报名采集图像信息的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1172/6755.htm",
       "source": "jwc_jsap",
@@ -15551,6 +15760,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2014-03-12",
+      "title": "第十届周培元大学生力学竞赛辅导通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6697.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2014-03-12",

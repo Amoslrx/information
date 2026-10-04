@@ -2,8 +2,8 @@
  "source": "通知详情页正文",
  "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
  "min_score": 4,
- "count": 128,
- "with_deadline": 74,
+ "count": 137,
+ "with_deadline": 82,
  "items": [
   {
    "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
@@ -1150,6 +1150,87 @@
    "deadline": "2026-07-01",
    "score": 4,
    "bodyLen": 2512,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5535.htm",
+   "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
+   "noticeDate": "2026-10-02",
+   "deadline": "2027-01-31",
+   "score": 9,
+   "bodyLen": 2506,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10497.htm",
+   "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
+   "noticeDate": "2026-10-02",
+   "deadline": "2027-01-31",
+   "score": 9,
+   "bodyLen": 3260,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10496.htm",
+   "title": "关于第42届全国部分地区大学生物理竞赛西安交通大学报名的通知",
+   "noticeDate": "2026-09-30",
+   "deadline": "2026-11-05",
+   "score": 5,
+   "bodyLen": 2259,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10495.htm",
+   "title": "关于第 3 届学研杯大学物理强基邀请赛II卷西安交通大学报名的通知",
+   "noticeDate": "2026-09-30",
+   "deadline": "2027-01-14",
+   "score": 0,
+   "bodyLen": 2065,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5533.htm",
+   "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
+   "noticeDate": "2026-09-29",
+   "deadline": "2026-10-16",
+   "score": 13,
+   "bodyLen": 2184,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10491.htm",
+   "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
+   "noticeDate": "2026-09-29",
+   "deadline": "2026-10-16",
+   "score": 13,
+   "bodyLen": 2950,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5531.htm",
+   "title": "关于组织2026年全国大学生数字媒体科技作品及创意竞赛报名的通知",
+   "noticeDate": "2026-09-28",
+   "deadline": "2026-10-24",
+   "score": 9,
+   "bodyLen": 2310,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10483.htm",
+   "title": "关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知",
+   "noticeDate": "2026-09-28",
+   "deadline": "2026-10-10",
+   "score": 5,
+   "bodyLen": 3318,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10490.htm",
+   "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
+   "noticeDate": "2026-09-23",
+   "deadline": "2026-11-25",
+   "score": 7,
+   "bodyLen": 2517,
    "snippet": ""
   }
  ]
