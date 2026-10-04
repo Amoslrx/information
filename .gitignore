@@ -5,6 +5,8 @@
 # Python
 __pycache__/
 *.pyc
+.cache/notice-model/
+.cache/notice-resources/
 
 # OCR 中间产物: 切片体积大(约 3 MB)且可由 scripts/slice_png.py 重建, 不入库。
 # 识别结果(ocr.txt / cleaned.txt / pairs.json / sites.json)保留, 作为数据溯源证据。

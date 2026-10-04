@@ -1,1156 +1,3988 @@
 {
- "source": "通知详情页正文",
- "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
- "min_score": 4,
- "count": 128,
- "with_deadline": 74,
- "items": [
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
-   "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
-   "noticeDate": "2026-09-23",
-   "deadline": "2026-11-25",
-   "score": 7,
-   "bodyLen": 1699,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
-   "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
-   "noticeDate": "2026-09-15",
-   "deadline": "2026-09-22",
-   "score": 8,
-   "bodyLen": 1451,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
-   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
-   "noticeDate": "2026-09-02",
-   "deadline": "2026-09-10",
-   "score": 6,
-   "bodyLen": 1541,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5512.htm",
-   "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
-   "noticeDate": "2026-08-18",
-   "deadline": "2026-08-28",
-   "score": 6,
-   "bodyLen": 3430,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5492.htm",
-   "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
-   "noticeDate": "2026-07-28",
-   "deadline": "2026-10-11",
-   "score": 3,
-   "bodyLen": 3261,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5462.htm",
-   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔赛的通知",
-   "noticeDate": "2026-06-17",
-   "deadline": "2026-06-30",
-   "score": 6,
-   "bodyLen": 1513,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5454.htm",
-   "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
-   "noticeDate": "2026-06-16",
-   "deadline": "2026-07-01",
-   "score": 4,
-   "bodyLen": 1676,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5402.htm",
-   "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
-   "noticeDate": "2026-05-21",
-   "deadline": "2027-07-08",
-   "score": 0,
-   "bodyLen": 1907,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5361.htm",
-   "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
-   "noticeDate": "2026-05-11",
-   "deadline": "2026-05-20",
-   "score": 6,
-   "bodyLen": 1757,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5346.htm",
-   "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安排的通知",
-   "noticeDate": "2026-05-08",
-   "deadline": "2026-05-15",
-   "score": 5,
-   "bodyLen": 1448,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5342.htm",
-   "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
-   "noticeDate": "2026-05-04",
-   "deadline": "2026-05-16",
-   "score": 3,
-   "bodyLen": 1842,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
-   "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
-   "noticeDate": "2026-04-30",
-   "deadline": "2026-10-15",
-   "score": 8,
-   "bodyLen": 2823,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5313.htm",
-   "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
-   "noticeDate": "2026-04-28",
-   "deadline": "2026-05-20",
-   "score": 10,
-   "bodyLen": 1680,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5291.htm",
-   "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
-   "noticeDate": "2026-04-23",
-   "deadline": "2026-06-01",
-   "score": 5,
-   "bodyLen": 1868,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5293.htm",
-   "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
-   "noticeDate": "2026-04-23",
-   "deadline": "2026-04-23",
-   "score": 3,
-   "bodyLen": 3040,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5282.htm",
-   "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
-   "noticeDate": "2026-04-22",
-   "deadline": "2026-04-24",
-   "score": 3,
-   "bodyLen": 3429,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5271.htm",
-   "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
-   "noticeDate": "2026-04-17",
-   "deadline": "2026-07-15",
-   "score": 5,
-   "bodyLen": 1899,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5261.htm",
-   "title": "第十四届全国大学生光电设计竞赛报名通知",
-   "noticeDate": "2026-04-16",
-   "deadline": "2026-05-08",
-   "score": 6,
-   "bodyLen": 1513,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5222.htm",
-   "title": "关于开展第十九届（2026）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
-   "noticeDate": "2026-04-09",
-   "deadline": "2026-04-21",
-   "score": 7,
-   "bodyLen": 1229,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5205.htm",
-   "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
-   "noticeDate": "2026-04-03",
-   "deadline": "2026-04-19",
-   "score": 6,
-   "bodyLen": 1582,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5181.htm",
-   "title": "关于举办2026年第二十届iCAN大学生创新创业大赛的通知",
-   "noticeDate": "2026-04-01",
-   "deadline": "2026-04-01",
-   "score": -12,
-   "bodyLen": 2049,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5171.htm",
-   "title": "第二十一届全国大学生智能汽车竞赛报名通知",
-   "noticeDate": "2026-03-30",
-   "deadline": "2026-06-20",
-   "score": 1,
-   "bodyLen": 1778,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5173.htm",
-   "title": "关于举办第九届中国高校智能机器人创意大赛 VEX U 专项赛的通知",
-   "noticeDate": "2026-03-30",
-   "deadline": "2026-05-08",
-   "score": 9,
-   "bodyLen": 1536,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
-   "title": "关于组织开展第十五届全国大学生金相技能大赛相关工作的通知",
-   "noticeDate": "2026-03-26",
-   "deadline": "2026-04-25",
-   "score": 4,
-   "bodyLen": 1780,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5141.htm",
-   "title": "关于组织参加2026年第十八届“全国大学生广告艺术大赛”的通知",
-   "noticeDate": "2026-03-25",
-   "deadline": "2026-06-02",
-   "score": 12,
-   "bodyLen": 2114,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5111.htm",
-   "title": "关于举办西安交通大学中国国际大学生创新大赛（2026）校内选拔赛的通知",
-   "noticeDate": "2026-03-19",
-   "deadline": "2026-04-02",
-   "score": 7,
-   "bodyLen": 3818,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1190/5093.htm",
-   "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第二阶段校内选拔结果的通知",
-   "noticeDate": "2026-03-17",
-   "deadline": "2026-03-17",
-   "score": 2,
-   "bodyLen": 931,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5081.htm",
-   "title": "关于组织第二十八届中国机器人及人工智能大赛报名的通知",
-   "noticeDate": "2026-03-12",
-   "deadline": "2026-06-07",
-   "score": 8,
-   "bodyLen": 2808,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5082.htm",
-   "title": "关于举办西安交通大学第七届大学生物理实验竞赛（创新）的报名通知",
-   "noticeDate": "2026-03-12",
-   "deadline": "2026-04-12",
-   "score": 1,
-   "bodyLen": 1319,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1190/5080.htm",
-   "title": "关于公示 2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛第一阶段校内选拔结果的通知",
-   "noticeDate": "2026-03-10",
-   "deadline": "2026-03-10",
-   "score": 2,
-   "bodyLen": 944,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5076.htm",
-   "title": "关于举办西安交通大学第十二届全国大学生机械创新设计大赛校赛的通知",
-   "noticeDate": "2026-03-10",
-   "deadline": "2026-03-11",
-   "score": 7,
-   "bodyLen": 2186,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5068.htm",
-   "title": "关于组织参加“2026年中国大学生计算机设计大赛”校内赛的通知",
-   "noticeDate": "2026-03-04",
-   "deadline": "2026-04-26",
-   "score": 5,
-   "bodyLen": 1938,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5067.htm",
-   "title": "关于“第十七届中国大学生服务外包创新创业大赛”报名参赛的通知",
-   "noticeDate": "2026-03-04",
-   "deadline": "2026-03-20",
-   "score": 5,
-   "bodyLen": 2036,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5061.htm",
-   "title": "关于举行2026年全国大学生结构设计竞赛西安交通大学校赛暨陕西省省赛选拔赛的通知",
-   "noticeDate": "2026-03-02",
-   "deadline": "2026-03-14",
-   "score": 5,
-   "bodyLen": 2141,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5063.htm",
-   "title": "2026年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
-   "noticeDate": "2026-03-02",
-   "deadline": "2026-04-20",
-   "score": 10,
-   "bodyLen": 1188,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5052.htm",
-   "title": "关于组织参加第九届中国高校智能机器人创意大赛的通知",
-   "noticeDate": "2026-01-29",
-   "deadline": "2026-03-06",
-   "score": 5,
-   "bodyLen": 4617,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5044.htm",
-   "title": "关于组织参加第十一届全国大学生生命科学竞赛（创新创业类）的通知",
-   "noticeDate": "2026-01-27",
-   "deadline": "2026-04-20",
-   "score": 6,
-   "bodyLen": 2297,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5034.htm",
-   "title": "关于组织参加2026年全国大学生电子设计竞赛模拟电子系统设计专题赛的通知",
-   "noticeDate": "2026-01-23",
-   "deadline": "2026-04-15",
-   "score": 5,
-   "bodyLen": 1838,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5033.htm",
-   "title": "关于开展2026年中国大学生机械工程创新创意大赛机械产品数字化设计赛报名工作的通知",
-   "noticeDate": "2026-01-23",
-   "deadline": "2026-01-23",
-   "score": 0,
-   "bodyLen": 2927,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5031.htm",
-   "title": "关于第18届全国大学生广告艺术大赛营销创客单元报名参赛的通知",
-   "noticeDate": "2026-01-22",
-   "deadline": "2026-01-22",
-   "score": -8,
-   "bodyLen": 3009,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/5021.htm",
-   "title": "关于举办西安交通大学2026年美国大学生数学建模竞赛（MCM/ICM）校内赛的通知",
-   "noticeDate": "2026-01-15",
-   "deadline": "2026-01-17",
-   "score": 2,
-   "bodyLen": 1553,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1190/5014.htm",
-   "title": "关于公示2026 年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第二阶段校内选拔结果的通知",
-   "noticeDate": "2026-01-13",
-   "deadline": "2026-01-15",
-   "score": 2,
-   "bodyLen": 904,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1190/5003.htm",
-   "title": "关于公示2026年全国大学生电子设计竞赛信息科技前沿专题赛（瑞萨杯）第一阶段校内选拔结果的通知",
-   "noticeDate": "2025-12-30",
-   "deadline": "2025-12-30",
-   "score": 3,
-   "bodyLen": 931,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4993.htm",
-   "title": "关于组织参加第十三届大学生新一代信息通信科技大赛的通知",
-   "noticeDate": "2025-12-23",
-   "deadline": "2026-04-04",
-   "score": 2,
-   "bodyLen": 2212,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4991.htm",
-   "title": "关于组织参加2026年第八届码蹄杯全国大学生程序设计大赛的通知",
-   "noticeDate": "2025-12-23",
-   "deadline": "2026-03-22",
-   "score": 0,
-   "bodyLen": 1925,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4976.htm",
-   "title": "关于组织参加2026年(第十三届)英特尔杯大学生电子设计竞赛嵌入式AI专题赛的通知",
-   "noticeDate": "2025-12-18",
-   "deadline": "2025-12-31",
-   "score": 10,
-   "bodyLen": 1629,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4928.htm",
-   "title": "关于组织参加第十一届全国大学生生命科学竞赛（科学探究类）的通知",
-   "noticeDate": "2025-11-27",
-   "deadline": "2026-03-31",
-   "score": 9,
-   "bodyLen": 2194,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4926.htm",
-   "title": "关于组织参加2026年全国大学生电子设计竞赛信息科技前沿专题赛的通知",
-   "noticeDate": "2025-11-26",
-   "deadline": "2025-12-24",
-   "score": 10,
-   "bodyLen": 1765,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4925.htm",
-   "title": "关于组织开展第十七届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
-   "noticeDate": "2025-11-24",
-   "deadline": "2025-12-05",
-   "score": 7,
-   "bodyLen": 2380,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4923.htm",
-   "title": "关于组织参加第十二届全国大学生能源经济学术创意大赛的通知",
-   "noticeDate": "2025-11-14",
-   "deadline": "2026-02-23",
-   "score": 6,
-   "bodyLen": 2349,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4921.htm",
-   "title": "关于第十七届蓝桥杯全国大学生软件和信息技术大赛报名的通知",
-   "noticeDate": "2025-11-12",
-   "deadline": "2025-11-30",
-   "score": 8,
-   "bodyLen": 1772,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4922.htm",
-   "title": "关于全国大学生计算机应用能力与数字素养大赛暨第八届“传智杯”全国IT技能大赛报名通知",
-   "noticeDate": "2025-11-12",
-   "deadline": "2025-11-12",
-   "score": 3,
-   "bodyLen": 1870,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4915.htm",
-   "title": "关于组织参加2026年美国大学生数学建模竞赛相关工作的通知",
-   "noticeDate": "2025-10-30",
-   "deadline": "2025-11-16",
-   "score": 4,
-   "bodyLen": 1764,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4903.htm",
-   "title": "关于组织开展第41届全国部分地区大学生物理竞赛报名工作的通知",
-   "noticeDate": "2025-10-20",
-   "deadline": "2025-11-05",
-   "score": 5,
-   "bodyLen": 1391,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4891.htm",
-   "title": "关于组织开展全国三维数字化创新设计大赛18周年精英联赛报名工作的通知",
-   "noticeDate": "2025-10-10",
-   "deadline": "2025-11-10",
-   "score": 5,
-   "bodyLen": 1839,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
-   "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
-   "noticeDate": "2025-09-28",
-   "deadline": "2025-12-01",
-   "score": 7,
-   "bodyLen": 1937,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4875.htm",
-   "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
-   "noticeDate": "2025-09-15",
-   "deadline": "2025-09-15",
-   "score": 3,
-   "bodyLen": 2613,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4878.htm",
-   "title": "关于组织2025年全国大学生数字媒体科技作品及创意竞赛报名的通知",
-   "noticeDate": "2025-09-15",
-   "deadline": "2025-09-15",
-   "score": 0,
-   "bodyLen": 1883,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4874.htm",
-   "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
-   "noticeDate": "2025-09-15",
-   "deadline": "2025-10-22",
-   "score": 7,
-   "bodyLen": 1789,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4841.htm",
-   "title": "关于第十七届全国大学生数学竞赛西安交通大学报名的通知",
-   "noticeDate": "2025-07-24",
-   "deadline": "2025-09-30",
-   "score": 3,
-   "bodyLen": 3179,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4828.htm",
-   "title": "2025年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名通知",
-   "noticeDate": "2025-07-10",
-   "deadline": "2025-09-22",
-   "score": 10,
-   "bodyLen": 1227,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4821.htm",
-   "title": "关于组织参加第七届全球校园人工智能算法精英大赛的通知",
-   "noticeDate": "2025-07-01",
-   "deadline": "2025-10-31",
-   "score": 7,
-   "bodyLen": 3123,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4816.htm",
-   "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内选拔赛高教主赛道、青年红色筑梦之旅赛道获奖名单的通知",
-   "noticeDate": "2025-06-26",
-   "deadline": "2025-06-30",
-   "score": 0,
-   "bodyLen": 1090,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4815.htm",
-   "title": "关于做好西安交通大学中国国际大学生创新大赛（2025）国际参赛项目报名工作的通知",
-   "noticeDate": "2025-06-26",
-   "deadline": "2025-07-02",
-   "score": 11,
-   "bodyLen": 1935,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4723.htm",
-   "title": "关于组织参加未来设计师·全国高校数字艺术设计大赛的通知",
-   "noticeDate": "2025-05-09",
-   "deadline": "2025-07-01",
-   "score": 7,
-   "bodyLen": 2071,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4721.htm",
-   "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的通知",
-   "noticeDate": "2025-05-08",
-   "deadline": "2025-05-09",
-   "score": 6,
-   "bodyLen": 3988,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4713.htm",
-   "title": "关于举办西安交通大学中国国际大学生创新大赛（2025）校内选拔赛的预通知",
-   "noticeDate": "2025-04-30",
-   "deadline": "2025-05-09",
-   "score": 5,
-   "bodyLen": 3582,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4707.htm",
-   "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
-   "noticeDate": "2025-04-29",
-   "deadline": "2025-05-09",
-   "score": 3,
-   "bodyLen": 1924,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4706.htm",
-   "title": "关于组织参加第十四届“中国软件杯”大学生软件设计大赛的通知",
-   "noticeDate": "2025-04-29",
-   "deadline": "2025-07-15",
-   "score": 5,
-   "bodyLen": 2812,
-   "snippet": ""
-  },
-  {
-   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
-   "error": "HTTP 404"
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4704.htm",
-   "title": "关于组织开展百度之星程序设计大赛报名的通知",
-   "noticeDate": "2025-04-24",
-   "deadline": "2025-04-24",
-   "score": -2,
-   "bodyLen": 1840,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4702.htm",
-   "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
-   "noticeDate": "2025-04-18",
-   "deadline": "2025-04-18",
-   "score": 4,
-   "bodyLen": 1578,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4701.htm",
-   "title": "关于组织参加2025年全国大学生电子设计竞赛的通知",
-   "noticeDate": "2025-04-17",
-   "deadline": "2025-04-17",
-   "score": 3,
-   "bodyLen": 1742,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4695.htm",
-   "title": "关于举办第十三届全国大学生光电设计竞赛校赛报名的通知",
-   "noticeDate": "2025-04-16",
-   "deadline": "2025-05-20",
-   "score": 6,
-   "bodyLen": 958,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4694.htm",
-   "title": "关于组织开展第二十届全国大学生智能汽车竞赛报名的通知",
-   "noticeDate": "2025-04-15",
-   "deadline": "2025-05-18",
-   "score": 3,
-   "bodyLen": 2081,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4693.htm",
-   "title": "关于举办2025年中国大学生机械工程创新创意大赛-“明石杯”微纳传感技术与智能应用赛校内选拔的通知",
-   "noticeDate": "2025-04-14",
-   "deadline": "2025-05-20",
-   "score": 10,
-   "bodyLen": 3162,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4691.htm",
-   "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
-   "noticeDate": "2025-04-11",
-   "deadline": "2025-05-15",
-   "score": 15,
-   "bodyLen": 2714,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4683.htm",
-   "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
-   "noticeDate": "2025-04-09",
-   "deadline": "2025-06-07",
-   "score": 9,
-   "bodyLen": 2295,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4661.htm",
-   "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
-   "noticeDate": "2025-04-07",
-   "deadline": "2025-07-31",
-   "score": 8,
-   "bodyLen": 2080,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4631.htm",
-   "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
-   "noticeDate": "2025-04-01",
-   "deadline": "2025-04-03",
-   "score": 5,
-   "bodyLen": 1176,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4652.htm",
-   "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
-   "noticeDate": "2025-04-01",
-   "deadline": "2025-05-01",
-   "score": 8,
-   "bodyLen": 1826,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4593.htm",
-   "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
-   "noticeDate": "2025-03-22",
-   "deadline": "2025-03-26",
-   "score": 0,
-   "bodyLen": 1768,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4571.htm",
-   "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
-   "noticeDate": "2025-03-20",
-   "deadline": "2025-04-30",
-   "score": 9,
-   "bodyLen": 1826,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4542.htm",
-   "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
-   "noticeDate": "2025-03-17",
-   "deadline": "2025-04-06",
-   "score": 6,
-   "bodyLen": 1549,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4541.htm",
-   "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
-   "noticeDate": "2025-03-17",
-   "deadline": "2025-03-25",
-   "score": 4,
-   "bodyLen": 2474,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1190/4521.htm",
-   "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
-   "noticeDate": "2025-03-15",
-   "deadline": "2025-03-15",
-   "score": 5,
-   "bodyLen": 941,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4501.htm",
-   "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
-   "noticeDate": "2025-03-13",
-   "deadline": "2025-04-25",
-   "score": 10,
-   "bodyLen": 1241,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4491.htm",
-   "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
-   "noticeDate": "2025-03-10",
-   "deadline": "2025-04-06",
-   "score": 3,
-   "bodyLen": 1261,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4472.htm",
-   "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
-   "noticeDate": "2025-03-07",
-   "deadline": "2025-06-15",
-   "score": 5,
-   "bodyLen": 3418,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4481.htm",
-   "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
-   "noticeDate": "2025-03-07",
-   "deadline": "2025-06-13",
-   "score": 12,
-   "bodyLen": 2215,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4464.htm",
-   "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
-   "noticeDate": "2025-03-05",
-   "deadline": "2025-06-30",
-   "score": 8,
-   "bodyLen": 2833,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4461.htm",
-   "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
-   "noticeDate": "2025-03-05",
-   "deadline": "2025-06-06",
-   "score": 7,
-   "bodyLen": 1919,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4411.htm",
-   "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
-   "noticeDate": "2025-01-14",
-   "deadline": "2025-03-03",
-   "score": 3,
-   "bodyLen": 3195,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4403.htm",
-   "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
-   "noticeDate": "2025-01-10",
-   "deadline": "2025-01-13",
-   "score": 5,
-   "bodyLen": 1492,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
-   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
-   "noticeDate": "2025-01-03",
-   "deadline": null,
-   "score": -99,
-   "bodyLen": 1036,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4397.htm",
-   "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
-   "noticeDate": "2024-12-31",
-   "deadline": "2025-01-13",
-   "score": 5,
-   "bodyLen": 1092,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4393.htm",
-   "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
-   "noticeDate": "2024-12-25",
-   "deadline": "2025-03-20",
-   "score": 4,
-   "bodyLen": 1839,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
-   "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
-   "noticeDate": "2024-12-01",
-   "deadline": "2024-12-02",
-   "score": 10,
-   "bodyLen": 2766,
-   "snippet": ""
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/info/1191/4314.htm",
-   "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
-   "noticeDate": "2024-10-31",
-   "deadline": "2024-11-04",
-   "score": 4,
-   "bodyLen": 2884,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
-   "title": "关于2026年下半年全国大学英语四、六级考试报名的通知",
-   "noticeDate": "2026-09-09",
-   "deadline": "2026-12-12",
-   "score": 3,
-   "bodyLen": 2830,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4753",
-   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届\"挑战杯\"中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
-   "noticeDate": "2026-08-17",
-   "deadline": "2026-08-17",
-   "score": -12,
-   "bodyLen": 1491,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4752",
-   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛东北振兴产业升级专项赛作品的公示",
-   "noticeDate": "2026-08-16",
-   "deadline": "2026-08-16",
-   "score": 0,
-   "bodyLen": 1745,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4733",
-   "title": "关于我校学生跨校参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
-   "noticeDate": "2026-06-22",
-   "deadline": "2026-06-22",
-   "score": 0,
-   "bodyLen": 1480,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4725",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-06-02",
-   "deadline": "2026-06-02",
-   "score": 0,
-   "bodyLen": 1574,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4720",
-   "title": "西安交通大学第十三届“挑战杯”陕汽集团陕西省大学生创业计划竞赛申报作品公示",
-   "noticeDate": "2026-05-11",
-   "deadline": "2026-05-11",
-   "score": 3,
-   "bodyLen": 3122,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4719",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-05-11",
-   "deadline": "2026-05-11",
-   "score": 0,
-   "bodyLen": 1998,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4718",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-05-09",
-   "deadline": "2026-05-09",
-   "score": 0,
-   "bodyLen": 2086,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4717",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-05-08",
-   "deadline": "2026-05-08",
-   "score": 0,
-   "bodyLen": 1804,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4715",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-05-06",
-   "deadline": "2026-05-06",
-   "score": 0,
-   "bodyLen": 1477,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4711",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛作品的公示",
-   "noticeDate": "2026-05-06",
-   "deadline": "2026-05-06",
-   "score": 0,
-   "bodyLen": 1822,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4706",
-   "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-30",
-   "deadline": "2026-04-30",
-   "score": 0,
-   "bodyLen": 1714,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4707",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-30",
-   "deadline": "2026-04-30",
-   "score": 0,
-   "bodyLen": 1647,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4703",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-28",
-   "deadline": "2026-04-28",
-   "score": 0,
-   "bodyLen": 1555,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4702",
-   "title": "关于我校教师参与指导其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-23",
-   "deadline": "2026-04-23",
-   "score": 0,
-   "bodyLen": 1654,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4699",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-22",
-   "deadline": "2026-04-22",
-   "score": 0,
-   "bodyLen": 2247,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10031.htm",
-   "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
-   "noticeDate": "2026-04-22",
-   "deadline": "2026-04-24",
-   "score": 3,
-   "bodyLen": 4205,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4696",
-   "title": "关于我校学生参与其他高校推荐申报的第十五届“挑战杯”中国大学生创业计划竞赛省赛作品的公示",
-   "noticeDate": "2026-04-15",
-   "deadline": "2026-04-15",
-   "score": 0,
-   "bodyLen": 1935,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4630",
-   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-   "noticeDate": "2025-08-17",
-   "deadline": "2025-08-21",
-   "score": 0,
-   "bodyLen": 1769,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4629",
-   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-   "noticeDate": "2025-08-13",
-   "deadline": "2025-08-13",
-   "score": 0,
-   "bodyLen": 1464,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4628",
-   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-   "noticeDate": "2025-07-29",
-   "deadline": "2025-07-29",
-   "score": 0,
-   "bodyLen": 1547,
-   "snippet": ""
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4627",
-   "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-   "noticeDate": "2025-07-24",
-   "deadline": "2025-07-24",
-   "score": 0,
-   "bodyLen": 1836,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
-   "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
-   "noticeDate": "2026-09-15",
-   "deadline": "2026-09-22",
-   "score": 8,
-   "bodyLen": 2219,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
-   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选...",
-   "noticeDate": "2026-09-02",
-   "deadline": "2026-09-10",
-   "score": 6,
-   "bodyLen": 2309,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10431.htm",
-   "title": "关于组织参加中国国际大学生创新大赛（2026）陕西赛区特色专项赛道报名的通知",
-   "noticeDate": "2026-08-18",
-   "deadline": "2026-08-28",
-   "score": 6,
-   "bodyLen": 4263,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10414.htm",
-   "title": "关于第十八届全国大学生数学竞赛西安交通大学报名的通知",
-   "noticeDate": "2026-07-28",
-   "deadline": "2026-10-11",
-   "score": 3,
-   "bodyLen": 4029,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
-   "title": "2026年9月“全国计算机等级考试”西安交通大学兴庆校区考点报名通知",
-   "noticeDate": "2026-06-22",
-   "deadline": "2026-09-14",
-   "score": 6,
-   "bodyLen": 2271,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10342.htm",
-   "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）专项赛水中作业赛项校内选拔...",
-   "noticeDate": "2026-06-17",
-   "deadline": "2026-06-30",
-   "score": 6,
-   "bodyLen": 2369,
-   "snippet": ""
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
-   "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
-   "noticeDate": "2026-06-16",
-   "deadline": "2026-07-01",
-   "score": 4,
-   "bodyLen": 2512,
-   "snippet": ""
-  }
- ]
+  "schema_version": 2,
+  "source": "统一正文证据",
+  "method": "typed-registration-events",
+  "min_score": 4,
+  "count": 146,
+  "with_deadline": 2,
+  "items": [
+    {
+      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1190/4521.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-03-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1190/5003.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-12-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1190/5014.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-01-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1190/5080.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-10",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1190/5093.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-17",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4314.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2024-11-04",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2024-12-02",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4393.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-03-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4397.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-01-13",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4403.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-01-13",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4411.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-03-03",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4461.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4464.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4472.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4481.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-13",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4491.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4501.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-25",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4541.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-03-25",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4542.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4571.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4593.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-03-26",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4631.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-03",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4652.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4661.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-31",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4683.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-07",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4691.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4693.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4694.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-18",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4695.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4701.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-17",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4702.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-18",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4704.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-04-24",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4706.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4707.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-09",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4713.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-09",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4721.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-05-09",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4723.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4815.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-02",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4816.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-06-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4821.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-10-31",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4828.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-09-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4841.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-09-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4874.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-10-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4875.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-09-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4878.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-09-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-12-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4891.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-11-10",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4903.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-11-05",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4915.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-11-16",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4921.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-11-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4922.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-11-12",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4923.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-02-23",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4925.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-12-05",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4926.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-12-24",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4928.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-31",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4976.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-12-31",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4991.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/4993.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-04",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5021.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-01-17",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5031.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-01-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5033.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-01-23",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5034.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5044.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5052.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5061.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-14",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5063.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5067.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5068.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-26",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5076.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-03-11",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5081.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-07",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5082.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-12",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5111.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-02",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5141.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-02",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-25",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5171.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5173.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-08",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5181.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5205.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-19",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5222.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-21",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5261.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-08",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5271.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-07-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5282.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-24",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5291.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5293.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-23",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5313.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-10-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5342.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-16",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5346.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5361.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-20",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5402.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2027-07-08",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5454.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-07-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5462.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5492.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-10-11",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5512.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-08-28",
+      "verification": "needs_review"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选拔赛的通知",
+      "noticeDate": "2026-09-02",
+      "contentHash": "3aa5a5077b9b91caa4450c221b0dd0510d63ba1a9bbf1c73e37b4bd56939ebd7",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-13",
+          "raw": "校内选拔赛时间：2026年9月13日前后（具体时段、地点在竞赛群内通知）。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+          "location": {
+            "type": "body",
+            "start": 214,
+            "end": 251
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "approximate"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-15",
+          "raw": "全国总决赛：2026年10月15-18日（以组委会通知为准）。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+          "location": {
+            "type": "body",
+            "start": 252,
+            "end": 283
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "approximate",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月15",
+          "endDate": "2026-10-18",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-10",
+          "raw": "1.已组队同学务必在9月10日前完成以下三项工作：",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+          "location": {
+            "type": "body",
+            "start": 335,
+            "end": 360
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "1.各队伍须在9月13日前完成机器人搭建、传感器调试、控制算法与赛道适配。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+          "location": {
+            "type": "body",
+            "start": 584,
+            "end": 621
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-02",
+          "raw": "2026年9月2日",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5513.htm",
+          "location": {
+            "type": "body",
+            "start": 811,
+            "end": 820
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月2日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 820,
+      "snippet": "各学院（部、中心）、有关单位、各参赛队伍： 为做好2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项参赛组织工作，公平择优推荐队伍参加全国总决赛，决定举办校内选拔赛。现将有关事项通知如下： 一、选拔目的 以赛促练、以选促备，检验各队伍备赛进度与机器人完成度，确定代表学校参加全国专项赛赛事的队伍。 二、参赛对象 2027年暑期前具有正式学籍的全日制本科生、研究生。 三、关键时间节点 校内选拔赛时间：2026年9月13日前后（具体时段、地点在竞赛群内通知）。 全国总决赛：2026年10月15-18日（以组委会通知为准）。 四、比赛项目 1）水下机器人-机器人水中巡游 2）水下机器人-水下具身智能 五 、报名与组别确认流程 1.已组队同学务必在9月10日前完成以下三项工作： （1）队长加入校内竞赛联络群； （2）完成参赛登记工作，登记信息包括队伍名称、队长信息、队员等。 （3）组队后尽快根据赛题任务要求完成机器人的设计、制作，并进行机器人样机调试和竞赛训练。"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+      "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+      "noticeDate": "2026-09-15",
+      "contentHash": "8c7a7d79760a9d45fcacddde9b6d1dc584ae3500641b4d96e7426701dfe3f1f3",
+      "schemaVersion": 2,
+      "deadline": "2026-09-22",
+      "score": 4,
+      "deadlineEvent": {
+        "value": "2026-09-22",
+        "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+        "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+        "location": {
+          "type": "body",
+          "start": 587,
+          "end": 652
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": "track-1eeaa01e85",
+        "kind": "registration_deadline",
+        "time": "24:00",
+        "timezone": "Asia/Shanghai",
+        "dateRaw": "2026年9月22日",
+        "endDate": null,
+        "superseded": false
+      },
+      "timeline": [
+        {
+          "value": "2026-09-22",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "registration_deadline",
+          "time": "24:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-04",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "submission",
+          "time": "18:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月4日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-20",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": "track-1eeaa01e85",
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月20日",
+          "endDate": "2026-11-22",
+          "superseded": false
+        },
+        {
+          "value": "2026-11-22",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": "track-1eeaa01e85",
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-15",
+          "raw": "2026年9月15日",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5522.htm",
+          "location": {
+            "type": "body",
+            "start": 745,
+            "end": 755
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月15日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 755,
+      "snippet": "各学院（部、中心）及有关单位： 2026年全国大学生嵌入式芯片与系统设计竞赛—FPGA创新设计赛道报名已启动。现将相关事宜通知如下： 一、大赛宗旨 大赛旨在提高全国高校学生在嵌入式芯片及系统设计领域、可编程逻辑器件应用领域自主创新设计与工程实践能力，培养具有创新思维、具备解决复杂工程问题能力且拥有团队合作精神的优秀人才，推进高校与企业人才培养合作共建。大赛强调在做芯片与系统设计的同时关注可编程逻辑器件应用领域创新设计原理及规律，鼓励参赛师生掌握FPGA相关的理论知识和实践技能，丰富和活跃高校创新创业学术氛围。FPGA创新设计赛道旨在提高学生在数字系统设计领域尤其是可编程逻辑器件应用领域的创新实践能力。 二、参赛报名方式 大赛采用开放式报名方式，参赛队伍务必在报名截止时间前通过官方网站（www.socchina.net）完成报名工作。 竞赛启动通知详见http://fpgachina.cn/。 三、参赛要求 每支参赛队伍不超过3人，每队不超过2名指导老师，每位同学仅限参与1支队伍。竞赛以“创意发挥、规范设计、突破自我、快乐竞赛”为原则。"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+      "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
+      "noticeDate": "2026-09-23",
+      "contentHash": "ab49f95632d32c01734721fb36784c9273531d66a91a53933a6549cb91157bdc",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-25",
+          "raw": "少年班、大一、大二和大三的学生都可报名参赛，不缴纳报名费用，报名截止日期为11月25日。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 134,
+            "end": 178
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "registration_deadline",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月25日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-15",
+          "raw": "我们将于2026年10月15日在主楼B104举行大赛赛题发布会和竞赛宣讲会，届时邀请指导教师和往年国赛队员详细分析赛题。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 249,
+            "end": 309
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月15日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-15",
+          "raw": "（1）2026.10月15日晚上19点：赛题分析研讨会（主楼B104）；",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 419,
+            "end": 455
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "19:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.10月15日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "（2）2026.10-11月：各位同学自行准备1道选题，撰写理论分析及实验设计方案（题目理解、理论分析、理论结果、数值模拟；",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 456,
+            "end": 518
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.10-11月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-25",
+          "raw": "（3）2026.11.25：提交赛题研究PPT（纸质版）到仲英楼B416；",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 632,
+            "end": 669
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.11.25",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-28",
+          "raw": "（4）2026.11.28：初赛（11周周六，准备答辩材料，每人独立的PPT答辩）；",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 670,
+            "end": 712
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.11.28",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-26",
+          "raw": "（5）2026.12.26：复赛（15周周六，指导教师指导以后，在初赛基础上修正改进，加上初步的实验）",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 713,
+            "end": 764
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.26",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "（6）2026.12月-2027.02月：复赛结束公布进入决赛名单，进入决赛同学选择第2道选题进行研究，进行决赛准备",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 765,
+            "end": 823
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision",
+            "cross_year"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12月-2027.02月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "（7）2027.03月：集训与校内决赛（校内决赛采用独立答辩和团队答辩相结合的形式进行，具体将在决赛前单独发布决赛组织办法，通过校内决赛选拔参加省赛和西北地区赛的队员）",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 824,
+            "end": 908
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027.03月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "（8）2027.05月-06月：陕西省省赛、西北地区赛",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 909,
+            "end": 936
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027.05月-06月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "（9）2027.08月：国赛",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 937,
+            "end": 951
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027.08月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-23",
+          "raw": "2026年9月23日",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+          "location": {
+            "type": "body",
+            "start": 1047,
+            "end": 1057
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月23日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1057,
+      "snippet": "各学院（部）、中心及有关单位： 为迎接2027年的“第十届西北地区中国大学生物理学术竞赛”和“第十八届中国大学生物理学术竞赛(CUPT)”，提高我校学生的参赛水平，物理学院将联合教务处、钱学森学院和实践教学中心（工程坊）举行“西安交通大学第十二届大学生物理学术竞赛”。少年班、大一、大二和大三的学生都可报名参赛，不缴纳报名费用，报名截止日期为11月25日。 物理学院将对参赛队伍进行培训并组织校内比赛，在参赛者中选出2-4支优秀队伍代表西安交通大学参加西北地区的比赛并最终选出一支队伍参加全国比赛。我们将于2026年10月15日在主楼B104举行大赛赛题发布会和竞赛宣讲会，届时邀请指导教师和往年国赛队员详细分析赛题。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "title": "关于组建中国青年志愿者西安交通大学第29届研究生支教团的通知",
+      "noticeDate": "2026-08-29",
+      "contentHash": "9911cdf349d97cbda3f9845a29870277c5f77b9a5752e61765bd0377f206514e",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": null,
+          "raw": "按照全国项目办有关要求，坚持“公开招募、自愿报名、择优选拔”的原则，招募一批具备推荐免试攻读硕士学位研究生条件的优秀应届本科毕业生和在读研究生，作为青年志愿者到中西部地区县级及以下中小学校开展为期一年（2027年8月至2028年7月）的基础教育或职业教育教学志愿服务工作。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+          "location": {
+            "type": "body",
+            "start": 215,
+            "end": 351
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision",
+            "cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027年8月至2028年7月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-11",
+          "raw": "申报人对照清单准备有关报名材料，在9月11日18:00前向校团委提交。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+          "location": {
+            "type": "body",
+            "start": 1123,
+            "end": 1158
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": "18:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月11日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-08-29",
+          "raw": "2026年8月29日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+          "location": {
+            "type": "body",
+            "start": 3258,
+            "end": 3268
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年8月29日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 3268,
+      "snippet": "根据全国大学生志愿服务西部计划项目管理办公室（以下简称“全国项目办”）《关于组建第29届中国青年志愿者研究生支教团（2027—2028年度）有关工作的通知》（全国项目办发〔2026〕4号）、《关于进一步加强中国青年志愿者研究生支教团工作的意见》（中青办联发〔2026〕1号）等有关文件要求，结合学校推免工作统一安排，现启动西安交通大学第29届研究生支教团（2027—2028年度）招募及组建工作，有关事项通知如下。 一、招募原则 按照全国项目办有关要求，坚持“公开招募、自愿报名、择优选拔”的原则，招募一批具备推荐免试攻读硕士学位研究生条件的优秀应届本科毕业生和在读研究生，作为青年志愿者到中西部地区县级及以下中小学校开展为期一年（2027年8月至2028年7月）的基础教育或职业教育教学志愿服务工作。招募仅限于本校，纳入全校年度研究生招生总计划，研究生支教团招募工作整体纳入学校推免工作统一管理；其中，研究生阶段即将攻读理工科专业的学生择优纳入“国优计划”培养。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10474.htm",
+      "title": "关于国庆期间主楼C座教室暂停使用的通知",
+      "noticeDate": "2026-09-20",
+      "contentHash": "6401e22a5e2de28db27501a8f317393c5815960aba29f0463ace0229fc58a3ad",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-01",
+          "raw": "2026年10月1日-2026年10月7日（国庆长假全天）",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10474.htm",
+          "location": {
+            "type": "body",
+            "start": 192,
+            "end": 221
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月1日",
+          "endDate": "2026-10-07",
+          "superseded": false
+        },
+        {
+          "value": "2026-10-07",
+          "raw": "2026年10月1日-2026年10月7日（国庆长假全天）",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10474.htm",
+          "location": {
+            "type": "body",
+            "start": 192,
+            "end": 221
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月7日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-20",
+          "raw": "2026年9月20日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10474.htm",
+          "location": {
+            "type": "body",
+            "start": 445,
+            "end": 455
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月20日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 455,
+      "snippet": "各位同学： 因主楼C座卫生间设备老旧，影响使用体验。为彻底改善楼宇环境，后勤物业中心将利用国庆假期，对主楼C座全部卫生间冲水设备进行整体更换改造。 本次设备更换施工工序较多，作业期间会产生持续噪音、现场环境杂乱，严重影响楼宇自习环境。为保障施工安全与工程进度，同时避免干扰同学学习，经研究决定，国庆假期期间主楼C座整栋楼宇教室及公共区域暂停对外开放使用。具体安排如下： 一、停用时间 2026年10月1日-2026年10月7日（国庆长假全天） 二、停用范围 主楼C座所有教室及公共学习区域 三、相关说明 1.施工期间主楼C座全楼封闭施工，暂不对外开放，请勿擅自进入楼宇，杜绝安全隐患。 2.请各位同学合理规划假期学习安排，提前选择校内其他开放教学楼、自习室开展学习活动。 3.本次改造为设施优化升级，旨在提升校园配套服务质量，恳请各位同学理解支持。 4.施工结束后，主楼C座教室将全面清洁消杀、验收合格后恢复正常使用，后续不再另行通知。 由此给各位同学带来的不便，敬请谅解！ 后勤物业中心 2026年9月20日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10446.htm",
+      "title": "关于新学期新版考勤系统试运行的通知",
+      "noticeDate": "2026-09-11",
+      "contentHash": "44e20fb1e90e204833e7f91a5f2a627eb7a267392eda2c26b7d1b13795b5c32d",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-11",
+          "raw": "2026年9月11日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10446.htm",
+          "location": {
+            "type": "body",
+            "start": 609,
+            "end": 619
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月11日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 619,
+      "snippet": "各位老师、全体同学： 为进一步优化校园考勤管理流程，提升考勤工作规范化、智能化水平，网信中心已完成新版校园考勤系统开发部署工作。为保障系统平稳落地、顺畅运行，新学期将启动新版考勤系统试运行工作，现将具体安排通知如下： 一、试运行时间 新学期第一周为新版考勤系统（PC端：https://kq.xjtu.edu.cn，手机端：移动交大“课堂考勤”）试运行阶段。 二、考勤规则说明 1.试运行期间，全校师生按照正常教学安排，完成日常考勤，严格遵守考勤相关要求，确保系统试运行数据完整、有效。 2.试运行第一周的所有考勤记录仅用于系统测试、功能校验及问题排查，本学期第一周最终统一设置为“不计考勤”，该周考勤数据不纳入师生日常考勤考核统计范围。 三、使用教程获取 为方便全体师生快速熟悉新版系统操作流程，网信中心已编制完成教师端、学生端专属使用教程。相关教程附件已同步上传至本通知末尾，各位师生可自行下载查阅、学习使用。 四、相关要求 1.请全体师生高度重视本次系统试运行工作，认真学习操作教程，熟练掌握系统使用方法，积极配合完成试运行期间的考勤工作。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+      "title": "关于公布2026-2027学年第一学期停开课程的通知",
+      "noticeDate": "2026-09-12",
+      "contentHash": "4dc246af958d8682d9aa958b30c6776e94603484408767e2a212217c224423e0",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-13",
+          "raw": "停开课程涉及的学生可在第三轮选课期间（2026年9月13日10:00-9月21日10：00）进行补选。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+          "location": {
+            "type": "body",
+            "start": 136,
+            "end": 187
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-21",
+          "raw": "停开课程涉及的学生可在第三轮选课期间（2026年9月13日10:00-9月21日10：00）进行补选。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+          "location": {
+            "type": "body",
+            "start": 136,
+            "end": 187
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月21日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-12",
+          "raw": "2026年9月12日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10447.htm",
+          "location": {
+            "type": "body",
+            "start": 227,
+            "end": 237
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月12日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 237,
+      "snippet": "全校本科生，各学院（部、中心），有关教学单位： 2026-2027学年第一学期2026级本科生第一、二轮选课已结束，下列课程（见附件）选课学生人数少于规定要求，经与开课单位确认，予以停开。 请同学们及时登录“教务处主页-综合教学服务平台-开课中心-我的本研课表”确认课表。停开课程涉及的学生可在第三轮选课期间（2026年9月13日10:00-9月21日10：00）进行补选。 部分课程时间地点有调整，请再次核查。届时请师生按照课表安排按时上课。 教务处 2026年9月12日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+      "title": "关于2026年国庆、中秋节放假调休及教学工作安排的通知",
+      "noticeDate": "2026-09-15",
+      "contentHash": "ab63a458288b54a7bf3eec6e4d5e98a30f37b0bd8f2c3e809c9dd72ff2ebf5ce",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-20",
+          "raw": "9月20日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 81,
+            "end": 86
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月20日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-06",
+          "raw": "停当日课程，上10月6日（第4周星期二）课程",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 94,
+            "end": 116
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月6日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-25",
+          "raw": "9月25日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 117,
+            "end": 122
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月25日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-26",
+          "raw": "9月26日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 142,
+            "end": 147
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月26日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-27",
+          "raw": "9月27日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 161,
+            "end": 166
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月27日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-01",
+          "raw": "10月1日前仍执行夏秋季作息时间，10月1日始执行冬春季作息时间（见后表）",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 174,
+            "end": 211
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-01",
+          "raw": "10月1日前仍执行夏秋季作息时间，10月1日始执行冬春季作息时间（见后表）",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 174,
+            "end": 211
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-01",
+          "raw": "10月1日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 212,
+            "end": 217
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-02",
+          "raw": "10月2日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 237,
+            "end": 242
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月2日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-03",
+          "raw": "10月3日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 250,
+            "end": 255
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月3日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-04",
+          "raw": "10月4日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 263,
+            "end": 268
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月4日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-05",
+          "raw": "10月5日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 282,
+            "end": 287
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月5日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-06",
+          "raw": "10月6日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 295,
+            "end": 300
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月6日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-07",
+          "raw": "10月7日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 317,
+            "end": 322
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月7日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-10",
+          "raw": "10月10日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 339,
+            "end": 345
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-07",
+          "raw": "停当日课程，上10月7日（第4周星期三）课程",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 353,
+            "end": 375
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月7日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-25",
+          "raw": "中秋节放假时间：2026年9月25日至9月27日放假。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 376,
+            "end": 403
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月25日",
+          "endDate": "2026-09-27",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-27",
+          "raw": "中秋节放假时间：2026年9月25日至9月27日放假。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 376,
+            "end": 403
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月27日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-01",
+          "raw": "国庆节放假时间：2026年10月1日至10月7日放假调休，共7天。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 404,
+            "end": 437
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月1日",
+          "endDate": "2026-10-07",
+          "superseded": false
+        },
+        {
+          "value": "2026-10-07",
+          "raw": "国庆节放假时间：2026年10月1日至10月7日放假调休，共7天。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 404,
+            "end": 437
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月7日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-20",
+          "raw": "9月20日（星期日）、10月10日（星期六）上班。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 438,
+            "end": 463
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月20日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-10",
+          "raw": "9月20日（星期日）、10月10日（星期六）上班。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 438,
+            "end": 463
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-01",
+          "raw": "四、10月1日起，学校执行冬、春季作息时间。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 845,
+            "end": 867
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-15",
+          "raw": "2026年9月15日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10462.htm",
+          "location": {
+            "type": "body",
+            "start": 960,
+            "end": 970
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月15日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 970,
+      "snippet": "各学院（部、中心），有关单位： 根据学校通知，现将国庆、中秋节放假调休期间教学有关工作安排如下： 一、国庆、中秋节调休教学安排 日期 周次、星期 调休及教学安排 9月20日 第1周星期日 停当日课程，上10月6日（第4周星期二）课程 9月25日 第2周星期五 法定节假日，停课，放假 9月26日 第2周星期六 停课，放假 9月27日 第2周星期日 10月1日前仍执行夏秋季作息时间，10月1日始执行冬春季作息时间（见后表） 10月1日 第3周星期四 法定节假日，停课，放假 10月2日 第3周星期五 10月3日 第3周星期六 10月4日 第3周星期日 停课，放假 10月5日 第4周星期一 10月6日 第4周星期二 调休，停课，放假 10月7日 第4周星期三 调休，停课，放假 10月10日 第4周星期六 停当日课程，上10月7日（第4周星期三）课程 中秋节放假时间：2026年9月25日至9月27日放假。 国庆节放假时间：2026年10月1日至10月7日放假调休，共7天。 9月20日（星期日）、10月10日（星期六）上班。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+      "title": "关于2026-2027学年第一学期本科生学籍注册工作的通知",
+      "noticeDate": "2026-09-07",
+      "contentHash": "5c0433c804b560400fcac593848960710c330eeb63522cd0e5a45cb67014583b",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-12",
+          "raw": "根据学校安排，2026-2027学年第一学期本科生集中学籍注册时间为2026年9月12日至9月13日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 17,
+            "end": 68
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月12日",
+          "endDate": "2026-09-13",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "根据学校安排，2026-2027学年第一学期本科生集中学籍注册时间为2026年9月12日至9月13日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 17,
+            "end": 68
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-12",
+          "raw": "如有学生无法线上注册，请在9月12日至9月13日进行线下学籍注册。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 145,
+            "end": 178
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月12日",
+          "endDate": "2026-09-13",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "如有学生无法线上注册，请在9月12日至9月13日进行线下学籍注册。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 145,
+            "end": 178
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-12",
+          "raw": "2.在学院本科教务办公室进行线下学籍注册（线下注册时间为：2026年9月12日至9月13日上午9:00-12:00，下午2:30-5:30）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 179,
+            "end": 250
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月12日",
+          "endDate": "2026-09-13",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "2.在学院本科教务办公室进行线下学籍注册（线下注册时间为：2026年9月12日至9月13日上午9:00-12:00，下午2:30-5:30）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 179,
+            "end": 250
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "09:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "2.因休学、保留学籍期满需要复学的学生，请于9月13日前登录“综合教学服务平台”办理复学申请手续。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 330,
+            "end": 379
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-14",
+          "raw": "4.请各学院于9月14日上午10:00前，将未按时注册的学生名单报送教务处。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 456,
+            "end": 494
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月14日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-14",
+          "raw": "5.9月14日起，学生按照校历和课表安排上课。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 495,
+            "end": 518
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月14日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-07",
+          "raw": "2026年9月7日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1095/10442.htm",
+          "location": {
+            "type": "body",
+            "start": 559,
+            "end": 568
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月7日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 568,
+      "snippet": "各学院（部、中心），全体本科生： 根据学校安排，2026-2027学年第一学期本科生集中学籍注册时间为2026年9月12日至9月13日。 一、学籍注册方式 学生可选择线上、线下两种方式进行学籍注册： 1.在学校校区范围内自主登录“移动交通大学”APP进行线上学籍注册，具体操作流程见附件1。如有学生无法线上注册，请在9月12日至9月13日进行线下学籍注册。 2.在学院本科教务办公室进行线下学籍注册（线下注册时间为：2026年9月12日至9月13日上午9:00-12:00，下午2:30-5:30）。 二、学籍注册工作具体安排 1.因故未能按时注册者，必须办理请假手续并向所在学院出具有关证明，请假以两周为限。未请假、请假未获批准或逾期未注册者，按退学处理。 2.因休学、保留学籍期满需要复学的学生，请于9月13日前登录“综合教学服务平台”办理复学申请手续。各学院相关老师请注意及时复学审批。 3.线下学籍注册时，学生需在工作时间携带本人学生证、一卡通到所在学院本科教务办公室办理注册手续，不得由他人代替注册。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10476.htm",
+      "title": "关于公示2027年春季学期港澳台地区高校交换生项目推荐学生名单的通知",
+      "noticeDate": "2026-09-22",
+      "contentHash": "05520b2723b0413e38168ee830f17af6e1af6cfacae2debaf80e6b9556d35816",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-22",
+          "raw": "公示时间：2026年9月22日至9月24日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10476.htm",
+          "location": {
+            "type": "body",
+            "start": 90,
+            "end": 111
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月22日",
+          "endDate": "2026-09-24",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-24",
+          "raw": "公示时间：2026年9月22日至9月24日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10476.htm",
+          "location": {
+            "type": "body",
+            "start": 90,
+            "end": 111
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月24日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-22",
+          "raw": "2026年9月22日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10476.htm",
+          "location": {
+            "type": "body",
+            "start": 160,
+            "end": 170
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月22日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 170,
+      "snippet": "各位同学： 经书院审核、学院初选，学校综合评价选拔，2027年春季学期我校赴港澳台地区高校交换生选拔工作已结束。现将推选名单（见附件）予以公示，最终录取名单由对方学校审核后确定。 公示时间：2026年9月22日至9月24日 如有问题，请与港澳台事务办公室联系。 联系人：郝老师 电话：82668230 港澳台事务办公室 2026年9月22日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+      "title": "关于开展2026年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
+      "noticeDate": "2026-09-18",
+      "contentHash": "f42f619e4613f28587ce05e907db04075d3131ce8d4206d25dd46ddd70f82f5f",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-30",
+          "raw": "1、2026年西安交通大学国家级、省级“大学生创新训练项目” （附件1、2）和“本科生科研训练和实践创新基金项目”（附件3）立项项目，需在10月30日前完成“大学生创新创业项目智能管理系统”中期检查表以及月进展记录填写工作（3次）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+          "location": {
+            "type": "body",
+            "start": 577,
+            "end": 693
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-06",
+          "raw": "3、各学院中期验收预定于11月6日前完成，具体由学院安排，要求各项目负责人参加中期验收答辩（项目负责人陈述限时7分钟，专家提问3分钟），如有实物成果，可在答辩时进行展示。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+          "location": {
+            "type": "body",
+            "start": 774,
+            "end": 859
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月6日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-13",
+          "raw": "1、中期验收合格的项目可根据预算及报销相关规定进行第一次报销（不超过批准金额50%），11月13日前由各学院管理员统一审核整理报销票据，审核完成后按照附件4顺序排序，以学院为单位交至实践教学中心。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+          "location": {
+            "type": "body",
+            "start": 928,
+            "end": 1026
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-13",
+          "raw": "3、各学院管理员11月13日前将附件4按答辩成绩从高至低排序，电子版发送至dingxq@xjtu.edu.cn,纸质版答辩成绩单由评审专家及学院负责人签名盖学院章后交至工程坊A区513办公室。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+          "location": {
+            "type": "body",
+            "start": 1068,
+            "end": 1164
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-18",
+          "raw": "2026年9月18日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10471.htm",
+          "location": {
+            "type": "body",
+            "start": 2758,
+            "end": 2768
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 2768,
+      "snippet": "各学院（部）、中心及有关单位： 根据《西安交通大学本科生科研训练和实践创新基金管理办法》的相关规定，学校决定对2026年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”进行中期验收。现将具体事宜通知如下： 一、工作原则 1、以学生为中心，引导学生在实施大创项目过程中契合国家经济社会发展和重大战略需求，解决产业中的实际问题，“真题真做”。鼓励学生将大创项目与高水平竞赛相结合，通过大创项目的实施不断提升各类竞赛水平。 2、鼓励参与过大创项目、特别是通过大创项目有较高水平科研成果的学生持续进行深入的研究。鼓励学生以第一发明人身份申请专利、以第一作者身份发表高水平论文，申请专利、论文版面费用经审核后单列经费支持（论文须标注获得“国家级大学生创新训练计划项目”National Training Program of lnnovation for Undergraduates资助）。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1101/10475.htm",
+      "title": "关于继续办理2025级各班教材结算的通知",
+      "noticeDate": "2026-09-21",
+      "contentHash": "0dc2cb6e7d58869adb80b722cf18fd1573d23a9f9693c49632c0fda01198d5f0",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-21",
+          "raw": "2025级教材结算工作已于今年7月份进行办理，但还有部分班级没有进行结算，对此教材供应中心于9月21日至9月24日继续在学校北门西导览中心西测教材结算处进行教材结算工作。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1101/10475.htm",
+          "location": {
+            "type": "body",
+            "start": 17,
+            "end": 102
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月21日",
+          "endDate": "2026-09-24",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-24",
+          "raw": "2025级教材结算工作已于今年7月份进行办理，但还有部分班级没有进行结算，对此教材供应中心于9月21日至9月24日继续在学校北门西导览中心西测教材结算处进行教材结算工作。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1101/10475.htm",
+          "location": {
+            "type": "body",
+            "start": 17,
+            "end": 102
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月24日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-22",
+          "raw": "2025级医学专业的班级于9月22日至23日晚间在雁塔校区生活区宗溓大院8号楼前进行办理。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1101/10475.htm",
+          "location": {
+            "type": "body",
+            "start": 102,
+            "end": 147
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月22日",
+          "endDate": "2026-09-23",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-21",
+          "raw": "2026年9月21日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1101/10475.htm",
+          "location": {
+            "type": "body",
+            "start": 451,
+            "end": 461
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月21日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 461,
+      "snippet": "2025级教材未结算班级负责人： 2025级教材结算工作已于今年7月份进行办理，但还有部分班级没有进行结算，对此教材供应中心于9月21日至9月24日继续在学校北门西导览中心西测教材结算处进行教材结算工作。2025级医学专业的班级于9月22日至23日晚间在雁塔校区生活区宗溓大院8号楼前进行办理。学生个人预交的1100元教材费，以班为单位进行春、秋两季结算，各班需退金额，按实际结算后应退金额统一转至班级教材结算负责人提供的银行账户，请收到退款后，及时给班里同学办理退费。 各班教材结算负责人来办理春、秋两季教材结算时，需提供退款账户、账户名称、开户行名、开户行号（西安银行的账号不需要提供开户行名和开户行号），开户行号需在银行APP上查询，如果没有则需电话咨询开户行获取，请大家仔细核对账户相关信息，确保准确无误。 兴庆校区工作时间：8:30—12:00 13:00—17:30 雁塔校区工作时间：18:30—21:30 咨询电话：82668011（姚老师）、82668318（秦老师） 教材供应中心 2026年9月21日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-09-14",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10438.htm",
+      "title": "关于2026级本科生新生选拔数学测试的通知（更新中2-1200）",
+      "noticeDate": "2026-08-29",
+      "contentHash": "0fe3aa353e013447fabf8642d71497a52f5e5d4887872849c2d6d0458ea5cdc0",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-08-31",
+          "raw": "新生选拔数学测试将于2026年8月31日上午10:20-12：20进行。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10438.htm",
+          "location": {
+            "type": "body",
+            "start": 12,
+            "end": 48
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:20",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年8月31日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-08-29",
+          "raw": "2026年8月29日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10438.htm",
+          "location": {
+            "type": "body",
+            "start": 172,
+            "end": 182
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年8月29日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 182,
+      "snippet": "2026级新生本科生： 新生选拔数学测试将于2026年8月31日上午10:20-12：20进行。（试卷配套稿纸，考生无需额外携带，考试结束后，稿纸一并回收；考试中禁止使用计算器。） 新生选拔数学测试具体考场安排请查看附件，考生需提前20分钟到达考场，开考15分钟后迟到考生不得进入考场。 附件：2026级本科生新生选拔数学测试考场安排 教务处 2026年8月29日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+      "title": "关于2026年下半年全国大学英语四、六级考试报名的通知",
+      "noticeDate": "2026-09-09",
+      "contentHash": "772e21c80874a6588ed5e966f3ef25c1c93bc6550946252bc514b6d8e0160b2d",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-12-12",
+          "raw": "根据教育部教育考试院统一安排，2026年下半年全国大学英语四、六级考试笔试（以下简称CET）和口试（以下简称CET-SET）将分别于12月12日、11月21日至22日举行。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 86
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-21",
+          "raw": "根据教育部教育考试院统一安排，2026年下半年全国大学英语四、六级考试笔试（以下简称CET）和口试（以下简称CET-SET）将分别于12月12日、11月21日至22日举行。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 86
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月21日",
+          "endDate": "2026-11-22",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-12",
+          "raw": "英语四级考试 12月12日 09:00-11:20",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 123,
+            "end": 148
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "09:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-12",
+          "raw": "英语六级考试 12月12日 15:00-17:25",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 149,
+            "end": 174
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "15:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-21",
+          "raw": "英语四级口语考试（CET-SET4）考试时间为11月21日（F263次），英语六级口语考试（CET-SET6）考试时间为11月22日（S264次）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 184,
+            "end": 258
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月21日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-22",
+          "raw": "英语四级口语考试（CET-SET4）考试时间为11月21日（F263次），英语六级口语考试（CET-SET6）考试时间为11月22日（S264次）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 184,
+            "end": 258
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-18",
+          "raw": "我省考生网报时间为9月18日12:00至9月28日17:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 510,
+            "end": 541
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "12:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月18日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-28",
+          "raw": "我省考生网报时间为9月18日12:00至9月28日17:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 510,
+            "end": 541
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月28日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-18",
+          "raw": "第一阶段时间为9月18日12:00至9月23日17:00，此阶段仅限于我校未参加过CET4(或CET6)考试的学生、及成绩未达到425分的学生报名。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 542,
+            "end": 616
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "12:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月18日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-23",
+          "raw": "第一阶段时间为9月18日12:00至9月23日17:00，此阶段仅限于我校未参加过CET4(或CET6)考试的学生、及成绩未达到425分的学生报名。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 542,
+            "end": 616
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月23日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-23",
+          "raw": "第二阶段时间为9月23日17:00至9月28日17:00，此阶段对我校符合报名要求的考生全部开放，报满为止。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 617,
+            "end": 671
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月23日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-28",
+          "raw": "第二阶段时间为9月23日17:00至9月28日17:00，此阶段对我校符合报名要求的考生全部开放，报满为止。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 617,
+            "end": 671
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月28日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-17",
+          "raw": "成功完成口试报名的考生于11月17日起登录报名系统自行打印准考证；",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 1199,
+            "end": 1232
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-01",
+          "raw": "成功完成笔试报名的考生于12月1日起登录报名系统自行打印准考证。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 1232,
+            "end": 1264
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-09",
+          "raw": "2026年9月9日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10445.htm",
+          "location": {
+            "type": "body",
+            "start": 1381,
+            "end": 1390
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月9日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1390,
+      "snippet": "根据教育部教育考试院统一安排，2026年下半年全国大学英语四、六级考试笔试（以下简称CET）和口试（以下简称CET-SET）将分别于12月12日、11月21日至22日举行。现将考试报名工作有关事项通知如下： 一、考试科目及时间 1.笔试考试时间 英语四级考试 12月12日 09:00-11:20 英语六级考试 12月12日 15:00-17:25 2.口试考试时间 英语四级口语考试（CET-SET4）考试时间为11月21日（F263次），英语六级口语考试（CET-SET6）考试时间为11月22日（S264次）。具体考试时间见准考证。 二、报名对象 （一）CET报考资格 1.修完大学英语四级课程的普通全日制在校本科生和在籍研究生可报考CET4； 2.修完大学英语六级课程且CET4成绩达到425分及以上的学生可报考CET6； 3.我校不接收外校学生及我校往届已毕(结)业学生的考试报名。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10031.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-24",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-07-01",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10342.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10414.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-10-11",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10431.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-08-28",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+      "title": "关于举办2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项校内选...",
+      "noticeDate": "2026-09-02",
+      "contentHash": "2a1168a34f5e58baeb6ea10b4d7a7320a40d1580add951662e8f238a48042459",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-13",
+          "raw": "校内选拔赛时间：2026年9月13日前后（具体时段、地点在竞赛群内通知）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+          "location": {
+            "type": "body",
+            "start": 214,
+            "end": 251
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "approximate"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-15",
+          "raw": "全国总决赛：2026年10月15-18日（以组委会通知为准）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+          "location": {
+            "type": "body",
+            "start": 252,
+            "end": 283
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "approximate",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月15",
+          "endDate": "2026-10-18",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-10",
+          "raw": "1.已组队同学务必在9月10日前完成以下三项工作：",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+          "location": {
+            "type": "body",
+            "start": 335,
+            "end": 360
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-13",
+          "raw": "1.各队伍须在9月13日前完成机器人搭建、传感器调试、控制算法与赛道适配。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+          "location": {
+            "type": "body",
+            "start": 584,
+            "end": 621
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-02",
+          "raw": "2026年9月2日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10441.htm",
+          "location": {
+            "type": "body",
+            "start": 811,
+            "end": 820
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月2日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 820,
+      "snippet": "各学院（部、中心）、有关单位、各参赛队伍： 为做好2026中国机器人暨RoboCup机器人世界杯中国赛（中国机器人大赛赛区）总决赛水下机器人赛项参赛组织工作，公平择优推荐队伍参加全国总决赛，决定举办校内选拔赛。现将有关事项通知如下： 一、选拔目的 以赛促练、以选促备，检验各队伍备赛进度与机器人完成度，确定代表学校参加全国专项赛赛事的队伍。 二、参赛对象 2027年暑期前具有正式学籍的全日制本科生、研究生。 三、关键时间节点 校内选拔赛时间：2026年9月13日前后（具体时段、地点在竞赛群内通知）。 全国总决赛：2026年10月15-18日（以组委会通知为准）。 四、比赛项目 1）水下机器人-机器人水中巡游 2）水下机器人-水下具身智能 五 、报名与组别确认流程 1.已组队同学务必在9月10日前完成以下三项工作： （1）队长加入校内竞赛联络群； （2）完成参赛登记工作，登记信息包括队伍名称、队长信息、队员等。 （3）组队后尽快根据赛题任务要求完成机器人的设计、制作，并进行机器人样机调试和竞赛训练。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+      "title": "关于组织2026年全国大学生嵌入式芯片与系统设计竞赛FPGA创新设计赛道报名的通知",
+      "noticeDate": "2026-09-15",
+      "contentHash": "8c7a7d79760a9d45fcacddde9b6d1dc584ae3500641b4d96e7426701dfe3f1f3",
+      "schemaVersion": 2,
+      "deadline": "2026-09-22",
+      "score": 4,
+      "deadlineEvent": {
+        "value": "2026-09-22",
+        "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+        "location": {
+          "type": "body",
+          "start": 587,
+          "end": 652
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": "track-1eeaa01e85",
+        "kind": "registration_deadline",
+        "time": "24:00",
+        "timezone": "Asia/Shanghai",
+        "dateRaw": "2026年9月22日",
+        "endDate": null,
+        "superseded": false
+      },
+      "timeline": [
+        {
+          "value": "2026-09-22",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "registration_deadline",
+          "time": "24:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-04",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "submission",
+          "time": "18:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月4日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-20",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": "track-1eeaa01e85",
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月20日",
+          "endDate": "2026-11-22",
+          "superseded": false
+        },
+        {
+          "value": "2026-11-22",
+          "raw": "报名截止日期2026年9月22日24点，作品提交时间2026年11月4日18点，竞赛决赛时间2026年11月20日-11月22日。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+          "location": {
+            "type": "body",
+            "start": 587,
+            "end": 652
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "range_endpoint"
+          ],
+          "trackId": "track-1eeaa01e85",
+          "kind": "competition",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-15",
+          "raw": "2026年9月15日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10463.htm",
+          "location": {
+            "type": "body",
+            "start": 745,
+            "end": 755
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": "track-1eeaa01e85",
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月15日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 755,
+      "snippet": "各学院（部、中心）及有关单位： 2026年全国大学生嵌入式芯片与系统设计竞赛—FPGA创新设计赛道报名已启动。现将相关事宜通知如下： 一、大赛宗旨 大赛旨在提高全国高校学生在嵌入式芯片及系统设计领域、可编程逻辑器件应用领域自主创新设计与工程实践能力，培养具有创新思维、具备解决复杂工程问题能力且拥有团队合作精神的优秀人才，推进高校与企业人才培养合作共建。大赛强调在做芯片与系统设计的同时关注可编程逻辑器件应用领域创新设计原理及规律，鼓励参赛师生掌握FPGA相关的理论知识和实践技能，丰富和活跃高校创新创业学术氛围。FPGA创新设计赛道旨在提高学生在数字系统设计领域尤其是可编程逻辑器件应用领域的创新实践能力。 二、参赛报名方式 大赛采用开放式报名方式，参赛队伍务必在报名截止时间前通过官方网站（www.socchina.net）完成报名工作。 竞赛启动通知详见http://fpgachina.cn/。 三、参赛要求 每支参赛队伍不超过3人，每队不超过2名指导老师，每位同学仅限参与1支队伍。竞赛以“创意发挥、规范设计、突破自我、快乐竞赛”为原则。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1175/10472.htm",
+      "title": "关于2025-2026学年第二学期本科教学“优秀研究生助教”评选工作的通知",
+      "noticeDate": "2026-09-20",
+      "contentHash": "efd6a493bda72ca9ce208a74f289aafbfef9f886dae17a38fca5282ea9b208f4",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-12",
+          "raw": "请本科教学单位于2026年10月12日前将《“优秀研究生助教”评选结果汇总表》（附件3）电子版（Excel版、扫描版）和《“优秀研究生助教”申请表》（附件1）扫描版发送至邮箱：",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1175/10472.htm",
+          "location": {
+            "type": "body",
+            "start": 804,
+            "end": 892
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-20",
+          "raw": "2026年9月20日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1175/10472.htm",
+          "location": {
+            "type": "body",
+            "start": 1012,
+            "end": 1022
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月20日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1022,
+      "snippet": "各学院（部、中心）、处及有关单位： 根据《西安交通大学研究生助教工作实施细则》（西交研〔2017〕88号），现对2025-2026学年第二学期本科“优秀研究生助教”评选工作的安排如下： 一、参评对象 2025-2026学年第二学期担任本科课程助教工作的研究生（包含担任助教的“优本计划”的本科生）。 二、申请条件 申请“优秀研究生助教”应满足以下条件： 1.热爱社会主义祖国，拥护中国共产党的领导； 2.遵守宪法和法律，遵守学校规章制度； 3.诚实守信，道德品质优良，品学兼优，学风端正； 4.认真完成助教培训的全部内容，圆满完成助教岗位的工作任务，能有效协助老师进行教育技术及教学方法改革； 5.能较好地处理学习与工作的关系，学习成绩优秀。 在岗期间有下列情况之一者不能被评为优秀助教： 1.受到通报批评或警告及以上处分的； 2.课程考试有不及格的； 3.岗位考核不合格的； 4.不服从工作安排、与老师和同学发生冲突的，或者工作中出现重大失误造成严重后果的。 三、评审安排 1.学生申请。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1176/10470.htm",
+      "title": "关于启动2026级本科生劳动教育并继续做好2023、2024、2025级本科生劳动教育的通知",
+      "noticeDate": "2026-09-18",
+      "contentHash": "82e9e2e79cc6ac23bae6ea0dfbe5e35016bd339118d001ee7521e09c39d06708",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-18",
+          "raw": "2026年9月18日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1176/10470.htm",
+          "location": {
+            "type": "body",
+            "start": 1290,
+            "end": 1300
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1300,
+      "snippet": "各学院（部、中心）、书院及全体2026级、2025级、2024级、2023级本科生： 为贯彻落实《中共中央 国务院关于全面加强新时代大中小学劳动教育的意见》《教育部关于印发<大中小学劳动教育指导纲要（试行）>的通知》等文件精神，根据《西安交通大学学生劳动教育实施方案》，西安交通大学2023版本科生培养方案明确要求：2023级及以后入学的本科生均需完成32学时的劳动教育学习，通过“劳育”课程（课程编码：LABO100191）后方可并毕业。现启动2026级本科生劳动教育工作，并请继续做好2023、2024、2025级本科生劳动教育工作。具体事项通知如下： 一、开展对象 2026级、2025级、2024级、2023级全体普通全日制本科生 二、修读要求 须在本科毕业前完成32学时的劳育课程学习，其中：理论环节8学时、实践环节24学时。具体修读内容请参考附件《西安交通大学本科生劳动教育修读要求》（之后简称《修读要求》）。 理论环节和实践环节考核均通过后方可毕业。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1178/10473.htm",
+      "title": "关于开展2026年春季学期期末试卷检查的通知",
+      "noticeDate": "2026-09-20",
+      "contentHash": "4be5934b04b1bbe35eb9679f4326f40f376d6ff77644c138b768b5995bf5a453",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-19",
+          "raw": "校级抽查工作将于10月19-30日开展，教务处将组织学校督导专家在各学院试卷自查的基础上进行抽查，被抽查单位及检查时间由教务处与校督导组确定后另行通知。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1178/10473.htm",
+          "location": {
+            "type": "body",
+            "start": 221,
+            "end": 297
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "approximate",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月19",
+          "endDate": "2026-10-30",
+          "superseded": false
+        },
+        {
+          "value": "2026-09-20",
+          "raw": "2026年9月20日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1178/10473.htm",
+          "location": {
+            "type": "body",
+            "start": 615,
+            "end": 625
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月20日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 625,
+      "snippet": "各学院（部、中心）及有关单位： 为加强教学质量管理，规范试卷评阅、成绩评定与试卷归档工作，进一步提高本科教学规范化水平，学校将组织专家在全校范围内开展2025-2026学年第二学期期末试卷抽查工作，现将有关事项通知如下： 一、检查组织、方式及时间安排 1.学院自查。全校所有学院需对上一学期所有课程的期末试卷进行检查。学院自查应采取系所交叉互查和院级专家抽查相结合的方式，并留存详细的检查记录单，以避免教师自查可能存在的疏漏。 2.学校抽查。校级抽查工作将于10月19-30日开展，教务处将组织学校督导专家在各学院试卷自查的基础上进行抽查，被抽查单位及检查时间由教务处与校督导组确定后另行通知。 二、检查主要内容 本次检查主要内容：1）学院自查情况及自查记录；2）阅卷的规范性、准确性，成绩的合理性、准确性，试卷管理的规范性、试卷分析的针对性等。 三、工作要求 1.提高思想认识，落实自查整改。各学院应高度重视本次试卷检查工作，所有学院务必在学校抽查前完成2026年春季学期期末试卷的自查及问题整改。 2.做好迎检准备，保障现场核查。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4627",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-24",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4628",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-07-29",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4629",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-08-13",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4630",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2025-08-21",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4696",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-15",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4699",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4702",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-23",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4703",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-28",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4706",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4707",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-04-30",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4711",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4715",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-06",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4717",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-08",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4718",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-09",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4719",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-11",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4720",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-05-11",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4725",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-02",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4733",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-06-22",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4752",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-08-16",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4753",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2,
+      "legacyCandidate": "2026-08-17",
+      "verification": "needs_review"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4757",
+      "title": "青春志愿守一线 温情护航新征程",
+      "noticeDate": "2026-08-30",
+      "contentHash": "f32d408d7ba504d71bc1fed826ac2c966e203e3cbda1601d822efa35caf28488",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 1627,
+      "snippet": "初秋风启，韶华赴约，6000余名本科新生怀揣理想与憧憬奔赴交大校园，西安交通大学2026级迎新报到工作正式拉开帷幕。在校团委指导下，学生会等团学组织全力做好迎新志愿服务保障，组织统筹校内志愿力量，在兴庆校区、创新港校区同步开展迎新工作。学生志愿者们分散在校园各处，以真诚周到的服务迎接新交大人。 前置统筹部署，做实迎新筹备 为确保迎新各环节衔接顺畅，各团学组织提前1个月启动筹备，立足两校区实际，紧扣新生入校各项流程，细化完善迎新服务方案，为迎新工作打下坚实基础。今年共招募370余名迎新志愿者，并开展系统化岗前集训，内容覆盖服务礼仪、业务流程及应急处置，切实提升迎新队伍服务能力。 从一份迎新袋开始，志愿者们便已进入角色——校园地图、报到流程、报到小贴士、防骗指南、扇子、饮品等实用物品被一一装入袋中，7000份迎新袋装满了对新生的期许与关心；各迎新点位也配备饮用水、纸杯、果汁、雨衣等暖心物资，全方位优化新生及家长的入校体验。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4758",
+      "title": "研聚力量，攀登致远！2026 年 “攀登计划” 研究生骨干研习营正式开营",
+      "noticeDate": "2026-09-08",
+      "contentHash": "a7c056d81e34c73c4526fbbaf2edbae0e887d6bd9675849f95a4ad81507c11bf",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-07",
+          "raw": "9月7日，西安交通大学2026年“攀登计划”研究生骨干研习营开营仪式在中国西部科技创新港千人报告厅举行。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4758",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 52
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月7日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1922,
+      "snippet": "9月7日，西安交通大学2026年“攀登计划”研究生骨干研习营开营仪式在中国西部科技创新港千人报告厅举行。研究生院副院长、党委研究生工作部部长、团委书记李利波，保卫处副处长王宏科，后勤保障部创新港综合管理服务中心副主任吴勇出席仪式，党委研工部、校团委相关指导老师、10位辅导员带班老师及1000名研究生新生骨干齐聚一堂，共同开启研习之旅。 开营仪式 仪式在庄严肃穆的国歌声中拉开序幕。 李利波向全体学员致以诚挚欢迎，介绍了创新港建设发展及研究生教育培养情况，围绕研究生阶段学习成长提出三点期望：一是要有一张“路线图”，保持坚定自信，锚定个人发展目标；二是要有一双“登山鞋”，牢记校训，“干”字当头，积极主动学习，锤炼个人本领；三是要有一根“结组绳”，正确认识个人与学校、师友、家庭的关系，希望全体学员将个人成长融入“国之大者”，把研习营中的所学所悟转化为科研学习和实践担当的动力，在青春赛道上勇毅攀登。 李利波为10位辅导员颁发“攀登班”班主任聘书。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4759",
+      "title": "这个暑假，西安交大五千余名师生 ——将课堂搬进西部的山野乡村",
+      "noticeDate": "2026-09-10",
+      "contentHash": "cad72e56adf844900c490ee785e4f636488da2f94cc4d98ecd0629abf40ee296",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 1611,
+      "snippet": "近期，中青报报道我校社会实践“这个暑假，西安交大五千余名师生 ——将课堂搬进西部的山野乡村”，下面是原文内容。 这个暑假，西安交大五千余名师生 ——将课堂搬进西部的山野乡村 “刷毛要45度角倾斜，轻轻颤动，上排往下、下排往上……”青海省玉树藏族自治州称多县文乐中心寄宿学校的教室里，来自西安交通大学（以下简称“西安交大”）的玉树支教团成员半蹲在讲台前，握着牙刷，为孩子们作巴氏刷牙法的示范讲解。 坐在第一排的藏族小男孩跟着比画，刷到一半忽然举手：“老师，我以前刷牙都刷错了！”教室里一片欢笑声。 这是西安交大第十七届玉树支教团抵达称多县的第二天。2010年玉树地震后，西安交大青年第一次踏上这片土地，此后连续17年支教从未间断。 刚刚过去的这个暑假，西安交大共有5300余名师生组成593支实践团队奔赴全国各地，其中122支队伍选择将课堂搬进西部的山野乡村。 图1 玉树支教团支教图片 受高原区位和师资结构限制，地处三江源腹地的文乐中心寄宿学校在美育、科普、心理健康等领域的素质教育资源一直紧缺。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4760",
+      "title": "西安交通大学第29届研究生支教团成员招募名单公示",
+      "noticeDate": "2026-09-14",
+      "contentHash": "3d0ad2e95f653efa6eefe3917276289551f6da385796caed853abe2fed5f37c0",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": null,
+          "raw": "2026年9月，西安交通大学研究生支教团招募工作领导小组对报名者进行审核遴选，根据综合考察，拟招募结果如下：",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4760",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 54
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-21",
+          "raw": "对以上结果如有异议，请于2026年9月21日前通过以下邮箱或电话及时反映，为便于反馈答复，恕不受理匿名意见。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4760",
+          "location": {
+            "type": "body",
+            "start": 1139,
+            "end": 1193
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月21日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-09-14",
+          "raw": "2026年9月14日",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4760",
+          "location": {
+            "type": "body",
+            "start": 1249,
+            "end": 1259
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年9月14日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1259,
+      "snippet": "2026年9月，西安交通大学研究生支教团招募工作领导小组对报名者进行审核遴选，根据综合考察，拟招募结果如下： 序号 姓名 学院 书院 1 邹欣航 外国语学院 彭康书院 2 熊浩燃 经金学院 崇实书院 3 王佳硕 电气学院 南洋书院 4 李晴 人文学院 崇实书院 5 周秉政 能动学院 彭康书院 6 陈天宝 人文学院 崇实书院 7 缪环宇 米兰理工学院 启德书院 8 张可盈 人文学院 崇实书院 9 张振鑫 电信学部 仲英书院 10 任星露 外国语学院 彭康书院 11 徐硕基 米兰理工学院 启德书院 12 董庆鑫 电信学部 南洋书院 13 喻志策 外国语学院 彭康书院 14 曾靖涵 电信学部 仲英书院 15 胡心怡 医学部 宗濂厚德书院 16 袁瀚策 电信学部 仲英书院 17 邓宇航 人文学院 崇实书院 18 刘炎辉 化学学院 励志书院 19 周荃 金禾经济研究中心 崇实书院 20 汲宣亿 金禾经济研究中心 崇实书院 21 李天宇 马克思主义学院 崇实书院 22 纪雨彤 电信学部 仲英书院 23 王梓沛 法学院 崇实书院 24 庹铖曦 人文学院 崇实书…"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4761",
+      "title": "百卅薪火传新程 交大青年竞风采——我校学子在\"传习杯\"四所交通大学联合演讲比赛中 取得佳绩",
+      "noticeDate": "2026-09-16",
+      "contentHash": "c3bc4e3bb9f3c515c1f3fa42046890e6b4ae679460e1d511dc31140f60c98de3",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-09-13",
+          "raw": "9月13日，“百卅薪火・强国新程”——“传习杯”四校联合演讲比赛决赛在北京交通大学海淀校区天佑会堂隆重举办。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4761",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 54
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "9月13日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-08-28",
+          "raw": "8月28日至30日，四校参赛选手齐聚北京交通大学，参与线下以“回信精神与青年担当”为主题的研学营活动，搭建起四校青年互学互鉴的交流平台。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4761",
+          "location": {
+            "type": "body",
+            "start": 760,
+            "end": 828
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "8月28日",
+          "endDate": "2026-08-30",
+          "superseded": false
+        }
+      ],
+      "bodyLen": 2033,
+      "snippet": "9月13日，“百卅薪火・强国新程”——“传习杯”四校联合演讲比赛决赛在北京交通大学海淀校区天佑会堂隆重举办。西安交通大学、上海交通大学、西南交通大学、北京交通大学共12支参赛队伍同台比拼、以声聚力，共同感悟习近平总书记对四所交大全体师生回信的殷殷嘱托，赓续百卅交大文脉。我校8名学生组成4支队伍参赛，发挥出色，斩获多项荣誉。能动学院彭康书院的王皓田荣获一等奖，来自学生微宣讲团的梧桐归心队（电信学部南洋书院黄翰林、马克思主义学院崇实书院王澜晰、公管学院李明）、法学院崇实书院的韩疏桐获得二等奖，昆仑思源队（医学部厚德书院虎啸峰、经金学院崇实书院冶瑞洁、化学学院励志书院苗硕）获得三等奖。 校内深耕备赛忙，厚植精神亮底色 学校团委高度重视，将本次备赛作为深化学习习近平总书记回信精神、开展校史校情教育、弘扬西迁精神的重要实践载体，面向全校广泛开展动员宣传，吸引众多青年学生踊跃报名参与。 本次赛事分为单人赛与团体赛，学校严格对照赛事规则，坚持优中选优的原则，组织多轮次遴选评审，综合考察选手的思想认知、语言表达、现场感染力。"
+    },
+    {
+      "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+      "deadline": null,
+      "score": 0,
+      "error": "body_unavailable",
+      "schemaVersion": 2
+    }
+  ]
 }

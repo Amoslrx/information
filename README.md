@@ -232,8 +232,8 @@ node   scripts\test_site.js
 2. **电气相关度是 AI 初判**，用于排序和初筛，需逐条复核。
    只改 `data/curated/ee_relevance.json` 再重跑脚本，不要手工改 CSV 或 `data.js`。
 
-3. 补充：**报名截止时间未结构化收录**（赛程几乎全在通知正文或 PDF 附件里），
-   网站里的"近期有通知"是用通知日期做的代理信号，不等于报名开放中。
+3. 正文和附件中的报名安排已按证据提取，但尚未读取或有歧义的信息仍标为待核实。
+   "近期有通知"不等于报名开放；报名状态仅取本届明确的时间节点。
 
 ---
 
@@ -244,14 +244,143 @@ node   scripts\test_site.js
 python -m pip install --target .\.tools pypdf
 
 python scripts\crawl_xjtu_notices.py    # 抓多源通知(实践教学中心/教务处/电气学院) → notices.json
+python scripts\crawl_notice_bodies.py   # 普通正文 / 团委文章 API → notice_bodies.json
+python scripts\crawl_notice_resources.py # 附件、OCR 与二维码 → notice_resources.json
+python scripts\extract_notice_fields.py # 字段、联系人、赛道、时间节点及原文证据 → notice_fields.json
+python scripts\extract_deadlines.py     # 使用统一正文缓存提取报名截止时间
 python scripts\parse_moe_catalog.py     # 教育部目录 PDF → JSON
 python scripts\parse_xjtu_ab.py         # 西交 A/B 名单 PDF → JSON
 python scripts\build_master_table.py    # 合并 → competitions_master.csv / .md
 python scripts\build_cadence.py         # 推断年度节律 → data/seed/cadence.json
 python scripts\build_site_data.py       # 打包 → site/data.js
 python scripts\build_calendar.py        # 生成 → site/calendar/*.ics
-node   scripts\test_site.js             # 自检(70 项)
+python -m unittest discover -s scripts -p "test_notice*.py"
+node   scripts\test_site.js             # 站点与交互自检
 ```
+
+正文数据使用 `schema_version: 2`，每条保存 `url`、`title`、`date`（发布日期）、
+`source`、`site`、`fetchedAt`（含时区的 UTC 时间）、`status`、`error`、`contentHash`（SHA-256）。
+`status` 为 `success`、`empty` 或 `failed`；正文定位失败属于 `failed`，匹配到正文容器但无文字、图片或附件属于 `empty`。
+短通知和纯图片／附件通知也可以成功，不再按正文长度拒绝。
+
+完整内容保存在 `body`、`bodyHtml`、`paragraphs`、`tables`、`images`、`attachments` 和 `links`；
+`blocks` 按原文顺序引用段落和表格，表格保留单元格及合并信息，HTML 保留图片位置。
+正文及链接不截断，相对资源链接转换为完整地址。页面打包摘要、结构化字段及证据和最多四个优先报名／附件链接。
+抓取失败保留错误和 `lastSuccess`（如果存在），不会把旧正文冒充本次成功。
+
+默认增量抓取竞赛通知和最近 540 天的其他通知；`--limit 24` 控制本轮数量，
+`--force` 重抓，`--url "通知地址"` 指定抽样地址（可重复）。
+普通站点的正文选择器在 `scripts/notice_content.py` 中配置；团委通过独立的 `fetch_tuanwei` 适配器读取公开文章接口。
+
+### 结构化字段与证据
+
+格式定义见 [`data/schemas/notice_fields.schema.json`](data/schemas/notice_fields.schema.json)，
+提取规则见 [`scripts/notice_fields.py`](scripts/notice_fields.py)。
+每条通知包含竞赛名称 `competitionNames`、届次 `editions`、对象 `audiences`、赛道 `tracks`、
+报名方式 `registrationMethods`、入口 `registrationLinks`、材料 `requiredMaterials`、
+时间节点 `timeline`、联系人 `contacts` 和交流群 `groups`，均为数组；缺失项为空数组，缺失标量为 `null`。
+
+每个字段包含 `value`、`raw`（原文）、`sourceUrl`、`location`（正文／标题的 Unicode 字符起止位置，
+或资源引用）、`method`、`verification`、`flags` 和 `trackId`。
+`source_matched` 表示提取结果与原文及规则对应，不代表人工核实；`needs_review` 表示有歧义或模型候选待核实。
+`trackId: null` 表示未明确赛道归属，不会自动分配给其他赛道。
+页面提供逐字段的原文证据，待核实字段只显示状态和原文，不把候选值当作确定值。
+
+`contacts` 按人保存 `name`、`phones`、`emails` 和个人 `qq`；QQ群号码单独存于 `groups.number`。
+共同联系人未明确号码归属时，号码保存在未指定姓名的记录中并标为待核实。
+群图片保留资源地址和附近原文；OCR 与二维码解码的候选保留原图、识别来源及待核实状态。
+
+`timeline.kind` 区分 `registration_start`、`campus_deadline`、`official_deadline`、
+`registration_deadline`（未明确校内／官方）、`submission`、`competition` 和 `other`。
+保留 `time`（含有效的 `24:00`）、`timezone`、`dateRaw` 和 `endDate`。
+校验真实日历日期；缺少年份、可能跨年、跨年范围、月份精度、延期、冲突和近似日期显式保留在 `flags` 中。
+年月范围不会被补成具体日期，缺少年份的候选值也不会自动成为报名截止。
+只有无歧义且有证据的报名截止进入 `deadlines.json` 和页面报名状态；作品或材料提交及比赛日期不参与该判断。
+多个赛道或不同截止值不压缩为一个日期，旧版评分日期保留为 `legacyCandidate`，不进入页面。
+`extract_deadlines.py` 默认离线；可用 `--fetch-missing` 显式补抓正文。
+
+### 可选模型层
+
+默认仅运行规则，不需要模型服务或密钥。配置模型时，使用 JSON stdin/stdout 的进程适配器：
+
+```powershell
+python scripts\extract_notice_fields.py --model-command '["python","my_model_adapter.py"]'
+```
+
+适配器从 stdin 读取 `instructions`、`article`、`schema`、`format`、`ruleResult`，向 stdout
+写出符合 schema 的完整字段对象。标准错误可用于服务端诊断。文章作为不可信数据传递。
+[`scripts/model_http_adapter.py`](scripts/model_http_adapter.py) 提供可选 HTTP 网关适配器：设置
+`NOTICE_MODEL_URL`（HTTPS 或本地网关地址），可选 `NOTICE_MODEL_TOKEN`，并将其作为 `--model-command` 的脚本参数。
+网关需接受上述请求格式并直接返回字段对象；不同供应商的调用逻辑放在网关或自定义适配器中。
+
+输出会校验字段形状、未知字段、引用地址、原文字符位置、日期类型和联系人／赛道对应关系。
+模型不能自行宣称已核实；只有规则也能确认的结果才成为 `source_matched`，其余有证据候选保持待核实。
+无证据、格式错误、超时或进程失败会完整保留规则结果并记录错误。
+缓存位于 `.cache/notice-model/`（不入库），键含正文内容哈希、标题、发布日期、来源、schema 版本、提示及适配器参数；
+缓存命中后仍重新校验证据。默认自动更新流程不开启模型。
+
+### 按届次关联通知与报名详情
+
+`scripts/notice_editions.py` 在站点构建时按竞赛、明确的年份及届次建立独立分组。
+发布日期不会被当作赛事年份；年份和届次都未明确的通知按原网址单独保留。
+只有同一赛道中同时写明年份和届次的通知，才可为仅写其中一项的通知提供唯一关联依据；
+关系有歧义时不合并。中文和数字届次统一比较，原文及锚点证据保留。
+同年不同届次并列展示；跨年赛季仅在标题明确给出年份范围时作为跨年组。
+
+报名、补充、延期、结果公示分别标注；赛道、校赛／省赛／国赛及第一／第二阶段独立保存。
+时间节点按类型、赛道、阶段及轮次汇总。明确的“延期至／调整为”等新时间，只有能唯一对应已有节点、
+旧值一致且发布日期先后明确时才替换；同日无法判断先后、缺少年份、范围不明和 OCR／模型候选保持待核实。
+保留每次变更的旧值、新值、来源链接及原始表述；没有变更依据的不同日期显示信息冲突。
+公示只影响对应赛道和阶段，不关闭其他赛道或国赛的报名。
+
+本届卡片展示报名状态、具体截止时刻、参赛对象及已核实的报名入口。
+详情按“参赛对象 → 报名方式 → 入口 → 材料”组织步骤，再展示时间线、延期记录、联系人、交流群和通知依据。
+往届与届次待核实信息可展开独立查看，不填入本届卡片。
+“未提及”指已读取的通知没有该项；正文未读取完整或候选有歧义时为“待核实”；相互矛盾的安排为“信息冲突”。
+报名开始时间未到时显示尚未开始，截止时刻按北京时间比较，`24:00` 按次日零点处理。
+重建及回归检查：
+
+```powershell
+python scripts\extract_notice_fields.py
+python scripts\build_site_data.py
+python -m unittest discover -s scripts -p "test_notice*.py"
+node scripts\test_site.js
+```
+
+### 通知附件、海报与二维码
+
+在正文抓取后、字段提取前运行：
+
+```powershell
+python scripts\crawl_notice_resources.py
+python scripts\extract_notice_fields.py
+python scripts\extract_deadlines.py
+python scripts\build_site_data.py
+```
+
+资源清单写入 `data/seed/notice_resources.json`，原文件和解析缓存位于 `.cache/notice-resources/`，
+页面预览位于 `site/media/`。下载携带通知 Referer，默认单文件 20 MiB、连接读取超时 20 秒、
+下载总时限 45 秒、解析子进程时限 120 秒、PDF 最多 30 页；均有命令行参数可调。
+缓存按文件 SHA-256 校验，解析配置改变会重新解析；附件内容变化会使字段及模型缓存失效。
+失败、正文为空、部分解析、成功和不支持的格式分别记录，不用失败结果冒充正文。
+
+PDF 使用文字层并保留真实页码；扫描页和图片执行 OCR，页面尝试二维码解码。
+DOCX 提取正文、表格文字及内嵌图片，不虚构分页；旧 `.doc` 需要 `antiword` 或环境变量
+`NOTICE_ANTIWORD` 指定转换器。安装 Python 依赖 `pypdfium2 Pillow zxing-cpp`；Windows 可用系统 OCR，
+Linux 需安装 `tesseract-ocr` 与 `tesseract-ocr-chi-sim`。自动更新工作流已包含依赖。
+
+附件文本按同一字段规则提取，每条证据记录附件 URL、文本片段与可用页码。
+OCR 和二维码结果始终待核实，不直接变成报名截止；识别失败保留原始资源和图片预览，
+不补全模糊数字，不把任意二维码网址认定为报名入口。
+
+教务处部分下载链接返回验证码页面，记录 `captcha_required`。手动下载原附件后可导入并继续同一流程：
+
+```powershell
+python scripts\crawl_notice_resources.py --notice-url "通知原网址" --asset-url "通知中的附件网址" --import-file "本地原附件.docx"
+```
+
+导入必须对应已抓取通知中的资源 URL，仍执行大小限制、格式检测和解析校验。
+可用 `--notice-url`、`--limit` 抽样，`--force` 重新下载，`--ocr-backend` 指定 OCR 引擎。
 
 ### PDF 下载（重跑前置）
 
@@ -311,4 +440,4 @@ scripts/       抓取、解析、构建、自检脚本
 1. **向实践教学中心 / 教务处核对现行完整 A/B 目录**（最大阻塞项）
 2. 复核 `data/curated/ee_relevance.json` 里的电气相关度
 3. 推到 GitHub 并开 Action，然后把网站丢进班级群
-4. 有稳定用户后，再加：报名截止时间（人工维护字段，从通知正文抽取候选）、PWA、众包纠错入口
+4. 有稳定用户后，再加：PWA、众包纠错入口及待核实信息的人工复核流程

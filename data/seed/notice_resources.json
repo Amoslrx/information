@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "parser_version": 1,
+  "count": 5,
+  "items": [
+    {
+      "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309361",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件1.docx",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:25.736563+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "dac09b7c17ee27cb00664da7bc1db5c9cf67a5527cb75f8dea4317ecd7794e88",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309364",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件2.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.040326+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "62e5762dc7f3fc67f473a2dbd81c7741ba2499246e1ea553cc7d59901afc1985",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309362",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件3.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.332383+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "53905358c54dda6144313049a6acc11523868755facdba23ecab59c956899b3f",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309363",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件4.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.615293+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "a2c17586447f16cb10bf2afa072f712fc3822aba01426ad052027529be3cb70a",
+      "url": "http://pec.xjtu.edu.cn/__local/A/70/FB/4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+      "kind": "image",
+      "name": "",
+      "context": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+      "noticeBodyHash": "58ee7b00997ee3d9ea40a1fc43f50d17cc84fff16b910fea62cf712f6f70b71e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.909846+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71\\image.jpg",
+          "textHash": "8ebfbfdd29b9bb66e786cdfd6ddf30a6de109b0a1259a79a3ad07ead19b1834e",
+          "previewUrl": "media/4a2800908490bc92c1037259a165a69b77aad9900803dc1468142d69fb2b3e49.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71\\image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "lines": [],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 276,
+            "height": 283
+          },
+          "qr": [
+            {
+              "text": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+              "format": "QR Code",
+              "position": "10x13 266x13 266x268 10x268"
+            }
+          ],
+          "previewUrl": "media/4a2800908490bc92c1037259a165a69b77aad9900803dc1468142d69fb2b3e49.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71.img",
+        "sha256": "a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71",
+        "bytes": 41724,
+        "filename": "4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/A/70/FB/4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    }
+  ]
+}

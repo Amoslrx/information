@@ -1,0 +1,514 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:xjtu:notice-fields:v2",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "contentHash": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "competitionNames": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "audiences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "registrationMethods": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "registrationLinks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "requiredMaterials": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/fact"
+      }
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/track"
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/contact"
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      }
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "disabled",
+            "accepted",
+            "cached",
+            "failed"
+          ]
+        },
+        "error": {
+          "type": "string"
+        },
+        "cacheKey": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "error"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "contentHash",
+    "sourceUrl",
+    "competitionNames",
+    "editions",
+    "audiences",
+    "registrationMethods",
+    "registrationLinks",
+    "requiredMaterials",
+    "tracks",
+    "timeline",
+    "contacts",
+    "groups",
+    "model"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "location": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "enum": [
+                "body",
+                "title"
+              ]
+            },
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "type",
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "enum": [
+                "link",
+                "image"
+              ]
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type",
+            "url"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "resource"
+            },
+            "resourceId": {
+              "type": "string"
+            },
+            "chunkId": {
+              "type": "string"
+            },
+            "page": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "type",
+            "resourceId",
+            "chunkId",
+            "page",
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "fact": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/$defs/location"
+        },
+        "method": {
+          "enum": [
+            "rule",
+            "model",
+            "manual",
+            "attachment",
+            "ocr",
+            "qr"
+          ]
+        },
+        "verification": {
+          "enum": [
+            "source_matched",
+            "needs_review"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trackId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "value",
+        "raw",
+        "sourceUrl",
+        "location",
+        "method",
+        "verification",
+        "flags",
+        "trackId"
+      ],
+      "additionalProperties": false
+    },
+    "track": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/$defs/location"
+        },
+        "method": {
+          "enum": [
+            "rule",
+            "model",
+            "manual",
+            "attachment",
+            "ocr",
+            "qr"
+          ]
+        },
+        "verification": {
+          "enum": [
+            "source_matched",
+            "needs_review"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trackId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "raw",
+        "sourceUrl",
+        "location",
+        "method",
+        "verification",
+        "flags",
+        "trackId",
+        "id"
+      ],
+      "additionalProperties": false
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/$defs/location"
+        },
+        "method": {
+          "enum": [
+            "rule",
+            "model",
+            "manual",
+            "attachment",
+            "ocr",
+            "qr"
+          ]
+        },
+        "verification": {
+          "enum": [
+            "source_matched",
+            "needs_review"
+          ]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "trackId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "registration_start",
+            "registration_deadline",
+            "campus_deadline",
+            "official_deadline",
+            "submission",
+            "competition",
+            "other"
+          ]
+        },
+        "time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "timezone": {
+          "const": "Asia/Shanghai"
+        },
+        "dateRaw": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "superseded": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "value",
+        "raw",
+        "sourceUrl",
+        "location",
+        "method",
+        "verification",
+        "flags",
+        "trackId",
+        "kind",
+        "time",
+        "timezone",
+        "dateRaw",
+        "endDate",
+        "superseded"
+      ],
+      "additionalProperties": false
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "phones": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "emails": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "qq": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "trackId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "phones",
+        "emails",
+        "qq",
+        "trackId"
+      ],
+      "additionalProperties": false
+    },
+    "group": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "qq",
+            "wechat",
+            "unknown"
+          ]
+        },
+        "number": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/fact"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "trackId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "number",
+        "images",
+        "trackId"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

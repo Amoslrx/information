@@ -324,6 +324,7 @@
     // 可报名: 最显眼的位置。两种来源分开说清楚, 不含糊
     if (c.isOpen) {
       foot.unshift('<span class="open-tag">报名中 · ' + fmtDeadline(c.openDeadline) +
+                   (c.registration && c.registration.nextDeadline.event.time ? ' ' + esc(c.registration.nextDeadline.event.time) : '') +
                    ' 截止（还剩 ' + daysUntil(c.openDeadline) + ' 天）</span>');
     } else if (c.isSelecting) {
       var sn = c.selectNotice || {};
@@ -357,6 +358,7 @@
         '</div>' +
         (meta.length ? '<div class="card-meta">' + meta.join('') + '</div>' : '') +
         (c.reason ? '<p class="card-reason">' + esc(c.reason) + '</p>' : '') +
+        renderRegistrationCard(c) +
         '<div class="card-foot">' + foot.join('') + '</div>' +
       '</article>';
   }
@@ -399,8 +401,9 @@
       '<div class="badges">' + eeBadge(c.ee) + catBadge(c.xjtuCat) + moeBadge(c) +
         (c.level ? '<span class="badge b-level">' + esc(c.level) + '</span>' : '') + '</div>' +
       (c.reason ? '<p class="card-reason" style="margin-top:12px">' + esc(c.reason) + '</p>' : '') +
-      '<div class="d-sec"><h3>基本信息</h3>' + rows + '</div>' +
-      '<div class="d-sec"><h3>相关校内通知（' + rel.length + '）</h3>' + noticesHTML + '</div>' +
+      renderCompetitionEditions(c) +
+      '<details class="d-sec"><summary>基本信息</summary>' + rows + '</details>' +
+      '<details class="d-sec"><summary>全部相关校内通知（' + rel.length + '）</summary>' + noticesHTML + '</details>' +
       '<div class="d-actions">' +
         (c.url ? '<a class="btn-primary" href="' + esc(c.url) + '" target="_blank" rel="noopener">前往官网 ↗</a>' : '') +
       '</div>';
@@ -414,6 +417,210 @@
     $('drawer').hidden = true;
     $('overlay').hidden = true;
     document.body.style.overflow = '';
+  }
+
+  var INFO_STATES = {confirmed: '已提取', not_mentioned: '未提及', needs_review: '待核实', conflict: '信息冲突',
+                     open: '报名中', closed: '报名已截止', not_started: '报名尚未开始'};
+  var PHASE_LABELS = {campus: '校赛 / 校内选拔', provincial: '省赛', national: '国赛',
+                      final: '决赛', semifinal: '复赛', preliminary: '初赛'};
+  var NOTICE_TYPES = {registration: '报名通知', supplement: '补充通知', postponement: '延期通知',
+                      results: '结果公示', announcement: '赛事通知'};
+  var TIMELINE_LABELS = {registration_start: '报名开始', registration_deadline: '报名截止',
+      campus_deadline: '校内报名截止', official_deadline: '官方报名截止', submission: '作品或材料提交', competition: '比赛日期'};
+
+  function currentEditions(c) {
+    var ids = c.currentEditionIds || (c.currentEditionId ? [c.currentEditionId] : []);
+    return (c.editions || []).filter(function (g) { return ids.indexOf(g.id) >= 0; });
+  }
+
+  function infoState(state) {
+    return '<span class="info-state state-' + esc(state || 'not_mentioned') + '">' +
+      esc(INFO_STATES[state] || '待核实') + '</span>';
+  }
+
+  function editionScope(g, track, phase, stage) {
+    return (track ? (g.tracks[track] || '赛道待核实') : '未注明赛道') + ' · ' + (PHASE_LABELS[phase] || '未注明阶段') +
+      (stage ? ' · ' + stage : '');
+  }
+
+  function eventText(event) {
+    return (event.value || '') + (event.endDate ? ' 至 ' + event.endDate : '') + (event.time ? ' ' + event.time : '');
+  }
+
+  function renderRegistrationCard(c) {
+    var groups = currentEditions(c);
+    if (groups.length > 1) return groups.map(function (g) { return renderRegistrationCardEdition(c, g); }).join('');
+    return renderRegistrationCardEdition(c, groups[0] || null);
+  }
+
+  function renderRegistrationCardEdition(c, g) {
+    var registration = g ? g.registration : c.registration || {}, fields = g ? g.fields : {};
+    var audiences = (fields.audiences || []).filter(function (e) { return e.value.verification === 'source_matched'; });
+    var links = (fields.registrationLinks || []).filter(function (e) {
+      return e.value.verification === 'source_matched' && /^https?:\/\//i.test(e.value.value || '');
+    });
+    audiences = audiences.filter(function (e, index, all) {
+      return !all.slice(0, index).some(function (prior) { return prior.value.value === e.value.value &&
+        prior.value.trackId === e.value.trackId && prior.phase === e.phase && prior.stage === e.stage; });
+    });
+    links = links.filter(function (e, index, all) {
+      return !all.slice(0, index).some(function (prior) { return prior.value.value === e.value.value &&
+        prior.value.trackId === e.value.trackId && prior.phase === e.phase && prior.stage === e.stage; });
+    });
+    var deadlines = g ? g.timeline.filter(function (s) {
+      return ['registration_deadline', 'campus_deadline', 'official_deadline'].indexOf(s.kind) >= 0;
+    }) : [];
+    var deadlineHTML = deadlines.length ? deadlines.slice(0, 2).map(function (slot) {
+      return '<div>' + esc(editionScope(g, slot.trackId, slot.phase, slot.stage)) + '：' +
+        (slot.state === 'confirmed' ? esc(eventText(slot.entries[0].event)) : infoState(slot.state)) + '</div>';
+    }).join('') + (deadlines.length > 2 ? '<div>另有 ' + (deadlines.length - 2) + ' 个截止节点，查看详情</div>' : '') :
+      infoState(registration.deadlineState);
+    return '<div class="registration-summary"><div class="registration-heading">' +
+      '<span>' + esc(g ? '本届 · ' + g.label : '本届信息') + '</span>' + infoState(registration.status) + '</div>' +
+      '<div class="registration-line"><span class="k">报名截止</span><div>' + deadlineHTML + '</div></div>' +
+      '<div class="registration-line"><span class="k">参赛对象</span><div class="card-audience">' +
+      (audiences.length ? esc(audiences.map(function (e) { return e.value.trackId ?
+        '【' + (g.tracks[e.value.trackId] || '赛道待核实') + '】' + e.value.value : e.value.value; }).join('；')) :
+        infoState(g ? g.fieldStates.audiences : registration.status === 'needs_review' ? 'needs_review' : 'not_mentioned')) +
+      (audiences.length && g.fieldStates.audiences !== 'confirmed' ? ' · 另有' + infoState(g.fieldStates.audiences) : '') +
+      '</div></div><div class="registration-line"><span class="k">报名入口</span><div>' +
+      (links.length ? links.slice(0, 2).map(function (e) {
+        return '<a class="registration-link" href="' + esc(e.value.value) + '" target="_blank" rel="noopener noreferrer">' +
+          esc(e.value.trackId ? (g.tracks[e.value.trackId] || '赛道待核实') + ' · 前往报名 ↗' : '前往报名 ↗') + '</a>';
+      }).join(' ') + (links.length > 2 ? ' · 更多入口见详情' : '') :
+        infoState(g ? g.fieldStates.registrationLinks : registration.status === 'needs_review' ? 'needs_review' : 'not_mentioned')) +
+      (links.length && g.fieldStates.registrationLinks !== 'confirmed' ? ' · 另有' + infoState(g.fieldStates.registrationLinks) : '') +
+      '</div></div><button type="button" class="card-detail">查看报名步骤与依据 →</button></div>';
+  }
+
+  function editionFact(field, label, override) {
+    if (!field) return '';
+    var state = override || ((field.flags || []).indexOf('conflict') >= 0 ? 'conflict' :
+                             field.verification === 'source_matched' ? 'confirmed' : 'needs_review');
+    var value = field.value == null ? '' : String(field.value);
+    var content = state === 'confirmed' ? esc(value) : infoState(state);
+    if (state === 'confirmed' && /^https?:\/\//i.test(value)) {
+      content = '<a href="' + esc(value) + '" target="_blank" rel="noopener noreferrer">' + esc(value) + ' ↗</a>';
+    }
+    return '<div class="edition-fact">' + esc(label || '') + content + evidenceDetails(field) + '</div>';
+  }
+
+  function editionCollection(g, key) {
+    var entries = g.fields[key] || [];
+    if (!entries.length) return '<p class="missing-info">' + infoState(g.fieldStates[key]) +
+      (g.fieldStates[key] === 'needs_review' ? ' · 通知正文尚未读取完整' : ' · 已读取的本届通知中没有这项信息') + '</p>';
+    var grouped = [], byValue = {};
+    entries.forEach(function (entry) {
+      var signature = JSON.stringify({value: entry.value, phase: entry.phase, stage: entry.stage}, function (name, value) {
+        return ['sourceUrl', 'location', 'method'].indexOf(name) >= 0 ? undefined : value;
+      });
+      if (byValue[signature]) byValue[signature].alternatives.push(entry);
+      else { var row = {entry: entry, alternatives: []}; byValue[signature] = row; grouped.push(row); }
+    });
+    function factsOf(value) {
+      if (!value || typeof value !== 'object') return [];
+      if (value.verification && value.raw) return [value];
+      return Object.keys(value).reduce(function (all, name) { return all.concat(factsOf(value[name])); }, []);
+    }
+    return grouped.map(function (row) {
+      var entry = row.entry;
+      var value = entry.value, content = '', track;
+      if (key === 'contacts') {
+        track = value.name ? value.name.trackId : ((value.phones || [])[0] || (value.emails || [])[0] || {}).trackId;
+        content += value.name ? editionFact(value.name, '联系人：') : '<div>姓名：未提及</div>';
+        [['phones', '电话：'], ['emails', '邮箱：'], ['qq', '联系 QQ：']].forEach(function (pair) {
+          (value[pair[0]] || []).forEach(function (f) { content += editionFact(f, pair[1]); });
+        });
+      } else if (key === 'groups') {
+        track = value.number ? value.number.trackId : ((value.images || [])[0] || {}).trackId;
+        content += editionFact(value.number, value.kind === 'qq' ? 'QQ 群：' : '交流群：');
+        (value.images || []).forEach(function (image) {
+          if (/^https?:\/\//i.test(image.value || '')) {
+            var reliable = image.location && image.location.type === 'image' && image.value === image.location.url &&
+              !(image.flags || []).some(function (flag) { return flag === 'relationship_requires_review' || flag === 'model_requires_review'; });
+            content += '<div><a href="' + esc(image.value) + '" target="_blank" rel="noopener noreferrer">' +
+              (reliable ? '查看交流群原图（号码待核实）' : '查看图片候选（用途待核实）') + '</a>' +
+              evidenceDetails(image) + '</div>';
+          }
+        });
+      } else {
+        track = value.trackId;
+        content = editionFact(value);
+      }
+      return '<div class="edition-entry"><div class="edition-scope">' + esc(editionScope(g, track, entry.phase, entry.stage)) +
+        '</div>' + content + (row.alternatives.length ? '<details class="edition-notices"><summary>其他相同表述的来源（' +
+          row.alternatives.length + '）</summary>' + row.alternatives.map(function (other) {
+            return factsOf(other.value).map(function (f) { return evidenceDetails(f); }).join('');
+          }).join('') + '</details>' : '') + '</div>';
+    }).join('');
+  }
+
+  function editionTimeline(g) {
+    if (!g.timeline.length) return '<p>' + infoState(g.complete ? 'not_mentioned' : 'needs_review') + '</p>';
+    return '<ol class="competition-timeline">' + g.timeline.map(function (slot) {
+      return '<li><div class="timeline-heading"><strong>' + esc(TIMELINE_LABELS[slot.kind] || '其他时间') + '</strong>' +
+        infoState(slot.registrationStatus || slot.state) + '</div><div class="edition-scope">' +
+        esc(editionScope(g, slot.trackId, slot.phase, slot.stage)) + '</div><div class="timeline-value">' +
+          (slot.state === 'confirmed' ? esc(eventText(slot.entries[0].event)) : infoState(slot.state)) +
+          slot.entries.map(function (entry) { return evidenceDetails(entry.event); }).join('') +
+          evidenceDetails(slot.closureEvidence, '结果公示依据') + '</div></li>';
+    }).join('') + '</ol>';
+  }
+
+  function editionChanges(g) {
+    if (!g.changes.length) return '';
+    return '<details class="deadline-history"><summary>延期与变更记录（' + g.changes.length + '）</summary>' +
+      g.changes.map(function (change) {
+        return '<div class="edition-entry"><strong>' + esc(change.status === 'applied' ? '已更新对应节点' : '延期安排待核实') +
+          '</strong><div class="edition-scope">' + esc(editionScope(g, change.trackId, change.phase, change.stage)) + ' · ' +
+          esc(TIMELINE_LABELS[change.kind] || '时间节点未明确') + '</div>' +
+          change.old.map(function (old) {
+            return '<div>历史值：' + (old.event.verification === 'source_matched' ? esc(eventText(old.event)) : '待核实（查看原文）') +
+              evidenceDetails(old.event, '原安排依据') + '</div>';
+          }).join('') + (change.new && change.status === 'applied' ? '<div>变更后：' + esc(eventText(change.new.event)) + '</div>' :
+            '<p>保留原安排与变更原文，尚未确认新的有效时间。</p>') + evidenceDetails(change.evidence, '变更依据') + '</div>';
+      }).join('') + '</details>';
+  }
+
+  function editionNoticeList(g) {
+    return '<details class="edition-notices"><summary>本组通知与关联依据（' + g.notices.length + '）</summary>' +
+      g.notices.map(function (n) {
+        var sourceNotice = NOTICES.find(function (notice) { return notice.url === n.url; });
+        var a = sourceNotice ? sourceNotice.association : {};
+        return '<div class="edition-entry"><a href="' + esc(n.url) + '" target="_blank" rel="noopener noreferrer">' +
+          esc(n.title) + '</a><div class="edition-scope">' + esc(n.date + ' · ' + (NOTICE_TYPES[a.noticeType] || '通知') +
+          ' · ' + (PHASE_LABELS[a.phase] || '未注明阶段') + (a.stage ? ' · ' + a.stage : '')) + '</div>' +
+          (a.evidence || []).concat(a.editionEvidence || [], a.anchorEvidence || []).map(function (f) {
+            return evidenceDetails(f, a.identityMethod === 'explicit_anchor' ? '届次关联原文依据' : '届次原文依据');
+          }).join('') + evidenceDetails(a.typeEvidence, '通知分类依据（按标题）') +
+          (!n.hasBody ? '<p class="missing-info">正文待读取，详细安排待核实</p>' : '') + '</div>';
+      }).join('') + '</details>';
+  }
+
+  function renderEdition(g, current) {
+    return '<details class="edition-section"' + (current ? ' open' : '') + '><summary>' +
+      esc((current ? '本届 · ' : g.year ? '其他届次 · ' : '届次待核实 · ') + g.label) + ' · ' +
+      g.notices.length + ' 条通知</summary><div class="edition-content">' +
+      (current ? '<p class="registration-heading">报名状态：' + infoState(g.registration.status) + '</p>' :
+        '<p class="missing-info">此组信息独立保留，不参与本届卡片的报名状态。</p>') +
+      '<ol class="registration-steps">' +
+      [['audiences', '确认参赛对象'], ['registrationMethods', '查看报名方式'], ['registrationLinks', '打开报名入口'],
+       ['requiredMaterials', '准备所需材料']].map(function (pair) {
+        return '<li><h4>' + esc(pair[1]) + '</h4>' + editionCollection(g, pair[0]) + '</li>';
+      }).join('') + '</ol><h4>时间线（按赛道和阶段）</h4>' + editionTimeline(g) + editionChanges(g) +
+      '<h4>联系人</h4>' + editionCollection(g, 'contacts') + '<h4>交流群</h4>' + editionCollection(g, 'groups') +
+      editionNoticeList(g) + '</div></details>';
+  }
+
+  function renderCompetitionEditions(c) {
+    var current = currentEditions(c), others = (c.editions || []).filter(function (g) {
+      return !current.some(function (selected) { return selected.id === g.id; });
+    });
+    return '<div class="d-sec competition-registration"><h3>报名步骤与参赛安排</h3>' +
+      (current.length ? current.map(function (g) { return renderEdition(g, true); }).join('') : '<p class="missing-info">本届信息：' + infoState((c.registration || {}).status) +
+        ' · 尚未确认对应本届的通知，请核对下方届次依据。</p>') +
+      (others.length ? '<details class="edition-archive"><summary>其他届次与待核实通知（' + others.length + ' 组）</summary>' +
+        others.map(function (g) { return renderEdition(g, false); }).join('') + '</details>' : '') + '</div>';
   }
 
   /* ---------------- 校内通知 ---------------- */
@@ -445,7 +652,7 @@
       if (f.scope === 'unmatched' && n.competition) return false;
       if (f.site && n.site !== f.site) return false;
       if (f.range && daysSince(n.date) > +f.range) return false;
-      if (f.q && matchScore(haystack([n.title, n.competition, n.site]),
+      if (f.q && matchScore(haystack([n.title, n.competition, n.site, n.excerpt, JSON.stringify(n.fields || {})]),
                             normText(f.q)) === 0) return false;
       return true;
     });
@@ -476,11 +683,14 @@
       if (n.site) {
         sub.push('<span class="badge b-site">' + esc(n.site) + '</span>');
       }
+      if (n.association && n.association.editionId) {
+        sub.push('<span class="badge b-edition">' + esc(n.association.editionLabelResolved || '届次待核实') + ' · ' +
+          esc(NOTICE_TYPES[n.association.noticeType] || '通知') + '</span>');
+      }
       if (n.deadline) {
-        var dl = daysUntil(n.deadline);
-        var dlCls = dl !== null && dl >= 0 ? 'deadline-tag is-open' : 'deadline-tag';
-        sub.push('<span class="' + dlCls + '">报名截止 ' + fmtDeadline(n.deadline) +
-                 (dl !== null && dl >= 0 ? '（还剩 ' + dl + ' 天）' : '（已过）') + '</span>');
+        sub.push('<span class="deadline-tag">原通知报名截止 ' + fmtDeadline(n.deadline) +
+                 (n.deadlineEvent && n.deadlineEvent.time ? ' ' + esc(n.deadlineEvent.time) : '') +
+                 ' · 最新安排见竞赛详情</span>');
       }
       if (n.isCampus) sub.push('<span class="badge b-campus">校内选拔</span>');
       if (n.competition) {
@@ -491,6 +701,17 @@
       }
       if (isFresh(n.date)) sub.push('<span class="fresh-dot">NEW</span>');
 
+      var detail = n.excerpt ? '<p class="notice-excerpt">' + esc(n.excerpt) + '</p>' : '';
+      if (n.excerptEvidence) detail += evidenceDetails(n.excerptEvidence, '摘要原文');
+      detail += renderNoticeFields(n.fields || {});
+      detail += renderNoticeResources(n.resources || []);
+      var bodyLinks = (n.links || []).filter(function (link) { return /^https?:\/\//i.test(link.url); });
+      if (bodyLinks.length) detail += '<div class="notice-body-links">' + bodyLinks.map(function (link) {
+        var label = link.kind === 'form' ? '报名链接：' : link.kind === 'file' ? '附件：' : '';
+        return '<a href="' + esc(link.url) + '" target="_blank" rel="noopener noreferrer">' + esc(label + link.text) + '</a>' +
+               (link.evidence ? evidenceDetails(link.evidence, '入口依据') : '');
+      }).join(' · ') + '</div>';
+
       out.push(
         '<div class="notice">' +
           '<span class="notice-date">' + esc(n.date) + '</span>' +
@@ -498,6 +719,7 @@
             '<a class="notice-title" href="' + esc(n.url) + '" target="_blank" rel="noopener">' +
               esc(n.title) + '</a>' +
             '<div class="notice-sub">' + sub.join('') + '</div>' +
+            detail +
           '</div>' +
         '</div>');
     });
@@ -507,6 +729,91 @@
     Array.prototype.forEach.call($('noticeList').querySelectorAll('.badge-link'), function (b) {
       b.addEventListener('click', function () { openCompDrawer(b.getAttribute('data-name')); });
     });
+  }
+
+  function evidenceDetails(field, label) {
+    if (!field || !field.raw || !/^https?:\/\//i.test(field.sourceUrl || '')) return '';
+    var location = field.location || {};
+    var source = field.sourceUrl;
+    var origin = '';
+    if (location.type === 'resource') {
+      var methods = {attachment: '附件文字', ocr: 'OCR 识别，需核对原件', qr: '二维码解码，需核对用途', model: '模型提取'};
+      origin = '<p class="evidence-origin">' + esc(methods[field.method] || '附件或图片证据') +
+        (location.page ? ' · 第 ' + esc(location.page) + ' 页' : ' · 未提供页码') + '</p>';
+      if (location.page) source += '#page=' + location.page;
+    }
+    return '<details class="field-evidence"><summary>' + esc(label || '查看原文依据') + '</summary>' +
+      origin + '<blockquote>' + esc(field.raw) + '</blockquote><a href="' + esc(source) +
+      '" target="_blank" rel="noopener noreferrer">原文证据</a></details>';
+  }
+
+  function renderNoticeResources(resources) {
+    var statuses = {success: '已识别', partial: '部分识别', empty: '未提取到内容', failed: '处理失败', unsupported: '格式暂不支持'};
+    var output = resources.filter(function (r) { return /^https?:\/\//i.test(r.url); }).map(function (resource) {
+      var label = resource.kind === 'image' ? '原图' : '原附件';
+      var result = '<div class="notice-resource"><a href="' + esc(resource.url) + '" target="_blank" rel="noopener noreferrer">查看' + label +
+        '：' + esc(resource.name || label) + '</a> · ' + esc(statuses[resource.status] || '待处理');
+      (resource.images || []).forEach(function (image) {
+        if (image.previewUrl && /^media\/[a-f0-9]{64}\.jpg$/.test(image.previewUrl)) {
+          result += '<div><a href="' + esc(image.previewUrl) + '" target="_blank" rel="noopener noreferrer">查看' +
+            (image.page ? '第 ' + esc(image.page) + ' 页' : '图片') + '预览</a>' +
+            (image.qrStatus === 'success' ? ' · 二维码已解码' : ' · 二维码未解码，可查看原图') +
+            (image.ocrStatus === 'success' ? ' · OCR 文字待核实' : image.ocrStatus === 'failed' ? ' · OCR 失败' : '') + '</div>';
+        }
+      });
+      return result + '</div>';
+    });
+    return output.length ? '<details class="notice-resources"><summary>附件与图片识别结果</summary>' + output.join('') + '</details>' : '';
+  }
+
+  function renderNoticeFields(fields) {
+    var output = [], tracks = {};
+    (fields.tracks || []).forEach(function (track) {
+      if (track.verification === 'source_matched') tracks[track.id] = track.value;
+    });
+    function render(field, label, value) {
+      if (!field || !field.raw) return '';
+      var scope = field.trackId && tracks[field.trackId] ? '【' + tracks[field.trackId] + '】' : '';
+      var matched = field.verification === 'source_matched';
+      return '<div class="notice-field' + (matched ? '' : ' needs-review') + '">' + esc(scope + label) +
+        (matched ? esc(value === undefined ? field.value || '' : value) : '待核实（保留原文）') +
+        evidenceDetails(field) + '</div>';
+    }
+    [['competitionNames', '竞赛名称：'], ['editions', '届次：'], ['audiences', '参赛对象：'],
+     ['registrationMethods', '报名方式：'], ['registrationLinks', '报名入口：'], ['requiredMaterials', '所需材料：']].forEach(function (pair) {
+      (fields[pair[0]] || []).forEach(function (field) { output.push(render(field, pair[1])); });
+    });
+    var kinds = {registration_start: '报名开始', registration_deadline: '报名截止', campus_deadline: '校内报名截止',
+      official_deadline: '官方报名截止', submission: '作品或材料提交', competition: '比赛日期'};
+    (fields.timeline || []).forEach(function (event) {
+      if (!kinds[event.kind]) return;
+      var value = (event.value || '') + (event.endDate ? ' 至 ' + event.endDate : '') + (event.time ? ' ' + event.time : '');
+      output.push(render(event, kinds[event.kind] + '：', value));
+      if (event.flags && event.flags.length) {
+        var flags = {missing_year: '缺少年份', cross_year: '跨年', possible_cross_year: '可能跨年', invalid_date: '日期无效',
+          invalid_time: '时刻无效', before_publication: '早于发布日期', postponed: '延期或调整', conflict: '时间冲突',
+          approximate: '时间未定', date_range: '日期范围', range_endpoint: '范围终点', unknown_year: '年份未知',
+          month_precision: '仅给出月份', model_requires_review: '模型候选待核实'};
+        output.push('<span class="field-flags">' + esc(event.flags.map(function (flag) { return flags[flag] || '待核实'; }).join(' · ')) + '</span>');
+      }
+    });
+    (fields.contacts || []).forEach(function (person) {
+      var contact = render(person.name, '联系人：');
+      (person.phones || []).forEach(function (field) { contact += render(field, '电话：'); });
+      (person.emails || []).forEach(function (field) { contact += render(field, '邮箱：'); });
+      (person.qq || []).forEach(function (field) { contact += render(field, '联系 QQ：'); });
+      if (contact) output.push('<div class="notice-contact">联系方式：' + contact + '</div>');
+    });
+    (fields.groups || []).forEach(function (group) {
+      output.push(render(group.number, group.kind === 'qq' ? 'QQ 群：' : '交流群：'));
+      (group.images || []).forEach(function (image) {
+        if (image.location && image.location.type === 'image' && image.value === image.location.url &&
+            !(image.flags || []).some(function (flag) { return flag === 'relationship_requires_review' || flag === 'model_requires_review'; }) && /^https?:\/\//i.test(image.value)) {
+          output.push('<div class="notice-group-image"><a href="' + esc(image.value) + '" target="_blank" rel="noopener noreferrer">查看交流群图片（号码待核实）</a>' + evidenceDetails(image) + '</div>');
+        }
+      });
+    });
+    return output.length ? '<details class="notice-structured"><summary>查看参赛信息与原文依据</summary>' + output.join('') + '</details>' : '';
   }
 
   /* ---------------- 年度节律 ---------------- */

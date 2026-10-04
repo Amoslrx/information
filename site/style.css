@@ -591,3 +591,49 @@ code {
   .drawer { width: 100%; }
   .prose { padding: 16px; }
 }
+/* 通知正文提取结果 */
+.notice-excerpt { margin: 10px 0 6px; line-height: 1.7; color: #465064; white-space: pre-wrap; }
+.notice-contact, .notice-body-links { margin-top: 6px; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+.notice-structured { margin: 10px 0; font-size: 13px; line-height: 1.7; }
+.notice-structured > summary, .field-evidence > summary { cursor: pointer; color: #245ca6; }
+.notice-field { margin: 8px 0; overflow-wrap: anywhere; }
+.field-evidence { margin: 3px 0; font-size: 12px; }
+.field-evidence blockquote { margin: 5px 0; padding: 5px 10px; border-left: 2px solid #c9d7ea; white-space: pre-wrap; }
+.needs-review, .field-flags { color: #805615; }
+.field-flags { font-size: 12px; }
+.notice-resources { margin-top: 10px; font-size: 13px; line-height: 1.7; }
+.notice-resources > summary { color: #245ca6; cursor: pointer; }
+.notice-resource { margin: 8px 0; overflow-wrap: anywhere; }
+.evidence-origin { color: #805615; margin: 4px 0; }
+/* Registration facts stay separate from catalogue metadata and historical editions. */
+.registration-summary { margin: 14px 0; padding: 13px; border: 1px solid var(--line, #d9e0e9); border-radius: 10px; background: var(--bg, #f7f9fc); font-size: 13px; }
+.registration-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; font-weight: 600; }
+.registration-line { display: grid; grid-template-columns: 62px minmax(0, 1fr); gap: 10px; margin-top: 9px; line-height: 1.65; }
+.registration-line .k { color: var(--muted, #667085); }
+.card-audience { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.registration-link { display: inline-block; margin: 0 8px 4px 0; }
+.card-detail { margin-top: 13px; padding: 7px 10px; border: 1px solid var(--line, #d9e0e9); border-radius: 7px; color: var(--blue, #2459a9); background: var(--card, #fff); cursor: pointer; font: inherit; }
+.card-detail:focus-visible { outline: 2px solid var(--blue, #2459a9); outline-offset: 3px; }
+.info-state { display: inline-block; font-size: 12px; line-height: 1.6; font-weight: 500; padding: 2px 7px; border-radius: 5px; background: #eef1f5; color: #536172; }
+.state-open, .state-confirmed { background: #e8f5ef; color: #14633f; }
+.state-needs_review, .state-not_started { background: #fff4da; color: #85550a; }
+.state-conflict { background: #fff0ed; color: #b33224; }
+.state-closed { background: #edf0f5; color: #5b6370; }
+.edition-section, .edition-archive { margin: 12px 0; border: 1px solid var(--line, #d9e0e9); border-radius: 9px; overflow: hidden; }
+.edition-section > summary, .edition-archive > summary { padding: 12px 14px; cursor: pointer; font-weight: 600; line-height: 1.6; background: var(--bg, #f7f9fc); }
+.edition-archive > .edition-section { margin: 10px; }
+.edition-content { padding: 15px; }
+.edition-content h4 { margin: 17px 0 9px; font-size: 14px; }
+.registration-steps { margin: 12px 0; padding-left: 22px; }
+.registration-steps > li { padding-left: 5px; margin-bottom: 18px; }
+.edition-entry { margin: 10px 0; padding: 10px 12px; background: var(--bg, #f7f9fc); border-radius: 7px; overflow-wrap: anywhere; }
+.edition-scope { color: var(--muted, #667085); font-size: 12px; line-height: 1.7; margin-bottom: 5px; }
+.edition-fact { margin: 6px 0; line-height: 1.75; overflow-wrap: anywhere; }
+.missing-info { color: var(--muted, #667085); font-size: 13px; line-height: 1.8; }
+.competition-timeline { list-style: none; padding: 0 0 0 13px; margin: 10px 0; border-left: 2px solid var(--line, #d9e0e9); }
+.competition-timeline > li { padding: 8px 12px; margin-bottom: 12px; background: var(--bg, #f7f9fc); border-radius: 7px; }
+.timeline-heading { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 6px; }
+.timeline-value { margin: 8px 0; font-variant-numeric: tabular-nums; }
+.deadline-history, .edition-notices { margin: 15px 0; font-size: 13px; }
+.deadline-history > summary, .edition-notices > summary { cursor: pointer; color: var(--blue, #2459a9); line-height: 1.7; }
+.competition-registration a { overflow-wrap: anywhere; }
