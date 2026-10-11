@@ -2,8 +2,8 @@
  "source": "通知详情页正文",
  "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
  "min_score": 4,
- "count": 137,
- "with_deadline": 82,
+ "count": 142,
+ "with_deadline": 84,
  "items": [
   {
    "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
@@ -1231,6 +1231,51 @@
    "deadline": "2026-11-25",
    "score": 7,
    "bodyLen": 2517,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5544.htm",
+   "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
+   "noticeDate": "2026-10-09",
+   "deadline": "2026-11-30",
+   "score": 7,
+   "bodyLen": 1832,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10507.htm",
+   "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
+   "noticeDate": "2026-10-09",
+   "deadline": "2026-11-30",
+   "score": 7,
+   "bodyLen": 2600,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5543.htm",
+   "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的通知",
+   "noticeDate": "2026-10-09",
+   "deadline": "2026-11-18",
+   "score": 3,
+   "bodyLen": 1514,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10505.htm",
+   "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的...",
+   "noticeDate": "2026-10-09",
+   "deadline": "2026-11-18",
+   "score": 3,
+   "bodyLen": 2316,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5281.htm",
+   "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
+   "noticeDate": "2026-04-22",
+   "deadline": "2026-04-24",
+   "score": 3,
+   "bodyLen": 3418,
    "snippet": ""
   }
  ]

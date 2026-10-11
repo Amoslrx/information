@@ -62,21 +62,120 @@
     "note": "只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; robots.txt 实测均为 404 未禁止"
   },
   "schema_version": 2,
-  "count": 1691,
-  "matched_count": 301,
-  "competition_related_count": 565,
+  "count": 1724,
+  "matched_count": 308,
+  "competition_related_count": 586,
   "by_site": {
+    "实践教学中心": 324,
+    "教务处": 295,
     "校团委": 1005,
-    "实践教学中心": 309,
-    "教务处": 277,
     "电气学院": 100
   },
   "by_site_competition": {
-    "实践教学中心": 302,
-    "教务处": 65,
+    "实践教学中心": 317,
+    "教务处": 71,
     "校团委": 198
   },
   "items": [
+    {
+      "date": "2026-10-09",
+      "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5544.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10507.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5543.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的...",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10505.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于本科生办理火车票优惠资质核验的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10502.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于征集推荐2026年度“人工智能+”虚拟仿真实验教学项目的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1179/10504.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于公布2026年新文科实践创新大赛校赛答辩入围名单的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10503.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于举办第24届西安交通大学英语辩论赛暨金秋外语节英语辩论赛的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10508.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "关于2026级新生自查学信网学籍信息的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/10501.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "date": "2026-10-04",
       "title": "赓续百卅西迁薪火，青春建功挺膺新程，第四十一届“最佳团日”来啦！",
@@ -1665,6 +1764,17 @@
       "url": "https://jwc.xjtu.edu.cn/info/1172/10031.htm",
       "source": "jwc",
       "site": "教务处",
+      "competition": "全国大学生信息安全与对抗技术竞赛",
+      "moe_no": "66",
+      "matched_keyword": "信息安全与对抗技术竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-04-22",
+      "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5281.htm",
+      "source": "pec",
+      "site": "实践教学中心",
       "competition": "全国大学生信息安全与对抗技术竞赛",
       "moe_no": "66",
       "matched_keyword": "信息安全与对抗技术竞赛",
@@ -11450,6 +11560,28 @@
       "is_competition": true
     },
     {
+      "date": "2018-04-04",
+      "title": "关于举办第四届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2453.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2018-04-03",
+      "title": "关于组织开展 “全国大学生人工智能创新大赛”的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2454.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2018-03-31",
       "title": "【新华网】西安交大学子的爱心陪伴",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4187",
@@ -11494,6 +11626,39 @@
       "is_competition": false
     },
     {
+      "date": "2018-03-22",
+      "title": "关于开展西安交通大学“腾飞杯”竞赛暨2018年“格兰富杯”节能减排社会实践与科技竞赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2455.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "moe_no": "52",
+      "matched_keyword": "节能减排社会实践与科技竞赛",
+      "is_competition": true
+    },
+    {
+      "date": "2018-03-21",
+      "title": "第八届全国大学生电子商务“创新、创意及创业”挑战赛西安交通大学“腾飞杯”校赛通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2456.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生电子商务“创新、创意及创业”挑战赛",
+      "moe_no": "12",
+      "matched_keyword": "全国大学生电子商务创新、创意及创业挑战赛",
+      "is_competition": true
+    },
+    {
+      "date": "2018-03-12",
+      "title": "关于开展2018西安交通大学大学生数学建模竞赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2457.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生数学建模竞赛",
+      "moe_no": "5",
+      "matched_keyword": "大学生数学建模竞赛",
+      "is_competition": true
+    },
+    {
       "date": "2018-03-12",
       "title": "【奋斗2018】团委：不忘初心，砥砺前行 为创造留下历史印记新贡献而奋斗",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=199",
@@ -11513,6 +11678,28 @@
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2018-03-02",
+      "title": "关于举办第八届全国大学生机械创新设计大赛校内赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2458.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "全国大学生机械创新设计大赛",
+      "moe_no": "8",
+      "matched_keyword": "全国大学生机械创新设计大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2018-01-15",
+      "title": "关于举办首届中国高校智能机器人创意大赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2459.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "中国高校智能机器人创意大赛",
+      "moe_no": "49",
+      "matched_keyword": "中国高校智能机器人创意大赛",
       "is_competition": true
     },
     {
@@ -11569,6 +11756,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2017-12-19",
+      "title": "关于领取2017年第九届全国大学生数学竞赛初赛获奖证书的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2460.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2017-11-29",
@@ -12000,6 +12198,17 @@
       "is_competition": false
     },
     {
+      "date": "2017-10-25",
+      "title": "关于转发《关于举办第九届蓝桥杯全国软件和信息技术专业人才大赛的通知》的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2461.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "moe_no": "27",
+      "matched_keyword": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "is_competition": true
+    },
+    {
       "date": "2017-10-23",
       "title": "关于十九大报告，你必须知道的“关键词”",
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=151",
@@ -12075,6 +12284,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2017-10-19",
+      "title": "关于领取第九届全国大学生数学竞赛准考证的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2462.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2017-10-17",
@@ -12240,6 +12460,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2017-09-07",
+      "title": "2017年第九届全国大学生数学竞赛报名通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2463.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2017-07-14",
@@ -12801,6 +13032,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2016-05-09",
+      "title": "关于举办第二届西安交通大学“互联网+”大学生创新创业大赛校内选拔赛的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/2464.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2016-04-27",
@@ -15246,6 +15488,17 @@
     },
     {
       "date": "2014-04-23",
+      "title": "电气工程学院接收2013级转专业学生的实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3958.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-23",
       "title": "电子与信息工程学院接收2013级本科生转专业实施办法",
       "url": "https://jwc.xjtu.edu.cn/info/1095/3991.htm",
       "source": "jwc_xjgl",
@@ -15279,9 +15532,53 @@
     },
     {
       "date": "2014-04-22",
+      "title": "能源与动力工程学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3992.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-22",
+      "title": "法学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3954.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-22",
+      "title": "机械工程学院接收2013级转专业学生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3976.htm",
+      "source": "jwc_xjgl",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-22",
       "title": "关于2013-2014学年夏季小学期选课的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4608.htm",
       "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-21",
+      "title": "材料学院接收2013级转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3983.htm",
+      "source": "jwc_xjgl",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -15304,6 +15601,17 @@
       "title": "2014-2015学年第一学期2013级《大学英语》选课通知",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4591.htm",
       "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-04-18",
+      "title": "生命科学与技术学院接收2013级转专业本科生实施办法",
+      "url": "https://jwc.xjtu.edu.cn/info/1095/3969.htm",
+      "source": "jwc_xjgl",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -15785,6 +16093,28 @@
     },
     {
       "date": "2014-03-07",
+      "title": "2014年上半年全国计算机等级考试准考证领取须知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6700.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-07",
+      "title": "2014年4月全国大学英语四、六级网考报名通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6747.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-03-07",
       "title": "2013-2014学年第二学期2012级《会计学》辅修课程安排",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4597.htm",
       "source": "jwc_kcap",
@@ -15799,6 +16129,17 @@
       "title": "2013-2014学年第二学期2012级德语辅修课程安排",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4598.htm",
       "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2014-03-04",
+      "title": "关于领取2013年9月全国计算机等级考试合格证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6726.htm",
+      "source": "jwc_jsap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -15840,6 +16181,17 @@
     },
     {
       "date": "2014-02-25",
+      "title": "关于发放2013年西安交通大学物理竞赛获奖证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6694.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2014-02-25",
       "title": "2013-2014学年第二学期2011级德语辅修课程安排",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4602.htm",
       "source": "jwc_kcap",
@@ -15848,6 +16200,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2014-02-24",
+      "title": "关于发放第五届全国大学生数学竞赛获奖证书的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/6746.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2014-02-21",
@@ -15864,7 +16227,7 @@
       "date": "2014-02-21",
       "title": "关于2012级英语课网上补选的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1093/4594.htm",
-      "source": "jwc_kcap",
+      "source": "jwc",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
