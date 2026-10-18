@@ -1,20 +1,20 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-10-11 21:41
+// 生成时间: 2026-10-18 20:21
 window.SITE_DATA = {
- "generatedAt": "2026-10-11 21:41",
+ "generatedAt": "2026-10-18 20:21",
  "stats": {
   "competitions": 94,
-  "notices": 1724,
-  "noticesMatched": 308,
-  "noticesCompetition": 586,
+  "notices": 1731,
+  "noticesMatched": 312,
+  "noticesCompetition": 593,
   "noticesCampus": 102,
-  "noticesWithDeadline": 84,
-  "competitionsOpen": 4,
+  "noticesWithDeadline": 86,
+  "competitionsOpen": 3,
   "competitionsSelecting": 1,
-  "competitionsRecruiting": 5,
-  "today": "2026-10-11",
+  "competitionsRecruiting": 4,
+  "today": "2026-10-18",
   "noticeFrom": "2003-12-19",
-  "noticeTo": "2026-10-09",
+  "noticeTo": "2026-10-16",
   "eeDist": {
    "5": 10,
    "4": 10,
@@ -30,7 +30,7 @@ window.SITE_DATA = {
    "C类": 8
   },
   "noticeCat": {
-   "学科竞赛": 527,
+   "学科竞赛": 534,
    "其他": 647,
    "教学信息": 212,
    "文体竞赛": 60,
@@ -39,7 +39,7 @@ window.SITE_DATA = {
    "等级考试": 32
   },
   "noticeGroup": {
-   "学科竞赛": 559,
+   "学科竞赛": 566,
    "其他": 647,
    "教学信息": 212,
    "文体竞赛": 60,
@@ -50,8 +50,8 @@ window.SITE_DATA = {
   "xjtuKnown": 27,
   "crawledPages": 49,
   "bySite": {
-   "实践教学中心": 324,
-   "教务处": 295,
+   "实践教学中心": 326,
+   "教务处": 300,
    "校团委": 1005,
    "电气学院": 100
   }
@@ -1130,12 +1130,12 @@ window.SITE_DATA = {
     "group": "学科竞赛"
    },
    "campusNoticeCount": 7,
-   "openDeadline": "2026-10-16",
-   "openNoticeUrl": "http://pec.xjtu.edu.cn/info/1191/5533.htm",
-   "isOpen": true,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "isSelecting": false,
    "selectNotice": null,
-   "isRecruiting": true,
+   "isRecruiting": false,
    "cadence": {
     "months": {
      "1": 1,
@@ -1439,11 +1439,11 @@ window.SITE_DATA = {
    "reason": "ICT 方向, 交叉",
    "contact": "",
    "source": "教育部2025目录",
-   "noticeCount": 4,
+   "noticeCount": 6,
    "latestNotice": {
-    "title": "关于组织开展华为ICT大赛2025-2026报名的通知",
-    "date": "2025-09-15",
-    "url": "http://pec.xjtu.edu.cn/info/1191/4875.htm",
+    "title": "关于组织华为ICT大赛2026-2027报名的通知",
+    "date": "2026-10-15",
+    "url": "http://pec.xjtu.edu.cn/info/1191/5551.htm",
     "competition": "华为ICT 大赛",
     "moeNo": 42,
     "site": "实践教学中心",
@@ -1464,16 +1464,17 @@ window.SITE_DATA = {
    "cadence": {
     "months": {
      "9": 3,
+     "10": 2,
      "11": 1
     },
     "stableMonths": [
      9
     ],
     "windowStart": 9,
-    "windowEnd": 9,
-    "windowLabel": "九月",
-    "yearsObserved": 4,
-    "coverage": 0.75,
+    "windowEnd": 10,
+    "windowLabel": "九月–十月",
+    "yearsObserved": 5,
+    "coverage": 0.833,
     "confidence": "high"
    }
   },
@@ -1698,41 +1699,42 @@ window.SITE_DATA = {
    "reason": "智能农业装备, 电气装备方向",
    "contact": "",
    "source": "教育部2025目录",
-   "noticeCount": 2,
+   "noticeCount": 4,
    "latestNotice": {
-    "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
-    "date": "2025-09-28",
-    "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
+    "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+    "date": "2026-10-16",
+    "url": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
     "competition": "国际大学生智能农业装备创新大赛",
     "moeNo": 77,
     "site": "实践教学中心",
     "isCompetition": true,
     "isCampus": false,
-    "deadline": "2025-12-01",
+    "deadline": "2026-12-01",
     "deadlineScore": 7,
     "cat": "学科竞赛",
     "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
-   "openDeadline": "",
-   "openNoticeUrl": "",
-   "isOpen": false,
+   "openDeadline": "2026-12-01",
+   "openNoticeUrl": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
+   "isOpen": true,
    "isSelecting": false,
    "selectNotice": null,
-   "isRecruiting": false,
+   "isRecruiting": true,
    "cadence": {
     "months": {
-     "9": 2
+     "9": 2,
+     "10": 2
     },
     "stableMonths": [
      9
     ],
     "windowStart": 9,
-    "windowEnd": 9,
-    "windowLabel": "九月",
-    "yearsObserved": 2,
+    "windowEnd": 10,
+    "windowLabel": "九月–十月",
+    "yearsObserved": 3,
     "coverage": 1.0,
-    "confidence": "low"
+    "confidence": "medium"
    }
   },
   {
@@ -2325,12 +2327,12 @@ window.SITE_DATA = {
     "group": "学科竞赛"
    },
    "campusNoticeCount": 0,
-   "openDeadline": "2026-10-15",
-   "openNoticeUrl": "http://pec.xjtu.edu.cn/info/1191/5322.htm",
-   "isOpen": true,
+   "openDeadline": "",
+   "openNoticeUrl": "",
+   "isOpen": false,
    "isSelecting": false,
    "selectNotice": null,
-   "isRecruiting": true,
+   "isRecruiting": false,
    "cadence": {
     "months": {
      "4": 1,
@@ -3780,6 +3782,104 @@ window.SITE_DATA = {
   }
  ],
  "notices": [
+  {
+   "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+   "date": "2026-10-16",
+   "url": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
+   "competition": "国际大学生智能农业装备创新大赛",
+   "moeNo": 77,
+   "site": "实践教学中心",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-12-01",
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+   "date": "2026-10-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10541.htm",
+   "competition": "国际大学生智能农业装备创新大赛",
+   "moeNo": 77,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "2026-12-01",
+   "deadlineScore": 7,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于举办第十八届全国大学生数学竞赛培训的通知",
+   "date": "2026-10-16",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10531.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织华为ICT大赛2026-2027报名的通知",
+   "date": "2026-10-15",
+   "url": "http://pec.xjtu.edu.cn/info/1191/5551.htm",
+   "competition": "华为ICT 大赛",
+   "moeNo": 42,
+   "site": "实践教学中心",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织华为ICT大赛2026-2027报名的通知",
+   "date": "2026-10-15",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10521.htm",
+   "competition": "华为ICT 大赛",
+   "moeNo": 42,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+   "date": "2026-10-14",
+   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
+  {
+   "title": "关于组织2026年西安交通大学本科实验实践与创新创业教育教学改革研究专项项目中期检查的通知",
+   "date": "2026-10-12",
+   "url": "https://jwc.xjtu.edu.cn/info/1179/10510.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "cat": "学科竞赛",
+   "group": "学科竞赛"
+  },
   {
    "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
    "date": "2026-10-09",
@@ -27927,7 +28027,7 @@ window.SITE_DATA = {
   "7": 83,
   "8": 84,
   "9": 175,
-  "10": 150,
+  "10": 157,
   "11": 127,
   "12": 115
  },
@@ -28615,6 +28715,51 @@ window.SITE_DATA = {
  ],
  "wechat": [
   {
+   "title": "濂体育 | 星荧夜跑开始啦!",
+   "date": "2026-10-18",
+   "snippet": "星荧夜跑RUNNING活动安排活动要求声明:为保障新学年“我和跑步有个约定”星荧夜跑活动有序开展,全体活动参与者须认真阅读...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%BF%82%E4%BD%93%E8%82%B2%20%7C%20%E6%98%9F%E8%8D%A7%E5%A4%9C%E8%B7%91%E5%BC%80%E5%A7%8B%E5%95%A6%21"
+  },
+  {
+   "title": "一周活动早知道 | 10.19-10.25南洋书院活动预告",
+   "date": "2026-10-18",
+   "snippet": "10.19-10.25南洋书院活动预告一周活动早知道Part.01新生辩论赛辩论赛既是思想交锋与语言博弈的赛场,也是实现个人成长、完成自...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%2010.19-10.25%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "活动预告|崇学领航·朋辈经验分享会",
+   "date": "2026-10-17",
+   "snippet": "崇实书院党总支党员工作站青年工作组成员,曾获腾飞杯校级一等... 获评2025校社会活动先进个人.杨雯祺|哲学强基2401连续两年专...",
+   "account": "崇实学辅",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%7C%E5%B4%87%E5%AD%A6%E9%A2%86%E8%88%AA%C2%B7%E6%9C%8B%E8%BE%88%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%E4%BC%9A"
+  },
+  {
+   "title": "活动预告 | 第64届启德国际教育展南宁站,从择校到求职,一场展会全搞定!",
+   "date": "2026-10-13",
+   "snippet": "上纽昆杜选择启德不只为留学海内外升学语言培训高考规划大学保... INTERNATIONAL EDUCATION EXPO活动亮点全球百强名校招生...",
+   "account": "启德南宁",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E7%AC%AC64%E5%B1%8A%E5%90%AF%E5%BE%B7%E5%9B%BD%E9%99%85%E6%95%99%E8%82%B2%E5%B1%95%E5%8D%97%E5%AE%81%E7%AB%99%2C%E4%BB%8E%E6%8B%A9%E6%A0%A1%E5%88%B0%E6%B1%82%E8%81%8C%2C%E4%B8%80%E5%9C%BA%E5%B1%95%E4%BC%9A%E5%85%A8%E6%90%9E%E5%AE%9A%21"
+  },
+  {
+   "title": "2026年文治书院宿舍公约大赛",
+   "date": "2026-10-13",
+   "snippet": "2026年文治书院宿舍公约大赛一、活动目的 对于新生而言,宿舍是大学生活里的第一个 “家”,也是大家在校停留时间最长的空间...",
+   "account": "文治宿生会",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2026%E5%B9%B4%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%AE%BF%E8%88%8D%E5%85%AC%E7%BA%A6%E5%A4%A7%E8%B5%9B"
+  },
+  {
    "title": "一周活动早知道 | 10.12-10.18南洋书院活动预告",
    "date": "2026-10-11",
    "snippet": "10.12-10.18南洋书院活动预告一周活动早知道第十三届西安交通大学大学生职业规划大赛南洋书院院内选拔赛本次比赛面向我校全日...",
@@ -28903,6 +29048,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E5%9B%A2%E5%A7%94%E5%BF%97%E6%84%BF%E6%9C%8D%E5%8A%A1%E4%BC%98%E7%A7%80%E4%B8%AA%E4%BA%BA%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA"
   },
   {
+   "title": "【支部活动】电信学部南洋书院师生联合第一党支部与电信学部计算机学院2025级学硕第二党支部联合举办二月组织生活",
+   "date": "2026-03-12",
+   "snippet": "电信学部南洋书院师生联合第一党支部与电信学部计算机学院2025级学硕第二党支部联合举办二月组织生活会议前言2月26日晚,电信...",
+   "account": "南洋书院党总支",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%94%AF%E9%83%A8%E6%B4%BB%E5%8A%A8%E3%80%91%E7%94%B5%E4%BF%A1%E5%AD%A6%E9%83%A8%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E5%B8%88%E7%94%9F%E8%81%94%E5%90%88%E7%AC%AC%E4%B8%80%E5%85%9A%E6%94%AF%E9%83%A8%E4%B8%8E%E7%94%B5%E4%BF%A1%E5%AD%A6%E9%83%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E9%99%A22025%E7%BA%A7%E5%AD%A6%E7%A1%95"
+  },
+  {
    "title": "丰富活动等你来丨3.9-3.15崇实书院活动预告",
    "date": "2026-03-09",
    "snippet": "3.9-3.15崇实书院活动预告新的一周如约而至,为了帮助大家更好地安排时间,“丰富活动等你来”栏目持续更新,快快参与到活动中...",
@@ -29027,6 +29181,15 @@ window.SITE_DATA = {
    "cat": "教学信息",
    "group": "教学信息",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E8%8D%A3%E5%91%BD%E5%93%B2%E6%95%99%E6%8E%88%E8%AF%BE%E9%A2%98%E7%BB%84%E9%9D%A2%E5%90%912025%E5%B1%8A%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F%E6%8B%9B%E6%94%B6%E6%8E%A8%E5%85%8D%E7%A0%94%E7%A9%B6%E7%94%9F"
+  },
+  {
+   "title": "星荧夜跑周报 | 循着春风夜跑,伴着乐声畅游",
+   "date": "2024-04-15",
+   "snippet": "星荧夜跑周报速递 春意渐浓,夜跑激情涌动点点荧光,点亮夜幕操场随机掉落的小活动,调动着同学们跑步的热情我们在这里享受夜跑...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%98%9F%E8%8D%A7%E5%A4%9C%E8%B7%91%E5%91%A8%E6%8A%A5%20%7C%20%E5%BE%AA%E7%9D%80%E6%98%A5%E9%A3%8E%E5%A4%9C%E8%B7%91%2C%E4%BC%B4%E7%9D%80%E4%B9%90%E5%A3%B0%E7%95%85%E6%B8%B8"
   },
   {
    "title": "文治书院举办2023-2024学年第三届“文治好班委”评选活动",
@@ -29542,6 +29705,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%94%E5%B1%8A%E9%AD%85%E5%8A%9B%E5%9B%A2%E6%94%AF%E4%B9%A6%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%88%9D%E8%B5%9B%E7%AD%94%E8%BE%A9"
   },
   {
+   "title": "彭 · 活动 | 彭康书院“雷锋月”系列活动落下帷幕",
+   "date": "2022-04-04",
+   "snippet": "SUMMER彭康书院“雷锋月”系列活动落下帷幕来源:交大新闻网为加深彭康学子对于雷锋精神的理解,拓展志愿视野,提升志愿实...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E2%80%9C%E9%9B%B7%E9%94%8B%E6%9C%88%E2%80%9D%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%E8%90%BD%E4%B8%8B%E5%B8%B7%E5%B9%95"
+  },
+  {
    "title": "校园大使 · 交大之风吹进刺桐城",
    "date": "2022-04-03",
    "snippet": "校园大使百年团青正风华,青春献礼二十大,2022年西安交通大学“校园大使”大学生返乡宣讲实践活动于2021年12月正式启动.此...",
@@ -29911,6 +30083,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E4%B8%BE%E8%A1%8C%E5%AE%BF%E8%88%8D%E9%9D%A9%E5%91%BD%E4%BB%AA%E5%BC%8F%E6%9A%A82018%E7%BA%A7%E8%88%8D%E9%95%BF%E5%A4%A7%E4%BC%9A"
   },
   {
+   "title": "彭 · 通知 | 关于开展西安交通大学2018年暑期“三下乡”社会实践结题分享彭康书院院级考核分享的通知",
+   "date": "2018-09-04",
+   "snippet": "彭康书院各社会实践团队:根据西安交通大学2018年暑期“三下乡”社会实践考核分享指导方案,本次暑期社会实践结题分享分为“院...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E9%80%9A%E7%9F%A5%20%7C%20%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%9A%91%E6%9C%9F%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E7%BB%93%E9%A2%98%E5%88%86%E4%BA%AB%E5%BD%AD"
+  },
+  {
    "title": "西安交通大学校园大使走进吴江经济技术开发区活动圆满举行!",
    "date": "2018-08-13",
    "snippet": "2018年8月6日至10日,西安交通大学15名学生校园大使在就创中心李勇副主任和王冲猴老师的带领下,赴苏州市吴江经济技术开发区...",
@@ -30065,17 +30246,19 @@ window.SITE_DATA = {
   }
  ],
  "wechatStat": {
-  "total": 161,
-  "dropped": 68,
+  "total": 170,
+  "dropped": 72,
   "byAccount": {
-   "西安交通大学南洋书院": 13,
+   "西安交通大学宗濂书院": 14,
+   "西安交通大学南洋书院": 14,
+   "崇实学辅": 1,
+   "启德南宁": 1,
+   "文治宿生会": 2,
    "励志党总支": 4,
-   "文治宿生会": 1,
-   "西安交通大学宗濂书院": 13,
    "宗濂星火": 1,
    "仲英青年": 4,
    "西安交大彭康书院党总支": 2,
-   "南洋书院党总支": 4,
+   "南洋书院党总支": 5,
    "西迁之光": 1,
    "崇实书院宿生会": 1,
    "崇实书院青年之声": 3,
@@ -30089,10 +30272,10 @@ window.SITE_DATA = {
    "法协XJTU": 1,
    "西安交大就业创业": 12,
    "XJTU荣命哲老师课题组": 3,
+   "西安交通大学彭康书院团委": 14,
    "文治书院学生会": 5,
    "交大西迁博物馆": 1,
    "西安交通大学崇实书院": 6,
-   "西安交通大学彭康书院团委": 11,
    "西安交大科技创新指导中心": 2,
    "交小招": 2,
    "西安交通大学社会实践": 2,
@@ -30122,12 +30305,12 @@ window.SITE_DATA = {
    "西交大生活圈": 1
   },
   "byGroup": {
-   "集体活动": 40,
-   "思政学习": 16,
-   "学科竞赛": 20,
-   "其他": 53,
-   "文体竞赛": 9,
-   "社会实践": 17,
+   "文体竞赛": 10,
+   "集体活动": 43,
+   "学科竞赛": 21,
+   "思政学习": 17,
+   "其他": 55,
+   "社会实践": 18,
    "教学信息": 6
   }
  },

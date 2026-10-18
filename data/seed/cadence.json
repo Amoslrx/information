@@ -18,7 +18,7 @@
     "7": 83,
     "8": 84,
     "9": 175,
-    "10": 150,
+    "10": 157,
     "11": 127,
     "12": 115
   },
@@ -680,6 +680,42 @@
       ]
     },
     {
+      "competition": "华为ICT 大赛",
+      "ee": 3,
+      "xjtuCat": "未认定(待核)",
+      "url": "https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973",
+      "dept": "",
+      "yearsObserved": 5,
+      "years": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 6,
+      "months": {
+        "9": 3,
+        "10": 2,
+        "11": 1
+      },
+      "stableMonths": [
+        9
+      ],
+      "windowStart": 9,
+      "windowEnd": 10,
+      "windowLabel": "九月–十月",
+      "coverage": 0.833,
+      "confidence": "high",
+      "evidence": [
+        "2026-10-15",
+        "2025-09-15",
+        "2024-09-26",
+        "2023-09-28",
+        "2022-11-25"
+      ]
+    },
+    {
       "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
       "ee": 3,
       "xjtuCat": "C类",
@@ -791,36 +827,34 @@
       ]
     },
     {
-      "competition": "华为ICT 大赛",
+      "competition": "国际大学生智能农业装备创新大赛",
       "ee": 3,
       "xjtuCat": "未认定(待核)",
-      "url": "https://e.huawei.com/cn/talent/ict-academy/#/ict-contest?compId=85131973",
+      "url": "http://uiaec.ujs.edu.cn",
       "dept": "",
-      "yearsObserved": 4,
+      "yearsObserved": 3,
       "years": [
-        2022,
-        2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "noticeCount": 4,
       "months": {
-        "9": 3,
-        "11": 1
+        "9": 2,
+        "10": 2
       },
       "stableMonths": [
         9
       ],
       "windowStart": 9,
-      "windowEnd": 9,
-      "windowLabel": "九月",
-      "coverage": 0.75,
-      "confidence": "high",
+      "windowEnd": 10,
+      "windowLabel": "九月–十月",
+      "coverage": 1.0,
+      "confidence": "medium",
       "evidence": [
-        "2025-09-15",
-        "2024-09-26",
-        "2023-09-28",
-        "2022-11-25"
+        "2026-10-16",
+        "2025-09-28",
+        "2024-09-20"
       ]
     },
     {
@@ -877,34 +911,6 @@
       "evidence": [
         "2026-04-16",
         "2025-04-16"
-      ]
-    },
-    {
-      "competition": "国际大学生智能农业装备创新大赛",
-      "ee": 3,
-      "xjtuCat": "未认定(待核)",
-      "url": "http://uiaec.ujs.edu.cn",
-      "dept": "",
-      "yearsObserved": 2,
-      "years": [
-        2024,
-        2025
-      ],
-      "noticeCount": 2,
-      "months": {
-        "9": 2
-      },
-      "stableMonths": [
-        9
-      ],
-      "windowStart": 9,
-      "windowEnd": 9,
-      "windowLabel": "九月",
-      "coverage": 1.0,
-      "confidence": "low",
-      "evidence": [
-        "2025-09-28",
-        "2024-09-20"
       ]
     },
     {

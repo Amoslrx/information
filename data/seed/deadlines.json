@@ -2,8 +2,8 @@
  "source": "通知详情页正文",
  "method": "日期上下文打分(见 scripts/extract_deadlines.py)",
  "min_score": 4,
- "count": 142,
- "with_deadline": 84,
+ "count": 148,
+ "with_deadline": 86,
  "items": [
   {
    "url": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
@@ -1276,6 +1276,60 @@
    "deadline": "2026-04-24",
    "score": 3,
    "bodyLen": 3418,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
+   "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+   "noticeDate": "2026-10-16",
+   "deadline": "2026-12-01",
+   "score": 7,
+   "bodyLen": 1906,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10541.htm",
+   "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+   "noticeDate": "2026-10-16",
+   "deadline": "2026-12-01",
+   "score": 7,
+   "bodyLen": 2671,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10531.htm",
+   "title": "关于举办第十八届全国大学生数学竞赛培训的通知",
+   "noticeDate": "2026-10-16",
+   "deadline": "2026-10-16",
+   "score": -5,
+   "bodyLen": 1725,
+   "snippet": ""
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/info/1191/5551.htm",
+   "title": "关于组织华为ICT大赛2026-2027报名的通知",
+   "noticeDate": "2026-10-15",
+   "deadline": "2026-10-26",
+   "score": 3,
+   "bodyLen": 3271,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10521.htm",
+   "title": "关于组织华为ICT大赛2026-2027报名的通知",
+   "noticeDate": "2026-10-15",
+   "deadline": "2026-10-26",
+   "score": 3,
+   "bodyLen": 4042,
+   "snippet": ""
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+   "noticeDate": "2026-10-14",
+   "deadline": "2026-10-15",
+   "score": 1,
+   "bodyLen": 2151,
    "snippet": ""
   }
  ]

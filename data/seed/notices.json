@@ -62,21 +62,98 @@
     "note": "只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; robots.txt 实测均为 404 未禁止"
   },
   "schema_version": 2,
-  "count": 1724,
-  "matched_count": 308,
-  "competition_related_count": 586,
+  "count": 1731,
+  "matched_count": 312,
+  "competition_related_count": 593,
   "by_site": {
-    "实践教学中心": 324,
-    "教务处": 295,
+    "实践教学中心": 326,
+    "教务处": 300,
     "校团委": 1005,
     "电气学院": 100
   },
   "by_site_competition": {
-    "实践教学中心": 317,
-    "教务处": 71,
+    "实践教学中心": 319,
+    "教务处": 76,
     "校团委": 198
   },
   "items": [
+    {
+      "date": "2026-10-16",
+      "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "国际大学生智能农业装备创新大赛",
+      "moe_no": "77",
+      "matched_keyword": "国际大学生智能农业装备创新大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-16",
+      "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10541.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "国际大学生智能农业装备创新大赛",
+      "moe_no": "77",
+      "matched_keyword": "国际大学生智能农业装备创新大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-16",
+      "title": "关于举办第十八届全国大学生数学竞赛培训的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10531.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": "关于组织华为ICT大赛2026-2027报名的通知",
+      "url": "http://pec.xjtu.edu.cn/info/1191/5551.htm",
+      "source": "pec",
+      "site": "实践教学中心",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": "关于组织华为ICT大赛2026-2027报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10521.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "华为ICT 大赛",
+      "moe_no": "42",
+      "matched_keyword": "华为ICT大赛",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-10-12",
+      "title": "关于组织2026年西安交通大学本科实验实践与创新创业教育教学改革研究专项项目中期检查的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1179/10510.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
     {
       "date": "2026-10-09",
       "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
