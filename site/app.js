@@ -9,7 +9,7 @@
   var COMPS = D.competitions || [];
   var NOTICES = D.notices || [];
   var STATS = D.stats || {};
-  var removedGroups = ['思政学习', '社会实践', '教学信息'];
+  var removedGroups = ['思政学习', '社会实践', '教学信息', '文体竞赛'];
   function visibleGroup(n) { return removedGroups.indexOf(n.group) < 0; }
 
   var FRESH_DAYS = 90;          // "近期有通知"的判定阈值
@@ -149,7 +149,7 @@
     $('tabCountLinks').textContent = String((D.quickLinks || []).length);
     // 5 大类里的另外 4 类, 数量来自按类别分类后的通知
     var g = STATS.noticeGroup || {};
-    [['tabCountArt', '文体竞赛']].forEach(function (p) {
+    [].forEach(function (p) {
       var el = $(p[0]);
       if (el) el.textContent = String(g[p[1]] || 0);
     });
@@ -1140,7 +1140,7 @@
   var WX = [];
 
   function wxGroups() {
-    var order = ['学科竞赛', '等级考试', '集体活动', '文体竞赛'];
+    var order = ['学科竞赛', '等级考试', '集体活动'];
     var seen = {};
     WX.forEach(function (x) { seen[x.group] = (seen[x.group] || 0) + 1; });
     var out = order.filter(function (g) { return seen[g]; });

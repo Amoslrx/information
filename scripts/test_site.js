@@ -163,8 +163,8 @@ ok(missingView.length === 0, '每个 tab 的 data-view 都有对应 section',
 // 4 个分类 tab 必须带 data-group
 const groupTabs = [...html.matchAll(/data-view="notices"\s+data-group="([^"]+)"/g)]
   .map(m => m[1]);
-ok(groupTabs.length === 1, '只保留文体竞赛通知入口', '实际 ' + groupTabs.length);
-const GROUPS = ['学科竞赛', '文体竞赛'];
+ok(groupTabs.length === 0, '已移除非学科竞赛栏目入口', '实际 ' + groupTabs.length);
+const GROUPS = ['学科竞赛'];
 ok(groupTabs.every(g => GROUPS.indexOf(g) >= 0),
    'data-group 取值都是 5 大类之一', groupTabs.join(', '));
 
@@ -306,7 +306,7 @@ ok(/共 \d+ 条/.test(els.resultCount.textContent || ''), '结果计数已写入
 ok(els.tabCountCat.textContent === String(DATA.competitions.length), 'tab 上的竞赛数正确',
    'tabCountCat=' + els.tabCountCat.textContent);
 // 4 个分类 tab 的数字各自等于该类通知数
-[['tabCountArt', '文体竞赛']].forEach(function (p) {
+[].forEach(function (p) {
   const want = DATA.notices.filter(x => x.group === p[1]).length;
   ok(els[p[0]] && els[p[0]].textContent === String(want),
      `tab「${p[1]}」的计数正确 (${want})`,
@@ -766,7 +766,7 @@ ok((els.catList.innerHTML.match(/class="card /g) || []).length === DATA.competit
 
 console.log('\n=== J. 公众号文章线索 ===');
 
-const WX = (DATA.wechat || []).filter(x => !['社会实践', '思政学习', '教学信息'].includes(x.group));
+const WX = (DATA.wechat || []).filter(x => !['社会实践', '思政学习', '教学信息', '文体竞赛'].includes(x.group));
 ok(WX.length > 0, '载入了公众号文章', WX.length + ' 篇');
 ok(els.tabCountWx.textContent === String(WX.length),
    'tab 上的公众号文章数正确', 'tabCountWx=' + els.tabCountWx.textContent);
@@ -845,7 +845,7 @@ if (physics && physics.fields) {
   ok(physicsHTML.includes('media/') && physicsHTML.includes('二维码解码，需核对用途'), '保留原图预览与二维码待核实证据');
 }
 const captchaNotice = DATA.notices.find(n => /10439\.htm$/.test(n.url));
-if (captchaNotice && captchaNotice.resources && !['社会实践', '思政学习', '教学信息'].includes(captchaNotice.group)) {
+if (captchaNotice && captchaNotice.resources && !['社会实践', '思政学习', '教学信息', '文体竞赛'].includes(captchaNotice.group)) {
   const resourceHTML = searchNotices(captchaNotice.title, '');
   ok(captchaNotice.resources.some(r => r.status === 'failed' && r.error.includes('captcha_required')),
      '验证码附件下载失败保留明确原因');
@@ -987,7 +987,7 @@ ok(assetHTML.includes('查看原图') && assetHTML.includes(assetNotice.resource
 ok(assetHTML.includes('附件／图片提示的原文依据') && assetHTML.includes('不能据此断言没有报名安排'), '附件提示保留原文证据且不推断信息不存在');
 
 
-['社会实践', '思政学习', '教学信息'].forEach(g => {
+['社会实践', '思政学习', '教学信息', '文体竞赛'].forEach(g => {
   ok(!html.includes('data-group="' + g + '"') && !html.includes('value="' + g + '"'), '已移除栏目和筛选：' + g);
   const r = runGroup(g);
   ok(!((r.els.noticeList && r.els.noticeList.innerHTML) || '').includes('class="notice"'), '旧链接不展示已移除栏目：' + g);
