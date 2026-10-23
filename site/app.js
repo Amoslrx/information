@@ -9,6 +9,8 @@
   var COMPS = D.competitions || [];
   var NOTICES = D.notices || [];
   var STATS = D.stats || {};
+  var removedGroups = ['思政学习', '社会实践', '教学信息'];
+  function visibleGroup(n) { return removedGroups.indexOf(n.group) < 0; }
 
   var FRESH_DAYS = 90;          // "近期有通知"的判定阈值
   var UNKNOWN_CAT = '未认定(待核)';
@@ -147,13 +149,12 @@
     $('tabCountLinks').textContent = String((D.quickLinks || []).length);
     // 5 大类里的另外 4 类, 数量来自按类别分类后的通知
     var g = STATS.noticeGroup || {};
-    [['tabCountArt', '文体竞赛'], ['tabCountPractice', '社会实践'],
-     ['tabCountIdeo', '思政学习'], ['tabCountTeach', '教学信息']].forEach(function (p) {
+    [['tabCountArt', '文体竞赛']].forEach(function (p) {
       var el = $(p[0]);
       if (el) el.textContent = String(g[p[1]] || 0);
     });
     var wc = $('tabCountWx');
-    if (wc) wc.textContent = String((D.wechat || []).length);
+    if (wc) wc.textContent = String((D.wechat || []).filter(visibleGroup).length);
 
     $('footMeta').textContent = '数据生成于 ' + (D.generatedAt || '—') +
       '｜竞赛 ' + (STATS.competitions || 0) + ' 条、通知 ' + (STATS.notices || 0) +
@@ -168,6 +169,7 @@
   /* ---------------- 标签页 ---------------- */
 
   function activateView(name, doScroll, group) {
+    if (name === 'notices' && removedGroups.indexOf(group) >= 0) { name = 'catalog'; group = ''; }
     var tabs = document.querySelectorAll('.tab');
     var views = document.querySelectorAll('.view');
     // 4 个分类 tab 共用 view-notices, 靠 data-group 区分; 高亮要按 group 精确匹配
@@ -709,6 +711,7 @@
     // 分类 tab 指定的类别优先; 用户在下拉里显式选择可以覆盖它
     var group = f.cat || activeGroup;
     var list = NOTICES.filter(function (n) {
+      if (!visibleGroup(n)) return false;
       if (group && n.group !== group) return false;
       if (f.scope === 'competition' && !n.isCompetition) return false;
       if (f.scope === 'campus' && !n.isCampus) return false;
@@ -1137,7 +1140,7 @@
   var WX = [];
 
   function wxGroups() {
-    var order = ['学科竞赛', '等级考试', '集体活动', '文体竞赛', '社会实践', '思政学习', '教学信息'];
+    var order = ['学科竞赛', '等级考试', '集体活动', '文体竞赛'];
     var seen = {};
     WX.forEach(function (x) { seen[x.group] = (seen[x.group] || 0) + 1; });
     var out = order.filter(function (g) { return seen[g]; });
@@ -1205,7 +1208,7 @@
   }
 
   function initWeChat() {
-    WX = D.wechat || [];
+    WX = (D.wechat || []).filter(visibleGroup);
     if (!WX.length) return;
     $('wxChips').setAttribute('data-active', '');
     renderWxChips('');
