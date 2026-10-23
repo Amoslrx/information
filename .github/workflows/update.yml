@@ -1,6 +1,6 @@
-name: 每周更新竞赛数据
+name: 每日更新竞赛数据
 
-# 每周一 02:00(北京时间) 自动重新抓取校内通知并重建站点数据。
+# 每天 08:17(北京时间) 自动重新抓取校内通知并重建站点数据。
 # 这是为了对抗"信息聚合站的经典死因: 没人维护 → 数据过期 → 更没人看"。
 #
 # 只重抓会变的部分(校内通知), PDF 类数据源(教育部目录、西交 A/B 名单)保留在仓库里
@@ -11,12 +11,14 @@ name: 每周更新竞赛数据
 
 on:
   schedule:
-    # cron 用 UTC。周日 18:00 UTC = 周一 02:00 UTC+8
-    - cron: '0 18 * * 0'
+    # cron 用 UTC。00:17 UTC = 每天 08:17 UTC+8
+    - cron: '17 0 * * *'
   workflow_dispatch:        # 也支持手动点按钮运行
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-data
@@ -24,7 +26,9 @@ concurrency:
 
 jobs:
   update:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -40,14 +44,41 @@ jobs:
           node-version: '20'
 
       - name: 安装依赖
-        run: python -m pip install --upgrade pip pypdf
+        run: |
+          python -m pip install --upgrade pip pypdf pypdfium2 Pillow zxing-cpp reportlab
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim antiword
 
       # ---------- 抓取 ----------
+      - name: 记录更新前通知数量
+        run: python -c "import json; from pathlib import Path; Path('/tmp/notice-count').write_text(str(len(json.load(open('data/seed/notices.json'))['items'])))"
+
       - name: 抓取校内通知
         run: python scripts/crawl_xjtu_notices.py
 
+      - name: 检查采集结果，防止空数据覆盖
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          count = len(json.loads(Path('data/seed/notices.json').read_text())['items'])
+          previous = int(Path('/tmp/notice-count').read_text())
+          assert count >= previous and count > 0, '通知减少或为空，停止发布'
+          sources = json.loads(Path('data/seed/source_status.json').read_text())['sources']
+          assert any(s.get('state') in ('ok', 'partial', 'ok_no_matching_notices') for s in sources), '所有扩展来源失败，停止发布'
+          PY
+
       # 抓通知详情页正文, 提取「报名截止时间」。增量: 已抓过的通知会跳过,
-      # 所以每周只新增少量请求。必须在 build_site_data 之前跑。
+      # 所以每天只新增少量请求。必须在 build_site_data 之前跑。
+      - name: 抓取通知正文
+        run: python scripts/crawl_notice_bodies.py
+
+      - name: 解析附件、图片与二维码
+        run: python scripts/crawl_notice_resources.py
+
+      - name: 提取有证据的结构化字段
+        run: python scripts/extract_notice_fields.py
+
       - name: 提取报名截止时间
         run: python scripts/extract_deadlines.py
 
@@ -74,12 +105,17 @@ jobs:
       - name: 打包站点数据
         run: python scripts/build_site_data.py
 
+      - name: 更新竞赛来源覆盖表
+        run: python scripts/build_source_coverage.py
+
       - name: 生成 ICS 日历
         run: python scripts/build_calendar.py
 
       # ---------- 自检(失败则不提交, 保留上一版可用数据) ----------
       - name: 自检
-        run: node scripts/test_site.js
+        run: |
+          python -m unittest discover -s scripts -p "test_notice*.py"
+          node scripts/test_site.js
 
       # ---------- 提交 ----------
       - name: 提交变更
@@ -87,7 +123,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add data/seed site
           if git diff --cached --quiet; then
             echo "数据无变化, 跳过提交"
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -121,3 +157,11 @@ jobs:
               if dates:
                   print(f"- 通知日期范围: {min(dates)} ~ {max(dates)}")
           PY
+
+  publish:
+    needs: update
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

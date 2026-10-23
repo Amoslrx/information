@@ -177,8 +177,19 @@ ok(html.includes('class="rhythm-block"'),
 console.log('\n=== B. 用 DOM 桩运行 app.js ===');
 
 /** 在给定 location 下跑一遍 app.js, 返回它写出的 DOM 内容。 */
-function runApp(loc) {
+function runApp(loc, fixture) {
   const dom = makeDom(getSelectDefaults());
+  const catList = dom.document.getElementById('catList');
+  catList.querySelectorAll = function (selector) {
+    if (selector !== '.card') return [];
+    catList.__cards = [...catList.innerHTML.matchAll(/<article[^>]*data-name="([^"]+)"[^>]*>([\s\S]*?)<\/article>/g)].map(function (match) {
+      const card = makeEl('card');
+      card.innerHTML = match[2];
+      card.setAttribute('data-name', match[1].replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&'));
+      return card;
+    });
+    return catList.__cards;
+  };
   const historyCalls = [];
   const windowObj = {
     scrollTo() {},
@@ -193,6 +204,7 @@ function runApp(loc) {
   };
   vm.createContext(sandbox);
   vm.runInContext(dataSrc, sandbox, { filename: 'data.js' });
+  if (fixture) windowObj.SITE_DATA = fixture;
   vm.runInContext(appSrc, sandbox, { filename: 'app.js' });
   return { els: dom.els, created: dom.created, windowObj, historyCalls };
 }
@@ -313,9 +325,9 @@ core.forEach(function (name) {
 });
 
 // 徽章渲染
-ok(catHTML.includes('badge b-ee5'), '渲染了相关度 5 分徽章');
-ok(catHTML.includes('badge b-a'), '渲染了西交 A 类徽章');
-ok(catHTML.includes('badge b-moe'), '渲染了教育部目录徽章');
+ok(catHTML.includes('badge b-ee5'), '精简报名区同时保留电气相关度徽章');
+ok(catHTML.includes('badge b-a'), '卡片保留西交认定分类');
+ok(catHTML.includes('badge b-moe'), '卡片保留教育部目录编号');
 
 // 通知分组与关联
 ok(noticeHTML.includes('group-head'), '通知按月分组渲染');
@@ -341,7 +353,7 @@ ok(barCount === 12, '月度柱状图渲染 12 根柱子', '实际 ' + barCount);
 
 const histSum = Object.keys(DATA.monthHistogram || {})
   .reduce((a, k) => a + DATA.monthHistogram[k], 0);
-ok(histSum === DATA.stats.notices, '月度分布合计等于通知总数',
+ok(histSum === DATA.notices.filter(n => n.date).length, '月度分布合计等于有明确发布时间的通知数',
    histSum + ' vs ' + DATA.stats.notices);
 
 // 节律页默认按"电气相关度 >= 4"筛选(下拉第一个选项), 所以不是全部 37 个
@@ -479,8 +491,8 @@ const cOverride = DATA.competitions.filter(c => c.xjtuCat === 'C类' && c.alias)
 ok(cOverride.length === 0, 'C 类未覆盖 A/B 认定');
 
 // 日期解析健壮性: 所有通知日期都必须是 YYYY-MM-DD
-const badDate = DATA.notices.filter(n => !/^\d{4}-\d{2}-\d{2}$/.test(n.date));
-ok(badDate.length === 0, '所有通知日期格式合法', badDate.length ? badDate.length + ' 条异常' : '');
+const badDate = DATA.notices.filter(n => !/^\d{4}-\d{2}-\d{2}$/.test(n.date) && !(n.date === '' && n.dateUnavailableReason));
+ok(badDate.length === 0, '通知日期合法，未公布日期保留缺失原因', badDate.length ? badDate.length + ' 条异常' : '');
 
 // 所有通知 URL 都必须是绝对地址
 const badUrl = DATA.notices.filter(n => !/^https?:\/\//.test(n.url));
@@ -639,12 +651,10 @@ const openComps = DATA.competitions.filter(c => c.isOpen);
 ok(DATA.stats.competitionsOpen === openComps.length,
    '报名中的竞赛数与统计一致', openComps.length + ' vs ' + DATA.stats.competitionsOpen);
 
-// 报名中的卡片必须有醒目标记(用户要的核心功能)
-ok((catHTML.match(/class="open-tag"/g) || []).length === openComps.length,
-   `渲染了 ${openComps.length} 个「报名中」标记`,
-   '实际 ' + (catHTML.match(/class="open-tag"/g) || []).length);
-ok(openComps.length > 0 ? catHTML.includes('badge b-open') : true,
-   '报名中的竞赛有「报名中」徽章');
+// 按用户要求只保留截止时间和通知原文，不再重复加状态徽章。
+ok(!catHTML.includes('class="open-tag"'), '卡片不再重复显示报名状态标签');
+ok(catHTML.includes('compact-deadline') && catHTML.includes('compact-source'),
+   '卡片提供报名截止和原文链接');
 ok(!catHTML.includes('class="open-tag">报名中 · 截止 undefined'),
    '报名中标签的日期格式正确');
 
@@ -697,10 +707,8 @@ const stale = selecting.filter(c => {
 ok(stale.length === 0, '校内选拔判定只看 120 天内的通知',
    stale.map(c => c.name + ' ' + c.selectNotice.date).join(', '));
 // 两类标记都要能渲染出来(渲染是"报名中"优先, 因为信息更具体)
-ok(selecting.length > 0 ? catHTML.includes('badge b-select') : true,
-   '校内选拔中的竞赛有「校内选拔中」徽章');
-ok(selecting.length > 0 ? catHTML.includes('open-tag is-select') : true,
-   '校内选拔中显示了对应的通知日期');
+ok(!catHTML.includes('badge b-select'), '选拔信息通过通知标题区分，不加重复徽章');
+ok(!catHTML.includes('open-tag is-select'), '不把通知发布日期当作报名截止');
 
 console.log('\n=== I. 搜索: 标点 / 全半角归一化 ===');
 
@@ -809,6 +817,175 @@ function searchWx(q) {
      `搜「${p[0]}」有结果`);
 });
 els.wq.value = ''; els.wq.__fire('input');
+
+console.log('\n=== K. 通知正文展示 ===');
+const enriched = DATA.notices.find(n => n.excerpt && n.links && n.links.some(l => l.kind === 'form'));
+ok(!!enriched, '已有通知接入正文摘要与报名链接');
+if (enriched) {
+  const rendered = searchNotices(enriched.title, enriched.group);
+  ok(rendered.includes('notice-excerpt'), '通知页面渲染正文摘要');
+  ok(rendered.includes('报名链接：'), '通知页面渲染报名链接');
+  if (enriched.fields && enriched.fields.contacts.length) {
+    ok(rendered.includes('联系方式：'), '通知页面渲染联系方式');
+  }
+  ok(rendered.includes('原文证据'), '页面提供每个结构化字段的原文依据');
+}
+const fpga = DATA.notices.find(n => /10463\.htm$/.test(n.url));
+if (fpga && fpga.fields) {
+  const fpgaHTML = searchNotices(fpga.title, '');
+  ok(fpgaHTML.includes('作品或材料提交：2026-11-04 18:00'), '作品提交单独显示并保留时刻');
+  ok(fpga.deadline === '2026-09-22' && fpga.deadlineEvent.time === '24:00', '报名截止不混入提交或比赛时间');
+  ok(fpgaHTML.includes('陈伟老师') && fpgaHTML.includes('chw@xjtu.edu.cn'), '联系人与邮箱一起显示');
+}
+const physics = DATA.notices.find(n => /5526\.htm$/.test(n.url));
+if (physics && physics.fields) {
+  const physicsHTML = searchNotices(physics.title, '');
+  ok(!physics.deadline && physicsHTML.includes('缺少年份'), '无年份的报名截止标为待核实');
+  ok(physicsHTML.includes('QQ 群：737707930') && !physicsHTML.includes('联系 QQ：737707930'), 'QQ 群和联系 QQ 分开显示');
+  ok(physicsHTML.includes('附件与图片识别结果') && physicsHTML.includes('二维码已解码'), '实际图片二维码进入页面识别结果');
+  ok(physicsHTML.includes('media/') && physicsHTML.includes('二维码解码，需核对用途'), '保留原图预览与二维码待核实证据');
+}
+const captchaNotice = DATA.notices.find(n => /10439\.htm$/.test(n.url));
+if (captchaNotice && captchaNotice.resources) {
+  const resourceHTML = searchNotices(captchaNotice.title, '');
+  ok(captchaNotice.resources.some(r => r.status === 'failed' && r.error.includes('captcha_required')),
+     '验证码附件下载失败保留明确原因');
+  ok(resourceHTML.includes('附件与图片识别结果'), '失败附件仍有原始来源入口');
+}
+ok(DATA.notices.filter(n => n.deadline).every(n => n.deadlineEvent &&
+  ['registration_deadline', 'campus_deadline', 'official_deadline'].includes(n.deadlineEvent.kind) &&
+  n.deadlineEvent.verification === 'source_matched' && !n.deadlineEvent.flags.length),
+  '所有页面报名截止都有无歧义的报名事件证据');
+
+console.log('\n=== L. 届次汇总与报名详情交互 ===');
+ok(DATA.competitions.every(c => Array.isArray(c.editions) && Array.isArray(c.currentEditionIds)), '全部竞赛输出独立届次与本届引用');
+ok(DATA.competitions.every(c => c.currentEditionIds.every(id => c.editions.some(g => g.id === id &&
+  g.identityState === 'confirmed' &&
+  g.yearEnd >= Number(DATA.stats.today.slice(0, 4))))), '往年和年份待核实通知不进入本届');
+ok(DATA.competitions.filter(c => c.isOpen).every(c => c.registration.nextDeadline &&
+  c.currentEditionIds.includes(c.registration.nextDeadline.editionId) &&
+  c.registration.nextDeadline.event.verification === 'source_matched'), '报名中卡片只使用本届有效节点');
+const uiFixture = JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/fixtures/edition_ui.json'), 'utf8'));
+const fixtureApp = runApp(REMOTE, Object.assign({}, DATA, uiFixture));
+const fixtureCards = fixtureApp.els.catList.innerHTML;
+const electronicsCard = els.catList.__cards.find(c => c.getAttribute('data-name') === '全国大学生电子设计竞赛');
+ok(electronicsCard && electronicsCard.innerHTML.includes('2027年电赛招募通知') &&
+   electronicsCard.innerHTML.includes('2026-09-30') && electronicsCard.innerHTML.includes('https://ee.xjtu.edu.cn/info/1382/15736.htm'),
+   '次年电赛提前招募显示本年的实际截止和学院原文');
+const electronicsVisible = electronicsCard.innerHTML.split('<details class="compact-archive">')[0];
+ok(electronicsVisible.includes('2027年电赛招募通知') && !electronicsVisible.includes('2026年'),
+   '当前届显示2027电赛招募，往届2026通知折叠');
+ok(electronicsVisible.includes('发布时间：2026-09-18') && electronicsVisible.includes('来源：电气学院'),
+   '每条通知展示实际发布时间与发布来源');
+ok(electronicsCard && !electronicsCard.innerHTML.includes('registration-summary') &&
+   electronicsCard.innerHTML.includes('嵌入式AI专题赛') && electronicsCard.innerHTML.includes('模拟电子系统设计专题赛'),
+   '电赛不同专题以原文标题区分，不重复渲染本届信息面板');
+ok(!fixtureCards.includes('在校本科生') && fixtureCards.includes('2026-11-25 18:00'), '卡片只展示截止，保留延期后的时刻');
+ok(fixtureCards.includes('https://example.edu/notice/2') && !fixtureCards.includes('前往报名'), '卡片直接链接通知原文');
+ok(!fixtureCards.includes('旧老师') && !fixtureCards.includes('本届信息'), '简洁通知行不混入联系人或笼统的本届标题');
+ok(fixtureCards.includes('暂未提取到') && fixtureCards.includes('时间待核实'), '截止未提取或不确定时引导核对原文');
+ok(!fixtureCards.includes('href="https://example.edu/pending-register"'), '待核实报名入口不作为卡片的确定链接');
+function openFixtureDrawer(name) {
+  const card = fixtureApp.els.catList.__cards.find(c => c.getAttribute('data-name') === name);
+  if (!card) throw new Error('fixture card not found: ' + name);
+  card.__fire('click', {target: {closest() {return null;}}});
+  return fixtureApp.els.drawerBody.innerHTML;
+}
+const stepsHTML = openFixtureDrawer('报名演示竞赛');
+ok(fixtureApp.els.drawer.hidden === false && fixtureApp.els.overlay.hidden === false, '点击竞赛卡片打开详情抽屉');
+ok(['确认参赛对象', '查看报名方式', '打开报名入口', '准备所需材料'].every(t => stepsHTML.includes(t)), '详情按报名步骤组织信息');
+ok(stepsHTML.includes('报名表、作品') && stepsHTML.includes('新老师') && stepsHTML.includes('13900139000') &&
+   stepsHTML.includes('QQ 群：737707930'), '材料、对应联系人和交流群进入竞赛详情');
+ok(stepsHTML.includes('历史值：2026-11-20 18:00') && stepsHTML.includes('变更后：2026-11-25 18:00') &&
+   stepsHTML.includes('变更依据'), '延期同时展示旧值、新值及变更原文证据');
+const currentHTML = stepsHTML.split('<details class="edition-archive">')[0];
+ok(!currentHTML.includes('旧老师') && stepsHTML.includes('其他届次与待核实通知') && stepsHTML.includes('旧老师'),
+   '历史信息可查看并与本届详情明确分开');
+ok(stepsHTML.includes('原文证据') && stepsHTML.includes('届次原文依据') && stepsHTML.includes('本组通知与关联依据'),
+   '展示字段和通知关联都可展开原文依据');
+const conflictHTML = openFixtureDrawer('冲突演示竞赛');
+ok(conflictHTML.includes('信息冲突') && !conflictHTML.includes('已更新对应节点'), '无延期依据的不同截止不自动覆盖');
+const missingHTML = openFixtureDrawer('缺失演示竞赛');
+ok(missingHTML.includes('暂未提取到') && missingHTML.includes('附件、图片') && !missingHTML.includes('没有这项信息'),
+   '缺失提取结果保留原文、附件和图片核对提示，不断言原文没有信息');
+const pendingHTML = openFixtureDrawer('待核演示竞赛');
+ok(pendingHTML.includes('待核实') && pendingHTML.includes('报名截止11月20日'), '待核实时间保留原文供核对');
+ok(!pendingHTML.includes('href="https://example.edu/pending-register"'), '详情不将待核实的链接候选变成报名按钮');
+fixtureApp.els.drawerClose.__fire('click');
+ok(fixtureApp.els.drawer.hidden && fixtureApp.els.overlay.hidden, '详情关闭后遮罩一同隐藏');
+const realDetailApp = runApp(REMOTE);
+const embeddedCard = realDetailApp.els.catList.__cards.find(c => c.getAttribute('data-name') === '全国大学生嵌入式芯片与系统设计竞赛');
+embeddedCard.__fire('click', {target: {closest() {return null;}}});
+const actualDetail = realDetailApp.els.drawerBody.innerHTML;
+ok(actualDetail.includes('其他相同表述的来源') && actualDetail.includes('陈伟老师') && actualDetail.includes('chw@xjtu.edu.cn'),
+   '实际重复通知合并展示，并保留不同来源的原文依据');
+ok(actualDetail.indexOf('报名步骤与参赛安排') < actualDetail.indexOf('基本信息'), '报名步骤优先于目录元信息展示');
+
+console.log('\n=== M. 缺失原因与处理状态 ===');
+const diagApp = runApp(REMOTE);
+const diagReport = JSON.parse(fs.readFileSync(path.join(SITE, 'missing-report.json'), 'utf8'));
+ok(Object.values(diagReport.primaryCounts).reduce((a, b) => a + b, 0) === DATA.competitions.length,
+   '主要原因统计覆盖每张卡片且不重复计数');
+ok(diagReport.competitions.length === DATA.competitions.length &&
+   DATA.competitions.every(c => c.diagnostics && Array.isArray(c.diagnostics.notices)), '每个竞赛都有逐通知诊断');
+ok(diagApp.els.coverageSummary.innerHTML.includes('明确本届通知正文') &&
+   diagApp.els.coverageSummary.innerHTML.includes('规则可能遗漏'), '说明页提供覆盖统计及提取局限');
+const noCurrent = DATA.competitions.find(c => c.diagnostics.primary === 'no_current_notice');
+const noCurrentCard = diagApp.els.catList.__cards.find(c => c.getAttribute('data-name') === noCurrent.name);
+ok(noCurrentCard.innerHTML.includes('compact-source') &&
+   !noCurrentCard.innerHTML.includes('registration-line'), '无本届通知也可直接查看已有通知，不重复展示空字段');
+noCurrentCard.__fire('click', {target: {closest() {return null;}}});
+ok(diagApp.els.drawerBody.innerHTML.includes('class="edition-archive" open') &&
+   diagApp.els.drawerBody.innerHTML.includes(noCurrent.latestNotice.title), '历史入口打开详情并展开其他届次通知');
+const noNotice = DATA.competitions.find(c => c.diagnostics.primary === 'no_notices');
+const noNoticeCard = diagApp.els.catList.__cards.find(c => c.getAttribute('data-name') === noNotice.name);
+ok(noNoticeCard.innerHTML.includes('尚未收录通知原文') &&
+   (!noNotice.url || noNoticeCard.innerHTML.includes(noNotice.url)), '无通知卡片说明缺失，有官网时提供官网');
+const waiting = JSON.parse(JSON.stringify(uiFixture.competitions[0]));
+waiting.editions = waiting.editions.filter(g => waiting.currentEditionIds.includes(g.id));
+waiting.editions.forEach(g => {
+  g.fields = {}; g.timeline = []; g.changes = [];
+  Object.keys(g.fieldStates).forEach(k => {g.fieldStates[k] = 'body_pending';});
+  g.registration.status = g.registration.deadlineState = 'body_pending';
+  g.diagnostics = {reasons: ['body_pending']};
+});
+waiting.diagnostics = {primary: 'body_pending', reasons: ['body_pending'], hasRelatedNotice: true,
+  hasCurrentNotice: true, noticeCount: 1, currentNoticeCount: 1,
+  notices: [{url: 'https://example.edu/pending-notice', title: '2026年正文未抓样本', date: '2026-09-01',
+             state: 'body_pending', identityState: 'confirmed', identityConflicts: [], error: ''}]};
+const waitingApp = runApp(REMOTE, Object.assign({}, DATA, {competitions: [waiting]}));
+const waitingCard = waitingApp.els.catList.__cards[0];
+ok(!waitingCard.innerHTML.includes('registration-line') && !waitingCard.innerHTML.includes('处理提示'),
+   '卡片不再向学生展示流水线处理状态');
+const failureComp = JSON.parse(JSON.stringify(waiting));
+failureComp.diagnostics.primary = 'fetch_failed';
+failureComp.diagnostics.reasons = ['fetch_failed'];
+failureComp.diagnostics.notices[0].state = 'fetch_failed';
+failureComp.diagnostics.notices[0].error = 'timeout <iframe>';
+failureComp.editions.filter(g => failureComp.currentEditionIds.includes(g.id)).forEach(g => {
+  g.registration.status = g.registration.deadlineState = 'fetch_failed';
+  Object.keys(g.fieldStates).forEach(k => { if (g.fieldStates[k] !== 'confirmed') g.fieldStates[k] = 'fetch_failed'; });
+  g.diagnostics.reasons = ['fetch_failed'];
+});
+const failedApp = runApp(REMOTE, Object.assign({}, DATA, {competitions: [failureComp]}));
+failedApp.els.catList.__cards[0].__fire('click', {target: {closest() {return null;}}});
+ok(!failedApp.els.catList.innerHTML.includes('timeout') &&
+   failedApp.els.drawerBody.innerHTML.includes('timeout &lt;iframe&gt;') &&
+   !failedApp.els.drawerBody.innerHTML.includes('timeout <iframe>'), '失败状态和错误原因进入详情并安全转义');
+ok(!diagApp.els.catList.innerHTML.includes('>未提及<'), '空卡片不再宣称原文未提及');
+
+console.log('\n=== N. 补抓覆盖与附件图片提示 ===');
+ok(diagReport.crawlTargets && diagReport.crawlTargets.total ===
+   Object.values(diagReport.crawlTargets.byStatus).reduce((a, b) => a + b, 0), '补抓目标状态合计与目标总数一致');
+ok(diagApp.els.coverageSummary.innerHTML.includes('本轮抓取目标'), '说明页展示补抓成功、失败、空正文与待抓数量');
+const assetNotice = DATA.notices.find(n => n.competition && (n.resourceHints || []).some(h => h.state === 'resource_pending' && h.kind === 'image'));
+const assetApp = runApp(REMOTE);
+assetApp.els.catList.__cards.find(c => c.getAttribute('data-name') === assetNotice.competition)
+  .__fire('click', {target: {closest() {return null;}}});
+const assetHTML = assetApp.els.drawerBody.innerHTML;
+ok(assetHTML.includes('附件、图片与待解析提示') && assetHTML.includes('附件／图片待解析'), '缺失字段保留附件和图片待解析原因');
+ok(assetHTML.includes('查看原图') && assetHTML.includes(assetNotice.resourceHints.find(h => h.kind === 'image').url), '竞赛详情提供对应通知的原图核对入口');
+ok(assetHTML.includes('附件／图片提示的原文依据') && assetHTML.includes('不能据此断言没有报名安排'), '附件提示保留原文证据且不推断信息不存在');
 
 console.log('\n' + '='.repeat(52));
 console.log(`通过 ${pass} 项, 失败 ${fail} 项`);

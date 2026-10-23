@@ -78,7 +78,7 @@ def build():
     agg = defaultdict(list)
     for n in notices:
         c = n.get("competition")
-        if not c:
+        if not c or not n.get('date'):
             continue
         agg[c].append((int(n["date"][:4]), int(n["date"][5:7]), n["date"], n["title"]))
 
@@ -132,6 +132,8 @@ def build():
     # 全校节奏
     allm = defaultdict(int)
     for n in notices:
+        if not n.get('date'):
+            continue
         allm[int(n["date"][5:7])] += 1
 
     return out, allm

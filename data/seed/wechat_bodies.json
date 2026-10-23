@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "count": 1,
+  "items": [
+    {
+      "url": "https://mp.weixin.qq.com/s/jVsm8RDi8M56l8mu3TbP6g",
+      "status": "failed",
+      "sourceKind": "wechat_article",
+      "error": "verification_required",
+      "attemptedAt": "2026-10-23T08:25:37.426600+00:00"
+    }
+  ]
+}

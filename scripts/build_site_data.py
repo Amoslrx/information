@@ -13,6 +13,13 @@ import json
 import os
 import re
 from datetime import datetime
+from notice_fields import rules, safe_deadline, validate_model, fact
+from notice_evidence import enrich, load_resources
+from notice_editions import associate, TZ
+from notice_display import prepare_display
+from notice_diagnostics import report, LABELS
+from notice_identity import identity_sources
+from notice_hints import resource_hints
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEED = os.path.join(ROOT, "data", "seed")
@@ -190,27 +197,84 @@ def load_competitions():
 def load_deadlines():
     """报名截止时间(从通知正文提取, 见 scripts/extract_deadlines.py)。
 
-    只取分数 >= min_score 的 —— 分数低说明上下文不足以确认那是"报名截止",
-    宁可没有, 也不能给错的截止时间。
+    只取可核对原文、类型明确、没有日期歧义或冲突的报名事件。
     """
-    path = os.path.join(SEED, "deadlines.json")
-    if not os.path.exists(path):
-        return {}, 4
-    with open(path, encoding="utf-8") as f:
-        d = json.load(f)
-    ms = d.get("min_score", 4)
+    # Revalidate from evidence instead of trusting legacy score-only files.
     out = {}
-    for r in d.get("items", []):
-        if r.get("deadline") and r.get("score", 0) >= ms:
-            out[r["url"]] = {"deadline": r["deadline"], "score": r["score"]}
-    return out, ms
+    for url, body in load_bodies().items():
+        event = safe_deadline(body.get("fields", {}))
+        if event:
+            out[url] = {"deadline": event["value"], "score": 4, "event": event}
+    return out, 4
 
 
 # 校内选拔/校赛 的判定词
 CAMPUS_WORDS = ("校内选拔", "校赛", "校内赛", "校决赛", "校内决赛", "校内", "校初赛")
 
 
-def load_notices(deadlines, min_score):
+def load_bodies():
+    """摘要、结构化参赛信息和原文证据；完整正文保留在抓取缓存。"""
+    path = os.path.join(SEED, "notice_bodies.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    extracted = {}
+    fields_path = os.path.join(SEED, "notice_fields.json")
+    if os.path.exists(fields_path):
+        with open(fields_path, encoding="utf-8") as f:
+            extracted = {r["url"]: r for r in json.load(f).get("items", [])}
+    out = {}
+    resources = load_resources(SEED)
+    for r in d.get("items", []):
+        if not r.get("url"):
+            continue
+        if r.get("error") or r.get("status", "success") != "success":
+            out[r["url"]] = {"fetchStatus": r.get('status') if r.get('status') in {'failed', 'empty'} else 'failed',
+                             "fetchError": r.get('error', ''), "fetchedAt": r.get('fetchedAt')}
+            continue
+        r = enrich(r, resources)
+        structured = rules(r)
+        saved = extracted.get(r["url"], {})
+        if saved.get("contentHash") == r.get("contentHash") and saved.get("fields"):
+            try:
+                structured = validate_model(saved["fields"], r)
+            except (ValueError, TypeError, KeyError, AttributeError):
+                pass  # Revert to current rule evidence if a saved model result is invalid.
+        links = []
+        for entry in structured["registrationLinks"]:
+            if entry["verification"] == "source_matched":
+                links.append({"url": entry["value"], "text": entry["raw"][:60], "kind": "form", "evidence": entry})
+        for lk in r.get("attachments") or []:
+            u = lk.get("url") or ""
+            if not re.match(r"^https?://", u, re.I): continue
+            links.append({
+                "url": u,
+                "text": (lk.get("text") or u)[:60],
+                "kind": "file",
+                "evidence": fact(u, lk.get("text") or u, r, {"type": "link", "url": u}),
+            })
+        raw = r.get("body", "")[:480]
+        out[r["url"]] = {
+            "fetchStatus": "success" if r.get('body', '').strip() else "empty",
+            "fetchError": "", "fetchedAt": r.get('fetchedAt'),
+            "identitySources": identity_sources(r),
+            "noticeReferences": [fact(l['url'], l.get('text') or l['url'], r, {'type': 'link', 'url': l['url']})
+                                 for l in r.get('links', []) if l.get('kind') != 'file'],
+            "resourceHints": resource_hints(r),
+            "excerpt": raw + ("…" if len(r.get("body", "")) > 480 else ""),
+            "excerptEvidence": fact(raw, raw, r, {"type": "body", "start": 0, "end": len(raw)}) if raw else None,
+            "links": links[:4], "fields": structured,
+            "resources": [{"id": a["id"], "url": a["url"], "kind": a["kind"], "name": a.get("name", ""),
+                           "status": a["status"], "error": a.get("error", ""),
+                           "images": [{k: i.get(k) for k in ("page", "previewUrl", "ocrStatus", "qrStatus")}
+                                      for i in a.get("images", [])]} for a in r.get("resources", [])],
+        }
+    return out
+
+
+def load_notices(deadlines, min_score=4):
+    bodies = load_bodies()
     path = os.path.join(SEED, "notices.json")
     if not os.path.exists(path):
         return [], {}
@@ -218,7 +282,9 @@ def load_notices(deadlines, min_score):
         d = json.load(f)
     items = []
     for n in d["items"]:
-        dl = deadlines.get(n["url"])
+        fields = bodies.get(n["url"], {}).get("fields", {})
+        event = safe_deadline(fields)
+        dl = {"deadline": event["value"], "score": 4} if event else None
         cat, group = classify_notice(n["title"])
         items.append({
             "title": n["title"],
@@ -227,12 +293,17 @@ def load_notices(deadlines, min_score):
             "competition": n.get("competition") or "",
             "moeNo": int(n["moe_no"]) if str(n.get("moe_no") or "").isdigit() else None,
             "site": n.get("site") or "",
+            "sourceLabel": n.get("sourceLabel") or n.get("site") or "",
+            "dateUnavailableReason": n.get('dateUnavailableReason') or ('原页未提取到明确发布时间' if not n['date'] else ''),
             "isCompetition": bool(n.get("is_competition", True)),
             "isCampus": any(w in n["title"] for w in CAMPUS_WORDS),
             "deadline": dl["deadline"] if dl else "",
             "deadlineScore": dl["score"] if dl else 0,
+            "deadlineEvent": event,
             "cat": cat,
             "group": group,
+            "fetchStatus": "pending", "fetchError": "",
+            **bodies.get(n["url"], {}),
         })
     return items, d.get("source", {})
 
@@ -268,13 +339,19 @@ def main():
     wx, wx_stat = load_wechat()
 
     # 今天(用于判断"报名中")
-    today = datetime.now().strftime("%Y-%m-%d")
+    now = datetime.now(TZ)
+    today = now.strftime("%Y-%m-%d")
 
     # 竞赛名 -> 通知列表
-    by_name = {}
-    for n in notices:
-        if n["competition"]:
-            by_name.setdefault(n["competition"], []).append(n)
+    by_name = associate(notices, comps, now)
+    prepare_display(notices, comps)
+    missing_report = report(comps, now.year)
+    bodies_path = os.path.join(SEED, 'notice_bodies.json')
+    if os.path.exists(bodies_path):
+        with open(bodies_path, encoding='utf-8') as f:
+            plan = json.load(f).get('crawlPlan', {})
+        missing_report['crawlTargets'] = {'policy': plan.get('policy'), 'yearHint': plan.get('yearHint'),
+                                         'total': len(plan.get('targets', [])), 'byStatus': plan.get('byStatus', {})}
 
     import datetime as _dt
 
@@ -292,20 +369,18 @@ def main():
         c["noticeCount"] = len(rel)
         c["latestNotice"] = rel[0] if rel else None
         c["campusNoticeCount"] = sum(1 for n in rel if n["isCampus"])
-        # 报名中: 取该竞赛**所有**通知里最晚的一个未过期截止时间
-        opens = [n for n in rel if n["deadline"] and n["deadline"] >= today]
-        opens.sort(key=lambda x: x["deadline"])
-        c["openDeadline"] = opens[0]["deadline"] if opens else ""
-        c["openNoticeUrl"] = opens[0]["url"] if opens else ""
-        c["isOpen"] = bool(opens)
+        # Only confirmed nodes in this year's edition may affect card registration state.
+        next_deadline = c["registration"]["nextDeadline"]
+        c["openDeadline"] = next_deadline["event"]["value"] if next_deadline else ""
+        c["openNoticeUrl"] = next_deadline["noticeUrl"] if next_deadline else ""
+        c["isOpen"] = c["registration"]["status"] == "open"
 
-        # 校内选拔中: 近 SELECT_WINDOW 天内有"校内选拔/校赛"类通知, 且该通知的
-        # 截止时间还没过(或没提取到截止时间)。国家赛官网还没开放报名时,
-        # 校内选拔往往已经在跑了, 所以这一路也要算作"可以报名"。
+        # 只有原文证据确认报名尚未截止，才将校内选拔标成当前可报名。
+        open_urls = {node["noticeUrl"] for node in c["registration"]["openNodes"]} if c["isOpen"] else set()
         cands = [n for n in rel
                  if n["isCampus"]
-                 and days_ago(n["date"]) <= SELECT_WINDOW
-                 and (not n["deadline"] or n["deadline"] >= today)]
+                 and 0 <= days_ago(n["date"]) <= SELECT_WINDOW
+                 and n["url"] in open_urls]
         c["isSelecting"] = bool(cands)
         c["selectNotice"] = cands[0] if cands else None
         # 站点上"可报名"= 有未过期截止时间, 或正在校内选拔
@@ -337,7 +412,7 @@ def main():
     for n in notices:
         notice_cat[n["cat"]] = notice_cat.get(n["cat"], 0) + 1
         notice_group[n["group"]] = notice_group.get(n["group"], 0) + 1
-    dates = [n["date"] for n in notices]
+    dates = [n["date"] for n in notices if n.get('date')]
     site_counts = {}
     for n in notices:
         s = n.get("site") or "?"
@@ -364,10 +439,11 @@ def main():
         "crawledPages": sum(int(s.get("pages_crawled_cap", 0))
                             for s in nsrc.get("sites", [])),
         "bySite": site_counts,
+        "informationCoverage": {k: v for k, v in missing_report.items() if k != 'competitions'},
     }
 
     payload = {
-        "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "generatedAt": now.strftime("%Y-%m-%d %H:%M"),
         "stats": stats,
         "competitions": comps,
         "notices": notices,
@@ -401,14 +477,16 @@ def main():
             "只代表这两份名单里没有。",
             "C 类认定会随学校文件、学科竞赛排行榜及竞赛影响力动态调整, 以学院最新通知为准。",
             "电气相关度为 AI 初判, 需人工复核(改 data/curated/ee_relevance.json)。",
-            "报名截止时间从通知正文按上下文打分提取, 只保留高置信度的; 标「校内选拔中」的依据是"
-            "近 120 天内的校内选拔类通知, 不等于国家赛官网已开放报名。",
+            "报名状态只依据本届有原文证据、无歧义的报名节点，保留具体时刻。届次不明的通知单独保留，"
+            "不并入本届；延期仅更新明确对应的赛道、阶段和节点，历史值及变更原文可查看。",
             "通知标题与竞赛的关联为关键词自动匹配, 可能有误。",
             "年度节律是从历史通知统计推断的窗口, 不是官方赛程。",
         ],
     }
 
     os.makedirs(SITE, exist_ok=True)
+    with open(os.path.join(SITE, 'missing-report.json'), 'w', encoding='utf-8') as f:
+        json.dump(missing_report, f, ensure_ascii=False, indent=2)
     body = json.dumps(payload, ensure_ascii=False, indent=1)
     with open(DST, "w", encoding="utf-8") as f:
         f.write("// 由 scripts/build_site_data.py 自动生成, 请勿手工编辑\n")
@@ -422,6 +500,9 @@ def main():
     print("节律 : %d 个竞赛可推断年度窗口" % len(cadence))
     print("常用网站: %d 个链接, %d 个分类" % (len(links), len(cat_order)))
     print("相关度分布: %s" % dict(sorted(ee_dist.items())))
+    print("卡片主要原因（每张卡片只计一次）: %s" %
+          {LABELS[k]: v for k, v in missing_report['primaryCounts'].items()})
+    print("本届正文覆盖: %s" % missing_report['currentCoverage'])
     print("written: %s (%.0f KB)" % (DST, os.path.getsize(DST) / 1024.0))
 
 

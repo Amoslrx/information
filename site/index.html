@@ -213,7 +213,7 @@
     <h2 class="view-title" id="noticeTitle">全部通知</h2>
     <div class="toolbar">
       <div class="search-row">
-        <input id="nq" type="search" placeholder="搜索通知标题…" autocomplete="off">
+        <input id="nq" type="search" placeholder="搜索通知标题、摘要、联系人…" autocomplete="off">
         <button id="nqClear" class="btn-ghost" title="清空" hidden>✕</button>
       </div>
       <div class="filter-row">
@@ -357,6 +357,10 @@
 
       <h2>必须知道的数据缺陷</h2>
       <ul id="caveatList"></ul>
+
+      <h2>信息覆盖与缺失原因</h2>
+      <div id="coverageSummary"></div>
+      <p><a href="missing-report.json" target="_blank" rel="noopener">查看逐竞赛缺失原因报告（JSON） ↗</a></p>
 
       <h2>数据来源</h2>
       <ul id="sourceList"></ul>

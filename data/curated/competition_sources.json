@@ -1,0 +1,180 @@
+{
+  "scope": "学校A类、B类及电气学院C类；公开通知与组织线索分开记录",
+  "sources": [
+    {
+      "key": "jwc_jsdc",
+      "label": "教务处 · 竞赛大创",
+      "site": "教务处",
+      "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
+      "max_pages": 5
+    },
+    {
+      "key": "jwc_dcxm",
+      "label": "教务处 · 大创项目",
+      "site": "教务处",
+      "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/dcxm.htm",
+      "max_pages": 3,
+      "seeds": [
+        "https://jwc.xjtu.edu.cn/info/1173/6636.htm"
+      ]
+    },
+    {
+      "key": "gs_competitions",
+      "label": "研究生院 · 实践竞赛",
+      "site": "研究生院",
+      "url": "https://gs.xjtu.edu.cn/pygz/sjjs.htm",
+      "max_pages": 5,
+      "seeds": [
+        "https://gs.xjtu.edu.cn/info/1179/11500.htm",
+        "https://gs.xjtu.edu.cn/info/1146/11361.htm"
+      ]
+    },
+    {
+      "key": "epe_competitions",
+      "label": "能动学院 · 科创竞赛",
+      "site": "能动学院",
+      "url": "https://epe.xjtu.edu.cn/szgz/kcjs.htm",
+      "max_pages": 3,
+      "seeds": [
+        "https://epe.xjtu.edu.cn/info/1483/5341.htm"
+      ]
+    },
+    {
+      "key": "epe_notices",
+      "label": "能动学院 · 通知公告",
+      "site": "能动学院",
+      "url": "https://epe.xjtu.edu.cn/index/tzgg.htm",
+      "max_pages": 3
+    },
+    {
+      "key": "pec_projects",
+      "label": "实践教学中心 · 大创项目与自主实践团队",
+      "site": "实践教学中心",
+      "url": "https://pec.xjtu.edu.cn/cxcy/dcxm.htm",
+      "max_pages": 4,
+      "seeds": [
+        "https://pec.xjtu.edu.cn/info/1188/5161.htm",
+        "https://pec.xjtu.edu.cn/info/1153/2571.htm"
+      ]
+    },
+    {
+      "key": "robomaster",
+      "label": "RoboMaster · 官方公告",
+      "site": "RoboMaster官网",
+      "url": "https://www.robomaster.com/zh-CN/resource/announcement/competition",
+      "max_pages": 1,
+      "article_pattern": "/resource/pages/announcement/\\d+",
+      "competition_hint": "Robomasters全国大学生机器人大赛",
+      "seeds": []
+    },
+    {
+      "key": "robocon",
+      "label": "ROBOCON · 赛事官网",
+      "site": "ROBOCON官网",
+      "url": "https://www.robocon.org.cn/",
+      "max_pages": 2,
+      "article_pattern": "/sys-nd/\\d+\\.html",
+      "competition_hint": "全国大学生机器人大赛"
+    },
+    {
+      "key": "robocon_team",
+      "label": "ROBOCON · 校队招新汇编",
+      "site": "ROBOCON组委会",
+      "url": "https://www.cnrobocon.net/",
+      "max_pages": 1,
+      "article_pattern": "/sys-nd/\\d+\\.html",
+      "keywords": "西安交通|西交|招新|招募",
+      "seeds": [
+        "https://www.cnrobocon.net/sys-nd/465.html",
+        "https://www.cnrobocon.net/sys-nd/645.html"
+      ]
+    },
+    {
+      "key": "robocup",
+      "label": "RoboCup · 全国赛事通知",
+      "site": "中国机器人大赛组委会",
+      "url": "https://rcccaa.drct-caa.org.cn/article_list.php?xiao=19",
+      "max_pages": 3,
+      "article_pattern": "/article_info\\.php\\?id=\\d+",
+      "competition_hint": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛"
+    },
+    {
+      "key": "ces",
+      "label": "中国电工技术学会 · 通知公告",
+      "site": "中国电工技术学会",
+      "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
+      "max_pages": 3,
+      "article_pattern": "/(?:xhtml|html)/report/[^/]+\\.htm",
+      "keywords": "高电压|等离子体|电气电子工程创新",
+      "seeds": [
+        "https://www.ces.org.cn/xhtml/report/250112528-1.htm",
+        "https://ces.org.cn/html/report/25040619-1.htm"
+      ]
+    },
+    {
+      "key": "electrical_modeling",
+      "label": "电工数学建模 · 通知公告",
+      "site": "电工数学建模赛事官网",
+      "url": "https://shumo.neepu.edu.cn/tzgg.htm",
+      "max_pages": 3,
+      "competition_hint": "全国大学生电工数学建模竞赛"
+    },
+    {
+      "key": "medical_teaching",
+      "label": "医学部人才培养处 · 教学动态",
+      "site": "医学部人才培养处",
+      "url": "https://yxbpyc.xjtu.edu.cn/jxdt.htm",
+      "max_pages": 3,
+      "keywords": "临床.*(?:技能|竞赛)|技能.*竞赛"
+    },
+    {
+      "key": "medical_hospital",
+      "label": "二附院 · 临床技能选拔线索",
+      "site": "西交二附院",
+      "url": "https://xjefy.cn/defsyy/yxjy/bksjy.htm",
+      "max_pages": 3,
+      "keywords": "临床.*技能|技能.*竞赛",
+      "seeds": [
+        "https://xjefy.cn/defsyy/info/5881/260321.htm"
+      ]
+    },
+    {
+      "key": "xjtu_news_teams",
+      "label": "西交新闻网 · 竞赛与队伍线索",
+      "site": "西交新闻网",
+      "url": "https://news.xjtu.edu.cn/",
+      "max_pages": 1,
+      "keywords": "航模|航空航天模型|RoboMaster|ROBOCON|高电压|等离子体|青少年科技创新",
+      "seeds": [
+        "https://news.xjtu.edu.cn/info/1033/201827.htm",
+        "https://news.xjtu.edu.cn/info/1114/53673.htm",
+        "https://news.xjtu.edu.cn/info/1002/234368.htm"
+      ]
+    },
+    {
+      "key": "acm_vjudge",
+      "label": "西交ACM校队 · VJudge选拔",
+      "site": "西交ACM校队（VJudge）",
+      "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
+      "max_pages": 1,
+      "article_pattern": "/contest/\\d+",
+      "competition_hint": "ACM-ICPC 国际大学生程序设计竞赛"
+    },
+    {
+      "key": "acm_luogu",
+      "label": "西交ACM校队 · 洛谷同步赛",
+      "site": "西交ACM校队（洛谷）",
+      "url": "https://www.luogu.com.cn/contest/314922",
+      "max_pages": 1,
+      "article_pattern": "/contest/\\d+",
+      "competition_hint": "ACM-ICPC 国际大学生程序设计竞赛"
+    },
+    {
+      "key": "pec_teams",
+      "label": "实践教学中心 · 自主实践",
+      "site": "实践教学中心",
+      "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
+      "max_pages": 2
+    }
+  ]
+}

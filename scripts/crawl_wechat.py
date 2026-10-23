@@ -66,6 +66,16 @@ QUERIES = [
     "西安交通大学电气学院 活动预告",
 ]
 
+def account_queries():
+    """账号名称是检索线索，不代表搜索命中已核实为该账号。"""
+    path = os.path.join(ROOT, "data", "curated", "wechat_accounts.json")
+    with open(path, encoding="utf-8") as f:
+        accounts = json.load(f)["accounts"]
+    return [name + " " + topic for name in accounts for topic in ("竞赛", "招募")]
+
+
+QUERIES = list(dict.fromkeys(QUERIES + account_queries()))
+
 CTX = ssl.create_default_context()
 CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE

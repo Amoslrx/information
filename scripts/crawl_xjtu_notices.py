@@ -17,6 +17,7 @@ robots.txt 实测: pec / ee / jwc 均返回 404(未禁止)。只抓通知列表�
 
 输出: data/seed/notices.json
 """
+import argparse
 import csv
 import gzip
 import html as htmllib
@@ -28,6 +29,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from competition_sources import crawl as crawl_extended
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEED = os.path.join(ROOT, "data", "seed")
@@ -47,6 +49,9 @@ HEADERS = {
 CTX = ssl.create_default_context()
 CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
+
+with open(os.path.join(ROOT, 'data', 'curated', 'competition_sources.json'), encoding='utf-8') as _f:
+    EXTRA_SOURCES = json.load(_f)['sources']
 
 
 # ---------------------------------------------------------------- 源配置
@@ -86,10 +91,7 @@ SOURCES = [
             r'<span>\s*(\d{4}-\d{2}-\d{2})\s*</span>\s*'
             r'<h3>(.*?)</h3>', re.S),
         "order": ("url", "date", "title"),
-        # 实测: 前 10 页 100 条里竞赛相关 0 条 —— 这个栏目实际是行政通知
-        # (转专业、推免实施细则、直博生确认、选课计划)。竞赛内容不在官网,
-        # 学院主要通过公众号发布。所以只保留 3 页做兜底, 靠 is_competition
-        # 过滤在页面上屏蔽噪声。
+        # 总栏目不能替代本科生、研究生子栏目；竞赛通知也发布在学院官网。
         "max_pages": 3,
     },
     {
@@ -106,6 +108,14 @@ SOURCES = [
         "max_pages": 5,
     },
 ]
+
+# 学院子栏目含电赛招募及 C 类赛事通知。沿实际“下页”链接翻页，
+# CMS 的数字文件名通常倒序，不能把 /2.htm 当作第二页。
+for _key, _label, _pages in [('bks', '本科生', 5), ('yjs', '研究生', 5)]:
+    SOURCES.append({
+        **SOURCES[1], 'key': 'ee_' + _key, 'label': '电气学院 · ' + _label,
+        'base': 'https://ee.xjtu.edu.cn/jzxx/' + _key, 'max_pages': _pages,
+    })
 
 # 教务处「教学通知」下的子栏目 —— 模板与主栏目一致, 复用同一个解析器即可。
 # 这些子栏目和站点的 5 大类直接对应, 比主栏目的混合流干净得多:
@@ -135,8 +145,6 @@ for _key, _label, _pages in [("ksap", "考试安排", 6), ("jsap", "竞赛安排
 # 实测过但未纳入的源(记录原因, 免得以后重复调研):
 SKIPPED = {
     "ee.xjtu.edu.cn/dtgh/txgz.htm": "电气学院·团学工作, 内容是党团活动(团组织生活会、党支部大会), 非竞赛; 且为图片卡片结构",
-    "news.xjtu.edu.cn": "图文新闻门户, 列表项无日期, 内容以新闻报道而非通知为主, 信号弱",
-    "gs.xjtu.edu.cn": "研究生院, 首页以招生/培养通知为主(录取通知书、导师培训), 与本科竞赛关系弱",
     "xsc.xjtu.edu.cn": ("学生处, 已实测可抓但模板与现有解析器不同(日期为 <b>25</b><i>2026/06</i> 拆开), "
                         "待接入。栏目: xgdt/tzgg.htm 通知公告 / szzc/ztjy.htm 思政之窗 / szzc/znjh.htm 综能计划"),
     "tyzx.xjtu.edu.cn": ("体育中心, 已实测可抓但日期只有 MM/DD 没有年份, 需要按抓取时间推断, "
@@ -256,8 +264,12 @@ def crawl_api_source(src, stats):
 def crawl_source(src, stats):
     """爬一个源的前 max_pages 页, 返回通知列表。"""
     out = []
+    url = src['page_url'](1, src['base'])
+    visited = set()
     for n in range(1, src["max_pages"] + 1):
-        url = src["page_url"](n, src["base"])
+        if url in visited:
+            break
+        visited.add(url)
         try:
             status, text = fetch(url)
         except Exception as e:
@@ -284,7 +296,21 @@ def crawl_source(src, stats):
         stats[src["key"]] = stats.get(src["key"], 0) + len(hits)
         print("    [%s] 第 %2d 页: %d 条 (源累计 %d)" % (src["key"], n, len(hits), len(out)))
         time.sleep(DELAY)
+        next_url = next_page(text, url)
+        if not next_url:
+            break
+        url = next_url
     return out
+
+
+def next_page(text, page_url):
+    for href, label in re.findall(r'<a\b[^>]*href=[\"\x27]([^\"\x27]+)[\"\x27][^>]*>(.*?)</a>', text, re.S | re.I):
+        if clean_title(label) not in ('下页', '下一页'):
+            continue
+        target = urllib.parse.urljoin(page_url, htmllib.unescape(href))
+        if urllib.parse.urlparse(target).netloc == urllib.parse.urlparse(page_url).netloc:
+            return target
+    return None
 
 
 # ---------------------------------------------------------------- 相关性分类
@@ -294,7 +320,7 @@ COMPETITION_WORDS = [
     "竞赛", "大赛", "挑战杯", "选拔赛", "报名", "参赛", "创新创业", "创新大赛",
     "学科竞赛", "科技竞赛", "擂台", "赛区", "杯赛", "初赛", "复赛", "决赛",
     "校赛", "省赛", "国赛", "获奖", "佳绩", "夺冠", "特等奖", "一等奖", "二等奖",
-    "三等奖", "金奖", "银奖", "晋级", "训练营", "集训", "战队",
+    "三等奖", "金奖", "银奖", "晋级", "训练营", "集训", "战队", "电赛",
 ]
 
 
@@ -349,6 +375,23 @@ def load_competition_keywords():
 
 def match_notice(title, idx):
     t = re.sub(r"[“”\"'（）()·\-\s]", "", title)
+    aliases = [
+        (r'电赛.*(?:招募|报名|培训|选拔)', '全国大学生电子设计竞赛', '电赛'),
+        (r'蓝桥杯.*(?:大赛|竞赛)', '蓝桥杯全国软件和信息技术专业人才大赛', '蓝桥杯'),
+        (r'节能减排.*竞赛', '全国大学生节能减排社会实践与科技竞赛', '节能减排'),
+        (r'robomasters?', 'Robomasters全国大学生机器人大赛', 'RoboMaster'),
+        (r'robocon', '全国大学生机器人大赛', 'ROBOCON'),
+        (r'robocup|中国机器人大赛', '中国机器人大赛暨 RoboCup 机器人世界杯中国赛', 'RoboCup'),
+        (r'(?:ACM|ICPC|程序设计竞赛校赛)', 'ACM-ICPC 国际大学生程序设计竞赛', 'ACM/ICPC'),
+        (r'研究生.*(?:竞赛|大赛)', '“全国研究生创新实践系列活动”主题赛事', '研究生主题赛'),
+        (r'高电压与等离子体.*竞赛', '电工技术学会高压等离子体竞赛', '高电压与等离子体'),
+        (r'(?:创新创业训练|大创).*年会|年会.*(?:推荐|展示)', '全国大学生创新创业训练计划年会展示', '大创年会'),
+    ]
+    for pattern, target, alias in aliases:
+        if re.search(pattern, t, re.I):
+            for kw, name, no in idx:
+                if name == target:
+                    return name, no, alias
     for kw, name, no in idx:
         if kw in t:
             return name, no, kw
@@ -367,18 +410,55 @@ def load_existing():
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--source', action='append', help='仅更新指定源，可重复；不删除其他源历史')
+    ap.add_argument('--extended-only', action='store_true', help='仅更新A/B/电气C补充来源')
+    ap.add_argument('--rematch-only', action='store_true', help='不联网，重算关联与统计')
+    args = ap.parse_args()
+    known = {s['key'] for s in SOURCES + API_SOURCES + EXTRA_SOURCES}
+    if args.source and set(args.source) - known:
+        ap.error('未知来源: ' + ', '.join(set(args.source) - known))
     existing = load_existing()
     print("已有记录: %d 条(将按 URL 合并, 不丢历史)" % len(existing))
 
     fresh = []
     stats = {}
     for src in SOURCES:
+        if args.extended_only or args.rematch_only:
+            continue
+        if args.source and src['key'] not in args.source:
+            continue
         print("\n=== %s (%s) ===" % (src["label"], src["key"]))
         fresh.extend(crawl_source(src, stats))
 
     for src in API_SOURCES:
+        if args.extended_only or args.rematch_only:
+            continue
+        if args.source and src['key'] not in args.source:
+            continue
         print("\n=== %s (%s) ===" % (src["label"], src["key"]))
         fresh.extend(crawl_api_source(src, stats))
+
+    status_path = os.path.join(SEED, 'source_status.json')
+    statuses = {}
+    if os.path.exists(status_path):
+        with open(status_path, encoding='utf-8') as f:
+            statuses = {s['key']: s for s in json.load(f)['sources']}
+    for src in EXTRA_SOURCES:
+        if args.rematch_only:
+            continue
+        if args.source and src['key'] not in args.source:
+            continue
+        print('\n=== %s (%s) ===' % (src['label'], src['key']), flush=True)
+        rows, status = crawl_extended(src, fetch, next_page, lambda: time.sleep(DELAY))
+        for row in rows:
+            if src.get('competition_hint'):
+                row['competition_hint'] = src['competition_hint']
+        fresh.extend(rows)
+        statuses[src['key']] = status
+        with open(status_path, 'w', encoding='utf-8') as f:
+            json.dump({'sources': list(statuses.values())}, f, ensure_ascii=False, indent=2)
+        print('    %s: %d 条, %d 个错误' % (status['state'], len(rows), len(status['errors'])), flush=True)
 
     # ---- 按 URL 合并: 新抓的覆盖旧的(标题可能被修正) ----
     merged = {}
@@ -399,6 +479,8 @@ def main():
     items = list(merged.values())
     for n in items:
         cname, cno, kw = match_notice(n["title"], idx)
+        if not cname and n.get('competition_hint') in {x[1] for x in idx}:
+            cname = n['competition_hint']
         n["competition"] = cname or ""
         n["moe_no"] = cno or ""
         n["matched_keyword"] = kw or ""
@@ -420,11 +502,13 @@ def main():
         "source": {
             "title": "西安交通大学 · 竞赛相关通知(多源聚合)",
             "sites": [{"key": s["key"], "label": s["label"], "base": s["base"],
-                       "pages_crawled_cap": s["max_pages"]} for s in SOURCES],
+                       "pages_crawled_cap": s["max_pages"]} for s in SOURCES] +
+                     [{"key": s['key'], "label": s['label'], "base": s['url'],
+                       "pages_crawled_cap": s.get('max_pages', 1)} for s in EXTRA_SOURCES],
             "skipped": SKIPPED,
             "crawler": "scripts/crawl_xjtu_notices.py",
-            "note": ("只抓各源前 N 页的通知列表(不抓正文), 与历史记录按 URL 合并累积; "
-                     "robots.txt 实测均为 404 未禁止"),
+            "note": ("抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。"
+                     "补充来源实抓状态见 source_status.json。"),
         },
         "schema_version": 2,
         "count": len(items),

@@ -7,22 +7,71 @@
     "coverage_threshold": 0.6
   },
   "schema_version": 1,
-  "count": 41,
+  "count": 48,
   "monthHistogram": {
-    "1": 62,
-    "2": 35,
-    "3": 234,
-    "4": 275,
-    "5": 248,
-    "6": 136,
-    "7": 83,
-    "8": 84,
-    "9": 175,
-    "10": 157,
-    "11": 127,
-    "12": 115
+    "1": 71,
+    "2": 40,
+    "3": 298,
+    "4": 333,
+    "5": 306,
+    "6": 199,
+    "7": 148,
+    "8": 96,
+    "9": 213,
+    "10": 179,
+    "11": 139,
+    "12": 147
   },
   "items": [
+    {
+      "competition": "全国大学生节能减排社会实践与科技竞赛",
+      "ee": 5,
+      "xjtuCat": "A类",
+      "url": "http://www.jienengjianpai.org/",
+      "dept": "团委",
+      "yearsObserved": 11,
+      "years": [
+        2012,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2025,
+        2026
+      ],
+      "noticeCount": 26,
+      "months": {
+        "2": 1,
+        "3": 11,
+        "4": 4,
+        "5": 9,
+        "6": 1
+      },
+      "stableMonths": [
+        3,
+        4,
+        5
+      ],
+      "windowStart": 3,
+      "windowEnd": 5,
+      "windowLabel": "三月–五月",
+      "coverage": 0.923,
+      "confidence": "high",
+      "evidence": [
+        "2026-03-16",
+        "2025-05-16",
+        "2023-05-10",
+        "2023-03-23",
+        "2023-03-22",
+        "2022-05-09",
+        "2022-05-03",
+        "2022-05-02"
+      ]
+    },
     {
       "competition": "全国大学生数学建模竞赛",
       "ee": 5,
@@ -138,13 +187,14 @@
         2025,
         2026
       ],
-      "noticeCount": 16,
+      "noticeCount": 20,
       "months": {
-        "1": 3,
-        "3": 2,
+        "1": 4,
+        "3": 4,
         "4": 5,
         "5": 2,
         "7": 1,
+        "9": 1,
         "11": 1,
         "12": 2
       },
@@ -155,60 +205,17 @@
       "windowStart": 1,
       "windowEnd": 4,
       "windowLabel": "一月–四月",
-      "coverage": 0.625,
+      "coverage": 0.65,
       "confidence": "high",
       "evidence": [
+        "2026-09-18",
         "2026-03-17",
         "2026-03-10",
         "2026-01-23",
         "2026-01-13",
         "2025-12-30",
         "2025-12-18",
-        "2025-11-26",
-        "2025-04-17"
-      ]
-    },
-    {
-      "competition": "全国大学生节能减排社会实践与科技竞赛",
-      "ee": 5,
-      "xjtuCat": "A类",
-      "url": "http://www.jienengjianpai.org/",
-      "dept": "团委",
-      "yearsObserved": 6,
-      "years": [
-        2012,
-        2018,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "noticeCount": 15,
-      "months": {
-        "2": 1,
-        "3": 6,
-        "4": 3,
-        "5": 5
-      },
-      "stableMonths": [
-        3,
-        4,
-        5
-      ],
-      "windowStart": 3,
-      "windowEnd": 4,
-      "windowLabel": "三月–四月",
-      "coverage": 0.6,
-      "confidence": "high",
-      "evidence": [
-        "2023-05-10",
-        "2023-03-23",
-        "2023-03-22",
-        "2022-05-09",
-        "2022-05-03",
-        "2022-05-02",
-        "2022-03-23",
-        "2021-04-21"
+        "2025-11-26"
       ]
     },
     {
@@ -225,9 +232,9 @@
         2025,
         2026
       ],
-      "noticeCount": 9,
+      "noticeCount": 10,
       "months": {
-        "3": 2,
+        "3": 3,
         "5": 1,
         "7": 1,
         "9": 3,
@@ -240,7 +247,7 @@
       "windowStart": 7,
       "windowEnd": 12,
       "windowLabel": "七月–十二月",
-      "coverage": 0.667,
+      "coverage": 0.6,
       "confidence": "high",
       "evidence": [
         "2026-05-21",
@@ -303,14 +310,14 @@
         2025,
         2026
       ],
-      "noticeCount": 26,
+      "noticeCount": 33,
       "months": {
         "1": 2,
         "3": 1,
-        "4": 4,
-        "5": 7,
-        "6": 7,
-        "7": 1,
+        "4": 5,
+        "5": 10,
+        "6": 9,
+        "7": 2,
         "8": 2,
         "9": 1,
         "12": 1
@@ -323,17 +330,17 @@
       "windowStart": 4,
       "windowEnd": 6,
       "windowLabel": "四月–六月",
-      "coverage": 0.692,
+      "coverage": 0.727,
       "confidence": "medium",
       "evidence": [
         "2026-08-18",
         "2026-07-31",
+        "2026-05-18",
+        "2026-05-14",
         "2026-05-08",
         "2026-04-30",
         "2026-04-17",
-        "2026-04-16",
-        "2026-03-19",
-        "2025-12-12"
+        "2026-04-16"
       ]
     },
     {
@@ -382,22 +389,27 @@
         2025,
         2026
       ],
-      "noticeCount": 3,
+      "noticeCount": 7,
       "months": {
-        "3": 1,
-        "4": 1,
-        "5": 1
+        "3": 3,
+        "4": 2,
+        "5": 2
       },
-      "stableMonths": [],
-      "windowStart": 4,
-      "windowEnd": 5,
-      "windowLabel": "四月–五月",
-      "coverage": 0.667,
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.714,
       "confidence": "low",
       "evidence": [
+        "2026-05-14",
         "2026-05-11",
         "2026-03-30",
-        "2025-04-15"
+        "2025-04-15",
+        "2025-04-12",
+        "2025-03-05"
       ]
     },
     {
@@ -414,10 +426,10 @@
         2025,
         2026
       ],
-      "noticeCount": 7,
+      "noticeCount": 8,
       "months": {
         "1": 2,
-        "3": 3,
+        "3": 4,
         "5": 1,
         "12": 1
       },
@@ -428,7 +440,7 @@
       "windowStart": 1,
       "windowEnd": 3,
       "windowLabel": "一月–三月",
-      "coverage": 0.714,
+      "coverage": 0.75,
       "confidence": "high",
       "evidence": [
         "2026-03-30",
@@ -438,6 +450,93 @@
         "2023-05-08",
         "2018-12-21",
         "2018-01-15"
+      ]
+    },
+    {
+      "competition": "Robomasters全国大学生机器人大赛",
+      "ee": 4,
+      "xjtuCat": "A类",
+      "url": "",
+      "dept": "团委",
+      "yearsObserved": 4,
+      "years": [
+        2020,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 19,
+      "months": {
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 2,
+        "10": 3,
+        "12": 2
+      },
+      "stableMonths": [
+        10,
+        12
+      ],
+      "windowStart": 6,
+      "windowEnd": 10,
+      "windowLabel": "六月–十月",
+      "coverage": 0.632,
+      "confidence": "high",
+      "evidence": [
+        "2026-09-18",
+        "2026-09-09",
+        "2026-08-17",
+        "2026-08-12",
+        "2026-08-07",
+        "2026-07-22",
+        "2026-07-01",
+        "2026-06-30"
+      ]
+    },
+    {
+      "competition": "全国大学生机器人大赛",
+      "ee": 4,
+      "xjtuCat": "A类",
+      "url": "https://www.cnrobocon.net/",
+      "dept": "工程坊",
+      "yearsObserved": 4,
+      "years": [
+        2015,
+        2023,
+        2025,
+        2026
+      ],
+      "noticeCount": 13,
+      "months": {
+        "1": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 2
+      },
+      "stableMonths": [
+        10
+      ],
+      "windowStart": 8,
+      "windowEnd": 1,
+      "windowLabel": "八月–一月",
+      "coverage": 0.615,
+      "confidence": "high",
+      "evidence": [
+        "2026-09-22",
+        "2026-08-28",
+        "2026-04-29",
+        "2026-04-03",
+        "2026-03-13",
+        "2026-01-08",
+        "2025-11-25",
+        "2025-10-27"
       ]
     },
     {
@@ -491,9 +590,9 @@
         2025,
         2026
       ],
-      "noticeCount": 2,
+      "noticeCount": 4,
       "months": {
-        "3": 2
+        "3": 4
       },
       "stableMonths": [
         3
@@ -505,34 +604,46 @@
       "confidence": "low",
       "evidence": [
         "2026-03-12",
+        "2026-03-03",
         "2025-03-05"
       ]
     },
     {
-      "competition": "全国大学生机器人大赛",
+      "competition": "中国机器人大赛暨 RoboCup 机器人世界杯中国赛",
       "ee": 4,
-      "xjtuCat": "A类",
-      "url": "https://www.cnrobocon.net/",
+      "xjtuCat": "B类",
+      "url": "http://crc.drct-caa.org.cn/",
       "dept": "工程坊",
       "yearsObserved": 2,
       "years": [
-        2015,
-        2023
+        2025,
+        2026
       ],
-      "noticeCount": 2,
+      "noticeCount": 14,
       "months": {
-        "5": 1,
-        "10": 1
+        "2": 1,
+        "3": 4,
+        "4": 5,
+        "6": 2,
+        "9": 2
       },
-      "stableMonths": [],
-      "windowStart": 5,
-      "windowEnd": 10,
-      "windowLabel": "五月–十月",
-      "coverage": 1.0,
+      "stableMonths": [
+        3
+      ],
+      "windowStart": 3,
+      "windowEnd": 4,
+      "windowLabel": "三月–四月",
+      "coverage": 0.643,
       "confidence": "low",
       "evidence": [
-        "2023-10-08",
-        "2015-05-14"
+        "2026-09-02",
+        "2026-06-17",
+        "2026-04-23",
+        "2026-04-21",
+        "2026-04-20",
+        "2026-04-13",
+        "2026-03-13",
+        "2026-03-12"
       ]
     },
     {
@@ -546,9 +657,9 @@
         2025,
         2026
       ],
-      "noticeCount": 2,
+      "noticeCount": 5,
       "months": {
-        "4": 2
+        "4": 5
       },
       "stableMonths": [
         4
@@ -559,8 +670,10 @@
       "coverage": 1.0,
       "confidence": "low",
       "evidence": [
+        "2026-04-29",
         "2026-04-28",
-        "2025-04-09"
+        "2025-04-09",
+        "2025-04-08"
       ]
     },
     {
@@ -610,12 +723,12 @@
         2025,
         2026
       ],
-      "noticeCount": 17,
+      "noticeCount": 18,
       "months": {
         "1": 1,
         "2": 1,
         "3": 6,
-        "4": 3,
+        "4": 4,
         "5": 4,
         "9": 2
       },
@@ -627,17 +740,17 @@
       "windowStart": 3,
       "windowEnd": 5,
       "windowLabel": "三月–五月",
-      "coverage": 0.765,
+      "coverage": 0.778,
       "confidence": "high",
       "evidence": [
         "2026-09-29",
         "2026-03-26",
         "2026-03-10",
+        "2025-04-08",
         "2025-03-20",
         "2024-02-26",
         "2023-03-30",
-        "2022-05-16",
-        "2022-05-05"
+        "2022-05-16"
       ]
     },
     {
@@ -656,9 +769,9 @@
         2025,
         2026
       ],
-      "noticeCount": 7,
+      "noticeCount": 8,
       "months": {
-        "3": 6,
+        "3": 7,
         "7": 1
       },
       "stableMonths": [
@@ -667,7 +780,7 @@
       "windowStart": 3,
       "windowEnd": 3,
       "windowLabel": "三月",
-      "coverage": 0.857,
+      "coverage": 0.875,
       "confidence": "high",
       "evidence": [
         "2026-03-12",
@@ -677,6 +790,46 @@
         "2022-03-30",
         "2021-03-26",
         "2020-07-08"
+      ]
+    },
+    {
+      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
+      "ee": 3,
+      "xjtuCat": "C类",
+      "url": "http://dasai.lanqiao.cn/",
+      "dept": "",
+      "yearsObserved": 6,
+      "years": [
+        2017,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "noticeCount": 9,
+      "months": {
+        "3": 1,
+        "10": 7,
+        "11": 1
+      },
+      "stableMonths": [
+        10
+      ],
+      "windowStart": 10,
+      "windowEnd": 10,
+      "windowLabel": "十月",
+      "coverage": 0.778,
+      "confidence": "high",
+      "evidence": [
+        "2025-11-21",
+        "2024-10-30",
+        "2024-10-08",
+        "2023-10-16",
+        "2022-10-25",
+        "2021-10-20",
+        "2021-03-02",
+        "2017-10-25"
       ]
     },
     {
@@ -693,9 +846,9 @@
         2025,
         2026
       ],
-      "noticeCount": 6,
+      "noticeCount": 7,
       "months": {
-        "9": 3,
+        "9": 4,
         "10": 2,
         "11": 1
       },
@@ -705,7 +858,7 @@
       "windowStart": 9,
       "windowEnd": 10,
       "windowLabel": "九月–十月",
-      "coverage": 0.833,
+      "coverage": 0.857,
       "confidence": "high",
       "evidence": [
         "2026-10-15",
@@ -713,42 +866,6 @@
         "2024-09-26",
         "2023-09-28",
         "2022-11-25"
-      ]
-    },
-    {
-      "competition": "蓝桥杯全国软件和信息技术专业人才大赛",
-      "ee": 3,
-      "xjtuCat": "C类",
-      "url": "http://dasai.lanqiao.cn/",
-      "dept": "",
-      "yearsObserved": 5,
-      "years": [
-        2017,
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "noticeCount": 6,
-      "months": {
-        "3": 1,
-        "10": 5
-      },
-      "stableMonths": [
-        10
-      ],
-      "windowStart": 10,
-      "windowEnd": 10,
-      "windowLabel": "十月",
-      "coverage": 0.833,
-      "confidence": "high",
-      "evidence": [
-        "2024-10-08",
-        "2023-10-16",
-        "2022-10-25",
-        "2021-10-20",
-        "2021-03-02",
-        "2017-10-25"
       ]
     },
     {
@@ -868,9 +985,9 @@
         2025,
         2026
       ],
-      "noticeCount": 2,
+      "noticeCount": 3,
       "months": {
-        "4": 2
+        "4": 3
       },
       "stableMonths": [
         4
@@ -911,6 +1028,33 @@
       "evidence": [
         "2026-04-16",
         "2025-04-16"
+      ]
+    },
+    {
+      "competition": "全国大学生创新创业训练计划年会展示",
+      "ee": 3,
+      "xjtuCat": "C类",
+      "url": "http://gjcxcy.bjtu.edu.cn/Index.aspx",
+      "dept": "",
+      "yearsObserved": 2,
+      "years": [
+        2020,
+        2022
+      ],
+      "noticeCount": 2,
+      "months": {
+        "4": 1,
+        "7": 1
+      },
+      "stableMonths": [],
+      "windowStart": 4,
+      "windowEnd": 7,
+      "windowLabel": "四月–七月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2022-04-20",
+        "2020-07-13"
       ]
     },
     {
@@ -962,6 +1106,60 @@
       ]
     },
     {
+      "competition": "“全国研究生创新实践系列活动”主题赛事",
+      "ee": 2,
+      "xjtuCat": "A类",
+      "url": "",
+      "dept": "研究生院",
+      "yearsObserved": 7,
+      "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "noticeCount": 54,
+      "months": {
+        "1": 1,
+        "3": 9,
+        "4": 10,
+        "5": 5,
+        "6": 17,
+        "7": 5,
+        "8": 2,
+        "9": 3,
+        "10": 1,
+        "11": 1
+      },
+      "stableMonths": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "windowStart": 3,
+      "windowEnd": 6,
+      "windowLabel": "三月–六月",
+      "coverage": 0.759,
+      "confidence": "high",
+      "evidence": [
+        "2026-09-30",
+        "2026-08-12",
+        "2026-07-01",
+        "2026-06-22",
+        "2026-06-18",
+        "2026-06-01",
+        "2026-03-28",
+        "2026-03-25"
+      ]
+    },
+    {
       "competition": "全国三维数字化创新设计大赛",
       "ee": 2,
       "xjtuCat": "未认定(待核)",
@@ -976,9 +1174,9 @@
         2025,
         2026
       ],
-      "noticeCount": 8,
+      "noticeCount": 9,
       "months": {
-        "3": 3,
+        "3": 4,
         "4": 2,
         "5": 1,
         "9": 1,
@@ -990,7 +1188,7 @@
       "windowStart": 3,
       "windowEnd": 4,
       "windowLabel": "三月–四月",
-      "coverage": 0.625,
+      "coverage": 0.667,
       "confidence": "high",
       "evidence": [
         "2026-04-23",
@@ -1051,16 +1249,16 @@
         2024,
         2026
       ],
-      "noticeCount": 2,
+      "noticeCount": 3,
       "months": {
         "3": 1,
-        "4": 1
+        "4": 2
       },
       "stableMonths": [],
-      "windowStart": 3,
+      "windowStart": 4,
       "windowEnd": 4,
-      "windowLabel": "三月–四月",
-      "coverage": 1.0,
+      "windowLabel": "四月",
+      "coverage": 0.667,
       "confidence": "low",
       "evidence": [
         "2026-03-04",
@@ -1465,6 +1663,104 @@
       "evidence": [
         "2026-03-04",
         "2024-12-25"
+      ]
+    },
+    {
+      "competition": "全国青少年科技创新大赛",
+      "ee": 1,
+      "xjtuCat": "B类",
+      "url": "",
+      "dept": "团委",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 5,
+      "months": {
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 1
+      },
+      "stableMonths": [],
+      "windowStart": 6,
+      "windowEnd": 7,
+      "windowLabel": "六月–七月",
+      "coverage": 0.6,
+      "confidence": "low",
+      "evidence": [
+        "2026-07-31",
+        "2026-05-24",
+        "2026-04-30",
+        "2025-06-19",
+        "2025-06-17"
+      ]
+    },
+    {
+      "competition": "全国大学生电工数学建模竞赛",
+      "ee": null,
+      "xjtuCat": "C类",
+      "url": "",
+      "dept": "电气学院",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 16,
+      "months": {
+        "3": 1,
+        "4": 3,
+        "5": 5,
+        "7": 7
+      },
+      "stableMonths": [
+        4,
+        5,
+        7
+      ],
+      "windowStart": 5,
+      "windowEnd": 7,
+      "windowLabel": "五月–七月",
+      "coverage": 0.75,
+      "confidence": "low",
+      "evidence": [
+        "2026-07-29",
+        "2026-07-21",
+        "2026-07-20",
+        "2026-07-18",
+        "2026-07-11",
+        "2026-05-22",
+        "2026-05-14",
+        "2026-04-27"
+      ]
+    },
+    {
+      "competition": "电工技术学会高压等离子体竞赛",
+      "ee": null,
+      "xjtuCat": "C类",
+      "url": "",
+      "dept": "电气学院",
+      "yearsObserved": 2,
+      "years": [
+        2025,
+        2026
+      ],
+      "noticeCount": 2,
+      "months": {
+        "1": 1,
+        "8": 1
+      },
+      "stableMonths": [],
+      "windowStart": 8,
+      "windowEnd": 1,
+      "windowLabel": "八月–一月",
+      "coverage": 1.0,
+      "confidence": "low",
+      "evidence": [
+        "2026-08-24",
+        "2025-01-16"
       ]
     }
   ]

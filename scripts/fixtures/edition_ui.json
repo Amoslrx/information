@@ -1,0 +1,2548 @@
+{
+  "competitions": [
+    {
+      "name": "报名演示竞赛",
+      "alias": "",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "inMoe": false,
+      "url": "",
+      "reason": "",
+      "dept": "",
+      "level": "",
+      "editions": [
+        {
+          "id": "e8052d55154ebaa5",
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "label": "2026 年",
+          "identityState": "confirmed",
+          "fields": {
+            "audiences": [
+              {
+                "value": {
+                  "value": "参赛对象：在校本科生。",
+                  "raw": "参赛对象：在校本科生。",
+                  "sourceUrl": "https://example.edu/notice/1",
+                  "location": {
+                    "type": "body",
+                    "start": 20,
+                    "end": 31
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "registrationMethods": [
+              {
+                "value": {
+                  "value": "报名方式：通过平台报名。",
+                  "raw": "报名方式：通过平台报名。",
+                  "sourceUrl": "https://example.edu/notice/1",
+                  "location": {
+                    "type": "body",
+                    "start": 32,
+                    "end": 44
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "registrationLinks": [
+              {
+                "value": {
+                  "value": "https://example.edu/register",
+                  "raw": "报名入口：https://example.edu/register",
+                  "sourceUrl": "https://example.edu/notice/1",
+                  "location": {
+                    "type": "body",
+                    "start": 45,
+                    "end": 78
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "requiredMaterials": [
+              {
+                "value": {
+                  "value": "提交材料：报名表、作品。",
+                  "raw": "提交材料：报名表、作品。",
+                  "sourceUrl": "https://example.edu/notice/1",
+                  "location": {
+                    "type": "body",
+                    "start": 79,
+                    "end": 91
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "contacts": [
+              {
+                "value": {
+                  "name": {
+                    "value": "新老师",
+                    "raw": "联系人：新老师 电话：13900139000",
+                    "sourceUrl": "https://example.edu/notice/1",
+                    "location": {
+                      "type": "body",
+                      "start": 92,
+                      "end": 114
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null
+                  },
+                  "phones": [
+                    {
+                      "value": "13900139000",
+                      "raw": "联系人：新老师 电话：13900139000",
+                      "sourceUrl": "https://example.edu/notice/1",
+                      "location": {
+                        "type": "body",
+                        "start": 92,
+                        "end": 114
+                      },
+                      "method": "rule",
+                      "verification": "source_matched",
+                      "flags": [],
+                      "trackId": null
+                    }
+                  ],
+                  "emails": [],
+                  "qq": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "groups": [
+              {
+                "value": {
+                  "kind": "qq",
+                  "number": {
+                    "value": "737707930",
+                    "raw": "QQ群：737707930",
+                    "sourceUrl": "https://example.edu/notice/1",
+                    "location": {
+                      "type": "body",
+                      "start": 115,
+                      "end": 128
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null
+                  },
+                  "images": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/1",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ]
+          },
+          "fieldStates": {
+            "audiences": "confirmed",
+            "registrationMethods": "confirmed",
+            "registrationLinks": "confirmed",
+            "requiredMaterials": "confirmed",
+            "contacts": "confirmed",
+            "groups": "confirmed"
+          },
+          "complete": true,
+          "tracks": {},
+          "timeline": [
+            {
+              "kind": "registration_deadline",
+              "trackId": null,
+              "phase": null,
+              "stage": null,
+              "entries": [
+                {
+                  "event": {
+                    "value": "2026-11-25",
+                    "raw": "报名截止延期至2026年11月25日18点。",
+                    "sourceUrl": "https://example.edu/notice/2",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 22
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": "18:00",
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月25日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/2",
+                  "date": "2026-10-02"
+                }
+              ],
+              "history": [
+                {
+                  "event": {
+                    "value": "2026-11-20",
+                    "raw": "报名截止2026年11月20日18点。",
+                    "sourceUrl": "https://example.edu/notice/1",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 19
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": "18:00",
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月20日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/1",
+                  "date": "2026-09-01"
+                }
+              ],
+              "changes": [
+                {
+                  "kind": "registration_deadline",
+                  "trackId": null,
+                  "phase": null,
+                  "stage": null,
+                  "old": [
+                    {
+                      "event": {
+                        "value": "2026-11-20",
+                        "raw": "报名截止2026年11月20日18点。",
+                        "sourceUrl": "https://example.edu/notice/1",
+                        "location": {
+                          "type": "body",
+                          "start": 0,
+                          "end": 19
+                        },
+                        "method": "rule",
+                        "verification": "source_matched",
+                        "flags": [],
+                        "trackId": null,
+                        "kind": "registration_deadline",
+                        "time": "18:00",
+                        "timezone": "Asia/Shanghai",
+                        "dateRaw": "2026年11月20日",
+                        "endDate": null,
+                        "superseded": false
+                      },
+                      "noticeUrl": "https://example.edu/notice/1",
+                      "date": "2026-09-01"
+                    }
+                  ],
+                  "new": {
+                    "event": {
+                      "value": "2026-11-25",
+                      "raw": "报名截止延期至2026年11月25日18点。",
+                      "sourceUrl": "https://example.edu/notice/2",
+                      "location": {
+                        "type": "body",
+                        "start": 0,
+                        "end": 22
+                      },
+                      "method": "rule",
+                      "verification": "needs_review",
+                      "flags": [
+                        "postponed"
+                      ],
+                      "trackId": null,
+                      "kind": "registration_deadline",
+                      "time": "18:00",
+                      "timezone": "Asia/Shanghai",
+                      "dateRaw": "2026年11月25日",
+                      "endDate": null,
+                      "superseded": false
+                    },
+                    "noticeUrl": "https://example.edu/notice/2",
+                    "date": "2026-10-02"
+                  },
+                  "evidence": {
+                    "value": "2026-11-25",
+                    "raw": "报名截止延期至2026年11月25日18点。",
+                    "sourceUrl": "https://example.edu/notice/2",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 22
+                    },
+                    "method": "rule",
+                    "verification": "needs_review",
+                    "flags": [
+                      "postponed"
+                    ],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": "18:00",
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月25日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "status": "applied"
+                }
+              ],
+              "state": "confirmed",
+              "registrationStatus": "open"
+            }
+          ],
+          "changes": [
+            {
+              "kind": "registration_deadline",
+              "trackId": null,
+              "phase": null,
+              "stage": null,
+              "old": [
+                {
+                  "event": {
+                    "value": "2026-11-20",
+                    "raw": "报名截止2026年11月20日18点。",
+                    "sourceUrl": "https://example.edu/notice/1",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 19
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": "18:00",
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月20日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/1",
+                  "date": "2026-09-01"
+                }
+              ],
+              "new": {
+                "event": {
+                  "value": "2026-11-25",
+                  "raw": "报名截止延期至2026年11月25日18点。",
+                  "sourceUrl": "https://example.edu/notice/2",
+                  "location": {
+                    "type": "body",
+                    "start": 0,
+                    "end": 22
+                  },
+                  "method": "rule",
+                  "verification": "needs_review",
+                  "flags": [
+                    "postponed"
+                  ],
+                  "trackId": null,
+                  "kind": "registration_deadline",
+                  "time": "18:00",
+                  "timezone": "Asia/Shanghai",
+                  "dateRaw": "2026年11月25日",
+                  "endDate": null,
+                  "superseded": false
+                },
+                "noticeUrl": "https://example.edu/notice/2",
+                "date": "2026-10-02"
+              },
+              "evidence": {
+                "value": "2026-11-25",
+                "raw": "报名截止延期至2026年11月25日18点。",
+                "sourceUrl": "https://example.edu/notice/2",
+                "location": {
+                  "type": "body",
+                  "start": 0,
+                  "end": 22
+                },
+                "method": "rule",
+                "verification": "needs_review",
+                "flags": [
+                  "postponed"
+                ],
+                "trackId": null,
+                "kind": "registration_deadline",
+                "time": "18:00",
+                "timezone": "Asia/Shanghai",
+                "dateRaw": "2026年11月25日",
+                "endDate": null,
+                "superseded": false
+              },
+              "status": "applied"
+            }
+          ],
+          "registration": {
+            "status": "open",
+            "deadlineState": "confirmed",
+            "openNodes": [
+              {
+                "event": {
+                  "value": "2026-11-25",
+                  "raw": "报名截止延期至2026年11月25日18点。",
+                  "sourceUrl": "https://example.edu/notice/2",
+                  "location": {
+                    "type": "body",
+                    "start": 0,
+                    "end": 22
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null,
+                  "kind": "registration_deadline",
+                  "time": "18:00",
+                  "timezone": "Asia/Shanghai",
+                  "dateRaw": "2026年11月25日",
+                  "endDate": null,
+                  "superseded": false
+                },
+                "noticeUrl": "https://example.edu/notice/2",
+                "date": "2026-10-02",
+                "trackId": null,
+                "phase": null,
+                "stage": null
+              }
+            ],
+            "nextDeadline": {
+              "event": {
+                "value": "2026-11-25",
+                "raw": "报名截止延期至2026年11月25日18点。",
+                "sourceUrl": "https://example.edu/notice/2",
+                "location": {
+                  "type": "body",
+                  "start": 0,
+                  "end": 22
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null,
+                "kind": "registration_deadline",
+                "time": "18:00",
+                "timezone": "Asia/Shanghai",
+                "dateRaw": "2026年11月25日",
+                "endDate": null,
+                "superseded": false
+              },
+              "noticeUrl": "https://example.edu/notice/2",
+              "date": "2026-10-02",
+              "trackId": null,
+              "phase": null,
+              "stage": null
+            }
+          },
+          "notices": [
+            {
+              "url": "https://example.edu/notice/2",
+              "title": "2026年报名演示竞赛延期通知",
+              "date": "2026-10-02",
+              "hasBody": true
+            },
+            {
+              "url": "https://example.edu/notice/1",
+              "title": "2026年报名演示竞赛报名通知",
+              "date": "2026-09-01",
+              "hasBody": true
+            }
+          ]
+        },
+        {
+          "id": "1b66f62587259198",
+          "year": 2025,
+          "yearEnd": 2025,
+          "edition": null,
+          "label": "2025 年",
+          "identityState": "confirmed",
+          "fields": {
+            "audiences": [],
+            "registrationMethods": [],
+            "registrationLinks": [],
+            "requiredMaterials": [],
+            "contacts": [
+              {
+                "value": {
+                  "name": {
+                    "value": "旧老师",
+                    "raw": "联系人：旧老师 电话：13800138000",
+                    "sourceUrl": "https://example.edu/notice/0",
+                    "location": {
+                      "type": "body",
+                      "start": 17,
+                      "end": 39
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null
+                  },
+                  "phones": [
+                    {
+                      "value": "13800138000",
+                      "raw": "联系人：旧老师 电话：13800138000",
+                      "sourceUrl": "https://example.edu/notice/0",
+                      "location": {
+                        "type": "body",
+                        "start": 17,
+                        "end": 39
+                      },
+                      "method": "rule",
+                      "verification": "source_matched",
+                      "flags": [],
+                      "trackId": null
+                    }
+                  ],
+                  "emails": [],
+                  "qq": [],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/0",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "groups": []
+          },
+          "fieldStates": {
+            "audiences": "not_mentioned",
+            "registrationMethods": "not_mentioned",
+            "registrationLinks": "not_mentioned",
+            "requiredMaterials": "not_mentioned",
+            "contacts": "confirmed",
+            "groups": "not_mentioned"
+          },
+          "complete": true,
+          "tracks": {},
+          "timeline": [
+            {
+              "kind": "registration_deadline",
+              "trackId": null,
+              "phase": null,
+              "stage": null,
+              "entries": [
+                {
+                  "event": {
+                    "value": "2026-12-30",
+                    "raw": "报名截止2026年12月30日。",
+                    "sourceUrl": "https://example.edu/notice/0",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 16
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": null,
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年12月30日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/0",
+                  "date": "2025-10-01"
+                }
+              ],
+              "history": [],
+              "changes": [],
+              "state": "confirmed",
+              "registrationStatus": "open"
+            }
+          ],
+          "changes": [],
+          "registration": {
+            "status": "open",
+            "deadlineState": "confirmed",
+            "openNodes": [
+              {
+                "event": {
+                  "value": "2026-12-30",
+                  "raw": "报名截止2026年12月30日。",
+                  "sourceUrl": "https://example.edu/notice/0",
+                  "location": {
+                    "type": "body",
+                    "start": 0,
+                    "end": 16
+                  },
+                  "method": "rule",
+                  "verification": "source_matched",
+                  "flags": [],
+                  "trackId": null,
+                  "kind": "registration_deadline",
+                  "time": null,
+                  "timezone": "Asia/Shanghai",
+                  "dateRaw": "2026年12月30日",
+                  "endDate": null,
+                  "superseded": false
+                },
+                "noticeUrl": "https://example.edu/notice/0",
+                "date": "2025-10-01",
+                "trackId": null,
+                "phase": null,
+                "stage": null
+              }
+            ],
+            "nextDeadline": {
+              "event": {
+                "value": "2026-12-30",
+                "raw": "报名截止2026年12月30日。",
+                "sourceUrl": "https://example.edu/notice/0",
+                "location": {
+                  "type": "body",
+                  "start": 0,
+                  "end": 16
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null,
+                "kind": "registration_deadline",
+                "time": null,
+                "timezone": "Asia/Shanghai",
+                "dateRaw": "2026年12月30日",
+                "endDate": null,
+                "superseded": false
+              },
+              "noticeUrl": "https://example.edu/notice/0",
+              "date": "2025-10-01",
+              "trackId": null,
+              "phase": null,
+              "stage": null
+            }
+          },
+          "notices": [
+            {
+              "url": "https://example.edu/notice/0",
+              "title": "2025年报名演示竞赛报名通知",
+              "date": "2025-10-01",
+              "hasBody": true
+            }
+          ]
+        }
+      ],
+      "currentEditionId": "e8052d55154ebaa5",
+      "currentEditionIds": [
+        "e8052d55154ebaa5"
+      ],
+      "registration": {
+        "status": "open",
+        "deadlineState": "confirmed",
+        "openNodes": [
+          {
+            "event": {
+              "value": "2026-11-25",
+              "raw": "报名截止延期至2026年11月25日18点。",
+              "sourceUrl": "https://example.edu/notice/2",
+              "location": {
+                "type": "body",
+                "start": 0,
+                "end": 22
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null,
+              "kind": "registration_deadline",
+              "time": "18:00",
+              "timezone": "Asia/Shanghai",
+              "dateRaw": "2026年11月25日",
+              "endDate": null,
+              "superseded": false
+            },
+            "noticeUrl": "https://example.edu/notice/2",
+            "date": "2026-10-02",
+            "trackId": null,
+            "phase": null,
+            "stage": null,
+            "editionId": "e8052d55154ebaa5",
+            "editionLabel": "2026 年"
+          }
+        ],
+        "nextDeadline": {
+          "event": {
+            "value": "2026-11-25",
+            "raw": "报名截止延期至2026年11月25日18点。",
+            "sourceUrl": "https://example.edu/notice/2",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 22
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月25日",
+            "endDate": null,
+            "superseded": false
+          },
+          "noticeUrl": "https://example.edu/notice/2",
+          "date": "2026-10-02",
+          "trackId": null,
+          "phase": null,
+          "stage": null,
+          "editionId": "e8052d55154ebaa5",
+          "editionLabel": "2026 年"
+        }
+      },
+      "noticeCount": 3,
+      "latestNotice": {
+        "title": "2026年报名演示竞赛延期通知",
+        "body": "报名截止延期至2026年11月25日18点。",
+        "date": "2026-10-02",
+        "url": "https://example.edu/notice/2",
+        "competition": "报名演示竞赛",
+        "contentHash": "fixture",
+        "status": "success",
+        "fields": {
+          "schemaVersion": 2,
+          "contentHash": "fixture",
+          "sourceUrl": "https://example.edu/notice/2",
+          "competitionNames": [
+            {
+              "value": "2026年报名演示竞赛",
+              "raw": "2026年报名演示竞赛延期通知",
+              "sourceUrl": "https://example.edu/notice/2",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editions": [],
+          "audiences": [],
+          "tracks": [],
+          "registrationMethods": [],
+          "registrationLinks": [],
+          "requiredMaterials": [],
+          "timeline": [
+            {
+              "value": "2026-11-25",
+              "raw": "报名截止延期至2026年11月25日18点。",
+              "sourceUrl": "https://example.edu/notice/2",
+              "location": {
+                "type": "body",
+                "start": 0,
+                "end": 22
+              },
+              "method": "rule",
+              "verification": "needs_review",
+              "flags": [
+                "postponed"
+              ],
+              "trackId": null,
+              "kind": "registration_deadline",
+              "time": "18:00",
+              "timezone": "Asia/Shanghai",
+              "dateRaw": "2026年11月25日",
+              "endDate": null,
+              "superseded": false
+            }
+          ],
+          "contacts": [],
+          "groups": [],
+          "model": {
+            "status": "disabled",
+            "error": ""
+          }
+        },
+        "isCampus": false,
+        "deadline": "",
+        "deadlineEvent": null,
+        "deadlineScore": 0,
+        "cat": "学科竞赛",
+        "group": "学科竞赛",
+        "site": "测试来源",
+        "association": {
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "editionLabel": null,
+          "ambiguous": false,
+          "phase": null,
+          "stage": null,
+          "noticeType": "postponement",
+          "evidence": [
+            {
+              "value": "2026",
+              "raw": "2026年报名演示竞赛延期通知",
+              "sourceUrl": "https://example.edu/notice/2",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editionEvidence": [],
+          "phaseEvidence": null,
+          "typeEvidence": {
+            "value": "postponement",
+            "raw": "2026年报名演示竞赛延期通知",
+            "sourceUrl": "https://example.edu/notice/2",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          "competitionMethod": "catalogue_match",
+          "editionId": "e8052d55154ebaa5",
+          "resultTrack": null,
+          "identityMethod": "title",
+          "editionLabelResolved": "2026 年"
+        }
+      },
+      "campusNoticeCount": 0,
+      "isSelecting": false,
+      "selectNotice": null,
+      "isOpen": true,
+      "isRecruiting": true,
+      "openDeadline": "2026-11-25",
+      "openNoticeUrl": "https://example.edu/notice/2"
+    },
+    {
+      "name": "冲突演示竞赛",
+      "alias": "",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "inMoe": false,
+      "url": "",
+      "reason": "",
+      "dept": "",
+      "level": "",
+      "editions": [
+        {
+          "id": "d920a941468e498e",
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "label": "2026 年",
+          "identityState": "confirmed",
+          "fields": {
+            "audiences": [],
+            "registrationMethods": [],
+            "registrationLinks": [],
+            "requiredMaterials": [],
+            "contacts": [],
+            "groups": []
+          },
+          "fieldStates": {
+            "audiences": "not_mentioned",
+            "registrationMethods": "not_mentioned",
+            "registrationLinks": "not_mentioned",
+            "requiredMaterials": "not_mentioned",
+            "contacts": "not_mentioned",
+            "groups": "not_mentioned"
+          },
+          "complete": true,
+          "tracks": {},
+          "timeline": [
+            {
+              "kind": "registration_deadline",
+              "trackId": null,
+              "phase": null,
+              "stage": null,
+              "entries": [
+                {
+                  "event": {
+                    "value": "2026-11-20",
+                    "raw": "报名截止2026年11月20日。",
+                    "sourceUrl": "https://example.edu/notice/3",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 16
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": null,
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月20日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/3",
+                  "date": "2026-09-01"
+                },
+                {
+                  "event": {
+                    "value": "2026-11-30",
+                    "raw": "报名截止2026年11月30日。",
+                    "sourceUrl": "https://example.edu/notice/4",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 16
+                    },
+                    "method": "rule",
+                    "verification": "source_matched",
+                    "flags": [],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": null,
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "2026年11月30日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/4",
+                  "date": "2026-10-02"
+                }
+              ],
+              "history": [],
+              "changes": [],
+              "state": "conflict",
+              "registrationStatus": "conflict"
+            }
+          ],
+          "changes": [],
+          "registration": {
+            "status": "conflict",
+            "deadlineState": "conflict",
+            "openNodes": [],
+            "nextDeadline": null
+          },
+          "notices": [
+            {
+              "url": "https://example.edu/notice/4",
+              "title": "2026年冲突演示竞赛补充通知",
+              "date": "2026-10-02",
+              "hasBody": true
+            },
+            {
+              "url": "https://example.edu/notice/3",
+              "title": "2026年冲突演示竞赛报名通知",
+              "date": "2026-09-01",
+              "hasBody": true
+            }
+          ]
+        }
+      ],
+      "currentEditionId": "d920a941468e498e",
+      "currentEditionIds": [
+        "d920a941468e498e"
+      ],
+      "registration": {
+        "status": "conflict",
+        "deadlineState": "conflict",
+        "openNodes": [],
+        "nextDeadline": null
+      },
+      "noticeCount": 2,
+      "latestNotice": {
+        "title": "2026年冲突演示竞赛补充通知",
+        "body": "报名截止2026年11月30日。",
+        "date": "2026-10-02",
+        "url": "https://example.edu/notice/4",
+        "competition": "冲突演示竞赛",
+        "contentHash": "fixture",
+        "status": "success",
+        "fields": {
+          "schemaVersion": 2,
+          "contentHash": "fixture",
+          "sourceUrl": "https://example.edu/notice/4",
+          "competitionNames": [
+            {
+              "value": "2026年冲突演示竞赛",
+              "raw": "2026年冲突演示竞赛补充通知",
+              "sourceUrl": "https://example.edu/notice/4",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editions": [],
+          "audiences": [],
+          "tracks": [],
+          "registrationMethods": [],
+          "registrationLinks": [],
+          "requiredMaterials": [],
+          "timeline": [
+            {
+              "value": "2026-11-30",
+              "raw": "报名截止2026年11月30日。",
+              "sourceUrl": "https://example.edu/notice/4",
+              "location": {
+                "type": "body",
+                "start": 0,
+                "end": 16
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null,
+              "kind": "registration_deadline",
+              "time": null,
+              "timezone": "Asia/Shanghai",
+              "dateRaw": "2026年11月30日",
+              "endDate": null,
+              "superseded": false
+            }
+          ],
+          "contacts": [],
+          "groups": [],
+          "model": {
+            "status": "disabled",
+            "error": ""
+          }
+        },
+        "isCampus": false,
+        "deadline": "",
+        "deadlineEvent": null,
+        "deadlineScore": 0,
+        "cat": "学科竞赛",
+        "group": "学科竞赛",
+        "site": "测试来源",
+        "association": {
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "editionLabel": null,
+          "ambiguous": false,
+          "phase": null,
+          "stage": null,
+          "noticeType": "supplement",
+          "evidence": [
+            {
+              "value": "2026",
+              "raw": "2026年冲突演示竞赛补充通知",
+              "sourceUrl": "https://example.edu/notice/4",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editionEvidence": [],
+          "phaseEvidence": null,
+          "typeEvidence": {
+            "value": "supplement",
+            "raw": "2026年冲突演示竞赛补充通知",
+            "sourceUrl": "https://example.edu/notice/4",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          "competitionMethod": "catalogue_match",
+          "editionId": "d920a941468e498e",
+          "resultTrack": null,
+          "identityMethod": "title",
+          "editionLabelResolved": "2026 年"
+        }
+      },
+      "campusNoticeCount": 0,
+      "isSelecting": false,
+      "selectNotice": null,
+      "isOpen": false,
+      "isRecruiting": false,
+      "openDeadline": "",
+      "openNoticeUrl": ""
+    },
+    {
+      "name": "缺失演示竞赛",
+      "alias": "",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "inMoe": false,
+      "url": "",
+      "reason": "",
+      "dept": "",
+      "level": "",
+      "editions": [
+        {
+          "id": "e29478f5a35b4294",
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "label": "2026 年",
+          "identityState": "confirmed",
+          "fields": {
+            "audiences": [],
+            "registrationMethods": [],
+            "registrationLinks": [],
+            "requiredMaterials": [],
+            "contacts": [],
+            "groups": []
+          },
+          "fieldStates": {
+            "audiences": "not_mentioned",
+            "registrationMethods": "not_mentioned",
+            "registrationLinks": "not_mentioned",
+            "requiredMaterials": "not_mentioned",
+            "contacts": "not_mentioned",
+            "groups": "not_mentioned"
+          },
+          "complete": true,
+          "tracks": {},
+          "timeline": [],
+          "changes": [],
+          "registration": {
+            "status": "not_mentioned",
+            "deadlineState": "not_mentioned",
+            "openNodes": [],
+            "nextDeadline": null
+          },
+          "notices": [
+            {
+              "url": "https://example.edu/notice/5",
+              "title": "2026年缺失演示竞赛报名通知",
+              "date": "2026-09-01",
+              "hasBody": true
+            }
+          ]
+        }
+      ],
+      "currentEditionId": "e29478f5a35b4294",
+      "currentEditionIds": [
+        "e29478f5a35b4294"
+      ],
+      "registration": {
+        "status": "not_mentioned",
+        "deadlineState": "not_mentioned",
+        "openNodes": [],
+        "nextDeadline": null
+      },
+      "noticeCount": 1,
+      "latestNotice": {
+        "title": "2026年缺失演示竞赛报名通知",
+        "body": "请关注后续通知。",
+        "date": "2026-09-01",
+        "url": "https://example.edu/notice/5",
+        "competition": "缺失演示竞赛",
+        "contentHash": "fixture",
+        "status": "success",
+        "fields": {
+          "schemaVersion": 2,
+          "contentHash": "fixture",
+          "sourceUrl": "https://example.edu/notice/5",
+          "competitionNames": [
+            {
+              "value": "2026年缺失演示竞赛",
+              "raw": "2026年缺失演示竞赛报名通知",
+              "sourceUrl": "https://example.edu/notice/5",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editions": [],
+          "audiences": [],
+          "tracks": [],
+          "registrationMethods": [],
+          "registrationLinks": [],
+          "requiredMaterials": [],
+          "timeline": [],
+          "contacts": [],
+          "groups": [],
+          "model": {
+            "status": "disabled",
+            "error": ""
+          }
+        },
+        "isCampus": false,
+        "deadline": "",
+        "deadlineEvent": null,
+        "deadlineScore": 0,
+        "cat": "学科竞赛",
+        "group": "学科竞赛",
+        "site": "测试来源",
+        "association": {
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "editionLabel": null,
+          "ambiguous": false,
+          "phase": null,
+          "stage": null,
+          "noticeType": "registration",
+          "evidence": [
+            {
+              "value": "2026",
+              "raw": "2026年缺失演示竞赛报名通知",
+              "sourceUrl": "https://example.edu/notice/5",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editionEvidence": [],
+          "phaseEvidence": null,
+          "typeEvidence": {
+            "value": "registration",
+            "raw": "2026年缺失演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/5",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          "competitionMethod": "catalogue_match",
+          "editionId": "e29478f5a35b4294",
+          "resultTrack": null,
+          "identityMethod": "title",
+          "editionLabelResolved": "2026 年"
+        }
+      },
+      "campusNoticeCount": 0,
+      "isSelecting": false,
+      "selectNotice": null,
+      "isOpen": false,
+      "isRecruiting": false,
+      "openDeadline": "",
+      "openNoticeUrl": ""
+    },
+    {
+      "name": "待核演示竞赛",
+      "alias": "",
+      "ee": 4,
+      "xjtuCat": "未认定(待核)",
+      "inMoe": false,
+      "url": "",
+      "reason": "",
+      "dept": "",
+      "level": "",
+      "editions": [
+        {
+          "id": "980be62ecdb130f6",
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "label": "2026 年",
+          "identityState": "confirmed",
+          "fields": {
+            "audiences": [],
+            "registrationMethods": [],
+            "registrationLinks": [
+              {
+                "value": {
+                  "value": "https://example.edu/pending-register",
+                  "raw": "报名入口：https://example.edu/pending-register",
+                  "sourceUrl": "https://example.edu/notice/6",
+                  "location": {
+                    "type": "body",
+                    "start": 12,
+                    "end": 53
+                  },
+                  "method": "rule",
+                  "verification": "needs_review",
+                  "flags": [
+                    "model_requires_review"
+                  ],
+                  "trackId": null
+                },
+                "noticeUrl": "https://example.edu/notice/6",
+                "phase": null,
+                "stage": null,
+                "noticeType": "registration"
+              }
+            ],
+            "requiredMaterials": [],
+            "contacts": [],
+            "groups": []
+          },
+          "fieldStates": {
+            "audiences": "not_mentioned",
+            "registrationMethods": "not_mentioned",
+            "registrationLinks": "needs_review",
+            "requiredMaterials": "not_mentioned",
+            "contacts": "not_mentioned",
+            "groups": "not_mentioned"
+          },
+          "complete": true,
+          "tracks": {},
+          "timeline": [
+            {
+              "kind": "registration_deadline",
+              "trackId": null,
+              "phase": null,
+              "stage": null,
+              "entries": [
+                {
+                  "event": {
+                    "value": "2026-11-20",
+                    "raw": "报名截止11月20日。",
+                    "sourceUrl": "https://example.edu/notice/6",
+                    "location": {
+                      "type": "body",
+                      "start": 0,
+                      "end": 11
+                    },
+                    "method": "rule",
+                    "verification": "needs_review",
+                    "flags": [
+                      "missing_year"
+                    ],
+                    "trackId": null,
+                    "kind": "registration_deadline",
+                    "time": null,
+                    "timezone": "Asia/Shanghai",
+                    "dateRaw": "11月20日",
+                    "endDate": null,
+                    "superseded": false
+                  },
+                  "noticeUrl": "https://example.edu/notice/6",
+                  "date": "2026-09-01"
+                }
+              ],
+              "history": [],
+              "changes": [],
+              "state": "needs_review",
+              "registrationStatus": "needs_review"
+            }
+          ],
+          "changes": [],
+          "registration": {
+            "status": "needs_review",
+            "deadlineState": "needs_review",
+            "openNodes": [],
+            "nextDeadline": null
+          },
+          "notices": [
+            {
+              "url": "https://example.edu/notice/6",
+              "title": "2026年待核演示竞赛报名通知",
+              "date": "2026-09-01",
+              "hasBody": true
+            }
+          ]
+        }
+      ],
+      "currentEditionId": "980be62ecdb130f6",
+      "currentEditionIds": [
+        "980be62ecdb130f6"
+      ],
+      "registration": {
+        "status": "needs_review",
+        "deadlineState": "needs_review",
+        "openNodes": [],
+        "nextDeadline": null
+      },
+      "noticeCount": 1,
+      "latestNotice": {
+        "title": "2026年待核演示竞赛报名通知",
+        "body": "报名截止11月20日。\n报名入口：https://example.edu/pending-register",
+        "date": "2026-09-01",
+        "url": "https://example.edu/notice/6",
+        "competition": "待核演示竞赛",
+        "contentHash": "fixture",
+        "status": "success",
+        "fields": {
+          "schemaVersion": 2,
+          "contentHash": "fixture",
+          "sourceUrl": "https://example.edu/notice/6",
+          "competitionNames": [
+            {
+              "value": "2026年待核演示竞赛",
+              "raw": "2026年待核演示竞赛报名通知",
+              "sourceUrl": "https://example.edu/notice/6",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editions": [],
+          "audiences": [],
+          "tracks": [],
+          "registrationMethods": [],
+          "registrationLinks": [
+            {
+              "value": "https://example.edu/pending-register",
+              "raw": "报名入口：https://example.edu/pending-register",
+              "sourceUrl": "https://example.edu/notice/6",
+              "location": {
+                "type": "body",
+                "start": 12,
+                "end": 53
+              },
+              "method": "rule",
+              "verification": "needs_review",
+              "flags": [
+                "model_requires_review"
+              ],
+              "trackId": null
+            }
+          ],
+          "requiredMaterials": [],
+          "timeline": [
+            {
+              "value": "2026-11-20",
+              "raw": "报名截止11月20日。",
+              "sourceUrl": "https://example.edu/notice/6",
+              "location": {
+                "type": "body",
+                "start": 0,
+                "end": 11
+              },
+              "method": "rule",
+              "verification": "needs_review",
+              "flags": [
+                "missing_year"
+              ],
+              "trackId": null,
+              "kind": "registration_deadline",
+              "time": null,
+              "timezone": "Asia/Shanghai",
+              "dateRaw": "11月20日",
+              "endDate": null,
+              "superseded": false
+            }
+          ],
+          "contacts": [],
+          "groups": [],
+          "model": {
+            "status": "disabled",
+            "error": ""
+          }
+        },
+        "isCampus": false,
+        "deadline": "",
+        "deadlineEvent": null,
+        "deadlineScore": 0,
+        "cat": "学科竞赛",
+        "group": "学科竞赛",
+        "site": "测试来源",
+        "association": {
+          "year": 2026,
+          "yearEnd": 2026,
+          "edition": null,
+          "editionLabel": null,
+          "ambiguous": false,
+          "phase": null,
+          "stage": null,
+          "noticeType": "registration",
+          "evidence": [
+            {
+              "value": "2026",
+              "raw": "2026年待核演示竞赛报名通知",
+              "sourceUrl": "https://example.edu/notice/6",
+              "location": {
+                "type": "title",
+                "start": 0,
+                "end": 15
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            }
+          ],
+          "editionEvidence": [],
+          "phaseEvidence": null,
+          "typeEvidence": {
+            "value": "registration",
+            "raw": "2026年待核演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/6",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          "competitionMethod": "catalogue_match",
+          "editionId": "980be62ecdb130f6",
+          "resultTrack": null,
+          "identityMethod": "title",
+          "editionLabelResolved": "2026 年"
+        }
+      },
+      "campusNoticeCount": 0,
+      "isSelecting": false,
+      "selectNotice": null,
+      "isOpen": false,
+      "isRecruiting": false,
+      "openDeadline": "",
+      "openNoticeUrl": ""
+    }
+  ],
+  "notices": [
+    {
+      "title": "2025年报名演示竞赛报名通知",
+      "body": "报名截止2026年12月30日。\n联系人：旧老师 电话：13800138000",
+      "date": "2025-10-01",
+      "url": "https://example.edu/notice/0",
+      "competition": "报名演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/0",
+        "competitionNames": [
+          {
+            "value": "2025年报名演示竞赛",
+            "raw": "2025年报名演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/0",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-12-30",
+            "raw": "报名截止2026年12月30日。",
+            "sourceUrl": "https://example.edu/notice/0",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 16
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月30日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "旧老师",
+              "raw": "联系人：旧老师 电话：13800138000",
+              "sourceUrl": "https://example.edu/notice/0",
+              "location": {
+                "type": "body",
+                "start": 17,
+                "end": 39
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "13800138000",
+                "raw": "联系人：旧老师 电话：13800138000",
+                "sourceUrl": "https://example.edu/notice/0",
+                "location": {
+                  "type": "body",
+                  "start": 17,
+                  "end": 39
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2025,
+        "yearEnd": 2025,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "registration",
+        "evidence": [
+          {
+            "value": "2025",
+            "raw": "2025年报名演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/0",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "registration",
+          "raw": "2025年报名演示竞赛报名通知",
+          "sourceUrl": "https://example.edu/notice/0",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "1b66f62587259198",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2025 年"
+      }
+    },
+    {
+      "title": "2026年报名演示竞赛报名通知",
+      "body": "报名截止2026年11月20日18点。\n参赛对象：在校本科生。\n报名方式：通过平台报名。\n报名入口：https://example.edu/register\n提交材料：报名表、作品。\n联系人：新老师 电话：13900139000\nQQ群：737707930",
+      "date": "2026-09-01",
+      "url": "https://example.edu/notice/1",
+      "competition": "报名演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/1",
+        "competitionNames": [
+          {
+            "value": "2026年报名演示竞赛",
+            "raw": "2026年报名演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "参赛对象：在校本科生。",
+            "raw": "参赛对象：在校本科生。",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "body",
+              "start": 20,
+              "end": 31
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "报名方式：通过平台报名。",
+            "raw": "报名方式：通过平台报名。",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "body",
+              "start": 32,
+              "end": 44
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [
+          {
+            "value": "https://example.edu/register",
+            "raw": "报名入口：https://example.edu/register",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "body",
+              "start": 45,
+              "end": 78
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "提交材料：报名表、作品。",
+            "raw": "提交材料：报名表、作品。",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "body",
+              "start": 79,
+              "end": 91
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-20",
+            "raw": "报名截止2026年11月20日18点。",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 19
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月20日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "新老师",
+              "raw": "联系人：新老师 电话：13900139000",
+              "sourceUrl": "https://example.edu/notice/1",
+              "location": {
+                "type": "body",
+                "start": 92,
+                "end": 114
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "13900139000",
+                "raw": "联系人：新老师 电话：13900139000",
+                "sourceUrl": "https://example.edu/notice/1",
+                "location": {
+                  "type": "body",
+                  "start": 92,
+                  "end": 114
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "737707930",
+              "raw": "QQ群：737707930",
+              "sourceUrl": "https://example.edu/notice/1",
+              "location": {
+                "type": "body",
+                "start": 115,
+                "end": 128
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "registration",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年报名演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/1",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "registration",
+          "raw": "2026年报名演示竞赛报名通知",
+          "sourceUrl": "https://example.edu/notice/1",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "e8052d55154ebaa5",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    },
+    {
+      "title": "2026年报名演示竞赛延期通知",
+      "body": "报名截止延期至2026年11月25日18点。",
+      "date": "2026-10-02",
+      "url": "https://example.edu/notice/2",
+      "competition": "报名演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/2",
+        "competitionNames": [
+          {
+            "value": "2026年报名演示竞赛",
+            "raw": "2026年报名演示竞赛延期通知",
+            "sourceUrl": "https://example.edu/notice/2",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-25",
+            "raw": "报名截止延期至2026年11月25日18点。",
+            "sourceUrl": "https://example.edu/notice/2",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 22
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "postponed"
+            ],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月25日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "postponement",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年报名演示竞赛延期通知",
+            "sourceUrl": "https://example.edu/notice/2",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "postponement",
+          "raw": "2026年报名演示竞赛延期通知",
+          "sourceUrl": "https://example.edu/notice/2",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "e8052d55154ebaa5",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    },
+    {
+      "title": "2026年冲突演示竞赛报名通知",
+      "body": "报名截止2026年11月20日。",
+      "date": "2026-09-01",
+      "url": "https://example.edu/notice/3",
+      "competition": "冲突演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/3",
+        "competitionNames": [
+          {
+            "value": "2026年冲突演示竞赛",
+            "raw": "2026年冲突演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/3",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-20",
+            "raw": "报名截止2026年11月20日。",
+            "sourceUrl": "https://example.edu/notice/3",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 16
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月20日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "registration",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年冲突演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/3",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "registration",
+          "raw": "2026年冲突演示竞赛报名通知",
+          "sourceUrl": "https://example.edu/notice/3",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "d920a941468e498e",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    },
+    {
+      "title": "2026年冲突演示竞赛补充通知",
+      "body": "报名截止2026年11月30日。",
+      "date": "2026-10-02",
+      "url": "https://example.edu/notice/4",
+      "competition": "冲突演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/4",
+        "competitionNames": [
+          {
+            "value": "2026年冲突演示竞赛",
+            "raw": "2026年冲突演示竞赛补充通知",
+            "sourceUrl": "https://example.edu/notice/4",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-30",
+            "raw": "报名截止2026年11月30日。",
+            "sourceUrl": "https://example.edu/notice/4",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 16
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月30日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "supplement",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年冲突演示竞赛补充通知",
+            "sourceUrl": "https://example.edu/notice/4",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "supplement",
+          "raw": "2026年冲突演示竞赛补充通知",
+          "sourceUrl": "https://example.edu/notice/4",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "d920a941468e498e",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    },
+    {
+      "title": "2026年缺失演示竞赛报名通知",
+      "body": "请关注后续通知。",
+      "date": "2026-09-01",
+      "url": "https://example.edu/notice/5",
+      "competition": "缺失演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/5",
+        "competitionNames": [
+          {
+            "value": "2026年缺失演示竞赛",
+            "raw": "2026年缺失演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/5",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "registration",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年缺失演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/5",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "registration",
+          "raw": "2026年缺失演示竞赛报名通知",
+          "sourceUrl": "https://example.edu/notice/5",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "e29478f5a35b4294",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    },
+    {
+      "title": "2026年待核演示竞赛报名通知",
+      "body": "报名截止11月20日。\n报名入口：https://example.edu/pending-register",
+      "date": "2026-09-01",
+      "url": "https://example.edu/notice/6",
+      "competition": "待核演示竞赛",
+      "contentHash": "fixture",
+      "status": "success",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "fixture",
+        "sourceUrl": "https://example.edu/notice/6",
+        "competitionNames": [
+          {
+            "value": "2026年待核演示竞赛",
+            "raw": "2026年待核演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/6",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "https://example.edu/pending-register",
+            "raw": "报名入口：https://example.edu/pending-register",
+            "sourceUrl": "https://example.edu/notice/6",
+            "location": {
+              "type": "body",
+              "start": 12,
+              "end": 53
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "model_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-20",
+            "raw": "报名截止11月20日。",
+            "sourceUrl": "https://example.edu/notice/6",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 11
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月20日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      },
+      "isCampus": false,
+      "deadline": "",
+      "deadlineEvent": null,
+      "deadlineScore": 0,
+      "cat": "学科竞赛",
+      "group": "学科竞赛",
+      "site": "测试来源",
+      "association": {
+        "year": 2026,
+        "yearEnd": 2026,
+        "edition": null,
+        "editionLabel": null,
+        "ambiguous": false,
+        "phase": null,
+        "stage": null,
+        "noticeType": "registration",
+        "evidence": [
+          {
+            "value": "2026",
+            "raw": "2026年待核演示竞赛报名通知",
+            "sourceUrl": "https://example.edu/notice/6",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 15
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editionEvidence": [],
+        "phaseEvidence": null,
+        "typeEvidence": {
+          "value": "registration",
+          "raw": "2026年待核演示竞赛报名通知",
+          "sourceUrl": "https://example.edu/notice/6",
+          "location": {
+            "type": "title",
+            "start": 0,
+            "end": 15
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null
+        },
+        "competitionMethod": "catalogue_match",
+        "editionId": "980be62ecdb130f6",
+        "resultTrack": null,
+        "identityMethod": "title",
+        "editionLabelResolved": "2026 年"
+      }
+    }
+  ]
+}

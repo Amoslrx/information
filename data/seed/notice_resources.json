@@ -1,0 +1,2576 @@
+{
+  "schema_version": 1,
+  "parser_version": 1,
+  "count": 9,
+  "items": [
+    {
+      "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309361",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件1.docx",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:25.736563+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "dac09b7c17ee27cb00664da7bc1db5c9cf67a5527cb75f8dea4317ecd7794e88",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309364",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件2.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.040326+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "62e5762dc7f3fc67f473a2dbd81c7741ba2499246e1ea553cc7d59901afc1985",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309362",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件3.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.332383+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "53905358c54dda6144313049a6acc11523868755facdba23ecab59c956899b3f",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18309363",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10439.htm",
+      "kind": "attachment",
+      "name": "附件4.pdf",
+      "context": "",
+      "noticeBodyHash": "f7d30bc57e6a148d5dd128ba4d50be06ae5730c0b45674d8066b766b8e130073",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.615293+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "a2c17586447f16cb10bf2afa072f712fc3822aba01426ad052027529be3cb70a",
+      "url": "http://pec.xjtu.edu.cn/__local/A/70/FB/4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5526.htm",
+      "kind": "image",
+      "name": "",
+      "context": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+      "noticeBodyHash": "58ee7b00997ee3d9ea40a1fc43f50d17cc84fff16b910fea62cf712f6f70b71e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 30
+      },
+      "fetchedAt": "2026-10-03T15:38:26.909846+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71\\image.jpg",
+          "textHash": "8ebfbfdd29b9bb66e786cdfd6ddf30a6de109b0a1259a79a3ad07ead19b1834e",
+          "previewUrl": "media/4a2800908490bc92c1037259a165a69b77aad9900803dc1468142d69fb2b3e49.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71\\image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "lines": [],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 276,
+            "height": 283
+          },
+          "qr": [
+            {
+              "text": "https://docs.qq.com/form/page/DWVJKRGRhaWpRaWFk",
+              "format": "QR Code",
+              "position": "10x13 266x13 266x268 10x268"
+            }
+          ],
+          "previewUrl": "media/4a2800908490bc92c1037259a165a69b77aad9900803dc1468142d69fb2b3e49.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71.img",
+        "sha256": "a8e3f357d3988abbfa9554b8fdb0641a32bcca68f5e742b1a9866bfa5ef90f71",
+        "bytes": 41724,
+        "filename": "4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/A/70/FB/4445DAAB4D39B68EF971DF6FF5B_0A9AFDE7_A2FC.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "176a877fd608d3143493f1b12b9b6e472c0e23b174c2f59d6c894a21f8f1167a",
+      "url": "http://pec.xjtu.edu.cn/__local/0/2A/AE/2822DF11331C7E6571BCAACF098_462C7D47_2A2B8.jpg",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5081.htm",
+      "kind": "image",
+      "name": "",
+      "context": "比赛咨询QQ群",
+      "noticeBodyHash": "82fc73d2a49084ce045e12b68a9b2d7a406574684c1d4d5df718396d9349a277",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 10
+      },
+      "fetchedAt": "2026-10-04T07:34:37.261084+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "第二十八届中国机器 ·\n00\n0 ．\n群号 ：\n000\n0 0000\n0 0 ． 000\n1077464434\n． 00 0\n00 ． 000\n000 ． ． 0 ． ． ． ． 0000 000\n． 00 ． 0 000\n． 00 0 ． 0 ． 00 ． 00",
+          "method": "ocr",
+          "engine": "windows-ocr",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\1aa4242c8fac7615a879b31d86e074533b7b5423602d6157c0248a80a92f363d\\image.jpg",
+          "textHash": "ebba3ece44683acf98f3209e1da1245b5e709da779d1064587216d05d2b8c69a",
+          "previewUrl": "media/ba149bf8b1d98b140b7dcfcc4eb56bffe6382441e66a297d5eeb2503274fec36.jpg"
+        },
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://qm.qq.com/q/wG0afxbkGI",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\1aa4242c8fac7615a879b31d86e074533b7b5423602d6157c0248a80a92f363d\\image.jpg",
+          "textHash": "4203214a7c475b805aaf795eb72b16e968dbc7df2cf47c316a17aeca6f692192",
+          "previewUrl": "media/ba149bf8b1d98b140b7dcfcc4eb56bffe6382441e66a297d5eeb2503274fec36.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\1aa4242c8fac7615a879b31d86e074533b7b5423602d6157c0248a80a92f363d\\image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "lines": [
+              {
+                "words": [
+                  {
+                    "text": "第",
+                    "bbox": [
+                      206,
+                      26,
+                      27,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "二",
+                    "bbox": [
+                      235,
+                      28,
+                      26,
+                      22
+                    ]
+                  },
+                  {
+                    "text": "十",
+                    "bbox": [
+                      262,
+                      26,
+                      27,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "八",
+                    "bbox": [
+                      290,
+                      27,
+                      27,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "届",
+                    "bbox": [
+                      318,
+                      27,
+                      25,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "bbox": [
+                      346,
+                      26,
+                      25,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "bbox": [
+                      374,
+                      27,
+                      25,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "机",
+                    "bbox": [
+                      401,
+                      26,
+                      27,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "器",
+                    "bbox": [
+                      428,
+                      27,
+                      27,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "·",
+                    "bbox": [
+                      457,
+                      45,
+                      6,
+                      4
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "第 二 十 八 届 中 国 机 器 ·"
+              },
+              {
+                "words": [
+                  {
+                    "text": "00",
+                    "bbox": [
+                      101,
+                      380,
+                      25,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "00"
+              },
+              {
+                "words": [
+                  {
+                    "text": "0",
+                    "bbox": [
+                      156,
+                      380,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      183,
+                      380,
+                      12,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "0 ．"
+              },
+              {
+                "words": [
+                  {
+                    "text": "群",
+                    "bbox": [
+                      206,
+                      66,
+                      19,
+                      19
+                    ]
+                  },
+                  {
+                    "text": "号",
+                    "bbox": [
+                      226,
+                      67,
+                      19,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "：",
+                    "bbox": [
+                      248,
+                      71,
+                      3,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "群 号 ："
+              },
+              {
+                "words": [
+                  {
+                    "text": "000",
+                    "bbox": [
+                      210,
+                      380,
+                      39,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "0",
+                    "bbox": [
+                      101,
+                      421,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0000",
+                    "bbox": [
+                      129,
+                      421,
+                      52,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "0 0000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "0",
+                    "bbox": [
+                      101,
+                      434,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      129,
+                      435,
+                      11,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      142,
+                      435,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "000",
+                    "bbox": [
+                      156,
+                      434,
+                      39,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "0 0 ． 000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "1077464434",
+                    "bbox": [
+                      266,
+                      69,
+                      95,
+                      14
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "1077464434"
+              },
+              {
+                "words": [
+                  {
+                    "text": "．",
+                    "bbox": [
+                      347,
+                      312,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      361,
+                      312,
+                      24,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      388,
+                      312,
+                      11,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "． 00 0"
+              },
+              {
+                "words": [
+                  {
+                    "text": "00",
+                    "bbox": [
+                      347,
+                      421,
+                      25,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      374,
+                      421,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "000",
+                    "bbox": [
+                      388,
+                      421,
+                      38,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "00 ． 000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "000",
+                    "bbox": [
+                      210,
+                      434,
+                      39,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      251,
+                      435,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      265,
+                      434,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      292,
+                      434,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      306,
+                      434,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      333,
+                      434,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      361,
+                      435,
+                      11,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      374,
+                      435,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0000",
+                    "bbox": [
+                      388,
+                      434,
+                      52,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "000",
+                    "bbox": [
+                      456,
+                      434,
+                      39,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "000 ． ． 0 ． ． ． ． 0000 000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "．",
+                    "bbox": [
+                      333,
+                      462,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      347,
+                      462,
+                      25,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      374,
+                      462,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      401,
+                      462,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "000",
+                    "bbox": [
+                      429,
+                      462,
+                      38,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "． 00 ． 0 000"
+              },
+              {
+                "words": [
+                  {
+                    "text": "．",
+                    "bbox": [
+                      265,
+                      489,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      279,
+                      489,
+                      25,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      319,
+                      489,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      333,
+                      489,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "bbox": [
+                      361,
+                      489,
+                      11,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      374,
+                      489,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      388,
+                      489,
+                      25,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "．",
+                    "bbox": [
+                      415,
+                      489,
+                      12,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      429,
+                      489,
+                      25,
+                      11
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "． 00 0 ． 0 ． 00 ． 00"
+              }
+            ],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "第二十八届中国机器 ·\n00\n0 ．\n群号 ：\n000\n0 0000\n0 0 ． 000\n1077464434\n． 00 0\n00 ． 000\n000 ． ． 0 ． ． ． ． 0000 000\n． 00 ． 0 000\n． 00 0 ． 0 ． 00 ． 00",
+            "normalization": "join_cjk_word_spaces",
+            "width": 596,
+            "height": 603
+          },
+          "qr": [
+            {
+              "text": "https://qm.qq.com/q/wG0afxbkGI",
+              "format": "QR Code",
+              "position": "100x161 496x161 496x557 100x557"
+            }
+          ],
+          "previewUrl": "media/ba149bf8b1d98b140b7dcfcc4eb56bffe6382441e66a297d5eeb2503274fec36.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\1aa4242c8fac7615a879b31d86e074533b7b5423602d6157c0248a80a92f363d.img",
+        "sha256": "1aa4242c8fac7615a879b31d86e074533b7b5423602d6157c0248a80a92f363d",
+        "bytes": 172728,
+        "filename": "2822DF11331C7E6571BCAACF098_462C7D47_2A2B8.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/0/2A/AE/2822DF11331C7E6571BCAACF098_462C7D47_2A2B8.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a4a2e61b2e0fec30d2d89be853a54718c95e612dcfe2556f9360d4ad7843a0cc",
+      "url": "http://pec.xjtu.edu.cn/__local/8/84/4A/D025AFC00DF0CE1FB734B174F23_C6F30C57_86AC.png",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
+      "kind": "image",
+      "name": "",
+      "context": "报名二维码： 大赛QQ群：",
+      "noticeBodyHash": "6ec55e2fc18d127004d1eec15065820e24bf65e3ff4a1b5adccdb76887b35be2",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 10
+      },
+      "fetchedAt": "2026-10-04T07:34:38.818818+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "2 丿 2 乙金舵大赛报名",
+          "method": "ocr",
+          "engine": "windows-ocr",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a2bffe94e882f5c273c8d6672e9ac290cc140dd252e3c2b2de70238785a10f33\\image.jpg",
+          "textHash": "0b9c62a5dd6207032fc4e72a2b93d9ee7b2f6343fa6e9fba601d8284f04ce35f",
+          "previewUrl": "media/8752226526bda2a9d88805fce6700a825ffcf4cb243790826987372d81b350d0.jpg"
+        },
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://www.wjx.top/vm/PdYJWoT.aspx",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a2bffe94e882f5c273c8d6672e9ac290cc140dd252e3c2b2de70238785a10f33\\image.jpg",
+          "textHash": "d6cc01caf65b87adb639deaf2f2dc4e0ff2e6d4537355d3cbcc608a41e1b7b8e",
+          "previewUrl": "media/8752226526bda2a9d88805fce6700a825ffcf4cb243790826987372d81b350d0.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\a2bffe94e882f5c273c8d6672e9ac290cc140dd252e3c2b2de70238785a10f33\\image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "lines": [
+              {
+                "words": [
+                  {
+                    "text": "2",
+                    "bbox": [
+                      22,
+                      14,
+                      9,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "丿",
+                    "bbox": [
+                      33,
+                      14,
+                      9,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "2",
+                    "bbox": [
+                      43,
+                      14,
+                      9,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "乙",
+                    "bbox": [
+                      54,
+                      14,
+                      8,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "金",
+                    "bbox": [
+                      65,
+                      13,
+                      20,
+                      20
+                    ]
+                  },
+                  {
+                    "text": "舵",
+                    "bbox": [
+                      89,
+                      12,
+                      19,
+                      21
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "bbox": [
+                      113,
+                      13,
+                      19,
+                      20
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      138,
+                      12,
+                      17,
+                      22
+                    ]
+                  },
+                  {
+                    "text": "报",
+                    "bbox": [
+                      161,
+                      13,
+                      18,
+                      19
+                    ]
+                  },
+                  {
+                    "text": "名",
+                    "bbox": [
+                      185,
+                      13,
+                      17,
+                      20
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "2 丿 2 乙 金 舵 大 赛 报 名"
+              }
+            ],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "2 丿 2 乙金舵大赛报名",
+            "normalization": "join_cjk_word_spaces",
+            "width": 233,
+            "height": 181
+          },
+          "qr": [
+            {
+              "text": "https://www.wjx.top/vm/PdYJWoT.aspx",
+              "format": "QR Code",
+              "position": "76x77 137x77 137x138 76x138"
+            }
+          ],
+          "previewUrl": "media/8752226526bda2a9d88805fce6700a825ffcf4cb243790826987372d81b350d0.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\a2bffe94e882f5c273c8d6672e9ac290cc140dd252e3c2b2de70238785a10f33.img",
+        "sha256": "a2bffe94e882f5c273c8d6672e9ac290cc140dd252e3c2b2de70238785a10f33",
+        "bytes": 34476,
+        "filename": "D025AFC00DF0CE1FB734B174F23_C6F30C57_86AC.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/8/84/4A/D025AFC00DF0CE1FB734B174F23_C6F30C57_86AC.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "acbaeab14870cc782c39c978f40d1bc25fc5d843ffa01a578275c005dc6745df",
+      "url": "http://pec.xjtu.edu.cn/__local/9/42/66/B7B1DB98CB4832D81D7F115CDFC_30251748_986D.png",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5151.htm",
+      "kind": "image",
+      "name": "",
+      "context": "报名二维码： 大赛QQ群：",
+      "noticeBodyHash": "6ec55e2fc18d127004d1eec15065820e24bf65e3ff4a1b5adccdb76887b35be2",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 10
+      },
+      "fetchedAt": "2026-10-04T07:34:41.607590+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://qm.qq.com/q/nqzWkvoaK4",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\58b3c823913b2f4177ef06b960cca106f9381dbf0d6b0e2dd065e90ff0d5e478\\image.jpg",
+          "textHash": "39d2b68b3debf5a3cb3ba693b5b1603e067db00d100b7d1dba2c3cd5deb1cdcb",
+          "previewUrl": "media/473a9f2bee6001359dfbd6f8c7ac98a7261eff72fb8a1afce9a610e3ee578b93.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\58b3c823913b2f4177ef06b960cca106f9381dbf0d6b0e2dd065e90ff0d5e478\\image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "lines": [],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 187,
+            "height": 194
+          },
+          "qr": [
+            {
+              "text": "https://qm.qq.com/q/nqzWkvoaK4",
+              "format": "QR Code",
+              "position": "33x62 154x62 154x183 33x183"
+            }
+          ],
+          "previewUrl": "media/473a9f2bee6001359dfbd6f8c7ac98a7261eff72fb8a1afce9a610e3ee578b93.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\58b3c823913b2f4177ef06b960cca106f9381dbf0d6b0e2dd065e90ff0d5e478.img",
+        "sha256": "58b3c823913b2f4177ef06b960cca106f9381dbf0d6b0e2dd065e90ff0d5e478",
+        "bytes": 39021,
+        "filename": "B7B1DB98CB4832D81D7F115CDFC_30251748_986D.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/9/42/66/B7B1DB98CB4832D81D7F115CDFC_30251748_986D.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "7734efddcce3348b951b1309d8eaff4bcddad824ba09cff09676c863f8a0f6bb",
+      "url": "http://pec.xjtu.edu.cn/__local/5/2C/4C/750A8690A039C4F1375503FD327_D21C81CF_266C8.jpg",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5293.htm",
+      "kind": "image",
+      "name": "",
+      "context": "本届大赛报名工作已启动，请各参赛团队严格按照以下时间节点推进工作：",
+      "noticeBodyHash": "b2bf777a8d383c4e0302c69f07175810dfb84873d986a3783c3e08041c716a27",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 10
+      },
+      "fetchedAt": "2026-10-04T07:34:42.732166+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "阶段\n报名阶段\n辅导阶段\n作品提交\n初赛评审\n总决赛\n时间安排\n即日起一 6 月 30 日\n即日起一 6 月 30 日\n6 月 30 日 15 ： 00 截止\n2026 年 7 月\n2026 年 8 月\n主要内容\n登录大赛官网在线报名 ， 获取参赛资格 。\n参赛队伍准备作品 ， 可通过官网向专家咨询赛题 。\n提交初赛作品 。\n封闭式评估 ， 根据成绩选出晋级决赛队伍 。\n举办全国总决赛及颁奖典礼 （ 具体地点另行通知 ） 。",
+          "method": "ocr",
+          "engine": "windows-ocr",
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\23696f0c345a8bfe1f34285bfabfc862a2b3ae4caa0e3219010b56c1f53a6e7e\\image.jpg",
+          "textHash": "a1caae221826eacbd678f2c53fde1e9db6180c9f1cdd1a0e117ac4d7b7119370",
+          "previewUrl": "media/98979e05556ae647d18b06530eddb5186cda6a58ee4bbe738745deab7ed98a37.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "F:\\竞赛信息\\.cache\\notice-resources\\extracted\\23696f0c345a8bfe1f34285bfabfc862a2b3ae4caa0e3219010b56c1f53a6e7e\\image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "lines": [
+              {
+                "words": [
+                  {
+                    "text": "阶",
+                    "bbox": [
+                      56,
+                      34,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "段",
+                    "bbox": [
+                      87,
+                      34,
+                      33,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "阶 段"
+              },
+              {
+                "words": [
+                  {
+                    "text": "报",
+                    "bbox": [
+                      21,
+                      129,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "名",
+                    "bbox": [
+                      55,
+                      129,
+                      29,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "阶",
+                    "bbox": [
+                      89,
+                      129,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "段",
+                    "bbox": [
+                      121,
+                      129,
+                      33,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "报 名 阶 段"
+              },
+              {
+                "words": [
+                  {
+                    "text": "辅",
+                    "bbox": [
+                      21,
+                      230,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "导",
+                    "bbox": [
+                      54,
+                      231,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "阶",
+                    "bbox": [
+                      89,
+                      230,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "段",
+                    "bbox": [
+                      121,
+                      230,
+                      33,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "辅 导 阶 段"
+              },
+              {
+                "words": [
+                  {
+                    "text": "作",
+                    "bbox": [
+                      21,
+                      330,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "bbox": [
+                      56,
+                      331,
+                      29,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "提",
+                    "bbox": [
+                      88,
+                      330,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "交",
+                    "bbox": [
+                      122,
+                      330,
+                      32,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "作 品 提 交"
+              },
+              {
+                "words": [
+                  {
+                    "text": "初",
+                    "bbox": [
+                      22,
+                      431,
+                      30,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      55,
+                      431,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "评",
+                    "bbox": [
+                      89,
+                      431,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "审",
+                    "bbox": [
+                      122,
+                      431,
+                      31,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "初 赛 评 审"
+              },
+              {
+                "words": [
+                  {
+                    "text": "总",
+                    "bbox": [
+                      38,
+                      531,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "决",
+                    "bbox": [
+                      71,
+                      531,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      105,
+                      531,
+                      31,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "总 决 赛"
+              },
+              {
+                "words": [
+                  {
+                    "text": "时",
+                    "bbox": [
+                      304,
+                      34,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "间",
+                    "bbox": [
+                      337,
+                      34,
+                      29,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "安",
+                    "bbox": [
+                      370,
+                      34,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "排",
+                    "bbox": [
+                      402,
+                      34,
+                      33,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "时 间 安 排"
+              },
+              {
+                "words": [
+                  {
+                    "text": "即",
+                    "bbox": [
+                      225,
+                      131,
+                      29,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "bbox": [
+                      261,
+                      131,
+                      23,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "起",
+                    "bbox": [
+                      291,
+                      129,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "bbox": [
+                      342,
+                      145,
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "text": "6",
+                    "bbox": [
+                      366,
+                      131,
+                      16,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "月",
+                    "bbox": [
+                      393,
+                      131,
+                      27,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "30",
+                    "bbox": [
+                      435,
+                      131,
+                      36,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "bbox": [
+                      486,
+                      131,
+                      23,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "即 日 起 一 6 月 30 日"
+              },
+              {
+                "words": [
+                  {
+                    "text": "即",
+                    "bbox": [
+                      224,
+                      232,
+                      30,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "bbox": [
+                      261,
+                      232,
+                      23,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "起",
+                    "bbox": [
+                      290,
+                      230,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "bbox": [
+                      342,
+                      246,
+                      10,
+                      2
+                    ]
+                  },
+                  {
+                    "text": "6",
+                    "bbox": [
+                      366,
+                      232,
+                      16,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "月",
+                    "bbox": [
+                      393,
+                      232,
+                      27,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "30",
+                    "bbox": [
+                      435,
+                      232,
+                      36,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "bbox": [
+                      486,
+                      232,
+                      23,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "即 日 起 一 6 月 30 日"
+              },
+              {
+                "words": [
+                  {
+                    "text": "6",
+                    "bbox": [
+                      201,
+                      332,
+                      18,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "月",
+                    "bbox": [
+                      230,
+                      331,
+                      29,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "30",
+                    "bbox": [
+                      273,
+                      332,
+                      37,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "bbox": [
+                      324,
+                      331,
+                      26,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "15",
+                    "bbox": [
+                      372,
+                      332,
+                      37,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "：",
+                    "bbox": [
+                      412,
+                      339,
+                      7,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "00",
+                    "bbox": [
+                      422,
+                      332,
+                      38,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "截",
+                    "bbox": [
+                      470,
+                      330,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "止",
+                    "bbox": [
+                      505,
+                      330,
+                      32,
+                      31
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "6 月 30 日 15 ： 00 截 止"
+              },
+              {
+                "words": [
+                  {
+                    "text": "2026",
+                    "bbox": [
+                      275,
+                      433,
+                      75,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "年",
+                    "bbox": [
+                      361,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "7",
+                    "bbox": [
+                      403,
+                      433,
+                      17,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "月",
+                    "bbox": [
+                      431,
+                      433,
+                      27,
+                      29
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "2026 年 7 月"
+              },
+              {
+                "words": [
+                  {
+                    "text": "2026",
+                    "bbox": [
+                      275,
+                      533,
+                      75,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "年",
+                    "bbox": [
+                      361,
+                      531,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "8",
+                    "bbox": [
+                      403,
+                      533,
+                      17,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "月",
+                    "bbox": [
+                      431,
+                      533,
+                      27,
+                      29
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "2026 年 8 月"
+              },
+              {
+                "words": [
+                  {
+                    "text": "主",
+                    "bbox": [
+                      936,
+                      34,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "要",
+                    "bbox": [
+                      970,
+                      35,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "内",
+                    "bbox": [
+                      1004,
+                      34,
+                      29,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "容",
+                    "bbox": [
+                      1036,
+                      33,
+                      32,
+                      33
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "主 要 内 容"
+              },
+              {
+                "words": [
+                  {
+                    "text": "登",
+                    "bbox": [
+                      701,
+                      129,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "录",
+                    "bbox": [
+                      736,
+                      131,
+                      32,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "bbox": [
+                      769,
+                      129,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      803,
+                      129,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "官",
+                    "bbox": [
+                      837,
+                      128,
+                      29,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "网",
+                    "bbox": [
+                      870,
+                      131,
+                      29,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "在",
+                    "bbox": [
+                      902,
+                      128,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "线",
+                    "bbox": [
+                      936,
+                      129,
+                      32,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "报",
+                    "bbox": [
+                      969,
+                      130,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "名",
+                    "bbox": [
+                      1002,
+                      129,
+                      30,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "bbox": [
+                      1048,
+                      152,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "获",
+                    "bbox": [
+                      1068,
+                      128,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "取",
+                    "bbox": [
+                      1103,
+                      131,
+                      32,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "参",
+                    "bbox": [
+                      1136,
+                      129,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      1170,
+                      129,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "资",
+                    "bbox": [
+                      1203,
+                      128,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "格",
+                    "bbox": [
+                      1236,
+                      128,
+                      32,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "bbox": [
+                      1271,
+                      152,
+                      9,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "登 录 大 赛 官 网 在 线 报 名 ， 获 取 参 赛 资 格 。"
+              },
+              {
+                "words": [
+                  {
+                    "text": "参",
+                    "bbox": [
+                      635,
+                      230,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      669,
+                      230,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "队",
+                    "bbox": [
+                      704,
+                      231,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "伍",
+                    "bbox": [
+                      736,
+                      230,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "准",
+                    "bbox": [
+                      769,
+                      230,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "备",
+                    "bbox": [
+                      802,
+                      230,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "bbox": [
+                      835,
+                      231,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "bbox": [
+                      870,
+                      232,
+                      29,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "bbox": [
+                      915,
+                      253,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "bbox": [
+                      935,
+                      232,
+                      33,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "通",
+                    "bbox": [
+                      969,
+                      231,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "过",
+                    "bbox": [
+                      1002,
+                      230,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "官",
+                    "bbox": [
+                      1037,
+                      229,
+                      30,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "网",
+                    "bbox": [
+                      1071,
+                      232,
+                      29,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "向",
+                    "bbox": [
+                      1105,
+                      230,
+                      27,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "专",
+                    "bbox": [
+                      1137,
+                      230,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "家",
+                    "bbox": [
+                      1170,
+                      228,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "咨",
+                    "bbox": [
+                      1203,
+                      230,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "询",
+                    "bbox": [
+                      1235,
+                      230,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      1270,
+                      230,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "题",
+                    "bbox": [
+                      1303,
+                      231,
+                      32,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "bbox": [
+                      1338,
+                      253,
+                      9,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "参 赛 队 伍 准 备 作 品 ， 可 通 过 官 网 向 专 家 咨 询 赛 题 。"
+              },
+              {
+                "words": [
+                  {
+                    "text": "提",
+                    "bbox": [
+                      885,
+                      331,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "交",
+                    "bbox": [
+                      920,
+                      330,
+                      31,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "初",
+                    "bbox": [
+                      952,
+                      330,
+                      31,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      986,
+                      330,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "bbox": [
+                      1019,
+                      331,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "bbox": [
+                      1054,
+                      332,
+                      29,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "bbox": [
+                      1088,
+                      353,
+                      9,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "提 交 初 赛 作 品 。"
+              },
+              {
+                "words": [
+                  {
+                    "text": "封",
+                    "bbox": [
+                      685,
+                      432,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "闭",
+                    "bbox": [
+                      721,
+                      430,
+                      29,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "式",
+                    "bbox": [
+                      752,
+                      432,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "评",
+                    "bbox": [
+                      785,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "估",
+                    "bbox": [
+                      819,
+                      432,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "bbox": [
+                      865,
+                      454,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "根",
+                    "bbox": [
+                      885,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "据",
+                    "bbox": [
+                      920,
+                      431,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "成",
+                    "bbox": [
+                      952,
+                      431,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "绩",
+                    "bbox": [
+                      985,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "选",
+                    "bbox": [
+                      1019,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "出",
+                    "bbox": [
+                      1055,
+                      431,
+                      27,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "晋",
+                    "bbox": [
+                      1087,
+                      433,
+                      31,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "级",
+                    "bbox": [
+                      1119,
+                      431,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "决",
+                    "bbox": [
+                      1152,
+                      432,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      1187,
+                      431,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "队",
+                    "bbox": [
+                      1221,
+                      432,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "伍",
+                    "bbox": [
+                      1253,
+                      431,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "bbox": [
+                      1288,
+                      454,
+                      9,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "封 闭 式 评 估 ， 根 据 成 绩 选 出 晋 级 决 赛 队 伍 。"
+              },
+              {
+                "words": [
+                  {
+                    "text": "举",
+                    "bbox": [
+                      618,
+                      531,
+                      33,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "办",
+                    "bbox": [
+                      652,
+                      531,
+                      32,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "bbox": [
+                      686,
+                      532,
+                      32,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "bbox": [
+                      720,
+                      533,
+                      29,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "总",
+                    "bbox": [
+                      752,
+                      531,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "决",
+                    "bbox": [
+                      786,
+                      532,
+                      32,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "赛",
+                    "bbox": [
+                      819,
+                      531,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "及",
+                    "bbox": [
+                      852,
+                      533,
+                      32,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "颁",
+                    "bbox": [
+                      885,
+                      531,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "奖",
+                    "bbox": [
+                      919,
+                      531,
+                      32,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "典",
+                    "bbox": [
+                      953,
+                      531,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "礼",
+                    "bbox": [
+                      986,
+                      531,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "（",
+                    "bbox": [
+                      1032,
+                      533,
+                      10,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "具",
+                    "bbox": [
+                      1052,
+                      533,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "体",
+                    "bbox": [
+                      1085,
+                      532,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "地",
+                    "bbox": [
+                      1119,
+                      531,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "点",
+                    "bbox": [
+                      1153,
+                      530,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "另",
+                    "bbox": [
+                      1185,
+                      533,
+                      31,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "行",
+                    "bbox": [
+                      1220,
+                      531,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "通",
+                    "bbox": [
+                      1253,
+                      532,
+                      31,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "知",
+                    "bbox": [
+                      1285,
+                      530,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "）",
+                    "bbox": [
+                      1330,
+                      533,
+                      9,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "bbox": [
+                      1354,
+                      554,
+                      9,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": null,
+                "text": "举 办 全 国 总 决 赛 及 颁 奖 典 礼 （ 具 体 地 点 另 行 通 知 ） 。"
+              }
+            ],
+            "engine": "windows-ocr",
+            "language": "zh-Hans-CN",
+            "text": "阶段\n报名阶段\n辅导阶段\n作品提交\n初赛评审\n总决赛\n时间安排\n即日起一 6 月 30 日\n即日起一 6 月 30 日\n6 月 30 日 15 ： 00 截止\n2026 年 7 月\n2026 年 8 月\n主要内容\n登录大赛官网在线报名 ， 获取参赛资格 。\n参赛队伍准备作品 ， 可通过官网向专家咨询赛题 。\n提交初赛作品 。\n封闭式评估 ， 根据成绩选出晋级决赛队伍 。\n举办全国总决赛及颁奖典礼 （ 具体地点另行通知 ） 。",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1378,
+            "height": 605
+          },
+          "qr": [],
+          "previewUrl": "media/98979e05556ae647d18b06530eddb5186cda6a58ee4bbe738745deab7ed98a37.jpg"
+        }
+      ],
+      "download": {
+        "path": "F:\\竞赛信息\\.cache\\notice-resources\\23696f0c345a8bfe1f34285bfabfc862a2b3ae4caa0e3219010b56c1f53a6e7e.img",
+        "sha256": "23696f0c345a8bfe1f34285bfabfc862a2b3ae4caa0e3219010b56c1f53a6e7e",
+        "bytes": 157384,
+        "filename": "750A8690A039C4F1375503FD327_D21C81CF_266C8.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/5/2C/4C/750A8690A039C4F1375503FD327_D21C81CF_266C8.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    }
+  ]
+}

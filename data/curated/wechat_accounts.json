@@ -1,0 +1,135 @@
+{
+  "description": "用户截图提供的账号名称；按公众号线索检索，账号身份及类型待核实。不是小程序 AppID 清单。",
+  "accounts": [
+    "西安交大基层就业",
+    "西安交大就业创业",
+    "西安交大钱学森学院",
+    "西安交大通识教育",
+    "西安交通大学社会实践",
+    "西安交通大学团委",
+    "西安交通大学图书馆",
+    "西安交通大学学生处",
+    "西安交通大学学生会",
+    "西安交通大学学生资助管理中心",
+    "西交大微后勤"
+  ],
+  "registry": [
+    {
+      "id": "wechat-01",
+      "name": "西安交大基层就业",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://news.xjtu.edu.cn/info/1219/223610.htm"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-02",
+      "name": "西安交大就业创业",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://oa.xjtu.edu.cn/zxgg_infonew.jsp?processInsId=SRSQRQW"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-03",
+      "name": "西安交大钱学森学院",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://bjb.xjtu.edu.cn/info/1011/4544.htm"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-04",
+      "name": "西安交大通识教育",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "pending",
+      "evidenceUrls": [],
+      "note": "仅有用户截图，尚无充分官方核实证据。"
+    },
+    {
+      "id": "wechat-05",
+      "name": "西安交通大学社会实践",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://news.xjtu.edu.cn/info/1219/201123.htm"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-06",
+      "name": "西安交通大学团委",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://pec.xjtu.edu.cn/info/1191/2456.htm"
+      ],
+      "note": "2018 年官方通知记录西安交大团委及微信号；与截图名称的当前对应关系待核实。",
+      "historicalWechatId": "xjtutuanwei"
+    },
+    {
+      "id": "wechat-07",
+      "name": "西安交通大学图书馆",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "pending",
+      "evidenceUrls": [],
+      "note": "仅有用户截图，尚无充分官方核实证据。"
+    },
+    {
+      "id": "wechat-08",
+      "name": "西安交通大学学生处",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://news.xjtu.edu.cn/info/1007/132590.htm"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-09",
+      "name": "西安交通大学学生会",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://tuanwei.xjtu.edu.cn/Passage?from=nav&id=22"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。",
+      "referencedWechatId": "xjsu1919"
+    },
+    {
+      "id": "wechat-10",
+      "name": "西安交通大学学生资助管理中心",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "official_name_reference",
+      "evidenceUrls": [
+        "https://xsc.xjtu.edu.cn/info/1060/15765.htm"
+      ],
+      "note": "官方页面提及名称，不代表认证主体或当前账号 ID 已核实。"
+    },
+    {
+      "id": "wechat-11",
+      "name": "西交大微后勤",
+      "wechatId": null,
+      "certifiedEntity": null,
+      "verificationStatus": "pending",
+      "evidenceUrls": [],
+      "note": "仅有用户截图，尚无充分官方核实证据。"
+    }
+  ]
+}

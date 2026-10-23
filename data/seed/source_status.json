@@ -1,0 +1,190 @@
+{
+  "sources": [
+    {
+      "key": "jwc_jsdc",
+      "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
+      "checkedAt": "2026-10-05T11:28:09",
+      "pages": 5,
+      "count": 41,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "jwc_dcxm",
+      "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/dcxm.htm",
+      "checkedAt": "2026-10-05T11:28:12",
+      "pages": 3,
+      "count": 27,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "gs_competitions",
+      "url": "https://gs.xjtu.edu.cn/pygz/sjjs.htm",
+      "checkedAt": "2026-10-05T11:28:13",
+      "pages": 5,
+      "count": 76,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "epe_competitions",
+      "url": "https://epe.xjtu.edu.cn/szgz/kcjs.htm",
+      "checkedAt": "2026-10-05T11:28:18",
+      "pages": 3,
+      "count": 31,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "epe_notices",
+      "url": "https://epe.xjtu.edu.cn/index/tzgg.htm",
+      "checkedAt": "2026-10-05T11:28:20",
+      "pages": 3,
+      "count": 30,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "pec_projects",
+      "url": "https://pec.xjtu.edu.cn/cxcy/dcxm.htm",
+      "checkedAt": "2026-10-05T11:28:22",
+      "pages": 4,
+      "count": 70,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "robomaster",
+      "url": "https://www.robomaster.com/zh-CN/resource/announcement/competition",
+      "checkedAt": "2026-10-05T11:31:55",
+      "pages": 1,
+      "count": 20,
+      "listed": 20,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "robocon",
+      "url": "https://www.robocon.org.cn/",
+      "checkedAt": "2026-10-05T11:28:25",
+      "pages": 1,
+      "count": 10,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "robocon_team",
+      "url": "https://www.cnrobocon.net/",
+      "checkedAt": "2026-10-05T11:28:29",
+      "pages": 1,
+      "count": 2,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "robocup",
+      "url": "https://rcccaa.drct-caa.org.cn/article_list.php?xiao=19",
+      "checkedAt": "2026-10-05T11:28:37",
+      "pages": 1,
+      "count": 10,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "ces",
+      "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
+      "checkedAt": "2026-10-05T11:28:37",
+      "pages": 3,
+      "count": 2,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "electrical_modeling",
+      "url": "https://shumo.neepu.edu.cn/tzgg.htm",
+      "checkedAt": "2026-10-05T11:31:56",
+      "pages": 2,
+      "count": 20,
+      "listed": 20,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "medical_teaching",
+      "url": "https://yxbpyc.xjtu.edu.cn/jxdt.htm",
+      "checkedAt": "2026-10-05T11:31:57",
+      "pages": 3,
+      "count": 0,
+      "listed": 98,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok_no_matching_notices"
+    },
+    {
+      "key": "medical_hospital",
+      "url": "https://xjefy.cn/defsyy/yxjy/bksjy.htm",
+      "checkedAt": "2026-10-05T11:42:25",
+      "pages": 3,
+      "count": 1,
+      "listed": 44,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "xjtu_news_teams",
+      "url": "https://news.xjtu.edu.cn/",
+      "checkedAt": "2026-10-05T11:28:54",
+      "pages": 1,
+      "count": 3,
+      "errors": [],
+      "missingDates": 0,
+      "state": "ok"
+    },
+    {
+      "key": "acm_vjudge",
+      "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
+      "checkedAt": "2026-10-05T11:28:57",
+      "pages": 1,
+      "count": 1,
+      "errors": [],
+      "missingDates": 1,
+      "state": "partial"
+    },
+    {
+      "key": "acm_luogu",
+      "url": "https://www.luogu.com.cn/contest/314922",
+      "checkedAt": "2026-10-05T11:28:59",
+      "pages": 0,
+      "count": 0,
+      "errors": [
+        "https://www.luogu.com.cn/contest/314922: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily"
+      ],
+      "missingDates": 0,
+      "state": "needs_adapter_or_unavailable"
+    },
+    {
+      "key": "pec_teams",
+      "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
+      "checkedAt": "2026-10-05T11:29:00",
+      "pages": 1,
+      "count": 0,
+      "errors": [],
+      "missingDates": 0,
+      "state": "needs_adapter_or_unavailable"
+    }
+  ]
+}
