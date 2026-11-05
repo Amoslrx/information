@@ -18,9 +18,10 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-10-05T11:28:09",
+            "checkedAt": "2026-11-05T14:35:41",
             "pages": 5,
-            "count": 41,
+            "count": 42,
+            "listed": 42,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -57,9 +58,10 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-10-05T11:28:09",
+            "checkedAt": "2026-11-05T14:35:41",
             "pages": 5,
-            "count": 41,
+            "count": 42,
+            "listed": 42,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -150,9 +152,10 @@
           "lastRun": {
             "key": "epe_competitions",
             "url": "https://epe.xjtu.edu.cn/szgz/kcjs.htm",
-            "checkedAt": "2026-10-05T11:28:18",
+            "checkedAt": "2026-11-05T14:36:07",
             "pages": 3,
             "count": 31,
+            "listed": 30,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -165,9 +168,10 @@
           "lastRun": {
             "key": "epe_notices",
             "url": "https://epe.xjtu.edu.cn/index/tzgg.htm",
-            "checkedAt": "2026-10-05T11:28:20",
+            "checkedAt": "2026-11-05T14:36:13",
             "pages": 3,
             "count": 30,
+            "listed": 30,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -222,9 +226,10 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-10-05T11:28:09",
+            "checkedAt": "2026-11-05T14:35:41",
             "pages": 5,
-            "count": 41,
+            "count": 42,
+            "listed": 42,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -249,9 +254,10 @@
           "lastRun": {
             "key": "robocon",
             "url": "https://www.robocon.org.cn/",
-            "checkedAt": "2026-10-05T11:28:25",
+            "checkedAt": "2026-11-05T14:36:25",
             "pages": 1,
-            "count": 10,
+            "count": 9,
+            "listed": 9,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -264,12 +270,13 @@
           "lastRun": {
             "key": "robocon_team",
             "url": "https://www.cnrobocon.net/",
-            "checkedAt": "2026-10-05T11:28:29",
+            "checkedAt": "2026-11-05T14:36:28",
             "pages": 1,
-            "count": 2,
+            "count": 0,
+            "listed": 12,
             "errors": [],
             "missingDates": 0,
-            "state": "ok"
+            "state": "ok_no_matching_notices"
           }
         },
         {
@@ -279,9 +286,10 @@
           "lastRun": {
             "key": "pec_teams",
             "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
-            "checkedAt": "2026-10-05T11:29:00",
+            "checkedAt": "2026-11-05T14:37:06",
             "pages": 1,
             "count": 0,
+            "listed": 0,
             "errors": [],
             "missingDates": 0,
             "state": "needs_adapter_or_unavailable"
@@ -306,9 +314,10 @@
           "lastRun": {
             "key": "robocup",
             "url": "https://rcccaa.drct-caa.org.cn/article_list.php?xiao=19",
-            "checkedAt": "2026-10-05T11:28:37",
+            "checkedAt": "2026-11-05T14:36:31",
             "pages": 1,
             "count": 10,
+            "listed": 10,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -387,7 +396,7 @@
           "lastRun": {
             "key": "robomaster",
             "url": "https://www.robomaster.com/zh-CN/resource/announcement/competition",
-            "checkedAt": "2026-10-05T11:31:55",
+            "checkedAt": "2026-11-05T14:36:24",
             "pages": 1,
             "count": 20,
             "listed": 20,
@@ -403,9 +412,10 @@
           "lastRun": {
             "key": "pec_teams",
             "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
-            "checkedAt": "2026-10-05T11:29:00",
+            "checkedAt": "2026-11-05T14:37:06",
             "pages": 1,
             "count": 0,
+            "listed": 0,
             "errors": [],
             "missingDates": 0,
             "state": "needs_adapter_or_unavailable"
@@ -424,9 +434,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-10-05T11:28:54",
+            "checkedAt": "2026-11-05T14:36:57",
             "pages": 1,
             "count": 3,
+            "listed": 65,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -445,12 +456,15 @@
           "lastRun": {
             "key": "acm_vjudge",
             "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
-            "checkedAt": "2026-10-05T11:28:57",
-            "pages": 1,
-            "count": 1,
-            "errors": [],
-            "missingDates": 1,
-            "state": "partial"
+            "checkedAt": "2026-11-05T14:37:05",
+            "pages": 0,
+            "count": 0,
+            "listed": 0,
+            "errors": [
+              "https://vjudge.net/group/xjtu-selection-2026-2027: HTTP Error 403: Forbidden"
+            ],
+            "missingDates": 0,
+            "state": "needs_adapter_or_unavailable"
           }
         },
         {
@@ -460,11 +474,12 @@
           "lastRun": {
             "key": "acm_luogu",
             "url": "https://www.luogu.com.cn/contest/314922",
-            "checkedAt": "2026-10-05T11:28:59",
+            "checkedAt": "2026-11-05T14:37:06",
             "pages": 0,
             "count": 0,
+            "listed": 0,
             "errors": [
-              "https://www.luogu.com.cn/contest/314922: HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nMoved Temporarily"
+              "https://www.luogu.com.cn/contest/314922: HTTP Error 403: Forbidden"
             ],
             "missingDates": 0,
             "state": "needs_adapter_or_unavailable"
@@ -501,9 +516,10 @@
           "lastRun": {
             "key": "pec_projects",
             "url": "https://pec.xjtu.edu.cn/cxcy/dcxm.htm",
-            "checkedAt": "2026-10-05T11:28:22",
+            "checkedAt": "2026-11-05T14:36:17",
             "pages": 4,
             "count": 70,
+            "listed": 69,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -516,9 +532,10 @@
           "lastRun": {
             "key": "jwc_dcxm",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/dcxm.htm",
-            "checkedAt": "2026-10-05T11:28:12",
+            "checkedAt": "2026-11-05T14:35:48",
             "pages": 3,
             "count": 27,
+            "listed": 27,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -531,9 +548,10 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-10-05T11:28:09",
+            "checkedAt": "2026-11-05T14:35:41",
             "pages": 5,
-            "count": 41,
+            "count": 42,
+            "listed": 42,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -606,9 +624,10 @@
           "lastRun": {
             "key": "gs_competitions",
             "url": "https://gs.xjtu.edu.cn/pygz/sjjs.htm",
-            "checkedAt": "2026-10-05T11:28:13",
+            "checkedAt": "2026-11-05T14:35:53",
             "pages": 5,
-            "count": 76,
+            "count": 75,
+            "listed": 117,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -651,9 +670,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-10-05T11:28:54",
+            "checkedAt": "2026-11-05T14:36:57",
             "pages": 1,
             "count": 3,
+            "listed": 65,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -690,7 +710,7 @@
           "lastRun": {
             "key": "electrical_modeling",
             "url": "https://shumo.neepu.edu.cn/tzgg.htm",
-            "checkedAt": "2026-10-05T11:31:56",
+            "checkedAt": "2026-11-05T14:36:41",
             "pages": 2,
             "count": 20,
             "listed": 20,
@@ -706,9 +726,10 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-10-05T11:28:37",
+            "checkedAt": "2026-11-05T14:36:32",
             "pages": 3,
             "count": 2,
+            "listed": 21,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -727,7 +748,7 @@
           "lastRun": {
             "key": "medical_teaching",
             "url": "https://yxbpyc.xjtu.edu.cn/jxdt.htm",
-            "checkedAt": "2026-10-05T11:31:57",
+            "checkedAt": "2026-11-05T14:36:43",
             "pages": 3,
             "count": 0,
             "listed": 98,
@@ -743,7 +764,7 @@
           "lastRun": {
             "key": "medical_hospital",
             "url": "https://xjefy.cn/defsyy/yxjy/bksjy.htm",
-            "checkedAt": "2026-10-05T11:42:25",
+            "checkedAt": "2026-11-05T14:36:49",
             "pages": 3,
             "count": 1,
             "listed": 44,
@@ -777,7 +798,7 @@
           "lastRun": {
             "key": "electrical_modeling",
             "url": "https://shumo.neepu.edu.cn/tzgg.htm",
-            "checkedAt": "2026-10-05T11:31:56",
+            "checkedAt": "2026-11-05T14:36:41",
             "pages": 2,
             "count": 20,
             "listed": 20,
@@ -799,9 +820,10 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-10-05T11:28:37",
+            "checkedAt": "2026-11-05T14:36:32",
             "pages": 3,
             "count": 2,
+            "listed": 21,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -814,9 +836,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-10-05T11:28:54",
+            "checkedAt": "2026-11-05T14:36:57",
             "pages": 1,
             "count": 3,
+            "listed": 65,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -847,9 +870,10 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-10-05T11:28:37",
+            "checkedAt": "2026-11-05T14:36:32",
             "pages": 3,
             "count": 2,
+            "listed": 21,
             "errors": [],
             "missingDates": 0,
             "state": "ok"

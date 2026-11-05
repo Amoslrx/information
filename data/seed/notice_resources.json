@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 9,
+  "count": 19,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -2571,6 +2571,206 @@
       "pageCount": null,
       "truncated": false,
       "errors": []
+    },
+    {
+      "id": "9f7071acd2caf8e467b1016866c2c1fdb98bde240dd1192f65544729bb2c6f58",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2010/0413/20100413031054234.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1809",
+      "kind": "attachment",
+      "name": "创意大赛报名表",
+      "context": "",
+      "noticeBodyHash": "7bedd5ee97e87c8ee8ecfbf5ec46d9d0a8df18aadfa090d0a7e50e60565e9a53",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:14.848016+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2010/0413/20100413031054234.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "2efac0e58554185edd33c51afc057ff1bf204800b535cdf03963038bf41d1f86",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2010/0624/20100624050957657.xls",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1835",
+      "kind": "attachment",
+      "name": "交大创意大赛获奖名单",
+      "context": "",
+      "noticeBodyHash": "6f2c245ed7fce57cf3b6f616cace3cde01aaec64d01c03c1ed4221be5a362bb5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:16.798170+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2010/0624/20100624050957657.xls",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "4ff3207cd1692a7b0e3152509491c9ab98b21824e2c29dc1481f61e96f0d1db7",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0107/20110107052028588.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1848",
+      "kind": "attachment",
+      "name": "西安交通大学志愿者报名表",
+      "context": "",
+      "noticeBodyHash": "eacbca175863d4f57b2f2a2938707afab8c123ebb8fb506a116400e09e93dd14",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:18.643685+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0107/20110107052028588.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "5241f3605343ebeb23b23a5861650956449999ba395c8acdc08c3d34db4c22f0",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0322/20110322041125509.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1859",
+      "kind": "attachment",
+      "name": "附件一：“AIA求职王语文比赛”参赛选手的报名表",
+      "context": "",
+      "noticeBodyHash": "7c3c03150aadca8295ce834fbe0b6afa5b3f8fc3e8d0ff6c0ac8b095c205cf6b",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:20.117981+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0322/20110322041125509.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "d2078a14fcdfc26c5a9cd9b8efccac07009cf0b6327078e99195b5d25a4d28f2",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0322/20110322041150484.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1859",
+      "kind": "attachment",
+      "name": "附件二_“AIA求职王语文比赛”具体说明及演讲题目",
+      "context": "",
+      "noticeBodyHash": "7c3c03150aadca8295ce834fbe0b6afa5b3f8fc3e8d0ff6c0ac8b095c205cf6b",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:22.356405+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0322/20110322041150484.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "f450555bb8cfeb6073e805cfbb57c113d21a52bda6e7da64800430e6236ab53d",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0412/20110412092631847.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1749",
+      "kind": "image",
+      "name": "",
+      "context": "大赛主题:应对就业困境，增强就业能力，畅游职场人生\n \n 我们邀请著名企业进入交大，完全模拟招聘会流程，助你：亲身体验求职实况；全方位了解公司招聘；熟悉招聘礼仪、体验职场的处事之道；发挥自己的优势、扬长补短。\n \n 这是锻炼自己的舞台，展示才华的机会，结交牛人的party，走向成功的第一步！！！\n \n 优秀选手可获多家俱乐部实力认证证书：一等奖1名，二等奖2名，三等奖3名。\n \n 优胜者获得名企实习推荐名额，为加盟名企打开大门！！！\n \n 活动流程： \n \n （一）报名：交大学生均可报名，报名表见附件可自己下载，也可以在我们的专设点领取纸质报名表，到时会有同学在两个食堂周围 “摆摊”。电子报名表可以发送至xjtumnzp@126.com，纸质报名表可以送回我们的专设点，也可在讲座培训时交给讲座的负责人员；\n \n （二）讲座培训：4月19日晚7点，教二100；更有观众礼品等你拿(可盖章)\n \n （三）模拟面试：选拔出进入总决赛的若干名选手，4月20日下午2点，教二100；\n \n （四）总决赛及颁奖晚会：通过前一轮的选手将由指导老师指导，现场PK，亲友团，观众更有机会抽中移动充值卡。4月22日晚7点，科学馆101；\n \n 我们的最新情况请关注BBS——job版、grd版。\n \n 主办：广东移动俱乐部\n \n 鸣谢：西安交通大学研究生会，百度，IBM，汇丰，博世，爱立信\n \n\n \n 本活动最终解释权归主办方所有。",
+      "noticeBodyHash": "b236232b430581a3676782005bae7bedac0a6818df578a81044a4ec5ec6e3b01",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:24.985952+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0412/20110412092631847.jpg",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "b7fc7939c1c621f23f3640e46eb5f1872876537cffdc2c972e97a125556130bb",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0422/20110422111810434.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1869",
+      "kind": "attachment",
+      "name": "【报名表】三一（中国）工程机械工业设计大赛报名表2011.4.21.doc",
+      "context": "",
+      "noticeBodyHash": "f9c595cedb2cdb752769aad52b89d054425c0b3ac72f9410e86082aa935f41a7",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:26.500016+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0422/20110422111810434.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "c18b3d7accd6b5a24668b8d15ac2d9135970b1399083963f77a4e22c944d310f",
+      "url": "https://tuanwei.xjtu.edu.cn/uploadfile/2011/0422/20110422111924499.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1869",
+      "kind": "attachment",
+      "name": "【承诺书】三一（中国）工程机械工业设计大赛参赛者承诺书2011.4.21.doc",
+      "context": "",
+      "noticeBodyHash": "f9c595cedb2cdb752769aad52b89d054425c0b3ac72f9410e86082aa935f41a7",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:28.496763+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0422/20110422111924499.doc",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "73d5f29c1f45f7a8e60e19f59bb02b2522a95f23026dfec5279787bd30428319",
+      "url": "http://job.xjtu.edu.cn/userfiles/file/职业生涯规划的简介.doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1882",
+      "kind": "attachment",
+      "name": "附件一：关于职业生涯规划的简介",
+      "context": "",
+      "noticeBodyHash": "caef8e24447db384f11ed9dc1f874993b776cfe5b6c21e52b6cd491beb9b73e8",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:30.982155+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 20-28: ordinal not in range(128)",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "68e8f18a6bba529de6591a602345b9ffeb1a22b8deee79e7c1583738d185ff09",
+      "url": "http://job.xjtu.edu.cn/userfiles/file/职业规划设计作品模板(1).doc",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1882",
+      "kind": "attachment",
+      "name": "附件二：“个人职业规划设计书模板”；",
+      "context": "",
+      "noticeBodyHash": "caef8e24447db384f11ed9dc1f874993b776cfe5b6c21e52b6cd491beb9b73e8",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-05T14:45:31.186157+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 20-29: ordinal not in range(128)",
+      "chunks": [],
+      "images": []
     }
   ]
 }
