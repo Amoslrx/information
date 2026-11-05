@@ -74,7 +74,9 @@ jobs:
         run: python scripts/crawl_notice_bodies.py
 
       - name: 解析附件、图片与二维码
-        run: python scripts/crawl_notice_resources.py
+        timeout-minutes: 5
+        continue-on-error: true
+        run: python scripts/crawl_notice_resources.py --limit 10 --max-pages 5 --parse-timeout 30 --total-timeout 20
 
       - name: 提取有证据的结构化字段
         run: python scripts/extract_notice_fields.py
