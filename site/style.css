@@ -654,3 +654,11 @@ code {
 .compact-reposts { margin-top: 6px; font-size: 0.9em; color: #64748b; }
 .compact-reposts summary { cursor: pointer; }
 .compact-reposts > div { margin: 4px 0; }
+
+/* XJTU-inspired: crimson, plane-tree leaves and campus architectural linework. */
+:root { --bg:#f7f3ee; --primary:#9e2335; --primary-2:#771a29; --primary-bg:#f8e9ec; }
+body { background-color:var(--bg); background-image:linear-gradient(180deg,rgba(247,243,238,.50),rgba(247,243,238,.88)),url("campus-background.svg"); background-size:cover,1400px auto; background-position:center top,center bottom; background-attachment:fixed; }
+.site-header { background:linear-gradient(115deg,rgba(105,20,35,.98),rgba(158,35,53,.94)),url("campus-background.svg") center 65%/cover; border-bottom:3px solid #c6a56d; padding-top:28px; padding-bottom:26px; }
+.site-header::after { content:"西迁精神 · 求实创新"; display:block; max-width:1048px; margin:12px auto 0; padding:0 16px; color:#ead8b7; font-size:12px; letter-spacing:.28em; }
+.card { border-color:#e8ded7; box-shadow:0 3px 16px rgba(85,43,30,.045); }
+@media(max-width:640px) { body { background-attachment:scroll; background-size:auto,1000px auto; } .site-header { padding-top:20px; padding-bottom:18px; } }
