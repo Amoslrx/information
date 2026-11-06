@@ -9,173 +9,8 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1091/10635.htm",
-    "title": "关于转发高校在线开放课程联盟联席会《关于征集“第七届 全国智课教育创新大会暨高校在线开放课程联盟...",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5604.htm",
-    "title": "关于招募第二十二届全国大学生智能汽车竞赛参赛队员的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10634.htm",
-    "title": "关于招募第二十二届全国大学生智能汽车竞赛参赛队员的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1178/10636.htm",
-    "title": "关于开放2026-2027学年第一学期本科课程学生评教的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10637.htm",
-    "title": "关于发布第十八届全国大学生数学竞赛考场信息的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15979.htm",
-    "title": "关于举办第五届西安交通大学电力电子创新设计竞赛颁奖仪式的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15978.htm",
-    "title": "关于举办第五届西安交通大学电力电子创新设计竞赛颁奖仪式的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4785",
-    "title": "西安交通大学学生赛艇队在2026年全国大学生赛艇锦标赛中获得佳绩",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1178/10633.htm",
-    "title": "关于转发《中国工程教育专业认证协会关于开展2026年工程教育认证申请工作的通告》的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4784",
-    "title": "青春落笔处，心桥连民心",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/6011.htm",
-    "title": "关于能动学院2025-2026学年研究生社会、行业奖学金提交申请的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5592.htm",
-    "title": "关于组织参加2027年美国大学生数学建模竞赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10621.htm",
-    "title": "关于组织参加2027年美国大学生数学建模竞赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1954",
-    "title": "RoboMaster 2027机甲大师高校系列赛报名名单公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1189/5591.htm",
-    "title": "2027年中国大学生工程实践与创新能力大赛企业运营仿真赛项培训视频（清晰版）",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/6003.htm",
-    "title": "西安交通大学能源与动力工程学院2027年博士研究生招生“申请-考核”制实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15957.htm",
-    "title": "西安交通大学电气工程学院2027年普通招考博士研究生“申请-考核”制实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/6001.htm",
-    "title": "能动学院关于开展西安交通大学2026年“冯博琴人工智能奖学金”评选工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5582.htm",
-    "title": "关于组织参加2027年中国大学生工程实践与创新能力大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10614.htm",
-    "title": "关于组织参加2027年中国大学生工程实践与创新能力大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10613.htm",
-    "title": "关于开放第九周开课课程补、退选的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1103/10612.htm",
-    "title": "关于开展首批项目制教学改革专题研究项目立项工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1179/10611.htm",
-    "title": "关于2026年度“人工智能+”虚拟仿真实验教学项目推荐结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15951.htm",
-    "title": "\"电气之光大讲堂\"第17期：How to write highly cited papers",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15952.htm",
-    "title": "\"电气之光大讲堂\"第17期：How to write highly cited papers",
-    "priority": null
-   },
-   {
     "url": "https://www.robocon.org.cn/sys-nd/135.html",
     "title": "2027年足式机器人挑战赛-V2.0",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4782",
-    "title": "首雁说 | 实验室安全优秀学生网格员访谈纪实（第三期）",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4779",
-    "title": "西安交通大学第四十届研究生“中华之声”合唱比赛在中国西部科技创新港唱响",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4783",
-    "title": "自行车文明管理志愿者招募",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4778",
-    "title": "建功“十五五”·青春为中国式现代化挺膺担当",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1178/10601.htm",
-    "title": "关于开展2026-2027学年第一学期本科教学质量检查的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4781",
-    "title": "“新生面对面”系列讲座第三讲：科研竞赛",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15931.htm",
-    "title": "2027电气学院直博生信息确认须知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4780",
-    "title": "西安交通大学辩论队首夺全国冠军暨建队30周年纪念系列活动举行",
     "priority": null
    },
    {
@@ -184,148 +19,8 @@
     "priority": null
    },
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4777",
-    "title": "中国工程院院士王辰受邀做客“九州名家”系列高端报告会",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1178/10583.htm",
-    "title": "关于启用智慧督导平台开展校院两级教学质量评价工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4768",
-    "title": "“灵境空间”高性能计算平台采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15917.htm",
-    "title": "\"电气之光大讲堂\"第16期：从理论到实践：标准撰写与求职竞争力提升",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15918.htm",
-    "title": "\"电气之光大讲堂\"第16期：从理论到实践：标准撰写与求职竞争力提升",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1933",
-    "title": "关于举办第二十六届全国大学生机器人大赛 ROBOMASTER 赛事的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10575.htm",
-    "title": "[竞赛大创]关于公布西安交通大学2026年大学生新文科实践创新大赛校内赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1178/10562.htm",
-    "title": "关于组织任课教师自主开展2026-2027学年第一学期本科学生评教（试点）工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10574.htm",
-    "title": "关于2026年秋季体质健康标准测试的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4769",
-    "title": "“九州名家”系列高端报告会 | 听王辰院士讲医学",
-    "priority": null
-   },
-   {
     "url": "https://www.robocon.org.cn/sys-nd/133.html",
     "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10551.htm",
-    "title": "关于举办通识大讲堂第43讲——《人工智能时代的能源转型及创新创业机会》的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10553.htm",
-    "title": "关于举办通识大讲堂第42讲——《让电影再次伟大？——2026年暑期电影观察》的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4767",
-    "title": "长河无声奔去，信念薪火相传",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4773",
-    "title": "双夜同启，山海共赴——西安交通大学2026级本科生与研究生迎新晚会璀璨上演",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5564.htm",
-    "title": "关于组织开展第十八届蓝桥杯大赛数字科技创新赛(智能装备数字化建模大赛)报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10543.htm",
-    "title": "关于组织开展第十八届蓝桥杯大赛数字科技创新赛(智能装备数字化建模大赛)报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1179/10542.htm",
-    "title": "关于开展2026年西安交通大学创新创业教育实践基地建设总结验收工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15828.htm",
-    "title": "【竞赛通知】关于组织开展第十八届蓝桥杯大赛数字科技创新赛（智能装备数字化建模大赛）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4766",
-    "title": "“我们的中国梦·文化进万家”走进西安交通大学",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5562.htm",
-    "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10541.htm",
-    "title": "关于组织第十二届国际大学生智能农业装备创新大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10531.htm",
-    "title": "关于举办第十八届全国大学生数学竞赛培训的通知",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1931",
-    "title": "大疆赞助权益说明及申请公告（RoboMaster 2027）",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5551.htm",
-    "title": "关于组织华为ICT大赛2026-2027报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10521.htm",
-    "title": "关于组织华为ICT大赛2026-2027报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1932",
-    "title": "RoboMaster 机甲大师高校积分榜完整版（截止至2026年8月）",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1930",
-    "title": "RoboMaster 2027 机甲大师高校系列赛物资购买说明",
-    "priority": null
-   },
-   {
-    "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1929",
-    "title": "RoboMaster 2027 机甲大师高校系列赛代表队伍名单公示",
     "priority": null
    },
    {
@@ -334,1318 +29,8 @@
     "priority": null
    },
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4770",
-    "title": "通知 | 西安交通大学第十一届社会实践青年研究年会作品征集通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15784.htm",
-    "title": "电气学院2027年推荐免试研究生拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1179/10510.htm",
-    "title": "关于组织2026年西安交通大学本科实验实践与创新创业教育教学改革研究专项项目中期检查的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4774",
-    "title": "沃土沃野绘新卷，青春建功振兴路",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5544.htm",
-    "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10507.htm",
-    "title": "关于组织参加第十八届蓝桥杯全国大学生软件和信息技术大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5543.htm",
-    "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10505.htm",
-    "title": "关于组织全国大学生计算机应用能力与数字素养大赛暨第九届传智杯全国大学生数智创新与AI应用大赛报名的...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10502.htm",
-    "title": "关于本科生办理火车票优惠资质核验的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1179/10504.htm",
-    "title": "关于征集推荐2026年度“人工智能+”虚拟仿真实验教学项目的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10503.htm",
-    "title": "关于公布2026年新文科实践创新大赛校赛答辩入围名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10508.htm",
-    "title": "关于举办第24届西安交通大学英语辩论赛暨金秋外语节英语辩论赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10501.htm",
-    "title": "关于2026级新生自查学信网学籍信息的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15772.htm",
-    "title": "电气工程学院2026-2027学年第一学期本科生出国（境）交流资助资格选拔通知",
-    "priority": null
-   },
-   {
     "url": "https://www.robocon.org.cn/sys-nd/132.html",
     "title": "2027年足式机器人挑战赛-V1.0",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4765",
-    "title": "赓续百卅西迁薪火，青春建功挺膺新程，第四十一届“最佳团日”来啦！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4764",
-    "title": "2026年“首雁计划”暑期实验室安全巡查工作总结",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5535.htm",
-    "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10497.htm",
-    "title": "关于组织参加第十二届全国大学生生命科学竞赛（科学探究类）的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10496.htm",
-    "title": "关于第42届全国部分地区大学生物理竞赛西安交通大学报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10495.htm",
-    "title": "关于第 3 届学研杯大学物理强基邀请赛II卷西安交通大学报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10494.htm",
-    "title": "关于开展2026年学籍处理与毕业年级确认工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5877.htm",
-    "title": "2026级硕士研究生国家奖学金评定通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5876.htm",
-    "title": "能动学院关于开展2026年度西安交通大学小米特等奖学金评审工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10493.htm",
-    "title": "第二十四届金秋外语节活动预告",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5533.htm",
-    "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10491.htm",
-    "title": "关于组织开展第十二届全国大学生机械创新设计大赛2027年数字孪生设计挑战赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5875.htm",
-    "title": "关于开展2025-2026学年甘肃飞天学子奖学金评审事宜的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5873.htm",
-    "title": "关于做好能动学院2026年优秀研究生标兵申请评定工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5874.htm",
-    "title": "关于2026年康明斯林慰梓博士奖学金评选结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4762",
-    "title": "向西而歌传薪火，西迁精神进北疆",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10489.htm",
-    "title": "关于落实2026-2027学年第二学期教学任务的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5531.htm",
-    "title": "关于组织2026年全国大学生数字媒体科技作品及创意竞赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10483.htm",
-    "title": "关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4763",
-    "title": "梧影流光，百团齐辉——2026年社团博览会圆满落幕！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4775",
-    "title": "文脉千秋薪火续，青春寻迹启新程",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10490.htm",
-    "title": "关于开展西安交通大学第十三届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4776",
-    "title": "百卅辉光映青春，实践笃行贺华诞",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5525.htm",
-    "title": "关于开展2026年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”中期验收的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5854.htm",
-    "title": "工程硕博士专项-核科学与技术（国家电投）面试通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5851.htm",
-    "title": "工程硕博士专项-核科学与技术（中广核）面试通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5829.htm",
-    "title": "能动学院工程硕博士专项计划及对接人",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15716.htm",
-    "title": "“电气之光大讲堂”第12期：Electron Emission and Nano Plasma in Nanogap for compact THz sources",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15717.htm",
-    "title": "“电气之光大讲堂”第12期：Electron Emission and Nano Plasma in Nanogap for compact THz sources",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15719.htm",
-    "title": "“电气之光大讲堂”第11期：超导电性及应用",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15720.htm",
-    "title": "“电气之光大讲堂”第11期：超导电性及应用",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15713.htm",
-    "title": "\"电气之光大讲堂\"第10期：海底与地下高压交直流电缆的电磁建模",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15714.htm",
-    "title": "\"电气之光大讲堂\"第10期：海底与地下高压交直流电缆的电磁建模",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15711.htm",
-    "title": "2027年电气学院推荐免试研究生招生工作实施方案",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5827.htm",
-    "title": "能源与动力工程学院2027年推荐免试研究生招生工作实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15706.htm",
-    "title": "【特邀报告】海底与地下高压交直流电缆的电磁建模",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15707.htm",
-    "title": "【特邀报告】海底与地下高压交直流电缆的电磁建模",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15702.htm",
-    "title": "\"电气之光大讲堂\"第9期：关于电介质老化与设计的思考",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10440.htm",
-    "title": "[竞赛大创]关于举办2026年大学生新文科实践创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10437.htm",
-    "title": "关于开展2026级新生2026-2027学年第一学期选课指导的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10434.htm",
-    "title": "关于公布2026-2027学年第一学期停开课程的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10436.htm",
-    "title": "关于2026-2027学年第一学期本科新生选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10432.htm",
-    "title": "关于2026级新生进校英语测试的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4756",
-    "title": "赓续西迁志，问道天山行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4755",
-    "title": "青春力量赋能乡村振兴 西安交通大学志愿团队走进安康平利开展公益实践",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4754",
-    "title": "点赞交大学子！1个人、1团队获评2025年“中国大学生自强之星”！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4748",
-    "title": "实践周报 | 8月2日-8月9日",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4750",
-    "title": "青年实干家计划 | 扎根一线淬初心，挺膺实干显担当",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4751",
-    "title": "双向奔赴！她，收到交大录取通知书了",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4749",
-    "title": "实践周报 | 7月27日 - 8月2日",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10428.htm",
-    "title": "[竞赛大创]关于组织 2026“外研社·国才杯”“理解当代中国”外语能力大赛西安交通大学校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5812.htm",
-    "title": "能动学院2026年暑期值班安排",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4746",
-    "title": "西安交大学生辩论队荣获2026国际华语辩论邀请赛高校组资格赛冠军",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4747",
-    "title": "特等奖！西安交大在第十九届全国大学生节能减排竞赛中创佳绩",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10422.htm",
-    "title": "关于公示2026年本科生转专业拟录取名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4742",
-    "title": "交大青年：盛夏躬身践初心 笃行实干绽芳华",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10415.htm",
-    "title": "关于公布2025-2026学年暑期停开课程的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4743",
-    "title": "跨越24年的“双向奔赴”：滇西女孩圆梦交大，背后是368颗滚烫的初心",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5802.htm",
-    "title": "西安交通大学能源与动力工程学院 本科生境内外交流学习管理办法（试行）",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5803.htm",
-    "title": "能动学院2026年强基转段拟录取公示名单",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15652.htm",
-    "title": "电气学院2023级强基计划学生本研衔接转段拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5801.htm",
-    "title": "2026年能动学院转专业面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10413.htm",
-    "title": "2026年法学院转专业面试名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10411.htm",
-    "title": "电气工程学院2026年本科生转专业综合考查安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10403.htm",
-    "title": "关于2026-2027学年第一学期本科生（不含2026级）选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5792.htm",
-    "title": "2026年能动学院暑期博士学位论文办理送审、答辩审批时间安排",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5791.htm",
-    "title": "2026年能动学院转专业笔试安排和面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5785.htm",
-    "title": "能动学院管理辅助人员招聘公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4741",
-    "title": "九载桨声连两岸 同心逐梦启新程 第九届高校青年赛艇文化研习营举行",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10400.htm",
-    "title": "2026年经济与金融学院接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4740",
-    "title": "追梦思源！2026年青少年高校科学营圆满落幕",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10393.htm",
-    "title": "电气工程学院2026年接收本科生转专业笔试安排通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15631.htm",
-    "title": "国网四川省电力公司研究生工作站2026年招收进站通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4739",
-    "title": "向西而歌！西安交通大学第28届研究生支教团，出征！",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10398.htm",
-    "title": "2026年金禾经济研究中心转专业笔试及面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4738",
-    "title": "2026年西安交通大学“攀登计划”优秀大学生赴省直机关见习启动会举行",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10395.htm",
-    "title": "2026年管理学院接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10396.htm",
-    "title": "2026年生命科学与技术学院接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10394.htm",
-    "title": "2026年仪器科学与技术学院转专业笔面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10392.htm",
-    "title": "2026年电子与信息学部接收本科生转专业考试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10381.htm",
-    "title": "法学院2026年转专业笔试和面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15628.htm",
-    "title": "关于调整我校电气工程学院2027年全国硕士研究生招生考试初试专业课科目及考试大纲的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10391.htm",
-    "title": "关于2025-2026学年暑期重修班开课、选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5778.htm",
-    "title": "能动学院2026年本科生专业方向分流宣讲会安排",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5776.htm",
-    "title": "能动学院2023级（核工程）强基计划学生本研衔接转段工作实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15598.htm",
-    "title": "电气工程学院 2026 年（第十二届）优秀大学生夏令营圆满举行",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10376.htm",
-    "title": "公共政策与管理学院2026年转专业笔试和面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4736",
-    "title": "【陕西日报】一个夏令营，如何成为城市“邀请函”？",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4737",
-    "title": "2026“挑战杯—国创赛”金奖项目夏令营在西安交大开营",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10365.htm",
-    "title": "关于2026-2027学年第一学期补考（含缓考）有关事宜的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15580.htm",
-    "title": "【竞赛通知】第五届西安交通大学电力电子创新设计竞赛——高变比、大动态DC-DC变换器",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15582.htm",
-    "title": "【竞赛通知】第五届西安交通大学电力电子创新设计竞赛——高变比、大动态DC-DC变换器",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15578.htm",
-    "title": "2026年西安交通大学无界学堂—西交·通全球暑期学校（XJTISS）课程通知：电气工程中的人工智能：基础理论与案例研究",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15579.htm",
-    "title": "2026年西安交通大学无界学堂—西交·通全球暑期学校（XJTISS）课程通知：电气工程中的人工智能：基础理论与案例研究",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5761.htm",
-    "title": "能动学院2026年优本项目公示名单",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5762.htm",
-    "title": "2026级博士研究生录取通知书发放通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5763.htm",
-    "title": "2026年能源与动力工程学院 暑期大学生夏令营开营通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15577.htm",
-    "title": "2026年电气学院博士录取通知书发放通知（内含博士学号班级查询）",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5760.htm",
-    "title": "2026年春季学期能动学院海外访学奖助金公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5757.htm",
-    "title": "西安交通大学国际月无界学堂全球暑期学校(XJTISS)新能源转化原理与技术国际暑期学校第二轮通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5755.htm",
-    "title": "西安交通大学无界学堂—西交•通全球暑期学校—Advanced Accelerator Technology and Application",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5756.htm",
-    "title": "西交•通全球暑期学校（XJTISS）讲座通知 能源环境前沿技术讲座",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15573.htm",
-    "title": "关于2026级博士生、硕士生已接收政审表及档案信息查询的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15571.htm",
-    "title": "2026年春季学期研究生海外访学奖助金评定通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15565.htm",
-    "title": "西安交通大学电气工程学院2026年夏令营活动安排",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5754.htm",
-    "title": "能动学院2026年首批微专业拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4735",
-    "title": "西安交通大学2026毕业生欢庆之夜落幕",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5753.htm",
-    "title": "关于2026年春季学期研究生海外访学奖助金评定工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4734",
-    "title": "研究生会2026年第一期“薪火计划”研究生骨干 研修班圆满收官",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15558.htm",
-    "title": "电气2026级硕士新生录取通知书领取寄送通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10356.htm",
-    "title": "关于落实2026-2027学年第一学期2026级教学任务的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10354.htm",
-    "title": "关于2026届本科生申请延长学习时间及结业等有关事项的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5746.htm",
-    "title": "2026级硕士研究生录取通知书发放",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10347.htm",
-    "title": "2026届应届本科毕业生出国成绩单等资料办理通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10346.htm",
-    "title": "2026年9月“全国计算机等级考试”西安交通大学兴庆校区考点报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4731",
-    "title": "关于西安交通大学学生跨校组队参加2026年度中国青年科技创新“揭榜挂帅”擂台赛（新能源赛道）的公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5742.htm",
-    "title": "能源与动力工程学院关于开展2026年硕士研究生中期及专业实践考核、社会实践工作通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10343.htm",
-    "title": "关于2025-2026学年第二学期机械设计基础课程期末答疑安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10344.htm",
-    "title": "关于2025-2026学年第二学期工程制图、工程图学、机械制图课程答疑的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10345.htm",
-    "title": "关于2025-2026学年第二学期大学物理相关课程答疑安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4732",
-    "title": "关于西安交通大学2026年“中国茅台·国之栋梁”本硕博优才计划（研究生）评选通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5735.htm",
-    "title": "关于开展2026年博士生中期考核的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10339.htm",
-    "title": "关于公布2025-2026学年第二学期高等数学串讲辅导安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5454.htm",
-    "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10338.htm",
-    "title": "关于举办第八届中华经典诵写讲大赛西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5733.htm",
-    "title": "能源与动力工程学院2026年暑期夏令营第二轮通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10336.htm",
-    "title": "关于举办“西安交通大学—清华大学写作中心”通识课程建设经验交流会的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4727",
-    "title": "2026年“西部计划”志愿者拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4729",
-    "title": "西安交通大学：以志愿服务践行西迁精神",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10334.htm",
-    "title": "关于2025-2026学年夏季小学期2025级学生教学安排及选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15552.htm",
-    "title": "2026年电气学院拟录取博士生（含直博生、资格考核）下载录取材料及提交的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10332.htm",
-    "title": "[竞赛大创]关于举办2026年外研社·国才杯“理解当代中国”外语能力大赛“四新”专项赛校级选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15550.htm",
-    "title": "2026年电气学院公开招考非全工程博士拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15547.htm",
-    "title": "关于2026年7月博士中期考核的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10330.htm",
-    "title": "关于2025-2026学年夏季小学期重修班开课、选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10331.htm",
-    "title": "关于2025-2026学年夏季小学期通识课及其他教学安排选课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4728",
-    "title": "“大国重器进校园”活动顺利举行—— “华龙一号”总设计师走进西安交通大学",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10329.htm",
-    "title": "2025-2026学年第二学期电气学院部分课程答疑安排（持续更新）",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15546.htm",
-    "title": "电气工程学院2026年（第十二届）全国优秀大学生夏令营",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15543.htm",
-    "title": "西安交大数智电气工程微专业",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10327.htm",
-    "title": "2026年6月全国大学英语四、六级预测考试考生名单及考场安排通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15540.htm",
-    "title": "西安交通大学电气学院2026年博士研究生（专项）拟补录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15541.htm",
-    "title": "电气工程学院2026级拟录取研究生档案接收指南",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5451.htm",
-    "title": "关于举办2026年西安交通大学“大学生创新训练项目”成果展暨冠军争夺赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10321.htm",
-    "title": "关于2026年端午节、全国大学外语四六级考试期间教学工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10324.htm",
-    "title": "2025-2026学年第二学期大学英语课程口语机考考场安排通知",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/15532.htm",
-    "title": "电气工程学院储能科学与工程（储能系统）方向2026年本科生转专业工作方案",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15533.htm",
-    "title": "电气工程学院储能科学与工程（储能系统）方向2026年本科生转专业工作方案",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/15529.htm",
-    "title": "电气工程学院2026年本科生转专业工作方案",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15530.htm",
-    "title": "电气工程学院2026年本科生转专业工作方案",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4726",
-    "title": "2025-2026学年社团优秀指导教师与社团年度人物评选决赛暨“青衿”骨干培训项目第五期顺利举行",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10293.htm",
-    "title": "关于下载2026年全国大学生英语竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10291.htm",
-    "title": "2026年6月全国大学英语四、六级预测考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10244.htm",
-    "title": "关于本科生补办学生证的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10245.htm",
-    "title": "关于打印2026年上半年全国大学英语四、六级考试准考证的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10241.htm",
-    "title": "关于做好2025-2026第二学期期末教学安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/15448.htm",
-    "title": "电气工程学院2025级本科生专业选择工作方案",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15449.htm",
-    "title": "电气工程学院2025级本科生专业选择工作方案",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10232.htm",
-    "title": "关于落实2025-2026学年小学期教学任务的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1176/10236.htm",
-    "title": "关于开展2027版本科专业培养方案修订调研工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5422.htm",
-    "title": "关于公示2026年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科研训练和实践创新基金项目”拟推荐名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10234.htm",
-    "title": "[竞赛大创]关于公示2026年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科...",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/15433.htm",
-    "title": "2026年西安交通大学电气学院-帝国理工学院暑期短期交流访学项目选拔通知（面向西交米兰学院）",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15451.htm",
-    "title": "2026年西安交通大学电气学院-帝国理工学院暑期短期交流访学项目选拔通知（面向西交米兰学院）",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15418.htm",
-    "title": "电气学院2026年同等学力申请硕士学位预申请资格注册实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15419.htm",
-    "title": "电气学院2026年同等学力申请博士学位预申请资格注册实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5411.htm",
-    "title": "关于公布2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”结题验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10223.htm",
-    "title": "[竞赛大创]关于公布2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15408.htm",
-    "title": "西安交通大学电气学院2026年公开招考普通博士拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15409.htm",
-    "title": "电气工程学院2026级新生转接团关系注意事项",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15401.htm",
-    "title": "西安交通大学电气学院2026年秋博士资格考核（硕转博）拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15399.htm",
-    "title": "西安交通大学电气学院2026年强军计划博士拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10214.htm",
-    "title": "关于组织开展2027年第十届中国大学生工程实践与创新能力大赛相关工作的预通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4724",
-    "title": "双轮驱动育英才 | 西安交大与科大讯飞共建“攀登计划”实践基地",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/10191.htm",
-    "title": "关于2025级、2024级、2023级本科生转专业的通知(截止2026年6月18日，更新结束)",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15378.htm",
-    "title": "西安交通大学电气学院2026工程博士研究生（非全日制）招生实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10183.htm",
-    "title": "关于公示西安交通大学2026年（第十二届）全国大学生统计建模大赛陕西赛区复赛拟推荐名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5394.htm",
-    "title": "关于公示2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”结题验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10182.htm",
-    "title": "关于公布2025-2026学年第二学期概率论与数理统计串讲辅导安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10181.htm",
-    "title": "关于举办西安交通大学2026中国大学生机械工程创新创业大赛机械产品数字化设计赛-设计赛项校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/10184.htm",
-    "title": "[竞赛大创]关于公示2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10171.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业赛道校赛结果及省赛选拔赛相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15370.htm",
-    "title": "2026级新生党员转接党组织关系注意事项",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15358.htm",
-    "title": "电气学院2026年公开招考博士转专项及工程博士招生的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10161.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业赛道校赛决赛相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15348.htm",
-    "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4722",
-    "title": "繁星计划｜开心麻花即兴喜剧再度登陆交大",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10143.htm",
-    "title": "关于西安交通大学2026年上半年全国大学英语四六级口语考试的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10144.htm",
-    "title": "关于公布2025-2026（2）《形势与政策》线下课停开部分课程的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10141.htm",
-    "title": "关于2026年春季体质健康标准测试的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4720",
-    "title": "西安交通大学第十三届“挑战杯”陕汽集团陕西省大学生创业计划竞赛申报作品公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10131.htm",
-    "title": "关于举办第二十一届全国大学生智能汽车竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10121.htm",
-    "title": "关于2026年美国大学生数学建模竞赛获奖队伍后续工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10118.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校赛决赛（主赛道、红旅赛道）结果及省赛选拔赛安...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10117.htm",
-    "title": "2025-2026学年第二学期2025级本科生《形势与政策》开课、选课通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4716",
-    "title": "西安交通大学研究生支教团：为山区孩子补上素质教育课",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4712",
-    "title": "活动预热 | “草本有灵·岐黄同行”中医药文化主题游园会来啦！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4713",
-    "title": "《未来我来——2026五四青年节特别节目》播出：交大青年讲述西迁故事",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4714",
-    "title": "The Faces｜第二届白鸽音乐节阵容揭晓 ！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4710",
-    "title": "追光的你丨青春正当时",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10101.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业赛道校赛安排的预通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10113.htm",
-    "title": "关于组织参加2026全国高等院校数智化企业经营沙盘大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4708",
-    "title": "传西迁精神 续百卅荣光 立青春壮志 赴强国征程",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4709",
-    "title": "五四青年节：致全校青年的一封信",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10095.htm",
-    "title": "关于组织参加第八届全球校园人工智能算法精英大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10094.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）校内决赛名单及相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15288.htm",
-    "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15289.htm",
-    "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4704",
-    "title": "承百卅荣光，赴青春之约 | @交大青年，五四主题团日邀你赴约",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10073.htm",
-    "title": "关于组织参加2026年学创杯全国大学生创业综合模拟大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10071.htm",
-    "title": "2026年（第十三届）全国大学生物联网设计竞赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10041.htm",
-    "title": "关于组织开展全国三维数字化创新设计大赛19周年年度赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10044.htm",
-    "title": "关于组织参加第十五届“中国软件杯”大学生软件设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10042.htm",
-    "title": "2025-2026学年第二学期“形势与政策”线上课开课通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4705",
-    "title": "西安交通大学第二届白鸽音乐节正式官宣！",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5281.htm",
-    "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ——线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10032.htm",
-    "title": "2026年第23届信息安全与对抗技术竞赛报名通知 ----线上挑战赛(破阵夺旗赛、无限擂台赛、数据安全赛)",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4700",
-    "title": "《当代青年》2026年4月·上半月目录",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5525.htm",
-    "title": "能动学院硕士研究生档案接收相关要求",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4697",
-    "title": "西安交通大学第37届“腾飞杯”创新创业大赛决赛圆满举行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4698",
-    "title": "关于我校2025年度学雷锋志愿服务优秀个人、组织及项目的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10011.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2026）产业命题赛道第二轮项目征集的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15249.htm",
-    "title": "2026年电气学院拟录取硕士生（含推免生）下载录取材料的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10001.htm",
-    "title": "第十四届全国大学生光电设计竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15239.htm",
-    "title": "电气学院关于2025-2026学年第二学期博士资格考核工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10003.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2026）高教主赛道、青年红色筑梦之旅赛道第一轮网评结果...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10004.htm",
-    "title": "关于全国三维数字化创新设计大赛18周年精英联赛校赛获奖结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/9991.htm",
-    "title": "关于2026年全国大学生英语竞赛校内初赛结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9982.htm",
-    "title": "关于“学院推进课程思政全覆盖建设实施方案”阶段性验收的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15212.htm",
-    "title": "电气学院2026年公开招考及强军计划博士研究生综合考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/9962.htm",
-    "title": "关于开展西安交通大学中国国际大学生创新大赛（2026）国际项目征集及校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4688",
-    "title": "习近平：传承弘扬西迁精神聚焦国家重大战略需求 为建设教育强国科技强国人才强国作出新贡献",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4687",
-    "title": "习近平总书记给四所交通大学全体师生的回信引发西安交大学子的热烈反响",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15198.htm",
-    "title": "电气学院2026年硕士研究生招生拟录取名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4682",
-    "title": "西安交通大学建校130周年暨西迁70年：薪火筑梦 科创图强",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4689",
-    "title": "「向西而歌」交通大学校友歌会圆满落幕",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4681",
-    "title": "百卅交大 青年作答",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/9934.htm",
-    "title": "关于组织开展2026年西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/9932.htm",
-    "title": "关于组织参加2026年米兰设计周——中国高校设计学科师生优秀作品展的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5203.htm",
-    "title": "关于延长国创赛校赛系统开放时间的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/9935.htm",
-    "title": "关于参加2026年第十二届全国大学生统计建模大赛西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15118.htm",
-    "title": "2026年电气工程学院研究生复试综合成绩发布",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/15138.htm",
-    "title": "第二十一届全国大学生智能汽车竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9901.htm",
-    "title": "关于2025年新增通识课程答辩安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15108.htm",
-    "title": "【New】2026年米兰理工大学硕士双学位选拔通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/5161.htm",
-    "title": "关于开展2025年国家级、省级大学生创新训练项目和西安交通大学“本科生科研训练和实践创新基金项目”结题验收工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9881.htm",
-    "title": "[竞赛大创]关于开展2025年国家级、省级大学生创新训练项目和西安交通大学“本科生科研训练和实践创新基金项目”结...",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15098.htm",
-    "title": "2026年电气工程学院研究生复试面试考场及注意事项",
     "priority": null
    },
    {
@@ -1654,1013 +39,8 @@
     "priority": null
    },
    {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15089.htm",
-    "title": "2026年电气工程学院研究生复试笔试考场及注意事项",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9854.htm",
-    "title": "关于落实2026-2027学年第一学期教学任务的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9852.htm",
-    "title": "关于2026年校运会期间停课的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4672",
-    "title": "体教融合点亮大山孩子“乒乓梦”",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15000.htm",
-    "title": "电气学院2026年硕士研究生招生复试录取工作细则",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4677",
-    "title": "活动招募 | 文明餐桌践新风，青春志愿共同行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4676",
-    "title": "关于开展我校2025年度学雷锋志愿服务优秀个人及集体评选工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9776.htm",
-    "title": "关于校庆期间调课安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9777.htm",
-    "title": "关于2026年清明节、“五一”劳动节放假调休及教学工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4678",
-    "title": "“品读共荐贺校庆”启动啦！等你携一卷书香，为百卅添彩！",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9771.htm",
-    "title": "关于2026年上半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9769.htm",
-    "title": "[竞赛大创]第28届“外研社·国才杯”全国大学生英语辩论赛校园选拔赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9767.htm",
-    "title": "关于领取第十七届全国大学生数学竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4671",
-    "title": "三月春风暖，雷锋伴我行！2026雷锋月志愿活动超全速览",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14991.htm",
-    "title": "【考生请注意】电气学院2026年全日制专业学位硕士及强军计划选报教研室及复试科目确认通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4669",
-    "title": "赓续百卅薪火，笃行致远初心",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4668",
-    "title": "西安交通大学建校130周年暨西迁70周年校庆志愿者誓师大会暨首场培训顺利举行",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9759.htm",
-    "title": "关于公布2025-2026学年第二学期全英文课程开课信息的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4667",
-    "title": "【繁星计划】西安交响乐团弦乐四重奏交大专场音乐会",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14979.htm",
-    "title": "2026年第二十八届中国机器人及人工智能大赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9741.htm",
-    "title": "关于2025-2026学年第二学期本科生学籍注册工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9742.htm",
-    "title": "2023与2024级核工程与核技术（强基计划）补充选拔通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4656",
-    "title": "西安交通大学2026年“攀登计划”学生科创训练营侧记",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4655",
-    "title": "交大青年：躬身实践长真才实学，假期奋斗展青春风采",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4654",
-    "title": "创新机制守安全，精准排查护科研",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9651.htm",
-    "title": "关于2025-2026学年第二学期补考（含缓考）有关事宜的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9639.htm",
-    "title": "关于公布2025-2026学年第二学期停开课程的通知（附件更新）",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4652",
-    "title": "西安交通大学、陕西省科技资源统筹中心负责同志与“挑战杯-国创赛” 金奖项目夏令营首批入驻团队座谈交流",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4651",
-    "title": "【中国青年报】“无止”架桥20载 惠及乡亲50万 西安交大青春赋能助力乡村振兴",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9602.htm",
-    "title": "[竞赛大创]2026年全国大学生英语竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9601.htm",
-    "title": "2026年3月全国计算机等级考试西安交通大学兴庆校区考点报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9595.htm",
-    "title": "2025-2026学年第一学期《大学物理》期末集中答疑安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/9594.htm",
-    "title": "2025-2026学年第一学期“形势与政策”线上课开课通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4664",
-    "title": "元旦游园会，倒计时一天！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4650",
-    "title": "百卅辉光 七秩日新 以乐为媒 共迎新岁",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4661",
-    "title": "元旦游园会，倒计时三天！",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14828.htm",
-    "title": "2026年电气工程学院博士普通招考材料评议分数线（含强军计划考生）",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4662",
-    "title": "2026新港新年音乐会 | 演出信息、领票方式来啦！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4663",
-    "title": "百卅正青春 | 倒计时三天！新年音乐会与你不见不散~",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4982.htm",
-    "title": "关于开展大学生创新创业训练计划——2026年产业命题征集工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9552.htm",
-    "title": "[大创项目]关于开展大学生创新创业训练计划——2026年产业命题征集工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4649",
-    "title": "以史铭记致西迁 十年追寻忆芳华",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4961.htm",
-    "title": "关于公布2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”中期验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9481.htm",
-    "title": "[大创项目]关于公布2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4648",
-    "title": "【陕西日报头版】连心桥",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9462.htm",
-    "title": "关于补办学生证及火车票优惠卡的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14699.htm",
-    "title": "\"电气之光大讲堂\"第3期：Anchoring Single Atoms on MXene Substrates for Oxygen and Hydrogen Evolution Reactions",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14698.htm",
-    "title": "\"电气之光大讲堂\"第3期：Anchoring Single Atoms on MXene Substrates for Oxygen and Hydrogen Evolution Reactions",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14709.htm",
-    "title": "\"电气之光大讲堂\"第2期：特高压直流输电发展与思考",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14708.htm",
-    "title": "\"电气之光大讲堂\"第2期：特高压直流输电发展与思考",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14710.htm",
-    "title": "\"电气之光大讲堂\"第1期：Microenvironment-Tunable Nanocatalysis and Data-Driven Materials Innovations",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1176/9421.htm",
-    "title": "关于启动2025级本科生劳动教育并继续做好2023、2024级本科生劳动教育的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9422.htm",
-    "title": "2025年12月全国大学英语四、六级预测考试考生名单及考场安排通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4646",
-    "title": "西安交通大学建校130周年暨西迁70周年校庆公告（第二号）",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4645",
-    "title": "爱国奋斗，追求卓越 | 第十届社会实践青年研究年会顺利举办",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14687.htm",
-    "title": "关于2025年秋季学期博士中期考核的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1383/14686.htm",
-    "title": "2025年秋季学期研究生海外访学奖助金评定通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4930.htm",
-    "title": "关于公示2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”中期验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9403.htm",
-    "title": "[大创项目]关于公示2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9400.htm",
-    "title": "关于打印2025年下半年全国大学英语四、六级考试准考证的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14677.htm",
-    "title": "电气工程学院2025-2026学年第一学期本科生出国（境）交流资助资格申请拟推荐名单公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9396.htm",
-    "title": "[竞赛大创]关于举办西安交通大学第37届“腾飞杯”创新创业大赛暨2026年“挑战杯”国赛选拔的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9397.htm",
-    "title": "2025年12月全国大学英语四、六级预测考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9373.htm",
-    "title": "关于西安交通大学2025年下半年全国大学英语四六级口语考试的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14625.htm",
-    "title": "电气工程学院2025-2026学年第一学期本科生出国（境）资助资格选拔通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4644",
-    "title": "整装待发，第28届研支团赴附属中学跟岗实训启动！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4643",
-    "title": "“繁星计划”美育大讲堂 | 敬一丹与交大青年的“传热之约”",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4642",
-    "title": "五地共绘青春育人画卷",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4640",
-    "title": "西安交通大学仙交仙乐合唱团亮相“和平颂”合唱展演",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4639",
-    "title": "“繁星计划”美育大讲堂 | 冯远征：青春有我 岁月有痕",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4636",
-    "title": "西安交通大学第二十七届学生社团大会顺利召开",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4913.htm",
-    "title": "关于发布第十七届全国大学生数学竞赛考场信息的通知",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/14559.htm",
-    "title": "西安交通大学电气工程学院2026年普通招考博士研究生“申请-考核”制实施细则",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9353.htm",
-    "title": "关于2025年秋季《学生体质健康标准》测试的通知",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/14519.htm",
-    "title": "2026电气学院直博生信息确认须知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4634",
-    "title": "“百卅恰青春”西安交通大学第47届本科生迎新晚会倾情上演",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9351.htm",
-    "title": "[竞赛大创]关于举办第十七届全国大学生数学竞赛培训的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9326.htm",
-    "title": "[竞赛大创]西安交通大学第五届3分钟学术英语演讲比赛（3MAP）通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9323.htm",
-    "title": "[竞赛大创]关于开展“2025年大学生新文科实践创新大赛”展示答辩工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9327.htm",
-    "title": "[竞赛大创]关于举办第23届西安交通大学英语辩论赛暨金秋外语节英语辩论赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4884.htm",
-    "title": "关于组织开展第十一届国际大学生智能农业装备创新大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9312.htm",
-    "title": "关于开展2025年学籍处理与毕业年级确认工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4631",
-    "title": "西安交通大学第28届研究生支教团成员招募名单公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4874.htm",
-    "title": "关于开展西安交通大学第十二届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4873.htm",
-    "title": "关于开展2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”中期验收的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9292.htm",
-    "title": "[大创项目]关于开展2025年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9281.htm",
-    "title": "关于2025年下半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9274.htm",
-    "title": "关于2025-2026学年第一学期本科生报到注册工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9254.htm",
-    "title": "关于2025级新生选拔数学测试的通知【附件更新】",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4630",
-    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4629",
-    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4842.htm",
-    "title": "关于公示西安交通大学2025年大学生数学建模竞赛校赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4628",
-    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/9243.htm",
-    "title": "[竞赛大创]关于举办2025年大学生新文科实践创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9242.htm",
-    "title": "关于公示2025年本科生转专业拟录取名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4627",
-    "title": "关于我校学生参与其他高校推荐申报的第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”专项赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9225.htm",
-    "title": "电气工程学院2025年本科生转专业综合考查安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9223.htm",
-    "title": "2025年能动学院转专业面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9224.htm",
-    "title": "2025年法学院转专业面试名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9212.htm",
-    "title": "2025年基础医学（国家拔尖计划） 补充选拔通知",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/14228.htm",
-    "title": "2025-2026学年第一学期电气学院本科生选课指导计划",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14229.htm",
-    "title": "2025-2026学年第一学期电气学院本科生选课指导计划",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9211.htm",
-    "title": "2025年生命科学与技术学院接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9206.htm",
-    "title": "医学部2025年转专业笔试、综合考查安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4625",
-    "title": "关于我校学生加入外校队伍参加第十九届“挑战杯”全国大学生课外学术科技作品竞赛“人工智能+”应用赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9205.htm",
-    "title": "仪器科学与技术学院2025年转专业笔试及面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9210.htm",
-    "title": "2025年马克思主义接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9201.htm",
-    "title": "2025年管理学院接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9202.htm",
-    "title": "2025年电信学部软件工程专业接收本科生转专业考试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9208.htm",
-    "title": "2024级核工程与核技术（强基计划）补充选拔通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9198.htm",
-    "title": "电气工程学院2025年本科生转专业笔试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9196.htm",
-    "title": "机械工程学院2025年接收本科生转专业考核安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9199.htm",
-    "title": "2025年能动学院转专业笔试安排和面试计划",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9197.htm",
-    "title": "2025年电子与信息学部接收本科生转专业考试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9194.htm",
-    "title": "2025年国际教育学院接收本科生转专业考试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9191.htm",
-    "title": "数学与统计学院接收2024级本科生转专业笔试及面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9192.htm",
-    "title": "公共政策与管理学院2025年转专业笔试和面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1095/9190.htm",
-    "title": "2025年金禾经济研究中心转专业笔试及面试安排",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4827.htm",
-    "title": "关于举办2025年西安交通大学“大学生创新训练项目”成果展暨冠军争夺赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9186.htm",
-    "title": "[大创项目]关于举办2025年西安交通大学“大学生创新训练项目”成果展暨冠军争夺赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10973.htm",
-    "title": "关于2025年西安交通大学新成立竞赛工作室立项答辩结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4825.htm",
-    "title": "关于公布2024年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”结题验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9173.htm",
-    "title": "[大创项目]关于公布2024年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "http://ee.xjtu.edu.cn/info/1124/14193.htm",
-    "title": "西交•通全球暑期学校（XJTISS）课程通知-真空电弧理论、仿真、实验技术及应用",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14195.htm",
-    "title": "西交•通全球暑期学校（XJTISS）课程通知-真空电弧理论、仿真、实验技术及应用",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/14190.htm",
-    "title": "【日程安排】西交•通全球暑期学校-先进电力装备关键技术系列讲座",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4817.htm",
-    "title": "关于公示2024年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目”结题验收结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9152.htm",
-    "title": "[大创项目]关于公示2024年西安交通大学国家级、省级“大学生创新训练项目”和“本科生科研训练和实践创新基金项目...",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10972.htm",
-    "title": "关于2025年西安交通大学新成立竞赛工作室立项答辩安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4624",
-    "title": "关于我校学生加入外校队伍参加第十九届“挑战杯”全国大学生课外学术科技作品竞赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9142.htm",
-    "title": "2025年9月全国计算机等级考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4781.htm",
-    "title": "关于公布2025年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科研训练和实践创新基金项目”推荐名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9102.htm",
-    "title": "[大创项目]关于公布2025年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科...",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4623",
-    "title": "2025年“西部计划”志愿者招募入选名单公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4772.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）主赛道、红旅赛道拟推荐省赛项目名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4773.htm",
-    "title": "2025年中国大学生机械工程创新创意大赛：“明石杯”微纳传感技术与智能应用赛西安交通大学校赛结果公布通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9073.htm",
-    "title": "2025年6月全国大学英语四、六级预测考试考生名单及考场安排通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4753.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校赛决赛（主赛道、红旅赛道）结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9036.htm",
-    "title": "关于打印2025年上半年全国大学英语四、六级考试准考证的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4735.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）校内决赛名单及相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4622",
-    "title": "关于我校学生加入外校队伍参加第十五届“挑战杯”甘肃省大学生课外学术科技作品竞赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4734.htm",
-    "title": "关于公示2025年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科研训练和实践创新基金项目”拟推荐名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/9035.htm",
-    "title": "[大创项目]关于公示2025年国家级“大学生创新训练项目”、陕西省“大学生创新训练项目”和西安交通大学“本科生科...",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9034.htm",
-    "title": "2024-2025学年第二学期大学英语课程口语机考考场安排通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4732.htm",
-    "title": "关于公示西安交通大学中国国际大学生创新大赛（2025）第一轮网评结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9029.htm",
-    "title": "关于做好2024-2025第二学期期末教学安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4731.htm",
-    "title": "关于公示“2025年第十一届全国大学生统计建模大赛”拟推荐陕西赛区复赛名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/9021.htm",
-    "title": "关于西安交通大学2025年上半年全国大学英语四六级口语考试的温馨提示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4621",
-    "title": "关于西安交通大学“中国茅台·国之栋梁”本硕博优才计划（研究生）评选结果的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4726.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2025）校赛及下一步工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4707.htm",
-    "title": "关于组织开展“2025全国高等院校数智化企业经营沙盘大赛”的通知",
-    "priority": null
-   },
-   {
     "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
     "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4618",
-    "title": "西安交通大学参加第十五届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛作品公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4619",
-    "title": "关于我校学生加入外校队伍参加第十五届“挑战杯”陕西省大学生课外学术科技作品竞赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13806.htm",
-    "title": "【竞赛通知】关于举办第一届“信捷杯”全国大学生智能制造创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4702.htm",
-    "title": "关于组织开展第十四届全国大学生金相技能大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8968.htm",
-    "title": "[竞赛大创]关于2025年全国大学生英语竞赛校内初赛结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13779.htm",
-    "title": "【竞赛通知】关于组织开展第二十届全国大学生智能汽车竞赛报名的通知（第二轮）",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4691.htm",
-    "title": "关于组织开展2025年中国大学生机械工程创新创意大赛创意赛道第十四届机械产品数字化设计赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4683.htm",
-    "title": "关于组织开展2025年睿抗机器人开发者大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4682.htm",
-    "title": "关于2025年全国大学生计算机系统能力大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4681.htm",
-    "title": "2025年（第十二届）全国大学生物联网设计竞赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13749.htm",
-    "title": "【竞赛通知】关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13742.htm",
-    "title": "【竞赛通知】2025年（第十二届）全国大学生物联网设计竞赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4671.htm",
-    "title": "2025年第七届码蹄杯全国大学生程序设计大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13732.htm",
-    "title": "【竞赛通知】2025年第十九届iCAN大学生创新创业大赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4661.htm",
-    "title": "2025年第十九届iCAN大学生创新创业大赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4631.htm",
-    "title": "第十八届（2025）全国大学生先进成图技术与产品信息建模创新大赛校内选拔赛通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4652.htm",
-    "title": "关于组织开展全国3D大赛18周年年度赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4620.htm",
-    "title": "关于公示2025年西安交通大学工创大赛工程场景数字化赛项拟推荐陕西赛区复赛名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8885.htm",
-    "title": "[竞赛大创]关于公示2025年西安交通大学工创大赛工程场景数字化赛项拟推荐陕西赛区复赛名单",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4613.htm",
-    "title": "关于公示2025年中国大学生工程实践与创新能力大赛拟推荐陕西赛区复赛名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4616.htm",
-    "title": "关于2025年工创大赛校赛工程场景数字化赛项的补充通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4614",
-    "title": "西安交通大学“人工智能先导计划”——“火山杯”人工智能创新大赛等你参与",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4596.htm",
-    "title": "关于“2025年学创杯全国大学生创业综合模拟大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4593.htm",
-    "title": "关于举办2025年中国大学生工程实践与创新能力大赛西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4581.htm",
-    "title": "关于“第十届全国大学生生物医学工程创新设计竞赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4571.htm",
-    "title": "关于组织开展第十二届全国大学生机械创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13650.htm",
-    "title": "2025年第十五届中兴捧月全球精英挑战赛正式启动！速来报名!",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4613",
-    "title": "关于第十九届“挑战杯”大学生课外学术科技作品竞赛跨校参与相关信息的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4561.htm",
-    "title": "关于公示入围2025年西安交通大学工创大赛企业运营仿真校赛决赛名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4542.htm",
-    "title": "关于组织开展2025年西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4541.htm",
-    "title": "“第五届大学生化学实验创新设计竞赛”校内选拔赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/4521.htm",
-    "title": "关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8781.htm",
-    "title": "[竞赛大创]关于公示2025年西安交通大学工创大赛企业运营仿真选拔赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4501.htm",
-    "title": "2025年全国大学生嵌入式芯片与系统设计竞赛芯片应用赛道报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4502.htm",
-    "title": "2025年“中国高校计算机大赛-团体程序设计天梯赛”校内邀请通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4493.htm",
-    "title": "关于邀请参加2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4492.htm",
-    "title": "关于2025年第九届全国大学生集成电路创新创业大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4491.htm",
-    "title": "关于举办西安交通大学第六届大学生物理实验竞赛（创新）的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8742.htm",
-    "title": "关于2025年上半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4472.htm",
-    "title": "关于组织参加第八届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4481.htm",
-    "title": "关于举办2025年第十七届“全国大学生广告艺术大赛”西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://ee.xjtu.edu.cn/info/1382/13498.htm",
-    "title": "第二十届全国大学生智能汽车竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4464.htm",
-    "title": "关于组织参加第二十七届中国机器人及人工智能大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4461.htm",
-    "title": "关于组织2025年第十九届CIMC“西门子杯”中国智能制造挑战赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8704.htm",
-    "title": "[竞赛大创]关于领取第十六届全国大学生数学竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4452.htm",
-    "title": "关于举行西安交通大学第七届大学生结构设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4411.htm",
-    "title": "关于启动西安交通大学第十三届创业实践大赛 （“清远”杯）暨 2025 年国家级大学生创业训练计划项目选拔的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4401.htm",
-    "title": "关于公布中国国际大学生创新大赛（2025）学院联系人联系方式的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4403.htm",
-    "title": "关于举办西安交通大学2025年美国大学生数学建模竞赛校内赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8601.htm",
-    "title": "2025年3月全国计算机等级考试报名通知",
     "priority": null
    },
    {
@@ -2669,1103 +49,8 @@
     "priority": null
    },
    {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4397.htm",
-    "title": "关于组织参加“第十五届全国周培源大学生力学竞赛”个人赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4393.htm",
-    "title": "关于组织参加“第十六届中国大学生服务外包创新创业大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4392.htm",
-    "title": "关于中期检查后加强大学生创新创业训练计划产业命题管理的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4391.htm",
-    "title": "关于开展大学生创新创业训练计划——2025年产业命题征集工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4339.htm",
-    "title": "关于组织参加2025年中国大学生工程实践与创新能力大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8464.htm",
-    "title": "2024年12月全国大学英语四、六级预测考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4314.htm",
-    "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10391.htm",
-    "title": "关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8437.htm",
-    "title": "[竞赛大创]关于组织参加MWORKS蓝桥杯智能装备数字化建模大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4602",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评委嘉宾接待用车服务采购项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4599",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛闭幕会主会场及分会场氛围服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4598",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛赛事物料设计制作服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4601",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛校园内外氛围营造服务采购项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4600",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛成果展及赛场布置服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4604",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛酒店住宿用餐会议服务院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4597",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评委嘉宾接待用车服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4603",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛参赛证件采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4309.htm",
-    "title": "关于组织开展西安交通大学2025年美国大学生数学建模竞赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4591",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛交通服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4593",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 闭幕会主会场及分会场氛围服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4596",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 赛事物料设计制作服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4595",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 氛围营造服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4594",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛 成果展及赛场布置服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4592",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4590",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10372.htm",
-    "title": "关于2023年中国研究生创新实践系列大赛优秀指导教师、先进集体、先进个人拟表彰名单的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4305.htm",
-    "title": "关于组织参加首届教育信息技术应用创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4589",
-    "title": "第十四届“挑战杯”奖牌设计及制作采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4587",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛直播设备租赁服务采购项目公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4301.htm",
-    "title": "关于开展中国移动2024年创客马拉松大赛 西安交大-中国移动数字政府联合研究院专题赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4298.htm",
-    "title": "关于组织参加第十六届蓝桥杯全国软件和信息技术专业人才大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4297.htm",
-    "title": "关于开展西安交通大学第十一届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4586",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛直播设备租赁服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4296.htm",
-    "title": "关于组织开展全国3D大赛17周年精英联赛（2024-2025）报名工作",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4585",
-    "title": "第十四届“挑战杯”中国大学生创业计划“一带一路”国际邀请赛机票采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4292.htm",
-    "title": "关于组织开展华为ICT大赛2024-2025报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8408.htm",
-    "title": "[竞赛大创]关于组织开展华为ICT大赛2024-2025报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4616",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛闭幕会彩排设备租赁服务公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4291.htm",
-    "title": "关于开展西安交通大学第十届国际大学生智能农业装备创新大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4612",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛会务系统开发服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4615",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛闭幕会彩排设备租赁院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4283.htm",
-    "title": "关于组织参加第十三届中国创新创业大赛北斗应用专业赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4608",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛会务系统开发服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8378.htm",
-    "title": "[竞赛大创]关于组织开展西安交通大学2024年“外研社·国才杯”“理解当代中国”全国大学生英语口译能力大赛校园选拔...",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4276.htm",
-    "title": "关于推荐参加中国国际大学生创新大赛（2024）总决赛项目的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4272.htm",
-    "title": "关于组织开展第十六届全国大学生数学竞赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8359.htm",
-    "title": "关于2024年下半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4580",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛设备租赁服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8356.htm",
-    "title": "[竞赛大创]关于组织开展西安交通大学2024年“外研社·国才杯”“理解当代中国”全国大学生外语能力校园选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4611",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评审系统开发服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4607",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛评审系统开发服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4575",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8332.htm",
-    "title": "[竞赛大创]2024“外研社·国才杯”“理解当代中国”全国大学生外语能力大赛1号通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4574",
-    "title": "西安交通大学在全省高校团干部素质能力大赛中再获佳绩",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4571",
-    "title": "第十四届“挑战杯”中国大学生创业计划竞赛宣传片视频服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4570",
-    "title": "第十四届“挑战杯”中国大学生创业计划主题曲MV视频服务采购项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4569",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4254.htm",
-    "title": "关于组织开展2025年中国大学生工程实践与创新能力大赛相关工作的预通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8282.htm",
-    "title": "[竞赛大创]2024“外研社·国才杯”“理解当代中国”大学生外语能力大赛英语组短视频赛项报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4610",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛报名系统开发服务项目公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4606",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛酒店住宿用餐场地租赁服务院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4609",
-    "title": "第十四届“挑战杯”秦创原中国大学生创业计划竞赛报名系统开发服务项目院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8253.htm",
-    "title": "2024年9月全国计算机等级考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4241.htm",
-    "title": "关于报送西安交通大学中国国际大学生创新大赛（2024）陕西赛区省级复赛相关材料的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8245.htm",
-    "title": "[竞赛大创]关于报送西安交通大学中国国际大学生创新大赛（2024）陕西赛区省级复赛相关材料的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4228.htm",
-    "title": "关于做好西安交通大学中国国际大学生创新大赛（2024）国际参赛项目邀请工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8223.htm",
-    "title": "[竞赛大创]关于做好西安交通大学中国国际大学生创新大赛（2024）国际参赛项目邀请工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4221.htm",
-    "title": "关于西安交通大学中国国际大学生创新大赛（2024） 校内决赛相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4567",
-    "title": "西安交大在陕西省大学生创业计划竞赛中获11项金奖，再捧“挑战杯”！",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4216.htm",
-    "title": "​关于举办2024全国高等院校数智化企业经营沙盘大赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4211.htm",
-    "title": "关于举办西安交通大学中国国际大学生创新大赛校内赛决赛及下一步工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4199.htm",
-    "title": "关于举办2024年第十六届“全国大学生广告艺术大赛” 西安交通大学校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/8141.htm",
-    "title": "2024年6月全国大学英语四、六级预测考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4565",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4564",
-    "title": "第十四届“挑战杯”中国大学生创业计划 竞赛开、闭幕式导演团队服务采购项目 院处磋商公告",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4563",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4561",
-    "title": "西安交通大学第十二届“挑战杯”陕西省大学生创业计划竞赛作品校内公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4558",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4559",
-    "title": "关于我校教师指导外校队伍参加“挑战杯”省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4560",
-    "title": "西安交通大学第十二届“挑战杯”陕西省大学生创业计划竞赛作品校内公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4148.htm",
-    "title": "关于举办中国国际大学生创新大赛（2024）校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4146.htm",
-    "title": "关于组织参加第十三届中国软件杯大学生软件设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4556",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4134.htm",
-    "title": "关于组织参加“第七届（2024）全国大学生嵌入式芯片与系统设计竞赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4131.htm",
-    "title": "关于组织参加“2024年（第17届）中国大学生计算机设计大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8053.htm",
-    "title": "[竞赛大创]关于组织参加“2024年（第17届）中国大学生计算机设计大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4120.htm",
-    "title": "关于组织开展第十三届全国大学生金相技能大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4117.htm",
-    "title": "关于组织参加2024年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8031.htm",
-    "title": "[竞赛大创]关于2024年全国大学生英语竞赛准考证及考试要求的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4549",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10103.htm",
-    "title": "“中石协·宝石机械杯”第十一届中国研究生能源装备创新设计大赛参赛指南",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10128.htm",
-    "title": "“中石协·宝石机械杯”第十一届中国研究生能源装备创新设计大赛参赛指南",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4092.htm",
-    "title": "关于开展2024年西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4091.htm",
-    "title": "关于2024年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8005.htm",
-    "title": "[竞赛大创]关于2024年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4090.htm",
-    "title": "关于组织开展第七届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/10080.htm",
-    "title": "关于举办第三届西安交通大学研究生电子设计竞赛暨第十九届“兆易创新杯”中国研究生电子设计竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/8004.htm",
-    "title": "[竞赛大创]关于组织开展第七届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2941.htm",
-    "title": "2023年“舍弗勒杯“创新创业大赛暨能动学院”腾飞杯“院赛决赛圆满落幕",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/4106.htm",
-    "title": "关于开展大学生创新创业训练计划——2024年产业命题征集工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4086.htm",
-    "title": "关于组织开展2024第17届全国三维数字化创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1099/7999.htm",
-    "title": "[竞赛大创]关于组织开展2024第17届全国三维数字化创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/7993.htm",
-    "title": "关于2024年上半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4074.htm",
-    "title": "关于举行西安交通大学第六届大学生结构设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4061.htm",
-    "title": "关于举办西安交通大学第十一届全国大学生机械创新设计大赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4539",
-    "title": "第三十五届“腾飞杯”大赛“攀登计划”企业专项赛启动仪式举行",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4051.htm",
-    "title": "关于举办西安交通大学2024年美国大学生数学建模竞赛校内赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/7884.htm",
-    "title": "2024年3月全国计算机等级考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/4032.htm",
-    "title": "关于开展西安交通大学2024年美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/9972.htm",
-    "title": "【持续更新中】2023年我校参加系列大赛进展情况",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4525",
-    "title": "团建·通知 | 第三十八届“最佳团日”决赛答辩研究生团支部晋级名单",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4524",
-    "title": "团建·通知 | 第三十八届“最佳团日”决赛答辩本科生团支部晋级名单",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4527",
-    "title": "关于开展第三十五届“腾飞杯”大赛 “特变电工”创新专项赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4517",
-    "title": "关于举办西安交通大学第三十五届“腾飞杯”创新创业大赛暨“挑战杯”国赛选拔的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3901.htm",
-    "title": "关于组织开展第十五届蓝桥杯全国软件和信息技术专业人才大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3902.htm",
-    "title": "关于举办西安交通大学首届软件开发大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3891.htm",
-    "title": "关于组织参加第十二届中国创新创业大赛轨道交通产业技术创新专业赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://news.xjtu.edu.cn/info/1033/201827.htm",
-    "title": "交大航模队在2023年中国大学生飞行器设计大赛中获佳绩",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3861.htm",
-    "title": "关于组织开展全国3D大赛16周年精英联赛（2023-2024）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4512",
-    "title": "关于学校推荐参加2023年全国大学生机器人科技创新交流营暨机器人大赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3871.htm",
-    "title": "关于2023年中国大学生工程实践与创新能力大赛西安交通大学校赛安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3851.htm",
-    "title": "关于组织开展华为ICT大赛2023-2024中国区实践赛/创新赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3854.htm",
-    "title": "关于开展中国移动创客马拉松大赛西安交大-中国移动数字政府联合研究院专题赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3843.htm",
-    "title": "关于组织参加首届企校协同创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3821.htm",
-    "title": "关于2023年中国大学生工程实践与创新能力大赛相关工作的补充通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3811.htm",
-    "title": "关于开展西安交通大学第十届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3801.htm",
-    "title": "关于组织开展2023年中国大学生工程实践与创新能力大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/7723.htm",
-    "title": "关于2023年下半年全国大学英语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/7724.htm",
-    "title": "关于组织开展西安交通大学2023年“外研社·国才杯” “理解当代中国”全国大学生外语能力校园选拔赛的通...",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3751.htm",
-    "title": "关于公布西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛获奖名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/3713.htm",
-    "title": "关于公示西安交通大学2023年大学生数学建模竞赛校赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3692.htm",
-    "title": "关于举办西安交通大学第九届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/7759.htm",
-    "title": "关于领取2023年全国大学生英语竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3681.htm",
-    "title": "关于举办2023年西安交通大学大学生数学建模竞赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4509",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”国赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4510",
-    "title": "关于学校推荐参加2023年“挑战杯”全国大学生课外学术科技作品竞赛作品的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4508",
-    "title": "西安交通大学第五届“中兴捧月”模拟面试大赛落幕",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4504",
-    "title": "西安交大获第十四届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛最高荣誉",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3621.htm",
-    "title": "关于组织参加第十二届中国软件杯大学生软件设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/3611.htm",
-    "title": "关于西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3601.htm",
-    "title": "关于组织开展第六届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4494",
-    "title": "西安交大获2023MATE国际水下机器人大赛中国大陆赛区总冠军",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4493",
-    "title": "交大学子李沛言、王凯入选人民日报国家奖学金获奖学生代表名录",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3591.htm",
-    "title": "关于开展2023年西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2935.htm",
-    "title": "【127校庆】第三十四届“腾飞杯”创新创业大赛“舍弗勒”传动4.0专项赛颁奖典礼暨能动学院2023年科创文化展开幕仪式成功举办",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4488",
-    "title": "第十四届“挑战杯”陕汽集团陕西省大学生课外学术科技作品竞赛申报作品公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4487",
-    "title": "关于我校学生加入外校队伍参加“挑战杯”陕西省赛的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4479",
-    "title": "西安交通大学第34届“腾飞杯”大赛创新赛道获奖名单公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3562.htm",
-    "title": "关于组织开展第十二届全国大学生金相技能大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3551.htm",
-    "title": "关于举行西安交通大学第五届大学生结构设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3541.htm",
-    "title": "关于组织开展第十一届全国大学生机械创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3531.htm",
-    "title": "关于2023年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3502.htm",
-    "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4489",
-    "title": "关于开展西安交通大学2023年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3481.htm",
-    "title": "关于组织开展2023第16届全国三维数字化创新设计大赛年度赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4456",
-    "title": "西安交通大学第34届“腾飞杯”创新创业大赛创业赛获奖名单公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3401.htm",
-    "title": "关于开展2023西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3392.htm",
-    "title": "关于开展西安交通大学第九届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3381.htm",
-    "title": "关于组织开展华为ICT大赛2022-2023中国区陕西省实践赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3331.htm",
-    "title": "关于组织开展第二届中望杯工业软件大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3312.htm",
-    "title": "关于组织开展第十四届蓝桥杯 全国软件和信息技术专业人才大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/9003.htm",
-    "title": "2021年互联网+大赛产业赛道进入省赛名单",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3273.htm",
-    "title": "关于组织开展全国3D大赛15周年精英联赛（2022-2023）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/8946.htm",
-    "title": "第一届中国研究生网络安全创新大赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4442",
-    "title": "西安交大学生赛艇队在2022年银川全国名校赛艇邀请赛中斩获一金一银",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4429",
-    "title": "第十五届全国大学生节能减排竞赛交大学子再拔头筹",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/3211.htm",
-    "title": "关于公示西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/3194.htm",
-    "title": "关于公示2022年西安交通大学数学建模竞赛校赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4413",
-    "title": "点赞！这些交大人又获奖了！",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3175.htm",
-    "title": "关于举办2022年西安交通大学大学生数学建模竞赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/8815.htm",
-    "title": "关于“兆易创新杯”第十七届中国研究生电子设计竞赛延长报名时间的通知（已结束）",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3161.htm",
-    "title": "关于举办西安交通大学第八届中国国际“互联网+”大学生创新创业大赛校内赛决赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/8802.htm",
-    "title": "关于选拔报名参加“华为杯”第十九届中国研究生数学建模竞赛的通知（已结束）",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3156.htm",
-    "title": "关于举办第七届吉先锋大赛暨极氪校园创新创业大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/8801.htm",
-    "title": "“车谷杯”第九届中国研究生能源装备创新设计大赛校内选拔通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4389",
-    "title": "媒体聚焦西安交大第三十二届“腾飞杯”创新创业大赛",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3144.htm",
-    "title": "关于核对2022美国大学生数学建模竞赛获奖信息的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3142.htm",
-    "title": "关于公示2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛选拔结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3121.htm",
-    "title": "关于举办西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4384",
-    "title": "西安交通大学第十一届 “挑战杯”陕西省大学生创业计划竞赛作品校内公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3113.htm",
-    "title": "关于公示西安交通大学第十届全国大学生机械创新设计大赛校赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3111.htm",
-    "title": "关于开展2022年西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4383",
-    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛获奖作品名单的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3106.htm",
-    "title": "关于举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4382",
-    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3104.htm",
-    "title": "关于西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛决赛入围作品名单的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3094.htm",
-    "title": "关于组织西安交通大学2022年全国大学生电子设计竞赛——信息科技前沿专题邀请赛（瑞萨杯）的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3073.htm",
-    "title": "关于公示2022年英特尔杯大学生电子设计竞赛嵌入式系统专题邀请赛校赛选拔结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/8733.htm",
-    "title": "关于举办第十七届中国研究生电子设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/3071.htm",
-    "title": "关于做好第十五届全国大学生创新创业年会准备工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/6608.htm",
-    "title": "[大创项目]关于做好第十五届全国大学生创新创业年会准备工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3052.htm",
-    "title": "关于组织开展第十一届全国大学生金相技能大赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3055.htm",
-    "title": "关于举办第八届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3046.htm",
-    "title": "关于组织参加2022年英特尔杯大学生电子设计竞赛 嵌入式系统专题邀请赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3041.htm",
-    "title": "关于启动西安交通大学第八届中国国际“互联网+”大学生创新创业大赛第一轮项目征集工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3031.htm",
-    "title": "关于开展西安交通大学2022年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3026.htm",
-    "title": "关于延期举办西安交通大学第十届全国大学生机械创新设计大赛校赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3022.htm",
-    "title": "关于组织开展第15届全国三维数字化创新设计大赛年度赛（3D大赛）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3021.htm",
-    "title": "关于开展西安交通大学2022年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3020.htm",
-    "title": "关于公示西安交通大学全国3D大赛14周年精英联赛校内选拔赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/3018.htm",
-    "title": "关于举行西安交通大学第四届大学生结构设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2981.htm",
-    "title": "关于2022美国大学生数学建模竞赛（MCM/ICM）温馨提示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2971.htm",
-    "title": "关于公示2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2961.htm",
-    "title": "关于举办2022年西安交通大学美国大学生数学建模竞赛（MCM/ICM）选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2951.htm",
-    "title": "关于开展2022西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2909.htm",
-    "title": "关于举办2021年首届西安交通大学力学与空天知识竞赛的通知",
-    "priority": null
-   },
-   {
     "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
     "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2864.htm",
-    "title": "关于组织开展第十七届花旗杯金融创新应用大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2821.htm",
-    "title": "关于组织开展第十三届蓝桥杯全国软件和信息技术专业人才大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2811.htm",
-    "title": "关于开展西安交通大学第八届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4387",
-    "title": "第33届“腾飞杯”大赛院赛选推各院联系方式",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2803.htm",
-    "title": "关于组织开展第14届全国三维数字化创新设计大赛精英联赛（2021-2022）（3D大赛）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/2751.htm",
-    "title": "关于公布西安交通大学2021年中国大学生工程实践与创新能力大赛获奖名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2731.htm",
-    "title": "关于2021西安交通大学大学生数学建模竞赛下一步工作安排的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2721.htm",
-    "title": "关于公示西安交通大学第七届中国国际“互联网+”大学生创新创业大赛校内赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2701.htm",
-    "title": "关于开展2021西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2667.htm",
-    "title": "关于组织开展西安交通大学第五届大学生金相技能大赛暨第十届全国大学生金相技能大赛预赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2611.htm",
-    "title": "关于组织开展第14届全国三维数字化创新设计大赛（3D大赛）报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4339",
-    "title": "关于第十七届“挑战杯”全国大学生课外学术科技作品竞赛 西安交通大学参赛项目的公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2956.htm",
-    "title": "2021“格兰富杯”全国大学生节能减排大赛校内选拔赛评审结果公示",
     "priority": null
    },
    {
@@ -3774,333 +59,8 @@
     "priority": null
    },
    {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2503.htm",
-    "title": "关于举办第七届中国国际“互联网+”大学生 创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/2478.htm",
-    "title": "关于做好第十四届全国大学生创新创业年会准备工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2477.htm",
-    "title": "关于组织开展第十届全国大学生机械创新设计大赛报名工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2476.htm",
-    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1190/1751.htm",
-    "title": "关于第七届全国大学生工程训练综合能力竞赛工业场景数字化、企业运营仿真赛项校赛评审结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2394.htm",
-    "title": "关于2021年全国大学生英语竞赛准考证及考试要求的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4322",
-    "title": "关于陕西省第六届大学生艺术展演校内赛获奖通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2395.htm",
-    "title": "关于第七届全国大学生工程训练综合能力竞赛校赛评审结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4330",
-    "title": "西安交通大学第32届“腾飞杯”创新创业大赛获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4331",
-    "title": "西安交通大学第32届“腾飞杯”创新创业大赛获奖名单",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2396.htm",
-    "title": "关于2021年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2397.htm",
-    "title": "关于开展西安交通大学2021年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2398.htm",
-    "title": "关于2021中国大学生机械工程创新创意大赛- “明石杯”微纳传感技术与智能应用 大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2399.htm",
-    "title": "关于第七届全国大学生工程训练综合能力竞赛校内第一轮评审的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2400.htm",
-    "title": "关于组织开展第十二届蓝桥杯全国软件和信息技术专业人才大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2401.htm",
-    "title": "“第十三届全国周培源大学生力学竞赛”报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2402.htm",
-    "title": "2021年全国大学生英语竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2403.htm",
-    "title": "关于开展2021西安交通大学美国大学生数学建模竞赛（MCM/ICM）相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4315",
-    "title": "“挑战杯”中国创业大赛：西安交大再捧“优胜杯”",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2404.htm",
-    "title": "关于组织开展第七届全国大学生工程训练综合能力竞赛相关工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2406.htm",
-    "title": "关于领取第十二届全国大学生数学竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2407.htm",
-    "title": "关于公示2020年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2408.htm",
-    "title": "关于组织学生参加 西安交通大学第七届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2409.htm",
-    "title": "关于第十二届全国大学生数学竞赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4285",
-    "title": "西安交通大学第二十三届研究生支教团报名预通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2410.htm",
-    "title": "关于公示西安交通大学第六届中国国际 “互联网+”大学生创新创业大赛 校赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4284",
-    "title": "第十三届全国大学生节能减排竞赛交大学子拔得头筹",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4283",
-    "title": "一等奖6项！西安交大在第十九届 全国机器人大赛RoboMaster线上评审中斩获佳绩",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2412.htm",
-    "title": "西安交通大学第四届大学生金相技能大赛暨第九届全国大学生金相技能大赛预赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2413.htm",
-    "title": "西安交通大学兴庆校区2020年9月全国计算机等级考试报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2411.htm",
-    "title": "关于紫金奖•第二届中国（南京）大学生设计展报名通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2414.htm",
-    "title": "关于激活2020年全国大学生数学建模竞赛竞赛管理系统账号的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2415.htm",
-    "title": "关于2020年全国大学生数学建模竞赛报名和参赛安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://pec.xjtu.edu.cn/info/1188/2321.htm",
-    "title": "关于做好第十三届全国大学生创新创业年会准备工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1173/6636.htm",
-    "title": "[大创项目]关于做好第十三届全国大学生创新创业年会准备工作的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2416.htm",
-    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2417.htm",
-    "title": "关于开展2020西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2418.htm",
-    "title": "关于公示2020年全国大学生电子设计竞赛-瑞萨杯”信息科技前沿专题邀请赛校内赛结果的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2419.htm",
-    "title": "关于2020年全国大学生物理实验竞赛（创新）报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2945.htm",
-    "title": "2020“格兰富林”全国大学生节能减排大赛校内选拔赛评审结果公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2420.htm",
-    "title": "关于举办第六届中国国际“互联网+”大学生创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2955.htm",
-    "title": "关于2020年西安交通大学“格兰富杯”节能减排社会实践与科技竞赛校内评审的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6900.htm",
-    "title": "“杰瑞杯”第七届中国研究生能源装备创新设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6881.htm",
-    "title": "关于举办“华为杯”第三届中国研究生 创“芯”大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6886.htm",
-    "title": "“华为杯”第十七届中国研究生数学建模竞赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6883.htm",
-    "title": "“华为杯”第二届中国研究生人工智能创新大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4273",
-    "title": "关于举办第三十一届“腾飞杯”创新创业大赛创新赛道终审决赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6796.htm",
-    "title": "关于举办第三十一届“腾飞杯”创新创业大赛创新赛道终审决赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2421.htm",
-    "title": "关于中国大学生机械工程创新创意大赛-2020“明石杯”微纳传感技术与智能应用大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6769.htm",
-    "title": "“兆易创新杯”第十五届中国研究生电子设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4269",
-    "title": "【通知】2020年西部计划报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4265",
-    "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2422.htm",
-    "title": "关于开展西安交通大学2020年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6734.htm",
-    "title": "第二届中国研究生机器人创新设计大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6725.htm",
-    "title": "关于举办“飞鲨杯”第六届中国研究生未来飞行器创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4245",
-    "title": "【众志成城克时艰】 “众志成城，抗击疫情，交大赛艇在行动”主题团员大会举行",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2423.htm",
-    "title": "关于2020年全国大学生英语竞赛报名的通知",
-    "priority": null
-   },
-   {
     "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
     "title": "第二届中国研究生机器人创新设计大赛预通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4228",
-    "title": "西安交大第三十四届“最佳团日”决赛暨颁奖礼举行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4226",
-    "title": "西安交大在第十六届挑战杯中荣获全国“优胜杯”",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2424.htm",
-    "title": "关于举办第三届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4223",
-    "title": "西安交通大学第二届“公益之星”总决赛在创新港举办",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4220",
-    "title": "西安交大获得2019年中国国际飞行器设计挑战赛一等奖",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2425.htm",
-    "title": "关于组织学生参加西安交通大学第六届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2426.htm",
-    "title": "关于公示西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛获奖结果的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4199",
-    "title": "西安交大赛艇队勇夺2019赛艇联盟大师赛三金四银一铜",
     "priority": null
    },
    {
@@ -4109,168 +69,8 @@
     "priority": null
    },
    {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6864.htm",
-    "title": "关于第三批研究生学科竞赛工作室项目公示的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6307.htm",
-    "title": "学生学科科技竞赛鼓励办法西交教[2016]40号",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2427.htm",
-    "title": "关于举办西安交通大学第五届中国“互联网+”大学生创新创业大赛决赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2428.htm",
-    "title": "关于公示第五届中国“互联网+”大学生创新创业大赛校内赛决赛项目的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6277.htm",
-    "title": "2019年“外研社•国才杯”全国英语演讲、写作、阅读大赛通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2429.htm",
-    "title": "关于面向全校教师和研究生招募大学生数学建模竞赛教练的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6266.htm",
-    "title": "第二届西安交通大学研究生创新实践竞赛苏州训练营顺利举办",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6268.htm",
-    "title": "关于选拔参加2019年第十六届中国研究生数学建模竞赛参赛队员的通知",
-    "priority": null
-   },
-   {
     "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
     "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2430.htm",
-    "title": "关于西安交通大学2019年大学生数学建模竞赛成绩的公告",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6241.htm",
-    "title": "关于组织参加“英特尔杯”第一届中国研究生人工智能创新大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6237.htm",
-    "title": "西安交通大学顺利举办2019年研究生创新实践系列大赛宣讲会",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2431.htm",
-    "title": "关于公布第五届中国“互联网+”大学生创新创业大赛各学院联系人的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4191",
-    "title": "【活动预告】第三十九届“交大之星”决赛之巅",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6227.htm",
-    "title": "西安交通大学2019研究生创新实践系列大赛宣讲会",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2940.htm",
-    "title": "2019年“格兰富杯”全国大学生节能减排大赛校内选拔赛评审结果公示",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2432.htm",
-    "title": "西安交通大学第三届大学生金相技能大赛暨第八届全国大学生金相技能大赛选拔赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2969.htm",
-    "title": "关于2019年西安交通大学“格兰富杯”节能减排社会实践与科技竞赛校内评审的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2433.htm",
-    "title": "关于举办第五届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6208.htm",
-    "title": "关于举办“第二届西安交通大学研究生创新实践竞赛训练营​”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2434.htm",
-    "title": "关于开展2019西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6199.htm",
-    "title": "关于组织参加“交通银行杯” 第六届中国研究生智慧城市技术与创意设计大赛参赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4189",
-    "title": "【团学快讯】西安交大举办2019“灞河竞渡”赛艇挑战赛决赛",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6173.htm",
-    "title": "​关于组织参加2019年 “中国研究生创新实践系列大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6144.htm",
-    "title": "关于举办第二届中国研究生创“芯”大赛的预通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6146.htm",
-    "title": "“博实杯”第一届中国研究生机器人创新设计大赛通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2435.htm",
-    "title": "关于举办第一届西安交通大学飞行器创意设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6123.htm",
-    "title": "关于领取2019年全国大学生英语竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6134.htm",
-    "title": "关于举办研究生电子设计竞赛西北赛区宣讲会的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4142",
-    "title": "【公告】西安交通大学第十八届“腾飞杯”课外学术科技作品竞赛获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6116.htm",
-    "title": "教育部关于举办第五届中国“互联网+”大学生创新创业大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2436.htm",
-    "title": "关于第九届全国大学生机械创新设计大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2946.htm",
-    "title": "关于开展西安交通大学2019年“格兰富杯”节能减排社会实践与科技竞赛的通知",
     "priority": null
    },
    {
@@ -4279,873 +79,8 @@
     "priority": null
    },
    {
-    "url": "https://gs.xjtu.edu.cn/info/1179/6033.htm",
-    "title": "关于举办“兆易创新杯”第十四届中国研究生电子设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2437.htm",
-    "title": "关于2019年周培源力学竞赛辅导安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://gs.xjtu.edu.cn/info/1179/5664.htm",
-    "title": "关于举办第五届中国研究生未来飞行器创新大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2438.htm",
-    "title": "“第十二届全国周培源大学生力学竞赛”个人赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4126",
-    "title": "我校团委获“青春影像”全国大中学生原创视频大赛优秀组织奖",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4121",
-    "title": "关于开展第十八届“腾飞杯”课外学术科技作品竞赛作品中期审核的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2439.htm",
-    "title": "关于组织参加第二届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4130",
-    "title": "西安交通大学2018年主持人大赛决赛落下帷幕",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2440.htm",
-    "title": "关于举办第二届西安交通大学 “美‘力’校园” 力学文化创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4129",
-    "title": "抱“持”梦想，做“主”青春——西安交通大学主持人大赛初赛落下帷幕",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2441.htm",
-    "title": "关于2018 年中国（小谷围）“互联网+交通运输”创新创业大赛之金溢杯•中国大学交通运输创客大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2442.htm",
-    "title": "关于组织学生参加西安交通大学第五届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4103",
-    "title": "【通知】关于举办西安交通大学第十八届“腾飞杯”课外学术科技作品竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4092",
-    "title": "西安交大在全国大学生赛艇锦标赛中勇夺三金一银 获世界大学生赛艇锦标赛参赛资格",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2443.htm",
-    "title": "关于举办首届“能源 智慧 未来”全国大学生创新创业大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4054",
-    "title": "西安交大学生创业团队摘得2018中美青年创客大赛（西安赛区）桂冠",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4052",
-    "title": "第七届杭州中国名校龙舟竞渡西安交大创佳绩",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4177",
-    "title": "【西安日报】西安交大勇夺三金一银 获世界大学生赛艇锦标赛参赛资格",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2445.htm",
-    "title": "关于表彰我校2018年全国大学生英语竞赛获奖学生的通报",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2446.htm",
-    "title": "关于表彰2018年西安交通大学数学建模竞赛获奖学生的通报",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2447.htm",
-    "title": "关于数学建模竞赛论文写作的讲座通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4035",
-    "title": "第八届全国大学生机械创新设计大赛陕西赛区竞赛 西安交大再创佳绩",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2448.htm",
-    "title": "西安交通大学第二届大学生金相技能大赛暨第七届全国大学生金相技能大赛选拔赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2938.htm",
-    "title": "2018年“格兰富杯”全国大学生节能减排大赛校内选拔赛评审结果公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4025",
-    "title": "西安交大举办学生科技社团获奖新闻发布会",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2966.htm",
-    "title": "关于2018年西安交通大学“格兰富杯”节能减排社会实践与科技竞赛校内评审的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2450.htm",
-    "title": "关于公示2018年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4015",
-    "title": "西安交大ACM队首次入围第42届 国际大学生程序设计竞赛全球总决赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4016",
-    "title": "第八届全国大学生电子商务“创新、创意及创业”挑战赛 西安交通大学“腾飞杯”校赛举行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4013",
-    "title": "西安交大ACM队首次入围第42届 国际大学生程序设计竞赛全球总决赛并获佳绩",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2451.htm",
-    "title": "关于举办西安交通大学第一届“腾飞杯”大学生结构设计竞赛暨陕西省“争先杯”第二届大学生结构设计竞赛校内选拔报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2965.htm",
-    "title": "“格兰富杯”节能减排社会实践与科技竞赛作品征集中",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2452.htm",
-    "title": "关于领取2018年全国大学生英语竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2453.htm",
-    "title": "关于举办第四届中国“互联网+”大学生创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2454.htm",
-    "title": "关于组织开展 “全国大学生人工智能创新大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2455.htm",
-    "title": "关于开展西安交通大学“腾飞杯”竞赛暨2018年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2456.htm",
-    "title": "第八届全国大学生电子商务“创新、创意及创业”挑战赛西安交通大学“腾飞杯”校赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2934.htm",
-    "title": "关于开展西安交通大学“腾飞杯”竞赛暨2018年“格兰富杯”节能减排社会实践与科技竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2457.htm",
-    "title": "关于开展2018西安交通大学大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=3957",
-    "title": "【公示】2017年度“中国大学生自强之星”活动陕西省获奖人选",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2458.htm",
-    "title": "关于举办第八届全国大学生机械创新设计大赛校内赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2459.htm",
-    "title": "关于举办首届中国高校智能机器人创意大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2460.htm",
-    "title": "关于领取2017年第九届全国大学生数学竞赛初赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=192",
-    "title": "最佳团日｜钱学森72——最佳团日初赛回顾",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=190",
-    "title": "最佳团日｜机类78——最佳团日初赛总结",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=182",
-    "title": "最佳团日丨文试73——恭喜文试73入选团日复赛，我们会更加努力的哟",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=175",
-    "title": "最佳团日 | 电信77——齐齐潮信挺进复赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=164",
-    "title": "最佳团日 | 机类718——最佳团日初赛回顾",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=159",
-    "title": "最佳团日 | 钱学森书院、励志书院第三十二届“最佳团日”初赛答辩成功举办",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2461.htm",
-    "title": "关于转发《关于举办第九届蓝桥杯全国软件和信息技术专业人才大赛的通知》的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2462.htm",
-    "title": "关于领取第九届全国大学生数学竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2463.htm",
-    "title": "2017年第九届全国大学生数学竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2933.htm",
-    "title": "第十届全国大学生节能减排大赛校内赛评审通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2953.htm",
-    "title": "“格兰富杯”第九届全国大学生节能减排大赛校内赛评审结果公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2960.htm",
-    "title": "“格兰富杯”第九届全国大学生节能减排社会实践与科技竞赛校内赛评审通知",
-    "priority": null
-   },
-   {
-    "url": "http://pec.xjtu.edu.cn/info/1191/2464.htm",
-    "title": "关于举办第二届西安交通大学“互联网+”大学生创新创业大赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2952.htm",
-    "title": "“格兰富杯”第九届全国大学生节能减排社会实践与科技竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=3354",
-    "title": "关于举办西安交通大学第十一届“腾飞杯”创业竞赛暨2016年“国家大学生创业训练计划”项目选拔的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=3236",
-    "title": "关于公布践行社会主义核心价值观“出彩团支部”创建和“魅力团支书”寻访活动 获奖名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=3151",
-    "title": "关于开展2015年学生参加科技竞赛获得免试研究生资格认定考核工作的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6749.htm",
-    "title": "关于领取第十届周培源力学竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6736.htm",
-    "title": "关于2015年下半年全国计算机等级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2948.htm",
-    "title": "第八届全国大学生节能减排大赛校内赛评审结果公示",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2961.htm",
-    "title": "第八届全国大学生节能减排大赛校内赛评审通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=97",
-    "title": "RoboMasters2015全国大学生机器人大赛西北分区赛",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6695.htm",
-    "title": "西安交通大学第一届大学生物理学术竞赛决赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6707.htm",
-    "title": "关于公布2015年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6715.htm",
-    "title": "关于我校第七届全国大学生机械创新设计大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6690.htm",
-    "title": "关于领取陕西省数学竞赛参赛资料的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6691.htm",
-    "title": "关于2015年全国大学生英语竞赛听力相关安排的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6753.htm",
-    "title": "2015年全国大学生英语竞赛准考证领取通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6728.htm",
-    "title": "关于聘请2015年大学生数学建模竞赛指导教师暨校内赛题目征集的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6754.htm",
-    "title": "关于开展西安交通大学2015年大学生数学建模竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2942.htm",
-    "title": "关于举办第八届节全国大学生节能减排社会实践与科技竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6737.htm",
-    "title": "关于参加陕西高校第十次大学生高等数学竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6732.htm",
-    "title": "关于发放第六届全国大学生数学竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6743.htm",
-    "title": "关于2015年6月全国大学外语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6696.htm",
-    "title": "第十届全国周培源大学生力学竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=2842",
-    "title": "关于举办陕西省“青春年华•中国梦” 诗词征文大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6703.htm",
-    "title": "关于表彰第六届全国大学生机械创新设计大赛获奖师生的通报",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6712.htm",
-    "title": "关于表彰2014年全国大学生电子设计竞赛获奖师生的通报",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6723.htm",
-    "title": "关于表彰2014年全国大学生数学建模竞赛获奖师生的通报",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=91",
-    "title": "创业讲座—抓住创新创业的黄金十年",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6734.htm",
-    "title": "2015年上半年全国计算机等级考试暂停网上报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6757.htm",
-    "title": "关于2015年上半年全国计算机等级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=83",
-    "title": "“彭康之夜”总决赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=73",
-    "title": "彭康书院第五届“职要有你”模拟招聘大赛决赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=2683",
-    "title": "关于举办西安交通大学第十六届“腾飞杯”课外学术科技作品竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6692.htm",
-    "title": "2015年全国大学生英语竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6714.htm",
-    "title": "西安交通大学第一届大学生物理学术竞赛初赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=52",
-    "title": "第二十五届“校园之春”陕西省大学生文化艺术节校园原创歌曲大赛总决赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=51",
-    "title": "第二十五届“校园之春”陕西省大学生文化艺术节校园原创歌曲大赛总决赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=48",
-    "title": "全国首届大学生税收辩论赛（西安赛区）在我校举办",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6716.htm",
-    "title": "关于领取第六届全国大学生数学竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6724.htm",
-    "title": "关于组织学生参加西安交通大学第一届大学生物理学术竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6725.htm",
-    "title": "2014年11月全国大学英语四、六级网考报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=31",
-    "title": "第12届“新生杯”综合棋类比赛火热报名",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6704.htm",
-    "title": "关于2014年12月全国大学外语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6751.htm",
-    "title": "关于发放2014年全国大学生英语竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6705.htm",
-    "title": "关于表彰2014年全国大学生英语竞赛获奖学生的通报",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6731.htm",
-    "title": "2014年第六届全国大学生数学竞赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6720.htm",
-    "title": "关于2014年下半年全国计算机等级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2939.htm",
-    "title": "第七届全国大学生节能减排大赛复赛结果公示",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6733.htm",
-    "title": "关于表彰2014年美国大学生数学建模竞赛我校获奖学生和指导教师的通报",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2944.htm",
-    "title": "节能减排大赛校内赛初审结果公示及复审安排",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6709.htm",
-    "title": "第十届周培源杯全国大学生力学竞赛辅导报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2937.htm",
-    "title": "第七届全国大学生节能减排大赛校内赛初审通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=2259",
-    "title": "关于转发《陕西广播电视台全国公益广告大赛征稿启事》的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6711.htm",
-    "title": "关于公布2014年全国大学生英语竞赛初赛成绩和参加决赛学生名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6689.htm",
-    "title": "2014年5月全国大学英语四、六级网考报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6701.htm",
-    "title": "关于领取2014年大学生英语竞赛准考证的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=2193",
-    "title": "第七届“节能减排”大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2943.htm",
-    "title": "第四届特等奖作品——新型高精度太阳自跟踪系统",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2959.htm",
-    "title": "第四届特等奖作品——基于风压变换和压电效应的风能收集器",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2936.htm",
-    "title": "第四届特等奖作品——免维护自发电门禁系统",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2947.htm",
-    "title": "第四届一等奖作品——基于斯特林—布雷顿循环的能量多级利用系统",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2964.htm",
-    "title": "第四届一等奖作品——基于待机能耗管理技术的智能化插座",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2967.htm",
-    "title": "第五届三等奖作品——季节自适性墙体",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1518/2957.htm",
-    "title": "第五届三等奖作品——太阳能热电空调衣",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6755.htm",
-    "title": "关于全国大学外语四、六级考试报名采集图像信息的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6744.htm",
-    "title": "关于2014年6月全国大学外语四、六级考试报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6697.htm",
-    "title": "第十届周培元大学生力学竞赛辅导通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6747.htm",
-    "title": "2014年4月全国大学英语四、六级网考报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6694.htm",
-    "title": "关于发放2013年西安交通大学物理竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/6746.htm",
-    "title": "关于发放第五届全国大学生数学竞赛获奖证书的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1100/2141.htm",
-    "title": "2014年西安交通大学跨校辅修专业报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1097/3445.htm",
-    "title": "2014年加州大学伯克利分校Summer School选拔报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1971",
-    "title": "关于举办西安交通大学第十届“腾飞杯”大学生创业计划竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1969",
-    "title": "关于公示首届“勇创杯”大学生“微重力健康生活”创意设计大赛获奖作品的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1967",
-    "title": "关于开展“为建设海洋强国奉献青春”第六届全国大中学生海洋知识竞赛活动的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1964",
-    "title": "关于组织参加第九届“花旗杯”金融创新应用大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1963",
-    "title": "关于举办第八届全国信息技术应用水平大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1962",
-    "title": "西安交通大学首届“勇创杯”大学生“微重力健康生活”创意设计大赛选拔赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1958",
-    "title": "关于第六届全国大学生机械创新设计大赛报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1956",
-    "title": "关于举办西安交通大学2013年ACM-ICPC程序设计竞赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1794",
-    "title": "关于举办西安交通大学首届创业实践大赛暨第九届“腾飞杯”大学生创业计划大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1947",
-    "title": "关于举办西安交通大学首届创业实践大赛暨第九届“腾飞杯”大学生创业计划大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1946",
-    "title": "关于举办西安交通大学教育基金会徽标（LOGO）设计大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1793",
-    "title": "西安交大辩论队参加“德辩”2013大专华语辩论会之世界精英邀请赛取得佳绩",
-    "priority": null
-   },
-   {
-    "url": "https://xjefy.cn/defsyy/info/5881/260321.htm",
-    "title": "二院成功举办第四届全国大学生临床技能竞赛校内选拔赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1939",
-    "title": "第6届大学生“企业社会责任”征文大赛——洞察社会 领导未来",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1932",
-    "title": "“2012年西安交通大学毕业生欢庆之夜”开始报名啦！！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1788",
-    "title": "仲英书院“春诵夏行”之“英仔晒书会”系列活动读书心得征稿大赛",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1783",
-    "title": "招募“第五届全国大学生节能减排社会实践与科技竞赛决赛”志愿者通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1784",
-    "title": "2012年全国大学生管理决策模拟大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1924",
-    "title": "关于招募“第五届全国大学生节能减排大赛”志愿者的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1776",
-    "title": "仲英书院学生获奖申报通知及附件下载",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1917",
-    "title": "关于我校参加全省第三届大学生艺术展演活动获奖结果的公示",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1769",
-    "title": "西安交通大学数学建模校内赛报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1767",
-    "title": "第一届“中国软件杯”大学生软件设计大赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1760",
-    "title": "关于举办第五届全国大学生节能减排社会实践与 科技竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1906",
-    "title": "关于举办第五届全国大学生节能减排社会实践与科技竞赛校内选拔赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1754",
-    "title": "关于第五届节能减排大赛的报名通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1905",
-    "title": "关于积极参加首届陕西省青年公文协作大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1892",
-    "title": "有关“腾飞杯”报名截止时间延长的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1886",
-    "title": "关于第四届全国大学生语言文字基本功大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1882",
-    "title": "关于举办“西安交通大学第二届大学生职业规划大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1869",
-    "title": "“创新改变时代、梦想引领未来”三一（中国）工程机械工业设计大赛参赛通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1749",
-    "title": "西安交通大学校园模拟大赛正式启动",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1859",
-    "title": "关于遴选“AIA求职王语文比赛”参赛选手的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1848",
-    "title": "关于延长大学生报名参加世园会志愿者截止日期的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1842",
-    "title": "第二届“我和我的交大”校园原创文学大赛征稿启事",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1835",
-    "title": "关于公示“西安交通大学首届创意大赛”获奖名单的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1828",
-    "title": "第九届海峡两岸知识大赛 海选报名开始啦！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1809",
-    "title": "关于举办“西安交通大学创意大赛”的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4640.htm",
-    "title": "西安交通大学第十一届优秀教材获奖名单",
-    "priority": null
-   },
-   {
     "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
     "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4662.htm",
-    "title": "2007年陕西普通高校优秀教材获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4671.htm",
-    "title": "西安交通大学第十届优秀教材获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4652.htm",
-    "title": "2005年陕西普通高等学校优秀教材获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4610.htm",
-    "title": "西安交通大学第九届优秀教材获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4616.htm",
-    "title": "2002年全国普通高等学校优秀教材西安交通大学获奖书目",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4625.htm",
-    "title": "西安交通大学第八届优秀教材获奖名单",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1102/4620.htm",
-    "title": "西安交通大学第七届优秀讲义获奖名单",
     "priority": null
    },
    {
@@ -5155,7 +90,7 @@
    }
   ],
   "byStatus": {
-   "success": 1013,
+   "success": 0,
    "empty": 1,
    "failed": 15,
    "pending": 0
@@ -5175,7 +110,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-05T14:43:08.520268+00:00",
+   "fetchedAt": "2026-11-06T06:56:03.296766+00:00",
    "status": "failed",
    "error": "HTTP 403",
    "contentHash": "",
@@ -5200,9 +135,619 @@
      "status": "failed",
      "error": "HTTP 403",
      "fetchedAt": "2026-11-05T14:43:08.520268+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 403",
+     "fetchedAt": "2026-11-06T06:56:03.296766+00:00"
     }
    ],
-   "totalAttempts": 1
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
+   "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
+   "site": "校团委",
+   "date": "2010-01-09",
+   "source": "西安交通大学团委",
+   "fetchedAt": "2026-11-06T06:56:02.552659+00:00",
+   "status": "empty",
+   "error": "empty_content",
+   "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-05T14:43:05.762543+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-06T06:56:02.552659+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
+   "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
+   "site": "研究生院",
+   "date": "2019-03-26",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:56:01.878853+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:42:08.825849+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:01.878853+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
+   "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
+   "site": "研究生院",
+   "date": "2019-05-28",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:56:01.738576+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:57.893239+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:01.738576+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
+   "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
+   "site": "研究生院",
+   "date": "2019-07-08",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:56:00.692150+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:54.734426+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:00.692150+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
+   "title": "第二届中国研究生机器人创新设计大赛预通知",
+   "site": "研究生院",
+   "date": "2020-01-07",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:56:00.312121+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:51.928965+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:00.312121+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
+   "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
+   "site": "研究生院",
+   "date": "2021-05-12",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:55:59.882064+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:31.344635+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:59.882064+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
+   "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
+   "site": "研究生院",
+   "date": "2021-11-24",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-06T06:55:58.837606+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:26.908001+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.837606+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
+   "site": "实践教学中心",
+   "date": "2025-01-03",
+   "source": "pec",
+   "fetchedAt": "2026-11-06T06:55:58.609057+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:40:11.072883+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.609057+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+   "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
+   "site": "实践教学中心",
+   "date": "2025-04-29",
+   "source": "pec",
+   "fetchedAt": "2026-11-06T06:55:58.497694+00:00",
+   "status": "failed",
+   "error": "HTTP 404",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-05T14:39:55.270640+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-06T06:55:58.497694+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+   "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
+   "site": "实践教学中心",
+   "date": "2026-03-26",
+   "source": "pec",
+   "fetchedAt": "2026-11-06T06:55:58.493357+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-10-04T07:19:07.676384+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:38:58.971897+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.493357+00:00"
+    }
+   ],
+   "totalAttempts": 3
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/132.html",
+   "title": "2027年足式机器人挑战赛-V1.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-08",
+   "source": "robocon",
+   "fetchedAt": "2026-11-06T06:55:57.953727+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:34.060205+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:57.953727+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+   "site": "教务处",
+   "date": "2026-10-14",
+   "source": "jwc",
+   "fetchedAt": "2026-11-06T06:55:56.915895+00:00",
+   "status": "failed",
+   "error": "HTTP 404",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-05T14:37:29.507796+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-06T06:55:56.915895+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/133.html",
+   "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
+   "site": "ROBOCON官网",
+   "date": "2026-10-20",
+   "source": "robocon",
+   "fetchedAt": "2026-11-06T06:55:56.914879+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:23.084982+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.914879+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/134.html",
+   "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
+   "site": "ROBOCON官网",
+   "date": "2026-10-26",
+   "source": "robocon",
+   "fetchedAt": "2026-11-06T06:55:56.913796+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:19.567120+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.913796+00:00"
+    }
+   ],
+   "totalAttempts": 2
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/135.html",
+   "title": "2027年足式机器人挑战赛-V2.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-29",
+   "source": "robocon",
+   "fetchedAt": "2026-11-06T06:55:56.912028+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:16.063073+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.912028+00:00"
+    }
+   ],
+   "totalAttempts": 2
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1102/4620.htm",
@@ -13318,41 +8863,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:43:06.189706+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
-   "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
-   "site": "校团委",
-   "date": "2010-01-09",
-   "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-05T14:43:05.762543+00:00",
-   "status": "empty",
-   "error": "empty_content",
-   "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-05T14:43:05.762543+00:00"
     }
    ],
    "totalAttempts": 1
@@ -42060,41 +37570,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
-   "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
-   "site": "研究生院",
-   "date": "2019-03-26",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:42:08.825849+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:42:08.825849+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://epe.xjtu.edu.cn/info/1518/2946.htm",
    "title": "关于开展西安交通大学2019年“格兰富杯”节能减排社会实践与科技竞赛的通知",
    "site": "能动学院",
@@ -49826,41 +45301,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
-   "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
-   "site": "研究生院",
-   "date": "2019-05-28",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:41:57.893239+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:57.893239+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://gs.xjtu.edu.cn/info/1179/6268.htm",
    "title": "关于选拔参加2019年第十六届中国研究生数学建模竞赛参赛队员的通知",
    "site": "研究生院",
@@ -50806,41 +46246,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:41:54.883508+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
-   "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
-   "site": "研究生院",
-   "date": "2019-07-08",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:41:54.734426+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:54.734426+00:00"
     }
    ],
    "totalAttempts": 1
@@ -51934,41 +47339,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:41:52.089562+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
-   "title": "第二届中国研究生机器人创新设计大赛预通知",
-   "site": "研究生院",
-   "date": "2020-01-07",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:41:51.928965+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:51.928965+00:00"
     }
    ],
    "totalAttempts": 1
@@ -64649,41 +60019,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
-   "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
-   "site": "研究生院",
-   "date": "2021-05-12",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:41:31.344635+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:31.344635+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://epe.xjtu.edu.cn/info/1518/2956.htm",
    "title": "2021“格兰富杯”全国大学生节能减排大赛校内选拔赛评审结果公示",
    "site": "能动学院",
@@ -67738,41 +63073,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:41:27.949292+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
-   "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
-   "site": "研究生院",
-   "date": "2021-11-24",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-05T14:41:26.908001+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:26.908001+00:00"
     }
    ],
    "totalAttempts": 1
@@ -120863,41 +116163,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
-   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
-   "site": "实践教学中心",
-   "date": "2025-01-03",
-   "source": "pec",
-   "fetchedAt": "2026-11-05T14:40:11.072883+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:40:11.072883+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://jwc.xjtu.edu.cn/info/1171/8601.htm",
    "title": "2025年3月全国计算机等级考试报名通知",
    "site": "教务处",
@@ -131076,41 +126341,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:39:55.311268+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
-   "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
-   "site": "实践教学中心",
-   "date": "2025-04-29",
-   "source": "pec",
-   "fetchedAt": "2026-11-05T14:39:55.270640+00:00",
-   "status": "failed",
-   "error": "HTTP 404",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:39:55.270640+00:00"
     }
    ],
    "totalAttempts": 1
@@ -197687,46 +192917,6 @@
     }
    ],
    "totalAttempts": 1
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
-   "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
-   "site": "实践教学中心",
-   "date": "2026-03-26",
-   "source": "pec",
-   "fetchedAt": "2026-11-05T14:38:58.971897+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-10-04T07:19:07.676384+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:38:58.971897+00:00"
-    }
-   ],
-   "totalAttempts": 2
   },
   {
    "url": "https://ee.xjtu.edu.cn/info/1383/15098.htm",
@@ -282934,41 +278124,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "https://www.robocon.org.cn/sys-nd/132.html",
-   "title": "2027年足式机器人挑战赛-V1.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-08",
-   "source": "robocon",
-   "fetchedAt": "2026-11-05T14:37:34.060205+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:34.060205+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://ee.xjtu.edu.cn/info/1382/15772.htm",
    "title": "电气工程学院2026-2027学年第一学期本科生出国（境）交流资助资格选拔通知",
    "site": "电气学院",
@@ -285833,41 +280988,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:37:29.812059+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
-   "site": "教务处",
-   "date": "2026-10-14",
-   "source": "jwc",
-   "fetchedAt": "2026-11-05T14:37:29.507796+00:00",
-   "status": "failed",
-   "error": "HTTP 404",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:37:29.507796+00:00"
     }
    ],
    "totalAttempts": 1
@@ -306890,41 +302010,6 @@
    "totalAttempts": 1
   },
   {
-   "url": "https://www.robocon.org.cn/sys-nd/133.html",
-   "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-   "site": "ROBOCON官网",
-   "date": "2026-10-20",
-   "source": "robocon",
-   "fetchedAt": "2026-11-05T14:37:23.084982+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:23.084982+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4769",
    "title": "“九州名家”系列高端报告会 | 听王辰院士讲医学",
    "site": "校团委",
@@ -308093,41 +303178,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:37:20.004721+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/134.html",
-   "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
-   "site": "ROBOCON官网",
-   "date": "2026-10-26",
-   "source": "robocon",
-   "fetchedAt": "2026-11-05T14:37:19.567120+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:19.567120+00:00"
     }
    ],
    "totalAttempts": 1
@@ -309696,41 +304746,6 @@
      "status": "success",
      "error": "",
      "fetchedAt": "2026-11-05T14:37:16.072018+00:00"
-    }
-   ],
-   "totalAttempts": 1
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/135.html",
-   "title": "2027年足式机器人挑战赛-V2.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-29",
-   "source": "robocon",
-   "fetchedAt": "2026-11-05T14:37:16.063073+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:16.063073+00:00"
     }
    ],
    "totalAttempts": 1

@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-05 22:48
+// 生成时间: 2026-11-06 14:58
 window.SITE_DATA = {
- "generatedAt": "2026-11-05 22:48",
+ "generatedAt": "2026-11-06 14:58",
  "stats": {
   "competitions": 94,
   "notices": 2392,
@@ -12,7 +12,7 @@ window.SITE_DATA = {
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-05",
+  "today": "2026-11-06",
   "noticeFrom": "2003-12-19",
   "noticeTo": "2026-11-05",
   "eeDist": {
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 1029,
+    "total": 16,
     "byStatus": {
-     "success": 1013,
+     "success": 0,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:40:11.072883+00:00",
+        "fetchedAt": "2026-11-06T06:55:58.609057+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:40:11.072883+00:00",
+      "fetchedAt": "2026-11-06T06:55:58.609057+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:37:16.063073+00:00",
+        "fetchedAt": "2026-11-06T06:55:56.912028+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:37:19.567120+00:00",
+        "fetchedAt": "2026-11-06T06:55:56.913796+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:37:23.084982+00:00",
+        "fetchedAt": "2026-11-06T06:55:56.914879+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:37:34.060205+00:00",
+        "fetchedAt": "2026-11-06T06:55:57.953727+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:37:16.063073+00:00",
+      "fetchedAt": "2026-11-06T06:55:56.912028+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:37:19.567120+00:00",
+      "fetchedAt": "2026-11-06T06:55:56.913796+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:37:23.084982+00:00",
+      "fetchedAt": "2026-11-06T06:55:56.914879+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:37:34.060205+00:00",
+      "fetchedAt": "2026-11-06T06:55:57.953727+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-05T14:37:16.063073+00:00",
+    "fetchedAt": "2026-11-06T06:55:56.912028+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "HTTP 403",
-        "fetchedAt": "2026-11-05T14:43:08.520268+00:00",
+        "fetchedAt": "2026-11-06T06:56:03.296766+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "HTTP 403",
-      "fetchedAt": "2026-11-05T14:43:08.520268+00:00",
+      "fetchedAt": "2026-11-06T06:56:03.296766+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:38:58.971897+00:00",
+        "fetchedAt": "2026-11-06T06:55:58.493357+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:38:58.971897+00:00",
+      "fetchedAt": "2026-11-06T06:55:58.493357+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:41:31.344635+00:00",
+        "fetchedAt": "2026-11-06T06:55:59.882064+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:41:57.893239+00:00",
+        "fetchedAt": "2026-11-06T06:56:01.738576+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:42:08.825849+00:00",
+        "fetchedAt": "2026-11-06T06:56:01.878853+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:41:26.908001+00:00",
+        "fetchedAt": "2026-11-06T06:55:58.837606+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:41:51.928965+00:00",
+        "fetchedAt": "2026-11-06T06:56:00.312121+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-05T14:41:54.734426+00:00",
+        "fetchedAt": "2026-11-06T06:56:00.692150+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:41:26.908001+00:00",
+      "fetchedAt": "2026-11-06T06:55:58.837606+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:41:31.344635+00:00",
+      "fetchedAt": "2026-11-06T06:55:59.882064+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:41:51.928965+00:00",
+      "fetchedAt": "2026-11-06T06:56:00.312121+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:41:54.734426+00:00",
+      "fetchedAt": "2026-11-06T06:56:00.692150+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:41:57.893239+00:00",
+      "fetchedAt": "2026-11-06T06:56:01.738576+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-05T14:42:08.825849+00:00",
+      "fetchedAt": "2026-11-06T06:56:01.878853+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -249355,7 +249355,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:37:16.063073+00:00",
+   "fetchedAt": "2026-11-06T06:55:56.912028+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -251625,7 +251625,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:37:19.567120+00:00",
+   "fetchedAt": "2026-11-06T06:55:56.913796+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -254479,7 +254479,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:37:23.084982+00:00",
+   "fetchedAt": "2026-11-06T06:55:56.914879+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -270493,7 +270493,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-05T14:37:29.507796+00:00",
+   "fetchedAt": "2026-11-06T06:55:56.915895+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -275374,7 +275374,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:37:34.060205+00:00",
+   "fetchedAt": "2026-11-06T06:55:57.953727+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -427166,7 +427166,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:38:58.971897+00:00",
+   "fetchedAt": "2026-11-06T06:55:58.493357+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -520775,7 +520775,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-05T14:39:55.270640+00:00",
+   "fetchedAt": "2026-11-06T06:55:58.497694+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -549871,7 +549871,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:40:11.072883+00:00",
+   "fetchedAt": "2026-11-06T06:55:58.609057+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -649710,7 +649710,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:41:26.908001+00:00",
+   "fetchedAt": "2026-11-06T06:55:58.837606+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -658730,7 +658730,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:41:31.344635+00:00",
+   "fetchedAt": "2026-11-06T06:55:59.882064+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -685082,7 +685082,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:41:51.928965+00:00",
+   "fetchedAt": "2026-11-06T06:56:00.312121+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -690299,7 +690299,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:41:54.734426+00:00",
+   "fetchedAt": "2026-11-06T06:56:00.692150+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -693372,7 +693372,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:41:57.893239+00:00",
+   "fetchedAt": "2026-11-06T06:56:01.738576+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -707850,7 +707850,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-05T14:42:08.825849+00:00",
+   "fetchedAt": "2026-11-06T06:56:01.878853+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -791488,7 +791488,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-05T14:43:05.762543+00:00",
+   "fetchedAt": "2026-11-06T06:56:02.552659+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -792629,7 +792629,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 403",
-   "fetchedAt": "2026-11-05T14:43:08.520268+00:00",
+   "fetchedAt": "2026-11-06T06:56:03.296766+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -793468,6 +793468,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A72025%E5%B9%B4%E7%A7%8B%E5%AD%A3%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E6%B4%BB%E5%8A%A8%E5%90%AF%E5%8A%A8%20%E5%8A%A9%E5%8A%9B%E6%AF%95%E4%B8%9A%E7%94%9F%E9%AB%98%E8%B4%A8%E9%87%8F%E5%B0%B1%E4%B8%9A"
   },
   {
+   "title": "西安交大,全球招聘!",
+   "date": "2026-11-03",
+   "snippet": "· 西安交通大学2025年就业见习生招聘通知· 职业规划/国际化视野/创业训练,快来选修,“职” 通未来!来源:西安交通大学",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%2C%E5%85%A8%E7%90%83%E6%8B%9B%E8%81%98%21"
+  },
+  {
    "title": "篮球赛决赛战报与颁奖仪式丨2026年西安交通大学电气工程学院“爱科赛博电气杯”篮球赛圆满结束!",
    "date": "2026-11-03",
    "snippet": "关心教育事业,支持高校科研交流、学术竞赛及校园文化活动.此次冠名西安交通大学电气工程学院篮球赛,以实际行动助力校园体育...",
@@ -793520,6 +793529,24 @@ window.SITE_DATA = {
    "cat": "集体活动",
    "group": "集体活动",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B1%E5%B0%86%E8%87%B3%7C%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E6%9C%AC%E5%91%A8%E6%B4%BB%E5%8A%A8%E5%90%88%E9%9B%86"
+  },
+  {
+   "title": "一周活动早知道 | 10.26-11.1南洋书院活动预告",
+   "date": "2026-10-25",
+   "snippet": "10.26-11.1南洋书院活动预告一周活动早知道科技奇妙夜·奇思妙想火花夜面向西安交通大学全体同学,以个人为单位,用文字描述一...",
+   "account": "西安交通大学南洋书院",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%2010.26-11.1%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "医路初遇承薪火 星火领航启新程|宗濂书院“医路初遇,星火领航”主题寻访活动圆满落幕",
+   "date": "2026-10-23",
+   "snippet": "宗濂书院“医路初遇,星火领航”主题寻访活动圆满落幕 医路初遇承薪火星火领航启新程百载医途薪火永续,青春逐梦再启新章.为引...",
+   "account": "宗濂星火",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%BB%E8%B7%AF%E5%88%9D%E9%81%87%E6%89%BF%E8%96%AA%E7%81%AB%20%E6%98%9F%E7%81%AB%E9%A2%86%E8%88%AA%E5%90%AF%E6%96%B0%E7%A8%8B%7C%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E2%80%9C%E5%8C%BB%E8%B7%AF%E5%88%9D%E9%81%87%2C%E6%98%9F%E7%81%AB%E9%A2%86%E8%88%AA%E2%80%9D%E4%B8%BB%E9%A2%98%E5%AF%BB%E8%AE%BF%E6%B4%BB%E5%8A%A8%E5%9C%86%E6%BB%A1%E8%90%BD"
   },
   {
    "title": "濂体育 | 星荧夜跑开始啦!",
@@ -793747,6 +793774,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%203.30-4.5%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
   },
   {
+   "title": "团团帮推 | 西安交通大学第五届力学与空天知识竞赛来啦!",
+   "date": "2026-03-26",
+   "snippet": "七秩问天路携手探九霄第五届力学与空天知识竞赛由共青团西安交通大学委员会、航天航空学院、实践教学中心、文治书院、中国科学...",
+   "account": "西安交通大学团委",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%A2%E5%9B%A2%E5%B8%AE%E6%8E%A8%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%94%E5%B1%8A%E5%8A%9B%E5%AD%A6%E4%B8%8E%E7%A9%BA%E5%A4%A9%E7%9F%A5%E8%AF%86%E7%AB%9E%E8%B5%9B%E6%9D%A5%E5%95%A6%21"
+  },
+  {
    "title": "【支部活动】电气学院南洋书院师生联合第二党支部三月组织生活圆满召开",
    "date": "2026-03-25",
    "snippet": "电气学院南洋书院师生联合第二党支部三月组织生活圆满召开会议前言为深入学习、树立、践行正确政绩观,遵从党组织部署要求,...",
@@ -793909,6 +793945,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%7C%E6%A0%A1%E5%8F%8B%E5%BD%92%E5%B7%A2%E4%BC%A0%E8%96%AA%E7%81%AB%2C%E9%80%90%E6%A2%A6%E4%BA%A4%E5%A4%A7%E8%B5%B4%E6%96%B0%E7%A8%8B"
   },
   {
+   "title": "喜报丨西安交大学生资助工作获表扬~",
+   "date": "2026-02-14",
+   "snippet": "近日,教育部全国学生资助管理中心向西安交通大学发来表扬信,对我校国家奖学金评选工作再次给予高度肯定.同时,我校资助育人...",
+   "account": "西安交通大学学生资助管理中心",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E6%8A%A5%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%B5%84%E5%8A%A9%E5%B7%A5%E4%BD%9C%E8%8E%B7%E8%A1%A8%E6%89%AC~"
+  },
+  {
    "title": "仲英书院学生会党史进部门活动",
    "date": "2026-02-13",
    "snippet": "2月7日,仲英书院学生会开展党史学习进部门活动.此次活动帮助学生会成员进一步了解党的光辉历程与优良作风,加强思想淬炼与品...",
@@ -793916,6 +793961,15 @@ window.SITE_DATA = {
    "cat": "思政学习",
    "group": "思政学习",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E5%AD%A6%E7%94%9F%E4%BC%9A%E5%85%9A%E5%8F%B2%E8%BF%9B%E9%83%A8%E9%97%A8%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "最高荣誉!西安交大团委荣获“全国五四红旗团委”",
+   "date": "2026-02-05",
+   "snippet": "西安交通大学团委获评“全国五四红旗团委”,为闪闪发光的交大... 承办第十四届“挑战杯”中国大学生创业计划竞赛,在各类全国高...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%9C%80%E9%AB%98%E8%8D%A3%E8%AA%89%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%9B%A2%E5%A7%94%E8%8D%A3%E8%8E%B7%E2%80%9C%E5%85%A8%E5%9B%BD%E4%BA%94%E5%9B%9B%E7%BA%A2%E6%97%97%E5%9B%A2%E5%A7%94%E2%80%9D"
   },
   {
    "title": "【支部活动】电信学部南洋书院师生联合第一党支部与电信学部计算机学院2025级学硕第二党支部联合举办一月组织生活会",
@@ -793927,6 +793981,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%94%AF%E9%83%A8%E6%B4%BB%E5%8A%A8%E3%80%91%E7%94%B5%E4%BF%A1%E5%AD%A6%E9%83%A8%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E5%B8%88%E7%94%9F%E8%81%94%E5%90%88%E7%AC%AC%E4%B8%80%E5%85%9A%E6%94%AF%E9%83%A8%E4%B8%8E%E7%94%B5%E4%BF%A1%E5%AD%A6%E9%83%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E9%99%A22025%E7%BA%A7%E5%AD%A6%E7%A1%95"
   },
   {
+   "title": "实践征文 | 快来@西安交通大学官博,分享自己社会实践的美好瞬间!",
+   "date": "2025-10-14",
+   "snippet": "竞赛题库来源于大家的实践分享,因此希望大家在每篇投稿最后加... 并在“西安交通大学社会实践”公众号进行公布;该项活动仅计入...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E5%BE%81%E6%96%87%20%7C%20%E5%BF%AB%E6%9D%A5%40%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AE%98%E5%8D%9A%2C%E5%88%86%E4%BA%AB%E8%87%AA%E5%B7%B1%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E7%9A%84%E7%BE%8E%E5%A5%BD%E7%9E%AC%E9%97%B4%21"
+  },
+  {
    "title": "宗濂书院“最美笔记”评选活动|快来pick你心中的最美笔记!",
    "date": "2024-12-18",
    "snippet": "我们在宗濂书院朋辈学辅团举办了【最美笔记】初选比赛.评定结果“最美笔记”活动收集阶段和初步评分阶段目前已经结束啦!本次...",
@@ -793936,6 +793999,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E2%80%9C%E6%9C%80%E7%BE%8E%E7%AC%94%E8%AE%B0%E2%80%9D%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%7C%E5%BF%AB%E6%9D%A5pick%E4%BD%A0%E5%BF%83%E4%B8%AD%E7%9A%84%E6%9C%80%E7%BE%8E%E7%AC%94%E8%AE%B0%21"
   },
   {
+   "title": "西安交通大学第六十一届运动会仲英书院竞赛日程",
+   "date": "2024-05-17",
+   "snippet": "西安交通大学第六十一届运动会仲英书院竞赛日程一竞赛日程5月17日5月18日二参赛运动员及项目西安交通大学第六十一届运动会将...",
+   "account": "仲英书院学生会",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%85%AD%E5%8D%81%E4%B8%80%E5%B1%8A%E8%BF%90%E5%8A%A8%E4%BC%9A%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E7%AB%9E%E8%B5%9B%E6%97%A5%E7%A8%8B"
+  },
+  {
    "title": "活动预告|西法大x西交大模拟法庭展演活动—遗产继承纠纷案",
    "date": "2024-05-15",
    "snippet": "西安交通大学法律爱好者协会承办的模拟法庭展演活动即将展开.届时,西北政法大学的同学将以事实为依据,以法律为准绳,为同学...",
@@ -793943,6 +794015,15 @@ window.SITE_DATA = {
    "cat": "集体活动",
    "group": "集体活动",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%7C%E8%A5%BF%E6%B3%95%E5%A4%A7x%E8%A5%BF%E4%BA%A4%E5%A4%A7%E6%A8%A1%E6%8B%9F%E6%B3%95%E5%BA%AD%E5%B1%95%E6%BC%94%E6%B4%BB%E5%8A%A8%E2%80%94%E9%81%97%E4%BA%A7%E7%BB%A7%E6%89%BF%E7%BA%A0%E7%BA%B7%E6%A1%88"
+  },
+  {
+   "title": "第四十四届交大之星决赛|妙语连珠之主持人招募",
+   "date": "2024-05-14",
+   "snippet": "报名要求本次主持面向全校进行招募需要进行选拔共需招募6名主... 西安交通大学学生会本活动最终解释权归西安交通大学学生会所有...",
+   "account": "西安交通大学团委",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%9B%9B%E5%B1%8A%E4%BA%A4%E5%A4%A7%E4%B9%8B%E6%98%9F%E5%86%B3%E8%B5%9B%7C%E5%A6%99%E8%AF%AD%E8%BF%9E%E7%8F%A0%E4%B9%8B%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%8B%9B%E5%8B%9F"
   },
   {
    "title": "【事业单位】关于2024年西安市事业单位公开招聘高层次及紧缺特殊专业人才的公告",
@@ -793990,6 +794071,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%204.22-4.28%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
   },
   {
+   "title": "通知 | 关注!西安交通大学2024年辅导员素质能力大赛来啦!",
+   "date": "2024-04-19",
+   "snippet": "决定举办西安交通大学2024年辅导员素质能力大赛.现将有关事项... 优秀组织奖颁发奖牌,竞赛组织和成绩情况纳入各单位年度考核....",
+   "account": "西安交通大学学生处",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E5%85%B3%E6%B3%A8%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62024%E5%B9%B4%E8%BE%85%E5%AF%BC%E5%91%98%E7%B4%A0%E8%B4%A8%E8%83%BD%E5%8A%9B%E5%A4%A7%E8%B5%9B%E6%9D%A5%E5%95%A6%21"
+  },
+  {
    "title": "西安交通大学电气学院荣命哲教授课题组面向2025届本科毕业生招收推免研究生",
    "date": "2024-04-18",
    "snippet": "中国研究生电子设计竞赛国家级奖励多项、西安交通大学“腾飞杯”创新创业大赛金奖和特等奖.培养的学生大部分在国家电网公司、...",
@@ -794035,6 +794125,24 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%204.1-4.7%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
   },
   {
+   "title": "西安交通大学学生会“轻羽飞扬”羽毛球比赛活动总结",
+   "date": "2024-03-27",
+   "snippet": "随着选手和裁判的就位,西安交通大学学生会“轻羽飞扬”羽毛球比赛正式拉开序幕.赛制示意图本次比赛采用单淘汰和单循环混合赛...",
+   "account": "西安交通大学学生会",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E4%BC%9A%E2%80%9C%E8%BD%BB%E7%BE%BD%E9%A3%9E%E6%89%AC%E2%80%9D%E7%BE%BD%E6%AF%9B%E7%90%83%E6%AF%94%E8%B5%9B%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93"
+  },
+  {
+   "title": "透露一下,交大樱花快开了~",
+   "date": "2024-03-25",
+   "snippet": "后勤保障部、饮食服务中心03 “春影花语”美图美文征集展示活... “春日问答”公益知识竞赛时间:3月29日、4月3日11:30-13:30地...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%8F%E9%9C%B2%E4%B8%80%E4%B8%8B%2C%E4%BA%A4%E5%A4%A7%E6%A8%B1%E8%8A%B1%E5%BF%AB%E5%BC%80%E4%BA%86~"
+  },
+  {
    "title": "【多彩崇实】丰富活动等你来丨3.25-3.31崇实书院活动预告",
    "date": "2024-03-24",
    "snippet": "丰富活动等你来崇实书院第五周活动预告新的一周开始啦,“丰富活动等你来”栏目持续陪伴大家,帮助大家更好的安排时间,快快参...",
@@ -794051,6 +794159,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%E9%80%9A%E7%9F%A5%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%AD%A6%E4%B8%9A%E8%BE%85%E5%AF%BC%E4%B8%AD%E5%BF%83%E5%85%A8%E9%9D%A2%E5%8D%87%E7%BA%A7%2C%20%E6%B4%BB%E5%8A%A8%E5%AE%A4%E5%85%A8%E9%83%A8%E5%BC%80%E6%94%BE%E9%A2%84%E7%BA%A6%21"
+  },
+  {
+   "title": "重磅!西安交通大学钱学森班详细解读",
+   "date": "2024-03-14",
+   "snippet": "实行大工科通识教育.试验班按照钱学森提出的现代科学技术框架... 全国大学生数学建模竞赛、全国大学生机械创新设计大赛、全国大...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%87%8D%E7%A3%85%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%92%B1%E5%AD%A6%E6%A3%AE%E7%8F%AD%E8%AF%A6%E7%BB%86%E8%A7%A3%E8%AF%BB"
   },
   {
    "title": "星荧夜跑,快乐校园|“开学第一跑”畅快开启!",
@@ -794179,6 +794296,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B4%BB%E5%8A%9B%E5%B4%87%E5%AE%9E%E3%80%91%E4%B8%B0%E5%AF%8C%E6%B4%BB%E5%8A%A8%E7%AD%89%E4%BD%A0%E6%9D%A5%E4%B8%A811.27-12.3%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
   },
   {
+   "title": "“通识教育与跨学科拔尖创新人才培养”联盟专题研讨会在西安交大举行",
+   "date": "2023-11-20",
+   "snippet": "“通识教育与跨学科拔尖创新人才培养”联盟专题研讨会在西安交大举行.中国科学院院士、西安交通大学教授管晓宏,西安交通大学...",
+   "account": "西安交通大学教务处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E9%80%9A%E8%AF%86%E6%95%99%E8%82%B2%E4%B8%8E%E8%B7%A8%E5%AD%A6%E7%A7%91%E6%8B%94%E5%B0%96%E5%88%9B%E6%96%B0%E4%BA%BA%E6%89%8D%E5%9F%B9%E5%85%BB%E2%80%9D%E8%81%94%E7%9B%9F%E4%B8%93%E9%A2%98%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%9C%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E4%B8%BE%E8%A1%8C"
+  },
+  {
    "title": "一周活动早知道 | 11.20-11.26南洋书院活动预告",
    "date": "2023-11-19",
    "snippet": "11.20-11.26南洋书院活动预告 新的一周又要开始啦,丰富的活动等你来参加哦~0111月20日-11月22日 15:00-17:00职业规划大赛提升...",
@@ -794186,6 +794312,15 @@ window.SITE_DATA = {
    "cat": "集体活动",
    "group": "集体活动",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%2011.20-11.26%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "西安交通大学学生会秘书长、副秘书长聘任仪式暨秋季工作人员培训会议顺利召开",
+   "date": "2023-11-14",
+   "snippet": "西安交通大学学生会秘书长、副秘书长聘任仪式❖2023年11月10日,西安交通大学学生会秘书长、副秘书长聘任仪式暨秋季工作人员...",
+   "account": "西安交通大学学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E4%BC%9A%E7%A7%98%E4%B9%A6%E9%95%BF%E3%80%81%E5%89%AF%E7%A7%98%E4%B9%A6%E9%95%BF%E8%81%98%E4%BB%BB%E4%BB%AA%E5%BC%8F%E6%9A%A8%E7%A7%8B%E5%AD%A3%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E5%9F%B9%E8%AE%AD%E4%BC%9A%E8%AE%AE%E9%A1%BA%E5%88%A9%E5%8F%AC%E5%BC%80"
   },
   {
    "title": "彭康书院举办消防疏散演练活动",
@@ -794260,6 +794395,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%B3%E4%BA%8E%E4%B8%BE%E5%8A%9E%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%94%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E6%9A%A8%E2%80%9C%E6%8C%91%E6%88%98%E6%9D%AF%E2%80%9D%E5%9B%BD%E8%B5%9B%E9%80%89%E6%8B%94%E7%9A%84%E9%80%9A%E7%9F%A5"
   },
   {
+   "title": "通知 | 西安交通大学第八届社会实践青年研究年会作品征集通知",
+   "date": "2023-10-05",
+   "snippet": "奖项同校级文体竞赛.获奖团队将或相应奖励支持(一等奖5000元... xjtushsj(西安交通大学社会实践)活动QQ群:933249080附件一...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%85%AB%E5%B1%8A%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E9%9D%92%E5%B9%B4%E7%A0%94%E7%A9%B6%E5%B9%B4%E4%BC%9A%E4%BD%9C%E5%93%81%E5%BE%81%E9%9B%86%E9%80%9A%E7%9F%A5"
+  },
+  {
    "title": "西安交通大学第四届飞盘新秀杯",
    "date": "2023-10-03",
    "snippet": "西安交通大学第四届飞盘新秀杯- 青春展风采 运动向未来 -伴随着... 参加比赛即获得德育分中0.3分集体活动分. 2. 本科生和研究生均...",
@@ -794276,6 +794420,15 @@ window.SITE_DATA = {
    "cat": "文体竞赛",
    "group": "文体竞赛",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B9%92%E4%B9%93%7C2023%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E7%A0%94%E7%A9%B6%E7%94%9F%E2%80%9C%E6%95%99%E7%A0%94%E5%AE%A4%E6%9D%AF%E2%80%9D%E4%B9%92%E4%B9%93%E7%90%83%E8%B5%9B"
+  },
+  {
+   "title": "西安交通大学“闪亮的青春”2022-2023学年优秀学生标兵评选展示大会顺利举办",
+   "date": "2023-09-25",
+   "snippet": "西安交通大学优秀学生标兵评选已成功举办26届,共评选出290余... 科研竞赛“双肩挑”,是当之无愧的“全能达人”.他连续五年(...",
+   "account": "西安交通大学学生资助管理中心",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E2%80%9C%E9%97%AA%E4%BA%AE%E7%9A%84%E9%9D%92%E6%98%A5%E2%80%9D2022-2023%E5%AD%A6%E5%B9%B4%E4%BC%98%E7%A7%80%E5%AD%A6%E7%94%9F%E6%A0%87%E5%85%B5%E8%AF%84%E9%80%89%E5%B1%95%E7%A4%BA%E5%A4%A7%E4%BC%9A%E9%A1%BA%E5%88%A9%E4%B8%BE%E5%8A%9E"
   },
   {
    "title": "西安交通大学宗濂书院党总支朋辈党员项目组2023级“医新绘党 献礼国庆”特色主题活动来啦",
@@ -794305,6 +794458,33 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E5%85%B3%E4%BA%8E%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E6%96%B0%E7%94%9F%E5%88%B7%E6%A5%BC%E6%B4%BB%E5%8A%A8%E7%9A%84%E9%80%9A%E7%9F%A5"
   },
   {
+   "title": "新生攻略丨仙交这些宝藏平台,你值得关注!",
+   "date": "2023-08-11",
+   "snippet": "西安交大志愿者基地志愿者招募、公益点滴分享、最新的公益资讯... “12西交大微后勤了解学校后勤动态,及时获取水电的相关通知....",
+   "account": "西安交通大学团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E7%94%9F%E6%94%BB%E7%95%A5%E4%B8%A8%E4%BB%99%E4%BA%A4%E8%BF%99%E4%BA%9B%E5%AE%9D%E8%97%8F%E5%B9%B3%E5%8F%B0%2C%E4%BD%A0%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8%21"
+  },
+  {
+   "title": "西安交通大学学生资助管理中心招新啦!寻找优秀的你!",
+   "date": "2023-07-19",
+   "snippet": "2023 西安交通大学学生资助管理中心 招新啦期待『志同道合』的你一起书写有思想|有担当|具有一定新媒体能力我们的故事这里有展...",
+   "account": "西安交通大学学生资助管理中心",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E8%B5%84%E5%8A%A9%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83%E6%8B%9B%E6%96%B0%E5%95%A6%21%E5%AF%BB%E6%89%BE%E4%BC%98%E7%A7%80%E7%9A%84%E4%BD%A0%21"
+  },
+  {
+   "title": "研会之星 | 研途有你常璀璨——研分会上篇",
+   "date": "2023-07-07",
+   "snippet": "参与举办数统学院喜迎校庆智力竞赛活动.座右铭:人生必须时时... 2023年西安交大优秀共青团员、2023年能动学院优秀党班团学生...",
+   "account": "西安交通大学研究生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A0%94%E4%BC%9A%E4%B9%8B%E6%98%9F%20%7C%20%E7%A0%94%E9%80%94%E6%9C%89%E4%BD%A0%E5%B8%B8%E7%92%80%E7%92%A8%E2%80%94%E2%80%94%E7%A0%94%E5%88%86%E4%BC%9A%E4%B8%8A%E7%AF%87"
+  },
+  {
    "title": "西安交通大学基层就业服务协会2022-2023年度年度总结",
    "date": "2023-06-23",
    "snippet": "竞赛中获得优秀奖.四、只争朝夕谋事业,扬帆起航再出发.“非学无以广才,非志无以成学”.2023年西安交大基层就业服务协会,...",
@@ -794312,6 +794492,15 @@ window.SITE_DATA = {
    "cat": "社会实践",
    "group": "社会实践",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%9F%BA%E5%B1%82%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%8D%8F%E4%BC%9A2022-2023%E5%B9%B4%E5%BA%A6%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93"
+  },
+  {
+   "title": "实践招募 | “汇聚青春力量,助推乡村振兴”——西安交通大学暑期社会实践项目成员招募",
+   "date": "2023-06-21",
+   "snippet": "实践招募汇聚青春力量助推乡村振兴一项目背景党的二十大报告提... 六奖励措施该暑期社会实践项目结束后,西安交通大学新闻与新媒...",
+   "account": "西安交大新媒体学院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E6%8B%9B%E5%8B%9F%20%7C%20%E2%80%9C%E6%B1%87%E8%81%9A%E9%9D%92%E6%98%A5%E5%8A%9B%E9%87%8F%2C%E5%8A%A9%E6%8E%A8%E4%B9%A1%E6%9D%91%E6%8C%AF%E5%85%B4%E2%80%9D%E2%80%94%E2%80%94%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE%E6%88%90%E5%91%98"
   },
   {
    "title": "西安交通大学团干部素质能力大赛获奖老师展示",
@@ -794339,6 +794528,24 @@ window.SITE_DATA = {
    "cat": "教学信息",
    "group": "教学信息",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%E8%8D%A3%E5%91%BD%E5%93%B2%E6%95%99%E6%8E%88%E8%AF%BE%E9%A2%98%E7%BB%84%E9%9D%A2%E5%90%912024%E5%B1%8A%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E7%94%9F%E6%8B%9B%E6%94%B6%E6%8E%A8%E5%85%8D%E7%A0%94%E7%A9%B6%E7%94%9F"
+  },
+  {
+   "title": "西安交通大学2023年心理健康科普知识竞赛圆满结束啦!",
+   "date": "2023-05-04",
+   "snippet": "由西安交通大学学生处、共青团西安交通大学委员会主办,西安交... 本次竞赛历时三周,同学们积极报名,参与热情高涨,共计近3000...",
+   "account": "西安交通大学学生会",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E5%BF%83%E7%90%86%E5%81%A5%E5%BA%B7%E7%A7%91%E6%99%AE%E7%9F%A5%E8%AF%86%E7%AB%9E%E8%B5%9B%E5%9C%86%E6%BB%A1%E7%BB%93%E6%9D%9F%E5%95%A6%21"
+  },
+  {
+   "title": "【双院协同】仲英书院举行教务员、班主任进书院活动",
+   "date": "2023-04-20",
+   "snippet": "_微信:西安交通大学仲英书院仲英书院举行教务员、班主任进书院活动 为持续做好双院协同,发挥班主任、教务员在学生学业提升与...",
+   "account": "西安交通大学仲英书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%8F%8C%E9%99%A2%E5%8D%8F%E5%90%8C%E3%80%91%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E4%B8%BE%E8%A1%8C%E6%95%99%E5%8A%A1%E5%91%98%E3%80%81%E7%8F%AD%E4%B8%BB%E4%BB%BB%E8%BF%9B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8"
   },
   {
    "title": "崇实书院学生会素质拓展活动总结",
@@ -794404,6 +794611,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E7%94%9F%E6%9D%AF%E4%B8%A8%E5%8D%8A%E5%86%B3%E8%B5%9B%E9%A2%84%E5%91%8A"
   },
   {
+   "title": "招募西安高校新鲜辩论锦标赛志愿者",
+   "date": "2023-03-21",
+   "snippet": "西安交通大学城市学院团委面向全院学生发出招募通知,欢迎各位同学积极加入此次辩论锦标赛活动志愿者的行列中来,积极展现青春...",
+   "account": "西交大城院团委",
+   "cat": "文体竞赛",
+   "group": "文体竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%8B%9B%E5%8B%9F%E8%A5%BF%E5%AE%89%E9%AB%98%E6%A0%A1%E6%96%B0%E9%B2%9C%E8%BE%A9%E8%AE%BA%E9%94%A6%E6%A0%87%E8%B5%9B%E5%BF%97%E6%84%BF%E8%80%85"
+  },
+  {
    "title": "学院动态丨西安交通大学第三十四届“腾飞杯”创新创业大赛材料学院院赛暨“腾飞杯”校赛选拔赛举行",
    "date": "2023-03-16",
    "snippet": "第三十四届“腾飞杯”创新创业大赛材料学院院赛暨“腾飞杯”校赛选拔赛举行西安交通大学弘扬科学精神,分享学术创新.3月11日...",
@@ -794411,6 +794627,15 @@ window.SITE_DATA = {
    "cat": "学科竞赛",
    "group": "学科竞赛",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AD%A6%E9%99%A2%E5%8A%A8%E6%80%81%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%89%E5%8D%81%E5%9B%9B%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E6%9D%90%E6%96%99%E5%AD%A6%E9%99%A2%E9%99%A2%E8%B5%9B%E6%9A%A8%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E6%A0%A1"
+  },
+  {
+   "title": "【相聚创幼】创新港西安交通大学附属幼儿园招聘面试笔试考试工作安排公告",
+   "date": "2023-02-17",
+   "snippet": "考核内容包括学前教育理论知识和通识性知识,幼儿园生活活动案例、议论文写作等.笔试时长90分钟.六、注意事项考生携带身份证...",
+   "account": "西安交大创新港幼儿园",
+   "cat": "教学信息",
+   "group": "教学信息",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E7%9B%B8%E8%81%9A%E5%88%9B%E5%B9%BC%E3%80%91%E5%88%9B%E6%96%B0%E6%B8%AF%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B9%BC%E5%84%BF%E5%9B%AD%E6%8B%9B%E8%81%98%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AF%95%E8%80%83%E8%AF%95%E5%B7%A5%E4%BD%9C%E5%AE%89%E6%8E%92%E5%85%AC%E5%91%8A"
   },
   {
    "title": "西安交通大学2022年就业创业工作回顾",
@@ -794566,6 +794791,42 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E6%9E%9C%E5%B8%A6%E4%BD%A0%E7%9C%8B%E6%87%82%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E8%B5%84%E5%8A%A9%E6%94%BF%E7%AD%96"
   },
   {
+   "title": "音乐剧实践体验课程汇报演出 ——校园音乐剧《西迁魂》7月22日交大唱响",
+   "date": "2022-07-19",
+   "snippet": "人文学院音乐中心金晨开设的通识类课程《音乐剧实践体验》招募... 总导演 声乐指导西安交通大学人文学院音乐教育中心声乐副教授,...",
+   "account": "西安交大通识教育",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%9F%B3%E4%B9%90%E5%89%A7%E5%AE%9E%E8%B7%B5%E4%BD%93%E9%AA%8C%E8%AF%BE%E7%A8%8B%E6%B1%87%E6%8A%A5%E6%BC%94%E5%87%BA%20%E2%80%94%E2%80%94%E6%A0%A1%E5%9B%AD%E9%9F%B3%E4%B9%90%E5%89%A7%E3%80%8A%E8%A5%BF%E8%BF%81%E9%AD%82%E3%80%8B7%E6%9C%8822%E6%97%A5%E4%BA%A4%E5%A4%A7%E5%94%B1%E5%93%8D"
+  },
+  {
+   "title": "资助育人丨西安交通大学首届“诚信·感恩·励志”主题微电影大赛圆满落幕",
+   "date": "2022-07-12",
+   "snippet": "展现同学们在资助育人下的诚信为本、感恩生命、励志成才的实践与风采.西安交通大学学生资助管理中心",
+   "account": "西安交通大学学生资助管理中心",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%B5%84%E5%8A%A9%E8%82%B2%E4%BA%BA%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%A6%96%E5%B1%8A%E2%80%9C%E8%AF%9A%E4%BF%A1%C2%B7%E6%84%9F%E6%81%A9%C2%B7%E5%8A%B1%E5%BF%97%E2%80%9D%E4%B8%BB%E9%A2%98%E5%BE%AE%E7%94%B5%E5%BD%B1%E5%A4%A7%E8%B5%9B%E5%9C%86%E6%BB%A1%E8%90%BD%E5%B9%95"
+  },
+  {
+   "title": "社会实践招募丨西安交通大学萤烛爱心社社会实践“大放送”",
+   "date": "2022-06-29",
+   "snippet": "定能满足你对社会实践的需求!(项目详细情况可加入相应QQ群进行咨询)陕西蓝田支教招募QQ群2022西安交通大学萤烛爱心社组...",
+   "account": "西安交通大学励志书院",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E6%8B%9B%E5%8B%9F%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E8%90%A4%E7%83%9B%E7%88%B1%E5%BF%83%E7%A4%BE%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E2%80%9C%E5%A4%A7%E6%94%BE%E9%80%81%E2%80%9D"
+  },
+  {
+   "title": "西安交通大学首届“公益使者”招募令",
+   "date": "2022-06-25",
+   "snippet": "西安交通大学教育基金会联合校团委面向2022届全体毕业生发起西安交通大学首届“公益使者”招募活动,欢迎热爱公益事业、富有挑...",
+   "account": "西安交通大学团委",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%A6%96%E5%B1%8A%E2%80%9C%E5%85%AC%E7%9B%8A%E4%BD%BF%E8%80%85%E2%80%9D%E6%8B%9B%E5%8B%9F%E4%BB%A4"
+  },
+  {
    "title": "实践通知 | 西安交通大学2022年暑期“三下乡”社会实践活动宣讲会来了!",
    "date": "2022-06-07",
    "snippet": "西安交通大学2022年暑期“三下乡”社会实践活动宣讲会暨立邦“未来之星”青年设计师大赛暨全国大学生优秀设计作业及作品征集宣...",
@@ -794582,6 +794843,15 @@ window.SITE_DATA = {
    "cat": "社会实践",
    "group": "社会实践",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%9F%BA%E5%B1%82%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%8D%8F%E4%BC%9A%E5%8F%AC%E5%BC%802022-2023%E5%B9%B4%E5%BA%A6%E5%B7%A5%E4%BD%9C%E4%BC%9A%E8%AE%AE"
+  },
+  {
+   "title": "2022年西安交通大学寒假返乡社会实践活动优秀团队表彰决定",
+   "date": "2022-05-23",
+   "snippet": "志愿者招募令 附件 2022年西安交通大学寒假返乡社会实践活动优秀团队表彰决定西安交通大学2022寒假社会实践“课外八学分”登记...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2022%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AF%92%E5%81%87%E8%BF%94%E4%B9%A1%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E6%B4%BB%E5%8A%A8%E4%BC%98%E7%A7%80%E5%9B%A2%E9%98%9F%E8%A1%A8%E5%BD%B0%E5%86%B3%E5%AE%9A"
   },
   {
    "title": "彭 · 活动 | 彭康书院2022年度重温入团仪式暨五四表彰大会顺利召开",
@@ -794602,6 +794872,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E6%BF%82%E9%9D%92%E2%80%9D%E6%B4%BB%E5%8A%A8%E2%80%94%E2%80%94%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E2%80%9C%E6%BF%82%E7%B3%BB%E6%96%B0%E6%97%B6%E4%BB%A3%2C%E9%9D%92%E5%90%91%E6%96%B0%E5%BE%81%E7%A8%8B%E2%80%9D%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8A%A8%E5%90%AF%E5%8A%A8%E4%BB%AA%E5%BC%8F%E6%9A%A8%E2%80%9C%E4%B8%83%E4%B8%AA%E4%B8%80%E5%B7%A5%E7%A8%8B"
   },
   {
+   "title": "【喜报】共青团西安交大韩城学校委员会多名师生荣获渭南市、韩城市“两红两优”表彰",
+   "date": "2022-05-06",
+   "snippet": "张渝婕2020年12月获党史知识竞赛一等奖2021年10月被为评西安交大韩城学校优秀志愿者2021年4月被评为西安交大韩城学校优秀团...",
+   "account": "西安交大韩城学校",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%96%9C%E6%8A%A5%E3%80%91%E5%85%B1%E9%9D%92%E5%9B%A2%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9F%A9%E5%9F%8E%E5%AD%A6%E6%A0%A1%E5%A7%94%E5%91%98%E4%BC%9A%E5%A4%9A%E5%90%8D%E5%B8%88%E7%94%9F%E8%8D%A3%E8%8E%B7%E6%B8%AD%E5%8D%97%E5%B8%82%E3%80%81%E9%9F%A9%E5%9F%8E%E5%B8%82%E2%80%9C%E4%B8%A4%E7%BA%A2%E4%B8%A4%E4%BC%98%E2%80%9D%E8%A1%A8%E5%BD%B0"
+  },
+  {
    "title": "【活动预告】立行计划往期优秀同学寄语",
    "date": "2022-05-03",
    "snippet": "【活动预告】立行计划往期优秀同学寄语“百年团青正风华,青春... 于2021年启德书院“立行计划”中获得一等奖.“立行计划”是一...",
@@ -794609,6 +794888,15 @@ window.SITE_DATA = {
    "cat": "集体活动",
    "group": "集体活动",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%E3%80%91%E7%AB%8B%E8%A1%8C%E8%AE%A1%E5%88%92%E5%BE%80%E6%9C%9F%E4%BC%98%E7%A7%80%E5%90%8C%E5%AD%A6%E5%AF%84%E8%AF%AD"
+  },
+  {
+   "title": "星光不问赶路人 | 在西安交大,遇见优秀,走近研究生标兵的星辰大海(九)",
+   "date": "2022-04-29",
+   "snippet": "果毅力行科技竞赛方面,获得“兆易创新杯”第十四届中国研究生... 西安交通大学 “教授合唱团”演出,选修交大所有体育课程(游泳...",
+   "account": "西安交通大学研究生教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%98%9F%E5%85%89%E4%B8%8D%E9%97%AE%E8%B5%B6%E8%B7%AF%E4%BA%BA%20%7C%20%E5%9C%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%2C%E9%81%87%E8%A7%81%E4%BC%98%E7%A7%80%2C%E8%B5%B0%E8%BF%91%E7%A0%94%E7%A9%B6%E7%94%9F%E6%A0%87%E5%85%B5%E7%9A%84%E6%98%9F%E8%BE%B0%E5%A4%A7%E6%B5%B7%28%E4%B9%9D%29"
   },
   {
    "title": "西安交通大学电气学院荣命哲教授课题组面向2023届本科毕业生招收推免研究生",
@@ -794647,6 +794935,24 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%20%C2%B7%20%E4%BA%A4%E5%A4%A7%E4%B9%8B%E9%A3%8E%E5%90%B9%E8%BF%9B%E5%88%BA%E6%A1%90%E5%9F%8E"
   },
   {
+   "title": "新闻 | 西安交通大学社会实践成果被中国知网收录",
+   "date": "2022-03-24",
+   "snippet": "西安交通大学爱驻夕阳团队社会实践调研报告《随迁老人的继续社会化与社会融合状况研究报告》被中国知网收录此前《随迁老人的继...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E9%97%BB%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E6%88%90%E6%9E%9C%E8%A2%AB%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%E6%94%B6%E5%BD%95"
+  },
+  {
+   "title": "通知 | 西安交通大学第四届大学生结构设计竞赛",
+   "date": "2022-03-15",
+   "snippet": "经实践教学中心、团委、人居学院研究决定,于2022年4月17日举行西安交通大学第四届大学生结构设计竞赛,现将有关事项通知如下...",
+   "account": "西安交通大学团委",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%9B%9B%E5%B1%8A%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B"
+  },
+  {
    "title": "关于启动西安交通大学第十届创业实践大赛(“苏州高新”杯)的通知",
    "date": "2022-03-14",
    "snippet": "本届竞赛组委会由学生就业创业指导服务中心、研究生院、实践教学中心、校团委等单位组成,组委会办公室设在就业创业指导服务中...",
@@ -794665,6 +794971,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%8A%B1%E6%89%93%E5%8D%A1%7C%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A2%E5%AF%92%E5%81%87%E5%81%A5%E8%BA%AB%E6%B4%BB%E5%8A%A8"
   },
   {
+   "title": "青春战疫时 | “努力成为严寒里防疫工作中温暖的微光”",
+   "date": "2022-01-04",
+   "snippet": "学校的后勤保障工作愈发繁重,出现了人手短缺的情况.为保证疫... 接到招募消息,马院此前组建的抗疫志愿者先锋队积极报名、迅速...",
+   "account": "西安交通大学研究生教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E6%98%A5%E6%88%98%E7%96%AB%E6%97%B6%20%7C%20%E2%80%9C%E5%8A%AA%E5%8A%9B%E6%88%90%E4%B8%BA%E4%B8%A5%E5%AF%92%E9%87%8C%E9%98%B2%E7%96%AB%E5%B7%A5%E4%BD%9C%E4%B8%AD%E6%B8%A9%E6%9A%96%E7%9A%84%E5%BE%AE%E5%85%89%E2%80%9D"
+  },
+  {
    "title": "2021年西安交通大学电气学院 电能侠杯篮球赛等你来!(新生组)",
    "date": "2021-09-26",
    "snippet": "西安交通大学电气学院团工委比赛时间及地点2021年10月11日-... 规则介绍竞赛规则1、采用最新篮球规则及国际篮联的规则解释....",
@@ -794672,6 +794987,15 @@ window.SITE_DATA = {
    "cat": "文体竞赛",
    "group": "文体竞赛",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2021%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%AD%A6%E9%99%A2%20%E7%94%B5%E8%83%BD%E4%BE%A0%E6%9D%AF%E7%AF%AE%E7%90%83%E8%B5%9B%E7%AD%89%E4%BD%A0%E6%9D%A5%21%28%E6%96%B0%E7%94%9F%E7%BB%84%29"
+  },
+  {
+   "title": "交叉融合,100%保研——西安交大最牛班级:钱学森班!",
+   "date": "2021-06-27",
+   "snippet": "同意命名西安交通大学图书馆为钱学森图书馆.1995年9月,时任... 全国大学生数学建模竞赛、全国大学生机械创新设计大赛、全国大...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A4%E5%8F%89%E8%9E%8D%E5%90%88%2C100%25%E4%BF%9D%E7%A0%94%E2%80%94%E2%80%94%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E6%9C%80%E7%89%9B%E7%8F%AD%E7%BA%A7%3A%E9%92%B1%E5%AD%A6%E6%A3%AE%E7%8F%AD%21"
   },
   {
    "title": "西安交大毕业生党员:为实现人民对美好生活的向往担当作为",
@@ -794692,6 +795016,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E3%80%91%E9%9B%86%E4%BD%93%E4%B9%8B%E6%98%9F%E8%AF%84%E9%80%89"
   },
   {
+   "title": "实践招募 | 西安交通大学赴藏调研宣讲实践队",
+   "date": "2021-05-31",
+   "snippet": "招募对象:西安交通大学在校的能吃苦耐劳、富有极强的责任心和... / 西交马院研究生图文来源 / 西安交通大学社会实践责任编辑 / 李方...",
+   "account": "西安交通大学研究生会",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E6%8B%9B%E5%8B%9F%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E8%B5%B4%E8%97%8F%E8%B0%83%E7%A0%94%E5%AE%A3%E8%AE%B2%E5%AE%9E%E8%B7%B5%E9%98%9F"
+  },
+  {
    "title": "交大再现“硬核”宿舍!他们都将进入名校深造",
    "date": "2021-05-31",
    "snippet": "曾任西安交大校园大使、参与新型城镇化进程中农业转移人口的生计与可持续发展研究.现保研至西安交通大学人工智能学院.学习方...",
@@ -794699,6 +795032,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A4%E5%A4%A7%E5%86%8D%E7%8E%B0%E2%80%9C%E7%A1%AC%E6%A0%B8%E2%80%9D%E5%AE%BF%E8%88%8D%21%E4%BB%96%E4%BB%AC%E9%83%BD%E5%B0%86%E8%BF%9B%E5%85%A5%E5%90%8D%E6%A0%A1%E6%B7%B1%E9%80%A0"
+  },
+  {
+   "title": "交大之星决赛|大众评审招募",
+   "date": "2021-05-29",
+   "snippet": "没关系交大之星决赛大众评审招募现在开启STARS OF XJTU如果... 西安交通大学学生会本活动最终解释权归西安交通大学学生会所有...",
+   "account": "西安交通大学学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A4%E5%A4%A7%E4%B9%8B%E6%98%9F%E5%86%B3%E8%B5%9B%7C%E5%A4%A7%E4%BC%97%E8%AF%84%E5%AE%A1%E6%8B%9B%E5%8B%9F"
   },
   {
    "title": "西安交通大学2021年就业文化节系列活动预告",
@@ -794719,6 +795061,24 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%20%E2%80%9C%E9%87%8D%E6%B8%A9%E5%85%A5%E5%9B%A2%E4%BB%AA%E5%BC%8F%2C%E4%B8%8D%E5%BF%98%E5%88%9D%E5%BF%83%E4%BD%BF%E5%91%BD%E2%80%9D%E4%BA%94%E5%9B%9B%E4%B8%BB%E9%A2%98%E6%B4%BB%E5%8A%A8"
   },
   {
+   "title": "西安交通大学第二届团干部素质能力大赛暨第四届魅力团支书评选活动成功举办",
+   "date": "2021-04-24",
+   "snippet": "团委开展了西安交通大学第二届团干部素质能力大赛暨第四届魅力... 努力成长为能够担当民族复兴大任的时代新人.比赛最后,在座的...",
+   "account": "西安交大团委团建中心",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%B1%8A%E5%9B%A2%E5%B9%B2%E9%83%A8%E7%B4%A0%E8%B4%A8%E8%83%BD%E5%8A%9B%E5%A4%A7%E8%B5%9B%E6%9A%A8%E7%AC%AC%E5%9B%9B%E5%B1%8A%E9%AD%85%E5%8A%9B%E5%9B%A2%E6%94%AF%E4%B9%A6%E8%AF%84%E9%80%89%E6%B4%BB%E5%8A%A8%E6%88%90%E5%8A%9F%E4%B8%BE%E5%8A%9E"
+  },
+  {
+   "title": "国运-交大“青年领导力”基金项目 第五期管理团队招募公告",
+   "date": "2021-04-20",
+   "snippet": "现以招标形式招募第五期管理团队负责本届基金项目的运行.具体... 代表团队定期与陕西国运慈善基金会、西安交通大学学生处、西安...",
+   "account": "西安交通大学学生处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%BD%E8%BF%90-%E4%BA%A4%E5%A4%A7%E2%80%9C%E9%9D%92%E5%B9%B4%E9%A2%86%E5%AF%BC%E5%8A%9B%E2%80%9D%E5%9F%BA%E9%87%91%E9%A1%B9%E7%9B%AE%20%E7%AC%AC%E4%BA%94%E6%9C%9F%E7%AE%A1%E7%90%86%E5%9B%A2%E9%98%9F%E6%8B%9B%E5%8B%9F%E5%85%AC%E5%91%8A"
+  },
+  {
    "title": "彭康书院开展党员宿舍挂牌行动",
    "date": "2021-04-02",
    "snippet": "彭康书院开展党员宿舍挂牌行动 为庆祝迎接中国共产党建党100周... 总而言之,这是一个十分有意义的活动,为我们提供了一个自我激...",
@@ -794726,6 +795086,24 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%BC%80%E5%B1%95%E5%85%9A%E5%91%98%E5%AE%BF%E8%88%8D%E6%8C%82%E7%89%8C%E8%A1%8C%E5%8A%A8"
+  },
+  {
+   "title": "你心中的Ta | 西安交通大学图书馆“交小图”卡通形象全球征集令",
+   "date": "2021-03-30",
+   "snippet": "设计主题西安交通大学图书馆“交小图”卡通形象贰 征集对象西安交通大学全体师生(含退休教职工)及校友叁 活动时间...",
+   "account": "西安交通大学研究生教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BD%A0%E5%BF%83%E4%B8%AD%E7%9A%84Ta%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%9B%BE%E4%B9%A6%E9%A6%86%E2%80%9C%E4%BA%A4%E5%B0%8F%E5%9B%BE%E2%80%9D%E5%8D%A1%E9%80%9A%E5%BD%A2%E8%B1%A1%E5%85%A8%E7%90%83%E5%BE%81%E9%9B%86%E4%BB%A4"
+  },
+  {
+   "title": "全国第二!西安交大学科竞赛成绩很给力!",
+   "date": "2021-03-24",
+   "snippet": "喜讯竞赛获奖195项、总分99.4分西安交通大学位居2020年全国高校学科竞赛排行榜第二位! 3月22日,中国高等教育学会“高校...",
+   "account": "西安交通大学",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%A8%E5%9B%BD%E7%AC%AC%E4%BA%8C%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AD%A6%E7%A7%91%E7%AB%9E%E8%B5%9B%E6%88%90%E7%BB%A9%E5%BE%88%E7%BB%99%E5%8A%9B%21"
   },
   {
    "title": "工作室介绍&活动预告|南洋书院大学生职业规划发展工作室成立",
@@ -794744,6 +795122,15 @@ window.SITE_DATA = {
    "cat": "社会实践",
    "group": "社会实践",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%EF%B8%B1%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A22021%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%AF%92%E5%81%87%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C%E5%85%AC%E7%A4%BA"
+  },
+  {
+   "title": "通识佳作 | 2020年西安交大“中华诗词创作入门”选修课学生诗作选",
+   "date": "2021-01-18",
+   "snippet": "2020年西安交大“中华诗词创作入门”选修课学生诗作选等待 张... 大学生物理竞赛参赛有感 张亦斌(自动化86)学科竞赛逾一载,...",
+   "account": "西安交大通识教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E8%AF%86%E4%BD%B3%E4%BD%9C%20%7C%202020%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E2%80%9C%E4%B8%AD%E5%8D%8E%E8%AF%97%E8%AF%8D%E5%88%9B%E4%BD%9C%E5%85%A5%E9%97%A8%E2%80%9D%E9%80%89%E4%BF%AE%E8%AF%BE%E5%AD%A6%E7%94%9F%E8%AF%97%E4%BD%9C%E9%80%89"
   },
   {
    "title": "关于启动西安交通大学第九届创业实践大赛 (“创客清远”杯)的通知",
@@ -794818,6 +795205,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%B0%8F%E5%8A%B1%E6%80%BB%E7%BB%93%20%7C%20%E8%AE%B0%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A22020%E5%B9%B4%E7%A0%B4%E5%86%B0%E6%B4%BB%E5%8A%A8"
   },
   {
+   "title": "一睹为快!来看看交大优秀学子的风采!",
+   "date": "2020-09-25",
+   "snippet": "美国大学生数学建模竞赛一等奖“天加杯”全国一等奖＂皮羽宏 文治书院 法学院 法学复合71西安高校联合辩论赛总冠军,湖南卫视节...",
+   "account": "西安交通大学学生处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E7%9D%B9%E4%B8%BA%E5%BF%AB%21%E6%9D%A5%E7%9C%8B%E7%9C%8B%E4%BA%A4%E5%A4%A7%E4%BC%98%E7%A7%80%E5%AD%A6%E5%AD%90%E7%9A%84%E9%A3%8E%E9%87%87%21"
+  },
+  {
    "title": "彭 · 活动|创建文明校园之彭康书院在行动",
    "date": "2020-09-24",
    "snippet": "创建文明校园,交大在行动,彭康书院在行动.“群贤毕至少长咸集”创建文明校园,彭康书院在行动!今天,彭康书院从书院老师,...",
@@ -794845,6 +795241,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%A0%A1%E5%9B%AD%E6%8E%A2%E7%A7%98%7C%20%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A22020%E7%BA%A7%E6%96%B0%E7%94%9F%E7%A0%B4%E5%86%B0%E6%B4%BB%E5%8A%A8"
   },
   {
+   "title": "西安交通大学第二十三届研究生支教团期待您的加入",
+   "date": "2020-09-07",
+   "snippet": "每年在全国部分高校中招募一定数量具备保送研究生资格的应届本... 西安交通大学加入中国青年志愿者扶贫接力计划研究生支教团项目...",
+   "account": "西安交大志愿者基地",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E5%B1%8A%E7%A0%94%E7%A9%B6%E7%94%9F%E6%94%AF%E6%95%99%E5%9B%A2%E6%9C%9F%E5%BE%85%E6%82%A8%E7%9A%84%E5%8A%A0%E5%85%A5"
+  },
+  {
    "title": "启德聚焦 | 西安交通大学启德书院2020年大学生暑期“三下乡”社会实践评审结果公示",
    "date": "2020-09-06",
    "snippet": "西安交通大学启德书院2020年大学生暑期“三下乡”社会实践评审结果公示结果公示 …西安交通大学启德书院2020年大学生暑期“三...",
@@ -794852,6 +795257,42 @@ window.SITE_DATA = {
    "cat": "社会实践",
    "group": "社会实践",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%90%AF%E5%BE%B7%E8%81%9A%E7%84%A6%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%90%AF%E5%BE%B7%E4%B9%A6%E9%99%A22020%E5%B9%B4%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E6%9C%9F%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E8%AF%84%E5%AE%A1%E7%BB%93%E6%9E%9C"
+  },
+  {
+   "title": "2020级新同学,最美的交大欢迎你!",
+   "date": "2020-09-01",
+   "snippet": "上学无忧西安交通大学学生资助体系“确保所有学生无忧入学”... 刚入学一年的他说自己一看到招募志愿者的消息就积极报名参加了...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2020%E7%BA%A7%E6%96%B0%E5%90%8C%E5%AD%A6%2C%E6%9C%80%E7%BE%8E%E7%9A%84%E4%BA%A4%E5%A4%A7%E6%AC%A2%E8%BF%8E%E4%BD%A0%21"
+  },
+  {
+   "title": "全国前列!特等奖+!西安交大学子很优秀!",
+   "date": "2020-08-30",
+   "snippet": "“赛迪环保杯”第十三届全国大学生节能减排社会实践与科技竞赛在重庆大学落下帷幕.西安交通大学获得特等奖1项、一等奖4项、二...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%A8%E5%9B%BD%E5%89%8D%E5%88%97%21%E7%89%B9%E7%AD%89%E5%A5%96%2B%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AD%A6%E5%AD%90%E5%BE%88%E4%BC%98%E7%A7%80%21"
+  },
+  {
+   "title": "西安交通大学本科生资助政策简介——勤工助学、绿色通道、困难补助篇",
+   "date": "2020-08-07",
+   "snippet": "竞赛/社会实践补助由团委统一申请.03西安交通大学本科生发展型资助政策简介学校设立西安交通大学“本科生'力行'发展基金”...",
+   "account": "西安交通大学学生处",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E7%94%9F%E8%B5%84%E5%8A%A9%E6%94%BF%E7%AD%96%E7%AE%80%E4%BB%8B%E2%80%94%E2%80%94%E5%8B%A4%E5%B7%A5%E5%8A%A9%E5%AD%A6%E3%80%81%E7%BB%BF%E8%89%B2%E9%80%9A%E9%81%93%E3%80%81%E5%9B%B0%E9%9A%BE%E8%A1%A5%E5%8A%A9%E7%AF%87"
+  },
+  {
+   "title": "西安交通大学本科生资助政策简介 --奖学金篇",
+   "date": "2020-08-06",
+   "snippet": "奖学金 西安交通大学严格落实各项国家资助政策,以“决不让一个学生因家庭困难而失学”为目标,充分发挥学校在教育资助等方面...",
+   "account": "西安交通大学学生处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%9C%AC%E7%A7%91%E7%94%9F%E8%B5%84%E5%8A%A9%E6%94%BF%E7%AD%96%E7%AE%80%E4%BB%8B%20--%E5%A5%96%E5%AD%A6%E9%87%91%E7%AF%87"
   },
   {
    "title": "【社会实践】西安交通大学钱学森书院党员科普宣传团走进宁陕县皇冠镇",
@@ -794881,6 +795322,24 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BF%97%E2%80%9C%E9%99%A2%E2%80%9D%E4%B9%A6%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E5%85%A8%E9%9D%A2%E4%BB%8B%E7%BB%8D"
   },
   {
+   "title": "传承西迁精神 不负时代担当|西安交通大学附属中学党总支召开庆祝中国共产党建党99周年大会暨党员教师演讲比赛",
+   "date": "2020-07-02",
+   "snippet": "“传承西迁精神,不负时代担当”党员教师演讲比赛.西安交通大学基础教育党委书记、交大附中党总支书记常涛,西安交通大学附属...",
+   "account": "西安交通大学附属中学航天学校",
+   "cat": "思政学习",
+   "group": "思政学习",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BC%A0%E6%89%BF%E8%A5%BF%E8%BF%81%E7%B2%BE%E7%A5%9E%20%E4%B8%8D%E8%B4%9F%E6%97%B6%E4%BB%A3%E6%8B%85%E5%BD%93%7C%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%AD%A6%E5%85%9A%E6%80%BB%E6%94%AF%E5%8F%AC%E5%BC%80%E5%BA%86%E7%A5%9D%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E5%BB%BA%E5%85%9A99"
+  },
+  {
+   "title": "实践招募 | 西安交大陕西省农民工社会融合评估访员招募",
+   "date": "2020-06-28",
+   "snippet": "招募要求①在2020年7月可参加调查培训;②每地市招募20~25位... 胡正海西安交通大学社会实践指导中心***************************为你...",
+   "account": "西安交通大学社会实践",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%9E%E8%B7%B5%E6%8B%9B%E5%8B%9F%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%99%95%E8%A5%BF%E7%9C%81%E5%86%9C%E6%B0%91%E5%B7%A5%E7%A4%BE%E4%BC%9A%E8%9E%8D%E5%90%88%E8%AF%84%E4%BC%B0%E8%AE%BF%E5%91%98%E6%8B%9B%E5%8B%9F"
+  },
+  {
    "title": "【预告】2020南洋书院晚会",
    "date": "2020-06-22",
    "snippet": "光阴似箭,日月如梭,四年时光匆匆而过,又一批南洋学子即将跃入人海.在临别之际,南洋书院为毕业班的南洋ers精心准备了一场...",
@@ -794908,6 +795367,33 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E3%80%81%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E5%BC%80%E5%B1%95%E5%B7%A5%E4%BD%9C%E4%BA%A4%E6%B5%81%E7%A0%94%E8%AE%A8%E4%BC%9A"
   },
   {
+   "title": "通识播报 | 西安交大通识课的别样风采",
+   "date": "2020-03-06",
+   "snippet": "为了让更多的人不受疫情影响,接受更丰富的教育资源,西安交大通识课程还面向社会公众免费开放.《道家的智慧》等12门国家级、...",
+   "account": "西安交大通识教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E8%AF%86%E6%92%AD%E6%8A%A5%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%80%9A%E8%AF%86%E8%AF%BE%E7%9A%84%E5%88%AB%E6%A0%B7%E9%A3%8E%E9%87%87"
+  },
+  {
+   "title": "“智”援抗疫一线 交大学子显担当 -“辅佑同行”义务家教活动",
+   "date": "2020-03-02",
+   "snippet": "而应招募而来的志愿者则在线上辅导为医务人员缓解些许家庭担忧守护他们的子女.众心协力,共同抗疫.学生处学生资助管理中心在...",
+   "account": "西安交通大学学生处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E6%99%BA%E2%80%9D%E6%8F%B4%E6%8A%97%E7%96%AB%E4%B8%80%E7%BA%BF%20%E4%BA%A4%E5%A4%A7%E5%AD%A6%E5%AD%90%E6%98%BE%E6%8B%85%E5%BD%93%20-%E2%80%9C%E8%BE%85%E4%BD%91%E5%90%8C%E8%A1%8C%E2%80%9D%E4%B9%89%E5%8A%A1%E5%AE%B6%E6%95%99%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "回望2019丨西安交大国防教育留下的新印记",
+   "date": "2019-12-31",
+   "snippet": "5门线上课程2门本科生必修课《国防教育》《军训》2门通识类核... 5.4名教师授课竞赛获奖西安交通大学2019年教师授课竞赛中:问...",
+   "account": "西安交大国防教育",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%9E%E6%9C%9B2019%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%9B%BD%E9%98%B2%E6%95%99%E8%82%B2%E7%95%99%E4%B8%8B%E7%9A%84%E6%96%B0%E5%8D%B0%E8%AE%B0"
+  },
+  {
    "title": "【快讯】仲英书院职业发展工作室正式揭牌",
    "date": "2019-12-26",
    "snippet": "本次活动由仲英书院院务主任黄丽宁主持,学生就业创业中心主任郑旭红、主管刘海荣,仲英书院院务副主任陶磊、主任助理杨艳丽、...",
@@ -794915,6 +795401,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%BF%AB%E8%AE%AF%E3%80%91%E4%BB%B2%E8%8B%B1%E4%B9%A6%E9%99%A2%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95%E5%B7%A5%E4%BD%9C%E5%AE%A4%E6%AD%A3%E5%BC%8F%E6%8F%AD%E7%89%8C"
+  },
+  {
+   "title": "看!2019,西安交大的大事!",
+   "date": "2019-12-23",
+   "snippet": "摘要11月9—12日,第十六届“挑战杯”全国大学生课外学术科技作品竞赛举办.西安交通大学代表队获得2个一等奖、4个二等奖的优...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%212019%2C%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E7%9A%84%E5%A4%A7%E4%BA%8B%21"
   },
   {
    "title": "西安交通大学城市学院要闻回顾(11.19-12.03)",
@@ -794933,6 +795428,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%8B%9B%E5%8B%9F%7C%E8%BF%98%E5%9C%A8%E7%AD%89%E4%BB%80%E4%B9%88%3F%E4%B8%8B%E4%B8%80%E4%BD%8D%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E5%B0%B1%E6%98%AF%E4%BD%A0~"
+  },
+  {
+   "title": "手动点赞!西安交大获得挑战杯大赛“优胜杯”!",
+   "date": "2019-11-14",
+   "snippet": "由团委负责具体组织实施.“腾飞杯”校级竞赛共吸引了455个学生团队、4000余名学生,参赛规模为历届之最.西安交通大学代表队...",
+   "account": "西安交通大学",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%89%8B%E5%8A%A8%E7%82%B9%E8%B5%9E%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E8%8E%B7%E5%BE%97%E6%8C%91%E6%88%98%E6%9D%AF%E5%A4%A7%E8%B5%9B%E2%80%9C%E4%BC%98%E8%83%9C%E6%9D%AF%E2%80%9D%21"
   },
   {
    "title": "西安交大欢送赴边远、基层及重点单位就业学生代表",
@@ -794971,6 +795475,24 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E6%B4%BB%E5%8A%A8%20%7C%20%E5%BD%AD%E5%BA%B7%E4%B9%A6%E9%99%A2%E5%AE%89%E5%85%A8%E6%B4%BB%E5%8A%A8%E6%9C%88"
   },
   {
+   "title": "全国第一!西安交大实力超群!",
+   "date": "2019-08-11",
+   "snippet": "近日, 首钢京唐杯第十二届全国大学生节能减排社会实践与科技竞赛举行,西安交通大学成绩喜人,获奖再居全国高校第一!15项作...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%85%A8%E5%9B%BD%E7%AC%AC%E4%B8%80%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AE%9E%E5%8A%9B%E8%B6%85%E7%BE%A4%21"
+  },
+  {
+   "title": "喜报︱大学生节能减排竞赛,西安交大又全国第一",
+   "date": "2019-08-10",
+   "snippet": "第十二届全国大学生节能减排社会实践与科技竞赛在华北理工大学落下帷幕.西安交通大学获得特等奖1项,成果转化金奖1项(全国第...",
+   "account": "西安交大团委",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E6%8A%A5%EF%B8%B1%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%8A%82%E8%83%BD%E5%87%8F%E6%8E%92%E7%AB%9E%E8%B5%9B%2C%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%8F%88%E5%85%A8%E5%9B%BD%E7%AC%AC%E4%B8%80"
+  },
+  {
    "title": "【崇实书院】宣讲第一弹 · 预告",
    "date": "2019-08-08",
    "snippet": "从而集结学长学姐对相关话题进行宣讲介绍的活动.本届崇实书院宣讲会将会以QQ直播的方式在崇实书院新生群内进行.宣讲会集结...",
@@ -794978,6 +795500,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%B4%87%E5%AE%9E%E4%B9%A6%E9%99%A2%E3%80%91%E5%AE%A3%E8%AE%B2%E7%AC%AC%E4%B8%80%E5%BC%B9%20%C2%B7%20%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "西安交通大学搭建学生工作大数据平台—— 精准帮扶 “智慧”育人(深聚焦)",
+   "date": "2019-07-21",
+   "snippet": "在西安交通大学,依托学生工作大数据平台,构建起有智慧、有温... 西安交大学生资助管理中心主任王欢介绍,现在有了大数据平台筛...",
+   "account": "西安交通大学学生处",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%90%AD%E5%BB%BA%E5%AD%A6%E7%94%9F%E5%B7%A5%E4%BD%9C%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0%E2%80%94%E2%80%94%20%E7%B2%BE%E5%87%86%E5%B8%AE%E6%89%B6%20%E2%80%9C%E6%99%BA%E6%85%A7%E2%80%9D%E8%82%B2%E4%BA%BA%28%E6%B7%B1%E8%81%9A%E7%84%A6%29"
   },
   {
    "title": "濂党建 | 宗濂书院开展建党98周年纪念活动",
@@ -794998,6 +795529,33 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9F%A9%E5%9F%8E%E5%AD%A6%E6%A0%A1%E9%AB%98%E4%B8%AD%E9%83%A82019%E5%B9%B4%E7%A7%8B%E5%AD%A3%E6%8B%9B%E7%94%9F%E5%85%AC%E5%91%8A"
   },
   {
+   "title": "阅读启迪童年——西安交大韩城幼儿园图书馆日记",
+   "date": "2019-06-12",
+   "snippet": "近日,火箭军部队为西安交大韩城幼儿园全体幼儿捐赠了书籍,图书馆增添了好多有趣的绘本,孩子们非常喜欢,感谢火箭军部队的叔...",
+   "account": "西安交大韩城学校",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%98%85%E8%AF%BB%E5%90%AF%E8%BF%AA%E7%AB%A5%E5%B9%B4%E2%80%94%E2%80%94%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9F%A9%E5%9F%8E%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%97%A5%E8%AE%B0"
+  },
+  {
+   "title": "高考加油!我们在交大等你!",
+   "date": "2019-06-06",
+   "snippet": "西安交大钱学森图书馆在交大,参加各类国内外竞赛,有高规格平台、优秀教师指导,“拿奖拿到手软”是交大学生的“优秀传统”,...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%AB%98%E8%80%83%E5%8A%A0%E6%B2%B9%21%E6%88%91%E4%BB%AC%E5%9C%A8%E4%BA%A4%E5%A4%A7%E7%AD%89%E4%BD%A0%21"
+  },
+  {
+   "title": "【最佳人气奖票选】西安交通大学第七届暨“新东方杯”大学生职业规划大赛决赛选手风采",
+   "date": "2019-05-24",
+   "snippet": "备受瞩目的西安交通大学第七届暨“新东方杯”大学生职业规划大... 积极参加学科外竞赛,涉及领域包括能源、生物医疗、硬件设计等...",
+   "account": "西安交大就业创业",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%9C%80%E4%BD%B3%E4%BA%BA%E6%B0%94%E5%A5%96%E7%A5%A8%E9%80%89%E3%80%91%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B8%83%E5%B1%8A%E6%9A%A8%E2%80%9C%E6%96%B0%E4%B8%9C%E6%96%B9%E6%9D%AF%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B%E5%86%B3%E8%B5%9B%E9%80%89%E6%89%8B%E9%A3%8E%E9%87%87"
+  },
+  {
    "title": "西安交通大学电气工程学院“电气之星”表彰评选办法",
    "date": "2019-05-22",
    "snippet": "评选范围和对象西安交通大学电气工程学院全日制研究生(包括硕... 4.成绩优异,在省级以上学科竞赛中获奖,能够帮助和带动身边同...",
@@ -795005,6 +795563,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E2%80%9C%E7%94%B5%E6%B0%94%E4%B9%8B%E6%98%9F%E2%80%9D%E8%A1%A8%E5%BD%B0%E8%AF%84%E9%80%89%E5%8A%9E%E6%B3%95"
+  },
+  {
+   "title": "通知丨西安交通大学文治书院&澳门大学曹光彪书院 暑期《历史文化交流营》招募通知",
+   "date": "2019-05-16",
+   "snippet": "书院制是实现通识教育和专才教育相结合,力图达到均衡教育目标... 主要内容为参加西安交通大学国学暑期学校、以及了解西安当代文...",
+   "account": "文治书院学生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E7%9F%A5%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%26%E6%BE%B3%E9%97%A8%E5%A4%A7%E5%AD%A6%E6%9B%B9%E5%85%89%E5%BD%AA%E4%B9%A6%E9%99%A2%20%E6%9A%91%E6%9C%9F%E3%80%8A%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81%E8%90%A5%E3%80%8B%E6%8B%9B%E5%8B%9F%E9%80%9A%E7%9F%A5"
   },
   {
    "title": "活动预告 | 中美贸易战的理论渊源",
@@ -795016,6 +795583,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%20%7C%20%E4%B8%AD%E7%BE%8E%E8%B4%B8%E6%98%93%E6%88%98%E7%9A%84%E7%90%86%E8%AE%BA%E6%B8%8A%E6%BA%90"
   },
   {
+   "title": "通识教育 | 西安交大:“玩”出课堂“新”花样",
+   "date": "2019-05-06",
+   "snippet": "近日,西安交大的通识核心课交响音乐赏析的第一次全国见面课正式开课.第一次亮相,就把室内乐乐队请上了讲台,让学生能够面对...",
+   "account": "西安交通大学招生办",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E9%80%9A%E8%AF%86%E6%95%99%E8%82%B2%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%3A%E2%80%9C%E7%8E%A9%E2%80%9D%E5%87%BA%E8%AF%BE%E5%A0%82%E2%80%9C%E6%96%B0%E2%80%9D%E8%8A%B1%E6%A0%B7"
+  },
+  {
    "title": "2019年西安交通大学唐仲英爱心社换届通知",
    "date": "2019-04-13",
    "snippet": "越公益越有爱,西安交通大学唐仲英爱心社(以下简称爱心社)是学生处下属实践类公益社团,成立于2003年,是由获得唐仲英德育奖...",
@@ -795023,6 +795599,24 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=2019%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%94%90%E4%BB%B2%E8%8B%B1%E7%88%B1%E5%BF%83%E7%A4%BE%E6%8D%A2%E5%B1%8A%E9%80%9A%E7%9F%A5"
+  },
+  {
+   "title": "喜讯!西安交大位列2018年全国高校学科竞赛排行榜第二名",
+   "date": "2019-02-22",
+   "snippet": "2018年西安交大在学科竞赛方面取得的优异成绩2018年西安交通大学组织竞赛获奖情况2018年我校参加各类竞赛学生达到10000余人...",
+   "account": "西安交通大学",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E8%AE%AF%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E4%BD%8D%E5%88%972018%E5%B9%B4%E5%85%A8%E5%9B%BD%E9%AB%98%E6%A0%A1%E5%AD%A6%E7%A7%91%E7%AB%9E%E8%B5%9B%E6%8E%92%E8%A1%8C%E6%A6%9C%E7%AC%AC%E4%BA%8C%E5%90%8D"
+  },
+  {
+   "title": "【喜讯】西安交大韩城学校团委荣获2018年度“五四红旗团委”荣誉称号",
+   "date": "2019-02-20",
+   "snippet": "“青年大学习”五四主题团日活动,西安交大韩城学校40名优秀共青团员及积极分子在校团委教师的带领下参加了此次活动.此次“青...",
+   "account": "西安交大韩城学校",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%96%9C%E8%AE%AF%E3%80%91%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9F%A9%E5%9F%8E%E5%AD%A6%E6%A0%A1%E5%9B%A2%E5%A7%94%E8%8D%A3%E8%8E%B72018%E5%B9%B4%E5%BA%A6%E2%80%9C%E4%BA%94%E5%9B%9B%E7%BA%A2%E6%97%97%E5%9B%A2%E5%A7%94%E2%80%9D%E8%8D%A3%E8%AA%89%E7%A7%B0%E5%8F%B7"
   },
   {
    "title": "西安交大2018年就业创业工作回顾",
@@ -795088,6 +795682,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E9%80%9A%E7%9F%A5%20%7C%20%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A62018%E5%B9%B4%E6%9A%91%E6%9C%9F%E2%80%9C%E4%B8%89%E4%B8%8B%E4%B9%A1%E2%80%9D%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E7%BB%93%E9%A2%98%E5%88%86%E4%BA%AB%E5%BD%AD"
   },
   {
+   "title": "@Xjtuer,这里是你的新家!西安交大学生事务大厅正式启用!",
+   "date": "2018-09-02",
+   "snippet": "全国大学生节能减排竞赛,交大14支团队勇夺国奖!「出品 / 党委宣传部」文字 / 张琢悦 通讯社 邵钰 欧欣萍 学生处 网络信息中心摄影...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%40Xjtuer%2C%E8%BF%99%E9%87%8C%E6%98%AF%E4%BD%A0%E7%9A%84%E6%96%B0%E5%AE%B6%21%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%AD%A6%E7%94%9F%E4%BA%8B%E5%8A%A1%E5%A4%A7%E5%8E%85%E6%AD%A3%E5%BC%8F%E5%90%AF%E7%94%A8%21"
+  },
+  {
    "title": "西安交通大学校园大使走进吴江经济技术开发区活动圆满举行!",
    "date": "2018-08-13",
    "snippet": "2018年8月6日至10日,西安交通大学15名学生校园大使在就创中心李勇副主任和王冲猴老师的带领下,赴苏州市吴江经济技术开发区...",
@@ -795151,6 +795754,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%9E%E9%A1%BE%20%7C%20%E4%BB%99%E4%BA%A4%E5%A4%A72018%E5%B9%B4%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E5%AF%92%E5%81%87%E5%AE%9E%E8%B7%B5%E6%88%90%E6%9E%9C%E6%B1%87%E6%8A%A5%E2%80%94%E2%80%94%E6%B1%9F%E8%8B%8F%E7%AF%87"
   },
   {
+   "title": "西安交大韩城基础教育园区幼儿园、小学、初中、高中、国际部2018年秋季招生摸底公告",
+   "date": "2018-03-28",
+   "snippet": "设立“西安交大韩城学校发展研究院”,整合教育资源,探索拔尖人才的早期培养模式,引导学生参加各类国际交流和竞赛,为学生出...",
+   "account": "西安交大韩城幼儿园",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9F%A9%E5%9F%8E%E5%9F%BA%E7%A1%80%E6%95%99%E8%82%B2%E5%9B%AD%E5%8C%BA%E5%B9%BC%E5%84%BF%E5%9B%AD%E3%80%81%E5%B0%8F%E5%AD%A6%E3%80%81%E5%88%9D%E4%B8%AD%E3%80%81%E9%AB%98%E4%B8%AD%E3%80%81%E5%9B%BD%E9%99%85%E9%83%A82018%E5%B9%B4%E7%A7%8B%E5%AD%A3%E6%8B%9B%E7%94%9F%E6%91%B8%E5%BA%95%E5%85%AC"
+  },
+  {
    "title": "『 节目征集 』仲英书院十周年院庆节目征集开始啦!",
    "date": "2018-03-20",
    "snippet": "仲英书院十周年院庆节目征集开始啦曾经:2008年在这一年,西安交通大学仲英书院成立,这里是所有英仔梦开始的地方.如今:...",
@@ -795196,6 +795808,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E2%80%9C%E8%85%BE%E9%A3%9E%E6%9D%AF%E2%80%9D%E5%88%9B%E4%B8%9A%E7%AB%9E%E8%B5%9B%E5%88%9B%E4%B8%9A%E8%AE%A1%E5%88%92%E7%B1%BB%E9%87%91%E5%A5%96%E5%90%88%E9%9B%86"
   },
   {
+   "title": "西安交大 | VEX机器人教育及竞赛冬令营",
+   "date": "2017-12-23",
+   "snippet": "西安交通大学VEX机器人社团成立于2015年,社团主要研究机器人教育和竞赛,自成立以来,多次在大型比赛中荣获佳绩,其中包括...",
+   "account": "西安交大VEX机器人社",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%20%7C%20VEX%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%99%E8%82%B2%E5%8F%8A%E7%AB%9E%E8%B5%9B%E5%86%AC%E4%BB%A4%E8%90%A5"
+  },
+  {
    "title": "大事件:仙交大2018年校园大使招募啦!",
    "date": "2017-11-21",
    "snippet": "(校园大使活动最终解释权归西安交通大学招生办所有)2017年校园大使返校宣讲共有300多支队伍,1000多人参加,异常火爆!小伙...",
@@ -795203,6 +795824,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%A4%A7%E4%BA%8B%E4%BB%B6%3A%E4%BB%99%E4%BA%A4%E5%A4%A72018%E5%B9%B4%E6%A0%A1%E5%9B%AD%E5%A4%A7%E4%BD%BF%E6%8B%9B%E5%8B%9F%E5%95%A6%21"
+  },
+  {
+   "title": "砥砺奋进,继往开来,西安交通大学五年报告!",
+   "date": "2017-10-18",
+   "snippet": "西安交大学子获2015年度美国大学生数学建模竞赛特等奖 ▲ 2015年,西安交大学子在第八届全国大学生创新创业年会中获奖数居全国...",
+   "account": "西安交通大学研究生会",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%A0%A5%E7%A0%BA%E5%A5%8B%E8%BF%9B%2C%E7%BB%A7%E5%BE%80%E5%BC%80%E6%9D%A5%2C%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E4%BA%94%E5%B9%B4%E6%8A%A5%E5%91%8A%21"
   },
   {
    "title": "西安交通大学崇实书院德育积分办法",
@@ -795241,6 +795871,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%90%9C%E7%B4%A2%E5%90%A7%2C%E4%BA%A4%E5%A4%A7%21"
   },
   {
+   "title": "彭 · 转 2016年西安交通大学冬季长跑比赛暨URunning 比赛",
+   "date": "2016-11-18",
+   "snippet": "NEWS2016年西安交通大学冬季长跑暨URunning1首先是介绍 以下是官方文字:为全面贯彻落实《中共中央国务院关于加强青少年体...",
+   "account": "西安交通大学彭康书院团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%BD%AD%20%C2%B7%20%E8%BD%AC%202016%E5%B9%B4%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%86%AC%E5%AD%A3%E9%95%BF%E8%B7%91%E6%AF%94%E8%B5%9B%E6%9A%A8URunning%20%E6%AF%94%E8%B5%9B"
+  },
+  {
    "title": "西安交通大学2017届毕业生冬季招聘会预告",
    "date": "2016-11-16",
    "snippet": "时间:2016年11月17日9:00-15:30地点:思源活动中心、青年之家西安交通大学2017届毕业生冬季大型招聘会将于11月17日在西安交...",
@@ -795259,6 +795898,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%BA%8C%E5%B1%8A%E4%B8%AD%E5%9B%BD%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%28%E9%99%95%E8%A5%BF%E8%B5%9B%E5%8C%BA%29%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%A4%BA%E5%86%A0"
   },
   {
+   "title": "“一带一路 行知张掖”西安交通大学赴张掖暑期实践团队火热招募",
+   "date": "2016-06-16",
+   "snippet": "“一带一路 行知张掖”西安交通大学赴张掖暑期实践团队火热招募 张掖,取“断匈奴之臂,张中国之掖”之意.张掖有着悠久的历...",
+   "account": "西安交通大学研究生会",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E4%B8%80%E5%B8%A6%E4%B8%80%E8%B7%AF%20%E8%A1%8C%E7%9F%A5%E5%BC%A0%E6%8E%96%E2%80%9D%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E8%B5%B4%E5%BC%A0%E6%8E%96%E6%9A%91%E6%9C%9F%E5%AE%9E%E8%B7%B5%E5%9B%A2%E9%98%9F%E7%81%AB%E7%83%AD%E6%8B%9B%E5%8B%9F"
+  },
+  {
    "title": "快收藏!崇实书院德育积分办法(2016年5月修订)",
    "date": "2016-05-04",
    "snippet": "基础分(满分为60分).包括参与学校、崇实书院、学生所在学院、班级组织的重大活动,参加学业辅导活动...课外学习积分(满分为3分).依照学校“课外8学分记录卡”的记录或有关规定进行积分,参加讲座每次积0.5分.在创新、创业、文体、科技等各类竞赛中获奖积分(满分为12分).参加创新、创业、文体、科技活动,社会实践、专业竞赛并获得奖励者...",
@@ -795275,86 +795923,124 @@ window.SITE_DATA = {
    "cat": "学科竞赛",
    "group": "学科竞赛",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%20%C2%B7%20%E8%BD%AC%20%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%AE%BF%E8%88%8D%E9%BB%98%E5%A5%91%E5%A4%A7%E8%B5%9B%E6%9D%A5%E5%95%A6"
+  },
+  {
+   "title": "为世界之光丨西安交大“重实践”的优良传统",
+   "date": "2016-04-03",
+   "snippet": "强化通识教育、基础教育与工程设计、工程实践、工程应用、工程... 西安交大始终弘扬“重实践”办学传统,创新实践教学模式和方法...",
+   "account": "西安交通大学",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%BA%E4%B8%96%E7%95%8C%E4%B9%8B%E5%85%89%E4%B8%A8%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E2%80%9C%E9%87%8D%E5%AE%9E%E8%B7%B5%E2%80%9D%E7%9A%84%E4%BC%98%E8%89%AF%E4%BC%A0%E7%BB%9F"
+  },
+  {
+   "title": "独一无二的XJTU,我爱你!",
+   "date": "2016-03-23",
+   "snippet": "西安交通大学图书馆的前身为1896年创建于上海的南洋公学藏书楼... 慧鱼创新组合及节能车等项目团队斩获了国际国内高水平竞赛的各...",
+   "account": "西安交通大学",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%E7%9A%84XJTU%2C%E6%88%91%E7%88%B1%E4%BD%A0%21"
+  },
+  {
+   "title": "喜讯西安交通大学团委入选Myouth创新试点优秀单位",
+   "date": "2016-02-05",
+   "snippet": "西安交通大学团委积极运用网络新媒体组织青年、引导青年、服务... 以“交大之星”评选、“腾飞杯”创业竞赛、“校园艺术节”等交...",
+   "account": "西安交大团委",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E8%AE%AF%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%9B%A2%E5%A7%94%E5%85%A5%E9%80%89Myouth%E5%88%9B%E6%96%B0%E8%AF%95%E7%82%B9%E4%BC%98%E7%A7%80%E5%8D%95%E4%BD%8D"
   }
  ],
  "wechatStat": {
-  "total": 210,
-  "dropped": 76,
+  "total": 285,
+  "dropped": 142,
   "byAccount": {
    "西安交通大学基础医学院": 1,
-   "西安交大就业创业": 27,
-   "西安交通大学教务处": 1,
+   "西安交大就业创业": 29,
+   "西安交通大学教务处": 2,
    "中国人民大学崇实书院": 1,
-   "西安交通大学宗濂书院": 15,
+   "西安交通大学宗濂书院": 16,
    "西安交通大学电气工程学院": 6,
-   "西安交通大学励志书院": 15,
+   "西安交通大学励志书院": 16,
    "仲英学业辅导中心及薪火工作室": 1,
    "仲英青年": 5,
-   "西安交通大学南洋书院": 14,
+   "西安交通大学南洋书院": 15,
+   "宗濂星火": 2,
    "崇实学辅": 1,
    "启德南宁": 1,
    "文治宿生会": 2,
    "励志党总支": 4,
-   "宗濂星火": 1,
    "西安交大彭康书院党总支": 2,
    "南洋书院党总支": 5,
    "西迁之光": 1,
    "崇实书院宿生会": 1,
    "崇实书院青年之声": 3,
-   "西安交通大学仲英书院": 2,
+   "西安交通大学团委": 6,
+   "西安交通大学仲英书院": 3,
    "西安交通大学启德书院": 5,
    "交小航": 1,
    "xjtu2yuanyouth": 1,
    "西安交通大学交小招": 2,
-   "仲英书院学生会": 3,
+   "西安交通大学学生资助管理中心": 5,
+   "仲英书院学生会": 4,
+   "西安交通大学": 14,
+   "西安交通大学社会实践": 6,
    "法协XJTU": 1,
    "西安交大基层就业": 7,
+   "西安交通大学学生处": 7,
    "XJTU荣命哲老师课题组": 3,
-   "西安交通大学彭康书院团委": 14,
-   "文治书院学生会": 5,
+   "西安交通大学彭康书院团委": 15,
+   "文治书院学生会": 6,
    "交大西迁博物馆": 1,
+   "西安交通大学学生会": 4,
+   "西安交通大学招生办": 9,
    "西安交通大学崇实书院": 6,
    "西安交大科技创新指导中心": 2,
    "交小招": 2,
-   "西安交通大学社会实践": 2,
    "青听启德": 2,
    "西安交通大学彭康书院": 1,
    "文治书院一等青年": 1,
    "仙交大Frisbee": 1,
-   "西安交大团委团建中心": 2,
+   "西安交通大学研究生会": 6,
+   "西安交大新媒体学院": 1,
+   "西安交大团委团建中心": 3,
    "西安交大第一附属医院": 1,
    "崇实书院学生会": 3,
    "西安交通大学材料学院": 2,
    "西安交大思辩学社": 1,
-   "西安交通大学团委": 1,
-   "西安交通大学研究生会": 2,
-   "西安交通大学学生资助管理中心": 1,
+   "西交大城院团委": 2,
+   "西安交大创新港幼儿园": 1,
+   "西安交大通识教育": 3,
+   "西安交大韩城学校": 4,
+   "西安交通大学研究生教育": 3,
    "西安交大教育基金会": 1,
-   "西安交通大学": 2,
    "仙交大南洋书院学生会": 2,
-   "西安交通大学招生办": 5,
    "启德二零级医学支部": 1,
+   "西安交大志愿者基地": 1,
    "西安交大钱学森学院": 1,
+   "西安交通大学附属中学航天学校": 1,
+   "西安交大国防教育": 1,
    "西安交通大学城市学院": 1,
-   "西安交大团委": 4,
-   "西安交大韩城学校": 1,
+   "西安交大团委": 6,
    "西安交大唐仲英爱心社": 1,
    "XJTU公寓管理": 1,
    "西安交大社会实践": 1,
-   "西交大城院团委": 1,
+   "西安交大韩城幼儿园": 1,
    "西安交大国际教育学院": 1,
    "西安交通大学文治书院": 2,
+   "西安交大VEX机器人社": 1,
    "崇实团子酱": 2,
    "西交大生活圈": 1
   },
   "byGroup": {
-   "其他": 72,
-   "教学信息": 10,
-   "学科竞赛": 27,
-   "集体活动": 48,
-   "文体竞赛": 11,
-   "思政学习": 18,
-   "社会实践": 24
+   "其他": 113,
+   "教学信息": 11,
+   "学科竞赛": 40,
+   "集体活动": 50,
+   "文体竞赛": 14,
+   "思政学习": 19,
+   "社会实践": 38
   }
  },
  "calendar": {

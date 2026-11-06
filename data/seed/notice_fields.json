@@ -31,6 +31,411 @@
       }
     },
     {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
+      "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
+      "date": "2010-01-09",
+      "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
+      "status": "empty",
+      "error": "empty_content",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
+      "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
+      "date": "2019-03-26",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
+      "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
+      "date": "2019-05-28",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
+      "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
+      "date": "2019-07-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
+      "title": "第二届中国研究生机器人创新设计大赛预通知",
+      "date": "2020-01-07",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
+      "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
+      "date": "2021-05-12",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
+      "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
+      "date": "2021-11-24",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+      "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
+      "date": "2025-01-03",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+      "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
+      "date": "2025-04-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "HTTP 404",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+      "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
+      "date": "2026-03-26",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/132.html",
+      "title": "2027年足式机器人挑战赛-V1.0",
+      "date": "2026-10-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+      "date": "2026-10-14",
+      "contentHash": "",
+      "status": "failed",
+      "error": "HTTP 404",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/133.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
+      "date": "2026-10-20",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/134.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
+      "date": "2026-10-26",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/135.html",
+      "title": "2027年足式机器人挑战赛-V2.0",
+      "date": "2026-10-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
       "url": "https://jwc.xjtu.edu.cn/info/1102/4620.htm",
       "title": "西安交通大学第七届优秀讲义获奖名单",
       "date": "2003-12-19",
@@ -263,33 +668,6 @@
         "schemaVersion": 2,
         "contentHash": "a7293d8bce2ee89e222e706f842fe94311804feaf83eb0b5f7865faf03af01cd",
         "sourceUrl": "https://jwc.xjtu.edu.cn/info/1102/4662.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
-      "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
-      "date": "2010-01-09",
-      "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
-      "status": "empty",
-      "error": "empty_content",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
-        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
         "competitionNames": [],
         "editions": [],
         "audiences": [],
@@ -32917,33 +33295,6 @@
       }
     },
     {
-      "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
-      "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
-      "date": "2019-03-26",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://epe.xjtu.edu.cn/info/1518/2946.htm",
       "title": "关于开展西安交通大学2019年“格兰富杯”节能减排社会实践与科技竞赛的通知",
       "date": "2019-03-30",
@@ -41334,33 +41685,6 @@
       }
     },
     {
-      "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
-      "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
-      "date": "2019-05-28",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://gs.xjtu.edu.cn/info/1179/6268.htm",
       "title": "关于选拔参加2019年第十六届中国研究生数学建模竞赛参赛队员的通知",
       "date": "2019-06-05",
@@ -42451,33 +42775,6 @@
             "trackId": null
           }
         ],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
-      "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
-      "date": "2019-07-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
         "groups": [],
         "model": {
           "status": "disabled",
@@ -43863,33 +44160,6 @@
             "superseded": false
           }
         ],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
-      "title": "第二届中国研究生机器人创新设计大赛预通知",
-      "date": "2020-01-07",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
         "contacts": [],
         "groups": [],
         "model": {
@@ -55988,33 +56258,6 @@
       }
     },
     {
-      "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
-      "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
-      "date": "2021-05-12",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://epe.xjtu.edu.cn/info/1518/2956.htm",
       "title": "2021“格兰富杯”全国大学生节能减排大赛校内选拔赛评审结果公示",
       "date": "2021-05-13",
@@ -61896,33 +62139,6 @@
             "trackId": null
           }
         ],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
-      "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
-      "date": "2021-11-24",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
         "model": {
           "status": "disabled",
           "error": ""
@@ -116368,33 +116584,6 @@
       }
     },
     {
-      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
-      "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
-      "date": "2025-01-03",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://jwc.xjtu.edu.cn/info/1171/8601.htm",
       "title": "2025年3月全国计算机等级考试报名通知",
       "date": "2025-01-06",
@@ -129726,33 +129915,6 @@
             "superseded": false
           }
         ],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
-      "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
-      "date": "2025-04-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "HTTP 404",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
         "contacts": [],
         "groups": [],
         "model": {
@@ -155119,33 +155281,6 @@
             "superseded": false
           }
         ],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
-      "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
-      "date": "2026-03-26",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
         "contacts": [],
         "groups": [],
         "model": {
@@ -208625,33 +208760,6 @@
       }
     },
     {
-      "url": "https://www.robocon.org.cn/sys-nd/132.html",
-      "title": "2027年足式机器人挑战赛-V1.0",
-      "date": "2026-10-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://ee.xjtu.edu.cn/info/1382/15772.htm",
       "title": "电气工程学院2026-2027学年第一学期本科生出国（境）交流资助资格选拔通知",
       "date": "2026-10-08",
@@ -211633,33 +211741,6 @@
             ]
           }
         ],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
-      "date": "2026-10-14",
-      "contentHash": "",
-      "status": "failed",
-      "error": "HTTP 404",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
         "model": {
           "status": "disabled",
           "error": ""
@@ -224023,33 +224104,6 @@
       }
     },
     {
-      "url": "https://www.robocon.org.cn/sys-nd/133.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-      "date": "2026-10-20",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4769",
       "title": "“九州名家”系列高端报告会 | 听王辰院士讲医学",
       "date": "2026-10-21",
@@ -225320,33 +225374,6 @@
       }
     },
     {
-      "url": "https://www.robocon.org.cn/sys-nd/134.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
-      "date": "2026-10-26",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=4780",
       "title": "西安交通大学辩论队首夺全国冠军暨建队30周年纪念系列活动举行",
       "date": "2026-10-26",
@@ -226205,33 +226232,6 @@
         "schemaVersion": 2,
         "contentHash": "b60f009826bf66723363ea590ca51736000db404dcdecb49e1889ada8364310f",
         "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4782",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/135.html",
-      "title": "2027年足式机器人挑战赛-V2.0",
-      "date": "2026-10-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
         "competitionNames": [],
         "editions": [],
         "audiences": [],
