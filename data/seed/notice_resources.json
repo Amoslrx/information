@@ -2585,7 +2585,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:09.189202+00:00",
+      "fetchedAt": "2026-11-07T06:06:19.468065+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2010/0413/20100413031054234.doc",
@@ -2605,7 +2605,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:10.471969+00:00",
+      "fetchedAt": "2026-11-07T06:06:21.160014+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2010/0624/20100624050957657.xls",
@@ -2625,7 +2625,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:12.003429+00:00",
+      "fetchedAt": "2026-11-07T06:06:22.793628+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0107/20110107052028588.doc",
@@ -2645,7 +2645,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:13.260838+00:00",
+      "fetchedAt": "2026-11-07T06:06:24.041654+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0322/20110322041125509.doc",
@@ -2665,7 +2665,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:14.452239+00:00",
+      "fetchedAt": "2026-11-07T06:06:25.271660+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0322/20110322041150484.doc",
@@ -2685,7 +2685,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:15.499258+00:00",
+      "fetchedAt": "2026-11-07T06:06:26.416285+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0412/20110412092631847.jpg",
@@ -2705,7 +2705,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:16.741849+00:00",
+      "fetchedAt": "2026-11-07T06:06:27.614511+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0422/20110422111810434.doc",
@@ -2725,7 +2725,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:18.027015+00:00",
+      "fetchedAt": "2026-11-07T06:06:28.835530+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "HTTPError:HTTP Error 404: Page not found: /uploadfile/2011/0422/20110422111924499.doc",
@@ -2745,7 +2745,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:19.305943+00:00",
+      "fetchedAt": "2026-11-07T06:06:29.995409+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 20-28: ordinal not in range(128)",
@@ -2765,7 +2765,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-06T06:56:19.510207+00:00",
+      "fetchedAt": "2026-11-07T06:06:30.199364+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 20-29: ordinal not in range(128)",
