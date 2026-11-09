@@ -3,8 +3,8 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1255,
-  "with_deadline": 175,
+  "count": 1262,
+  "with_deadline": 177,
   "items": [
     {
       "url": "http://ee.xjtu.edu.cn/info/1124/14193.htm",
@@ -58055,6 +58055,99 @@
       "snippet": "各位老师、同学们： 第五届西安交通大学电力电子创新设计竞赛近日圆满落下帷幕，颁奖仪式定于2026年11月9日（星期一）下午在创新港举行。诚邀各位老师同学参加！具体事宜通知如下： 一、活动内容 1、为第五届西安交通大学电力电子创新设计竞赛获奖队伍颁奖。 2、第五届西安交通大学电力电子创新设计竞赛获奖队伍与第六届华为大学生电力电子创新设计大赛总决赛获奖队伍共同分享备赛经验与样机设计过程。 3、特邀华为公司专家作题为“AI辅助研发——华为数字能源解决方案的实践与探索”的专题报告。 二、活动时间 2026年11月9日（星期一）14:00 请参会人员提前到场，准时参加。 三、活动地点 中国西部科技创新港躬行楼3-2032 欢迎感兴趣的师生广泛参与！ 西安交通大学电气工程学院 2026年11月5日"
     },
     {
+      "url": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+      "title": "电气学院关于2026-2027学年第一学期博士资格考核工作的通知",
+      "noticeDate": "2026-11-09",
+      "contentHash": "63800c6ca7a2f7812f66cf2c8bfb33047554a24c98f976275877a96d633bc64a",
+      "schemaVersion": 2,
+      "deadline": "2026-11-17",
+      "score": 4,
+      "deadlineEvent": {
+        "value": "2026-11-17",
+        "raw": "时间：2026年11月10日-11月17日。",
+        "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+        "location": {
+          "type": "body",
+          "start": 442,
+          "end": 464
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null,
+        "kind": "registration_deadline",
+        "time": null,
+        "timezone": "Asia/Shanghai",
+        "dateRaw": "11月17日",
+        "endDate": null,
+        "superseded": false
+      },
+      "timeline": [
+        {
+          "value": "2026-11-10",
+          "raw": "时间：2026年11月10日-11月17日。",
+          "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+          "location": {
+            "type": "body",
+            "start": 442,
+            "end": 464
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "registration_start",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-17",
+          "raw": "时间：2026年11月10日-11月17日。",
+          "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+          "location": {
+            "type": "body",
+            "start": 442,
+            "end": 464
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "registration_deadline",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-18",
+          "raw": "1、提交材料截止时间：2026年11月18日",
+          "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+          "location": {
+            "type": "body",
+            "start": 956,
+            "end": 978
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1138,
+      "snippet": "根据《西安交通大学博士研究生资格考核实施办法（试行）》（西交研[2019]151号）、《西安交通大学学术型硕士博士贯通式培养实施办法》（西交研[2017]93号）及《西安交通大学电气学院博士研究生资格考核实施细则http://ee.xjtu.edu.cn/info/1124/11310.htm》的要求，本次电气学院博士生资格考核安排如下： 一、申请条件 参加资格考核的研二硕士研究生应满足基本条件如下： 1.贯通培养的硕士研究生应完成硕博贯通培养计划中的课程学习（不含博士阶段思政课）并成绩合格，具有强烈科研意愿，已开展一定的科研工作。 2.未进入硕博贯通培养的硕士研究生申请参加资格考核前，应完成所报考学科学术型硕士研究生贯通培养方案所要求课程且成绩合格，并满足学院资格考核要求。 3.参加专业学位博士资格考核的专业学位硕士应完成专业学位硕士培养方案中的课程学习且成绩合格，具有强烈的科研意愿，并有一定专业实践训练。 4.本次资格考核主要面向本院25级硕士研究生。 二、网上报名 时间：2026年11月10日-11月17日。"
+    },
+    {
       "url": "https://ee.xjtu.edu.cn/info/1420/14652.htm",
       "title": "",
       "noticeDate": "",
@@ -58300,6 +58393,3904 @@
       "timeline": [],
       "bodyLen": 439,
       "snippet": "1.能动学院拟录取研究生 “人事档案”邮寄到西安交通大学能源与动力工程学院（兴庆校区），邮寄地址：陕西省西安市碑林区咸宁西路28号 西安交通大学 能动学院研究生办公室（兴庆校区北二楼1303） 张丽娜老师 收 邮编：710049 。【咨询电话82668710，邮寄仅接受EMS、顺丰或机要】 2.本校考生无需调档 3.党员组织关系接转 (1) 本省转接：通过陕西省党建信息化平台进行转接，接入党组织为“中共西安交通大学能动学院2026级研究生新生临时支部委员会”。（开启转接时间另行通知） (2) 省外转接：采用全国党员信息平台或纸质党员组织关系介绍信两种方式，a.通过全国党员信息平台转接转入党组织为“中共西安交通大学能动学院委员会”；b.通过党员组织关系介绍信转接，介绍信抬头为“中共西安交通大学委员会，去向：中共西安交通大学能动学院委员会。 4.新生团员组织关系接转 请见：https://mp.weixin.qq.com/s/L9HqZehugRp8XDwTKoEpNg"
+    },
+    {
+      "url": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+      "title": "能动学院2026年秋季博士生拟录取名单公示",
+      "noticeDate": "2026-06-10",
+      "contentHash": "c6e4c5f1434383ecb1d1c405675160da868ab9fab61bda4881546c5da77047a7",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": null,
+          "raw": "85.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 78,
+            "end": 82
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 132,
+            "end": 136
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.48",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 161,
+            "end": 166
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.48",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "78.88",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 190,
+            "end": 195
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "78.88",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 220,
+            "end": 224
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "82.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 248,
+            "end": 252
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "82.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "81.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 277,
+            "end": 281
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "81.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.53",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 305,
+            "end": 310
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.53",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 334,
+            "end": 338
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 363,
+            "end": 367
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.27",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 392,
+            "end": 397
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.27",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 422,
+            "end": 426
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.71",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 451,
+            "end": 456
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.71",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 481,
+            "end": 485
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 509,
+            "end": 513
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 538,
+            "end": 542
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 567,
+            "end": 571
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 596,
+            "end": 600
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.13",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 652,
+            "end": 657
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.13",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "77.03",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 682,
+            "end": 687
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "77.03",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.35",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 712,
+            "end": 717
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.35",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "77.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 741,
+            "end": 745
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "77.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "72.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 769,
+            "end": 773
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "72.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 798,
+            "end": 802
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "87.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 827,
+            "end": 831
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "87.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "83.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 856,
+            "end": 860
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "83.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.74",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 885,
+            "end": 890
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.74",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "85.48",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 915,
+            "end": 920
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.48",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "85.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 944,
+            "end": 948
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 973,
+            "end": 977
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1002,
+            "end": 1006
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1031,
+            "end": 1035
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1060,
+            "end": 1064
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1116,
+            "end": 1120
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1145,
+            "end": 1149
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "80.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1174,
+            "end": 1178
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "80.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1203,
+            "end": 1207
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "78.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1232,
+            "end": 1236
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "78.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1261,
+            "end": 1265
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "80.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1290,
+            "end": 1294
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "80.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "81.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1319,
+            "end": 1323
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "81.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.78",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1374,
+            "end": 1379
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.78",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1404,
+            "end": 1408
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1433,
+            "end": 1437
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1461,
+            "end": 1465
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "96.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1490,
+            "end": 1494
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "96.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1518,
+            "end": 1522
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1547,
+            "end": 1551
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.83",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1575,
+            "end": 1580
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.83",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "82.94",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1605,
+            "end": 1610
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "82.94",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.53",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1635,
+            "end": 1640
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.53",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.92",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1665,
+            "end": 1670
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.92",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.22",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1695,
+            "end": 1700
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.22",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1724,
+            "end": 1728
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1753,
+            "end": 1757
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1782,
+            "end": 1786
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1811,
+            "end": 1815
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.53",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1840,
+            "end": 1845
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.53",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.58",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1870,
+            "end": 1875
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.58",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.98",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1900,
+            "end": 1905
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.98",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1929,
+            "end": 1933
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.88",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1958,
+            "end": 1963
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.88",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 1987,
+            "end": 1991
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2015,
+            "end": 2019
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "83.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2044,
+            "end": 2048
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "83.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.83",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2074,
+            "end": 2079
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.83",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.71",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2104,
+            "end": 2109
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.71",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2133,
+            "end": 2137
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "82.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2162,
+            "end": 2166
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "82.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2191,
+            "end": 2195
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "82.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2220,
+            "end": 2224
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "82.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "81.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2248,
+            "end": 2252
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "81.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "78.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2276,
+            "end": 2280
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "78.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "80.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2305,
+            "end": 2309
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "80.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2334,
+            "end": 2338
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "81.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2363,
+            "end": 2367
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "81.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2392,
+            "end": 2396
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2421,
+            "end": 2425
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2450,
+            "end": 2454
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2479,
+            "end": 2483
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2507,
+            "end": 2511
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.03",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2536,
+            "end": 2541
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.03",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.07",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2565,
+            "end": 2570
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.07",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "82.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2595,
+            "end": 2599
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "82.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2623,
+            "end": 2627
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2651,
+            "end": 2655
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2680,
+            "end": 2684
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "87.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2708,
+            "end": 2712
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "87.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "80.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2737,
+            "end": 2741
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "80.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2766,
+            "end": 2770
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "85.25",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2795,
+            "end": 2800
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.25",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2825,
+            "end": 2829
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "85.64",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2854,
+            "end": 2859
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.64",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "83.65",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2884,
+            "end": 2889
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "83.65",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2914,
+            "end": 2918
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "87.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2943,
+            "end": 2947
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "87.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.44",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 2972,
+            "end": 2977
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.44",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.57",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3002,
+            "end": 3007
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.57",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3032,
+            "end": 3036
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.74",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3061,
+            "end": 3066
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.74",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3090,
+            "end": 3094
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "84.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3119,
+            "end": 3123
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "84.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.82",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3148,
+            "end": 3153
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.82",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.38",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3178,
+            "end": 3183
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.38",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3208,
+            "end": 3212
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.82",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3237,
+            "end": 3242
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.82",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3267,
+            "end": 3271
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3296,
+            "end": 3300
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3325,
+            "end": 3329
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.63",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3354,
+            "end": 3359
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.63",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3438,
+            "end": 3442
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.39",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3467,
+            "end": 3472
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.39",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3497,
+            "end": 3501
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.95",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3526,
+            "end": 3531
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.95",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3556,
+            "end": 3560
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3585,
+            "end": 3589
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.81",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3614,
+            "end": 3619
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.81",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3644,
+            "end": 3648
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3672,
+            "end": 3676
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.3",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3701,
+            "end": 3705
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.3",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3730,
+            "end": 3734
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3759,
+            "end": 3763
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "95.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3788,
+            "end": 3792
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "95.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3817,
+            "end": 3821
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3846,
+            "end": 3850
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.6",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3902,
+            "end": 3906
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.6",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3931,
+            "end": 3935
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3959,
+            "end": 3963
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 3988,
+            "end": 3992
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4017,
+            "end": 4021
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4045,
+            "end": 4049
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4073,
+            "end": 4077
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4102,
+            "end": 4106
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4130,
+            "end": 4134
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "85.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4159,
+            "end": 4163
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "85.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4188,
+            "end": 4192
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4271,
+            "end": 4275
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4300,
+            "end": 4304
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4329,
+            "end": 4333
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4358,
+            "end": 4362
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4387,
+            "end": 4391
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.4",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4416,
+            "end": 4420
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.4",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4445,
+            "end": 4449
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.2",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4474,
+            "end": 4478
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.2",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4503,
+            "end": 4507
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.1",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4559,
+            "end": 4563
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.1",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.8",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4588,
+            "end": 4592
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.9",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4617,
+            "end": 4621
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.9",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.7",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4646,
+            "end": 4650
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.7",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.5",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 4675,
+            "end": 4679
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "89.79",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6242,
+            "end": 6247
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "89.79",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "88.44",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6301,
+            "end": 6306
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "88.44",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.34",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6329,
+            "end": 6334
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.34",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.34",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6358,
+            "end": 6363
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.34",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "94.66",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6387,
+            "end": 6392
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "94.66",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.22",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6416,
+            "end": 6421
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.22",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.78",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6444,
+            "end": 6449
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.78",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.78",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6473,
+            "end": 6478
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.78",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "90.67",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6502,
+            "end": 6507
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "90.67",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.56",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6530,
+            "end": 6535
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.56",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "91.44",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6559,
+            "end": 6564
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "91.44",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "92.78",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6587,
+            "end": 6592
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "92.78",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.22",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6615,
+            "end": 6620
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.22",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "86.34",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6644,
+            "end": 6649
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "86.34",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.34",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6672,
+            "end": 6677
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.34",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "94.56",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6752,
+            "end": 6757
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "94.56",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "93.34",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6781,
+            "end": 6786
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "93.34",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "94.66",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6809,
+            "end": 6814
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "94.66",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-10",
+          "raw": "2026年6月10日",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+          "location": {
+            "type": "body",
+            "start": 6933,
+            "end": 6943
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年6月10日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 6943,
+      "snippet": "经学院研究生招生工作领导小组审核，2026年秋季博士拟录取名单公示如下： 姓名 准考证号 综合成绩 录取类别 备注 张伟浩 106986100390003 85.2 非定向 秦翰 106986100390004 92 非定向 樊想 106986100390005 88.3 非定向 王君钰 106986100390006 88.48 非定向 李新 106986100390007 78.88 非定向 罗磊磊 106986100390010 90.6 非定向 陈思 106986100390012 82.3 非定向 彭玉霈 106986100390013 81.2 非定向 韩浪 106986100390016 88.53 非定向 裴旭 106986100390017 91.3 非定向 陈嘉雯 106986100390018 89.3 非定向 陈建志 106986100390019 84.27 非定向 李欣怡 106986100390021 84.5 非定向 刘方兴 106986100390023 89.71 非定向 师嘉毅 106986100390026…"
     },
     {
       "url": "https://epe.xjtu.edu.cn/info/1483/5733.htm",
@@ -103631,6 +107622,121 @@
       "snippet": "各参赛学生： 第十八届全国大学生数学竞赛初赛将于2026年11月14日(周六)上午9:00—11:30在我校兴庆校区和创新港校区同步举行，附件是参加本次竞赛的学生名单及考场信息。 请参赛学生登录以下网址 https://xjtu.jinshuju.com/f/hBfPzi/s/Q5nD2V 查看考场信息，并保存打印准考证，凭准考证和有效证件（身份证、学生证或一卡通）参加考试。若不能查到准考证，请学生查看附件中的考场信息，凭有自己姓名的那页考场信息打印件和有效证件参加考试。 竞赛联系人：赵老师 82663173 附件1：数学A类-第十八届全国大学生数学竞赛西安交通大学名单 附件2：非数学A类-第十八届全国大学生数学竞赛西安交通大学名单 附件3：非数学B类-第十八届全国大学生数学竞赛西安交通大学名单 数学与统计学院 2026年11月5日"
     },
     {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+      "title": "关于第 3 届学研杯大学物理强基邀请赛III卷西安交通大学报名的通知",
+      "noticeDate": "2026-11-09",
+      "contentHash": "ced959875ba6fa0ba435e48a5cd4de293b8ee3f7a76841c5ddfa9d643694824a",
+      "schemaVersion": 2,
+      "deadline": "2026-11-30",
+      "score": 4,
+      "deadlineEvent": {
+        "value": "2026-11-30",
+        "raw": "报名时间：即日起至2026年11月30日12:00（注：报名截止后不能再报名缴费，否则会产生很复杂的退费手续）",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+        "location": {
+          "type": "body",
+          "start": 405,
+          "end": 460
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null,
+        "kind": "registration_deadline",
+        "time": "12:00",
+        "timezone": "Asia/Shanghai",
+        "dateRaw": "2026年11月30日",
+        "endDate": null,
+        "superseded": false
+      },
+      "timeline": [
+        {
+          "value": "2026-12-26",
+          "raw": "根据第 3 届学研杯大学物理强基邀请赛III卷报名通知，第 3 届学研杯大学物理强基邀请赛III卷将于2026年12月26日（星期六）上午9点30到11点30举行。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+          "location": {
+            "type": "body",
+            "start": 15,
+            "end": 97
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "09:30",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月26日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-14",
+          "raw": "和清华大学出版社沟通，11月14日下午举行的II卷获得一等奖的同学，如果继续报名III卷，免报名费，符合条件的同学，请填写问卷星报名。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+          "location": {
+            "type": "body",
+            "start": 337,
+            "end": 404
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月14日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-30",
+          "raw": "报名时间：即日起至2026年11月30日12:00（注：报名截止后不能再报名缴费，否则会产生很复杂的退费手续）",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+          "location": {
+            "type": "body",
+            "start": 405,
+            "end": 460
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "registration_deadline",
+          "time": "12:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-09",
+          "raw": "2026年11月9日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+          "location": {
+            "type": "body",
+            "start": 617,
+            "end": 627
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月9日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 627,
+      "snippet": "各院、部、中心及全体本科生： 根据第 3 届学研杯大学物理强基邀请赛III卷报名通知，第 3 届学研杯大学物理强基邀请赛III卷将于2026年12月26日（星期六）上午9点30到11点30举行。本竞赛由清华大学出版社主办， 陕西省物理学会和西安物理学会共同组织本次竞赛。西安交通大学将在兴庆校区自设考场。具体事宜如下： 一、考试范围: 本次考试范围为 III 卷(振动、波动、光学)，考试涉及的大纲见报名通知的附件一。 二、参赛对象 凡是在校本科生均可参加，考场设在兴庆校区，其他校区的学生报名后需到兴庆校区参加考试。 三、报名办法 西安交通大学采用集体报名的方式，以学校为单位报名，报名费缴纳100元/考生。 本次报名通过手机扫码在线报名并缴费的方式完成，二维码见下方。 和清华大学出版社沟通，11月14日下午举行的II卷获得一等奖的同学，如果继续报名III卷，免报名费，符合条件的同学，请填写问卷星报名。"
+    },
+    {
       "url": "https://jwc.xjtu.edu.cn/info/1172/6689.htm",
       "title": "2014年5月全国大学英语四、六级网考报名通知",
       "noticeDate": "2014-04-21",
@@ -115414,6 +119520,19 @@
       ],
       "bodyLen": 1230,
       "snippet": "最佳团日 初辩 为积极响应作为我校最具悠久传统、最具有影响力、参与面最广的基层团组织“最佳团日“活动，为锻炼和凝聚718班团支部团员青年，促进基层团支部建设，增强基层团支部的凝聚力和战斗力，帮助同学更好的融入大学生活，促进学生健康成长、全面发展。718班团支部于9月10号晚启动最佳团日活动。 本次最佳团日活动，718团支部举行了以下活动。 01 芥子之火 9月11号晚上的西交一如既往的静谧，凉风习习，安抚每一个718班团支部的略微焦躁急切的心，一场别开生面的烛光旅行趁着月色悄然开始。 本次“芥子之火”活动旨在锻炼和凝聚团员青年，促进基层团支部建设，增强基层团支部的凝聚力和战斗力，帮助新生更好的融入大学生活，更好的了解西安交大风云两甲子，弦歌三世纪的百年沧桑历史。 四大发明广场，钱学森图书馆。历史拐点处。腾飞塔。 火苗也照亮了饮水思源处那烙印在718班团支部内心深处熠熠闪光的知恩图报精神，我们718班会牢记国家历史，牢记胸怀大局，无私奉献，弘扬传统，艰苦创业的西迁精神。紧跟党的步伐，不忘初心跟党走，扎根西部，服务国家，社会一流。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "title": "最佳团日 |  | 美术72——初赛回顾",
+      "noticeDate": "2017-11-15",
+      "contentHash": "2c53da811a57f8cee12753688486e6f1b95bb6fd50d272cd22ac2d17a3b2509e",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 246,
+      "snippet": "初赛晋级！！！ 谢谢大家一直以来的关注和支持！ 初 赛 回 顾 “爱班”绘制班服 << 滑动查看下一张图片 >> 【最佳团日】和留学生一起手绘的时间 “爱校”手绘交大 << 滑动查看下一张图片 >> 七两巷绘制交大明信片，你拿到了吗 “爱民”唤醒城市的人 << 滑动查看下一张图片 >> 【最佳团日】唤醒城市的人 “爱国”国是千万家 << 滑动查看下一张图片 >> 【最佳团日】活动出展！你入镜了没 那天在地图上，你找到你的家了吗 初赛答辩 初赛颁奖 七两巷初赛合影 西安交通大学美术系72班"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=1749",
@@ -138279,6 +142398,69 @@
       "snippet": "11月2日至3日，2026年全国大学生赛艇锦标赛在北京市通州区大运河森林公园举行。西安交通大学赛艇队17名师生组队参赛，与全国高校赛艇队同场竞技，获得丙B组女子500米单人双桨亚军，甲组男子1500米单人双桨、双人双桨、1500米混合四人双桨及男子500米四人双桨4项季军，女子四人双桨在1500米、500米两项第四名的优秀成绩，充分展现交大学子逐浪前行、奋勇争先的竞技风采。 本届赛事设1500米和500米两个竞赛距离，涵盖单人、双人、四人及八人艇等项目。西安交大代表队由冯申阳担任领队、路海华担任教练，15名队员出战甲组和丙B组共14个小项。其中，甲组参赛项目涵盖男子单人、双人和四人双桨，女子双人、四人双桨及混合四人双桨；丙B组参加女子单人、双人双桨。与短距离冲刺相比，1500米比赛更考验体能分配与持续输出；500米比赛则要求队员在短时间内完成起航加速、建立节奏和终点冲刺。不同艇型与距离的交叉参赛，也对队员的个人技术、多人艇配合和连续作战能力提出了要求。 11月2日，1500米项目率先展开角逐。"
     },
     {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4787",
+      "title": "赵新利讲中国品牌国际传播的智慧",
+      "noticeDate": "2026-11-06",
+      "contentHash": "f0039e87e329e6b6e86cc8644fc05564ad6343e670a886f17cdd77d2bbe1517a",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 0,
+      "snippet": ""
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4788",
+      "title": "回顾十月的精彩时刻",
+      "noticeDate": "2026-11-06",
+      "contentHash": "91fa4fca2e92416dbba601568d2a18327dcd092f7cdb84b5fc8ac48a5ef8dbed",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 82,
+      "snippet": "回顾十月的精彩时刻！红歌赓续薪火脉，少年砺志竞锋芒！ 十月的序章悄然收束， 每一帧都是岁月沉淀下的热烈印记~ 携这份热忱奔赴前路山海， 续写更多笃行向上的青春故事！"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4790",
+      "title": "西安交大干部师生学习热议党的二十五届五中全会精神",
+      "noticeDate": "2026-11-07",
+      "contentHash": "754a857a2b254b6b6ce395bec5bffc4765ec3f50cadba5b5dfbe219c2f14dba7",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-26",
+          "raw": "中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4790",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 44
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication",
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年10月26日",
+          "endDate": "2026-10-29",
+          "superseded": false
+        }
+      ],
+      "bodyLen": 4151,
+      "snippet": "中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。全会听取和讨论了习近平总书记受中央政治局委托所作的工作报告，审议通过了《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。习近平总书记就《决定（讨论稿）》向全会作了说明。西安交通大学干部师生第一时间学习领会全会精神，交流学习感悟。大家纷纷表示，要更加自觉把思想和行动统一到党中央决策部署上来，把全面从严治党要求落实到教学、科研、管理等各环节，立足本职务实奋进，以担当作为交出服务强国建设的合格答卷。 西安交通大学党委书记 吴国生 党的二十届五中全会专题研究持之以恒推进全面从严治党重大问题，审议通过《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》，充分彰显了以习近平同志为核心的党中央以彻底的自我革命精神管党治党、兴党强党的坚定决心，为新时代新征程学校全面从严治党向纵深发展提供了根本遵循。 学校党委将把学习贯彻全会精神作为当前和今后一个时期的重大政治任务，全面贯彻落实习近平党建思想，把坚持和加强党的全面领导落实到办学治校、教书育人全过程各方面。"
+    },
+    {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=48",
       "title": "全国首届大学生税收辩论赛（西安赛区）在我校举办",
       "noticeDate": "2014-10-27",
@@ -138575,7 +142757,7 @@
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
       "deadline": null,
       "score": 0,
-      "error": "HTTP 403",
+      "error": "ValueError:body_not_found: no configured article selector matched",
       "schemaVersion": 2
     },
     {

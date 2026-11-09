@@ -180,15 +180,15 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2392,
+  "count": 2399,
   "matched_count": 535,
-  "competition_related_count": 876,
+  "competition_related_count": 878,
   "by_site": {
-    "教务处": 520,
+    "电气学院": 226,
+    "教务处": 521,
+    "校团委": 1029,
     "实践教学中心": 401,
-    "电气学院": 225,
-    "校团委": 1025,
-    "能动学院": 66,
+    "能动学院": 67,
     "RoboMaster官网": 26,
     "ROBOCON官网": 14,
     "研究生院": 76,
@@ -201,10 +201,10 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
+    "教务处": 173,
     "实践教学中心": 331,
-    "教务处": 172,
     "电气学院": 22,
-    "校团委": 201,
+    "校团委": 202,
     "RoboMaster官网": 10,
     "ROBOCON官网": 9,
     "研究生院": 67,
@@ -217,6 +217,61 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-09",
+      "title": "电气学院关于2026-2027学年第一学期博士资格考核工作的通知",
+      "url": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
+      "source": "ee_yjs",
+      "site": "电气学院",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "关于第 3 届学研杯大学物理强基邀请赛III卷西安交通大学报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
+      "source": "jwc_jsap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-11-07",
+      "title": "西安交大干部师生学习热议党的二十五届五中全会精神",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4790",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "赵新利讲中国品牌国际传播的智慧",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4787",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "回顾十月的精彩时刻",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4788",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "date": "2026-11-05",
       "title": "关于转发高校在线开放课程联盟联席会《关于征集“第七届 全国智课教育创新大会暨高校在线开放课程联盟...",
@@ -3345,6 +3400,18 @@
       "url": "https://ee.xjtu.edu.cn/info/1383/15550.htm",
       "source": "ee_yjs",
       "site": "电气学院",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "title": "能动学院2026年秋季博士生拟录取名单公示",
+      "date": "2026-06-10",
+      "url": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
+      "site": "能动学院",
+      "source": "epe_notices",
+      "sourceLabel": "能动学院 · 通知公告",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -19765,6 +19832,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
+    },
+    {
+      "date": "2017-11-15",
+      "title": "最佳团日 | | 美术72——初赛回顾",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "source": "tuanwei_party",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
     },
     {
       "date": "2017-11-14",

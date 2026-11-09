@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 19,
+  "count": 29,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -2771,6 +2771,2526 @@
       "error": "UnicodeEncodeError:'ascii' codec can't encode characters in position 20-29: ordinal not in range(128)",
       "chunks": [],
       "images": []
+    },
+    {
+      "id": "94cc9bd89945805d1b6b6b2931dfed798e5c4fc46dedb8e505c8f54cd85dc8f9",
+      "url": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKlcHkSfrmqb3Q0XKBEvU5wicmvDHxEKadrLnX5Tqz04GAek4gR94PXuw/0?wx_fmt=jpeg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:02.510112+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKlcHkSfrmqb3Q0XKBEvU5wicmvDHxEKadrLnX5Tqz04GAek4gR94PXuw/0?wx_fmt=jpeg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "821e77ff917535c72d70bf0cdce132803f7563a73271b5aebd90cda131171c9c",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFK9lsGzPDcHTf7ydOJfPGF0NgtGaPK1Oshy4TmBKTU1KTDWfhQ3ic688g/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:04.179433+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFK9lsGzPDcHTf7ydOJfPGF0NgtGaPK1Oshy4TmBKTU1KTDWfhQ3ic688g/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "38889f48e673951881d6e850578c02fe32b52b273f7ca1560b82987f2f202eb6",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKSzggYoTG1Cicxd4FYibc8UsQ7p39CZCWocT0RaJeGE1QoZMiaP4slttJg/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:04.962432+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKSzggYoTG1Cicxd4FYibc8UsQ7p39CZCWocT0RaJeGE1QoZMiaP4slttJg/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "f78a5861a8f8f516e18959c8eae7ba088c9e499b02292d26046be2892975af50",
+      "url": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKnkj7gwibWrKZV8v5PDAFaRic9kWB4icMebIL2aTR63HTKwKx0PD70Olfw/0?wx_fmt=jpeg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:05.482369+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKnkj7gwibWrKZV8v5PDAFaRic9kWB4icMebIL2aTR63HTKwKx0PD70Olfw/0?wx_fmt=jpeg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c67ff65b3e87878989de5909c5cbf22fae0b1348a175cfb8b6d8a0e792f9075a",
+      "url": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKVgHb2QRekpjfFZ7Sf7T6D8VNVWyIgPpnibh1ibtLuiaaeUXeyHb4Y3qaQ/0?wx_fmt=jpeg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:06.204884+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKVgHb2QRekpjfFZ7Sf7T6D8VNVWyIgPpnibh1ibtLuiaaeUXeyHb4Y3qaQ/0?wx_fmt=jpeg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "65fa4d41dd561071a244320226b07f78a50445834760faacb5eecca77299db8f",
+      "url": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKCicsglaJ8ib1zR7LoFSsJicsls8CZCOaVba3ibpklmwhGqVMSWiaySDpqzg/0?wx_fmt=jpeg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:07.111358+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_jpg/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKCicsglaJ8ib1zR7LoFSsJicsls8CZCOaVba3ibpklmwhGqVMSWiaySDpqzg/0?wx_fmt=jpeg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "d6641e907da7a5f13198fff51dc84cedc9b55ad44eeb6938dccd976f5e58ede3",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKwg5ibZDqnwiaxnYYNPCEe3XU1FNlbia4vHvB8ZCzqLicBjlkK2ibqLvIH7Q/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:07.867152+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKwg5ibZDqnwiaxnYYNPCEe3XU1FNlbia4vHvB8ZCzqLicBjlkK2ibqLvIH7Q/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "6e6fdfe74ee5af7b1fb28ecfe1db5001e4041b42d5901969220a9754b6e93417",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKMicC2QcAR49bpyXDRkpP8BibwSFhicJYCOu692sSLqaFQbqLzjLYGjRXA/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:08.392832+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKMicC2QcAR49bpyXDRkpP8BibwSFhicJYCOu692sSLqaFQbqLzjLYGjRXA/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "b8cb1bce99fe76dcf27326e64edcabc217c369b4d1162848fd4dd28e8a5bfa4a",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKRzAJ5icJsfHNF8GHVJh2AOC1BwxrWY2DUbWKs2ribluWrzX2aItwxl0g/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:09.190372+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKRzAJ5icJsfHNF8GHVJh2AOC1BwxrWY2DUbWKs2ribluWrzX2aItwxl0g/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c5a34a014753ab4d76dc0aa236fab67901a8c5652139ee37cadaa45f0afad0d0",
+      "url": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKG1Lgatyjxpu8mpVoj4f8cla8xkCuiaVSlbiaBvT7324QkZGSd7Fa6wLQ/0?wx_fmt=png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "3f9ad37df61569e758a4dde020f9f19e59df2e61e84598c4e7abb462de5d737d",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-09T06:44:10.131296+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "textHash": "86058e4523c715fd41a359a1d8f96f4880b2782654121c237a9d9cf1aada3a5d",
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "&",
+                "words": [
+                  {
+                    "text": "&",
+                    "confidence": 0.72616974,
+                    "bbox": [
+                      59,
+                      32,
+                      26,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.72616974
+              },
+              {
+                "text": "此 图 片 来 自 微 信 公 众 平台",
+                "words": [
+                  {
+                    "text": "此",
+                    "confidence": 0.89757919,
+                    "bbox": [
+                      4,
+                      79,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.40428387,
+                    "bbox": [
+                      19,
+                      80,
+                      9,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "片",
+                    "confidence": 0.8829679899999999,
+                    "bbox": [
+                      33,
+                      80,
+                      15,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.39164635,
+                    "bbox": [
+                      47,
+                      72,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "自",
+                    "confidence": 0.8659451300000001,
+                    "bbox": [
+                      57,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "微",
+                    "confidence": 0.68141205,
+                    "bbox": [
+                      70,
+                      80,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "信",
+                    "confidence": 0.91445618,
+                    "bbox": [
+                      80,
+                      80,
+                      8,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92880562,
+                    "bbox": [
+                      91,
+                      80,
+                      14,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.9305548899999999,
+                    "bbox": [
+                      112,
+                      80,
+                      7,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "平台",
+                    "confidence": 0.7468248,
+                    "bbox": [
+                      119,
+                      72,
+                      17,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.39164635
+              },
+              {
+                "text": "未 经 允许 不 可 引用",
+                "words": [
+                  {
+                    "text": "未",
+                    "confidence": 0.95926277,
+                    "bbox": [
+                      22,
+                      101,
+                      17,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "经",
+                    "confidence": 0.58085602,
+                    "bbox": [
+                      39,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "允许",
+                    "confidence": 0.83437691,
+                    "bbox": [
+                      46,
+                      100,
+                      55,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.96766731,
+                    "bbox": [
+                      75,
+                      93,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.902817,
+                    "bbox": [
+                      88,
+                      93,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "引用",
+                    "confidence": 0.91661896,
+                    "bbox": [
+                      103,
+                      100,
+                      14,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.58085602
+              }
+            ],
+            "text": "&\n此图片来自微信公众平台\n未经允许不可引用",
+            "normalization": "join_cjk_word_spaces",
+            "width": 140,
+            "height": 140
+          },
+          "qr": [],
+          "previewUrl": "media/e7af92fe6f8f1876077f4bb6a92860f5cdefb20ed2deb1f4232b1731e1a4c489.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8.img",
+        "sha256": "74c10f869f038762324b47d31ddfb8b1622dd6cff59ed4006fab8c57691970b8",
+        "bytes": 2090,
+        "filename": "0",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "http://mmbiz.qpic.cn/mmbiz_png/FZD0EkcrNl8zhpSpM2WlDb4Jl7wz5oFKG1Lgatyjxpu8mpVoj4f8cla8xkCuiaVSlbiaBvT7324QkZGSd7Fa6wLQ/0?wx_fmt=png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
     }
   ]
 }
