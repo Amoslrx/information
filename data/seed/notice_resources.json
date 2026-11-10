@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 29,
+  "count": 39,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -5291,6 +5291,358 @@
       "pageCount": null,
       "truncated": false,
       "errors": []
+    },
+    {
+      "id": "c950ccd6bc40d641718853928fd1d65e0e10d6a30ccdbb1ae12f67d99a1f279e",
+      "url": "https://epe.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067624004&wbfileid=18626753",
+      "noticeUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+      "kind": "attachment",
+      "name": "资格考核表格.docx",
+      "context": "",
+      "noticeBodyHash": "075131e6df080372558902b79a51f9c071a818e29a81c59a0847487ca04c7b25",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:43.309629+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件1-论文模板.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:44.747120+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件1：论文模板\n标题（20字以内）*\n——副标题\n作  者1\n（1．厦门大学嘉庚学院 教育技术服务中心，福建省漳州市 363105）\n摘要：来稿均应有中文摘要，篇幅为200—300字，用第三人称对全文进行准确概括，禁用“本文，笔者，作者”等主语，不加诠释，不用评价性文字，不用报道语式，不用序号，不分段。摘要要求文字简洁而精炼；内容客观，应具有独立性和自含性； 重点突出而新颖。\n关键词：楷体；五号；3-5 个\n一、引言( 一级标题，黑体，小四，居中 )\n在引言中，应说明本研究的意义，并特别强调国内外学者在该领域的研究进展，比较本文与其他研究成果的不同之处，重点阐述本文的目的、方法与分析结果等。\n二、要求 ( 一级标题，黑体，小四，居中 )\n论文编辑具体格式要求：主标题为华文中宋，小二，加粗；副标题为宋体，小四，20.8磅，段前段后各间距1行；作者姓名为仿宋，小四，20.8磅，加粗，段后间距1行；中文摘要及关键词为楷体，五号，左右各缩进两字符；英文为Times New Roman字体，字号格式与中文相同；正文为宋体，五号，17磅；一级标题为黑体，小四，段前间距1行，段后0.5行，1.5倍行距；二级标题为黑体，五号，段前段后各间距0.5行，17磅；三级标题为宋体，五号，加粗，17磅。参考文献尾注为宋体，小五，序号加中括号，如[1][2]。作者简介请标识姓名、学位、单位、职称、职务及主要研究方向。\n（一）图表（二级标题，黑体，五号）\n1. 插图（三级标题，宋体，五号，加粗）\n插图中的文字一律用小五号宋体 ， 图的标注如 “图 1 实盟标识示意图” ， 用小五号黑体 ， 居中排 。\n图1 实盟标识示意图 \n2. 表格（三级标题，宋体，五号，加粗）\n表格中的文字一律用小五号宋体，表的标注如。“表1 近年来创新创业教育改革”为表题。\n表1 近年来创新创业教育改革 ( 五号黑体 )\n创新创业教育改革内容\n改革前\n改革后\n顶层设计\n师资队伍\n课程设计\n……\n资料来源：《2016-2017中国高校创新创业教育蓝皮书》，高等教育出版社 2018年版。（小五号宋体）\n三、结语( 一级标题，黑体，小四，居中 )\n请务必注意严格遵守征文的投稿格式要求规范行文。\n参考文献\n[1] 报告、学位论文[参考文献序号]责任者，文献题目.论文、报告单位所在地：所在单位，完成日期.\n[2] 专著 [参考文献序号]责任者，文献题目.出版地：出版单位，出版年，起止页码.\n[3] 期刊文章 [参考文献序号]责任者，文献题目.刊名，年，卷(期)：起止页码.\n[4] 专著、论文集中析出文献[参考文献序号]析出文献责任者.析出文献题名/原文献主要责任者(可选)、原文献题名、出版地:出版者，出版年.析出文献起止页码.会议论文集和专著必须包含出版地、出版单位、年份，如北京:人民出版社，1978。会议文章如果未出版，必须列出会议名称、主办地、会议时间。\n[5] 电子文献 [参考文献序号]责任者.电子文献题名[电子文献类型标识/载体类型标识]、电子文献出处或可获得地址，发表或更改日期/引用日期.\n*基金项目：\n作者简介：",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "c913881b6441ed29d3b4114eebf44acba0ed01913443407c063b7fc7db3ba27a"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/b1589b37e6f8d4884cc8bd93445137163b36fb3af94b5f805a1fa8d19881e06d/docx-image-0.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 263,
+            "height": 263
+          },
+          "qr": [],
+          "previewUrl": "media/04621ca94d7f88dc523bdba3c33b222c129fac34c167b733ad9d24aa127313fb.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/b1589b37e6f8d4884cc8bd93445137163b36fb3af94b5f805a1fa8d19881e06d.docx",
+        "sha256": "b1589b37e6f8d4884cc8bd93445137163b36fb3af94b5f805a1fa8d19881e06d",
+        "bytes": 60012,
+        "filename": "1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "ab4f1940db14210f1347aec674c7b1e43b91e112234b9407be73d551f258099f",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件2-优秀论文汇总表.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:46.417081+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件2：\n优秀论文汇总表\n推荐单位（盖章）：\n单位联系人姓名：             电话：                邮箱：\n序号\n推荐单位\n论文类别\n论文题目\n作者姓名\n单位、职务、职称\n论文联系人\n是否发表\n发表请注明出处\n姓名\n电话\n邮箱\n填表说明：\n1.论文请按学校推荐顺序依次排序，并于2025年11月18日前根据通知要求上传至指定平台。\n2.“论文类别”填写“新工科、新医科、新农科、新文科、人工智能+、其他”其中之一。\n3.获奖证书的论文题目、作者姓名（包括顺序）将以此推荐表为准，请仔细核对。\n4.优秀论文将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。\n5.无单位公章视为无效投稿。",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "48c87bc0c86a6fa2006d7d7b96ff8450d5e5d6c8f46f2d6cd1b056c8872be56f"
+        }
+      ],
+      "images": [],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/d31870352526dd2f2d6ae853672a1d114e8870bd244d30a40eca712ee8b7a57b.docx",
+        "sha256": "d31870352526dd2f2d6ae853672a1d114e8870bd244d30a40eca712ee8b7a57b",
+        "bytes": 22366,
+        "filename": "839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "e1228d4efb24e8572fb1acbbef380a80ad03b5b970d1a5cd0c54e002b56470c9",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/b88a72ec-68b8-4400-bb56-8b8a2747635a.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件3-大学生创新创业实践优秀案例模板.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:48.368359+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件3：大学生创新创业实践优秀案例模板\n案例标题\n——XX公司创业案例\n一、创业背景\n重点突出创业背景及立项原因，体现政策支持，特别是学校在孵化过程中给予的支持与帮助\n二、创业历程\n重点突出项目案例的创业模式、遇到问题以及解决办法等\n三、运营情况\n重点分析项目运营现状以及今后发展战略，辅之详实数据作为佐证\n四、所获奖项\n奖项按级别从高到低排序显示，并附获奖图片佐证\n五、示范效应\n重点突出给创业案例带来的行业优势或就业前景，体现创业案例具有的教学示范效应和引领作用\n（XX大学推荐，执笔人：姓名1、姓名2、…）\n注：一级标题为黑体四号，正文请使用宋体四号。总字数控制在4000-5000字以内。",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "40cdaa64810073337b82c44d01c136137a2bdf19b013798f4fb96b97f1faddbf"
+        }
+      ],
+      "images": [],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/64bf44598c5e5474ae4b98a2f93d14f169d493771ce04bd16a6455e14b2731e1.docx",
+        "sha256": "64bf44598c5e5474ae4b98a2f93d14f169d493771ce04bd16a6455e14b2731e1",
+        "bytes": 20949,
+        "filename": "b88a72ec-68b8-4400-bb56-8b8a2747635a.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/b88a72ec-68b8-4400-bb56-8b8a2747635a.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "7615c5862c1ade34403ca2382220677cd7a6b89e354560125aff66dc956bb706",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件4-大学生创新创业实践优秀案例汇总表.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:50.329531+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件4.：\n大学生创新创业实践优秀案例汇总表\n推荐单位（盖章）：               \n单位联系人姓名：               电话：                邮箱：\n推荐单位\n案例名称\n案例\n执笔人\n获奖情况\n案例简介（300字以内）\n预期成果或\n已取得成果\n项目\n起止时间\n案例联系人\n姓名\n电话\n邮箱\n填表说明：\n1.案例请按学校推荐顺序排序，并于2025年11月18日前根据通知要求上传至指定平台。 \n2.获奖证书的案例名称、执笔人（包括顺序）将以此推荐表为准，请仔细核对。\n3.优秀案例将向有关机构推荐或出版。凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "c2ed83129fdb4cc622b52b861c2401875bf3d3b505ce26a0d04d6a2447d912b4"
+        }
+      ],
+      "images": [],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/2c0c1fb4517fd5bbd4445a38292d0163c3ca0ea363bfe39da2cd0e3be7854f79.docx",
+        "sha256": "2c0c1fb4517fd5bbd4445a38292d0163c3ca0ea363bfe39da2cd0e3be7854f79",
+        "bytes": 22233,
+        "filename": "26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "91871158e44cba92a4758110cdeffe3e648617dc263872b7e7a792d716affbf0",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件5-指导教师优秀事迹推荐表.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:51.252286+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件5：\n指导教师优秀事迹推荐表\n学校：                                                         填表时间：          \n姓名\n性别\n出生年月\n政治面貌\n学历（学位）\n职称\n高校教龄\n从事双创实践岗位\n □教师   □管理人员\n从事双创实践时间\n   年\n所在工作单位（部门/院/系/所/实验室/中心）\n校内职务\n电子邮箱\n实盟职务\n固定电话\n通讯地址\n移动电话\n承担双创实践\n工作任务\n指导学生双创项目\n指导项\n目总数\n指导创新\n项目数\n指导创业\n项目数\n国家级立\n项项目数\n省级立项项目数\n校级立项\n项目数\n指导学生参加学科竞赛\n指导学生培训参赛情况\n指导学生学科竞赛获奖情况（团队/人次）\n培训人数\n参赛人数\n国际级\n国家级\n地区级\n省级\n特等：\n一等奖：\n二等奖：\n特等：\n一等奖：\n二等奖：\n特等：\n一等奖：\n二等奖：\n特等：\n一等奖：\n二等奖：\n指导学生参加创新创业比赛\n指导学生培训参赛情况\n指导学生创新创业比赛获奖情况\n（团队/人次）\n学生项目获投资情况\n指导人数\n参赛人数\n国家级\n地区级\n省级\n项目名称\n投资金额\n金奖：\n银奖：\n铜奖：\n一等奖：\n二等奖：\n一等奖：\n二等奖：\n优秀\n工作\n事迹\n学校\n推荐\n意见\n                                               年  月  日（公章）\n实盟意见\n年  月  日（公章）\n备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "419a7b69698ff3fe6f461de53e4d55c13212fb75ead436baa0f7c24d1144f235"
+        }
+      ],
+      "images": [],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/6dd0ea7cdb3c59892b10410908e83a8ad951644d8123ef86a6fd12a003ec1760.docx",
+        "sha256": "6dd0ea7cdb3c59892b10410908e83a8ad951644d8123ef86a6fd12a003ec1760",
+        "bytes": 25117,
+        "filename": "d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "e274230310d27165764abc699d89881a2eb4d0396fa2d23376ccf11b1c57aea3",
+      "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件6-“人工智能+”优秀项目推荐表.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:52.348614+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "docx-text",
+          "page": null,
+          "text": "附件6：\n“人工智能+”优秀项目推荐表\n推荐单位（盖章）：               \n单位联系人姓名：        电话：                邮箱：\n项目名称\n　\n细分领域\n　\n负责人姓名\n及职务\n　\n联系电话\n　\n核心团队成员（不超过5人）\n　\n是否成立公司\n　\n公司名称\n　\n成立时间\n　\n项目/公司简介\n　\n项目获奖情况\n核心产品及技术、知识产权\n（限500字）\n　\n营收情况\n（近三年及未来三年预测）\n　\n融资计划\n其他说明\n　\n说明：1、细分领域请在以下选项中选择：人工智能+城市,人工智能+科学智算,人工智能+农业,人工智能+能源,人工智能+环保,人工智能+金融,人工智能+物流,人工智能+教育,人工智能+医疗,人工智能+交通,人工智能+其他。\n2、除特别要求外，每个栏目字数不超过200字。\n备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+          "method": "attachment",
+          "engine": "ooxml",
+          "pageBasis": "not_paginated",
+          "textHash": "6f866cb460311dd90351a8ae12d5e1c0fafb6e3bc0ec12439962b71c0a080f9d"
+        }
+      ],
+      "images": [],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/f7e155a9694630cea1b2692e8ddb2d361d11ec954d3356523fbcc588ac633370.docx",
+        "sha256": "f7e155a9694630cea1b2692e8ddb2d361d11ec954d3356523fbcc588ac633370",
+        "bytes": 22400,
+        "filename": "a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "format": "docx",
+        "finalUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "e915bf2ad7c8d7e4930170c52ed1fd58a3b16ad37b784e7f389f97b84bf97d5d",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626883",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件1-论文模版.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:53.280904+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "3416b2baef47cab93b07ecc7580fb26f7845207a9016730da6eb4b992577f935",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626884",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件2-优秀论文推荐汇总表.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:54.422300+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "f210787eaf077f30ea2266c2555e2a3757f44318a585d6915b0740cee8ff2fa3",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626885",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "kind": "attachment",
+      "name": "附件3-大学生创新创业实践案例模版.docx",
+      "context": "",
+      "noticeBodyHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-10T07:28:55.840239+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
     }
   ]
 }

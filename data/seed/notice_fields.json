@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1262,
+  "count": 1265,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -41,33 +41,6 @@
         "schemaVersion": 2,
         "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
         "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
-      "title": "最佳团日 |  | 美术72——初赛回顾",
-      "date": "2017-11-15",
-      "contentHash": "2c53da811a57f8cee12753688486e6f1b95bb6fd50d272cd22ac2d17a3b2509e",
-      "status": "success",
-      "error": "",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "2c53da811a57f8cee12753688486e6f1b95bb6fd50d272cd22ac2d17a3b2509e",
-        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
         "competitionNames": [],
         "editions": [],
         "audiences": [],
@@ -311,6 +284,904 @@
         "schemaVersion": 2,
         "contentHash": "",
         "sourceUrl": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/132.html",
+      "title": "2027年足式机器人挑战赛-V1.0",
+      "date": "2026-10-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+      "date": "2026-10-14",
+      "contentHash": "",
+      "status": "failed",
+      "error": "HTTP 404",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/133.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
+      "date": "2026-10-20",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/134.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
+      "date": "2026-10-26",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/135.html",
+      "title": "2027年足式机器人挑战赛-V2.0",
+      "date": "2026-10-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+      "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
+      "date": "2026-11-09",
+      "contentHash": "f127bf38ede2de33bcf34e6de69ce8eebcd365da9d57954638c2db8f0b323895",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "f127bf38ede2de33bcf34e6de69ce8eebcd365da9d57954638c2db8f0b323895",
+        "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名",
+            "raw": "网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 178,
+              "end": 266
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://yz.xjtu.edu.cn/info/1084/4443.htm",
+            "raw": "报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 267,
+              "end": 358
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "三、提交材料清单",
+            "raw": "三、提交材料清单",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 359,
+              "end": 367
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "（学院审核网报材料时，通过网报系统下载打印留存，考生无需提交推荐书纸质材料）",
+            "raw": "（学院审核网报材料时，通过网报系统下载打印留存，考生无需提交推荐书纸质材料）",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 567,
+              "end": 605
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "四、提交资格考核材料时间",
+            "raw": "四、提交资格考核材料时间",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 606,
+              "end": 618
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。",
+            "raw": "11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 619,
+              "end": 655
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-10",
+            "raw": "时间：2026年11月10日-11月17日",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 156,
+              "end": 177
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_start",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月10日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-17",
+            "raw": "时间：2026年11月10日-11月17日",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 156,
+              "end": 177
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "registration_deadline",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月17日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-20",
+            "raw": "11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 619,
+              "end": 655
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月20日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "通过资格考核的学生将于2027年3月转入博士阶段，按照博士生学籍规定进行管理。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 837,
+              "end": 876
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "month_precision"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2027年3月",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2027-11-09",
+            "raw": "2027年11月9日",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+            "location": {
+              "type": "body",
+              "start": 1010,
+              "end": 1020
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2027年11月9日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "高老师",
+              "raw": "联系方式：029-82668701 高老师",
+              "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+              "location": {
+                "type": "body",
+                "start": 947,
+                "end": 968
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "246877271",
+              "raw": "咨询QQ群：246877271（加群须实名验证）",
+              "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+              "location": {
+                "type": "body",
+                "start": 969,
+                "end": 993
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
+      "date": "2026-11-10",
+      "contentHash": "7db2b9078015f91d79e0c57df74165f7872d6bb16eca03313ca0b92daf855e1c",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "7db2b9078015f91d79e0c57df74165f7872d6bb16eca03313ca0b92daf855e1c",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [
+          {
+            "value": "项目核心团队成员不超过5人，具体内容请填写附件6，同时提交项目路演PPT和商业计划书。",
+            "raw": "项目核心团队成员不超过5人，具体内容请填写附件6，同时提交项目路演PPT和商业计划书。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 2666,
+              "end": 2709
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。",
+            "raw": "请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 2778,
+              "end": 2872
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": null,
+            "raw": "为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下：",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 16,
+              "end": 214
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "month_precision"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-01-01",
+            "raw": "（4）投稿论文须为未曾公开发表的或者发表时间在2026年1月1日（含）之后，如有发表请注明出处。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 974,
+              "end": 1022
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年1月1日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-16",
+            "raw": "请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 2778,
+              "end": 2872
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月16日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-10",
+            "raw": "2026年11月10日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+            "location": {
+              "type": "body",
+              "start": 3050,
+              "end": 3061
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月10日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "副标题为宋体，小四，20.8磅，段前段后各间距1行；",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 350,
+              "end": 376
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "20.8",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "作者姓名为仿宋，小四，20.8磅，加粗，段后间距1行；",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 376,
+              "end": 403
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "20.8",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "一级标题为黑体，小四，段前间距1行，段后0.5行，1.5倍行距；",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 471,
+              "end": 503
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "0.5",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-01-05",
+            "raw": "一级标题为黑体，小四，段前间距1行，段后0.5行，1.5倍行距；",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 471,
+              "end": 503
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "1.5",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "二级标题为黑体，五号，段前段后各间距0.5行，17磅；",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 503,
+              "end": 530
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "0.5",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2025-11-18",
+            "raw": "1.论文请按学校推荐顺序依次排序，并于2025年11月18日前根据通知要求上传至指定平台。",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "ab4f1940db14210f1347aec674c7b1e43b91e112234b9407be73d551f258099f",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 133,
+              "end": 178
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2025年11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2025-11-18",
+            "raw": "1.案例请按学校推荐顺序排序，并于2025年11月18日前根据通知要求上传至指定平台。",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "7615c5862c1ade34403ca2382220677cd7a6b89e354560125aff66dc956bb706",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 170,
+              "end": 213
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2025年11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2025-11-18",
+            "raw": "备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "91871158e44cba92a4758110cdeffe3e648617dc263872b7e7a792d716affbf0",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 625,
+              "end": 656
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2025年11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2025-11-18",
+            "raw": "备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+            "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+            "location": {
+              "type": "resource",
+              "resourceId": "e274230310d27165764abc699d89881a2eb4d0396fa2d23376ccf11b1c57aea3",
+              "chunkId": "docx-text",
+              "page": null,
+              "start": 362,
+              "end": 393
+            },
+            "method": "attachment",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2025年11月18日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "丁晓倩",
+              "raw": "联系人：丁晓倩，邮箱：dingxq@xjtu.edu.cn, 电话：82663872",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+              "location": {
+                "type": "body",
+                "start": 2873,
+                "end": 2915
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "82663872",
+                "raw": "联系人：丁晓倩，邮箱：dingxq@xjtu.edu.cn, 电话：82663872",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+                "location": {
+                  "type": "body",
+                  "start": 2873,
+                  "end": 2915
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [
+              {
+                "value": "dingxq@xjtu.edu.cn",
+                "raw": "联系人：丁晓倩，邮箱：dingxq@xjtu.edu.cn, 电话：82663872",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+                "location": {
+                  "type": "body",
+                  "start": 2873,
+                  "end": 2915
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+      "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
+      "date": "2026-11-10",
+      "contentHash": "cd7545c9c71bf6e9c07e9dd076d3676863fbacbd46f208e34ebdf568e6e3acc4",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "cd7545c9c71bf6e9c07e9dd076d3676863fbacbd46f208e34ebdf568e6e3acc4",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-08",
+            "raw": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 40
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月8日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
+      "title": "最佳团日 |  | 美术72——初赛回顾",
+      "date": "2017-11-15",
+      "contentHash": "2c53da811a57f8cee12753688486e6f1b95bb6fd50d272cd22ac2d17a3b2509e",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "2c53da811a57f8cee12753688486e6f1b95bb6fd50d272cd22ac2d17a3b2509e",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=165",
         "competitionNames": [],
         "editions": [],
         "audiences": [],
@@ -4270,141 +5141,6 @@
             "trackId": null
           }
         ],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/132.html",
-      "title": "2027年足式机器人挑战赛-V1.0",
-      "date": "2026-10-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
-      "date": "2026-10-14",
-      "contentHash": "",
-      "status": "failed",
-      "error": "HTTP 404",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/133.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-      "date": "2026-10-20",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/134.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
-      "date": "2026-10-26",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/135.html",
-      "title": "2027年足式机器人挑战赛-V2.0",
-      "date": "2026-10-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
         "groups": [],
         "model": {
           "status": "disabled",

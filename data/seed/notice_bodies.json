@@ -9,28 +9,18 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://ee.xjtu.edu.cn/info/1383/15985.htm",
-    "title": "电气学院关于2026-2027学年第一学期博士资格考核工作的通知",
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+    "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
     "priority": null
    },
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10639.htm",
-    "title": "关于第 3 届学研杯大学物理强基邀请赛III卷西安交通大学报名的通知",
+    "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+    "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
     "priority": null
    },
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4790",
-    "title": "西安交大干部师生学习热议党的二十五届五中全会精神",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4787",
-    "title": "赵新利讲中国品牌国际传播的智慧",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4788",
-    "title": "回顾十月的精彩时刻",
+    "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+    "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
     "priority": null
    },
    {
@@ -56,11 +46,6 @@
    {
     "url": "https://www.robocon.org.cn/sys-nd/132.html",
     "title": "2027年足式机器人挑战赛-V1.0",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
-    "title": "能动学院2026年秋季博士生拟录取名单公示",
     "priority": null
    },
    {
@@ -109,11 +94,6 @@
     "priority": null
    },
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
-    "title": "最佳团日 | | 美术72——初赛回顾",
-    "priority": null
-   },
-   {
     "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
     "title": "关于举办第七届“腾飞杯”大学生创业计划大赛的通知",
     "priority": null
@@ -125,19 +105,19 @@
    }
   ],
   "byStatus": {
-   "success": 7,
+   "success": 3,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1246,
+  "success": 1249,
   "empty": 1,
   "failed": 15
  },
- "count": 1262,
- "withBody": 1246,
+ "count": 1265,
+ "withBody": 1249,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -145,7 +125,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-09T06:43:58.929895+00:00",
+   "fetchedAt": "2026-11-10T07:28:36.773466+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -190,9 +170,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-09T06:43:58.929895+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:36.773466+00:00"
     }
    ],
-   "totalAttempts": 5
+   "totalAttempts": 6
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -200,7 +185,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-09T06:43:58.880505+00:00",
+   "fetchedAt": "2026-11-10T07:28:36.564706+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -245,9 +230,1595 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-09T06:43:58.880505+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-10T07:28:36.564706+00:00"
     }
    ],
-   "totalAttempts": 5
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
+   "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
+   "site": "研究生院",
+   "date": "2019-03-26",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:35.770365+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:42:08.825849+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:01.878853+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:13.733544+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:32.013851+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:57.134935+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:35.770365+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
+   "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
+   "site": "研究生院",
+   "date": "2019-05-28",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:34.962789+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:57.893239+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:01.738576+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:11.737544+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:31.663825+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:57.093436+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:34.962789+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
+   "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
+   "site": "研究生院",
+   "date": "2019-07-08",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:34.472768+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:54.734426+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:00.692150+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:11.728703+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:30.386851+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:56.361987+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:34.472768+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
+   "title": "第二届中国研究生机器人创新设计大赛预通知",
+   "site": "研究生院",
+   "date": "2020-01-07",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:33.979087+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:51.928965+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:56:00.312121+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:11.724793+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:29.890212+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:55.097957+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:33.979087+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
+   "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
+   "site": "研究生院",
+   "date": "2021-05-12",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:33.142188+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:31.344635+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:59.882064+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:09.871150+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:29.544168+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:54.921232+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:33.142188+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
+   "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
+   "site": "研究生院",
+   "date": "2021-11-24",
+   "source": "gs_competitions",
+   "fetchedAt": "2026-11-10T07:28:32.221069+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:41:26.908001+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.837606+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:09.350625+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:28.590244+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:54.562249+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:32.221069+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
+   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
+   "site": "实践教学中心",
+   "date": "2025-01-03",
+   "source": "pec",
+   "fetchedAt": "2026-11-10T07:28:32.050851+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:40:11.072883+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.609057+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:08.471015+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:28.157572+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:53.512722+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:32.050851+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
+   "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
+   "site": "实践教学中心",
+   "date": "2025-04-29",
+   "source": "pec",
+   "fetchedAt": "2026-11-10T07:28:31.643481+00:00",
+   "status": "failed",
+   "error": "HTTP 404",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-05T14:39:55.270640+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-06T06:55:58.497694+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-07T06:06:08.414273+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-08T06:10:28.156209+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-09T06:43:53.430256+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-10T07:28:31.643481+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
+   "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
+   "site": "实践教学中心",
+   "date": "2026-03-26",
+   "source": "pec",
+   "fetchedAt": "2026-11-10T07:28:31.638637+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:38:58.971897+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:58.493357+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:08.412385+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:28.150533+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:52.593131+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:31.638637+00:00"
+    }
+   ],
+   "totalAttempts": 7
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/132.html",
+   "title": "2027年足式机器人挑战赛-V1.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-08",
+   "source": "robocon",
+   "fetchedAt": "2026-11-10T07:28:31.087996+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:34.060205+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:57.953727+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:08.329832+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:27.537919+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:52.584381+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:31.087996+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+   "site": "教务处",
+   "date": "2026-10-14",
+   "source": "jwc",
+   "fetchedAt": "2026-11-10T07:28:30.861684+00:00",
+   "status": "failed",
+   "error": "HTTP 404",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-05T14:37:29.507796+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-06T06:55:56.915895+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-07T06:06:07.109882+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-08T06:10:26.344564+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-09T06:43:52.179417+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-10T07:28:30.861684+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/133.html",
+   "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
+   "site": "ROBOCON官网",
+   "date": "2026-10-20",
+   "source": "robocon",
+   "fetchedAt": "2026-11-10T07:28:30.789898+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:23.084982+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.914879+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:07.109256+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:26.343669+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:51.292130+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:30.789898+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/134.html",
+   "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
+   "site": "ROBOCON官网",
+   "date": "2026-10-26",
+   "source": "robocon",
+   "fetchedAt": "2026-11-10T07:28:30.763219+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:19.567120+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.913796+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:07.108455+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:26.343024+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:50.986138+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:30.763219+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/135.html",
+   "title": "2027年足式机器人挑战赛-V2.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-29",
+   "source": "robocon",
+   "fetchedAt": "2026-11-10T07:28:29.586059+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-05T14:37:16.063073+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-06T06:55:56.912028+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-07T06:06:07.107357+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-08T06:10:26.341731+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-09T06:43:50.971964+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-10T07:28:29.586059+00:00"
+    }
+   ],
+   "totalAttempts": 6
+  },
+  {
+   "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+   "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
+   "site": "能动学院",
+   "date": "2026-11-09",
+   "source": "epe_notices",
+   "fetchedAt": "2026-11-10T07:28:29.585301+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "075131e6df080372558902b79a51f9c071a818e29a81c59a0847487ca04c7b25",
+   "contentParserVersion": 2,
+   "body": "一、申请条件\n一般应为2025级本校全日制非定向在读的学术学位硕士研究生及专业学位硕士研究生，应满足基本条件如下：\n1.拥护中国共产党的领导，品德良好，遵纪守法；\n2.身体和心理健康符合国家和学校规定的体检要求；\n3.应完成规定培养计划中的课程学习并合格，具有强烈科研意愿，已开展一定的科研工作。\n二、网上报名\n时间：2026年11月10日-11月17日\n网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。\n报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。\n三、提交材料清单\n1.博士生资格考核表（详见附件）；\n2.博士生考生报名情况登记卡（网报后双面打印，本人签字）；\n3.报考攻读博士学位研究生登记表（在报名网页下载空白表手工填写并贴1寸免冠照片）；\n4.学士学位证书复印件，本科毕业证书复印件；\n5.本人身份证复印件（正反面印在同一页）；\n6.两门与本学科有关的专家推荐书。专家推荐书为专家在线填写，由考生通过报考系统填写推荐人信息（含电子邮箱），专家在线提交推荐书。（学院审核网报材料时，通过网报系统下载打印留存，考生无需提交推荐书纸质材料）\n四、提交资格考核材料时间\n11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。\n五、资格考核过程及考核结果处理\n根据本学院系所设置情况成立若干资格考核小组，每个系所可单独成立考核小组，或相关学科方向的系所也可以联合成立考核小组。资格考核小组负责组织专家进行材料评议和综合面试，根据每位研究生的专业成绩、面试成绩，给出考核总成绩和资格考核评价意见，分别填入《西安交通大学博士生资格考核表》，经组长审核签字后，连同面试记录表送交学院。\n六、入学\n通过资格考核的学生将于2027年3月转入博士阶段，按照博士生学籍规定进行管理。\n七、投诉监督邮箱：zhangxf2016@xjtu.edu.cn\n联系地址：西安交通大学能动学院研究生办公室（兴庆校区北二楼81303室）\n联系方式：029-82668701 高老师\n咨询QQ群：246877271（加群须实名验证）\n西安交通大学能源与动力工程学院\n2027年11月9日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">一、申请条件</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">一般应为2025级本校全日制非定向在读的学术学位硕士研究生及专业学位硕士研究生，应满足基本条件如下：</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1.拥护中国共产党的领导，品德良好，遵纪守法；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2.身体和心理健康符合国家和学校规定的体检要求；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3.应完成规定培养计划中的课程学习并合格，具有强烈科研意愿，已开展一定的科研工作。</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">二、网上报名</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">时间：2026年11月10日-11月17日</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">三、提交材料清单</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">1.博士生资格考核表（详见附件）；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2.博士生考生报名情况登记卡（网报后双面打印，本人签字）；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3.报考攻读博士学位研究生登记表（在报名网页下载空白表手工填写并贴1寸免冠照片）；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">4.学士学位证书复印件，本科毕业证书复印件；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">5.本人身份证复印件（正反面印在同一页）；</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">6.两门与本学科有关的专家推荐书。专家推荐书为专家在线填写，由考生通过报考系统填写推荐人信息（含电子邮箱），专家在线提交推荐书。（学院审核网报材料时，通过网报系统下载打印留存，考生无需提交推荐书纸质材料）</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">四、提交资格考核材料时间</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">五、资格考核过程及考核结果处理</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">根据本学院系所设置情况成立若干资格考核小组，每个系所可单独成立考核小组，或相关学科方向的系所也可以联合成立考核小组。资格考核小组负责组织专家进行材料评议和综合面试，根据每位研究生的专业成绩、面试成绩，给出考核总成绩和资格考核评价意见，分别填入《西安交通大学博士生资格考核表》，经组长审核签字后，连同面试记录表送交学院。</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">六、入学</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">通过资格考核的学生将于2027年3月转入博士阶段，按照博士生学籍规定进行管理。</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">七、投诉监督邮箱：zhangxf2016@xjtu.edu.cn</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">联系地址：西安交通大学能动学院研究生办公室（兴庆校区北二楼81303室）</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">联系方式：029-82668701 高老师</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">咨询QQ群：246877271（加群须实名验证）</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">西安交通大学能源与动力工程学院</span></p> \r\n   <p style=\"text-align: justify; text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2027年11月9日</span></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 1020,
+   "excerpt": "一、申请条件 一般应为2025级本校全日制非定向在读的学术学位硕士研究生及专业学位硕士研究生，应满足基本条件如下： 1.拥护中国共产党的领导，品德良好，遵纪守法； 2.身体和心理健康符合国家和学校规定的体检要求； 3.应完成规定培养计划中的课程学习并合格，具有强烈科研意愿，已开展一定的科研工作。 二、网上报名 时间：2026年11月10日-11月17日 网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。 报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。",
+   "paragraphs": [
+    "一、申请条件",
+    "一般应为2025级本校全日制非定向在读的学术学位硕士研究生及专业学位硕士研究生，应满足基本条件如下：",
+    "1.拥护中国共产党的领导，品德良好，遵纪守法；",
+    "2.身体和心理健康符合国家和学校规定的体检要求；",
+    "3.应完成规定培养计划中的课程学习并合格，具有强烈科研意愿，已开展一定的科研工作。",
+    "二、网上报名",
+    "时间：2026年11月10日-11月17日",
+    "网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。",
+    "报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。",
+    "三、提交材料清单",
+    "1.博士生资格考核表（详见附件）；",
+    "2.博士生考生报名情况登记卡（网报后双面打印，本人签字）；",
+    "3.报考攻读博士学位研究生登记表（在报名网页下载空白表手工填写并贴1寸免冠照片）；",
+    "4.学士学位证书复印件，本科毕业证书复印件；",
+    "5.本人身份证复印件（正反面印在同一页）；",
+    "6.两门与本学科有关的专家推荐书。专家推荐书为专家在线填写，由考生通过报考系统填写推荐人信息（含电子邮箱），专家在线提交推荐书。（学院审核网报材料时，通过网报系统下载打印留存，考生无需提交推荐书纸质材料）",
+    "四、提交资格考核材料时间",
+    "11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。",
+    "五、资格考核过程及考核结果处理",
+    "根据本学院系所设置情况成立若干资格考核小组，每个系所可单独成立考核小组，或相关学科方向的系所也可以联合成立考核小组。资格考核小组负责组织专家进行材料评议和综合面试，根据每位研究生的专业成绩、面试成绩，给出考核总成绩和资格考核评价意见，分别填入《西安交通大学博士生资格考核表》，经组长审核签字后，连同面试记录表送交学院。",
+    "六、入学",
+    "通过资格考核的学生将于2027年3月转入博士阶段，按照博士生学籍规定进行管理。",
+    "七、投诉监督邮箱：zhangxf2016@xjtu.edu.cn",
+    "联系地址：西安交通大学能动学院研究生办公室（兴庆校区北二楼81303室）",
+    "联系方式：029-82668701 高老师",
+    "咨询QQ群：246877271（加群须实名验证）",
+    "西安交通大学能源与动力工程学院",
+    "2027年11月9日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "https://epe.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067624004&wbfileid=18626753",
+     "text": "资格考核表格.docx",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://epe.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2067624004&wbfileid=18626753",
+     "text": "资格考核表格.docx",
+     "kind": "file"
+    }
+   ],
+   "contact": "",
+   "phone": "",
+   "email": "zhangxf2016@xjtu.edu.cn",
+   "qq": "246877271",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-10T07:28:29.585301+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+   "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
+   "site": "教务处",
+   "date": "2026-11-10",
+   "source": "jwc",
+   "fetchedAt": "2026-11-10T07:28:29.584641+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "2310c15c2a87c4c327401741e51f5f1415593154e5495d1044b472a48759ea5e",
+   "contentParserVersion": 2,
+   "body": "各学院、部（中心）及有关单位：\n为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下：\n一、优秀论文\n本届征文关注的不是“是否使用了人工智能”，而是当创业的基本单元由团队转向个体，双创教育应当教什么、如何组织、如何评价。鼓励基于实证与改革实践，提出可验证、可迁移的理论判断与解决方案。\n1.论文类别\n论文主要分为新工科类、新医科类、新农科类、新文科类、“人工智能+”、其他等共六个类别。\n2.论文内容\n论文选题包括但不限于创新创业实践教育理论研究、创新创业实践教育改革发展研究等。研究方向具体涵盖：人工智能赋能创新创业教育改革、创新创业微专业建设、创新创业课程体系建设、创新创业实践育人体系构建、双创教师教学能力提升、创新创业政策保障体系建设、高校 AI OPC 基地与众创空间生态打造等。鼓励围绕高校师生创新成果赋能产业升级、助力绿色低碳发展，以及产教融合、智慧育人、国际化双创人才培养等重点方向开展研究。论文应立足创新创业实践教育改革进程中的新情况、新矛盾、新问题，着力提出新思路、新路径、新方法、新技术，充分展示改革实践形成的新成果、新经验。3.撰稿要求\n建议字数在5000至6000字为宜，摘要一般为200—300字。须附题目、撰稿人姓名、单位、摘要及关键词等。具体投稿格式参见附件1。\n4.论文评选\n由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参评作品进行认真审阅。征文设一等奖、二等奖、三等奖若干，并计划择优编辑出版。部分优秀论文作者将被邀请作年会发言交流。\n5.相关要求\n（1）稿件应符合出版要求，坚持正确的政治方向和学术导向。\n（2）论文作者人数原则上不超过5人，来稿内容要求具有前瞻性、先进性、系统性、实用性和导向性，并且论点明确，文字精炼流畅，用字规范，数据可靠。\n（3）投稿人须严守学术道德，严禁抄袭、剽窃。对盗用他人研究成果的稿件，一经发现，立即取消评奖资格。\n（4）投稿论文须为未曾公开发表的或者发表时间在2026年1月1日（含）之后，如有发表请注明出处。\n（5）作品请勿涉及保密内容，请作者确保作品内容真实性和客观性，文责自负。\n（6）优秀论文将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。\n二、大学生创新创业实践优秀案例\n案例的价值在于可复制。重点呈现智能工具、产业资源与真实项目接入育人过程后，组织方式、指导方式与成果转化路径的实质性变化，以及可供其他成员单位复用的操作路径。\n1.内容范围\n成员单位组织学生开展创新创业实践活动，包括组织和支持学生开展创新创业研究、创新训练、创业实践，参加各类创新创业大赛、学科竞赛、社会实践等形成的优秀案例。\n2.相关要求\n（1）每个案例执笔人原则上不超过5人。案例着重进行以下方面考察：导向性——案例与当代创新创业主流价值观相符合，突出新质生产力的内涵和人工智能的应用，具有新时代导向引领性；显著性——案例能反映对经济社会发展进步的突出贡献，并在社会上产生一定影响；示范性——案例能反映创新创业的内在发展轨迹，对大学生自主创新创业具有榜样示范作用；“五育”性——聚焦德智体美劳“五育”并举的创新创业教育实践，能够反映大学生爱国情怀、社会责任感和创新创造精神的塑造和提升。\n（2）推荐案例在4000-5000字以内为宜。包括但不限于如下要素：创新创业背景、创新创业历程、运营情况、所获奖项、示范效应等。具体格式参见附件3。\n（3）案例写作以叙事为主，点评不宜过多。\n（4）活动照片或专利图片，分辨率1024*768以上，横版照片，根据照片内容命名，如“比赛现场、获奖证书”等。相关照片、视频等可作为附件，压缩打包命名为“案例名称”。\n（5）作品请勿涉及保密内容，请执笔人确保作品内容真实性和客观性，文责自负。\n（6）优秀案例将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。\n3.案例评选\n由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参选案例进行认真审阅，评选一批大学生创新创业实践优秀案例，并择优编辑出版案例集。部分优秀案例代表将被邀请作年会发言交流。\n三、指导教师优秀事迹\n重点征集在技术重构实践教学的转折中，主动重建课程内容、指导方式与资源链接机制，并形成可验证育人成效的教师与管理人员。\n1.征集范围\n从事大学生创新创业实践工作的教师和管理人员的优秀事迹均可参与征集。\n2.征集条件\n（1）具有坚定的政治立场，遵纪守法，坚决贯彻执行党和国家的教育方针和政策，切实落实立德树人根本任务。积极参加实盟组织开展的各项活动，积极倡导和开展创新创业实践。\n（2）积极开展创新创业实践理论研究和实践探索，学术成果显著，对引领创新创业教育发展，构建双创实践教学新体系做出较大贡献。\n（3）热爱大学生创新创业教育，热心从事创新创业实践工作，具有强烈的事业心和高度的责任感。对学生实习实践、创业就业、成果转化对接等工作积极，具有主动性和前瞻性。积极承担学生创新创业项目和实践活动的指导工作，在创新创业人才培养方面成绩显著。\n四、“人工智能+”优秀项目\n评审不以是否调用大模型为标准，而以是否解决真实问题、是否形成应用基础与清晰的商业化路径为标准。特别鼓励AI OPC形态的一人创业项目申报，让最小组织单元的创新成果接受产业与资本检验。\n1.项目范围\n面向经济社会各领域现实需求，重点征集以人工智能与产业行业、民生服务、社会治理等场景深度融合为方向，运用大模型、智能体等新一代数字技术培育新产品、新服务、新业态、新模式，助力传统行业智能化改造升级，并具备应用基础的“人工智能＋”创新创业项目，鼓励优先推荐AI OPC 项目和具有较强商业化落地前景的“人工智能＋”项目。\n2.项目评选\n由实盟专家委员会专家、知名投资人、人工智能企业创始人等组成评审委员会，秉持公平、公正的原则，对全部推荐项目进行认真评审，评出一、二、三等奖若干。所有获奖项目皆可参加年会同期举办的投融资对接活动，获评一等奖的项目将被邀请作年会发言交流。\n3.相关要求\n项目核心团队成员不超过5人，具体内容请填写附件6，同时提交项目路演PPT和商业计划书。\n五、材料提交\n（1）论文：附件1-2\n（2）案例投稿：附件3-4\n（3）指导教师优秀事迹：附件5\n（4）“人工智能+”优秀项目：附件6\n请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。\n联系人：丁晓倩，邮箱：dingxq@xjtu.edu.cn, 电话：82663872\n附件1-论文模板.docx\n附件2-优秀论文汇总表.docx\n附件3-大学生创新创业实践优秀案例模板.docx\n附件4-大学生创新创业实践优秀案例汇总表.docx\n附件5-指导教师优秀事迹推荐表.docx\n附件6-“人工智能+”优秀项目推荐表.docx\n实践教学中心\n2026年11月10日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"text-align: left; margin: 0px; text-indent: 0px; padding: 0px; line-height: 34px; background: rgb(255, 255, 255);\"><strong><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">各学院、部（中心）及有关单位：</span></strong></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（</span><span style=\"font-family:仿宋_GB2312\">2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下：</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">一、</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">优秀论文</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">本届征文关注的不是</span><span style=\"font-family:仿宋_GB2312\">“是否使用了人工智能”，而是当创业的基本单元由团队转向个体，双创教育应当教什么、如何组织、如何评价。鼓励基于实证与改革实践，提出可验证、可迁移的理论判断与解决方案。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">1.论文类别</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">论文主要分为新工科类、新医科类、新农科类、新文科类、</span><span style=\"font-family:仿宋_GB2312\">“人工智能+”、其他等共六个类别。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">2.论文内容</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">论文选题包括但不限于创新创业实践教育理论研究、创新创业实践教育改革发展研究等。研究方向具体涵盖：人工智能赋能创新创业教育改革、创新创业微专业建设、创新创业课程体系建设、创新创业实践育人体系构建、双创教师教学能力提升、创新创业政策保障体系建设、高校</span> <span style=\"font-family:仿宋_GB2312\">AI OPC 基地与众创空间生态打造等。鼓励围绕高校师生创新成果赋能产业升级、助力绿色低碳发展，以及产教融合、智慧育人、国际化双创人才培养等重点方向开展研究。论文应立足创新创业实践教育改革进程中的新情况、新矛盾、新问题，着力提出新思路、新路径、新方法、新技术，充分展示改革实践形成的新成果、新经验。3.撰稿要求</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">建议字数在</span><span style=\"font-family:仿宋_GB2312\">5000至6000字为宜，摘要一般为200—300字。须附题目、撰稿人姓名、单位、摘要及关键词等。具体投稿格式参见附件1。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">4</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">.</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">论文评选</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参评作品进行认真审阅。征文设一等奖、二等奖、三等奖若干，并计划择优编辑出版。部分优秀论文作者将被邀请作年会发言交流。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">5</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">.相关要求</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">1）稿件应符合出版要求，坚持正确的政治方向和学术导向。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">2）论文作者人数原则上不超过5人，来稿内容要求具有前瞻性、先进性、系统性、实用性和导向性，并且论点明确，文字精炼流畅，用字规范，数据可靠。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">3）投稿人须严守学术道德，严禁抄袭、剽窃。对盗用他人研究成果的稿件，一经发现，立即取消评奖资格。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">4）投稿论文须为未曾公开发表的或者发表时间在2026年1月1日（含）之后，如有发表请注明出处。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">5）作品请勿涉及保密内容，请作者确保作品内容真实性和客观性，文责自负。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">6）</span></span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">优秀论文将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">二、大学生创新创业实践优秀案例</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">案例的价值在于可复制。重点呈现智能工具、产业资源与真实项目接入育人过程后，组织方式、指导方式与成果转化路径的实质性变化，以及可供其他成员单位复用的操作路径。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">1.内容范围</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">成员单位组织学生开展创新创业实践活动，包括组织和支持学生开展创新创业研究、创新训练、创业实践，参加各类创新创业大赛、学科竞赛、社会实践等形成的优秀案例。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">2.相关要求</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">1）每个案例执笔人原则上不超过5人。案例着重进行以下方面考察：导向性——案例与当代创新创业主流价值观相符合，突出新质生产力的内涵和人工智能的应用，具有新时代导向引领性；显著性——案例能反映对经济社会发展进步的突出贡献，并在社会上产生一定影响；示范性——案例能反映创新创业的内在发展轨迹，对大学生自主创新创业具有榜样示范作用；“五育”性——聚焦德智体美劳“五育”并举的创新创业教育实践，能够反映大学生爱国情怀、社会责任感和创新创造精神的塑造和提升。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">2）推荐案例在4000-5000字以内为宜。包括但不限于如下要素：创新创业背景、创新创业历程、运营情况、所获奖项、示范效应等。具体格式参见附件3。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">3）案例写作以叙事为主，点评不宜过多。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">4）活动照片或专利图片，分辨率1024*768以上，横版照片，根据照片内容命名，如“比赛现场、获奖证书”等。相关照片、视频等可作为附件，压缩打包命名为“案例名称”。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">5）作品请勿涉及保密内容，请执笔人确保作品内容真实性和客观性，文责自负。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">6）优秀案例将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">3.案例评选</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参选案例进行认真审阅，评选一批大学生创新创业实践优秀案例，并择优编辑出版案例集。部分优秀案例代表将被邀请作年会发言交流。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">三、</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">指导教师优秀事迹</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-indent:32px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">重点征集在技术重构实践教学的转折中，主动重建课程内容、指导方式与资源链接机制，并形成可验证育人成效的教师与管理人员。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">1.征集范围</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">从事大学生创新创业实践工作的教师和管理人员的优秀事迹均可参与征集。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">2.征集条件</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">1）具有坚定的政治立场，遵纪守法，坚决贯彻执行党和国家的教育方针和政策，切实落实立德树人根本任务。积极参加实盟组织开展的各项活动，积极倡导和开展创新创业实践。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">2）积极开展创新创业实践理论研究和实践探索，学术成果显著，对引领创新创业教育发展，构建双创实践教学新体系做出较大贡献。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">3）热爱大学生创新创业教育，热心从事创新创业实践工作，具有强烈的事业心和高度的责任感。对学生实习实践、创业就业、成果转化对接等工作积极，具有主动性和前瞻性。积极承担学生创新创业项目和实践活动的指导工作，在创新创业人才培养方面成绩显著。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">四、</span><span style=\"font-family:仿宋_GB2312\">“人工智能+”优秀项目</span></span></p> \r\n   <p style=\"text-indent: 32px;line-height: 34px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">评审不以是否调用大模型为标准，而以是否解决真实问题、是否形成应用基础与清晰的商业化路径为标准。特别鼓励</span><span style=\"font-family:仿宋_GB2312\">AI OPC形态的一人创业项目申报，让最小组织单元的创新成果接受产业与资本检验。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">1.项目范围</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">面向经济社会各领域现实需求，重点征集以人工智能与产业行业、民生服务、社会治理等场景深度融合为方向，运用大模型、智能体等新一代数字技术培育新产品、新服务、新业态、新模式，助力传统行业智能化改造升级，并具备应用基础的</span><span style=\"font-family:仿宋_GB2312\">“人工智能＋”创新创业项目，鼓励优先推荐AI OPC 项目和具有较强商业化落地前景的“人工智能＋”项目。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">2.项目评选</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">由实盟专家委员会专家、知名投资人、人工智能企业创始人等组成评审委员会，秉持公平、公正的原则，对全部推荐项目进行认真评审，评出一、二、三等奖若干。所有获奖项目皆可参加年会同期举办的投融资对接活动，获评一等奖的项目将被邀请作年会发言交流。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">3.相关要求</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">项目核心团队成员不超过</span><span style=\"font-family:仿宋_GB2312\">5人，具体内容请填写附件6，同时提交项目路演PPT和商业计划书。</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">五、材料提交</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">1）论文：附件1-2</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">2）案例投稿：附件3-4</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">3）指导教师优秀事迹：附件5</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">（</span><span style=\"font-family:仿宋_GB2312\">4）“人工智能+”优秀项目：附件6</span></span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">请将以上材料的</span><span style=\"font-family:仿宋_GB2312\">word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，</span></span><strong><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列</span></strong><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">，</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">于</span><span style=\"font-family:仿宋_GB2312\">11月1</span></span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">6</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">日前发送至</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">联系人邮箱。</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">联系人：</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">丁晓倩</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">，</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">邮箱：</span><a href=\"\"><span style=\"text-decoration:underline;\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 255);letter-spacing: 0;font-size: 16px\">dingxq@xjtu.edu.cn,</span></span></a> <span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">电话：</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 16px\">82663872</span></p> \r\n   <p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;line-height:34px;background:rgb(255,255,255)\"><br></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">1-论文模板.docx</span></span></a></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">2-优秀论文汇总表.docx</span></span></a></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/b88a72ec-68b8-4400-bb56-8b8a2747635a.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">3-大学生创新创业实践优秀案例模板.docx</span></span></a></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">4-大学生创新创业实践优秀案例汇总表.docx</span></span></a></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">5-指导教师优秀事迹推荐表.docx</span></span></a></p> \r\n   <p style=\"text-indent: 37px;padding: 0;line-height: 34px;background: rgb(255, 255, 255)\"><a href=\"http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx\"><span style=\"font-family: 仿宋_gb2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 16px\"><span style=\"font-family:仿宋_GB2312\">附件</span><span style=\"font-family:仿宋_GB2312\">6-“人工智能+”优秀项目推荐表.docx</span></span></a></p> \r\n   <p><br></p> \r\n   <p style=\"text-align: right;\">实践教学中心<br>2026年11月10日</p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 3061,
+   "excerpt": "各学院、部（中心）及有关单位： 为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下： 一、优秀论文 本届征文关注的不是“是否使用了人工智能”，而是当创业的基本单元由团队转向个体，双创教育应当教什么、如何组织、如何评价。鼓励基于实证与改革实践，提出可验证、可迁移的理论判断与解决方案。 1.论文类别 论文主要分为新工科类、新医科类、新农科类、新文科类、“人工智能+”、其他等共六个类别。 2.论文内容 论文选题包括但不限于创新创业实践教育理论研究、创新创业实践教育改革发展研究等。",
+   "paragraphs": [
+    "各学院、部（中心）及有关单位：",
+    "为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下：",
+    "一、优秀论文",
+    "本届征文关注的不是“是否使用了人工智能”，而是当创业的基本单元由团队转向个体，双创教育应当教什么、如何组织、如何评价。鼓励基于实证与改革实践，提出可验证、可迁移的理论判断与解决方案。",
+    "1.论文类别",
+    "论文主要分为新工科类、新医科类、新农科类、新文科类、“人工智能+”、其他等共六个类别。",
+    "2.论文内容",
+    "论文选题包括但不限于创新创业实践教育理论研究、创新创业实践教育改革发展研究等。研究方向具体涵盖：人工智能赋能创新创业教育改革、创新创业微专业建设、创新创业课程体系建设、创新创业实践育人体系构建、双创教师教学能力提升、创新创业政策保障体系建设、高校 AI OPC 基地与众创空间生态打造等。鼓励围绕高校师生创新成果赋能产业升级、助力绿色低碳发展，以及产教融合、智慧育人、国际化双创人才培养等重点方向开展研究。论文应立足创新创业实践教育改革进程中的新情况、新矛盾、新问题，着力提出新思路、新路径、新方法、新技术，充分展示改革实践形成的新成果、新经验。3.撰稿要求",
+    "建议字数在5000至6000字为宜，摘要一般为200—300字。须附题目、撰稿人姓名、单位、摘要及关键词等。具体投稿格式参见附件1。",
+    "4.论文评选",
+    "由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参评作品进行认真审阅。征文设一等奖、二等奖、三等奖若干，并计划择优编辑出版。部分优秀论文作者将被邀请作年会发言交流。",
+    "5.相关要求",
+    "（1）稿件应符合出版要求，坚持正确的政治方向和学术导向。",
+    "（2）论文作者人数原则上不超过5人，来稿内容要求具有前瞻性、先进性、系统性、实用性和导向性，并且论点明确，文字精炼流畅，用字规范，数据可靠。",
+    "（3）投稿人须严守学术道德，严禁抄袭、剽窃。对盗用他人研究成果的稿件，一经发现，立即取消评奖资格。",
+    "（4）投稿论文须为未曾公开发表的或者发表时间在2026年1月1日（含）之后，如有发表请注明出处。",
+    "（5）作品请勿涉及保密内容，请作者确保作品内容真实性和客观性，文责自负。",
+    "（6）优秀论文将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。",
+    "二、大学生创新创业实践优秀案例",
+    "案例的价值在于可复制。重点呈现智能工具、产业资源与真实项目接入育人过程后，组织方式、指导方式与成果转化路径的实质性变化，以及可供其他成员单位复用的操作路径。",
+    "1.内容范围",
+    "成员单位组织学生开展创新创业实践活动，包括组织和支持学生开展创新创业研究、创新训练、创业实践，参加各类创新创业大赛、学科竞赛、社会实践等形成的优秀案例。",
+    "2.相关要求",
+    "（1）每个案例执笔人原则上不超过5人。案例着重进行以下方面考察：导向性——案例与当代创新创业主流价值观相符合，突出新质生产力的内涵和人工智能的应用，具有新时代导向引领性；显著性——案例能反映对经济社会发展进步的突出贡献，并在社会上产生一定影响；示范性——案例能反映创新创业的内在发展轨迹，对大学生自主创新创业具有榜样示范作用；“五育”性——聚焦德智体美劳“五育”并举的创新创业教育实践，能够反映大学生爱国情怀、社会责任感和创新创造精神的塑造和提升。",
+    "（2）推荐案例在4000-5000字以内为宜。包括但不限于如下要素：创新创业背景、创新创业历程、运营情况、所获奖项、示范效应等。具体格式参见附件3。",
+    "（3）案例写作以叙事为主，点评不宜过多。",
+    "（4）活动照片或专利图片，分辨率1024*768以上，横版照片，根据照片内容命名，如“比赛现场、获奖证书”等。相关照片、视频等可作为附件，压缩打包命名为“案例名称”。",
+    "（5）作品请勿涉及保密内容，请执笔人确保作品内容真实性和客观性，文责自负。",
+    "（6）优秀案例将向有关机构推荐或出版，凡向年会投稿未作特殊声明者，视为已同意授权推荐或出版。",
+    "3.案例评选",
+    "由实盟专家委员会专家组成评审委员会，秉持公平、公正的原则，对全部参选案例进行认真审阅，评选一批大学生创新创业实践优秀案例，并择优编辑出版案例集。部分优秀案例代表将被邀请作年会发言交流。",
+    "三、指导教师优秀事迹",
+    "重点征集在技术重构实践教学的转折中，主动重建课程内容、指导方式与资源链接机制，并形成可验证育人成效的教师与管理人员。",
+    "1.征集范围",
+    "从事大学生创新创业实践工作的教师和管理人员的优秀事迹均可参与征集。",
+    "2.征集条件",
+    "（1）具有坚定的政治立场，遵纪守法，坚决贯彻执行党和国家的教育方针和政策，切实落实立德树人根本任务。积极参加实盟组织开展的各项活动，积极倡导和开展创新创业实践。",
+    "（2）积极开展创新创业实践理论研究和实践探索，学术成果显著，对引领创新创业教育发展，构建双创实践教学新体系做出较大贡献。",
+    "（3）热爱大学生创新创业教育，热心从事创新创业实践工作，具有强烈的事业心和高度的责任感。对学生实习实践、创业就业、成果转化对接等工作积极，具有主动性和前瞻性。积极承担学生创新创业项目和实践活动的指导工作，在创新创业人才培养方面成绩显著。",
+    "四、“人工智能+”优秀项目",
+    "评审不以是否调用大模型为标准，而以是否解决真实问题、是否形成应用基础与清晰的商业化路径为标准。特别鼓励AI OPC形态的一人创业项目申报，让最小组织单元的创新成果接受产业与资本检验。",
+    "1.项目范围",
+    "面向经济社会各领域现实需求，重点征集以人工智能与产业行业、民生服务、社会治理等场景深度融合为方向，运用大模型、智能体等新一代数字技术培育新产品、新服务、新业态、新模式，助力传统行业智能化改造升级，并具备应用基础的“人工智能＋”创新创业项目，鼓励优先推荐AI OPC 项目和具有较强商业化落地前景的“人工智能＋”项目。",
+    "2.项目评选",
+    "由实盟专家委员会专家、知名投资人、人工智能企业创始人等组成评审委员会，秉持公平、公正的原则，对全部推荐项目进行认真评审，评出一、二、三等奖若干。所有获奖项目皆可参加年会同期举办的投融资对接活动，获评一等奖的项目将被邀请作年会发言交流。",
+    "3.相关要求",
+    "项目核心团队成员不超过5人，具体内容请填写附件6，同时提交项目路演PPT和商业计划书。",
+    "五、材料提交",
+    "（1）论文：附件1-2",
+    "（2）案例投稿：附件3-4",
+    "（3）指导教师优秀事迹：附件5",
+    "（4）“人工智能+”优秀项目：附件6",
+    "请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。",
+    "联系人：丁晓倩，邮箱：dingxq@xjtu.edu.cn, 电话：82663872",
+    "附件1-论文模板.docx",
+    "附件2-优秀论文汇总表.docx",
+    "附件3-大学生创新创业实践优秀案例模板.docx",
+    "附件4-大学生创新创业实践优秀案例汇总表.docx",
+    "附件5-指导教师优秀事迹推荐表.docx",
+    "附件6-“人工智能+”优秀项目推荐表.docx",
+    "实践教学中心\n2026年11月10日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+     "text": "附件1-论文模板.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+     "text": "附件2-优秀论文汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/b88a72ec-68b8-4400-bb56-8b8a2747635a.docx",
+     "text": "附件3-大学生创新创业实践优秀案例模板.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+     "text": "附件4-大学生创新创业实践优秀案例汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+     "text": "附件5-指导教师优秀事迹推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+     "text": "附件6-“人工智能+”优秀项目推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626883",
+     "text": "附件1-论文模版.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626884",
+     "text": "附件2-优秀论文推荐汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626885",
+     "text": "附件3-大学生创新创业实践案例模版.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626886",
+     "text": "附件4-大学生创新创业实践优秀案例推荐汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626887",
+     "text": "附件5-指导教师优秀事迹推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626888",
+     "text": "附件6-“人工智能+”优秀项目推荐表.docx",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+     "text": "附件1-论文模板.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+     "text": "附件2-优秀论文汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/b88a72ec-68b8-4400-bb56-8b8a2747635a.docx",
+     "text": "附件3-大学生创新创业实践优秀案例模板.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+     "text": "附件4-大学生创新创业实践优秀案例汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+     "text": "附件5-指导教师优秀事迹推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+     "text": "附件6-“人工智能+”优秀项目推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626883",
+     "text": "附件1-论文模版.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626884",
+     "text": "附件2-优秀论文推荐汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626885",
+     "text": "附件3-大学生创新创业实践案例模版.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626886",
+     "text": "附件4-大学生创新创业实践优秀案例推荐汇总表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626887",
+     "text": "附件5-指导教师优秀事迹推荐表.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18626888",
+     "text": "附件6-“人工智能+”优秀项目推荐表.docx",
+     "kind": "file"
+    }
+   ],
+   "contact": "邮箱",
+   "phone": "",
+   "email": "dingxq@xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-10T07:28:29.584641+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+   "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
+   "site": "校团委",
+   "date": "2026-11-10",
+   "source": "团委",
+   "fetchedAt": "2026-11-10T07:28:29.583445+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "cd7545c9c71bf6e9c07e9dd076d3676863fbacbd46f208e34ebdf568e6e3acc4",
+   "contentParserVersion": 2,
+   "body": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。\n赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，坦言不同阶段的学习与实践逐步拓宽了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。\n围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。从古代丝绸之路上的茶叶、瓷器、丝绸，到改革开放后中国企业的海外市场探索，再到当下中国科技品牌加快走向世界，他结合不同时期的案例，梳理了中国品牌对外传播的历史脉络和现实格局。他认为，品牌走向世界，既依托产品与服务，也离不开价值理念的传递。做好品牌国际传播，需要在展现产品优势的同时，让海外受众理解品牌背后的文化与价值。\n如何让传播跨越语言与文化的差异？赵新利结合抗战时期中国共产党对外宣传的史料，分享了对受众意识与沟通方式的思考。他以我军主办的日文报纸《日军之友》等为例，讲述传播工作如何从受众的生活经历、情感需求出发，选择对方易于理解和接受的表达方式。他表示，有效的传播离不开真诚沟通，应减少空泛说教，重视具体的人和真实的情感，在理解受众的基础上建立信任、形成共鸣。\n谈及传播中的信任建立，赵新利强调第三人效果和实事求是的重要性。品牌传播过程中既要展示发展成就，也应坦诚面对问题，并说明解决问题的努力与路径。他结合品牌广告案例，分析日常生活经验与共同记忆如何唤起情感共鸣，提出品牌传播应注重真实、贴近生活，让价值理念融入受众能够感知的具体表达。\n互动环节中，同学们围绕人工智能与国际传播、跨专业学习、职业发展等问题提问，赵新利结合行业变化与人才培养实践逐一解答。他认为，人工智能为多语种翻译、信息获取等工作带来便利，也对传播人才的能力结构提出了新要求。他鼓励同学们主动了解新技术，夯实文史哲、美学、艺术等人文基础，拓展技术视野，培养自己的专长。结合自身跨学科学习经历，他勉励同学们不必拘泥于专业与职业的一一对应，要立足当下打好基础，在持续学习中把握发展机会。\n据悉，“繁星计划”美育大课堂由学校党委统一部署、校团委牵头主办，搭建国内外艺术名家与交大学子“面对面”交流的文化艺术平台，旨在全面提升学生文化理解、审美感知、艺术表现、创意实践等核心素养，丰富学生的精神文化生活，以文化人，以美育人。",
+   "bodyHtml": "<p class=\"MsoNormal\" align=\"justify\">    11月8日<span style=\"font-family: 仿宋;\">晚上</span><span style=\"font-family: 仿宋;\">，西安交通大学</span><span style=\"font-family: 仿宋;\">“繁星计划”美育</span><span style=\"font-family: 仿宋;\">大讲堂</span><span style=\"font-family: 仿宋;\">在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利</span><span style=\"font-family: 仿宋;\">教授</span><span style=\"font-family: 仿宋;\">以</span><span style=\"font-family: 仿宋;\">“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享</span><span style=\"font-family: 仿宋;\">中国品牌</span><span style=\"font-family: 仿宋;\">国际传播的思考与实践。新闻与新媒体学院院长汪文斌</span><span style=\"font-family: 仿宋;\">教授</span><span style=\"font-family: 仿宋;\">、新媒</span><span style=\"font-family: 仿宋;\">体</span><span style=\"font-family: 仿宋;\">系主任陈强</span><span style=\"font-family: 仿宋;\">教授和外国语学院副院长王华教授和来自不同专业的</span><span style=\"font-family: 仿宋;\">100名学生代表</span><span style=\"font-family: 仿宋;\">参加</span><span style=\"font-family: 仿宋;\">活动</span><span style=\"font-family: 仿宋;\">。</span></p>\n<p class=\"MsoNormal\" align=\"center\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261110/b6740d72-5efa-440e-b238-c09f5d6b2f00.jpg\" alt=\"\" width=\"600\" height=\"400\"> </p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，</span><span style=\"font-family: 仿宋;\">坦言</span><span style=\"font-family: 仿宋;\">不同阶段的学习与实践逐步</span><span style=\"font-family: 仿宋;\">拓宽</span><span style=\"font-family: 仿宋;\">了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以</span><span style=\"font-family: 仿宋;\">“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。</span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。从古代丝绸之路上的茶叶、瓷器、丝绸，到改革开放后中国企业的海外市场探索，再到当下中国科技品牌加快走向世界，他结合不同时期的案例，梳理了中国品牌对外传播的</span><span style=\"font-family: 仿宋;\">历史</span><span style=\"font-family: 仿宋;\">脉络</span><span style=\"font-family: 仿宋;\">和现实格局</span><span style=\"font-family: 仿宋;\">。他认为，品牌走向世界，既依托产品与服务，也离不开价值理念的传递。做好品牌国际传播，需要在展现产品优势的同时，让海外受众理解品牌背后的文化与价值。</span></p>\n<p class=\"MsoNormal\" align=\"center\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261110/2f79f9ae-f21b-4173-ad1e-ddbe77c73482.jpg\" alt=\"\" width=\"600\" height=\"400\"> </p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    如何让传播跨越语言与文化的差异？赵新利结合抗战时期中国共产党对外宣传的史料，分享了对受众意识与沟通方式的思考。他以</span><span style=\"font-family: 仿宋;\">我军主办的</span><span style=\"font-family: 仿宋;\">日文报纸《日军之友》等为例，讲述传播工作如何从受众的生活经历、情感需求出发，选择对方易于理解和接受的表达方式。他表示，有效的传播离不开真诚沟通，应减少空泛说教，重视具体的人和真实的情感，在理解受众的基础上建立信任、形成共鸣。</span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    谈及传播中的信任建立，赵新利强调</span><span style=\"font-family: 仿宋;\">第三人效果和</span><span style=\"font-family: 仿宋;\">实事求是的重要性。</span><span style=\"font-family: 仿宋;\">品牌传播过程中既要</span><span style=\"font-family: 仿宋;\">展示发展成就，也应坦诚面对问题，并说明解决问题的努力与路径。他结合品牌广告案例，分析日常生活经验与共同记忆如何唤起情感共鸣，提出品牌传播应注重真实、贴近生活，让价值理念融入受众能够感知的具体表达。</span></p>\n<p class=\"MsoNormal\" align=\"center\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261110/67f68351-d27a-4e7b-b7ec-3963bff9d2b9.jpg\" alt=\"\" width=\"600\" height=\"400\"> </p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    互动环节中，同学们围绕人工智能与国际传播、跨专业学习、职业发展等问题提问，赵新利结合行业变化与人才培养实践逐一解答。他认为，人工智能为多语种翻译、信息获取等工作带来便利，也对传播人才的能力结构提出了新要求。他鼓励同学们主动了解新技术，夯实文史哲、美学、艺术等人文基础，拓展技术视野，培养自己的专长。结合自身跨学科学习经历，他勉励同学们不必拘泥于专业与职业的一一对应，要立足当下打好基础，在持续学习中把握发展机会。</span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋;\">    据悉，</span><span style=\"font-family: 仿宋;\">“繁星计划”美育大课堂由学校党委统一部署、校团委牵头主办，搭建国内外艺术名家与交大学子“面对面”交流的文化艺术平台，旨在全面提升学生文化理解、审美感知、艺术表现、创意实践等核心素养，丰富学生的精神文化生活，以文化人，以美育人。</span></p>",
+   "bodyLen": 1197,
+   "excerpt": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。 赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，坦言不同阶段的学习与实践逐步拓宽了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。 围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。",
+   "paragraphs": [
+    "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。",
+    "赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，坦言不同阶段的学习与实践逐步拓宽了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。",
+    "围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。从古代丝绸之路上的茶叶、瓷器、丝绸，到改革开放后中国企业的海外市场探索，再到当下中国科技品牌加快走向世界，他结合不同时期的案例，梳理了中国品牌对外传播的历史脉络和现实格局。他认为，品牌走向世界，既依托产品与服务，也离不开价值理念的传递。做好品牌国际传播，需要在展现产品优势的同时，让海外受众理解品牌背后的文化与价值。",
+    "如何让传播跨越语言与文化的差异？赵新利结合抗战时期中国共产党对外宣传的史料，分享了对受众意识与沟通方式的思考。他以我军主办的日文报纸《日军之友》等为例，讲述传播工作如何从受众的生活经历、情感需求出发，选择对方易于理解和接受的表达方式。他表示，有效的传播离不开真诚沟通，应减少空泛说教，重视具体的人和真实的情感，在理解受众的基础上建立信任、形成共鸣。",
+    "谈及传播中的信任建立，赵新利强调第三人效果和实事求是的重要性。品牌传播过程中既要展示发展成就，也应坦诚面对问题，并说明解决问题的努力与路径。他结合品牌广告案例，分析日常生活经验与共同记忆如何唤起情感共鸣，提出品牌传播应注重真实、贴近生活，让价值理念融入受众能够感知的具体表达。",
+    "互动环节中，同学们围绕人工智能与国际传播、跨专业学习、职业发展等问题提问，赵新利结合行业变化与人才培养实践逐一解答。他认为，人工智能为多语种翻译、信息获取等工作带来便利，也对传播人才的能力结构提出了新要求。他鼓励同学们主动了解新技术，夯实文史哲、美学、艺术等人文基础，拓展技术视野，培养自己的专长。结合自身跨学科学习经历，他勉励同学们不必拘泥于专业与职业的一一对应，要立足当下打好基础，在持续学习中把握发展机会。",
+    "据悉，“繁星计划”美育大课堂由学校党委统一部署、校团委牵头主办，搭建国内外艺术名家与交大学子“面对面”交流的文化艺术平台，旨在全面提升学生文化理解、审美感知、艺术表现、创意实践等核心素养，丰富学生的精神文化生活，以文化人，以美育人。"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261110/b6740d72-5efa-440e-b238-c09f5d6b2f00.jpg",
+     "alt": "",
+     "context": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261110/2f79f9ae-f21b-4173-ad1e-ddbe77c73482.jpg",
+     "alt": "",
+     "context": "围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。从古代丝绸之路上的茶叶、瓷器、丝绸，到改革开放后中国企业的海外市场探索，再到当下中国科技品牌加快走向世界，他结合不同时期的案例，梳理了中国品牌对外传播的历史脉络和现实格局。他认为，品牌走向世界，既依托产品与服务，也离不开价值理念的传递。做好品牌国际传播，需要在展现产品优势的同时，让海外受众理解品牌背后的文化与价值。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261110/67f68351-d27a-4e7b-b7ec-3963bff9d2b9.jpg",
+     "alt": "",
+     "context": "谈及传播中的信任建立，赵新利强调第三人效果和实事求是的重要性。品牌传播过程中既要展示发展成就，也应坦诚面对问题，并说明解决问题的努力与路径。他结合品牌广告案例，分析日常生活经验与共同记忆如何唤起情感共鸣，提出品牌传播应注重真实、贴近生活，让价值理念融入受众能够感知的具体表达。"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-10T07:28:29.583445+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=165",
@@ -442,506 +2013,6 @@
     }
    ],
    "totalAttempts": 1
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
-   "title": "关于举办2019年“中国研究生创新实践系列大赛”的通知",
-   "site": "研究生院",
-   "date": "2019-03-26",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:57.134935+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:42:08.825849+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:01.878853+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:13.733544+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:32.013851+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:57.134935+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
-   "title": "2019年研究生创新实践竞赛训练营（苏州）项目选拔结果的公示",
-   "site": "研究生院",
-   "date": "2019-05-28",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:57.093436+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:57.893239+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:01.738576+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.737544+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:31.663825+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:57.093436+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
-   "title": "西安交大参加陕西省第六届研究生电子设计竞赛暨第十四届中国研究生电子设计竞赛西北赛区选拔赛并获优异成绩",
-   "site": "研究生院",
-   "date": "2019-07-08",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:56.361987+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:54.734426+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:00.692150+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.728703+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:30.386851+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:56.361987+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
-   "title": "第二届中国研究生机器人创新设计大赛预通知",
-   "site": "研究生院",
-   "date": "2020-01-07",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:55.097957+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:51.928965+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:00.312121+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.724793+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:29.890212+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:55.097957+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
-   "title": "关于组织参加2021年 “中国研究生创新实践系列大赛”的通知",
-   "site": "研究生院",
-   "date": "2021-05-12",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:54.921232+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:31.344635+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:59.882064+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:09.871150+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:29.544168+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:54.921232+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
-   "title": "第八届中国研究生能源装备创新设计大赛总决赛落幕 西安交大再获佳绩",
-   "site": "研究生院",
-   "date": "2021-11-24",
-   "source": "gs_competitions",
-   "fetchedAt": "2026-11-09T06:43:54.562249+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:26.908001+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.837606+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:09.350625+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.590244+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:54.562249+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
-   "title": "关于启动中国国际大学生创新大赛（2025） 重点项目征集工作的通知",
-   "site": "实践教学中心",
-   "date": "2025-01-03",
-   "source": "pec",
-   "fetchedAt": "2026-11-09T06:43:53.512722+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:40:11.072883+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.609057+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.471015+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.157572+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:53.512722+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
-   "title": "关于举办第七届中华经典诵写讲大赛西安交通大学校赛的通知",
-   "site": "实践教学中心",
-   "date": "2025-04-29",
-   "source": "pec",
-   "fetchedAt": "2026-11-09T06:43:53.430256+00:00",
-   "status": "failed",
-   "error": "HTTP 404",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:39:55.270640+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-06T06:55:58.497694+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-07T06:06:08.414273+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-08T06:10:28.156209+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-09T06:43:53.430256+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
-   "title": "关于公示西安交通大学第十二届全国大学生机械创新设计大赛校赛结果的通知",
-   "site": "实践教学中心",
-   "date": "2026-03-26",
-   "source": "pec",
-   "fetchedAt": "2026-11-09T06:43:52.593131+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-10-04T07:19:07.676384+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:38:58.971897+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.493357+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.412385+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.150533+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:52.593131+00:00"
-    }
-   ],
-   "totalAttempts": 6
   },
   {
    "url": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
@@ -10038,281 +11109,6 @@
     }
    ],
    "totalAttempts": 1
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/132.html",
-   "title": "2027年足式机器人挑战赛-V1.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-08",
-   "source": "robocon",
-   "fetchedAt": "2026-11-09T06:43:52.584381+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:34.060205+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:57.953727+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.329832+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:27.537919+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:52.584381+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-   "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
-   "site": "教务处",
-   "date": "2026-10-14",
-   "source": "jwc",
-   "fetchedAt": "2026-11-09T06:43:52.179417+00:00",
-   "status": "failed",
-   "error": "HTTP 404",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:37:29.507796+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-06T06:55:56.915895+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-07T06:06:07.109882+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-08T06:10:26.344564+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-09T06:43:52.179417+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/133.html",
-   "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-   "site": "ROBOCON官网",
-   "date": "2026-10-20",
-   "source": "robocon",
-   "fetchedAt": "2026-11-09T06:43:51.292130+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:23.084982+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.914879+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.109256+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.343669+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:51.292130+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/134.html",
-   "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
-   "site": "ROBOCON官网",
-   "date": "2026-10-26",
-   "source": "robocon",
-   "fetchedAt": "2026-11-09T06:43:50.986138+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:19.567120+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.913796+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.108455+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.343024+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:50.986138+00:00"
-    }
-   ],
-   "totalAttempts": 5
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/135.html",
-   "title": "2027年足式机器人挑战赛-V2.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-29",
-   "source": "robocon",
-   "fetchedAt": "2026-11-09T06:43:50.971964+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:16.063073+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.912028+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.107357+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.341731+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-09T06:43:50.971964+00:00"
-    }
-   ],
-   "totalAttempts": 5
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4788",

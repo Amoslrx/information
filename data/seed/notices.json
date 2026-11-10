@@ -180,15 +180,15 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2399,
+  "count": 2402,
   "matched_count": 535,
-  "competition_related_count": 878,
+  "competition_related_count": 879,
   "by_site": {
+    "校团委": 1030,
+    "教务处": 522,
+    "能动学院": 68,
     "电气学院": 226,
-    "教务处": 521,
-    "校团委": 1029,
     "实践教学中心": 401,
-    "能动学院": 67,
     "RoboMaster官网": 26,
     "ROBOCON官网": 14,
     "研究生院": 76,
@@ -201,7 +201,7 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
-    "教务处": 173,
+    "教务处": 174,
     "实践教学中心": 331,
     "电气学院": 22,
     "校团委": 202,
@@ -217,6 +217,40 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-10",
+      "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-10",
+      "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
+      "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
+      "date": "2026-11-09",
+      "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+      "site": "能动学院",
+      "source": "epe_notices",
+      "sourceLabel": "能动学院 · 通知公告",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "date": "2026-11-09",
       "title": "电气学院关于2026-2027学年第一学期博士资格考核工作的通知",

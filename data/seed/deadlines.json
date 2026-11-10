@@ -3,8 +3,8 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1262,
-  "with_deadline": 177,
+  "count": 1265,
+  "with_deadline": 178,
   "items": [
     {
       "url": "http://ee.xjtu.edu.cn/info/1124/14193.htm",
@@ -64378,6 +64378,143 @@
       "snippet": "各班级： 现对2025-2026学年能动学院社会、行业奖学金的申请工作安排如下： 一、名额分配 如附件1（2026年能动学院研究生社会、行业奖学金名额分配及原则）所示。评奖要求依据名额分配表中的备注进行。其中行业奖学金是指能动学院签订的奖学金，社会奖学金是指学校下拨的奖学金，两者参评范围不一样，提交材料也不一样，表中均有标注，请大家注意。 附件2（2026年能动学院硕士/博士社会、行业奖学金建议申请名单）中为学院依据设奖要求以及各位同学的名次排序得出，大家可依据表格建议进行申请。各个社会奖学金与行业奖学金之间不兼得，且每人有且只有一次申请的机会。（其中表格中标黄的为社会奖学金） 同时，社会奖学金、行业奖学金的奖金一般是从设奖人下一财年的经费中列支的，学校只能在收到设奖人汇来的奖金后，方可转发给获奖研究生。在这一过程中，存在因不可抗力导致设奖人不能提供资金，学校不能发放的情形。"
     },
     {
+      "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+      "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
+      "noticeDate": "2026-11-09",
+      "contentHash": "f127bf38ede2de33bcf34e6de69ce8eebcd365da9d57954638c2db8f0b323895",
+      "schemaVersion": 2,
+      "deadline": "2026-11-17",
+      "score": 4,
+      "deadlineEvent": {
+        "value": "2026-11-17",
+        "raw": "时间：2026年11月10日-11月17日",
+        "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+        "location": {
+          "type": "body",
+          "start": 156,
+          "end": 177
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null,
+        "kind": "registration_deadline",
+        "time": null,
+        "timezone": "Asia/Shanghai",
+        "dateRaw": "11月17日",
+        "endDate": null,
+        "superseded": false
+      },
+      "timeline": [
+        {
+          "value": "2026-11-10",
+          "raw": "时间：2026年11月10日-11月17日",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+          "location": {
+            "type": "body",
+            "start": 156,
+            "end": 177
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "registration_start",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-17",
+          "raw": "时间：2026年11月10日-11月17日",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+          "location": {
+            "type": "body",
+            "start": 156,
+            "end": 177
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "registration_deadline",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-20",
+          "raw": "11月20日之前，将考核材料和报名材料一起交给申请博导所在系所秘书老师。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+          "location": {
+            "type": "body",
+            "start": 619,
+            "end": 655
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月20日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "通过资格考核的学生将于2027年3月转入博士阶段，按照博士生学籍规定进行管理。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+          "location": {
+            "type": "body",
+            "start": 837,
+            "end": 876
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027年3月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2027-11-09",
+          "raw": "2027年11月9日",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
+          "location": {
+            "type": "body",
+            "start": 1010,
+            "end": 1020
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2027年11月9日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1020,
+      "snippet": "一、申请条件 一般应为2025级本校全日制非定向在读的学术学位硕士研究生及专业学位硕士研究生，应满足基本条件如下： 1.拥护中国共产党的领导，品德良好，遵纪守法； 2.身体和心理健康符合国家和学校规定的体检要求； 3.应完成规定培养计划中的课程学习并合格，具有强烈科研意愿，已开展一定的科研工作。 二、网上报名 时间：2026年11月10日-11月17日 网址：https://yzbm.xjtu.edu.cn（报名时间开始后方可注册报名），注册批次选择“2027年春季资格考核”，请使用谷歌或IE10及以上浏览器登陆报名系统报考。 报名事项详见研招网“西安交通大学2026-2027学年第一学期博士资格考核选拔工作的通知”，链接：https://yz.xjtu.edu.cn/info/1084/4443.htm。"
+    },
+    {
       "url": "https://epe.xjtu.edu.cn/info/1518/2933.htm",
       "title": "第十届全国大学生节能减排大赛校内赛评审通知",
       "noticeDate": "2017-05-09",
@@ -114976,6 +115113,337 @@
       "snippet": "各学院（部、中心）及有关单位： 根据《关于征集推荐2026年度“人工智能+”虚拟仿真实验教学项目的通知》工作安排，经项目资格审核、专家评审等环节，学校决定推荐“AI交互的沉浸式主动脉夹层救治虚拟仿真实验”等5个项目申报2026年度“人工智能+”虚拟仿真实验教学项目。现将推荐结果予以公示，详见附件（排名不分先后）。 公示期3个工作日，自2026年10月30日至2026年11月3日。公示期间，如有异议，请以书面形式实名向实践教学中心反映，并提供必要证明材料。逾期或匿名异议不予受理。 联系人：张炜丽 联系电话：82667907 电子邮箱：zhangweili@xjtu.edu.cn 联系地址：工程坊A区513办公室 附件：2026年度“人工智能+”虚拟仿真实验教学项目推荐名单 实践教学中心 2026年10月30日"
     },
     {
+      "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+      "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
+      "noticeDate": "2026-11-10",
+      "contentHash": "7db2b9078015f91d79e0c57df74165f7872d6bb16eca03313ca0b92daf855e1c",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": null,
+          "raw": "为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下：",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+          "location": {
+            "type": "body",
+            "start": 16,
+            "end": 214
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "month_precision"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-01-01",
+          "raw": "（4）投稿论文须为未曾公开发表的或者发表时间在2026年1月1日（含）之后，如有发表请注明出处。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+          "location": {
+            "type": "body",
+            "start": 974,
+            "end": 1022
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年1月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-16",
+          "raw": "请将以上材料的word及pdf版本打包，分别以“论文题目、案例题目、指导教师姓名、项目名称”命名，相关材料以学院为单位统一报送，汇总表请按照推荐顺序排列，于11月16日前发送至联系人邮箱。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+          "location": {
+            "type": "body",
+            "start": 2778,
+            "end": 2872
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月16日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-10",
+          "raw": "2026年11月10日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
+          "location": {
+            "type": "body",
+            "start": 3050,
+            "end": 3061
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月10日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "副标题为宋体，小四，20.8磅，段前段后各间距1行；",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 350,
+            "end": 376
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "20.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "作者姓名为仿宋，小四，20.8磅，加粗，段后间距1行；",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 376,
+            "end": 403
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "20.8",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "一级标题为黑体，小四，段前间距1行，段后0.5行，1.5倍行距；",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 471,
+            "end": 503
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "0.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-01-05",
+          "raw": "一级标题为黑体，小四，段前间距1行，段后0.5行，1.5倍行距；",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 471,
+            "end": 503
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "1.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": null,
+          "raw": "二级标题为黑体，五号，段前段后各间距0.5行，17磅；",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/1cdfa1d3-c53b-406f-849f-34a759035e1f.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "87b1c1debc22bff0a2edf998a85c6b4675906559f9a7a9353979e370b0ab60c2",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 503,
+            "end": 530
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "invalid_date"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "0.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2025-11-18",
+          "raw": "1.论文请按学校推荐顺序依次排序，并于2025年11月18日前根据通知要求上传至指定平台。",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/839f4626-8bd8-4bf1-a2f0-fa12a63ad5d2.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "ab4f1940db14210f1347aec674c7b1e43b91e112234b9407be73d551f258099f",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 133,
+            "end": 178
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2025年11月18日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2025-11-18",
+          "raw": "1.案例请按学校推荐顺序排序，并于2025年11月18日前根据通知要求上传至指定平台。",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/26eac6ca-a655-498d-b2a4-fa78b4aec954.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "7615c5862c1ade34403ca2382220677cd7a6b89e354560125aff66dc956bb706",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 170,
+            "end": 213
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2025年11月18日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2025-11-18",
+          "raw": "备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/d8c8da24-5496-4bd8-aa96-3a1c12288da4.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "91871158e44cba92a4758110cdeffe3e648617dc263872b7e7a792d716affbf0",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 625,
+            "end": 656
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2025年11月18日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2025-11-18",
+          "raw": "备注：请于2025年11月18日前根据通知要求上传至指定平台。",
+          "sourceUrl": "http://www.shimeng.org.cn/_upload/article/files/ee/4b/f6fc76e04fd3a2c0c334db97bd7b/a1d8cab4-69bc-4f3a-8a67-621413ffd25d.docx",
+          "location": {
+            "type": "resource",
+            "resourceId": "e274230310d27165764abc699d89881a2eb4d0396fa2d23376ccf11b1c57aea3",
+            "chunkId": "docx-text",
+            "page": null,
+            "start": 362,
+            "end": 393
+          },
+          "method": "attachment",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2025年11月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 3061,
+      "snippet": "各学院、部（中心）及有关单位： 为深入贯彻党的二十届历次全会精神，落实《教育强国建设规划纲要（2024—2035年）》《国务院关于深入实施“人工智能＋”行动的意见》和《“人工智能＋教育”行动计划》部署，推进人工智能赋能高校创新创业教育改革，全国大学生创新创业实践联盟实盟拟于2026年12月下旬召开学术年会（2026），现征集优秀论文、大学生创新创业实践优秀案例、指导教师优秀事迹以及“人工智能+”优秀项目等，相关事宜通知如下： 一、优秀论文 本届征文关注的不是“是否使用了人工智能”，而是当创业的基本单元由团队转向个体，双创教育应当教什么、如何组织、如何评价。鼓励基于实证与改革实践，提出可验证、可迁移的理论判断与解决方案。 1.论文类别 论文主要分为新工科类、新医科类、新农科类、新文科类、“人工智能+”、其他等共六个类别。 2.论文内容 论文选题包括但不限于创新创业实践教育理论研究、创新创业实践教育改革发展研究等。"
+    },
+    {
       "url": "https://news.xjtu.edu.cn/info/1002/234368.htm",
       "title": "西安交大学子在第六届全国大学生高电压与等离子体科技创新竞赛中获佳绩",
       "noticeDate": "2026-08-24",
@@ -142459,6 +142927,44 @@
       ],
       "bodyLen": 4151,
       "snippet": "中国共产党第二十届中央委员会第五次全体会议，于2026年10月26日至29日在北京举行。全会听取和讨论了习近平总书记受中央政治局委托所作的工作报告，审议通过了《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。习近平总书记就《决定（讨论稿）》向全会作了说明。西安交通大学干部师生第一时间学习领会全会精神，交流学习感悟。大家纷纷表示，要更加自觉把思想和行动统一到党中央决策部署上来，把全面从严治党要求落实到教学、科研、管理等各环节，立足本职务实奋进，以担当作为交出服务强国建设的合格答卷。 西安交通大学党委书记 吴国生 党的二十届五中全会专题研究持之以恒推进全面从严治党重大问题，审议通过《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》，充分彰显了以习近平同志为核心的党中央以彻底的自我革命精神管党治党、兴党强党的坚定决心，为新时代新征程学校全面从严治党向纵深发展提供了根本遵循。 学校党委将把学习贯彻全会精神作为当前和今后一个时期的重大政治任务，全面贯彻落实习近平党建思想，把坚持和加强党的全面领导落实到办学治校、教书育人全过程各方面。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+      "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
+      "noticeDate": "2026-11-10",
+      "contentHash": "cd7545c9c71bf6e9c07e9dd076d3676863fbacbd46f208e34ebdf568e6e3acc4",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-08",
+          "raw": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 40
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月8日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1197,
+      "snippet": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。 赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，坦言不同阶段的学习与实践逐步拓宽了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。 围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=48",
