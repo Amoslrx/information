@@ -9,18 +9,8 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4791",
-    "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
-    "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
-    "priority": null
-   },
-   {
-    "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",
-    "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
+    "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+    "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
     "priority": null
    },
    {
@@ -105,19 +95,19 @@
    }
   ],
   "byStatus": {
-   "success": 3,
+   "success": 1,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1249,
+  "success": 1250,
   "empty": 1,
   "failed": 15
  },
- "count": 1265,
- "withBody": 1249,
+ "count": 1266,
+ "withBody": 1250,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -125,7 +115,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-10T07:28:36.773466+00:00",
+   "fetchedAt": "2026-11-11T06:34:57.474308+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -146,11 +136,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 403",
-     "fetchedAt": "2026-11-05T14:43:08.520268+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 403",
@@ -175,9 +160,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:36.773466+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:57.474308+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -185,7 +175,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-10T07:28:36.564706+00:00",
+   "fetchedAt": "2026-11-11T06:34:54.353708+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -206,11 +196,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-05T14:43:05.762543+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -235,9 +220,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-10T07:28:36.564706+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-11T06:34:54.353708+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -245,7 +235,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:35.770365+00:00",
+   "fetchedAt": "2026-11-11T06:34:54.335812+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -266,11 +256,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:42:08.825849+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -295,9 +280,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:35.770365+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:54.335812+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -305,7 +295,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:34.962789+00:00",
+   "fetchedAt": "2026-11-11T06:34:53.706408+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -326,11 +316,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:57.893239+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -355,9 +340,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:34.962789+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:53.706408+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -365,7 +355,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:34.472768+00:00",
+   "fetchedAt": "2026-11-11T06:34:51.773287+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -386,11 +376,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:54.734426+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -415,9 +400,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:34.472768+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:51.773287+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -425,7 +415,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:33.979087+00:00",
+   "fetchedAt": "2026-11-11T06:34:51.407694+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -446,11 +436,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:51.928965+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -475,9 +460,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:33.979087+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:51.407694+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -485,7 +475,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:33.142188+00:00",
+   "fetchedAt": "2026-11-11T06:34:51.004678+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -506,11 +496,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:31.344635+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -535,9 +520,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:33.142188+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:51.004678+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -545,7 +535,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-10T07:28:32.221069+00:00",
+   "fetchedAt": "2026-11-11T06:34:49.273483+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -566,11 +556,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:41:26.908001+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -595,9 +580,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:32.221069+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:49.273483+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -605,7 +595,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-10T07:28:32.050851+00:00",
+   "fetchedAt": "2026-11-11T06:34:49.139468+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -626,11 +616,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:40:11.072883+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -655,9 +640,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:32.050851+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:49.139468+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -665,7 +655,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-10T07:28:31.643481+00:00",
+   "fetchedAt": "2026-11-11T06:34:48.873478+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -686,11 +676,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:39:55.270640+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -715,9 +700,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-10T07:28:31.643481+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-11T06:34:48.873478+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -725,7 +715,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-10T07:28:31.638637+00:00",
+   "fetchedAt": "2026-11-11T06:34:48.637508+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -746,11 +736,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:38:58.971897+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -775,9 +760,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:31.638637+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:48.637508+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -785,7 +775,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-10T07:28:31.087996+00:00",
+   "fetchedAt": "2026-11-11T06:34:48.216254+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -806,11 +796,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:34.060205+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -835,9 +820,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:31.087996+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:48.216254+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -845,7 +835,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-10T07:28:30.861684+00:00",
+   "fetchedAt": "2026-11-11T06:34:47.648522+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -866,11 +856,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-05T14:37:29.507796+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -895,9 +880,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-10T07:28:30.861684+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-11T06:34:47.648522+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -905,7 +895,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-10T07:28:30.789898+00:00",
+   "fetchedAt": "2026-11-11T06:34:46.056573+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -926,11 +916,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:23.084982+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -955,9 +940,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:30.789898+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:46.056573+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -965,7 +955,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-10T07:28:30.763219+00:00",
+   "fetchedAt": "2026-11-11T06:34:46.056015+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -986,11 +976,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:19.567120+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1015,9 +1000,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:30.763219+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:46.056015+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1025,7 +1015,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-10T07:28:29.586059+00:00",
+   "fetchedAt": "2026-11-11T06:34:46.055514+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1046,11 +1036,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-05T14:37:16.063073+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1075,9 +1060,112 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-10T07:28:29.586059+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-11T06:34:46.055514+00:00"
     }
    ],
-   "totalAttempts": 6
+   "totalAttempts": 7
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+   "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
+   "site": "教务处",
+   "date": "2026-11-11",
+   "source": "jwc_ksap",
+   "fetchedAt": "2026-11-11T06:34:46.054496+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "eebd95992ba9d91a9b408c551fd2449aca23d99d5a46aedac6c65a4681e73a2a",
+   "contentParserVersion": 2,
+   "body": "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项：\n1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。\n2.考试当天，考生须按准考证规定的考试时间提前60分钟到达考点，凭身份证、纸质版准考证进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。）\n3.迟到考生禁止入场。\n4.外校考生可从西安交通大学南门、东南门、北门、西门凭身份证、纸质版准考证进入学校。\n5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。\n6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。\n7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）：\n外国语学院 教务处\n2026年11月11日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n    \r\n    \r\n   <div class=\"Section0\" style=\"vsb_temp: 15.6000pt;\"> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: center; line-height: 27.75pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 宋体; font-size: 18pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\"><span style=\"font-family: 宋体;\"><span style=\"color: rgb(51, 51, 51); font-family: 宋体; font-size: 18pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\"><span style=\"font-family: 宋体;\"><span style=\"color: rgb(51, 51, 51); font-family: 宋体; font-size: 15pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\"> </span></span></span></span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">2026年下半年全国大学英语四六级口语考试将于2026年</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">11</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">月</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">2</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">1至</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">2</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">2日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项：</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">1.</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">11</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">月</span><span style=\"font-family: 仿宋;\">17日起，考生须自行登录CET报名系统（</span></span><span style=\"color: rgb(51, 51, 51); font-family: 微软雅黑; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 微软雅黑;\">cet-bm.neea.edu.cn</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">）下载并</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">打印</span></span></strong><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">准考证。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">2.考试当天，考生须按准考证规定的考试时间</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">提前</span><span style=\"font-family: 仿宋;\">60分钟</span></span></strong><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">到达考点，凭</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">身份证、纸质版准考证</span></span></strong><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">3.迟到考生禁止入场。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">4.</span></span><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">外校考生</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">可从西安交通大学南门、东南门、北门、西门凭</span></span><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">身份证、纸质版准考证</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">进入学校。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">7.考试地点：</span></span><span style=\"color: rgb(255, 0, 0); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">西安交通大学逸夫外文楼（</span><span style=\"font-family: 仿宋;\">B座）</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">，如图所示（考生可导航前往）：</span></span></p> \r\n    <p style=\"text-align: center;\"><img width=\"554\" height=\"734\" src=\"https://jwc.xjtu.edu.cn/__local/A/4C/A9/A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png\" vwidth=\"554\" vheight=\"734\" vurl=\"/_vsl/A4CA9A3EB51D3DA4CF0252ED3EFD914C/05E4FF56/18DF1F\" vsbhref=\"vurl\" orisrc=\"https://jwc.xjtu.edu.cn/__local/A/4C/A9/A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png\" class=\"img_vsb_content\"></p> \r\n    <p style=\"text-align: center;\"><img width=\"554\" height=\"312\" src=\"https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png\" vwidth=\"554\" vheight=\"312\" vurl=\"/_vsl/67F53634C04BB2FEE50437767D4B9946/AF823DCF/A92A5\" vsbhref=\"vurl\" orisrc=\"https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png\" class=\"img_vsb_content\"></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: Calibri; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: left; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: right; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">外国语学院</span></span><span style=\"color: rgb(51, 51, 51); font-family: 微软雅黑; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 微软雅黑;\"> </span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">教务处</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"background: rgb(255, 255, 255); text-align: right; line-height: 27.75pt; text-indent: 32.25pt; mso-pagination: widow-orphan;\"><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">2026年</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">11</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">月</span></span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\">1</span><span style=\"color: rgb(51, 51, 51); font-family: 仿宋; font-size: 16pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-bidi-font-family: 宋体;\"><span style=\"font-family: 仿宋;\">1日</span></span></p> \r\n    <p class=\"MsoNormal\"><span style=\"font-family: Calibri; font-size: 10.5pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n   </div> \r\n    \r\n  </div>",
+   "bodyLen": 423,
+   "excerpt": "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项： 1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。 2.考试当天，考生须按准考证规定的考试时间提前60分钟到达考点，凭身份证、纸质版准考证进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。） 3.迟到考生禁止入场。 4.外校考生可从西安交通大学南门、东南门、北门、西门凭身份证、纸质版准考证进入学校。 5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。 6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。 7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）： 外国语学院 教务处 2026年11月11日",
+   "paragraphs": [
+    "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项：",
+    "1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。",
+    "2.考试当天，考生须按准考证规定的考试时间提前60分钟到达考点，凭身份证、纸质版准考证进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。）",
+    "3.迟到考生禁止入场。",
+    "4.外校考生可从西安交通大学南门、东南门、北门、西门凭身份证、纸质版准考证进入学校。",
+    "5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。",
+    "6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。",
+    "7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）：",
+    "外国语学院 教务处",
+    "2026年11月11日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    }
+   ],
+   "images": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/__local/A/4C/A9/A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png",
+     "alt": "",
+     "context": "7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）："
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png",
+     "alt": "",
+     "context": "7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）："
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-11T06:34:46.054496+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://epe.xjtu.edu.cn/info/1483/6021.htm",

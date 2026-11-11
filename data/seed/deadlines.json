@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1265,
+  "count": 1266,
   "with_deadline": 178,
   "items": [
     {
@@ -94538,6 +94538,84 @@
       ],
       "bodyLen": 1880,
       "snippet": "根据体育学院教学工作安排，拟对2023、2024级本科生《国家学生体质健康标准》和2025、2026级本科生身体形态、机能进行测试，现将有关事项通知如下： 一、测试人员 全体本科生（5年制本科生只测试4年，4年内仍未合格的第5年可以参加测试。） 二、时间地点 1.兴庆校区：2026年10月31日、11月1日（周六/日），2026年11月28、29日（周六/日）；测试地点：东南塑胶田径场（东北侧羽毛球场检录）。 2.雁塔校区：2026年11月22日（周日）；测试地点：财经田径场（财经田径场西门口检录）。 3.创新港校区：2026年11月14、15日（周六/日）；测试地点：创新港新田径场（新田径场东侧看台下）。 4.海南校区：2026年11月8日（周日）下午14:00，测试地点：气膜羽毛球场。 具体测试时间以预约的时间为准（如遇恶劣天气，以现场通知或平台公告为准）。 三、测试内容 2023、2024级测试所有项目（共8个）：身高、体重、肺活量、坐位体前屈、50米、立定跳远、引体向上/仰卧起坐、1000米/800米。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+      "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
+      "noticeDate": "2026-11-11",
+      "contentHash": "a99518345b29c00636f4b3d1c3439b2b36f10d5bd9bc327da2125fcf065e9068",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-21",
+          "raw": "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项：",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 74
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月21",
+          "endDate": "2026-11-22",
+          "superseded": false
+        },
+        {
+          "value": "2026-11-17",
+          "raw": "1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+          "location": {
+            "type": "body",
+            "start": 75,
+            "end": 128
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-11",
+          "raw": "2026年11月11日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+          "location": {
+            "type": "body",
+            "start": 412,
+            "end": 423
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月11日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 423,
+      "snippet": "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项： 1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。 2.考试当天，考生须按准考证规定的考试时间提前60分钟到达考点，凭身份证、纸质版准考证进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。） 3.迟到考生禁止入场。 4.外校考生可从西安交通大学南门、东南门、北门、西门凭身份证、纸质版准考证进入学校。 5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。 6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。 7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）： 外国语学院 教务处 2026年11月11日"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1171/7723.htm",

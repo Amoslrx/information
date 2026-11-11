@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 39,
+  "count": 41,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -5305,7 +5305,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:43.309629+00:00",
+      "fetchedAt": "2026-11-11T06:35:12.596746+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:captcha_required: open original link and import the downloaded file",
@@ -5325,7 +5325,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:44.747120+00:00",
+      "fetchedAt": "2026-11-11T06:35:13.771909+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5387,7 +5387,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:46.417081+00:00",
+      "fetchedAt": "2026-11-11T06:35:15.490530+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5429,7 +5429,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:48.368359+00:00",
+      "fetchedAt": "2026-11-11T06:35:16.521855+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5471,7 +5471,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:50.329531+00:00",
+      "fetchedAt": "2026-11-11T06:35:18.246856+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5513,7 +5513,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:51.252286+00:00",
+      "fetchedAt": "2026-11-11T06:35:19.355102+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5555,7 +5555,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:52.348614+00:00",
+      "fetchedAt": "2026-11-11T06:35:20.281714+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -5597,7 +5597,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-10T07:28:53.280904+00:00",
+      "fetchedAt": "2026-11-11T06:35:22.380517+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:captcha_required: open original link and import the downloaded file",
@@ -5643,6 +5643,210 @@
       "error": "ValueError:captcha_required: open original link and import the downloaded file",
       "chunks": [],
       "images": []
+    },
+    {
+      "id": "1943d181aba6ec4c3555e42acf460c0a5ed43c4e3bd2c7d23f4ecc531d6bfbcc",
+      "url": "https://jwc.xjtu.edu.cn/__local/A/4C/A9/A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+      "kind": "image",
+      "name": "",
+      "context": "7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）：",
+      "noticeBodyHash": "eebd95992ba9d91a9b408c551fd2449aca23d99d5a46aedac6c65a4681e73a2a",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-11T06:35:03.343411+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/1177f70e516f9be3d84925f734ca8dccd00e49f8835d1420be0edbc099c74c05/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 554,
+            "height": 734
+          },
+          "qr": [],
+          "previewUrl": "media/130bc464fa9551722dcab37486a2b51198debbbc3fc7aede1fe447959af8d8b2.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/1177f70e516f9be3d84925f734ca8dccd00e49f8835d1420be0edbc099c74c05.img",
+        "sha256": "1177f70e516f9be3d84925f734ca8dccd00e49f8835d1420be0edbc099c74c05",
+        "bytes": 1629983,
+        "filename": "A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/A/4C/A9/A3EB51D3DA4CF0252ED3EFD914C_05E4FF56_18DF1F.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "0c4800068f069f6145a4bd2890a8f8bbe11d1865e842ebfb5672c449cf27aeb4",
+      "url": "https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+      "kind": "image",
+      "name": "",
+      "context": "7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）：",
+      "noticeBodyHash": "eebd95992ba9d91a9b408c551fd2449aca23d99d5a46aedac6c65a4681e73a2a",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-11T06:35:07.828238+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "口语考试平面图\n‘etic sa\nHEX",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/599df5cef8b2918a7aed0209530f198afdfe825c4ba5f24d3931c2b7c378ec3b/image.jpg",
+          "textHash": "fd8048995dac75f4cd555fd3311c20f4badc579e780080af683299de072bdef0",
+          "previewUrl": "media/28bae485f2af848c1422ed563e25fbf359d75a763dcbc945eba8cdd43491c76c.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/599df5cef8b2918a7aed0209530f198afdfe825c4ba5f24d3931c2b7c378ec3b/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "口语 考试 平面 图",
+                "words": [
+                  {
+                    "text": "口语",
+                    "confidence": 0.96802643,
+                    "bbox": [
+                      214,
+                      10,
+                      36,
+                      15
+                    ]
+                  },
+                  {
+                    "text": "考试",
+                    "confidence": 0.9676121500000001,
+                    "bbox": [
+                      262,
+                      9,
+                      44,
+                      16
+                    ]
+                  },
+                  {
+                    "text": "平面",
+                    "confidence": 0.96678581,
+                    "bbox": [
+                      305,
+                      5,
+                      29,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "图",
+                    "confidence": 0.88213814,
+                    "bbox": [
+                      346,
+                      10,
+                      9,
+                      15
+                    ]
+                  }
+                ],
+                "confidence": 0.88213814
+              },
+              {
+                "text": "‘etic sa",
+                "words": [
+                  {
+                    "text": "‘etic",
+                    "confidence": 0.20974302,
+                    "bbox": [
+                      233,
+                      31,
+                      59,
+                      35
+                    ]
+                  },
+                  {
+                    "text": "sa",
+                    "confidence": 0.352938,
+                    "bbox": [
+                      458,
+                      33,
+                      61,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": 0.20974302
+              },
+              {
+                "text": "HEX",
+                "words": [
+                  {
+                    "text": "HEX",
+                    "confidence": 0.22309827999999998,
+                    "bbox": [
+                      529,
+                      156,
+                      13,
+                      54
+                    ]
+                  }
+                ],
+                "confidence": 0.22309827999999998
+              }
+            ],
+            "text": "口语考试平面图\n‘etic sa\nHEX",
+            "normalization": "join_cjk_word_spaces",
+            "width": 554,
+            "height": 312
+          },
+          "qr": [],
+          "previewUrl": "media/28bae485f2af848c1422ed563e25fbf359d75a763dcbc945eba8cdd43491c76c.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/599df5cef8b2918a7aed0209530f198afdfe825c4ba5f24d3931c2b7c378ec3b.img",
+        "sha256": "599df5cef8b2918a7aed0209530f198afdfe825c4ba5f24d3931c2b7c378ec3b",
+        "bytes": 692901,
+        "filename": "634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
     }
   ]
 }

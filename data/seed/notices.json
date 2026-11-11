@@ -180,12 +180,12 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2402,
+  "count": 2403,
   "matched_count": 535,
   "competition_related_count": 879,
   "by_site": {
+    "教务处": 523,
     "校团委": 1030,
-    "教务处": 522,
     "能动学院": 68,
     "电气学院": 226,
     "实践教学中心": 401,
@@ -217,6 +217,17 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-11",
+      "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
+      "source": "jwc_ksap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "date": "2026-11-10",
       "title": "赵新利做客“繁星计划”美育大讲堂 分享中国品牌国际传播的智慧",
