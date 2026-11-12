@@ -18,7 +18,7 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-11-11T06:32:36",
+            "checkedAt": "2026-11-12T07:19:08",
             "pages": 5,
             "count": 42,
             "listed": 42,
@@ -58,7 +58,7 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-11-11T06:32:36",
+            "checkedAt": "2026-11-12T07:19:08",
             "pages": 5,
             "count": 42,
             "listed": 42,
@@ -152,7 +152,7 @@
           "lastRun": {
             "key": "epe_competitions",
             "url": "https://epe.xjtu.edu.cn/szgz/kcjs.htm",
-            "checkedAt": "2026-11-11T06:33:14",
+            "checkedAt": "2026-11-12T07:19:42",
             "pages": 3,
             "count": 31,
             "listed": 30,
@@ -168,7 +168,7 @@
           "lastRun": {
             "key": "epe_notices",
             "url": "https://epe.xjtu.edu.cn/index/tzgg.htm",
-            "checkedAt": "2026-11-11T06:33:26",
+            "checkedAt": "2026-11-12T07:19:50",
             "pages": 3,
             "count": 30,
             "listed": 30,
@@ -226,7 +226,7 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-11-11T06:32:36",
+            "checkedAt": "2026-11-12T07:19:08",
             "pages": 5,
             "count": 42,
             "listed": 42,
@@ -254,7 +254,7 @@
           "lastRun": {
             "key": "robocon",
             "url": "https://www.robocon.org.cn/",
-            "checkedAt": "2026-11-11T06:33:48",
+            "checkedAt": "2026-11-12T07:20:08",
             "pages": 1,
             "count": 9,
             "listed": 9,
@@ -270,7 +270,7 @@
           "lastRun": {
             "key": "robocon_team",
             "url": "https://www.cnrobocon.net/",
-            "checkedAt": "2026-11-11T06:33:51",
+            "checkedAt": "2026-11-12T07:20:12",
             "pages": 1,
             "count": 0,
             "listed": 12,
@@ -286,7 +286,7 @@
           "lastRun": {
             "key": "pec_teams",
             "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
-            "checkedAt": "2026-11-11T06:34:43",
+            "checkedAt": "2026-11-12T07:21:00",
             "pages": 1,
             "count": 0,
             "listed": 0,
@@ -314,7 +314,7 @@
           "lastRun": {
             "key": "robocup",
             "url": "https://rcccaa.drct-caa.org.cn/article_list.php?xiao=19",
-            "checkedAt": "2026-11-11T06:33:54",
+            "checkedAt": "2026-11-12T07:20:17",
             "pages": 1,
             "count": 10,
             "listed": 10,
@@ -396,7 +396,7 @@
           "lastRun": {
             "key": "robomaster",
             "url": "https://www.robomaster.com/zh-CN/resource/announcement/competition",
-            "checkedAt": "2026-11-11T06:33:47",
+            "checkedAt": "2026-11-12T07:20:07",
             "pages": 1,
             "count": 20,
             "listed": 20,
@@ -412,7 +412,7 @@
           "lastRun": {
             "key": "pec_teams",
             "url": "https://pec.xjtu.edu.cn/gcfjx/zzsj.htm",
-            "checkedAt": "2026-11-11T06:34:43",
+            "checkedAt": "2026-11-12T07:21:00",
             "pages": 1,
             "count": 0,
             "listed": 0,
@@ -434,10 +434,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-11-11T06:34:30",
+            "checkedAt": "2026-11-12T07:20:45",
             "pages": 1,
             "count": 3,
-            "listed": 63,
+            "listed": 62,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -456,7 +456,7 @@
           "lastRun": {
             "key": "acm_vjudge",
             "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
-            "checkedAt": "2026-11-11T06:34:40",
+            "checkedAt": "2026-11-12T07:20:57",
             "pages": 1,
             "count": 1,
             "listed": 1,
@@ -472,7 +472,7 @@
           "lastRun": {
             "key": "acm_luogu",
             "url": "https://www.luogu.com.cn/contest/314922",
-            "checkedAt": "2026-11-11T06:34:42",
+            "checkedAt": "2026-11-12T07:20:59",
             "pages": 1,
             "count": 0,
             "listed": 0,
@@ -512,7 +512,7 @@
           "lastRun": {
             "key": "pec_projects",
             "url": "https://pec.xjtu.edu.cn/cxcy/dcxm.htm",
-            "checkedAt": "2026-11-11T06:33:32",
+            "checkedAt": "2026-11-12T07:19:57",
             "pages": 4,
             "count": 70,
             "listed": 69,
@@ -528,7 +528,7 @@
           "lastRun": {
             "key": "jwc_dcxm",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/dcxm.htm",
-            "checkedAt": "2026-11-11T06:32:43",
+            "checkedAt": "2026-11-12T07:19:16",
             "pages": 3,
             "count": 27,
             "listed": 27,
@@ -544,7 +544,7 @@
           "lastRun": {
             "key": "jwc_jsdc",
             "url": "https://jwc.xjtu.edu.cn/jxxx/jxtz2/jsdc.htm",
-            "checkedAt": "2026-11-11T06:32:36",
+            "checkedAt": "2026-11-12T07:19:08",
             "pages": 5,
             "count": 42,
             "listed": 42,
@@ -620,7 +620,7 @@
           "lastRun": {
             "key": "gs_competitions",
             "url": "https://gs.xjtu.edu.cn/pygz/sjjs.htm",
-            "checkedAt": "2026-11-11T06:32:47",
+            "checkedAt": "2026-11-12T07:19:23",
             "pages": 5,
             "count": 75,
             "listed": 117,
@@ -666,10 +666,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-11-11T06:34:30",
+            "checkedAt": "2026-11-12T07:20:45",
             "pages": 1,
             "count": 3,
-            "listed": 63,
+            "listed": 62,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -706,7 +706,7 @@
           "lastRun": {
             "key": "electrical_modeling",
             "url": "https://shumo.neepu.edu.cn/tzgg.htm",
-            "checkedAt": "2026-11-11T06:34:10",
+            "checkedAt": "2026-11-12T07:20:29",
             "pages": 2,
             "count": 20,
             "listed": 20,
@@ -722,7 +722,7 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-11-11T06:34:00",
+            "checkedAt": "2026-11-12T07:20:19",
             "pages": 3,
             "count": 2,
             "listed": 21,
@@ -744,7 +744,7 @@
           "lastRun": {
             "key": "medical_teaching",
             "url": "https://yxbpyc.xjtu.edu.cn/jxdt.htm",
-            "checkedAt": "2026-11-11T06:34:14",
+            "checkedAt": "2026-11-12T07:20:33",
             "pages": 3,
             "count": 0,
             "listed": 98,
@@ -760,7 +760,7 @@
           "lastRun": {
             "key": "medical_hospital",
             "url": "https://xjefy.cn/defsyy/yxjy/bksjy.htm",
-            "checkedAt": "2026-11-11T06:34:23",
+            "checkedAt": "2026-11-12T07:20:39",
             "pages": 3,
             "count": 1,
             "listed": 44,
@@ -794,7 +794,7 @@
           "lastRun": {
             "key": "electrical_modeling",
             "url": "https://shumo.neepu.edu.cn/tzgg.htm",
-            "checkedAt": "2026-11-11T06:34:10",
+            "checkedAt": "2026-11-12T07:20:29",
             "pages": 2,
             "count": 20,
             "listed": 20,
@@ -816,7 +816,7 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-11-11T06:34:00",
+            "checkedAt": "2026-11-12T07:20:19",
             "pages": 3,
             "count": 2,
             "listed": 21,
@@ -832,10 +832,10 @@
           "lastRun": {
             "key": "xjtu_news_teams",
             "url": "https://news.xjtu.edu.cn/",
-            "checkedAt": "2026-11-11T06:34:30",
+            "checkedAt": "2026-11-12T07:20:45",
             "pages": 1,
             "count": 3,
-            "listed": 63,
+            "listed": 62,
             "errors": [],
             "missingDates": 0,
             "state": "ok"
@@ -866,7 +866,7 @@
           "lastRun": {
             "key": "ces",
             "url": "https://www.ces.org.cn/html/category/17060182-1.htm",
-            "checkedAt": "2026-11-11T06:34:00",
+            "checkedAt": "2026-11-12T07:20:19",
             "pages": 3,
             "count": 2,
             "listed": 21,

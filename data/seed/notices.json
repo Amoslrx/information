@@ -180,12 +180,12 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2403,
+  "count": 2407,
   "matched_count": 535,
-  "competition_related_count": 879,
+  "competition_related_count": 881,
   "by_site": {
+    "校团委": 1034,
     "教务处": 523,
-    "校团委": 1030,
     "能动学院": 68,
     "电气学院": 226,
     "实践教学中心": 401,
@@ -201,10 +201,10 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
+    "校团委": 204,
     "教务处": 174,
     "实践教学中心": 331,
     "电气学院": 22,
-    "校团委": 202,
     "RoboMaster官网": 10,
     "ROBOCON官网": 9,
     "研究生院": 67,
@@ -218,11 +218,55 @@
   },
   "items": [
     {
+      "date": "2026-11-12",
+      "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+      "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-11-12",
+      "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-11",
+      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2026-11-11",
       "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
       "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
       "source": "jwc_ksap",
       "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-11",
+      "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "source": "tuanwei_news",
+      "site": "校团委",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",

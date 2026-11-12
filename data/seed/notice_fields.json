@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1266,
+  "count": 1270,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -427,6 +427,525 @@
         "registrationLinks": [],
         "requiredMaterials": [],
         "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+      "date": "2026-11-11",
+      "contentHash": "f188b0fc05fb6c9098a9fb9f28e86c7cec5dbc138e36579ecf7230c60fadf84f",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "f188b0fc05fb6c9098a9fb9f28e86c7cec5dbc138e36579ecf7230c60fadf84f",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-10-17",
+            "raw": "10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+            "location": {
+              "type": "body",
+              "start": 130,
+              "end": 177
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "10月17日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-10-28",
+            "raw": "10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+            "location": {
+              "type": "body",
+              "start": 177,
+              "end": 230
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "10月28日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-10-28",
+            "raw": "10月28日，司奕帆、郭梦泽两位同学分别围绕竞赛规划与多元发展、科研方法与项目实践展开分享，为新生了解科研竞赛、参与项目研究提供了不同角度的参考。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+            "location": {
+              "type": "body",
+              "start": 1956,
+              "end": 2029
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "10月28日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+      "date": "2026-11-11",
+      "contentHash": "0b671f38743d9833830b008e7b5a6ef0b533227ff93eb44079b4441db56980d9",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "0b671f38743d9833830b008e7b5a6ef0b533227ff93eb44079b4441db56980d9",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。",
+            "raw": "训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 107,
+              "end": 236
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "面向全校学生，征集希望拥有的 AI Skill：",
+            "raw": "面向全校学生，征集希望拥有的 AI Skill：",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1303,
+              "end": 1327
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "报名方式：登录活动官方页面在线报名，详见本文第六部分。",
+            "raw": "报名方式：登录活动官方页面在线报名，详见本文第六部分。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 554,
+              "end": 581
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "06报名方式",
+            "raw": "06报名方式",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1651,
+              "end": 1657
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [],
+        "requiredMaterials": [
+          {
+            "value": "提交实操作品，审核通过后获得结营证书；",
+            "raw": "提交实操作品，审核通过后获得结营证书；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 999,
+              "end": 1018
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "活动期间可重新提交作品并覆盖此前版本；",
+            "raw": "活动期间可重新提交作品并覆盖此前版本；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1979,
+              "end": 1998
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-30",
+            "raw": "活动时间：即日起至11月30日（共21天）。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 336,
+              "end": 358
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-02-05",
+            "raw": "星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1184,
+              "end": 1222
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2.5",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-20",
+            "raw": "征集截至【11月20日 24:00】",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1597,
+              "end": 1615
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "24:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月20日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-30",
+            "raw": "11月30日前，完成课程与实操。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+            "location": {
+              "type": "body",
+              "start": 1752,
+              "end": 1768
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-02-05",
+            "raw": "星火 Spark-X2.5 免费领 10 亿 token",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg",
+            "location": {
+              "type": "resource",
+              "resourceId": "6b711e45039eacdb89b378db6ec5475e2bbdd24627f92d9d4a6b80fae4fe05b1",
+              "chunkId": "image-ocr",
+              "page": null,
+              "start": 55,
+              "end": 83
+            },
+            "method": "ocr",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year",
+              "ocr_requires_review"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2.5",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+      "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+      "date": "2026-11-12",
+      "contentHash": "2653af401bd1d62ad6e7d426dcac94b62b591d3eaee634f6da4ff826123013e4",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "2653af401bd1d62ad6e7d426dcac94b62b591d3eaee634f6da4ff826123013e4",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-02",
+            "raw": "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 37
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月2日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+      "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+      "date": "2026-11-12",
+      "contentHash": "378721e0c5916132259975b932ad18a2587a0b975dbb757e878524fb31baaba5",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "378721e0c5916132259975b932ad18a2587a0b975dbb757e878524fb31baaba5",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+        "competitionNames": [
+          {
+            "value": "创新创业大赛",
+            "raw": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 56
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [
+          {
+            "value": "第38届",
+            "raw": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 56
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "audiences": [
+          {
+            "value": "训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。",
+            "raw": "训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "body",
+              "start": 207,
+              "end": 311
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "https://www.aidaxue.com/xjtu",
+            "raw": "报名网址：https://www.aidaxue.com/xjtu",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "body",
+              "start": 701,
+              "end": 734
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-11",
+            "raw": "时间：2026 年 11 月 11 日（星期三）下午 14:30-16:00",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "body",
+              "start": 396,
+              "end": 434
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "14:30",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026 年 11 月 11 日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-11",
+            "raw": "11月11日，主E多功能报告厅",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+            "location": {
+              "type": "body",
+              "start": 754,
+              "end": 769
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月11日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
         "contacts": [],
         "groups": [],
         "model": {

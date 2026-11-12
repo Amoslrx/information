@@ -9,8 +9,23 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
-    "title": "关于西安交通大学2026年下半年全国大学英语四六级口语考试的温馨提示",
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+    "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+    "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+    "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+    "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
     "priority": null
    },
    {
@@ -95,19 +110,19 @@
    }
   ],
   "byStatus": {
-   "success": 1,
+   "success": 4,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1250,
+  "success": 1254,
   "empty": 1,
   "failed": 15
  },
- "count": 1266,
- "withBody": 1250,
+ "count": 1270,
+ "withBody": 1254,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -115,7 +130,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-11T06:34:57.474308+00:00",
+   "fetchedAt": "2026-11-12T07:21:15.849220+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -136,11 +151,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 403",
-     "fetchedAt": "2026-11-06T06:56:03.296766+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 403",
@@ -165,9 +175,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:57.474308+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:15.849220+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -175,7 +190,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-11T06:34:54.353708+00:00",
+   "fetchedAt": "2026-11-12T07:21:15.805444+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -196,11 +211,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-06T06:56:02.552659+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -225,9 +235,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-11T06:34:54.353708+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-12T07:21:15.805444+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -235,7 +250,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:54.335812+00:00",
+   "fetchedAt": "2026-11-12T07:21:14.536206+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -256,11 +271,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:01.878853+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -285,9 +295,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:54.335812+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:14.536206+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -295,7 +310,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:53.706408+00:00",
+   "fetchedAt": "2026-11-12T07:21:13.415833+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -316,11 +331,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:01.738576+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -345,9 +355,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:53.706408+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:13.415833+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -355,7 +370,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:51.773287+00:00",
+   "fetchedAt": "2026-11-12T07:21:13.396764+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -376,11 +391,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:00.692150+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -405,9 +415,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:51.773287+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:13.396764+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -415,7 +430,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:51.407694+00:00",
+   "fetchedAt": "2026-11-12T07:21:09.568463+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -436,11 +451,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:56:00.312121+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -465,9 +475,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:51.407694+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:09.568463+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -475,7 +490,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:51.004678+00:00",
+   "fetchedAt": "2026-11-12T07:21:08.928281+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -496,11 +511,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:59.882064+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -525,9 +535,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:51.004678+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:08.928281+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -535,7 +550,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-11T06:34:49.273483+00:00",
+   "fetchedAt": "2026-11-12T07:21:08.797209+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -556,11 +571,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.837606+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -585,9 +595,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:49.273483+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:08.797209+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -595,7 +610,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-11T06:34:49.139468+00:00",
+   "fetchedAt": "2026-11-12T07:21:08.083146+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -616,11 +631,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.609057+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -645,9 +655,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:49.139468+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:08.083146+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -655,7 +670,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-11T06:34:48.873478+00:00",
+   "fetchedAt": "2026-11-12T07:21:07.111198+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -676,11 +691,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-06T06:55:58.497694+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -705,9 +715,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-11T06:34:48.873478+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-12T07:21:07.111198+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -715,7 +730,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-11T06:34:48.637508+00:00",
+   "fetchedAt": "2026-11-12T07:21:07.103860+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -736,11 +751,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:58.493357+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -765,9 +775,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:48.637508+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:07.103860+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -775,7 +790,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-11T06:34:48.216254+00:00",
+   "fetchedAt": "2026-11-12T07:21:06.893959+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -796,11 +811,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:57.953727+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -825,9 +835,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:48.216254+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:06.893959+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -835,7 +850,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-11T06:34:47.648522+00:00",
+   "fetchedAt": "2026-11-12T07:21:05.852073+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -856,11 +871,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-06T06:55:56.915895+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -885,9 +895,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-11T06:34:47.648522+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-12T07:21:05.852073+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -895,7 +910,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-11T06:34:46.056573+00:00",
+   "fetchedAt": "2026-11-12T07:21:05.434855+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -916,11 +931,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.914879+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -945,9 +955,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:46.056573+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:05.434855+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -955,7 +970,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-11T06:34:46.056015+00:00",
+   "fetchedAt": "2026-11-12T07:21:05.422187+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -976,11 +991,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.913796+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1005,9 +1015,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:46.056015+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:05.422187+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1015,7 +1030,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-11T06:34:46.055514+00:00",
+   "fetchedAt": "2026-11-12T07:21:05.407657+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1036,11 +1051,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-06T06:55:56.912028+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1065,9 +1075,1422 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-11T06:34:46.055514+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-12T07:21:05.407657+00:00"
     }
    ],
-   "totalAttempts": 7
+   "totalAttempts": 8
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+   "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+   "site": "校团委",
+   "date": "2026-11-11",
+   "source": "https://mp.weixin.qq.com/s/KXR2LeKp1vj0eoGJ_Xm8mw",
+   "fetchedAt": "2026-11-12T07:21:03.688147+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+   "contentParserVersion": 2,
+   "body": "大学生活应该如何规划？怎样找到适合自己的学习方法？科研竞赛又该从何入手？\n为帮助新生更好地适应大学生活、明确发展方向，10月，“新生面对面”系列讲座围绕学业提升、时间管理和科研竞赛三大主题，先后开展三场朋辈经验分享。\n近日，“新生面对面”系列讲座先后开展三场。10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。从“大学第一份成绩单怎么拿高分”，到“如何叩响科研竞赛的大门”，四位朋辈主讲人结合亲身经历倾囊相授，为初入校园的同学们送上了一份份成长攻略。\n从课堂学习到课外探索，从日常规划到长远发展，四位主讲人以亲身经历为切入点，为新生提供了切实可行的思路与建议。\n学分绩提升｜夯实成长基础\n学业是大学生活的重要基础。如何认识学分绩与综合成绩？怎样合理规划课程学习？奖学金评定又有哪些需要关注的事项？围绕新生普遍关心的学业问题，云开同学结合自身经验，分享了大学课程学习与成绩提升的方法。\n01 学分绩与综合成绩有什么区别？\n学分绩是反映课程学习表现的重要指标，通常根据课程成绩及相应学分进行加权计算。综合成绩则是在课程考核成绩的基础上，结合综合素质测评等内容进行评价。不同评价事项的计算规则可能有所不同，具体应以学校、书院及学院的正式规定为准。对于新生而言，既要重视课程学习，也应积极参与志愿服务、社会实践等活动，在全面发展中积累成长经验。\n02 奖学金如何申请与评定？\n大学期间的奖学金主要包括国家奖学金、校级奖学金和社会奖学金等，不同类别的评选条件、申请流程和奖励标准有所区别。同学们应及时关注学校和书院发布的评奖通知，提前了解申请条件、评审要求及材料准备事项，合理规划学业与综合素质提升。\n03 如何有效提升学业成绩？\n重视平时积累：专业基础课要注重知识理解，做好课前预习、课堂学习与课后巩固，及时解决疑难问题。\n把握课程特点：根据不同课程的考核方式，合理安排平时作业、课堂表现与期末复习。对于需要记忆的内容，及时梳理知识框架；对于计算和应用类课程，通过习题训练加深理解。\n科学安排复习：提前制定复习计划，优先攻克薄弱环节和学习任务较重的课程，避免临近期末才集中突击。\n大学学习更强调自主性。找到适合自己的学习节奏，在日常积累中不断提高学习效率，远比临时冲刺更加重要。\n时间管理｜规划大学生活\n进入大学后，学习、社团、竞赛和个人生活交织在一起，如何合理分配时间成为许多新生面临的新课题。\n袁成希同学从目标设定、任务安排和工具使用等方面，分享了自己的时间管理经验。\n01 面对繁多任务，如何确定优先级？\n时间管理的第一步，是明确任务的重要性与紧急程度。可以借助“四象限法则”，将任务按照重要程度和紧急程度进行分类，优先处理重要且紧急的事项，同时为重要但不紧急的长期任务预留时间。面对不同类型的任务，应结合实际情况确定完成顺序，避免因琐碎事务占用大量精力，影响核心目标的推进。\n02 如何合理规划大学四年？\n大学不同阶段有不同的发展重点，可以结合个人目标，逐步明确方向。\n大一：夯实基础，积极探索。 适应大学学习方式，培养良好习惯，在实践中认识自己的兴趣与优势。\n大二：深入学习，积累经验。 在稳定学业表现的基础上，尝试科研、竞赛及社会实践，逐步探索适合自己的发展方向。\n大三：聚焦目标，形成积累。 根据升学、就业等不同规划，有针对性地提升专业能力，推进相关项目与成果积累。\n大四：总结收获，衔接未来。 完成毕业阶段的学习任务，为研究生学习、职业发展等做好准备。\n四年规划并非固定不变的时间表，而是帮助我们明确阶段目标、及时调整前进方向的参考。\n03 怎样让时间规划真正落地？\n长远目标需要落实到具体行动中。\n每日有安排：根据任务量与个人精力状态合理分配时间，明确当天需要完成的重点事项。\n每周有统筹：兼顾课程学习、科研竞赛、社会实践与休息生活，为重要任务预留相对完整的时间。\n每月有复盘：检查阶段目标的完成情况，及时调整任务安排与学习方法。\n面对期末考试、竞赛答辩等重要节点，还可以采用倒排计划、分阶段推进等方法，同时保留一定的机动时间，避免安排过满。\n04 如何合理利用AI工具？\nAI工具能够辅助资料整理、任务拆解、思路梳理和日常沟通，提高学习与工作的效率。在实际使用中，可以通过明确任务要求、提供必要背景、持续追问和核实结果，让工具更好地服务于学习。但AI始终是辅助工具，不能代替独立阅读、逻辑分析和批判性思考。合理使用AI，关键在于提升自身解决问题的能力。\n科研竞赛｜探索更多可能\n科研与竞赛是大学生拓展专业视野、培养创新意识和提升实践能力的重要途径。\n10月28日，司奕帆、郭梦泽两位同学分别围绕竞赛规划与多元发展、科研方法与项目实践展开分享，为新生了解科研竞赛、参与项目研究提供了不同角度的参考。\n竞赛规划与多元发展\n01 不同发展目标，如何安排学习重点？\n大学阶段的发展方向多种多样。无论是推免、考研、就业还是出国深造，都需要结合自身目标，合理安排学业、科研、竞赛和实践活动。学业成绩是重要基础，科研竞赛能够帮助提升专业素养和创新能力，社会实践与学生工作则有助于培养沟通协作和组织管理能力。不同发展路径的评价要求有所差异。明确个人目标、了解相关政策，才能更有针对性地分配时间与精力。\n02 科研竞赛应该从什么时候开始准备？\n对于刚进入大学的新生，可以从了解竞赛类型、关注赛事通知和学习基础知识开始，逐步寻找适合自己的方向。在此过程中，主动向学长学姐请教竞赛经验，熟悉参赛流程，结识志同道合的伙伴，在实践和尝试中不断积累经验。不必急于追求竞赛数量或短期成果，更重要的是找到真正感兴趣、愿意持续投入的领域。\n03 如何加入科研团队参与项目研究？\n可以主动联系导师或相关项目负责人，了解现有课题和团队的研究方向，并结合自身能力寻找参与机会。对于科研经验较少的同学，可以从文献整理、资料收集、数据处理和项目文稿等基础工作入手，逐步熟悉研究流程，培养独立思考和解决问题的能力。随着经验积累，也可以尝试提出自己的研究问题，在老师指导下参与更深入的项目研究。\n04 如何兼顾科研竞赛与多元发展？\n大学生活不只有一种成长路径。在保证学业投入的基础上，可以结合兴趣参与科研竞赛、学生工作、志愿服务和社会实践，在不同经历中提升专业能力与综合素质。合理选择重点方向，避免同时承担过多任务，让每一段经历都真正有所收获。\n科研方法与项目实践\n01 如何开展科研竞赛中的课题研究？\n以中国大学生物理学术竞赛（CUPT）为例，开放性赛题的研究通常涉及三个重要环节。\n赛题分析：明确研究对象和关键问题，识别影响因素，结合预实验观察现象，形成初步研究思路。\n理论分析：在明确基本假设和适用条件的基础上，建立理论模型，对研究问题进行分析，必要时借助模拟和计算辅助验证。\n实验研究：设计实验方案，开展测量与对照分析，将实验结果与理论预测进行比较，并关注实验误差和研究结论的可靠性。\n通过理论与实践相结合，逐步形成清晰、完整的研究过程。\n02 如何通过文献阅读确定研究选题？\n文献阅读能够帮助我们了解已有研究成果，发现尚待解决的问题。当相关文献较少时， 可以从实际现象出发，通过预实验和基础理论分析探索研究方向，但往往需要更充分的前期准备。当已有研究较为成熟时， 可以先尝试理解和复现经典成果，再关注特殊条件、边界情形及尚未充分讨论的问题。当不同研究存在分歧时， 则应认真分析研究方法与结论差异，通过进一步验证寻找值得深入探究的方向。科研选题既需要创新意识，也离不开扎实的文献积累和严谨的研究态度。\n03 如何培养良好的科研习惯？\n良好的科研习惯，是提高研究效率和保证成果质量的重要基础。在研究过程中，应及时记录实验现象、研究数据和推导过程，规范整理文献与文件，避免因资料缺失造成重复工作。同时，要学会提前规划研究步骤，根据阶段性结果不断调整研究思路，并做好汇报材料和相关成果的整理。让研究过程有记录、可追溯、能复盘，才能为后续的深入探索打下基础。\n互动答疑｜回应成长困惑\n新生最关心的问题\n每场分享结束后，主讲人都与现场同学进行了交流，围绕科研入门、升学规划、AI工具使用和学习效率等问题答疑解惑。\n01 大一新生如何加入科研或竞赛队伍？\n可以关注学校现有科研项目和竞赛团队，主动向导师或学长学姐表达参与意愿。从力所能及的基础任务开始，逐步了解项目研究与团队协作流程，在实践中积累经验、提升能力。\n02 如何应对升学政策可能出现的变化？\n及时关注学校及学院发布的正式政策，结合自身目标合理规划学习与科研任务。对于尚未明确的政策调整，不必过度焦虑。持续夯实学业基础、积累专业能力，才能更从容地应对未来的变化。\n03 如何选择适合自己的AI工具？\n不同AI工具各有特点，应根据资料整理、文本写作、程序编写、数据分析等具体需求进行选择。在使用过程中，应关注信息准确性、学术规范和数据安全，避免对工具生成的结果不加核实地直接采用。\n04 如何避免陷入“假学习”？\n判断学习是否有效，不能只看投入了多少时间，更要关注是否真正理解知识、完成目标并形成实际收获。通过练习反馈、知识复述和定期复盘检验学习效果，及时调整方法，避免陷入看似忙碌却收效甚微的状态。\n结语｜奔赴崭新征程\n纸上得来终觉浅，绝知此事要躬行。三场讲座，难以涵盖大学四年的全部答案，却为新生认识大学生活、探索成长方向提供了有益参考。从夯实学业基础，到合理规划时间，再到主动走近科研竞赛，成长既需要明确目标，也离不开脚踏实地的积累与尝试。愿每一位新生都能以此次分享为起点，在课堂中积累知识，在实践中锤炼本领，在探索中发现热爱，以自己的节奏走好大学生活的每一步，书写属于自己的青春篇章。\n图编 | 梁高睿\n文编 | 梁高睿\n美编 | 蔡雯茜\n值班编辑 | 优思新媒体中心 隋志唯\n二审 | 优思新媒体中心 张思栋\n责编 | 优思新媒体中心 麻瑶瑶\n审核 | 刘钊君 徐硕基\n颜川芳子 周荃 晋书香\n校审 | 毕晓楠 强伟",
+   "bodyHtml": "<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学生活应该如何规划？怎样找到适合自己的学习方法？科研竞赛又该从何入手？</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  为帮助新生更好地适应大学生活、明确发展方向，</span>10<span style=\"font-family: 宋体;\">月，</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">新生面对面</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">系列讲座围绕学业提升、时间管理和科研竞赛三大主题，先后开展三场朋辈经验分享。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  近日，</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">新生面对面</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">系列讲座先后开展三场。</span><span style=\"font-family: Calibri;\">10</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">17</span><span style=\"font-family: 宋体;\">日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；</span><span style=\"font-family: Calibri;\">10</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">28</span><span style=\"font-family: 宋体;\">日下午，第三场科研竞赛专场在主楼</span><span style=\"font-family: Calibri;\">D205</span><span style=\"font-family: 宋体;\">开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。从</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">大学第一份成绩单怎么拿高分</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">，到</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">如何叩响科研竞赛的大门</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">，四位朋辈主讲人结合亲身经历倾囊相授，为初入校园的同学们送上了一份份成长攻略。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  从课堂学习到课外探索，从日常规划到长远发展，四位主讲人以亲身经历为切入点，为新生提供了切实可行的思路与建议。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">学分绩提升｜夯实成长基础</span></strong></h2>\n<p><strong><span style=\"font-family: 黑体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261111/4e4cb398-2b95-4802-8539-b4250087979c.png\" height=\"500\"></span></strong></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  学业是大学生活的重要基础。如何认识学分绩与综合成绩？怎样合理规划课程学习？奖学金评定又有哪些需要关注的事项？</span><span style=\"font-family: 宋体;\">围绕新生普遍关心的学业问题，云开同学结合自身经验，分享了大学课程学习与成绩提升的方法。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  01 学分绩与综合成绩有什么区别？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  学分绩是反映课程学习表现的重要指标，通常根据课程成绩及相应学分进行加权计算。</span><span style=\"font-family: 宋体;\">综合成绩则是在课程考核成绩的基础上，结合综合素质测评等内容进行评价。不同评价事项的计算规则可能有所不同，具体应以学校、书院及学院的正式规定为准。</span><span style=\"font-family: 宋体;\">对于新生而言，既要重视课程学习，也应积极参与志愿服务、社会实践等活动，在全面发展中积累成长经验。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  02 奖学金如何申请与评定？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学期间的奖学金主要包括国家奖学金、校级奖学金和社会奖学金等，不同类别的评选条件、申请流程和奖励标准有所区别。</span><span style=\"font-family: 宋体;\">同学们应及时关注学校和书院发布的评奖通知，提前了解申请条件、评审要求及材料准备事项，合理规划学业与综合素质提升。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  03 如何有效提升学业成绩？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  重视平时积累：专业基础课要注重知识理解，做好课前预习、课堂学习与课后巩固，及时解决疑难问题。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  把握课程特点：根据不同课程的考核方式，合理安排平时作业、课堂表现与期末复习。对于需要记忆的内容，及时梳理知识框架；对于计算和应用类课程，通过习题训练加深理解。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  科学安排复习：提前制定复习计划，优先攻克薄弱环节和学习任务较重的课程，避免临近期末才集中突击。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学学习更强调自主性。找到适合自己的学习节奏，在日常积累中不断提高学习效率，远比临时冲刺更加重要。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">时间管理｜规划大学生活</span></strong></h2>\n<p><strong><span style=\"font-family: 黑体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261111/d91836c1-1c57-4a8e-beeb-4858b7a20f15.png\" height=\"500\"></span></strong></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  进入大学后，学习、社团、竞赛和个人生活交织在一起，如何合理分配时间成为许多新生面临的新课题。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  袁成希同学从目标设定、任务安排和工具使用等方面，分享了自己的时间管理经验。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  01 面对繁多任务，如何确定优先级？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  时间管理的第一步，是明确任务的重要性与紧急程度。</span><span style=\"font-family: 宋体;\">可以借助</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">四象限法则</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">，将任务按照重要程度和紧急程度进行分类，优先处理重要且紧急的事项，同时为重要但不紧急的长期任务预留时间。</span><span style=\"font-family: 宋体;\">面对不同类型的任务，应结合实际情况确定完成顺序，避免因琐碎事务占用大量精力，影响核心目标的推进。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  02 如何合理规划大学四年？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学不同阶段有不同的发展重点，可以结合个人目标，逐步明确方向。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大一：夯实基础，积极探索。</span> <span style=\"font-family: 宋体;\">适应大学学习方式，培养良好习惯，在实践中认识自己的兴趣与优势。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大二：深入学习，积累经验。</span> <span style=\"font-family: 宋体;\">在稳定学业表现的基础上，尝试科研、竞赛及社会实践，逐步探索适合自己的发展方向。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大三：聚焦目标，形成积累。</span> <span style=\"font-family: 宋体;\">根据升学、就业等不同规划，有针对性地提升专业能力，推进相关项目与成果积累。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大四：总结收获，衔接未来。</span> <span style=\"font-family: 宋体;\">完成毕业阶段的学习任务，为研究生学习、职业发展等做好准备。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  四年规划并非固定不变的时间表，而是帮助我们明确阶段目标、及时调整前进方向的参考。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  03 怎样让时间规划真正落地？</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  长远目标需要落实到具体行动中。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  每日有安排：</span><span style=\"font-family: 宋体;\">根据任务量与个人精力状态合理分配时间，明确当天需要完成的重点事项。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  每周有统筹：</span><span style=\"font-family: 宋体;\">兼顾课程学习、科研竞赛、社会实践与休息生活，为重要任务预留相对完整的时间。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  每月有复盘：</span><span style=\"font-family: 宋体;\">检查阶段目标的完成情况，及时调整任务安排与学习方法。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  面对期末考试、竞赛答辩等重要节点，还可以采用倒排计划、分阶段推进等方法，同时保留一定的机动时间，避免安排过满。</span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  04 如何合理利用AI工具？</span></strong></h3>\n<p class=\"MsoNormal\">  AI<span style=\"font-family: 宋体;\">工具能够辅助资料整理、任务拆解、思路梳理和日常沟通，提高学习与工作的效率。</span><span style=\"font-family: 宋体;\">在实际使用中，可以通过明确任务要求、提供必要背景、持续追问和核实结果，让工具更好地服务于学习。</span><span style=\"font-family: 宋体;\">但</span>AI<span style=\"font-family: 宋体;\">始终是辅助工具，不能代替独立阅读、逻辑分析和批判性思考。合理使用</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">，关键在于提升自身解决问题的能力。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">科研竞赛｜探索更多可能</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  科研与竞赛是大学生拓展专业视野、培养创新意识和提升实践能力的重要途径。</span></p>\n<p class=\"MsoNormal\">  10<span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">28</span><span style=\"font-family: 宋体;\">日，司奕帆、郭梦泽两位同学分别围绕竞赛规划与多元发展、科研方法与项目实践展开分享，为新生了解科研竞赛、参与项目研究提供了不同角度的参考。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261111/ff4e4fa2-7db0-4a4a-a9d3-79b714dccb82.png\" height=\"500\"></span></p>\n<h3 style=\"text-align: center;\"><strong><span style=\"font-family: 宋体;\">竞赛规划与多元发展</span></strong></h3>\n<h4><strong>  01 <span style=\"font-family: 黑体;\">不同发展目标，如何安排学习重点？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学阶段的发展方向多种多样。无论是推免、考研、就业还是出国深造，都需要结合自身目标，合理安排学业、科研、竞赛和实践活动。</span><span style=\"font-family: 宋体;\">学业成绩是重要基础，科研竞赛能够帮助提升专业素养和创新能力，社会实践与学生工作则有助于培养沟通协作和组织管理能力。</span><span style=\"font-family: 宋体;\">不同发展路径的评价要求有所差异。明确个人目标、了解相关政策，才能更有针对性地分配时间与精力。</span></p>\n<h4><strong>  02 <span style=\"font-family: 黑体;\">科研竞赛应该从什么时候开始准备？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  对于刚进入大学的新生，可以从了解竞赛类型、关注赛事通知和学习基础知识开始，逐步寻找适合自己的方向。</span><span style=\"font-family: 宋体;\">在此过程中，主动向学长学姐请教竞赛经验，熟悉参赛流程，结识志同道合的伙伴，在实践和尝试中不断积累经验。</span><span style=\"font-family: 宋体;\">不必急于追求竞赛数量或短期成果，更重要的是找到真正感兴趣、愿意持续投入的领域。</span></p>\n<h4><strong>  03 <span style=\"font-family: 黑体;\">如何加入科研团队参与项目研究？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  可以主动联系导师或相关项目负责人，了解现有课题和团队的研究方向，并结合自身能力寻找参与机会。</span><span style=\"font-family: 宋体;\">对于科研经验较少的同学，可以从文献整理、资料收集、数据处理和项目文稿等基础工作入手，逐步熟悉研究流程，培养独立思考和解决问题的能力。</span><span style=\"font-family: 宋体;\">随着经验积累，也可以尝试提出自己的研究问题，在老师指导下参与更深入的项目研究。</span></p>\n<h4><strong>  04 <span style=\"font-family: 黑体;\">如何兼顾科研竞赛与多元发展？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  大学生活不只有一种成长路径。</span><span style=\"font-family: 宋体;\">在保证学业投入的基础上，可以结合兴趣参与科研竞赛、学生工作、志愿服务和社会实践，在不同经历中提升专业能力与综合素质。</span><span style=\"font-family: 宋体;\">合理选择重点方向，避免同时承担过多任务，让每一段经历都真正有所收获。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261111/7a63df09-9037-4f4d-ae3a-dd177e069308.png\" height=\"500\"></span></p>\n<h3 style=\"text-align: center;\"><strong><span style=\"font-family: 宋体;\">科研方法与项目实践</span></strong></h3>\n<h4><strong>  01 <span style=\"font-family: 黑体;\">如何开展科研竞赛中的课题研究？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  以中国大学生物理学术竞赛（</span>CUPT<span style=\"font-family: 宋体;\">）为例，开放性赛题的研究通常涉及三个重要环节。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  赛题分析：</span><span style=\"font-family: 宋体;\">明确研究对象和关键问题，识别影响因素，结合预实验观察现象，形成初步研究思路。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  理论分析：</span><span style=\"font-family: 宋体;\">在明确基本假设和适用条件的基础上，建立理论模型，对研究问题进行分析，必要时借助模拟和计算辅助验证。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  实验研究：</span><span style=\"font-family: 宋体;\">设计实验方案，开展测量与对照分析，将实验结果与理论预测进行比较，并关注实验误差和研究结论的可靠性。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  通过理论与实践相结合，逐步形成清晰、完整的研究过程。</span></p>\n<h4><strong>  02 <span style=\"font-family: 黑体;\">如何通过文献阅读确定研究选题？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  文献阅读能够帮助我们了解已有研究成果，发现尚待解决的问题。</span><span style=\"font-family: 宋体;\">当相关文献较少时，</span> <span style=\"font-family: 宋体;\">可以从实际现象出发，通过预实验和基础理论分析探索研究方向，但往往需要更充分的前期准备。</span><span style=\"font-family: 宋体;\">当已有研究较为成熟时，</span> <span style=\"font-family: 宋体;\">可以先尝试理解和复现经典成果，再关注特殊条件、边界情形及尚未充分讨论的问题。</span><span style=\"font-family: 宋体;\">当不同研究存在分歧时，</span> <span style=\"font-family: 宋体;\">则应认真分析研究方法与结论差异，通过进一步验证寻找值得深入探究的方向。</span><span style=\"font-family: 宋体;\">科研选题既需要创新意识，也离不开扎实的文献积累和严谨的研究态度。</span></p>\n<h4><strong>  03 <span style=\"font-family: 黑体;\">如何培养良好的科研习惯？</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  良好的科研习惯，是提高研究效率和保证成果质量的重要基础。</span><span style=\"font-family: 宋体;\">在研究过程中，应及时记录实验现象、研究数据和推导过程，规范整理文献与文件，避免因资料缺失造成重复工作。</span><span style=\"font-family: 宋体;\">同时，要学会提前规划研究步骤，根据阶段性结果不断调整研究思路，并做好汇报材料和相关成果的整理。</span><span style=\"font-family: 宋体;\">让研究过程有记录、可追溯、能复盘，才能为后续的深入探索打下基础。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">互动答疑｜回应成长困惑</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  新生最关心的问题</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  每场分享结束后，主讲人都与现场同学进行了交流，围绕科研入门、升学规划、</span>AI<span style=\"font-family: 宋体;\">工具使用和学习效率等问题答疑解惑。</span></p>\n<p class=\"MsoNormal\">  01 <span style=\"font-family: 宋体;\">大一新生如何加入科研或竞赛队伍？</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  可以关注学校现有科研项目和竞赛团队，主动向导师或学长学姐表达参与意愿。</span><span style=\"font-family: 宋体;\">从力所能及的基础任务开始，逐步了解项目研究与团队协作流程，在实践中积累经验、提升能力。</span></p>\n<p class=\"MsoNormal\">  02 <span style=\"font-family: 宋体;\">如何应对升学政策可能出现的变化？</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  及时关注学校及学院发布的正式政策，结合自身目标合理规划学习与科研任务。</span><span style=\"font-family: 宋体;\">对于尚未明确的政策调整，不必过度焦虑。持续夯实学业基础、积累专业能力，才能更从容地应对未来的变化。</span></p>\n<p class=\"MsoNormal\">  03 <span style=\"font-family: 宋体;\">如何选择适合自己的</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">工具？</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  不同</span>AI<span style=\"font-family: 宋体;\">工具各有特点，应根据资料整理、文本写作、程序编写、数据分析等具体需求进行选择。</span><span style=\"font-family: 宋体;\">在使用过程中，应关注信息准确性、学术规范和数据安全，避免对工具生成的结果不加核实地直接采用。</span></p>\n<p class=\"MsoNormal\">  04 <span style=\"font-family: 宋体;\">如何避免陷入</span><span style=\"font-family: Calibri;\">“</span><span style=\"font-family: 宋体;\">假学习</span><span style=\"font-family: Calibri;\">”</span><span style=\"font-family: 宋体;\">？</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  判断学习是否有效，不能只看投入了多少时间，更要关注是否真正理解知识、完成目标并形成实际收获。</span><span style=\"font-family: 宋体;\">通过练习反馈、知识复述和定期复盘检验学习效果，及时调整方法，避免陷入看似忙碌却收效甚微的状态。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">结语｜奔赴崭新征程</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  纸上得来终觉浅，绝知此事要躬行。</span><span style=\"font-family: 宋体;\">三场讲座，难以涵盖大学四年的全部答案，却为新生认识大学生活、探索成长方向提供了有益参考。</span><span style=\"font-family: 宋体;\">从夯实学业基础，到合理规划时间，再到主动走近科研竞赛，成长既需要明确目标，也离不开脚踏实地的积累与尝试。</span><span style=\"font-family: 宋体;\">愿每一位新生都能以此次分享为起点，在课堂中积累知识，在实践中锤炼本领，在探索中发现热爱，以自己的节奏走好大学生活的每一步，书写属于自己的青春篇章。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261111/eeeb7a28-79d6-400c-83db-929fa5121cac.png\" height=\"500\"></span></p>\n<p style=\"text-align: center;\">图编 | 梁高睿</p>\n<p style=\"text-align: center;\">文编 | 梁高睿</p>\n<p style=\"text-align: center;\">美编 | 蔡雯茜</p>\n<p style=\"text-align: center;\">值班编辑 | 优思新媒体中心 隋志唯</p>\n<p style=\"text-align: center;\">二审 | 优思新媒体中心 张思栋</p>\n<p style=\"text-align: center;\">责编 | 优思新媒体中心 麻瑶瑶</p>\n<p style=\"text-align: center;\">审核 | 刘钊君 徐硕基</p>\n<p style=\"text-align: center;\">颜川芳子 周荃 晋书香</p>\n<p style=\"text-align: center;\">校审 | 毕晓楠 强伟</p>",
+   "bodyLen": 4147,
+   "excerpt": "大学生活应该如何规划？怎样找到适合自己的学习方法？科研竞赛又该从何入手？ 为帮助新生更好地适应大学生活、明确发展方向，10月，“新生面对面”系列讲座围绕学业提升、时间管理和科研竞赛三大主题，先后开展三场朋辈经验分享。 近日，“新生面对面”系列讲座先后开展三场。10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。从“大学第一份成绩单怎么拿高分”，到“如何叩响科研竞赛的大门”，四位朋辈主讲人结合亲身经历倾囊相授，为初入校园的同学们送上了一份份成长攻略。 从课堂学习到课外探索，从日常规划到长远发展，四位主讲人以亲身经历为切入点，为新生提供了切实可行的思路与建议。 学分绩提升｜夯实成长基础 学业是大学生活的重要基础。如何认识学分绩与综合成绩？怎样合理规划课程学习？奖学金评定又有哪些需要关注的事项？围绕新生普遍关心的学业问题，云开同学结合自身经验，分享了大学课程学习与成绩提升的方法。",
+   "paragraphs": [
+    "大学生活应该如何规划？怎样找到适合自己的学习方法？科研竞赛又该从何入手？",
+    "为帮助新生更好地适应大学生活、明确发展方向，10月，“新生面对面”系列讲座围绕学业提升、时间管理和科研竞赛三大主题，先后开展三场朋辈经验分享。",
+    "近日，“新生面对面”系列讲座先后开展三场。10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。从“大学第一份成绩单怎么拿高分”，到“如何叩响科研竞赛的大门”，四位朋辈主讲人结合亲身经历倾囊相授，为初入校园的同学们送上了一份份成长攻略。",
+    "从课堂学习到课外探索，从日常规划到长远发展，四位主讲人以亲身经历为切入点，为新生提供了切实可行的思路与建议。",
+    "学分绩提升｜夯实成长基础",
+    "学业是大学生活的重要基础。如何认识学分绩与综合成绩？怎样合理规划课程学习？奖学金评定又有哪些需要关注的事项？围绕新生普遍关心的学业问题，云开同学结合自身经验，分享了大学课程学习与成绩提升的方法。",
+    "01 学分绩与综合成绩有什么区别？",
+    "学分绩是反映课程学习表现的重要指标，通常根据课程成绩及相应学分进行加权计算。综合成绩则是在课程考核成绩的基础上，结合综合素质测评等内容进行评价。不同评价事项的计算规则可能有所不同，具体应以学校、书院及学院的正式规定为准。对于新生而言，既要重视课程学习，也应积极参与志愿服务、社会实践等活动，在全面发展中积累成长经验。",
+    "02 奖学金如何申请与评定？",
+    "大学期间的奖学金主要包括国家奖学金、校级奖学金和社会奖学金等，不同类别的评选条件、申请流程和奖励标准有所区别。同学们应及时关注学校和书院发布的评奖通知，提前了解申请条件、评审要求及材料准备事项，合理规划学业与综合素质提升。",
+    "03 如何有效提升学业成绩？",
+    "重视平时积累：专业基础课要注重知识理解，做好课前预习、课堂学习与课后巩固，及时解决疑难问题。",
+    "把握课程特点：根据不同课程的考核方式，合理安排平时作业、课堂表现与期末复习。对于需要记忆的内容，及时梳理知识框架；对于计算和应用类课程，通过习题训练加深理解。",
+    "科学安排复习：提前制定复习计划，优先攻克薄弱环节和学习任务较重的课程，避免临近期末才集中突击。",
+    "大学学习更强调自主性。找到适合自己的学习节奏，在日常积累中不断提高学习效率，远比临时冲刺更加重要。",
+    "时间管理｜规划大学生活",
+    "进入大学后，学习、社团、竞赛和个人生活交织在一起，如何合理分配时间成为许多新生面临的新课题。",
+    "袁成希同学从目标设定、任务安排和工具使用等方面，分享了自己的时间管理经验。",
+    "01 面对繁多任务，如何确定优先级？",
+    "时间管理的第一步，是明确任务的重要性与紧急程度。可以借助“四象限法则”，将任务按照重要程度和紧急程度进行分类，优先处理重要且紧急的事项，同时为重要但不紧急的长期任务预留时间。面对不同类型的任务，应结合实际情况确定完成顺序，避免因琐碎事务占用大量精力，影响核心目标的推进。",
+    "02 如何合理规划大学四年？",
+    "大学不同阶段有不同的发展重点，可以结合个人目标，逐步明确方向。",
+    "大一：夯实基础，积极探索。 适应大学学习方式，培养良好习惯，在实践中认识自己的兴趣与优势。",
+    "大二：深入学习，积累经验。 在稳定学业表现的基础上，尝试科研、竞赛及社会实践，逐步探索适合自己的发展方向。",
+    "大三：聚焦目标，形成积累。 根据升学、就业等不同规划，有针对性地提升专业能力，推进相关项目与成果积累。",
+    "大四：总结收获，衔接未来。 完成毕业阶段的学习任务，为研究生学习、职业发展等做好准备。",
+    "四年规划并非固定不变的时间表，而是帮助我们明确阶段目标、及时调整前进方向的参考。",
+    "03 怎样让时间规划真正落地？",
+    "长远目标需要落实到具体行动中。",
+    "每日有安排：根据任务量与个人精力状态合理分配时间，明确当天需要完成的重点事项。",
+    "每周有统筹：兼顾课程学习、科研竞赛、社会实践与休息生活，为重要任务预留相对完整的时间。",
+    "每月有复盘：检查阶段目标的完成情况，及时调整任务安排与学习方法。",
+    "面对期末考试、竞赛答辩等重要节点，还可以采用倒排计划、分阶段推进等方法，同时保留一定的机动时间，避免安排过满。",
+    "04 如何合理利用AI工具？",
+    "AI工具能够辅助资料整理、任务拆解、思路梳理和日常沟通，提高学习与工作的效率。在实际使用中，可以通过明确任务要求、提供必要背景、持续追问和核实结果，让工具更好地服务于学习。但AI始终是辅助工具，不能代替独立阅读、逻辑分析和批判性思考。合理使用AI，关键在于提升自身解决问题的能力。",
+    "科研竞赛｜探索更多可能",
+    "科研与竞赛是大学生拓展专业视野、培养创新意识和提升实践能力的重要途径。",
+    "10月28日，司奕帆、郭梦泽两位同学分别围绕竞赛规划与多元发展、科研方法与项目实践展开分享，为新生了解科研竞赛、参与项目研究提供了不同角度的参考。",
+    "竞赛规划与多元发展",
+    "01 不同发展目标，如何安排学习重点？",
+    "大学阶段的发展方向多种多样。无论是推免、考研、就业还是出国深造，都需要结合自身目标，合理安排学业、科研、竞赛和实践活动。学业成绩是重要基础，科研竞赛能够帮助提升专业素养和创新能力，社会实践与学生工作则有助于培养沟通协作和组织管理能力。不同发展路径的评价要求有所差异。明确个人目标、了解相关政策，才能更有针对性地分配时间与精力。",
+    "02 科研竞赛应该从什么时候开始准备？",
+    "对于刚进入大学的新生，可以从了解竞赛类型、关注赛事通知和学习基础知识开始，逐步寻找适合自己的方向。在此过程中，主动向学长学姐请教竞赛经验，熟悉参赛流程，结识志同道合的伙伴，在实践和尝试中不断积累经验。不必急于追求竞赛数量或短期成果，更重要的是找到真正感兴趣、愿意持续投入的领域。",
+    "03 如何加入科研团队参与项目研究？",
+    "可以主动联系导师或相关项目负责人，了解现有课题和团队的研究方向，并结合自身能力寻找参与机会。对于科研经验较少的同学，可以从文献整理、资料收集、数据处理和项目文稿等基础工作入手，逐步熟悉研究流程，培养独立思考和解决问题的能力。随着经验积累，也可以尝试提出自己的研究问题，在老师指导下参与更深入的项目研究。",
+    "04 如何兼顾科研竞赛与多元发展？",
+    "大学生活不只有一种成长路径。在保证学业投入的基础上，可以结合兴趣参与科研竞赛、学生工作、志愿服务和社会实践，在不同经历中提升专业能力与综合素质。合理选择重点方向，避免同时承担过多任务，让每一段经历都真正有所收获。",
+    "科研方法与项目实践",
+    "01 如何开展科研竞赛中的课题研究？",
+    "以中国大学生物理学术竞赛（CUPT）为例，开放性赛题的研究通常涉及三个重要环节。",
+    "赛题分析：明确研究对象和关键问题，识别影响因素，结合预实验观察现象，形成初步研究思路。",
+    "理论分析：在明确基本假设和适用条件的基础上，建立理论模型，对研究问题进行分析，必要时借助模拟和计算辅助验证。",
+    "实验研究：设计实验方案，开展测量与对照分析，将实验结果与理论预测进行比较，并关注实验误差和研究结论的可靠性。",
+    "通过理论与实践相结合，逐步形成清晰、完整的研究过程。",
+    "02 如何通过文献阅读确定研究选题？",
+    "文献阅读能够帮助我们了解已有研究成果，发现尚待解决的问题。当相关文献较少时， 可以从实际现象出发，通过预实验和基础理论分析探索研究方向，但往往需要更充分的前期准备。当已有研究较为成熟时， 可以先尝试理解和复现经典成果，再关注特殊条件、边界情形及尚未充分讨论的问题。当不同研究存在分歧时， 则应认真分析研究方法与结论差异，通过进一步验证寻找值得深入探究的方向。科研选题既需要创新意识，也离不开扎实的文献积累和严谨的研究态度。",
+    "03 如何培养良好的科研习惯？",
+    "良好的科研习惯，是提高研究效率和保证成果质量的重要基础。在研究过程中，应及时记录实验现象、研究数据和推导过程，规范整理文献与文件，避免因资料缺失造成重复工作。同时，要学会提前规划研究步骤，根据阶段性结果不断调整研究思路，并做好汇报材料和相关成果的整理。让研究过程有记录、可追溯、能复盘，才能为后续的深入探索打下基础。",
+    "互动答疑｜回应成长困惑",
+    "新生最关心的问题",
+    "每场分享结束后，主讲人都与现场同学进行了交流，围绕科研入门、升学规划、AI工具使用和学习效率等问题答疑解惑。",
+    "01 大一新生如何加入科研或竞赛队伍？",
+    "可以关注学校现有科研项目和竞赛团队，主动向导师或学长学姐表达参与意愿。从力所能及的基础任务开始，逐步了解项目研究与团队协作流程，在实践中积累经验、提升能力。",
+    "02 如何应对升学政策可能出现的变化？",
+    "及时关注学校及学院发布的正式政策，结合自身目标合理规划学习与科研任务。对于尚未明确的政策调整，不必过度焦虑。持续夯实学业基础、积累专业能力，才能更从容地应对未来的变化。",
+    "03 如何选择适合自己的AI工具？",
+    "不同AI工具各有特点，应根据资料整理、文本写作、程序编写、数据分析等具体需求进行选择。在使用过程中，应关注信息准确性、学术规范和数据安全，避免对工具生成的结果不加核实地直接采用。",
+    "04 如何避免陷入“假学习”？",
+    "判断学习是否有效，不能只看投入了多少时间，更要关注是否真正理解知识、完成目标并形成实际收获。通过练习反馈、知识复述和定期复盘检验学习效果，及时调整方法，避免陷入看似忙碌却收效甚微的状态。",
+    "结语｜奔赴崭新征程",
+    "纸上得来终觉浅，绝知此事要躬行。三场讲座，难以涵盖大学四年的全部答案，却为新生认识大学生活、探索成长方向提供了有益参考。从夯实学业基础，到合理规划时间，再到主动走近科研竞赛，成长既需要明确目标，也离不开脚踏实地的积累与尝试。愿每一位新生都能以此次分享为起点，在课堂中积累知识，在实践中锤炼本领，在探索中发现热爱，以自己的节奏走好大学生活的每一步，书写属于自己的青春篇章。",
+    "图编 | 梁高睿",
+    "文编 | 梁高睿",
+    "美编 | 蔡雯茜",
+    "值班编辑 | 优思新媒体中心 隋志唯",
+    "二审 | 优思新媒体中心 张思栋",
+    "责编 | 优思新媒体中心 麻瑶瑶",
+    "审核 | 刘钊君 徐硕基",
+    "颜川芳子 周荃 晋书香",
+    "校审 | 毕晓楠 强伟"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    },
+    {
+     "type": "paragraph",
+     "index": 61
+    },
+    {
+     "type": "paragraph",
+     "index": 62
+    },
+    {
+     "type": "paragraph",
+     "index": 63
+    },
+    {
+     "type": "paragraph",
+     "index": 64
+    },
+    {
+     "type": "paragraph",
+     "index": 65
+    },
+    {
+     "type": "paragraph",
+     "index": 66
+    },
+    {
+     "type": "paragraph",
+     "index": 67
+    },
+    {
+     "type": "paragraph",
+     "index": 68
+    },
+    {
+     "type": "paragraph",
+     "index": 69
+    },
+    {
+     "type": "paragraph",
+     "index": 70
+    },
+    {
+     "type": "paragraph",
+     "index": 71
+    },
+    {
+     "type": "paragraph",
+     "index": 72
+    },
+    {
+     "type": "paragraph",
+     "index": 73
+    },
+    {
+     "type": "paragraph",
+     "index": 74
+    },
+    {
+     "type": "paragraph",
+     "index": 75
+    },
+    {
+     "type": "paragraph",
+     "index": 76
+    },
+    {
+     "type": "paragraph",
+     "index": 77
+    },
+    {
+     "type": "paragraph",
+     "index": 78
+    },
+    {
+     "type": "paragraph",
+     "index": 79
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/4e4cb398-2b95-4802-8539-b4250087979c.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/d91836c1-1c57-4a8e-beeb-4858b7a20f15.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/ff4e4fa2-7db0-4a4a-a9d3-79b714dccb82.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/7a63df09-9037-4f4d-ae3a-dd177e069308.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/eeeb7a28-79d6-400c-83db-929fa5121cac.png",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-12T07:21:03.688147+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+   "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+   "site": "校团委",
+   "date": "2026-11-11",
+   "source": "https://mp.weixin.qq.com/s/ekRQ993JsuS5ZJmJjnNljw",
+   "fetchedAt": "2026-11-12T07:21:03.686267+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+   "contentParserVersion": 2,
+   "body": "西安交通大学\n“攀登计划”AI训练营\n从AI使用者迈向AI创造者\n10亿token，10000积分，等你来领!\n为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。\n01活动概览\n活动名称：西安交通大学2026年「攀登计划」AI训练营。\n活动时间：即日起至11月30日（共21天）。\n参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。\n报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。\n训练营设置：四个主题训练营，单个训练营 4 课时，RAG 实战训练营 8 课时。\n学习方式：线上课程学习与实操任务提交，报名后领取算力及产品积分。\n营员评优：需参加后续线下黑客松，根据任务完成情况评选AI训练营优秀营员。\n报名方式：登录活动官方页面在线报名，详见本文第六部分。\n02四大主题训练营\n每名学员可选择1-2个训练营报名，累计学习课时不少于8小时。\n训练营1 行业研究与金融投研训练营\n训练营2 办公提效训练营\n训练营3 开发实战训练营\n训练营4 RAG实战训练营\n选营建议\n1、拟从事行业研究、投研工作：行业研究与金融投研训练营；\n2、希望提升学习与办公效率：办公提效训练营；\n3、有工具开发需求、希望把重复工作封装为Skill：Skill开发实战训练营；\n4、计算机相关专业、希望参与企业级项目：RAG实战训练营。\n03学习流程与证书发放\n从选择到实践，从学习到认证，四步开启你的 AI 进阶之路。\n1选择训练营并报名\n根据专业背景与学习兴趣选择1-2 个训练营，累计学习课时不少于8小时。\n2领取算力与产品积分\n报名后可领取 算力及 AI Agent 产品积分，用于课程实操与作品开发。\n3完成课程学习\n跟随讯飞技术专家完成全部课程，每节视频有效播放时长须达到总时长的 80%。\n4提交实操任务\n提交实操作品，审核通过后获得结营证书；优秀作品另行评选并给予奖励。\n证书发放要求\n完成以下任一任务，即可领取西安交通大学与科大讯飞 AI 大学堂联合认证的结营证书：\n①完成前3门训练营中的任意2门；\n②完成RAG实战训练营。\n说明：各训练营实操通关任务须审核通过；每节视频有效播放时长须达到总时长的80%，整营课程全部完成后方计入课时。\n04报名权益\n10亿Token\n星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。\n结营证书\n实习推荐\n表现优异的学员有机会获得科大讯飞实习邀约。\n硬件奖品\n面向优秀学员评选发放，结营后 15 个工作日内寄出。\n05心愿Skill，帮你实现！\n面向全校学生，征集希望拥有的 AI Skill：\n为使训练营成果更贴近同学们的实际需求，本次训练营同步开展 Skill 需求征集。全校学生均可提交希望拥有的 AI Skill，并说明希望由 AI 承担的具体工作。征集结束后，组织方将对需求进行汇总与评议，呼声较高的需求由 Skill 开发实战训练营学员组队认领，在讯飞技术专家指导下开发，成果于结营后向全校学生开放共享。\n参考需求方向\n· 课程课件自动整理、提炼课堂重点\n· 校园活动策划方案、宣传文案生成\n· 日程规划、待办清单与复习计划自动编排\n· 活动录音转写、整理活动纪要\n· 社团报名表、活动问卷自动汇总分析\n（以上仅为示例）\n征集截至【11月20日 24:00】\n同一主体可提交多项需求\n提交内容仅用于本次训练营需求分析与成果开发。\n06报名方式\n报名入口、四个训练营的课程介绍与各项权益领取均在同一页面。报名时请选择 1—2 个训练营，报名成功后按页面指引领取算力与产品积分。\n报名网页二维码：\n报名\n即日起，选择1-2个营。\n学习\n11月30日前，完成课程与实操。\n结营\n领取证书，优秀作品参与评选。\n07常见问题\nQ1: 没有编程基础是否可以参加？\n可以。训练营不设软件开发基础要求，仅「RAG 实战训练营」要求具备基础编程能力；不限年级、不限专业，全体在校学生（本科、硕士、博士）均可报名参加。\nQ2: 是否可以同时报名多个训练营？\n可以。鼓励学员根据兴趣报名多个训练营，但须合理安排学习时间，完成每个训练营的课程学习与实操任务，方计入课时。\nQ3: 实操作品提交后是否可以修改？\n活动期间可重新提交作品并覆盖此前版本；实操审核通过后无需重复提交。\nQ4: 证书与奖品何时发放？\n符合结营条件后即可在活动页面领取电子证书；优秀作品奖品将于训练营结束后 15 个工作日内寄出，具体安排以学习社群通知为准。\n08注意事项与违规处理\n严禁以下行为\n抄袭：照搬他人作品或网络成果作为本人实操作品\n代做：委托他人代为完成课程学习或实操作品\n刷课；以挂机、多端并行等方式虚增学习时长\n虚假信息；报名及成果材料中填报不实的身份、单位或数据\n一经核实，取消评奖与证书资格\n说明：本页为推送稿排版预览。文中活动时间、课时安排、结营要求及各项权益均依据活动官方页面整理，最终以 https://m.aidaxue.com/xjtu 公布内容为准。\n来源 | 科技创新指导中心\n值班编辑 | 优思新媒体中心 赵乐涵\n二审 | 优思新媒体中心 杨卓\n责编 | 麻瑶瑶\n审核 | 刘钊君 徐硕基 卞瑾\n校审 | 毕晓楠 孟浩 边志坚 强伟",
+   "bodyHtml": "<h1 style=\"text-align: center;\" align=\"center\"> </h1>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">西安交通大学</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">“攀登计划”</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">从</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">使用者迈向</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">创造者</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: Calibri;\">10</span><span style=\"font-family: 宋体;\">亿</span><span style=\"font-family: Calibri;\">token</span><span style=\"font-family: 宋体;\">，</span><span style=\"font-family: Calibri;\">10000</span><span style=\"font-family: 宋体;\">积分，等你来领</span><span style=\"font-family: Calibri;\">!</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">  为推进人工智能通识教育与创新创业实践，西安交通大学</span><span style=\"font-family: Calibri;\">2026</span><span style=\"font-family: 宋体;\">年「攀登计划」</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 </span><span style=\"font-family: Calibri;\">AI </span><span style=\"font-family: 宋体;\">大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 </span><span style=\"font-family: Calibri;\">AI Agent</span><span style=\"font-family: 宋体;\">、</span><span style=\"font-family: Calibri;\">Skill </span><span style=\"font-family: 宋体;\">开发、</span><span style=\"font-family: Calibri;\">RAG </span><span style=\"font-family: 宋体;\">三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">大学堂联合认证的结营证书，报名即享算力与产品积分支持。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">  01</span><span style=\"font-family: 黑体;\">活动概览</span></strong></h2>\n<ul style=\"text-align: center;\">\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">活动名称</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">西安交通大学</span><span style=\"font-family: Calibri;\">2026</span><span style=\"font-family: 宋体;\">年「攀登计划」</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">活动时间</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">即日起至</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">30</span><span style=\"font-family: 宋体;\">日（共</span><span style=\"font-family: Calibri;\">21</span><span style=\"font-family: 宋体;\">天）。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">参加对象</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">报名要求</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">无需软件开发基础；仅「</span><span style=\"font-family: Calibri;\">RAG </span><span style=\"font-family: 宋体;\">实战训练营」要求具备基础编程能力。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">训练营设置</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">四个主题训练营，单个训练营</span> <span style=\"font-family: Calibri;\">4 </span><span style=\"font-family: 宋体;\">课时，</span><span style=\"font-family: Calibri;\">RAG </span><span style=\"font-family: 宋体;\">实战训练营 </span><span style=\"font-family: Calibri;\">8 </span><span style=\"font-family: 宋体;\">课时。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">学习方式</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">线上课程学习与实操任务提交，报名后领取算力及产品积分。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">营员评优</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">需参加后续线下黑客松，根据任务完成情况评选</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营优秀营员。</span></li>\n<li class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">  </span><span style=\"font-family: 宋体;\">报名方式</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">登录活动官方页面在线报名，详见本文第六部分。</span></li>\n</ul>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">  02</span><span style=\"font-family: 黑体;\">四大主题训练营</span></strong></h2>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"> 每名学员可选择</span><span style=\"font-family: Calibri;\">1-2</span><span style=\"font-family: 宋体;\">个训练营报名，累计学习课时不少于</span><span style=\"font-family: Calibri;\">8</span><span style=\"font-family: 宋体;\">小时。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> <span style=\"font-family: 宋体;\">训练营</span><span style=\"font-family: Calibri;\">1 </span><span style=\"font-family: 宋体;\">行业研究与金融投研训练营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/5de53daa-ddb7-4b6c-96db-9782c01ef59b.png\" width=\"500\"></span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> <span style=\"font-family: 宋体;\">训练营</span><span style=\"font-family: Calibri;\">2 </span><span style=\"font-family: 宋体;\">办公提效训练营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/acf9d9dd-59b8-4cd2-b43f-f7f4584866ba.png\" width=\"500\"></span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> <span style=\"font-family: 宋体;\">训练营</span><span style=\"font-family: Calibri;\">3 </span><span style=\"font-family: 宋体;\">开发实战训练营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/2223c127-5a5d-4bff-b376-2f8a9a58dcd9.png\" width=\"500\"></span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> <span style=\"font-family: 宋体;\">训练营</span><span style=\"font-family: Calibri;\">4 RAG</span><span style=\"font-family: 宋体;\">实战训练营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/169d38b1-8ea1-4f22-beb0-dd88a1247ed6.png\" width=\"500\"></span></p>\n<h3 style=\"text-align: center;\"><strong><span style=\"font-family: 宋体;\">选营建议</span></strong></h3>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">、拟从事行业研究、投研工作：行业研究与金融投研训练营；</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">、希望提升学习与办公效率：办公提效训练营；</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">、有工具开发需求、希望把重复工作封装为</span><span style=\"font-family: Calibri;\">Skill</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: Calibri;\">Skill</span><span style=\"font-family: 宋体;\">开发实战训练营；</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">4</span><span style=\"font-family: 宋体;\">、计算机相关专业、希望参与企业级项目：</span><span style=\"font-family: Calibri;\">RAG</span><span style=\"font-family: 宋体;\">实战训练营。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">03</span><span style=\"font-family: 黑体;\">学习流程与证书发放</span></strong></h2>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">从选择到实践，从学习到认证，四步开启你的</span> <span style=\"font-family: Calibri;\">AI </span><span style=\"font-family: 宋体;\">进阶之路。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">选择训练营并报名</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">根据专业背景与学习兴趣选择</span><span style=\"font-family: Calibri;\">1-2 </span><span style=\"font-family: 宋体;\">个训练营，累计学习课时不少于</span><span style=\"font-family: Calibri;\">8</span><span style=\"font-family: 宋体;\">小时。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">领取算力与产品积分</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">报名后可领取</span> <span style=\"font-family: 宋体;\">算力及</span> <span style=\"font-family: Calibri;\">AI Agent </span><span style=\"font-family: 宋体;\">产品积分，用于课程实操与作品开发。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">完成课程学习</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">跟随讯飞技术专家完成全部课程，每节视频有效播放时长须达到总时长的</span> <span style=\"font-family: Calibri;\">80%</span><span style=\"font-family: 宋体;\">。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: Calibri;\">4</span><span style=\"font-family: 宋体;\">提交实操任务</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">提交实操作品，审核通过后获得结营证书；优秀作品另行评选并给予奖励。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"> </p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">证书发放要求</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">完成以下任一任务，即可领取西安交通大学与科大讯飞</span> <span style=\"font-family: Calibri;\">AI </span><span style=\"font-family: 宋体;\">大学堂联合认证的结营证书：</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">①完成前</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">门训练营中的任意</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">门；</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">②完成</span><span style=\"font-family: Calibri;\">RAG</span><span style=\"font-family: 宋体;\">实战训练营。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">说明：各训练营实操通关任务须审核通过；每节视频有效播放时长须达到总时长的</span><span style=\"font-family: Calibri;\">80%</span><span style=\"font-family: 宋体;\">，整营课程全部完成后方计入课时。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">04</span><span style=\"font-family: 黑体;\">报名权益</span></strong></h2>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: Calibri;\">10</span><span style=\"font-family: 宋体;\">亿</span><span style=\"font-family: Calibri;\">Token</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">星火</span> <span style=\"font-family: Calibri;\">Spark-X2.5 </span><span style=\"font-family: 宋体;\">免费算力额度，覆盖课程实操、作品开发与反复调试。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg\" width=\"500\"></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">结营证书</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/9a1143b5-ba9d-4235-9a8c-0ad13b04709d.png\" width=\"500\"></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">实习推荐</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">表现优异的学员有机会获得科大讯飞实习邀约。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">硬件奖品</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/5030d0ae-9a92-41f5-b225-02bff33b648e.jpg\" width=\"500\"></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">面向优秀学员评选发放，结营后</span> <span style=\"font-family: Calibri;\">15 </span><span style=\"font-family: 宋体;\">个工作日内寄出。</span></p>\n<h2 class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 黑体;\"><strong>05心愿Skill，帮你实现！</strong></span></h2>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">  面向全校学生，征集希望拥有的</span> <span style=\"font-family: Calibri;\">AI Skill</span><span style=\"font-family: 宋体;\">：</span></p>\n<p class=\"MsoNormal\" style=\"text-align: left;\"><span style=\"font-family: 宋体;\">  为使训练营成果更贴近同学们的实际需求，本次训练营同步开展</span> <span style=\"font-family: Calibri;\">Skill </span><span style=\"font-family: 宋体;\">需求征集。全校学生均可提交希望拥有的 </span><span style=\"font-family: Calibri;\">AI Skill</span><span style=\"font-family: 宋体;\">，并说明希望由 </span><span style=\"font-family: Calibri;\">AI </span><span style=\"font-family: 宋体;\">承担的具体工作。征集结束后，组织方将对需求进行汇总与评议，呼声较高的需求由 </span><span style=\"font-family: Calibri;\">Skill </span><span style=\"font-family: 宋体;\">开发实战训练营学员组队认领，在讯飞技术专家指导下开发，成果于结营后向全校学生开放共享。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> </p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">参考需求方向</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">· 课程课件自动整理、提炼课堂重点</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">· 校园活动策划方案、宣传文案生成</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">· 日程规划、待办清单与复习计划自动编排</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">· 活动录音转写、整理活动纪要</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">· 社团报名表、活动问卷自动汇总分析</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">（以上仅为示例）</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">征集截至【</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">20</span><span style=\"font-family: 宋体;\">日 </span><span style=\"font-family: Calibri;\">24:00</span><span style=\"font-family: 宋体;\">】</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">同一主体可提交多项需求</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/cab74685-39da-4f06-9b83-131fe89c88db.png\" width=\"500\"></span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">提交内容仅用于本次训练营需求分析与成果开发。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">06</span><span style=\"font-family: 黑体;\">报名方式</span></strong></h2>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> </p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">报名入口、四个训练营的课程介绍与各项权益领取均在同一页面。报名时请选择</span> <span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">—</span><span style=\"font-family: Calibri;\">2 </span><span style=\"font-family: 宋体;\">个训练营，报名成功后按页面指引领取算力与产品积分。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">报名网页二维码：</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/6b8f7d51-16ab-4846-8b0a-28233075b466.jpg\" width=\"500\"></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">报名</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">即日起，选择</span><span style=\"font-family: Calibri;\">1-2</span><span style=\"font-family: 宋体;\">个营。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">学习</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">30</span><span style=\"font-family: 宋体;\">日前，完成课程与实操。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">结营</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"font-family: 宋体;\">领取证书，优秀作品参与评选。</span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">07</span><span style=\"font-family: 黑体;\">常见问题</span></strong></h2>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: Calibri;\">Q1: </span><span style=\"font-family: 宋体;\">没有编程基础是否可以参加？</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">可以。训练营不设软件开发基础要求，仅「</span><span style=\"font-family: Calibri;\">RAG </span><span style=\"font-family: 宋体;\">实战训练营」要求具备基础编程能力；不限年级、不限专业，全体在校学生（本科、硕士、博士）均可报名参加。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: Calibri;\">Q2: </span><span style=\"font-family: 宋体;\">是否可以同时报名多个训练营？</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">可以。鼓励学员根据兴趣报名多个训练营，但须合理安排学习时间，完成每个训练营的课程学习与实操任务，方计入课时。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: Calibri;\">Q3: </span><span style=\"font-family: 宋体;\">实操作品提交后是否可以修改？</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">活动期间可重新提交作品并覆盖此前版本；实操审核通过后无需重复提交。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: Calibri;\">Q4: </span><span style=\"font-family: 宋体;\">证书与奖品何时发放？</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">符合结营条件后即可在活动页面领取电子证书；优秀作品奖品将于训练营结束后</span> <span style=\"font-family: Calibri;\">15 </span><span style=\"font-family: 宋体;\">个工作日内寄出，具体安排以学习社群通知为准。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: Calibri;\">08</span><span style=\"font-family: 宋体;\">注意事项与违规处理</span></p>\n<h3 style=\"text-align: justify;\"><strong><span style=\"font-family: 宋体;\">严禁以下行为</span></strong></h3>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">抄袭</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">照搬他人作品或网络成果作为本人实操作品</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">代做</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">委托他人代为完成课程学习或实操作品</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">刷课</span><span style=\"font-family: 宋体;\">；</span><span style=\"font-family: 宋体;\">以挂机、多端并行等方式虚增学习时长</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">虚假信息</span><span style=\"font-family: 宋体;\">；</span><span style=\"font-family: 宋体;\">报名及成果材料中填报不实的身份、单位或数据</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">一经核实，取消评奖与证书资格</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\"><span style=\"font-family: 宋体;\">说明：本页为推送稿排版预览。文中活动时间、课时安排、结营要求及各项权益均依据活动官方页面整理，最终以</span> <span style=\"font-family: Calibri;\">https://m.aidaxue.com/xjtu </span><span style=\"font-family: 宋体;\">公布内容为准。</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> </p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">来源</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">科技创新指导中心</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">值班编辑</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 赵乐涵</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">二审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 杨卓</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">责编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">麻瑶瑶</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">审核</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">刘钊君 徐硕基 卞瑾</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\" align=\"center\"><span style=\"font-family: 宋体;\">校审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">毕晓楠 孟浩 边志坚 强伟</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"> </p>",
+   "bodyLen": 2394,
+   "excerpt": "西安交通大学 “攀登计划”AI训练营 从AI使用者迈向AI创造者 10亿token，10000积分，等你来领! 为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。 01活动概览 活动名称：西安交通大学2026年「攀登计划」AI训练营。 活动时间：即日起至11月30日（共21天）。 参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。 报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。",
+   "paragraphs": [
+    "西安交通大学",
+    "“攀登计划”AI训练营",
+    "从AI使用者迈向AI创造者",
+    "10亿token，10000积分，等你来领!",
+    "为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。",
+    "01活动概览",
+    "活动名称：西安交通大学2026年「攀登计划」AI训练营。",
+    "活动时间：即日起至11月30日（共21天）。",
+    "参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。",
+    "报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。",
+    "训练营设置：四个主题训练营，单个训练营 4 课时，RAG 实战训练营 8 课时。",
+    "学习方式：线上课程学习与实操任务提交，报名后领取算力及产品积分。",
+    "营员评优：需参加后续线下黑客松，根据任务完成情况评选AI训练营优秀营员。",
+    "报名方式：登录活动官方页面在线报名，详见本文第六部分。",
+    "02四大主题训练营",
+    "每名学员可选择1-2个训练营报名，累计学习课时不少于8小时。",
+    "训练营1 行业研究与金融投研训练营",
+    "训练营2 办公提效训练营",
+    "训练营3 开发实战训练营",
+    "训练营4 RAG实战训练营",
+    "选营建议",
+    "1、拟从事行业研究、投研工作：行业研究与金融投研训练营；",
+    "2、希望提升学习与办公效率：办公提效训练营；",
+    "3、有工具开发需求、希望把重复工作封装为Skill：Skill开发实战训练营；",
+    "4、计算机相关专业、希望参与企业级项目：RAG实战训练营。",
+    "03学习流程与证书发放",
+    "从选择到实践，从学习到认证，四步开启你的 AI 进阶之路。",
+    "1选择训练营并报名",
+    "根据专业背景与学习兴趣选择1-2 个训练营，累计学习课时不少于8小时。",
+    "2领取算力与产品积分",
+    "报名后可领取 算力及 AI Agent 产品积分，用于课程实操与作品开发。",
+    "3完成课程学习",
+    "跟随讯飞技术专家完成全部课程，每节视频有效播放时长须达到总时长的 80%。",
+    "4提交实操任务",
+    "提交实操作品，审核通过后获得结营证书；优秀作品另行评选并给予奖励。",
+    "证书发放要求",
+    "完成以下任一任务，即可领取西安交通大学与科大讯飞 AI 大学堂联合认证的结营证书：",
+    "①完成前3门训练营中的任意2门；",
+    "②完成RAG实战训练营。",
+    "说明：各训练营实操通关任务须审核通过；每节视频有效播放时长须达到总时长的80%，整营课程全部完成后方计入课时。",
+    "04报名权益",
+    "10亿Token",
+    "星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。",
+    "结营证书",
+    "实习推荐",
+    "表现优异的学员有机会获得科大讯飞实习邀约。",
+    "硬件奖品",
+    "面向优秀学员评选发放，结营后 15 个工作日内寄出。",
+    "05心愿Skill，帮你实现！",
+    "面向全校学生，征集希望拥有的 AI Skill：",
+    "为使训练营成果更贴近同学们的实际需求，本次训练营同步开展 Skill 需求征集。全校学生均可提交希望拥有的 AI Skill，并说明希望由 AI 承担的具体工作。征集结束后，组织方将对需求进行汇总与评议，呼声较高的需求由 Skill 开发实战训练营学员组队认领，在讯飞技术专家指导下开发，成果于结营后向全校学生开放共享。",
+    "参考需求方向",
+    "· 课程课件自动整理、提炼课堂重点",
+    "· 校园活动策划方案、宣传文案生成",
+    "· 日程规划、待办清单与复习计划自动编排",
+    "· 活动录音转写、整理活动纪要",
+    "· 社团报名表、活动问卷自动汇总分析",
+    "（以上仅为示例）",
+    "征集截至【11月20日 24:00】",
+    "同一主体可提交多项需求",
+    "提交内容仅用于本次训练营需求分析与成果开发。",
+    "06报名方式",
+    "报名入口、四个训练营的课程介绍与各项权益领取均在同一页面。报名时请选择 1—2 个训练营，报名成功后按页面指引领取算力与产品积分。",
+    "报名网页二维码：",
+    "报名",
+    "即日起，选择1-2个营。",
+    "学习",
+    "11月30日前，完成课程与实操。",
+    "结营",
+    "领取证书，优秀作品参与评选。",
+    "07常见问题",
+    "Q1: 没有编程基础是否可以参加？",
+    "可以。训练营不设软件开发基础要求，仅「RAG 实战训练营」要求具备基础编程能力；不限年级、不限专业，全体在校学生（本科、硕士、博士）均可报名参加。",
+    "Q2: 是否可以同时报名多个训练营？",
+    "可以。鼓励学员根据兴趣报名多个训练营，但须合理安排学习时间，完成每个训练营的课程学习与实操任务，方计入课时。",
+    "Q3: 实操作品提交后是否可以修改？",
+    "活动期间可重新提交作品并覆盖此前版本；实操审核通过后无需重复提交。",
+    "Q4: 证书与奖品何时发放？",
+    "符合结营条件后即可在活动页面领取电子证书；优秀作品奖品将于训练营结束后 15 个工作日内寄出，具体安排以学习社群通知为准。",
+    "08注意事项与违规处理",
+    "严禁以下行为",
+    "抄袭：照搬他人作品或网络成果作为本人实操作品",
+    "代做：委托他人代为完成课程学习或实操作品",
+    "刷课；以挂机、多端并行等方式虚增学习时长",
+    "虚假信息；报名及成果材料中填报不实的身份、单位或数据",
+    "一经核实，取消评奖与证书资格",
+    "说明：本页为推送稿排版预览。文中活动时间、课时安排、结营要求及各项权益均依据活动官方页面整理，最终以 https://m.aidaxue.com/xjtu 公布内容为准。",
+    "来源 | 科技创新指导中心",
+    "值班编辑 | 优思新媒体中心 赵乐涵",
+    "二审 | 优思新媒体中心 杨卓",
+    "责编 | 麻瑶瑶",
+    "审核 | 刘钊君 徐硕基 卞瑾",
+    "校审 | 毕晓楠 孟浩 边志坚 强伟"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    },
+    {
+     "type": "paragraph",
+     "index": 61
+    },
+    {
+     "type": "paragraph",
+     "index": 62
+    },
+    {
+     "type": "paragraph",
+     "index": 63
+    },
+    {
+     "type": "paragraph",
+     "index": 64
+    },
+    {
+     "type": "paragraph",
+     "index": 65
+    },
+    {
+     "type": "paragraph",
+     "index": 66
+    },
+    {
+     "type": "paragraph",
+     "index": 67
+    },
+    {
+     "type": "paragraph",
+     "index": 68
+    },
+    {
+     "type": "paragraph",
+     "index": 69
+    },
+    {
+     "type": "paragraph",
+     "index": 70
+    },
+    {
+     "type": "paragraph",
+     "index": 71
+    },
+    {
+     "type": "paragraph",
+     "index": 72
+    },
+    {
+     "type": "paragraph",
+     "index": 73
+    },
+    {
+     "type": "paragraph",
+     "index": 74
+    },
+    {
+     "type": "paragraph",
+     "index": 75
+    },
+    {
+     "type": "paragraph",
+     "index": 76
+    },
+    {
+     "type": "paragraph",
+     "index": 77
+    },
+    {
+     "type": "paragraph",
+     "index": 78
+    },
+    {
+     "type": "paragraph",
+     "index": 79
+    },
+    {
+     "type": "paragraph",
+     "index": 80
+    },
+    {
+     "type": "paragraph",
+     "index": 81
+    },
+    {
+     "type": "paragraph",
+     "index": 82
+    },
+    {
+     "type": "paragraph",
+     "index": 83
+    },
+    {
+     "type": "paragraph",
+     "index": 84
+    },
+    {
+     "type": "paragraph",
+     "index": 85
+    },
+    {
+     "type": "paragraph",
+     "index": 86
+    },
+    {
+     "type": "paragraph",
+     "index": 87
+    },
+    {
+     "type": "paragraph",
+     "index": 88
+    },
+    {
+     "type": "paragraph",
+     "index": 89
+    },
+    {
+     "type": "paragraph",
+     "index": 90
+    },
+    {
+     "type": "paragraph",
+     "index": 91
+    },
+    {
+     "type": "paragraph",
+     "index": 92
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5de53daa-ddb7-4b6c-96db-9782c01ef59b.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/acf9d9dd-59b8-4cd2-b43f-f7f4584866ba.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/2223c127-5a5d-4bff-b376-2f8a9a58dcd9.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/169d38b1-8ea1-4f22-beb0-dd88a1247ed6.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg",
+     "alt": "",
+     "context": "星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/9a1143b5-ba9d-4235-9a8c-0ad13b04709d.png",
+     "alt": "",
+     "context": "结营证书"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5030d0ae-9a92-41f5-b225-02bff33b648e.jpg",
+     "alt": "",
+     "context": "硬件奖品"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/cab74685-39da-4f06-9b83-131fe89c88db.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/6b8f7d51-16ab-4846-8b0a-28233075b466.jpg",
+     "alt": "",
+     "context": "报名网页二维码："
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-12T07:21:03.686267+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+   "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+   "site": "校团委",
+   "date": "2026-11-12",
+   "source": "https://mp.weixin.qq.com/s/xaAHoRfC77f9FlCZ35y2jA",
+   "fetchedAt": "2026-11-12T07:21:03.685322+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "2653af401bd1d62ad6e7d426dcac94b62b591d3eaee634f6da4ff826123013e4",
+   "contentParserVersion": 2,
+   "body": "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。项目讲师马慧青、导师马娜娜围绕心理状态识别、共情倾听、有效沟通、伦理规范与角色边界等内容，通过专题讲授、小组互动和情境演练，帮助志愿者深化对心理支持服务的认识，提升实际服务能力。\n“大学生心理健康志愿服务项目”在陕西省委社会工作部指导下，由陕西省志愿服务联合会主办，西安交通大学校团委与西安市协力社会工作服务中心联合实施，旨在回应学业困难学生的实际需求，构建更加可及、包容的心理支持环境。\n本次培训作为承接理论学习与实践服务的重要环节，着力提升志愿者的沟通能力与服务意识，为后续团体辅导实践奠定基础。\n01-理论筑基-掌握方法，明确边界\n识别心理信号，明确服务边界\n培训伊始，马慧青老师围绕心理状态识别的基本原则展开讲解，介绍了心理活动的统一性、内在协调一致性与人格相对稳定性等参考维度，帮助志愿者建立对心理状态识别的基本认识。\n课程特别强调，志愿者的职责在于关注心理风险信号、提供力所能及的支持，并在必要时寻求专业帮助，而非对他人的心理状况作出诊断。 尊重个体差异、遵守伦理规范、明确角色边界，是开展心理健康志愿服务的重要前提。\n学会共情倾听，理解真实需求\n有效的倾听，不仅是听见对方说了什么，更在于理解话语背后的情绪与需求。马慧青老师以“冰山理论”为切入点，引导志愿者从外在行为出发，进一步关注行为背后的感受、观点及深层需求，理解“听内容、听情绪、听需求”三个层次的不同内涵。\n在随后的互动练习中，志愿者两两分组，通过专注倾听、观察表情与肢体语言、尝试回应情绪等方式，体会共情沟通的实际过程。从关注对方说了什么，到尝试理解对方为何这样表达，大家在交流中进一步认识到耐心倾听与真诚回应的重要性。\n优化沟通表达，提升回应能力\n如何在理解对方的基础上，给予恰当、有效的回应？培训中，马慧青老师介绍了“三明治沟通法”，引导志愿者学习结构化表达的方法。这一方法强调以真诚肯定建立良好的沟通氛围，以具体、客观的反馈回应实际问题，并通过共同商讨后续行动形成积极支持。\n志愿者由此认识到，良好的沟通既需要理解与尊重，也需要清晰、具体、有分寸的表达，让善意能够转化为切实有效的支持。\n02-情境演练-以学促用，提升服务能力\n理论学习之外，培训还安排了丰富的互动讨论与案例演练，引导志愿者将所学知识运用到具体情境中，在实践中深化理解、锻炼能力。围绕志愿服务中可能遇到的实际问题，课程设置了八个典型情境，涵盖迎新物资分配、家长诉求与学校规则发生冲突、公开宣讲过程中受到质疑等场景。\n在分组讨论与模拟演练中，志愿者结合不同角色的立场，尝试梳理问题、澄清诉求、组织回应，并就沟通方式与处理原则展开交流。面对不同的意见与诉求，如何做到耐心倾听、理性回应？面对超出自身职责范围的问题，又该如何把握边界、寻求支持？在一次次讨论、表达与反馈中，志愿者逐步加深了对沟通技巧和服务规范的理解。\n从理解方法到尝试运用，从关注问题到理解需求，情境演练让课堂所学更加具体，也让志愿者对服务中的责任与边界有了更清晰的认识。\n03-实践接续-深化学习成果，传递志愿温度\n培训不仅着眼于当下的技能提升，更注重推动学习成果向实际服务转化。按照项目安排，11月将陆续开展主题团体辅导体验与实践督导，围绕“考前减压充电站”“行动力实验室”“大学新生学习心理赋能工作坊”三个主题，引导志愿者在实践中运用所学方法、积累服务经验。\n通过理论学习、实操训练、团辅实践与督导考核的有机衔接，项目将进一步完善志愿者培养机制，推动志愿服务能力持续提升。\n让专业赋能善意，让行动传递温暖\n培训结束后，志愿者认真梳理学习收获，填写课程反馈，并根据个人兴趣选报后续团辅主题，为下一阶段的实践做好准备。\nMentalHealth从心理状态识别到共情倾听，从沟通表达训练到典型情境演练，本次培训帮助志愿者进一步掌握了心理支持服务的基础知识与方法，增强了对服务伦理和角色边界的认识，为后续团体辅导实践奠定了良好基础。\n未来，“大学生心理健康志愿服务项目”将继续立足学生实际需求，完善培训、实践与督导相衔接的志愿者培养体系，推动心理健康志愿服务规范化、持续化开展，为构建更加温暖、互助的校园心理支持网络贡献青春力量。\n文编 | 梁高睿\n图编 | 蔡雯茜\n美编 | 王浩峰\n编辑 | 优思新媒体中心 赵乐涵\n二审 | 优思新媒体中心 杨卓\n责编 | 麻瑶瑶 颜川芳子 周荃 晋书香\n审核 | 刘钊君 徐硕基\n校审 | 毕晓楠 强伟",
+   "bodyHtml": "<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">         11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。项目讲师马慧青、导师马娜娜围绕心理状态识别、共情倾听、有效沟通、伦理规范与角色边界等内容，通过专题讲授、小组互动和情境演练，帮助志愿者深化对心理支持服务的认识，提升实际服务能力。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  “大学生心理健康志愿服务项目”在陕西省委社会工作部指导下，由陕西省志愿服务联合会主办，西安交通大学校团委与西安市协力社会工作服务中心联合实施，旨在回应学业困难学生的实际需求，构建更加可及、包容的心理支持环境。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  本次培训作为承接理论学习与实践服务的重要环节，着力提升志愿者的沟通能力与服务意识，为后续团体辅导实践奠定基础。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"> <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/ae8dd444-1396-4a77-9b82-5211c22da453.jpg\" width=\"500\"></span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">01-</span><span style=\"font-family: 黑体;\">理论筑基</span><span style=\"font-family: Arial;\">-</span><span style=\"font-family: 黑体;\">掌握方法，明确边界</span></strong></h2>\n<h3><strong><span style=\"font-family: 宋体;\">  识别心理信号，明确服务边界</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  培训伊始，马慧青老师围绕心理状态识别的基本原则展开讲解，介绍了心理活动的统一性、内在协调一致性与人格相对稳定性等参考维度，帮助志愿者建立对心理状态识别的基本认识。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  课程特别强调，志愿者的职责在于关注心理风险信号、提供力所能及的支持，并在必要时寻求专业帮助，而非对他人的心理状况作出诊断。</span><span style=\"font-family: Calibri;\"> </span><span style=\"font-family: 宋体;\">尊重个体差异、遵守伦理规范、明确角色边界，是开展心理健康志愿服务的重要前提。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/8941dec0-40e8-47c4-bb84-2dcfaea209a8.jpg\" width=\"500\"></span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  学会共情倾听，理解真实需求</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  有效的倾听，不仅是听见对方说了什么，更在于理解话语背后的情绪与需求。马慧青老师以</span><span style=\"font-family: 宋体;\">“冰山理论”为切入点，引导志愿者从外在行为出发，进一步关注行为背后的感受、观点及深层需求，理解“听内容、听情绪、听需求”三个层次的不同内涵。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  在随后的互动练习中，志愿者两两分组，通过专注倾听、观察表情与肢体语言、尝试回应情绪等方式，体会共情沟通的实际过程。从关注对方说了什么，到尝试理解对方为何这样表达，大家在交流中进一步认识到耐心倾听与真诚回应的重要性。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/d29236b2-d478-4f95-b095-1a8c1c250ecb.png\" width=\"500\"></span></p>\n<h3><strong><span style=\"font-family: 宋体;\">  优化沟通表达，提升回应能力</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  如何在理解对方的基础上，给予恰当、有效的回应？培训中，马慧青老师介绍了</span><span style=\"font-family: 宋体;\">“三明治沟通法”，引导志愿者学习结构化表达的方法。这一方法强调以真诚肯定建立良好的沟通氛围，以具体、客观的反馈回应实际问题，并通过共同商讨后续行动形成积极支持。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  志愿者由此认识到，良好的沟通既需要理解与尊重，也需要清晰、具体、有分寸的表达，让善意能够转化为切实有效的支持。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/7e50b586-323e-4a70-82fa-16e57049c57d.jpg\" width=\"500\"></span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">02-</span><span style=\"font-family: 黑体;\">情境演练</span><span style=\"font-family: Arial;\">-</span><span style=\"font-family: 黑体;\">以学促用，提升服务能力</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  理论学习之外，培训还安排了丰富的互动讨论与案例演练，引导志愿者将所学知识运用到具体情境中，在实践中深化理解、锻炼能力。围绕志愿服务中可能遇到的实际问题，课程设置了八个典型情境，涵盖迎新物资分配、家长诉求与学校规则发生冲突、公开宣讲过程中受到质疑等场景。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  在分组讨论与模拟演练中，志愿者结合不同角色的立场，尝试梳理问题、澄清诉求、组织回应，并就沟通方式与处理原则展开交流。面对不同的意见与诉求，如何做到耐心倾听、理性回应？面对超出自身职责范围的问题，又该如何把握边界、寻求支持？在一次次讨论、表达与反馈中，志愿者逐步加深了对沟通技巧和服务规范的理解。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  从理解方法到尝试运用，从关注问题到理解需求，情境演练让课堂所学更加具体，也让志愿者对服务中的责任与边界有了更清晰的认识。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/550c5ff4-8532-47e0-81fc-bd5d3e80a9a4.png\" width=\"500\"></span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: Arial;\">03-</span><span style=\"font-family: 黑体;\">实践接续</span><span style=\"font-family: Arial;\">-</span><span style=\"font-family: 黑体;\">深化学习成果，传递志愿温度</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  培训不仅着眼于当下的技能提升，更注重推动学习成果向实际服务转化。按照项目安排，</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月将陆续开展主题团体辅导体验与实践督导，围绕“考前减压充电站”“行动力实验室”“大学新生学习心理赋能工作坊”三个主题，引导志愿者在实践中运用所学方法、积累服务经验。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  通过理论学习、实操训练、团辅实践与督导考核的有机衔接，项目将进一步完善志愿者培养机制，推动志愿服务能力持续提升。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/3f7d4e6b-eb76-4079-828d-2f1f175fa7b7.jpg\" width=\"500\"></span></p>\n<h2 style=\"text-align: center;\"><strong><span style=\"font-family: 黑体;\">让专业赋能善意，让行动传递温暖</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  培训结束后，志愿者认真梳理学习收获，填写课程反馈，并根据个人兴趣选报后续团辅主题，为下一阶段的实践做好准备。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">      MentalHealth</span><span style=\"font-family: 宋体;\">从心理状态识别到共情倾听，从沟通表达训练到典型情境演练，本次培训帮助志愿者进一步掌握了心理支持服务的基础知识与方法，增强了对服务伦理和角色边界的认识，为后续团体辅导实践奠定了良好基础。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  未来，</span><span style=\"font-family: 宋体;\">“大学生心理健康志愿服务项目”将继续立足学生实际需求，完善培训、实践与督导相衔接的志愿者培养体系，推动心理健康志愿服务规范化、持续化开展，为构建更加温暖、互助的校园心理支持网络贡献青春力量。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/48397e1c-9fe8-4eef-8f4e-f2dde1dbb117.jpg\" width=\"500\"></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">文编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">梁高睿</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">图编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">蔡雯茜</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">美编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">王浩峰</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">编辑</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 赵乐涵</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">二审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 杨卓</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">责编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">麻瑶瑶</span><span style=\"font-family: Calibri;\"> </span><span style=\"font-family: 宋体;\">颜川芳子 周荃 晋书香</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">审核</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">刘钊君 徐硕基</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">校审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">毕晓楠 强伟</span></p>",
+   "bodyLen": 1861,
+   "excerpt": "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。项目讲师马慧青、导师马娜娜围绕心理状态识别、共情倾听、有效沟通、伦理规范与角色边界等内容，通过专题讲授、小组互动和情境演练，帮助志愿者深化对心理支持服务的认识，提升实际服务能力。 “大学生心理健康志愿服务项目”在陕西省委社会工作部指导下，由陕西省志愿服务联合会主办，西安交通大学校团委与西安市协力社会工作服务中心联合实施，旨在回应学业困难学生的实际需求，构建更加可及、包容的心理支持环境。 本次培训作为承接理论学习与实践服务的重要环节，着力提升志愿者的沟通能力与服务意识，为后续团体辅导实践奠定基础。 01-理论筑基-掌握方法，明确边界 识别心理信号，明确服务边界 培训伊始，马慧青老师围绕心理状态识别的基本原则展开讲解，介绍了心理活动的统一性、内在协调一致性与人格相对稳定性等参考维度，帮助志愿者建立对心理状态识别的基本认识。 课程特别强调，志愿者的职责在于关注心理风险信号、提供力所能及的支持，并在必要时寻求专业帮助，而非对他人的心理状况作出诊断。",
+   "paragraphs": [
+    "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。项目讲师马慧青、导师马娜娜围绕心理状态识别、共情倾听、有效沟通、伦理规范与角色边界等内容，通过专题讲授、小组互动和情境演练，帮助志愿者深化对心理支持服务的认识，提升实际服务能力。",
+    "“大学生心理健康志愿服务项目”在陕西省委社会工作部指导下，由陕西省志愿服务联合会主办，西安交通大学校团委与西安市协力社会工作服务中心联合实施，旨在回应学业困难学生的实际需求，构建更加可及、包容的心理支持环境。",
+    "本次培训作为承接理论学习与实践服务的重要环节，着力提升志愿者的沟通能力与服务意识，为后续团体辅导实践奠定基础。",
+    "01-理论筑基-掌握方法，明确边界",
+    "识别心理信号，明确服务边界",
+    "培训伊始，马慧青老师围绕心理状态识别的基本原则展开讲解，介绍了心理活动的统一性、内在协调一致性与人格相对稳定性等参考维度，帮助志愿者建立对心理状态识别的基本认识。",
+    "课程特别强调，志愿者的职责在于关注心理风险信号、提供力所能及的支持，并在必要时寻求专业帮助，而非对他人的心理状况作出诊断。 尊重个体差异、遵守伦理规范、明确角色边界，是开展心理健康志愿服务的重要前提。",
+    "学会共情倾听，理解真实需求",
+    "有效的倾听，不仅是听见对方说了什么，更在于理解话语背后的情绪与需求。马慧青老师以“冰山理论”为切入点，引导志愿者从外在行为出发，进一步关注行为背后的感受、观点及深层需求，理解“听内容、听情绪、听需求”三个层次的不同内涵。",
+    "在随后的互动练习中，志愿者两两分组，通过专注倾听、观察表情与肢体语言、尝试回应情绪等方式，体会共情沟通的实际过程。从关注对方说了什么，到尝试理解对方为何这样表达，大家在交流中进一步认识到耐心倾听与真诚回应的重要性。",
+    "优化沟通表达，提升回应能力",
+    "如何在理解对方的基础上，给予恰当、有效的回应？培训中，马慧青老师介绍了“三明治沟通法”，引导志愿者学习结构化表达的方法。这一方法强调以真诚肯定建立良好的沟通氛围，以具体、客观的反馈回应实际问题，并通过共同商讨后续行动形成积极支持。",
+    "志愿者由此认识到，良好的沟通既需要理解与尊重，也需要清晰、具体、有分寸的表达，让善意能够转化为切实有效的支持。",
+    "02-情境演练-以学促用，提升服务能力",
+    "理论学习之外，培训还安排了丰富的互动讨论与案例演练，引导志愿者将所学知识运用到具体情境中，在实践中深化理解、锻炼能力。围绕志愿服务中可能遇到的实际问题，课程设置了八个典型情境，涵盖迎新物资分配、家长诉求与学校规则发生冲突、公开宣讲过程中受到质疑等场景。",
+    "在分组讨论与模拟演练中，志愿者结合不同角色的立场，尝试梳理问题、澄清诉求、组织回应，并就沟通方式与处理原则展开交流。面对不同的意见与诉求，如何做到耐心倾听、理性回应？面对超出自身职责范围的问题，又该如何把握边界、寻求支持？在一次次讨论、表达与反馈中，志愿者逐步加深了对沟通技巧和服务规范的理解。",
+    "从理解方法到尝试运用，从关注问题到理解需求，情境演练让课堂所学更加具体，也让志愿者对服务中的责任与边界有了更清晰的认识。",
+    "03-实践接续-深化学习成果，传递志愿温度",
+    "培训不仅着眼于当下的技能提升，更注重推动学习成果向实际服务转化。按照项目安排，11月将陆续开展主题团体辅导体验与实践督导，围绕“考前减压充电站”“行动力实验室”“大学新生学习心理赋能工作坊”三个主题，引导志愿者在实践中运用所学方法、积累服务经验。",
+    "通过理论学习、实操训练、团辅实践与督导考核的有机衔接，项目将进一步完善志愿者培养机制，推动志愿服务能力持续提升。",
+    "让专业赋能善意，让行动传递温暖",
+    "培训结束后，志愿者认真梳理学习收获，填写课程反馈，并根据个人兴趣选报后续团辅主题，为下一阶段的实践做好准备。",
+    "MentalHealth从心理状态识别到共情倾听，从沟通表达训练到典型情境演练，本次培训帮助志愿者进一步掌握了心理支持服务的基础知识与方法，增强了对服务伦理和角色边界的认识，为后续团体辅导实践奠定了良好基础。",
+    "未来，“大学生心理健康志愿服务项目”将继续立足学生实际需求，完善培训、实践与督导相衔接的志愿者培养体系，推动心理健康志愿服务规范化、持续化开展，为构建更加温暖、互助的校园心理支持网络贡献青春力量。",
+    "文编 | 梁高睿",
+    "图编 | 蔡雯茜",
+    "美编 | 王浩峰",
+    "编辑 | 优思新媒体中心 赵乐涵",
+    "二审 | 优思新媒体中心 杨卓",
+    "责编 | 麻瑶瑶 颜川芳子 周荃 晋书香",
+    "审核 | 刘钊君 徐硕基",
+    "校审 | 毕晓楠 强伟"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/ae8dd444-1396-4a77-9b82-5211c22da453.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/8941dec0-40e8-47c4-bb84-2dcfaea209a8.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/d29236b2-d478-4f95-b095-1a8c1c250ecb.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/7e50b586-323e-4a70-82fa-16e57049c57d.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/550c5ff4-8532-47e0-81fc-bd5d3e80a9a4.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/3f7d4e6b-eb76-4079-828d-2f1f175fa7b7.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/48397e1c-9fe8-4eef-8f4e-f2dde1dbb117.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-12T07:21:03.685322+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+   "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+   "site": "校团委",
+   "date": "2026-11-12",
+   "source": "https://mp.weixin.qq.com/s/W8bG3DTOoPwcMGya42AOSQ",
+   "fetchedAt": "2026-11-12T07:21:03.684073+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "378721e0c5916132259975b932ad18a2587a0b975dbb757e878524fb31baaba5",
+   "contentParserVersion": 2,
+   "body": "前言\n西安交通大学“腾飞杯”创新创业大赛旨在引导和激励学生弘扬时代精神，把握时代脉搏，切实提高学生的创新精神、创业意识和创新创业能力。自1988年首届举办，已连续举办37届，是西安交通大学历史最悠久、规模最大、知名度最高的学生创新创业赛事。第38届“腾飞杯”大赛将继续传承创新薪火，为交大学子搭建展示创意、锤炼本领的舞台。为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营同步开启。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。值此双赛并启之际，西安交通大学第38届“腾飞杯”大赛暨2026年“攀登计划”AI训练营启动仪式将如期举行，诚邀广大师生共赴现场，同启新程。\nPART 01 启动仪式安排\n时间：2026 年 11 月 11 日（星期三）下午 14:30-16:00\n地点：兴庆校区主 E 多功能报告厅\n内容：启动仪式将围绕“腾飞杯”创新创业大赛与“攀登计划”AI训练营两大主题展开，仪式后还将为在校师生带来干货满满的AI大模型专题讲座。\nPART 02 参加活动须知\n此次活动在【智慧社区】完成签到签退即可计入一次集体活动，后续证明将在活动群聊发布（见收集表）。此外，活动现场为所有参加的同学准备了人手一份的精美伴手礼，到场签到即可获得，部分礼品数量有限先到先得。请各位同学在14:20前入场就座并完成签到，同时遵守现场秩序，共同营造有序、和谐的活动环境。\nPART 03 AI实战训练营报名入口\n报名网址：https://www.aidaxue.com/xjtu\n报名可领取10亿Token学习福利！\n11月11日，主E多功能报告厅\n见证第38届“腾飞杯”启航\n也见证你与AI的下一次进阶\n-END-\n来源 | 科技创新指导中心\n值班编辑 | 优思新媒体中心 赵乐涵\n二审 | 优思新媒体中心 杨卓\n责编 | 优思新媒体中心 麻瑶瑶\n审核 | 刘钊君 徐硕基 卞瑾\n校审 | 毕晓楠 孟浩 边志坚 强伟",
+   "bodyHtml": "<p class=\"MsoNormal\"> </p>\n<h2 align=\"center\"><strong><span style=\"font-family: 黑体;\">前言</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  西安交通大学</span><span style=\"font-family: 宋体;\">“腾飞杯”创新创业大赛旨在引导和激励学生弘扬时代精神，把握时代脉搏，切实提高学生的创新精神、创业意识和创新创业能力。自</span><span style=\"font-family: Calibri;\">1988</span><span style=\"font-family: 宋体;\">年首届举办，已连续举办</span><span style=\"font-family: Calibri;\">37</span><span style=\"font-family: 宋体;\">届，是西安交通大学历史最悠久、规模最大、知名度最高的学生创新创业赛事。第</span><span style=\"font-family: Calibri;\">38</span><span style=\"font-family: 宋体;\">届“腾飞杯”大赛将继续传承创新薪火，为交大学子搭建展示创意、锤炼本领的舞台。为推进人工智能通识教育与创新创业实践，西安交通大学</span><span style=\"font-family: Calibri;\">2026</span><span style=\"font-family: 宋体;\">年「攀登计划」</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营同步开启。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">大学堂联合主办，面向全体在校学生，围绕</span><span style=\"font-family: Calibri;\">AI Agent</span><span style=\"font-family: 宋体;\">、</span><span style=\"font-family: Calibri;\">Skill</span><span style=\"font-family: 宋体;\">开发、</span><span style=\"font-family: Calibri;\">RAG</span><span style=\"font-family: 宋体;\">三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。值此双赛并启之际，西安交通大学第</span><span style=\"font-family: Calibri;\">38</span><span style=\"font-family: 宋体;\">届“腾飞杯”大赛暨</span><span style=\"font-family: Calibri;\">2026</span><span style=\"font-family: 宋体;\">年“攀登计划”</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营启动仪式将如期举行，诚邀广大师生共赴现场，同启新程。</span></p>\n<h2 align=\"center\"><strong><span style=\"font-family: Arial;\">PART 01</span></strong><strong> </strong><strong><span style=\"font-family: 黑体;\">启动仪式安排</span></strong></h2>\n<p><strong><span style=\"font-family: 黑体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/68f3e9ae-2d05-4669-b127-ddd0f7327495.jpg\"></span></strong></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">时间：</span><span style=\"font-family: Calibri;\">2026 </span><span style=\"font-family: 宋体;\">年 </span><span style=\"font-family: Calibri;\">11 </span><span style=\"font-family: 宋体;\">月 </span><span style=\"font-family: Calibri;\">11 </span><span style=\"font-family: 宋体;\">日（星期三）下午 </span><span style=\"font-family: Calibri;\">14:30-16:00</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">地点</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">兴庆校区主</span> <span style=\"font-family: Calibri;\">E </span><span style=\"font-family: 宋体;\">多功能报告厅</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">内容</span><span style=\"font-family: 宋体;\">：</span><span style=\"font-family: 宋体;\">启动仪式将围绕</span><span style=\"font-family: 宋体;\">“腾飞杯”创新创业大赛与“攀登计划”</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">训练营两大主题展开，仪式后还将为在校师生带来干货满满的</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">大模型专题讲座。</span></p>\n<h2 align=\"center\"><strong><span style=\"font-family: Arial;\">PART 02</span></strong><strong> </strong><strong><span style=\"font-family: 黑体;\">参加活动须知</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  此次活动在【智慧社区】完成签到签退即可计入一次集体活动，后续证明将在活动群聊发布（见收集表）。此外，活动现场为所有参加的同学准备了人手一份的精美伴手礼，到场签到即可获得，部分礼品数量有限先到先得。请各位同学在</span><span style=\"font-family: Calibri;\">14:20</span><span style=\"font-family: 宋体;\">前入场就座并完成签到，同时遵守现场秩序，共同营造有序、和谐的活动环境。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/b5ac9095-e3fd-4391-813f-f04b4622e52a.jpg\"></span></p>\n<h2 align=\"center\"><strong><span style=\"font-family: Arial;\">PART 03</span></strong><strong> </strong><strong><span style=\"font-family: Arial;\">AI</span><span style=\"font-family: 黑体;\">实战训练营报名入口</span></strong></h2>\n<p><strong><span style=\"font-family: 黑体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/3ec72a69-d1cc-40b5-aa41-208711140825.jpg\"></span></strong></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">报名网址：</span><a href=\"https://www.aidaxue.com/xjtu\"><u><span class=\"15\"><span style=\"font-family: Calibri;\">https://www.aidaxue.com/xjtu</span></span></u></a></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">报名可领取</span><span style=\"font-family: Calibri;\">10</span><span style=\"font-family: 宋体;\">亿</span><span style=\"font-family: Calibri;\">Token</span><span style=\"font-family: 宋体;\">学习福利！</span></p>\n<p class=\"MsoNormal\" align=\"center\"><strong><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">日，主</span><span style=\"font-family: Calibri;\">E</span><span style=\"font-family: 宋体;\">多功能报告厅</span></strong></p>\n<p class=\"MsoNormal\" align=\"center\"><strong><span style=\"font-family: 宋体;\">见证第</span><span style=\"font-family: Calibri;\">38</span><span style=\"font-family: 宋体;\">届“腾飞杯”启航</span></strong></p>\n<p class=\"MsoNormal\" align=\"center\"><strong><span style=\"font-family: 宋体;\">也见证你与</span><span style=\"font-family: Calibri;\">AI</span><span style=\"font-family: 宋体;\">的下一次进阶</span></strong></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: Calibri;\">-END-</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">来源</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">科技创新指导中心</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">值班编辑</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 赵乐涵</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">二审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心 杨卓</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">责编</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">优思新媒体中心</span> <span style=\"font-family: 宋体;\">麻瑶瑶</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">审核</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">刘钊君 徐硕基 卞瑾</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-family: 宋体;\">校审</span> <span style=\"font-family: Calibri;\">| </span><span style=\"font-family: 宋体;\">毕晓楠 孟浩 边志坚 强伟</span></p>",
+   "bodyLen": 904,
+   "excerpt": "前言 西安交通大学“腾飞杯”创新创业大赛旨在引导和激励学生弘扬时代精神，把握时代脉搏，切实提高学生的创新精神、创业意识和创新创业能力。自1988年首届举办，已连续举办37届，是西安交通大学历史最悠久、规模最大、知名度最高的学生创新创业赛事。第38届“腾飞杯”大赛将继续传承创新薪火，为交大学子搭建展示创意、锤炼本领的舞台。为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营同步开启。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。值此双赛并启之际，西安交通大学第38届“腾飞杯”大赛暨2026年“攀登计划”AI训练营启动仪式将如期举行，诚邀广大师生共赴现场，同启新程。",
+   "paragraphs": [
+    "前言",
+    "西安交通大学“腾飞杯”创新创业大赛旨在引导和激励学生弘扬时代精神，把握时代脉搏，切实提高学生的创新精神、创业意识和创新创业能力。自1988年首届举办，已连续举办37届，是西安交通大学历史最悠久、规模最大、知名度最高的学生创新创业赛事。第38届“腾飞杯”大赛将继续传承创新薪火，为交大学子搭建展示创意、锤炼本领的舞台。为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营同步开启。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。值此双赛并启之际，西安交通大学第38届“腾飞杯”大赛暨2026年“攀登计划”AI训练营启动仪式将如期举行，诚邀广大师生共赴现场，同启新程。",
+    "PART 01 启动仪式安排",
+    "时间：2026 年 11 月 11 日（星期三）下午 14:30-16:00",
+    "地点：兴庆校区主 E 多功能报告厅",
+    "内容：启动仪式将围绕“腾飞杯”创新创业大赛与“攀登计划”AI训练营两大主题展开，仪式后还将为在校师生带来干货满满的AI大模型专题讲座。",
+    "PART 02 参加活动须知",
+    "此次活动在【智慧社区】完成签到签退即可计入一次集体活动，后续证明将在活动群聊发布（见收集表）。此外，活动现场为所有参加的同学准备了人手一份的精美伴手礼，到场签到即可获得，部分礼品数量有限先到先得。请各位同学在14:20前入场就座并完成签到，同时遵守现场秩序，共同营造有序、和谐的活动环境。",
+    "PART 03 AI实战训练营报名入口",
+    "报名网址：https://www.aidaxue.com/xjtu",
+    "报名可领取10亿Token学习福利！",
+    "11月11日，主E多功能报告厅",
+    "见证第38届“腾飞杯”启航",
+    "也见证你与AI的下一次进阶",
+    "-END-",
+    "来源 | 科技创新指导中心",
+    "值班编辑 | 优思新媒体中心 赵乐涵",
+    "二审 | 优思新媒体中心 杨卓",
+    "责编 | 优思新媒体中心 麻瑶瑶",
+    "审核 | 刘钊君 徐硕基 卞瑾",
+    "校审 | 毕晓楠 孟浩 边志坚 强伟"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/68f3e9ae-2d05-4669-b127-ddd0f7327495.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/b5ac9095-e3fd-4391-813f-f04b4622e52a.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/3ec72a69-d1cc-40b5-aa41-208711140825.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [
+    {
+     "url": "https://www.aidaxue.com/xjtu",
+     "text": "https://www.aidaxue.com/xjtu",
+     "kind": "link"
+    }
+   ],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-12T07:21:03.684073+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",

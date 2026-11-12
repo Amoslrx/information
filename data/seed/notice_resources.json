@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 41,
+  "count": 51,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -5843,6 +5843,4776 @@
         "mime": "image/png",
         "format": "image",
         "finalUrl": "https://jwc.xjtu.edu.cn/__local/6/7F/53/634C04BB2FEE50437767D4B9946_AF823DCF_A92A5.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a36d0882d70001e33d099a907b8780f1c9e0bcced9e475a8dad41c3232699419",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/4e4cb398-2b95-4802-8539-b4250087979c.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:20.467964+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/de1e17f6fb1b328ceef9c66e6b1d78f7047800319e08819d5423ed706cbe3178/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1232,
+            "height": 922
+          },
+          "qr": [],
+          "previewUrl": "media/a1ea0416eaa448ad240ae7e9673b5f67610cf255787ad8006e3d068651505856.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/de1e17f6fb1b328ceef9c66e6b1d78f7047800319e08819d5423ed706cbe3178.img",
+        "sha256": "de1e17f6fb1b328ceef9c66e6b1d78f7047800319e08819d5423ed706cbe3178",
+        "bytes": 538900,
+        "filename": "4e4cb398-2b95-4802-8539-b4250087979c.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261111/4e4cb398-2b95-4802-8539-b4250087979c.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c55ee3823656904c5faf00e1ad5d869b776727eef420a06e81e149a986a4c23b",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/d91836c1-1c57-4a8e-beeb-4858b7a20f15.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:25.832702+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/942ffab090d666cd29d961e2f4f8e4004d398fa840332d976f543444c9fa08da/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1228,
+            "height": 913
+          },
+          "qr": [],
+          "previewUrl": "media/5718103d9514c0b11a6e4d30831c9aa7d76750b36560ce682926eef139542fe7.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/942ffab090d666cd29d961e2f4f8e4004d398fa840332d976f543444c9fa08da.img",
+        "sha256": "942ffab090d666cd29d961e2f4f8e4004d398fa840332d976f543444c9fa08da",
+        "bytes": 686608,
+        "filename": "d91836c1-1c57-4a8e-beeb-4858b7a20f15.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261111/d91836c1-1c57-4a8e-beeb-4858b7a20f15.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "3d6f12c1e01e1073849c0501522740a3de2145b9572dc98b8f920464c2a05c37",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/ff4e4fa2-7db0-4a4a-a9d3-79b714dccb82.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:31.523200+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/d01c4c5c6a11cdd29b6594c8bf4cbd34d53b6269417a172563ed04fe748554c8/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 569,
+            "height": 422
+          },
+          "qr": [],
+          "previewUrl": "media/82e3db9587ce2debffcd9386fa2c4300091b779e4c119ba24a58a6a0ceb36788.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/d01c4c5c6a11cdd29b6594c8bf4cbd34d53b6269417a172563ed04fe748554c8.img",
+        "sha256": "d01c4c5c6a11cdd29b6594c8bf4cbd34d53b6269417a172563ed04fe748554c8",
+        "bytes": 286371,
+        "filename": "ff4e4fa2-7db0-4a4a-a9d3-79b714dccb82.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261111/ff4e4fa2-7db0-4a4a-a9d3-79b714dccb82.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a06039d23e8db75af09e91ce63b09330b3aa69e05d0fabfd29a2efeeacc14bea",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/7a63df09-9037-4f4d-ae3a-dd177e069308.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:35.232976+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/e3919b48ba1d2f10468ab670ecd9aec5e9b5cb2ae3fe16bfbfd80b34bfb93975/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 567,
+            "height": 422
+          },
+          "qr": [],
+          "previewUrl": "media/5008ea3c1e01c9ae20c7d4c95388fd39dd9d4f9aec0e7c02ddc74b2b2ef1d528.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/e3919b48ba1d2f10468ab670ecd9aec5e9b5cb2ae3fe16bfbfd80b34bfb93975.img",
+        "sha256": "e3919b48ba1d2f10468ab670ecd9aec5e9b5cb2ae3fe16bfbfd80b34bfb93975",
+        "bytes": 214399,
+        "filename": "7a63df09-9037-4f4d-ae3a-dd177e069308.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261111/7a63df09-9037-4f4d-ae3a-dd177e069308.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "8eafaef70ac24ffe9c71d1c004f7488db879a2fff8153682b1726f01a5e108de",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261111/eeeb7a28-79d6-400c-83db-929fa5121cac.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "077dda0c71d8a803d6a27c7e587614a836db9355ac35fb7ac988723d27940d85",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:38.696740+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/edfdcd12139761d64173baa9da7074bb010dfb13bb4656487de98aeae21db9b3/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1230,
+            "height": 908
+          },
+          "qr": [],
+          "previewUrl": "media/f1f00fbd45ce585cc50bfe63f6e8fefee6ba299b54e0a2269c9f6c388a510075.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/edfdcd12139761d64173baa9da7074bb010dfb13bb4656487de98aeae21db9b3.img",
+        "sha256": "edfdcd12139761d64173baa9da7074bb010dfb13bb4656487de98aeae21db9b3",
+        "bytes": 1158701,
+        "filename": "eeeb7a28-79d6-400c-83db-929fa5121cac.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261111/eeeb7a28-79d6-400c-83db-929fa5121cac.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "d70bc85d03742c454713bfe34276a2e21c8603eb2499f5e48a034ab180841a62",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5de53daa-ddb7-4b6c-96db-9782c01ef59b.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:46.452240+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "07\nAl Agent 行业研究 /金融投研\n行业分析财报解读 Al 投研工作台\n搭建专属 Al 投研工作台 ， 用 Agent 完成行业分析 、 财报\n解读与投研报告 ， 打通 5 查一研一报 」 全流程 。\n目 4 课时 ul GE *& 女",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/6aa09c736dbfa1bde72066942291abf568687357ababf84883e3664987278b0e/image.jpg",
+          "textHash": "2a1d16336d52786338c1133ba45c4be6aa392883c753d3fbd709297afdd94df1",
+          "previewUrl": "media/7f1bca102f884da0ffb77df592e7da5337034c443e66c8ee5e6b2d0be0c6c742.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/6aa09c736dbfa1bde72066942291abf568687357ababf84883e3664987278b0e/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "07",
+                "words": [
+                  {
+                    "text": "07",
+                    "confidence": 0.76418045,
+                    "bbox": [
+                      71,
+                      72,
+                      104,
+                      52
+                    ]
+                  }
+                ],
+                "confidence": 0.76418045
+              },
+              {
+                "text": "Al Agent 行业 研究 /金融 投 研",
+                "words": [
+                  {
+                    "text": "Al",
+                    "confidence": 0.96575806,
+                    "bbox": [
+                      65,
+                      217,
+                      52,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "Agent",
+                    "confidence": 0.96575806,
+                    "bbox": [
+                      132,
+                      217,
+                      158,
+                      57
+                    ]
+                  },
+                  {
+                    "text": "行业",
+                    "confidence": 0.9564810199999999,
+                    "bbox": [
+                      328,
+                      212,
+                      83,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.9622676800000001,
+                    "bbox": [
+                      431,
+                      211,
+                      91,
+                      54
+                    ]
+                  },
+                  {
+                    "text": "/金融",
+                    "confidence": 0.9272506,
+                    "bbox": [
+                      548,
+                      211,
+                      217,
+                      54
+                    ]
+                  },
+                  {
+                    "text": "投",
+                    "confidence": 0.93098717,
+                    "bbox": [
+                      679,
+                      207,
+                      53,
+                      75
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.92096687,
+                    "bbox": [
+                      731,
+                      207,
+                      38,
+                      75
+                    ]
+                  }
+                ],
+                "confidence": 0.92096687
+              },
+              {
+                "text": "行业 分 析 财报 解读 Al 投 研 工作 台",
+                "words": [
+                  {
+                    "text": "行业",
+                    "confidence": 0.9664753,
+                    "bbox": [
+                      93,
+                      333,
+                      56,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "分",
+                    "confidence": 0.9330146,
+                    "bbox": [
+                      161,
+                      332,
+                      28,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "析",
+                    "confidence": 0.92882019,
+                    "bbox": [
+                      190,
+                      333,
+                      19,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "财报",
+                    "confidence": 0.95901756,
+                    "bbox": [
+                      281,
+                      332,
+                      56,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "解读",
+                    "confidence": 0.9696058700000001,
+                    "bbox": [
+                      352,
+                      332,
+                      44,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "Al",
+                    "confidence": 0.93030052,
+                    "bbox": [
+                      468,
+                      335,
+                      24,
+                      22
+                    ]
+                  },
+                  {
+                    "text": "投",
+                    "confidence": 0.92725342,
+                    "bbox": [
+                      513,
+                      332,
+                      32,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.9214836900000001,
+                    "bbox": [
+                      545,
+                      334,
+                      16,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "工作",
+                    "confidence": 0.93273438,
+                    "bbox": [
+                      564,
+                      332,
+                      84,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "台",
+                    "confidence": 0.92154434,
+                    "bbox": [
+                      626,
+                      328,
+                      25,
+                      42
+                    ]
+                  }
+                ],
+                "confidence": 0.9214836900000001
+              },
+              {
+                "text": "搭建 专属 Al 投 研 工作 台 ， 用 Agent 完成 行业 分 析 、 财 报",
+                "words": [
+                  {
+                    "text": "搭建",
+                    "confidence": 0.96291008,
+                    "bbox": [
+                      66,
+                      436,
+                      88,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "专属",
+                    "confidence": 0.96083405,
+                    "bbox": [
+                      171,
+                      432,
+                      42,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "Al",
+                    "confidence": 0.93125336,
+                    "bbox": [
+                      214,
+                      440,
+                      29,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "投",
+                    "confidence": 0.92983627,
+                    "bbox": [
+                      270,
+                      436,
+                      35,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.93169121,
+                    "bbox": [
+                      307,
+                      438,
+                      37,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "工作",
+                    "confidence": 0.93060715,
+                    "bbox": [
+                      362,
+                      436,
+                      78,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "台",
+                    "confidence": 0.93126106,
+                    "bbox": [
+                      414,
+                      432,
+                      28,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92805824,
+                    "bbox": [
+                      441,
+                      432,
+                      32,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "用",
+                    "confidence": 0.91633743,
+                    "bbox": [
+                      467,
+                      438,
+                      29,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "Agent",
+                    "confidence": 0.92836617,
+                    "bbox": [
+                      510,
+                      440,
+                      95,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "完成",
+                    "confidence": 0.9530907399999999,
+                    "bbox": [
+                      625,
+                      436,
+                      84,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "行业",
+                    "confidence": 0.9651767,
+                    "bbox": [
+                      722,
+                      432,
+                      48,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "分",
+                    "confidence": 0.9269177200000001,
+                    "bbox": [
+                      769,
+                      436,
+                      35,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "析",
+                    "confidence": 0.9227733600000001,
+                    "bbox": [
+                      806,
+                      438,
+                      28,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.92938835,
+                    "bbox": [
+                      833,
+                      432,
+                      35,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "财",
+                    "confidence": 0.92632812,
+                    "bbox": [
+                      861,
+                      436,
+                      66,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "报",
+                    "confidence": 0.9309826700000001,
+                    "bbox": [
+                      904,
+                      432,
+                      25,
+                      49
+                    ]
+                  }
+                ],
+                "confidence": 0.91633743
+              },
+              {
+                "text": "解读 与 投 研 报告 ， 打 通 5 查 一 研一 报 」 全 流程 。",
+                "words": [
+                  {
+                    "text": "解读",
+                    "confidence": 0.9668849199999999,
+                    "bbox": [
+                      67,
+                      503,
+                      252,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.93102478,
+                    "bbox": [
+                      151,
+                      499,
+                      35,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "投",
+                    "confidence": 0.92736076,
+                    "bbox": [
+                      185,
+                      499,
+                      35,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.93175575,
+                    "bbox": [
+                      219,
+                      499,
+                      37,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "报告",
+                    "confidence": 0.91061989,
+                    "bbox": [
+                      255,
+                      503,
+                      64,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9257495900000001,
+                    "bbox": [
+                      346,
+                      503,
+                      8,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "打",
+                    "confidence": 0.92538544,
+                    "bbox": [
+                      360,
+                      504,
+                      52,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "通",
+                    "confidence": 0.90851929,
+                    "bbox": [
+                      390,
+                      499,
+                      29,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "5",
+                    "confidence": 0.40090714,
+                    "bbox": [
+                      437,
+                      503,
+                      9,
+                      19
+                    ]
+                  },
+                  {
+                    "text": "查",
+                    "confidence": 0.88578453,
+                    "bbox": [
+                      458,
+                      503,
+                      24,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "confidence": 0.95958687,
+                    "bbox": [
+                      497,
+                      505,
+                      36,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "研一",
+                    "confidence": 0.92945679,
+                    "bbox": [
+                      532,
+                      503,
+                      103,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "报",
+                    "confidence": 0.91341858,
+                    "bbox": [
+                      605,
+                      499,
+                      28,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "」",
+                    "confidence": 0.73497101,
+                    "bbox": [
+                      632,
+                      499,
+                      13,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "confidence": 0.9633844,
+                    "bbox": [
+                      663,
+                      503,
+                      39,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "流程",
+                    "confidence": 0.93009377,
+                    "bbox": [
+                      703,
+                      503,
+                      59,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.93213531,
+                    "bbox": [
+                      767,
+                      526,
+                      9,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.40090714
+              },
+              {
+                "text": "目 4 课时 ul GE *& 女",
+                "words": [
+                  {
+                    "text": "目",
+                    "confidence": 0.40989372,
+                    "bbox": [
+                      98,
+                      744,
+                      26,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "4",
+                    "confidence": 0.96977516,
+                    "bbox": [
+                      146,
+                      747,
+                      15,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "课时",
+                    "confidence": 0.9660189800000001,
+                    "bbox": [
+                      162,
+                      743,
+                      62,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "ul",
+                    "confidence": 0.628246,
+                    "bbox": [
+                      600,
+                      745,
+                      25,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "GE",
+                    "confidence": 0.58815632,
+                    "bbox": [
+                      649,
+                      743,
+                      62,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "*&",
+                    "confidence": 0.0950037,
+                    "bbox": [
+                      732,
+                      744,
+                      25,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "女",
+                    "confidence": 0.7316475699999999,
+                    "bbox": [
+                      775,
+                      745,
+                      25,
+                      24
+                    ]
+                  }
+                ],
+                "confidence": 0.0950037
+              }
+            ],
+            "text": "07\nAl Agent 行业研究 /金融投研\n行业分析财报解读 Al 投研工作台\n搭建专属 Al 投研工作台 ， 用 Agent 完成行业分析 、 财报\n解读与投研报告 ， 打通 5 查一研一报 」 全流程 。\n目 4 课时 ul GE *& 女",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1000,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/7f1bca102f884da0ffb77df592e7da5337034c443e66c8ee5e6b2d0be0c6c742.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/6aa09c736dbfa1bde72066942291abf568687357ababf84883e3664987278b0e.img",
+        "sha256": "6aa09c736dbfa1bde72066942291abf568687357ababf84883e3664987278b0e",
+        "bytes": 528261,
+        "filename": "5de53daa-ddb7-4b6c-96db-9782c01ef59b.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5de53daa-ddb7-4b6c-96db-9782c01ef59b.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "eaf809f573c1c945b11ab7966b01e92726e41c02eaa72c5877ff1667010e91f4",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/acf9d9dd-59b8-4cd2-b43f-f7f4584866ba.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:52.881647+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "02\nAl Agent 办公提效训练营\nAl 办公提效 Skill 创建 MCP 接入\n从第一句指令到让 Agent 自动跑通日常办公流程 ， 掌握\nMCP 接入与 Skill 创建 ， 让 Al 成为你的数字伙伴 。\n©) 4 课时 ll 3k 女",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/0acaa453b45f571b770c7e1fe5b3e59e2555fd9ad9999faca8bd584a83c7d3d9/image.jpg",
+          "textHash": "bdfef8bc4460795172c7db2ebeadbf15f6046696139c1094c4bf1e1d9386d39f",
+          "previewUrl": "media/eb3b1f1de6bb8a1976a585432e11394954ea99b249e53e2d597c989946744686.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/0acaa453b45f571b770c7e1fe5b3e59e2555fd9ad9999faca8bd584a83c7d3d9/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "02",
+                "words": [
+                  {
+                    "text": "02",
+                    "confidence": 0.88403488,
+                    "bbox": [
+                      73,
+                      74,
+                      110,
+                      60
+                    ]
+                  }
+                ],
+                "confidence": 0.88403488
+              },
+              {
+                "text": "Al Agent 办 公 提 效 训练 营",
+                "words": [
+                  {
+                    "text": "Al",
+                    "confidence": 0.9545494800000001,
+                    "bbox": [
+                      67,
+                      221,
+                      52,
+                      42
+                    ]
+                  },
+                  {
+                    "text": "Agent",
+                    "confidence": 0.9545494800000001,
+                    "bbox": [
+                      134,
+                      221,
+                      158,
+                      56
+                    ]
+                  },
+                  {
+                    "text": "办",
+                    "confidence": 0.93004799,
+                    "bbox": [
+                      320,
+                      215,
+                      39,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.92691879,
+                    "bbox": [
+                      372,
+                      216,
+                      42,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "提",
+                    "confidence": 0.9241128500000001,
+                    "bbox": [
+                      423,
+                      216,
+                      45,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "效",
+                    "confidence": 0.91124641,
+                    "bbox": [
+                      484,
+                      215,
+                      62,
+                      53
+                    ]
+                  },
+                  {
+                    "text": "训练",
+                    "confidence": 0.40881538,
+                    "bbox": [
+                      624,
+                      215,
+                      64,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "营",
+                    "confidence": 0.7317362199999999,
+                    "bbox": [
+                      658,
+                      210,
+                      34,
+                      75
+                    ]
+                  }
+                ],
+                "confidence": 0.40881538
+              },
+              {
+                "text": "Al 办 公 提 效 Skill 创建 MCP 接 入",
+                "words": [
+                  {
+                    "text": "Al",
+                    "confidence": 0.73983994,
+                    "bbox": [
+                      94,
+                      337,
+                      25,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "办",
+                    "confidence": 0.93208801,
+                    "bbox": [
+                      130,
+                      334,
+                      19,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.91619797,
+                    "bbox": [
+                      157,
+                      335,
+                      22,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "提",
+                    "confidence": 0.91550316,
+                    "bbox": [
+                      184,
+                      335,
+                      24,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "效",
+                    "confidence": 0.91222031,
+                    "bbox": [
+                      216,
+                      334,
+                      22,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "Skill",
+                    "confidence": 0.9623556499999999,
+                    "bbox": [
+                      310,
+                      336,
+                      50,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "创建",
+                    "confidence": 0.96210739,
+                    "bbox": [
+                      372,
+                      334,
+                      56,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "MCP",
+                    "confidence": 0.96278351,
+                    "bbox": [
+                      502,
+                      337,
+                      59,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "接",
+                    "confidence": 0.89479286,
+                    "bbox": [
+                      571,
+                      334,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "入",
+                    "confidence": 0.9694302399999999,
+                    "bbox": [
+                      613,
+                      330,
+                      19,
+                      41
+                    ]
+                  }
+                ],
+                "confidence": 0.73983994
+              },
+              {
+                "text": "从 第 一 句 指令 到 让 Agent 自动 跑 通 日 常 办 公 流 程 ， 掌 握",
+                "words": [
+                  {
+                    "text": "从",
+                    "confidence": 0.96958977,
+                    "bbox": [
+                      69,
+                      440,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "第",
+                    "confidence": 0.9663866400000001,
+                    "bbox": [
+                      111,
+                      439,
+                      23,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "confidence": 0.93219719,
+                    "bbox": [
+                      149,
+                      453,
+                      21,
+                      3
+                    ]
+                  },
+                  {
+                    "text": "句",
+                    "confidence": 0.9265679900000001,
+                    "bbox": [
+                      186,
+                      439,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "指令",
+                    "confidence": 0.91285194,
+                    "bbox": [
+                      221,
+                      439,
+                      123,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "到",
+                    "confidence": 0.96831306,
+                    "bbox": [
+                      290,
+                      435,
+                      35,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "让",
+                    "confidence": 0.9470561200000001,
+                    "bbox": [
+                      324,
+                      435,
+                      23,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "Agent",
+                    "confidence": 0.93020004,
+                    "bbox": [
+                      356,
+                      443,
+                      95,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "自动",
+                    "confidence": 0.92801537,
+                    "bbox": [
+                      466,
+                      439,
+                      164,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "跑",
+                    "confidence": 0.92989578,
+                    "bbox": [
+                      546,
+                      435,
+                      35,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "通",
+                    "confidence": 0.9318582200000001,
+                    "bbox": [
+                      580,
+                      435,
+                      39,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "confidence": 0.92116638,
+                    "bbox": [
+                      639,
+                      439,
+                      17,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "常",
+                    "confidence": 0.93175438,
+                    "bbox": [
+                      655,
+                      435,
+                      32,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "办",
+                    "confidence": 0.9325516500000001,
+                    "bbox": [
+                      686,
+                      439,
+                      17,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.9271875,
+                    "bbox": [
+                      715,
+                      440,
+                      34,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "流",
+                    "confidence": 0.9101641100000001,
+                    "bbox": [
+                      749,
+                      439,
+                      71,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "程",
+                    "confidence": 0.88457863,
+                    "bbox": [
+                      799,
+                      435,
+                      32,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93222427,
+                    "bbox": [
+                      830,
+                      435,
+                      29,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "掌",
+                    "confidence": 0.89918266,
+                    "bbox": [
+                      847,
+                      439,
+                      66,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "握",
+                    "confidence": 0.93041473,
+                    "bbox": [
+                      893,
+                      435,
+                      22,
+                      50
+                    ]
+                  }
+                ],
+                "confidence": 0.88457863
+              },
+              {
+                "text": "MCP 接 入 与 Skill 创建 ， 让 Al 成 为 你 的 数字 伙伴 。",
+                "words": [
+                  {
+                    "text": "MCP",
+                    "confidence": 0.9156327799999999,
+                    "bbox": [
+                      70,
+                      509,
+                      69,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "接",
+                    "confidence": 0.92509636,
+                    "bbox": [
+                      160,
+                      505,
+                      22,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "入",
+                    "confidence": 0.9315609,
+                    "bbox": [
+                      197,
+                      507,
+                      20,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.9671362299999999,
+                    "bbox": [
+                      234,
+                      505,
+                      17,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "Skill",
+                    "confidence": 0.94548164,
+                    "bbox": [
+                      265,
+                      508,
+                      59,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "创建",
+                    "confidence": 0.9307474499999999,
+                    "bbox": [
+                      338,
+                      505,
+                      78,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.90829651,
+                    "bbox": [
+                      443,
+                      506,
+                      9,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "让",
+                    "confidence": 0.9254171800000001,
+                    "bbox": [
+                      453,
+                      505,
+                      21,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "Al",
+                    "confidence": 0.89191299,
+                    "bbox": [
+                      486,
+                      509,
+                      29,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "成",
+                    "confidence": 0.95696037,
+                    "bbox": [
+                      543,
+                      505,
+                      38,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "为",
+                    "confidence": 0.9695291899999999,
+                    "bbox": [
+                      598,
+                      505,
+                      10,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "你",
+                    "confidence": 0.9682917000000001,
+                    "bbox": [
+                      614,
+                      505,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96566299,
+                    "bbox": [
+                      648,
+                      505,
+                      37,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "数字",
+                    "confidence": 0.96948738,
+                    "bbox": [
+                      685,
+                      505,
+                      50,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "伙伴",
+                    "confidence": 0.93223846,
+                    "bbox": [
+                      742,
+                      505,
+                      63,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.9017482800000001,
+                    "bbox": [
+                      811,
+                      528,
+                      9,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.89191299
+              },
+              {
+                "text": "©) 4 课时 ll 3k 女",
+                "words": [
+                  {
+                    "text": "©)",
+                    "confidence": 0.47981636,
+                    "bbox": [
+                      99,
+                      747,
+                      28,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "4",
+                    "confidence": 0.96959732,
+                    "bbox": [
+                      148,
+                      750,
+                      15,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "课时",
+                    "confidence": 0.96598366,
+                    "bbox": [
+                      164,
+                      746,
+                      62,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "ll",
+                    "confidence": 0.7960316500000001,
+                    "bbox": [
+                      602,
+                      749,
+                      25,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "3k",
+                    "confidence": 0.45395035,
+                    "bbox": [
+                      651,
+                      746,
+                      109,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "女",
+                    "confidence": 0.7508472399999999,
+                    "bbox": [
+                      777,
+                      748,
+                      26,
+                      24
+                    ]
+                  }
+                ],
+                "confidence": 0.45395035
+              }
+            ],
+            "text": "02\nAl Agent 办公提效训练营\nAl 办公提效 Skill 创建 MCP 接入\n从第一句指令到让 Agent 自动跑通日常办公流程 ， 掌握\nMCP 接入与 Skill 创建 ， 让 Al 成为你的数字伙伴 。\n©) 4 课时 ll 3k 女",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1002,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/eb3b1f1de6bb8a1976a585432e11394954ea99b249e53e2d597c989946744686.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/0acaa453b45f571b770c7e1fe5b3e59e2555fd9ad9999faca8bd584a83c7d3d9.img",
+        "sha256": "0acaa453b45f571b770c7e1fe5b3e59e2555fd9ad9999faca8bd584a83c7d3d9",
+        "bytes": 401443,
+        "filename": "acf9d9dd-59b8-4cd2-b43f-f7f4584866ba.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/acf9d9dd-59b8-4cd2-b43f-f7f4584866ba.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "7a53666cdee9b4178bb1e5f74190d189becf7dc9fe93373ad0f95fdba2009c16",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/2223c127-5a5d-4bff-b376-2f8a9a58dcd9.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:21:57.569055+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "3\nSkill 开发实战训练营\n优秀 Skill 从 0 到 1 开发 Skill 进阶\n从零到一开发一个可复用的 Skill， 掌握优秀 Skill 的评判\n标准与进阶技巧 ， 打造属于你的 TAI 技能库 ! 。\na. 适合 : 理工科相关专业\n目 4 课时 al 难度 kk 女",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/41059f5651ab311ab3555bf23e5ffe3e1400a2a8b6eba3a4eacfc0646865163c/image.jpg",
+          "textHash": "3415b811e8515d06c8717416768f44be631842374fc8f767bba45282c8617c93",
+          "previewUrl": "media/55e76828deabfa73cc297353e13f8835aa8e9440296f63439178a2c5223e6d75.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/41059f5651ab311ab3555bf23e5ffe3e1400a2a8b6eba3a4eacfc0646865163c/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "3",
+                "words": [
+                  {
+                    "text": "3",
+                    "confidence": 0.92929558,
+                    "bbox": [
+                      129,
+                      74,
+                      52,
+                      64
+                    ]
+                  }
+                ],
+                "confidence": 0.92929558
+              },
+              {
+                "text": "Skill 开发 实战 训练 营",
+                "words": [
+                  {
+                    "text": "Skill",
+                    "confidence": 0.94874695,
+                    "bbox": [
+                      65,
+                      219,
+                      102,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "开发",
+                    "confidence": 0.9661985,
+                    "bbox": [
+                      205,
+                      213,
+                      87,
+                      54
+                    ]
+                  },
+                  {
+                    "text": "实战",
+                    "confidence": 0.9667202,
+                    "bbox": [
+                      319,
+                      213,
+                      110,
+                      54
+                    ]
+                  },
+                  {
+                    "text": "训练",
+                    "confidence": 0.93234253,
+                    "bbox": [
+                      437,
+                      215,
+                      77,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "营",
+                    "confidence": 0.7510273700000001,
+                    "bbox": [
+                      537,
+                      214,
+                      30,
+                      52
+                    ]
+                  }
+                ],
+                "confidence": 0.7510273700000001
+              },
+              {
+                "text": "优秀 Skill 从 0 到 1 开发 Skill 进 阶",
+                "words": [
+                  {
+                    "text": "优秀",
+                    "confidence": 0.96854767,
+                    "bbox": [
+                      93,
+                      334,
+                      57,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "Skill",
+                    "confidence": 0.91687698,
+                    "bbox": [
+                      159,
+                      336,
+                      51,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "从",
+                    "confidence": 0.96792862,
+                    "bbox": [
+                      283,
+                      334,
+                      27,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "confidence": 0.96565941,
+                    "bbox": [
+                      313,
+                      336,
+                      26,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "到",
+                    "confidence": 0.9630497,
+                    "bbox": [
+                      347,
+                      334,
+                      8,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "1",
+                    "confidence": 0.96925949,
+                    "bbox": [
+                      360,
+                      337,
+                      10,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "开发",
+                    "confidence": 0.9639978,
+                    "bbox": [
+                      381,
+                      334,
+                      51,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "Skill",
+                    "confidence": 0.9253241,
+                    "bbox": [
+                      504,
+                      336,
+                      51,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "进",
+                    "confidence": 0.9091484099999999,
+                    "bbox": [
+                      577,
+                      334,
+                      17,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "阶",
+                    "confidence": 0.92571213,
+                    "bbox": [
+                      604,
+                      334,
+                      19,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.9091484099999999
+              },
+              {
+                "text": "从 零 到 一 开发 一 个 可 复 用 的 Skill， 掌 握 优 秀 Skill 的 评判",
+                "words": [
+                  {
+                    "text": "从",
+                    "confidence": 0.9292375199999999,
+                    "bbox": [
+                      66,
+                      439,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "零",
+                    "confidence": 0.8538064599999999,
+                    "bbox": [
+                      114,
+                      439,
+                      34,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "到",
+                    "confidence": 0.62839619,
+                    "bbox": [
+                      157,
+                      439,
+                      9,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "confidence": 0.96638397,
+                    "bbox": [
+                      184,
+                      452,
+                      18,
+                      3
+                    ]
+                  },
+                  {
+                    "text": "开发",
+                    "confidence": 0.95861809,
+                    "bbox": [
+                      218,
+                      438,
+                      74,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "confidence": 0.9555516799999999,
+                    "bbox": [
+                      291,
+                      434,
+                      35,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "个",
+                    "confidence": 0.9670181999999999,
+                    "bbox": [
+                      325,
+                      439,
+                      18,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "可",
+                    "confidence": 0.9322126799999999,
+                    "bbox": [
+                      359,
+                      441,
+                      18,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "复",
+                    "confidence": 0.92806206,
+                    "bbox": [
+                      392,
+                      438,
+                      20,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "用",
+                    "confidence": 0.93226654,
+                    "bbox": [
+                      426,
+                      438,
+                      37,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96435913,
+                    "bbox": [
+                      465,
+                      438,
+                      16,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "Skill，",
+                    "confidence": 0.88112915,
+                    "bbox": [
+                      494,
+                      441,
+                      72,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "掌",
+                    "confidence": 0.73402168,
+                    "bbox": [
+                      604,
+                      438,
+                      33,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "握",
+                    "confidence": 0.9286391399999999,
+                    "bbox": [
+                      643,
+                      439,
+                      30,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "优",
+                    "confidence": 0.92834671,
+                    "bbox": [
+                      677,
+                      438,
+                      17,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "秀",
+                    "confidence": 0.92933502,
+                    "bbox": [
+                      711,
+                      439,
+                      18,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "Skill",
+                    "confidence": 0.95046829,
+                    "bbox": [
+                      742,
+                      441,
+                      59,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.95854271,
+                    "bbox": [
+                      827,
+                      438,
+                      34,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "评判",
+                    "confidence": 0.9669534299999999,
+                    "bbox": [
+                      861,
+                      438,
+                      53,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": 0.62839619
+              },
+              {
+                "text": "标准 与 进 阶 技巧 ， 打 造 属 于 你 的 TAI 技能 库 ! 。",
+                "words": [
+                  {
+                    "text": "标准",
+                    "confidence": 0.96728806,
+                    "bbox": [
+                      66,
+                      505,
+                      86,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.92687386,
+                    "bbox": [
+                      151,
+                      505,
+                      36,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "进",
+                    "confidence": 0.93271309,
+                    "bbox": [
+                      186,
+                      505,
+                      32,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "阶",
+                    "confidence": 0.9326400800000001,
+                    "bbox": [
+                      218,
+                      505,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "技巧",
+                    "confidence": 0.9307289900000001,
+                    "bbox": [
+                      256,
+                      505,
+                      63,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9180294000000001,
+                    "bbox": [
+                      346,
+                      505,
+                      10,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "打",
+                    "confidence": 0.92907234,
+                    "bbox": [
+                      360,
+                      506,
+                      29,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "造",
+                    "confidence": 0.8934262099999999,
+                    "bbox": [
+                      393,
+                      505,
+                      42,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "属",
+                    "confidence": 0.9272933999999999,
+                    "bbox": [
+                      434,
+                      500,
+                      30,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "于",
+                    "confidence": 0.9685984000000001,
+                    "bbox": [
+                      463,
+                      505,
+                      31,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "你",
+                    "confidence": 0.9610579699999999,
+                    "bbox": [
+                      495,
+                      505,
+                      38,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.73553413,
+                    "bbox": [
+                      536,
+                      504,
+                      15,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "TAI",
+                    "confidence": 0.73553413,
+                    "bbox": [
+                      577,
+                      505,
+                      41,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "技能",
+                    "confidence": 0.9327691699999999,
+                    "bbox": [
+                      631,
+                      505,
+                      115,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "库",
+                    "confidence": 0.9299704,
+                    "bbox": [
+                      715,
+                      500,
+                      30,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "!",
+                    "confidence": 0.0,
+                    "bbox": [
+                      744,
+                      500,
+                      10,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.8846213500000001,
+                    "bbox": [
+                      774,
+                      528,
+                      9,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "a. 适合 : 理工 科 相 关 专 业",
+                "words": [
+                  {
+                    "text": "a.",
+                    "confidence": 0.07201489999999999,
+                    "bbox": [
+                      66,
+                      651,
+                      38,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "适合",
+                    "confidence": 0.93101974,
+                    "bbox": [
+                      122,
+                      649,
+                      73,
+                      30
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.9230976099999999,
+                    "bbox": [
+                      194,
+                      645,
+                      12,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "理工",
+                    "confidence": 0.9291984600000001,
+                    "bbox": [
+                      219,
+                      649,
+                      223,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "科",
+                    "confidence": 0.93258133,
+                    "bbox": [
+                      296,
+                      645,
+                      27,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "相",
+                    "confidence": 0.90896606,
+                    "bbox": [
+                      323,
+                      645,
+                      33,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "关",
+                    "confidence": 0.9261367799999999,
+                    "bbox": [
+                      356,
+                      645,
+                      36,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "专",
+                    "confidence": 0.91940094,
+                    "bbox": [
+                      392,
+                      645,
+                      30,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "业",
+                    "confidence": 0.9291922800000001,
+                    "bbox": [
+                      422,
+                      645,
+                      24,
+                      48
+                    ]
+                  }
+                ],
+                "confidence": 0.07201489999999999
+              },
+              {
+                "text": "目 4 课时 al 难度 kk 女",
+                "words": [
+                  {
+                    "text": "目",
+                    "confidence": 0.48233345,
+                    "bbox": [
+                      97,
+                      747,
+                      28,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "4",
+                    "confidence": 0.9693267799999999,
+                    "bbox": [
+                      146,
+                      750,
+                      15,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "课时",
+                    "confidence": 0.96744659,
+                    "bbox": [
+                      162,
+                      745,
+                      62,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "al",
+                    "confidence": 0.59302284,
+                    "bbox": [
+                      600,
+                      748,
+                      25,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "难度",
+                    "confidence": 0.92871864,
+                    "bbox": [
+                      649,
+                      746,
+                      62,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "kk",
+                    "confidence": 0.33009673999999994,
+                    "bbox": [
+                      731,
+                      747,
+                      70,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "女",
+                    "confidence": 0.80837593,
+                    "bbox": [
+                      817,
+                      747,
+                      27,
+                      25
+                    ]
+                  }
+                ],
+                "confidence": 0.33009673999999994
+              }
+            ],
+            "text": "3\nSkill 开发实战训练营\n优秀 Skill 从 0 到 1 开发 Skill 进阶\n从零到一开发一个可复用的 Skill， 掌握优秀 Skill 的评判\n标准与进阶技巧 ， 打造属于你的 TAI 技能库 ! 。\na. 适合 : 理工科相关专业\n目 4 课时 al 难度 kk 女",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1002,
+            "height": 862
+          },
+          "qr": [],
+          "previewUrl": "media/55e76828deabfa73cc297353e13f8835aa8e9440296f63439178a2c5223e6d75.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/41059f5651ab311ab3555bf23e5ffe3e1400a2a8b6eba3a4eacfc0646865163c.img",
+        "sha256": "41059f5651ab311ab3555bf23e5ffe3e1400a2a8b6eba3a4eacfc0646865163c",
+        "bytes": 395156,
+        "filename": "2223c127-5a5d-4bff-b376-2f8a9a58dcd9.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/2223c127-5a5d-4bff-b376-2f8a9a58dcd9.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "0bdf262bee7c390050b7625e22c1e8c06afe12dc1d0df6d8d71f3adc55524928",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/169d38b1-8ea1-4f22-beb0-dd88a1247ed6.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:22:02.520760+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "4\nRAG 实战训练营\n( 客服助手 ) (企业知识库 ) (RAG 系统优化 )\n构建企业级知识库与智能客服助手 ， 理解检索增强生成\n原理 ， 实战优化 RAG 系统的准确率与效率 。\na. 适合 : 计算机相关专业\n©) 8 课时 al 难度 kk kkk",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/115e55750f9174f6a21d26903545e9513e66ef9774e8f04c9c953480c7aad3ac/image.jpg",
+          "textHash": "0a8b0f635e245ce2a44bb8015ed00713a81193b11665e262992fc0342039f2ad",
+          "previewUrl": "media/873307089fdd8ad3b37ad13ea7c74015c5c052d5d55c329245fcd0287f1e4662.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/115e55750f9174f6a21d26903545e9513e66ef9774e8f04c9c953480c7aad3ac/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "4",
+                "words": [
+                  {
+                    "text": "4",
+                    "confidence": 0.95769936,
+                    "bbox": [
+                      129,
+                      75,
+                      56,
+                      73
+                    ]
+                  }
+                ],
+                "confidence": 0.95769936
+              },
+              {
+                "text": "RAG 实战 训练 营",
+                "words": [
+                  {
+                    "text": "RAG",
+                    "confidence": 0.93195244,
+                    "bbox": [
+                      71,
+                      219,
+                      109,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "实战",
+                    "confidence": 0.95667336,
+                    "bbox": [
+                      210,
+                      213,
+                      119,
+                      54
+                    ]
+                  },
+                  {
+                    "text": "训练",
+                    "confidence": 0.92779015,
+                    "bbox": [
+                      338,
+                      214,
+                      76,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "营",
+                    "confidence": 0.8400322,
+                    "bbox": [
+                      437,
+                      214,
+                      31,
+                      52
+                    ]
+                  }
+                ],
+                "confidence": 0.8400322
+              },
+              {
+                "text": "( 客服 助手 ) (企业 知识 库 ) (RAG 系统 优化 )",
+                "words": [
+                  {
+                    "text": "(",
+                    "confidence": 0.8933788300000001,
+                    "bbox": [
+                      67,
+                      320,
+                      19,
+                      61
+                    ]
+                  },
+                  {
+                    "text": "客服",
+                    "confidence": 0.92542725,
+                    "bbox": [
+                      101,
+                      334,
+                      70,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "助手",
+                    "confidence": 0.7923054500000001,
+                    "bbox": [
+                      183,
+                      316,
+                      40,
+                      69
+                    ]
+                  },
+                  {
+                    "text": ")",
+                    "confidence": 0.8784124,
+                    "bbox": [
+                      231,
+                      320,
+                      6,
+                      61
+                    ]
+                  },
+                  {
+                    "text": "(企业",
+                    "confidence": 0.61104763,
+                    "bbox": [
+                      255,
+                      320,
+                      84,
+                      36
+                    ]
+                  },
+                  {
+                    "text": "知识",
+                    "confidence": 0.9236187,
+                    "bbox": [
+                      352,
+                      334,
+                      64,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "库",
+                    "confidence": 0.8161299099999999,
+                    "bbox": [
+                      415,
+                      315,
+                      22,
+                      56
+                    ]
+                  },
+                  {
+                    "text": ")",
+                    "confidence": 0.41592693,
+                    "bbox": [
+                      447,
+                      320,
+                      8,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "(RAG",
+                    "confidence": 0.6278044899999999,
+                    "bbox": [
+                      472,
+                      315,
+                      85,
+                      70
+                    ]
+                  },
+                  {
+                    "text": "系统",
+                    "confidence": 0.9687728099999999,
+                    "bbox": [
+                      566,
+                      334,
+                      76,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "优化",
+                    "confidence": 0.8546981800000001,
+                    "bbox": [
+                      655,
+                      334,
+                      27,
+                      27
+                    ]
+                  },
+                  {
+                    "text": ")",
+                    "confidence": 0.80589066,
+                    "bbox": [
+                      694,
+                      320,
+                      16,
+                      40
+                    ]
+                  }
+                ],
+                "confidence": 0.41592693
+              },
+              {
+                "text": "构建 企业 级 知识 库 与 智能 客服 助手 ， 理 解 检 索 增 强生 成",
+                "words": [
+                  {
+                    "text": "构建",
+                    "confidence": 0.9656517800000001,
+                    "bbox": [
+                      68,
+                      438,
+                      93,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "企业",
+                    "confidence": 0.96958733,
+                    "bbox": [
+                      173,
+                      434,
+                      48,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "级",
+                    "confidence": 0.96930206,
+                    "bbox": [
+                      220,
+                      438,
+                      38,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "知识",
+                    "confidence": 0.93230721,
+                    "bbox": [
+                      261,
+                      439,
+                      48,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "库",
+                    "confidence": 0.9257268500000001,
+                    "bbox": [
+                      323,
+                      439,
+                      21,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.93025436,
+                    "bbox": [
+                      360,
+                      439,
+                      39,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "智能",
+                    "confidence": 0.95876328,
+                    "bbox": [
+                      418,
+                      438,
+                      31,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "客服",
+                    "confidence": 0.9689666699999999,
+                    "bbox": [
+                      467,
+                      438,
+                      76,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "助手",
+                    "confidence": 0.9325853700000001,
+                    "bbox": [
+                      558,
+                      440,
+                      42,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93153198,
+                    "bbox": [
+                      627,
+                      441,
+                      9,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "理",
+                    "confidence": 0.9235829200000001,
+                    "bbox": [
+                      638,
+                      438,
+                      39,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "解",
+                    "confidence": 0.91018181,
+                    "bbox": [
+                      678,
+                      438,
+                      30,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "检",
+                    "confidence": 0.91777771,
+                    "bbox": [
+                      707,
+                      438,
+                      22,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "索",
+                    "confidence": 0.9194767,
+                    "bbox": [
+                      739,
+                      438,
+                      38,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "增",
+                    "confidence": 0.92881592,
+                    "bbox": [
+                      778,
+                      438,
+                      33,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "强生",
+                    "confidence": 0.96952309,
+                    "bbox": [
+                      814,
+                      439,
+                      54,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "成",
+                    "confidence": 0.96821144,
+                    "bbox": [
+                      879,
+                      438,
+                      24,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": 0.91018181
+              },
+              {
+                "text": "原理 ， 实 战 优化 RAG 系统 的 准确 率 与 效率 。",
+                "words": [
+                  {
+                    "text": "原理",
+                    "confidence": 0.93288589,
+                    "bbox": [
+                      68,
+                      507,
+                      78,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9302383399999999,
+                    "bbox": [
+                      152,
+                      501,
+                      29,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.9194542699999999,
+                    "bbox": [
+                      180,
+                      505,
+                      43,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "战",
+                    "confidence": 0.93015244,
+                    "bbox": [
+                      223,
+                      505,
+                      30,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "优化",
+                    "confidence": 0.92889847,
+                    "bbox": [
+                      260,
+                      505,
+                      49,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "RAG",
+                    "confidence": 0.92889847,
+                    "bbox": [
+                      324,
+                      509,
+                      64,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "系统",
+                    "confidence": 0.9677288799999999,
+                    "bbox": [
+                      410,
+                      505,
+                      73,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.9552793900000001,
+                    "bbox": [
+                      485,
+                      505,
+                      27,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "准确",
+                    "confidence": 0.93121498,
+                    "bbox": [
+                      517,
+                      505,
+                      54,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "率",
+                    "confidence": 0.92062759,
+                    "bbox": [
+                      587,
+                      505,
+                      19,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.96446083,
+                    "bbox": [
+                      624,
+                      505,
+                      35,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "效率",
+                    "confidence": 0.92947304,
+                    "bbox": [
+                      660,
+                      505,
+                      51,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.91838516,
+                    "bbox": [
+                      717,
+                      528,
+                      9,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.91838516
+              },
+              {
+                "text": "a. 适合 : 计算 机 相关 专业",
+                "words": [
+                  {
+                    "text": "a.",
+                    "confidence": 0.48007702,
+                    "bbox": [
+                      68,
+                      650,
+                      38,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "适合",
+                    "confidence": 0.93137161,
+                    "bbox": [
+                      124,
+                      649,
+                      73,
+                      30
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.93004158,
+                    "bbox": [
+                      196,
+                      645,
+                      12,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "计算",
+                    "confidence": 0.95575348,
+                    "bbox": [
+                      221,
+                      649,
+                      223,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "机",
+                    "confidence": 0.9686228199999999,
+                    "bbox": [
+                      298,
+                      645,
+                      27,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "相关",
+                    "confidence": 0.9564709499999999,
+                    "bbox": [
+                      325,
+                      649,
+                      66,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "专业",
+                    "confidence": 0.96331818,
+                    "bbox": [
+                      391,
+                      645,
+                      57,
+                      48
+                    ]
+                  }
+                ],
+                "confidence": 0.48007702
+              },
+              {
+                "text": "©) 8 课时 al 难度 kk kkk",
+                "words": [
+                  {
+                    "text": "©)",
+                    "confidence": 0.5533934,
+                    "bbox": [
+                      99,
+                      738,
+                      30,
+                      45
+                    ]
+                  },
+                  {
+                    "text": "8",
+                    "confidence": 0.9692086000000001,
+                    "bbox": [
+                      148,
+                      749,
+                      13,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "课时",
+                    "confidence": 0.9675069399999999,
+                    "bbox": [
+                      173,
+                      745,
+                      53,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "al",
+                    "confidence": 0.51822311,
+                    "bbox": [
+                      601,
+                      747,
+                      26,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "难度",
+                    "confidence": 0.92585045,
+                    "bbox": [
+                      661,
+                      745,
+                      52,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "kk",
+                    "confidence": 0.53439312,
+                    "bbox": [
+                      739,
+                      746,
+                      64,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "kkk",
+                    "confidence": 0.30686321,
+                    "bbox": [
+                      819,
+                      746,
+                      113,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.30686321
+              }
+            ],
+            "text": "4\nRAG 实战训练营\n( 客服助手 ) (企业知识库 ) (RAG 系统优化 )\n构建企业级知识库与智能客服助手 ， 理解检索增强生成\n原理 ， 实战优化 RAG 系统的准确率与效率 。\na. 适合 : 计算机相关专业\n©) 8 课时 al 难度 kk kkk",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1010,
+            "height": 868
+          },
+          "qr": [],
+          "previewUrl": "media/873307089fdd8ad3b37ad13ea7c74015c5c052d5d55c329245fcd0287f1e4662.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/115e55750f9174f6a21d26903545e9513e66ef9774e8f04c9c953480c7aad3ac.img",
+        "sha256": "115e55750f9174f6a21d26903545e9513e66ef9774e8f04c9c953480c7aad3ac",
+        "bytes": 519493,
+        "filename": "169d38b1-8ea1-4f22-beb0-dd88a1247ed6.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/169d38b1-8ea1-4f22-beb0-dd88a1247ed6.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "6b711e45039eacdb89b378db6ec5475e2bbdd24627f92d9d4a6b80fae4fe05b1",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "kind": "image",
+      "name": "",
+      "context": "星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。",
+      "noticeBodyHash": "6b3b4626d72ab992457bba5d140017b84a6bda777bf1b48ab2e051d187b8824f",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-12T07:22:07.212444+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "报名即享算力与产品积分\n报名解锁专属 Token 与 Al 产品积\n为你的实操创作提供充足助力\n10 亿 。\n星火 Spark-X2.5 免费领 10 亿 token\n充足的算力额度 ， 履盖课程实操 、 作品开发与反复调试\n的全过程\n5000;\nAStudio 产品积\nAl 生产力工作台 ， 一句话就\n能搭建智能体应用 ， 报名解\n锁创作额度\n前往训练营领取 2\n及领取条件以各训练营福利页为准\n5000 =.\nLoomy 产品积分\nAl 办公与学习助手 ， 把日常\n写作 、 整理与资料处理交给\n前往领取 Loomy 积分 “一",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/a9998fd1a6945d92706f1a170bddbc4433f8bfc1427c56c93ad729830dbe33bf/image.jpg",
+          "textHash": "82cbc6f8be70c21ab8172ca84bdfbda8890553997e29ae15858647062cd0ce6e",
+          "previewUrl": "media/4551c8c2d031dcf61a57a7b890f40237b68cde8303793ef7f9da52d6739178e8.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/a9998fd1a6945d92706f1a170bddbc4433f8bfc1427c56c93ad729830dbe33bf/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "报名 即 享 算 力 与 产品 积分",
+                "words": [
+                  {
+                    "text": "报名",
+                    "confidence": 0.932854,
+                    "bbox": [
+                      292,
+                      49,
+                      86,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "即",
+                    "confidence": 0.0,
+                    "bbox": [
+                      395,
+                      51,
+                      32,
+                      41
+                    ]
+                  },
+                  {
+                    "text": "享",
+                    "confidence": 0.81503311,
+                    "bbox": [
+                      448,
+                      49,
+                      24,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "算",
+                    "confidence": 0.91664711,
+                    "bbox": [
+                      490,
+                      49,
+                      27,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "力",
+                    "confidence": 0.9317660499999999,
+                    "bbox": [
+                      535,
+                      49,
+                      25,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.96973389,
+                    "bbox": [
+                      580,
+                      49,
+                      51,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "产品",
+                    "confidence": 0.9675614899999999,
+                    "bbox": [
+                      653,
+                      45,
+                      64,
+                      66
+                    ]
+                  },
+                  {
+                    "text": "积分",
+                    "confidence": 0.9663488,
+                    "bbox": [
+                      717,
+                      50,
+                      69,
+                      42
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "报名 解锁 专属 Token 与 Al 产品 积",
+                "words": [
+                  {
+                    "text": "报名",
+                    "confidence": 0.96622261,
+                    "bbox": [
+                      278,
+                      174,
+                      80,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "解锁",
+                    "confidence": 0.96214691,
+                    "bbox": [
+                      361,
+                      174,
+                      49,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "专属",
+                    "confidence": 0.95050468,
+                    "bbox": [
+                      427,
+                      169,
+                      60,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "Token",
+                    "confidence": 0.92879578,
+                    "bbox": [
+                      488,
+                      177,
+                      87,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.9601181,
+                    "bbox": [
+                      588,
+                      174,
+                      29,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "Al",
+                    "confidence": 0.95976433,
+                    "bbox": [
+                      629,
+                      177,
+                      28,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "产品",
+                    "confidence": 0.92711479,
+                    "bbox": [
+                      671,
+                      174,
+                      97,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "积",
+                    "confidence": 0.92693336,
+                    "bbox": [
+                      749,
+                      169,
+                      23,
+                      43
+                    ]
+                  }
+                ],
+                "confidence": 0.92693336
+              },
+              {
+                "text": "为 你 的 实 操 创 作 提供 充足 助力",
+                "words": [
+                  {
+                    "text": "为",
+                    "confidence": 0.96857338,
+                    "bbox": [
+                      324,
+                      238,
+                      41,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "你",
+                    "confidence": 0.96094887,
+                    "bbox": [
+                      373,
+                      238,
+                      30,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.93288933,
+                    "bbox": [
+                      405,
+                      238,
+                      15,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.93102791,
+                    "bbox": [
+                      435,
+                      238,
+                      32,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "操",
+                    "confidence": 0.9241487100000001,
+                    "bbox": [
+                      469,
+                      238,
+                      37,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "创",
+                    "confidence": 0.93135178,
+                    "bbox": [
+                      511,
+                      239,
+                      23,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "confidence": 0.9140583800000001,
+                    "bbox": [
+                      536,
+                      238,
+                      29,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "提供",
+                    "confidence": 0.89796959,
+                    "bbox": [
+                      567,
+                      238,
+                      56,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "充足",
+                    "confidence": 0.94779381,
+                    "bbox": [
+                      637,
+                      237,
+                      72,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "助力",
+                    "confidence": 0.9550213599999999,
+                    "bbox": [
+                      708,
+                      233,
+                      46,
+                      45
+                    ]
+                  }
+                ],
+                "confidence": 0.89796959
+              },
+              {
+                "text": "10 亿 。",
+                "words": [
+                  {
+                    "text": "10",
+                    "confidence": 0.9219651799999999,
+                    "bbox": [
+                      127,
+                      452,
+                      326,
+                      140
+                    ]
+                  },
+                  {
+                    "text": "亿",
+                    "confidence": 0.88338547,
+                    "bbox": [
+                      350,
+                      448,
+                      126,
+                      182
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.41041321000000003,
+                    "bbox": [
+                      470,
+                      540,
+                      146,
+                      41
+                    ]
+                  }
+                ],
+                "confidence": 0.41041321000000003
+              },
+              {
+                "text": "星火 Spark-X2.5 免费 领 10 亿 token",
+                "words": [
+                  {
+                    "text": "星火",
+                    "confidence": 0.9612925,
+                    "bbox": [
+                      115,
+                      669,
+                      87,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "Spark-X2.5",
+                    "confidence": 0.9001931000000001,
+                    "bbox": [
+                      217,
+                      674,
+                      240,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "免费",
+                    "confidence": 0.93295578,
+                    "bbox": [
+                      473,
+                      668,
+                      135,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "领",
+                    "confidence": 0.88742645,
+                    "bbox": [
+                      593,
+                      664,
+                      37,
+                      58
+                    ]
+                  },
+                  {
+                    "text": "10",
+                    "confidence": 0.9317359199999999,
+                    "bbox": [
+                      625,
+                      669,
+                      95,
+                      42
+                    ]
+                  },
+                  {
+                    "text": "亿",
+                    "confidence": 0.89788483,
+                    "bbox": [
+                      691,
+                      664,
+                      29,
+                      58
+                    ]
+                  },
+                  {
+                    "text": "token",
+                    "confidence": 0.9165658600000001,
+                    "bbox": [
+                      734,
+                      674,
+                      122,
+                      34
+                    ]
+                  }
+                ],
+                "confidence": 0.88742645
+              },
+              {
+                "text": "充足 的 算 力 额度 ， 履 盖 课 程 实 操 、 作 品 开发 与 反复 调试",
+                "words": [
+                  {
+                    "text": "充足",
+                    "confidence": 0.9217575100000001,
+                    "bbox": [
+                      114,
+                      761,
+                      253,
+                      35
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.93133995,
+                    "bbox": [
+                      197,
+                      757,
+                      34,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "算",
+                    "confidence": 0.92255051,
+                    "bbox": [
+                      230,
+                      757,
+                      36,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "力",
+                    "confidence": 0.93079659,
+                    "bbox": [
+                      266,
+                      757,
+                      39,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "额度",
+                    "confidence": 0.92940796,
+                    "bbox": [
+                      305,
+                      757,
+                      72,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9279982,
+                    "bbox": [
+                      376,
+                      757,
+                      27,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "履",
+                    "confidence": 0.0,
+                    "bbox": [
+                      402,
+                      763,
+                      23,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "盖",
+                    "confidence": 0.90971886,
+                    "bbox": [
+                      438,
+                      762,
+                      36,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "课",
+                    "confidence": 0.91682343,
+                    "bbox": [
+                      474,
+                      763,
+                      37,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "程",
+                    "confidence": 0.92553482,
+                    "bbox": [
+                      513,
+                      763,
+                      18,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.92987572,
+                    "bbox": [
+                      548,
+                      761,
+                      30,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "操",
+                    "confidence": 0.9199434700000001,
+                    "bbox": [
+                      587,
+                      763,
+                      26,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.92959267,
+                    "bbox": [
+                      617,
+                      757,
+                      26,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "confidence": 0.9304425000000001,
+                    "bbox": [
+                      643,
+                      762,
+                      27,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "confidence": 0.9040103899999999,
+                    "bbox": [
+                      682,
+                      763,
+                      21,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "开发",
+                    "confidence": 0.92550201,
+                    "bbox": [
+                      708,
+                      762,
+                      241,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.96374466,
+                    "bbox": [
+                      795,
+                      757,
+                      34,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "反复",
+                    "confidence": 0.9696064,
+                    "bbox": [
+                      828,
+                      757,
+                      69,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "调试",
+                    "confidence": 0.9667280599999999,
+                    "bbox": [
+                      896,
+                      757,
+                      56,
+                      52
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "的 全 过 程",
+                "words": [
+                  {
+                    "text": "的",
+                    "confidence": 0.96493408,
+                    "bbox": [
+                      116,
+                      828,
+                      135,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "confidence": 0.96811752,
+                    "bbox": [
+                      162,
+                      824,
+                      29,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "过",
+                    "confidence": 0.93162567,
+                    "bbox": [
+                      190,
+                      828,
+                      38,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "程",
+                    "confidence": 0.93039658,
+                    "bbox": [
+                      227,
+                      824,
+                      26,
+                      50
+                    ]
+                  }
+                ],
+                "confidence": 0.93039658
+              },
+              {
+                "text": "5000;",
+                "words": [
+                  {
+                    "text": "5000;",
+                    "confidence": 0.21297197,
+                    "bbox": [
+                      92,
+                      1201,
+                      258,
+                      72
+                    ]
+                  }
+                ],
+                "confidence": 0.21297197
+              },
+              {
+                "text": "AStudio 产 品 积",
+                "words": [
+                  {
+                    "text": "AStudio",
+                    "confidence": 0.91643021,
+                    "bbox": [
+                      86,
+                      1333,
+                      256,
+                      36
+                    ]
+                  },
+                  {
+                    "text": "产",
+                    "confidence": 0.929179,
+                    "bbox": [
+                      241,
+                      1329,
+                      40,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "confidence": 0.9126324499999999,
+                    "bbox": [
+                      280,
+                      1329,
+                      40,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "积",
+                    "confidence": 0.92797096,
+                    "bbox": [
+                      319,
+                      1329,
+                      27,
+                      52
+                    ]
+                  }
+                ],
+                "confidence": 0.9126324499999999
+              },
+              {
+                "text": "Al 生产 力 工作 台 ， 一 句 话 就",
+                "words": [
+                  {
+                    "text": "Al",
+                    "confidence": 0.9630435900000001,
+                    "bbox": [
+                      86,
+                      1420,
+                      27,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "生产",
+                    "confidence": 0.92995232,
+                    "bbox": [
+                      118,
+                      1415,
+                      200,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "力",
+                    "confidence": 0.9327299499999999,
+                    "bbox": [
+                      195,
+                      1411,
+                      34,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "工作",
+                    "confidence": 0.89010071,
+                    "bbox": [
+                      229,
+                      1415,
+                      65,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "台",
+                    "confidence": 0.93013817,
+                    "bbox": [
+                      293,
+                      1411,
+                      25,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.91586609,
+                    "bbox": [
+                      317,
+                      1411,
+                      32,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "一",
+                    "confidence": 0.9282112100000001,
+                    "bbox": [
+                      343,
+                      1416,
+                      126,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "句",
+                    "confidence": 0.9142212700000001,
+                    "bbox": [
+                      385,
+                      1411,
+                      31,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "话",
+                    "confidence": 0.9275781999999999,
+                    "bbox": [
+                      415,
+                      1416,
+                      38,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "就",
+                    "confidence": 0.9572118399999999,
+                    "bbox": [
+                      452,
+                      1411,
+                      19,
+                      49
+                    ]
+                  }
+                ],
+                "confidence": 0.89010071
+              },
+              {
+                "text": "能 搭建 智能 体 应 用 ， 报 名 解",
+                "words": [
+                  {
+                    "text": "能",
+                    "confidence": 0.9682614100000001,
+                    "bbox": [
+                      88,
+                      1477,
+                      29,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "搭建",
+                    "confidence": 0.67110504,
+                    "bbox": [
+                      133,
+                      1476,
+                      68,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "智能",
+                    "confidence": 0.9321385999999999,
+                    "bbox": [
+                      217,
+                      1477,
+                      41,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "体",
+                    "confidence": 0.9214832300000001,
+                    "bbox": [
+                      264,
+                      1477,
+                      35,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "应",
+                    "confidence": 0.84439209,
+                    "bbox": [
+                      313,
+                      1479,
+                      16,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "用",
+                    "confidence": 0.9316963199999999,
+                    "bbox": [
+                      349,
+                      1500,
+                      4,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9307408100000001,
+                    "bbox": [
+                      377,
+                      1477,
+                      8,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "报",
+                    "confidence": 0.9172448,
+                    "bbox": [
+                      389,
+                      1478,
+                      17,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "名",
+                    "confidence": 0.93163498,
+                    "bbox": [
+                      417,
+                      1477,
+                      19,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "解",
+                    "confidence": 0.90834969,
+                    "bbox": [
+                      448,
+                      1477,
+                      23,
+                      30
+                    ]
+                  }
+                ],
+                "confidence": 0.67110504
+              },
+              {
+                "text": "锁 创 作 额 度",
+                "words": [
+                  {
+                    "text": "锁",
+                    "confidence": 0.9260149400000001,
+                    "bbox": [
+                      87,
+                      1538,
+                      158,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "创",
+                    "confidence": 0.93209045,
+                    "bbox": [
+                      134,
+                      1534,
+                      27,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "confidence": 0.93009048,
+                    "bbox": [
+                      161,
+                      1534,
+                      33,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "额",
+                    "confidence": 0.8960754400000001,
+                    "bbox": [
+                      194,
+                      1534,
+                      33,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "度",
+                    "confidence": 0.80815445,
+                    "bbox": [
+                      227,
+                      1534,
+                      21,
+                      48
+                    ]
+                  }
+                ],
+                "confidence": 0.80815445
+              },
+              {
+                "text": "前 往 训练 营 领 取 2",
+                "words": [
+                  {
+                    "text": "前",
+                    "confidence": 0.93152138,
+                    "bbox": [
+                      116,
+                      1661,
+                      26,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "往",
+                    "confidence": 0.8970888499999999,
+                    "bbox": [
+                      153,
+                      1661,
+                      31,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "训练",
+                    "confidence": 0.9457767499999999,
+                    "bbox": [
+                      188,
+                      1661,
+                      40,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "营",
+                    "confidence": 0.84975967,
+                    "bbox": [
+                      241,
+                      1661,
+                      31,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "领",
+                    "confidence": 0.9101969099999999,
+                    "bbox": [
+                      271,
+                      1657,
+                      26,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "取",
+                    "confidence": 0.9327921299999999,
+                    "bbox": [
+                      296,
+                      1662,
+                      16,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "2",
+                    "confidence": 0.64162079,
+                    "bbox": [
+                      425,
+                      1665,
+                      29,
+                      23
+                    ]
+                  }
+                ],
+                "confidence": 0.64162079
+              },
+              {
+                "text": "及 领取 条 件 以 各 训练 营 福 利 页 为 准",
+                "words": [
+                  {
+                    "text": "及",
+                    "confidence": 0.96538353,
+                    "bbox": [
+                      385,
+                      1824,
+                      41,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "领取",
+                    "confidence": 0.9515316,
+                    "bbox": [
+                      426,
+                      1825,
+                      42,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "条",
+                    "confidence": 0.9080696899999999,
+                    "bbox": [
+                      477,
+                      1824,
+                      30,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "件",
+                    "confidence": 0.92954201,
+                    "bbox": [
+                      507,
+                      1824,
+                      33,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "以",
+                    "confidence": 0.93029327,
+                    "bbox": [
+                      539,
+                      1825,
+                      14,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "各",
+                    "confidence": 0.96713181,
+                    "bbox": [
+                      563,
+                      1824,
+                      25,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "训练",
+                    "confidence": 0.92964134,
+                    "bbox": [
+                      587,
+                      1824,
+                      66,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "营",
+                    "confidence": 0.9240922500000001,
+                    "bbox": [
+                      652,
+                      1820,
+                      28,
+                      43
+                    ]
+                  },
+                  {
+                    "text": "福",
+                    "confidence": 0.92936127,
+                    "bbox": [
+                      679,
+                      1824,
+                      28,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "利",
+                    "confidence": 0.9326889799999999,
+                    "bbox": [
+                      712,
+                      1824,
+                      8,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "页",
+                    "confidence": 0.9662384,
+                    "bbox": [
+                      733,
+                      1825,
+                      28,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "为",
+                    "confidence": 0.93189034,
+                    "bbox": [
+                      762,
+                      1824,
+                      25,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "准",
+                    "confidence": 0.8010244,
+                    "bbox": [
+                      792,
+                      1824,
+                      14,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.8010244
+              },
+              {
+                "text": "5000 =.",
+                "words": [
+                  {
+                    "text": "5000",
+                    "confidence": 0.83525566,
+                    "bbox": [
+                      600,
+                      1201,
+                      290,
+                      73
+                    ]
+                  },
+                  {
+                    "text": "=.",
+                    "confidence": 0.28242783,
+                    "bbox": [
+                      819,
+                      1197,
+                      69,
+                      103
+                    ]
+                  }
+                ],
+                "confidence": 0.28242783
+              },
+              {
+                "text": "Loomy 产 品 积分",
+                "words": [
+                  {
+                    "text": "Loomy",
+                    "confidence": 0.9131143199999999,
+                    "bbox": [
+                      596,
+                      1334,
+                      153,
+                      41
+                    ]
+                  },
+                  {
+                    "text": "产",
+                    "confidence": 0.65412605,
+                    "bbox": [
+                      722,
+                      1328,
+                      46,
+                      52
+                    ]
+                  },
+                  {
+                    "text": "品",
+                    "confidence": 0.9230184199999999,
+                    "bbox": [
+                      767,
+                      1335,
+                      19,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "积分",
+                    "confidence": 0.9288198900000001,
+                    "bbox": [
+                      806,
+                      1333,
+                      57,
+                      36
+                    ]
+                  }
+                ],
+                "confidence": 0.65412605
+              },
+              {
+                "text": "Al 办 公 与 学 习 助手 ， 把 日 常",
+                "words": [
+                  {
+                    "text": "Al",
+                    "confidence": 0.94619759,
+                    "bbox": [
+                      594,
+                      1420,
+                      27,
+                      23
+                    ]
+                  },
+                  {
+                    "text": "办",
+                    "confidence": 0.93296745,
+                    "bbox": [
+                      641,
+                      1416,
+                      22,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "公",
+                    "confidence": 0.9249741400000001,
+                    "bbox": [
+                      670,
+                      1416,
+                      25,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.96732338,
+                    "bbox": [
+                      707,
+                      1416,
+                      39,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.9282210499999999,
+                    "bbox": [
+                      745,
+                      1411,
+                      29,
+                      46
+                    ]
+                  },
+                  {
+                    "text": "习",
+                    "confidence": 0.9140016900000001,
+                    "bbox": [
+                      774,
+                      1416,
+                      38,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "助手",
+                    "confidence": 0.93162956,
+                    "bbox": [
+                      827,
+                      1417,
+                      40,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92732071,
+                    "bbox": [
+                      891,
+                      1416,
+                      10,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "把",
+                    "confidence": 0.93176826,
+                    "bbox": [
+                      903,
+                      1417,
+                      17,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "日",
+                    "confidence": 0.9279327399999999,
+                    "bbox": [
+                      935,
+                      1418,
+                      14,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "常",
+                    "confidence": 0.92577827,
+                    "bbox": [
+                      969,
+                      1415,
+                      15,
+                      30
+                    ]
+                  }
+                ],
+                "confidence": 0.9140016900000001
+              },
+              {
+                "text": "写作 、 整 理 与 资料 处 理 交 给",
+                "words": [
+                  {
+                    "text": "写作",
+                    "confidence": 0.93227173,
+                    "bbox": [
+                      596,
+                      1477,
+                      73,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.93197395,
+                    "bbox": [
+                      692,
+                      1477,
+                      10,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "整",
+                    "confidence": 0.7590483100000001,
+                    "bbox": [
+                      701,
+                      1477,
+                      33,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "理",
+                    "confidence": 0.92764542,
+                    "bbox": [
+                      735,
+                      1479,
+                      33,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.96945572,
+                    "bbox": [
+                      767,
+                      1477,
+                      38,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "资料",
+                    "confidence": 0.96761009,
+                    "bbox": [
+                      804,
+                      1477,
+                      46,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "处",
+                    "confidence": 0.9323452,
+                    "bbox": [
+                      868,
+                      1477,
+                      27,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "理",
+                    "confidence": 0.93164253,
+                    "bbox": [
+                      899,
+                      1479,
+                      27,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "交",
+                    "confidence": 0.90093369,
+                    "bbox": [
+                      925,
+                      1477,
+                      22,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "给",
+                    "confidence": 0.96439171,
+                    "bbox": [
+                      954,
+                      1477,
+                      25,
+                      29
+                    ]
+                  }
+                ],
+                "confidence": 0.7590483100000001
+              },
+              {
+                "text": "前 往 领 取 Loomy 积分 “一",
+                "words": [
+                  {
+                    "text": "前",
+                    "confidence": 0.9329080999999999,
+                    "bbox": [
+                      624,
+                      1661,
+                      26,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "往",
+                    "confidence": 0.9222374000000001,
+                    "bbox": [
+                      661,
+                      1661,
+                      34,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "领",
+                    "confidence": 0.93030365,
+                    "bbox": [
+                      709,
+                      1662,
+                      17,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "取",
+                    "confidence": 0.91413269,
+                    "bbox": [
+                      725,
+                      1655,
+                      16,
+                      41
+                    ]
+                  },
+                  {
+                    "text": "Loomy",
+                    "confidence": 0.9281712299999999,
+                    "bbox": [
+                      745,
+                      1664,
+                      87,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "积分",
+                    "confidence": 0.96018715,
+                    "bbox": [
+                      841,
+                      1661,
+                      55,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "“一",
+                    "confidence": 0.28853489,
+                    "bbox": [
+                      933,
+                      1664,
+                      29,
+                      24
+                    ]
+                  }
+                ],
+                "confidence": 0.28853489
+              }
+            ],
+            "text": "报名即享算力与产品积分\n报名解锁专属 Token 与 Al 产品积\n为你的实操创作提供充足助力\n10 亿 。\n星火 Spark-X2.5 免费领 10 亿 token\n充足的算力额度 ， 履盖课程实操 、 作品开发与反复调试\n的全过程\n5000;\nAStudio 产品积\nAl 生产力工作台 ， 一句话就\n能搭建智能体应用 ， 报名解\n锁创作额度\n前往训练营领取 2\n及领取条件以各训练营福利页为准\n5000 =.\nLoomy 产品积分\nAl 办公与学习助手 ， 把日常\n写作 、 整理与资料处理交给\n前往领取 Loomy 积分 “一",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1080,
+            "height": 1967
+          },
+          "qr": [],
+          "previewUrl": "media/4551c8c2d031dcf61a57a7b890f40237b68cde8303793ef7f9da52d6739178e8.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/a9998fd1a6945d92706f1a170bddbc4433f8bfc1427c56c93ad729830dbe33bf.img",
+        "sha256": "a9998fd1a6945d92706f1a170bddbc4433f8bfc1427c56c93ad729830dbe33bf",
+        "bytes": 170835,
+        "filename": "609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg"
       },
       "pageCount": null,
       "truncated": false,

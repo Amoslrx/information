@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1266,
+  "count": 1270,
   "with_deadline": 178,
   "items": [
     {
@@ -143043,6 +143043,322 @@
       ],
       "bodyLen": 1197,
       "snippet": "11月8日晚上，西安交通大学“繁星计划”美育大讲堂在钱学森图书馆星空报告厅举行。西安交通大学校友、中国传媒大学广告与品牌学院院长赵新利教授以“中国品牌国际传播的智慧”为题作专题分享，结合自身求学经历与学术研究，分享中国品牌国际传播的思考与实践。新闻与新媒体学院院长汪文斌教授、新媒体系主任陈强教授和外国语学院副院长王华教授和来自不同专业的100名学生代表参加活动。 赵新利回顾了自己在交大从日语专业学习、担任校报学生记者，到攻读传播学硕士、赴《人民中国》日文杂志社实习，再到赴日本早稻田大学深造的求学往事，坦言不同阶段的学习与实践逐步拓宽了他的研究视野，也让他与国际传播结下不解之缘。谈及成长中的选择，他以“一切都是最好的安排”勉励同学们珍惜在校时光，积极尝试、扎实积累，在探索中发现自身兴趣与发展方向。 围绕品牌与国家形象的关系，赵新利指出，品牌不仅是企业的重要无形资产，也是人们认识一个国家的窗口。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+      "noticeDate": "2026-11-11",
+      "contentHash": "f188b0fc05fb6c9098a9fb9f28e86c7cec5dbc138e36579ecf7230c60fadf84f",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-10-17",
+          "raw": "10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+          "location": {
+            "type": "body",
+            "start": 130,
+            "end": 177
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-28",
+          "raw": "10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+          "location": {
+            "type": "body",
+            "start": 177,
+            "end": 230
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月28日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-10-28",
+          "raw": "10月28日，司奕帆、郭梦泽两位同学分别围绕竞赛规划与多元发展、科研方法与项目实践展开分享，为新生了解科研竞赛、参与项目研究提供了不同角度的参考。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+          "location": {
+            "type": "body",
+            "start": 1956,
+            "end": 2029
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "10月28日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 4147,
+      "snippet": "大学生活应该如何规划？怎样找到适合自己的学习方法？科研竞赛又该从何入手？ 为帮助新生更好地适应大学生活、明确发展方向，10月，“新生面对面”系列讲座围绕学业提升、时间管理和科研竞赛三大主题，先后开展三场朋辈经验分享。 近日，“新生面对面”系列讲座先后开展三场。10月17日下午，学分绩提升与时间管理两场讲座同步开讲，云开、袁成希两位同学分别带来一讲分享；10月28日下午，第三场科研竞赛专场在主楼D205开讲，司奕帆、郭梦泽两位同学分别从文科与理科的视角展开。从“大学第一份成绩单怎么拿高分”，到“如何叩响科研竞赛的大门”，四位朋辈主讲人结合亲身经历倾囊相授，为初入校园的同学们送上了一份份成长攻略。 从课堂学习到课外探索，从日常规划到长远发展，四位主讲人以亲身经历为切入点，为新生提供了切实可行的思路与建议。 学分绩提升｜夯实成长基础 学业是大学生活的重要基础。如何认识学分绩与综合成绩？怎样合理规划课程学习？奖学金评定又有哪些需要关注的事项？围绕新生普遍关心的学业问题，云开同学结合自身经验，分享了大学课程学习与成绩提升的方法。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+      "noticeDate": "2026-11-11",
+      "contentHash": "0b671f38743d9833830b008e7b5a6ef0b533227ff93eb44079b4441db56980d9",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-30",
+          "raw": "活动时间：即日起至11月30日（共21天）。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+          "location": {
+            "type": "body",
+            "start": 336,
+            "end": 358
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-02-05",
+          "raw": "星火 Spark-X2.5 免费算力额度，覆盖课程实操、作品开发与反复调试。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+          "location": {
+            "type": "body",
+            "start": 1184,
+            "end": 1222
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2.5",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-20",
+          "raw": "征集截至【11月20日 24:00】",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+          "location": {
+            "type": "body",
+            "start": 1597,
+            "end": 1615
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "24:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月20日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-30",
+          "raw": "11月30日前，完成课程与实操。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+          "location": {
+            "type": "body",
+            "start": 1752,
+            "end": 1768
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-02-05",
+          "raw": "星火 Spark-X2.5 免费领 10 亿 token",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg",
+          "location": {
+            "type": "resource",
+            "resourceId": "6b711e45039eacdb89b378db6ec5475e2bbdd24627f92d9d4a6b80fae4fe05b1",
+            "chunkId": "image-ocr",
+            "page": null,
+            "start": 55,
+            "end": 83
+          },
+          "method": "ocr",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year",
+            "ocr_requires_review"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2.5",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 2394,
+      "snippet": "西安交通大学 “攀登计划”AI训练营 从AI使用者迈向AI创造者 10亿token，10000积分，等你来领! 为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营将于即日起开放报名。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团 AI 大学堂联合主办，面向全体在校学生（本科、硕士、博士），不限年级、不限专业，围绕 AI Agent、Skill 开发、RAG 三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。学员完成课程学习并提交实操成果，符合要求后可获西安交通大学与科大讯飞AI大学堂联合认证的结营证书，报名即享算力与产品积分支持。 01活动概览 活动名称：西安交通大学2026年「攀登计划」AI训练营。 活动时间：即日起至11月30日（共21天）。 参加对象：西安交通大学全体在校学生（本科、硕士、博士），不限年级、不限专业，均可报名参加。 报名要求：无需软件开发基础；仅「RAG 实战训练营」要求具备基础编程能力。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+      "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+      "noticeDate": "2026-11-12",
+      "contentHash": "2653af401bd1d62ad6e7d426dcac94b62b591d3eaee634f6da4ff826123013e4",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-02",
+          "raw": "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 37
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月2日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1861,
+      "snippet": "11月2日，“大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展。项目讲师马慧青、导师马娜娜围绕心理状态识别、共情倾听、有效沟通、伦理规范与角色边界等内容，通过专题讲授、小组互动和情境演练，帮助志愿者深化对心理支持服务的认识，提升实际服务能力。 “大学生心理健康志愿服务项目”在陕西省委社会工作部指导下，由陕西省志愿服务联合会主办，西安交通大学校团委与西安市协力社会工作服务中心联合实施，旨在回应学业困难学生的实际需求，构建更加可及、包容的心理支持环境。 本次培训作为承接理论学习与实践服务的重要环节，着力提升志愿者的沟通能力与服务意识，为后续团体辅导实践奠定基础。 01-理论筑基-掌握方法，明确边界 识别心理信号，明确服务边界 培训伊始，马慧青老师围绕心理状态识别的基本原则展开讲解，介绍了心理活动的统一性、内在协调一致性与人格相对稳定性等参考维度，帮助志愿者建立对心理状态识别的基本认识。 课程特别强调，志愿者的职责在于关注心理风险信号、提供力所能及的支持，并在必要时寻求专业帮助，而非对他人的心理状况作出诊断。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+      "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+      "noticeDate": "2026-11-12",
+      "contentHash": "378721e0c5916132259975b932ad18a2587a0b975dbb757e878524fb31baaba5",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-11",
+          "raw": "时间：2026 年 11 月 11 日（星期三）下午 14:30-16:00",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+          "location": {
+            "type": "body",
+            "start": 396,
+            "end": 434
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "14:30",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026 年 11 月 11 日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-11",
+          "raw": "11月11日，主E多功能报告厅",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+          "location": {
+            "type": "body",
+            "start": 754,
+            "end": 769
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月11日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 904,
+      "snippet": "前言 西安交通大学“腾飞杯”创新创业大赛旨在引导和激励学生弘扬时代精神，把握时代脉搏，切实提高学生的创新精神、创业意识和创新创业能力。自1988年首届举办，已连续举办37届，是西安交通大学历史最悠久、规模最大、知名度最高的学生创新创业赛事。第38届“腾飞杯”大赛将继续传承创新薪火，为交大学子搭建展示创意、锤炼本领的舞台。为推进人工智能通识教育与创新创业实践，西安交通大学2026年「攀登计划」AI训练营同步开启。训练营由西安交通大学团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，由讯飞技术专家与一线工程师授课。值此双赛并启之际，西安交通大学第38届“腾飞杯”大赛暨2026年“攀登计划”AI训练营启动仪式将如期举行，诚邀广大师生共赴现场，同启新程。"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=48",
