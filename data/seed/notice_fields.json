@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1270,
+  "count": 1271,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -419,6 +419,33 @@
         "schemaVersion": 2,
         "contentHash": "",
         "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
+      "date": "2026-11-12",
+      "contentHash": "c2176cec99168d414ab6d24e938245a1161aefe1a834abe12cfd4f4db7c9abc9",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "c2176cec99168d414ab6d24e938245a1161aefe1a834abe12cfd4f4db7c9abc9",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
         "competitionNames": [],
         "editions": [],
         "audiences": [],

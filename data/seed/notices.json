@@ -180,11 +180,11 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2407,
+  "count": 2408,
   "matched_count": 535,
   "competition_related_count": 881,
   "by_site": {
-    "校团委": 1034,
+    "校团委": 1035,
     "教务处": 523,
     "能动学院": 68,
     "电气学院": 226,
@@ -219,36 +219,14 @@
   "items": [
     {
       "date": "2026-11-12",
-      "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
-      "source": "tuanwei",
-      "site": "校团委",
-      "competition": "",
-      "moe_no": "",
-      "matched_keyword": "",
-      "is_competition": true
-    },
-    {
-      "date": "2026-11-12",
-      "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+      "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
       "source": "tuanwei_news",
       "site": "校团委",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": false
-    },
-    {
-      "date": "2026-11-11",
-      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
-      "source": "tuanwei_news",
-      "site": "校团委",
-      "competition": "",
-      "moe_no": "",
-      "matched_keyword": "",
-      "is_competition": true
     },
     {
       "date": "2026-11-11",
@@ -256,17 +234,6 @@
       "url": "https://jwc.xjtu.edu.cn/info/1171/10642.htm",
       "source": "jwc_ksap",
       "site": "教务处",
-      "competition": "",
-      "moe_no": "",
-      "matched_keyword": "",
-      "is_competition": false
-    },
-    {
-      "date": "2026-11-11",
-      "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
-      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
-      "source": "tuanwei_news",
-      "site": "校团委",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
@@ -285,6 +252,28 @@
     },
     {
       "date": "2026-11-10",
+      "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
+      "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-11-10",
+      "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-11-10",
       "title": "关于开展全国大学生创新创业实践联盟学术年会（2026）优秀论文、优秀案例、优秀事迹和“人工智能+”优秀...",
       "url": "https://jwc.xjtu.edu.cn/info/1179/10641.htm",
       "source": "jwc",
@@ -293,6 +282,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": true
+    },
+    {
+      "date": "2026-11-10",
+      "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "title": "能源与动力工程学院关于2027年春季入学博士生资格考核工作的通知",
@@ -327,6 +327,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": true
+    },
+    {
+      "date": "2026-11-09",
+      "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2026-11-07",

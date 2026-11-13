@@ -9,23 +9,8 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4796",
-    "title": "腾飞赛事 | 关于开展西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4795",
-    "title": "从倾听到行动 | “大学生心理健康志愿服务项目”志愿者心理基础技能培训顺利开展",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4794",
-    "title": "攀登计划 | 西安交通大学2026“攀登计划”AI训练营报名开启",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",
-    "title": "“新生面对面”十月合辑 | 三场讲座，共话大学成长",
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+    "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
     "priority": null
    },
    {
@@ -110,19 +95,19 @@
    }
   ],
   "byStatus": {
-   "success": 4,
+   "success": 1,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1254,
+  "success": 1255,
   "empty": 1,
   "failed": 15
  },
- "count": 1270,
- "withBody": 1254,
+ "count": 1271,
+ "withBody": 1255,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -130,7 +115,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-12T07:21:15.849220+00:00",
+   "fetchedAt": "2026-11-13T06:53:55.262674+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -151,11 +136,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 403",
-     "fetchedAt": "2026-11-07T06:06:13.759108+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 403",
@@ -180,9 +160,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:15.849220+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:55.262674+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -190,7 +175,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-12T07:21:15.805444+00:00",
+   "fetchedAt": "2026-11-13T06:53:54.014315+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -211,11 +196,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-07T06:06:13.740935+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -240,9 +220,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-12T07:21:15.805444+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-13T06:53:54.014315+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -250,7 +235,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:14.536206+00:00",
+   "fetchedAt": "2026-11-13T06:53:53.520171+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -271,11 +256,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:13.733544+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -300,9 +280,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:14.536206+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:53.520171+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -310,7 +295,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:13.415833+00:00",
+   "fetchedAt": "2026-11-13T06:53:53.505366+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -331,11 +316,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.737544+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -360,9 +340,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:13.415833+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:53.505366+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -370,7 +355,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:13.396764+00:00",
+   "fetchedAt": "2026-11-13T06:53:52.254063+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -391,11 +376,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.728703+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -420,9 +400,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:13.396764+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:52.254063+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -430,7 +415,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:09.568463+00:00",
+   "fetchedAt": "2026-11-13T06:53:51.487537+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -451,11 +436,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:11.724793+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -480,9 +460,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:09.568463+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:51.487537+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -490,7 +475,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:08.928281+00:00",
+   "fetchedAt": "2026-11-13T06:53:51.468453+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -511,11 +496,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:09.871150+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -540,9 +520,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:08.928281+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:51.468453+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -550,7 +535,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-12T07:21:08.797209+00:00",
+   "fetchedAt": "2026-11-13T06:53:50.474222+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -571,11 +556,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:09.350625+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -600,9 +580,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:08.797209+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:50.474222+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -610,7 +595,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-12T07:21:08.083146+00:00",
+   "fetchedAt": "2026-11-13T06:53:50.060986+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -631,11 +616,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.471015+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -660,9 +640,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:08.083146+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:50.060986+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -670,7 +655,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-12T07:21:07.111198+00:00",
+   "fetchedAt": "2026-11-13T06:53:49.150854+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -691,11 +676,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-07T06:06:08.414273+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -720,9 +700,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-12T07:21:07.111198+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-13T06:53:49.150854+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -730,7 +715,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-12T07:21:07.103860+00:00",
+   "fetchedAt": "2026-11-13T06:53:49.146672+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -751,11 +736,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.412385+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -780,9 +760,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:07.103860+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:49.146672+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -790,7 +775,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-12T07:21:06.893959+00:00",
+   "fetchedAt": "2026-11-13T06:53:49.144368+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -811,11 +796,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:08.329832+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -840,9 +820,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:06.893959+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:49.144368+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -850,7 +835,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-12T07:21:05.852073+00:00",
+   "fetchedAt": "2026-11-13T06:53:49.084895+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -871,11 +856,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-07T06:06:07.109882+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -900,9 +880,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-12T07:21:05.852073+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-13T06:53:49.084895+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -910,7 +895,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-12T07:21:05.434855+00:00",
+   "fetchedAt": "2026-11-13T06:53:47.824387+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -931,11 +916,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.109256+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -960,9 +940,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:05.434855+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:47.824387+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -970,7 +955,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-12T07:21:05.422187+00:00",
+   "fetchedAt": "2026-11-13T06:53:47.823775+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -991,11 +976,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.108455+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1020,9 +1000,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:05.422187+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:47.823775+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1030,7 +1015,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-12T07:21:05.407657+00:00",
+   "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1051,11 +1036,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-07T06:06:07.107357+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1080,9 +1060,167 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-12T07:21:05.407657+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-13T06:53:47.822842+00:00"
     }
    ],
-   "totalAttempts": 8
+   "totalAttempts": 9
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+   "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
+   "site": "校团委",
+   "date": "2026-11-12",
+   "source": "团委",
+   "fetchedAt": "2026-11-13T06:53:47.821642+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+   "contentParserVersion": 2,
+   "body": "为进一步夯实思想文化类社团建设，提升社团骨干履职能力，推动学生社团思想引领工作走深走实，近日，校团委学生社团指导中心在党员之家举办了2026-2027学年“青衿”骨干培训项目第二期暨思想文化类社团工作专题座谈会。西安交通大学党委副书记王欢出席座谈会，与党委学工部、校团委主要负责同志和相关工作人员展开座谈交流。\n严规强阵地，笃行谋新篇\n崔东森立足《高校学生社团建设管理办法》，回顾2025-2026学年社团中心工作。社团中心统筹158个学生社团，强化社团功能型团支部建设，落实注册年审制度，优化考评细则推动社团建设规范化、制度化运行。社团中心始终加强阵地建设，统筹社团场地，扎实做好巡查运维；通过活动监察、报备审核、宣传物审批、网络督察，实现线上线下全流程监督。在品牌建设与育人成效方面，社团中心着力打造社团博览会、“一站式”学生社区学生社团“激活计划”等品牌项目，充分发挥社团在思想政治引领和校园文化建设中的积极作用。\n未来，社团中心将进一步从严网络监管、完善宣传阵地、深化各方联动，推动社团高质量发展，为学校立德树人和校园文化繁荣贡献力量。\n微言铸信仰，薪火传校史\n随后，两位社团代表分享建设经验，推动思想文化类社团互学互鉴、凝聚共识、共同提升。\n筑梦社的尚卓然同学在简要介绍社团概况后，从思想铸魂与宣讲砺剑两个维度，系统阐述了社团的发展经验。筑梦社依托马克思主义学院专业指导，着力打造“三学三讲三研”三位一体的理论学习阵地。社团规范开展团组织生活，精心打磨了80余篇宣讲稿与系列精品课单，更积极拓展校内外实践基地，开展红色精神研学与微宣讲大赛，线上线下累计覆盖超两万五千人次，有效推动党的创新理论“声入人心”。同时，他提出“夯实理论之基、深扎实践之根、拓展传播之道”的发展规划，致力于让每次发声都为思想播种，让每个故事收获时代回响，充分展现了思想文化类社团以微言宣大义、并肩追光的活力与进取精神。\n解说团的孙静茹同学向与会师生分享了社团深耕校史底蕴的建设成果。解说团成立于2005年，始终以“讲述百年校史，传承西迁精神”为己任，承担交大西迁博物馆九成以上的讲解任务，累计服务超十万人次；创新开展校史趣味闯关、银龄讲解员采访等沉浸式活动，打磨出10余份原创宣讲稿件，让西迁精神的生动讲述入脑、入心。面向未来，解说团提出了“加强党建引领、相互交流学习、善用AI技术”的发展构想。通过融合AI智能导览与AR增强现实技术，打造沉浸式互动体验，创新校史传播方式，让西迁故事更加鲜活，充分彰显解说团传承信仰、开拓创新的青春担当。\n破题解迷津，领航明方向\n在座谈研讨环节，各社团负责人立足社团实际运营情况展开交流，梳理社团在内部建设、活动策划、骨干培养、规范管理及作用发挥等工作中面临的现实困惑与难点。\n针对试运行社团和新成立社团提出的“如何做实思想建设，拉近与社团成员之间的距离”等问题，王欢指出，社团骨干在社团日常管理中必须把规矩意识摆在首位，踏实做好各项工作，通过朋辈引领发挥社团育人功能她强调，思想文化类社团是高校思政工作的重要阵地，要把“思想引领”作为社团建设的首要课题，瞄准发展定位，牢牢落实立德树人的根本任务，落实“为党育人、为国育才”的目标，久久为功、聚沙成塔，终会见到实效。\n针对高星级社团提出的“怎样创新社团活动形式，进一步提升社团影响力”“如何让理论落地，真正彰显实践价值、发挥育人实效”等问题。王欢鼓励同学们走出校园、走进基层，积极开展理论宣讲、社会调研、志愿服务等实践活动，拓宽辐射范围；同时推动各社团联动协作、取长补短，合力扩大活动影响力。她特别强调，当前大学生的思想动态呈现出多元化、活跃化的特点，思想文化类社团必须把牢正确政治方向，坚定理想信念，弘扬向上向善正能量。\n最后，王欢在总结时提出期许。她指出，要始终围绕学生、关照学生、服务学生，不断提高政治站位；思想研究应当往深处走，不能浅尝辄止，同时保持开阔的视野，主动加强交流、携手共同成长。与会人员纷纷表示，将以此次座谈交流为契机，进一步明确发展方向、压实工作责任，不断提升社团建设规范化、科学化水平，更好服务学生成长成才和校园文化繁荣。\n结语\n本次座谈会搭建了思想文化类社团交流互鉴的平台，为各社团厘清发展定位、凝聚育人共识。未来，学生社团指导中心将继续在制度保障、资源对接、骨干培养等方面持续努力，推动思想文化类社团健康有序发展。期待各思想文化类社团以此次座谈为新起点，以思想铸魂夯实信仰之基，以理论宣讲传递青春之声，以创新实践彰显担当作为，共同谱写校园思政育人事业的崭新篇章！",
+   "bodyHtml": "<p class=\"MsoNormal\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    为进一步夯实思想文化类社团建设，提升社团骨干履职能力，推动学生社团思想引领工作走深走实，</span><span style=\"font-family: 仿宋;\">近日，校团委</span><span style=\"font-family: 仿宋;\">学生社团指导中心在党员之家举办了</span><span style=\"font-family: 仿宋;\">2026-2027学年“青衿”骨干培训项目第二期暨思想文化类社团工作专题座谈会。</span><span style=\"font-family: 仿宋;\">西安交通大学</span><span style=\"font-family: 仿宋;\">党委副书记王欢</span><span style=\"font-family: 仿宋;\">出席座谈会，与党委学工部、校团委主要负责同志和相关工作人员展开座谈交流。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/ec071a6b-1ed2-4f0c-be48-503799bf91b3.png\" alt=\"\" width=\"600\" height=\"399\"> </span></p>\n<h4 align=\"center\"><span style=\"font-size: 20px;\"><strong><span style=\"font-family: 仿宋;\">严规强阵地，笃行谋新篇</span></strong></span></h4>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    崔东森</span><span style=\"font-family: 仿宋;\">立足</span><span style=\"font-family: 仿宋;\">《高校学生社团建设管理办法》，回顾</span><span style=\"font-family: 仿宋;\">2025-2026学年社团中心工作。社团中心</span><span style=\"font-family: 仿宋;\">统筹</span><span style=\"font-family: 仿宋;\">158个学生社团，</span><span style=\"font-family: 仿宋;\">强化社团</span><span style=\"font-family: 仿宋;\">功能型团支部</span><span style=\"font-family: 仿宋;\">建设，落实注册年审制度，优化考评细则推动社团建设规范化、制度化运行。社团中心</span><span style=\"font-family: 仿宋;\">始终加强阵地建设，</span><span style=\"font-family: 仿宋;\">统筹社团场地，扎实做好巡查运维；通过活动监察、报备审核、宣传物审批、网络督察，实现线上线下全流程</span><span style=\"font-family: 仿宋;\">监督</span><span style=\"font-family: 仿宋;\">。在品牌建设与育人成效方面，社团中心着力打造社团博览会、</span><span style=\"font-family: 仿宋;\">“一站式”学生社区学生社团“激活计划”等品牌项目，充分发挥社团在思想政治引领和校园文化建设中的积极作用。</span></span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    未来，</span><span style=\"font-family: 仿宋;\">社团中心将进一步从严网络监管、完善宣传阵地、</span><span style=\"font-family: 仿宋;\">深化各方联动</span><span style=\"font-family: 仿宋;\">，推动社团高质量发展，为学校立德树人和校园文化繁荣贡献力量。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/091ff57b-1664-4954-a7a1-f609581f427d.png\" alt=\"\" width=\"600\" height=\"399\"> </span></p>\n<h4 align=\"center\"><span style=\"font-size: 20px;\"><strong><span style=\"font-family: 仿宋;\">微言铸信仰，薪火传校史</span></strong></span></h4>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    随后，</span><span style=\"font-family: 仿宋;\">两位社团代表分享建设经验，推动思想文化类社团互学互鉴、凝聚共识、共同提升。</span></span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    筑梦社的尚卓然同学在简要介绍社团概况后，从思想铸魂与宣讲砺剑两个维度，系统阐述了社团的发展经验。筑梦社依托马克思主义学院专业指导，着力打造</span><span style=\"font-family: 仿宋;\">“三学三讲三研”三位一体的理论学习阵地。社团规范开展团组织生活，精心打磨了80余篇宣讲稿与系列精品课单，更积极拓展校内外实践基地，开展红色精神研学与微宣讲大赛，线上线下累计覆盖超两万五千人次，有效推动党的创新理论“声入人心”。同时，他提出“夯实理论之基、深扎实践之根、拓展传播之道”的发展规划，致力于让每次发声都为思想播种，让每个故事收获时代回响，充分展现了思想文化类社团以微言宣大义、并肩追光的活力与进取精神。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/c869a733-cb9e-485b-9507-655e33c69f63.png\" alt=\"\" width=\"600\" height=\"400\"> </span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    解说团的孙静茹同学向与会师生分享了社团深耕校史底蕴的建设成果。解说团成立于</span><span style=\"font-family: 仿宋;\">2005年，始终以“讲述百年校史，传承西迁精神”为己任，承担</span><span style=\"font-family: 仿宋;\">交大西迁</span><span style=\"font-family: 仿宋;\">博物馆</span><span style=\"font-family: 仿宋;\">九成</span><span style=\"font-family: 仿宋;\">以上的讲解任务，累计服务超十万人次；创新开展校史趣味闯关、银龄讲解员采访等沉浸式活动，打磨出</span><span style=\"font-family: 仿宋;\">10余份原创宣讲稿件，</span><span style=\"font-family: 仿宋;\">让西迁精神的生动讲述入脑、入心</span><span style=\"font-family: 仿宋;\">。面向未来，解说团提出了</span><span style=\"font-family: 仿宋;\">“加强党建引领、相互交流学习、善用AI技术”的发展构想。通过融合AI智能导览与AR增强现实技术，打造沉浸式互动体验，创新校史传播方式，让西迁故事更加鲜活，充分彰显解说团传承信仰、开拓创新的青春担当。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/f917b89e-f525-4eb6-8e83-c71fc7666df0.png\" alt=\"\" width=\"600\" height=\"400\"> </span></p>\n<h4 align=\"center\"><span style=\"font-size: 20px;\"><strong><span style=\"font-family: 仿宋;\">破题解迷津，领航明方向</span></strong></span></h4>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋; font-size: 20px;\">    在座谈研讨环节，各社团负责人立足社团实际运营情况展开交流，梳理社团在内部建设、活动策划、骨干培养、规范管理及作用发挥等工作中面临的现实困惑与难点。</span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    针对试运行社团和新成立社团提出的</span><span style=\"font-family: 仿宋;\">“如何做实思想建设，拉近与社团成员之间的距离”等问题，王欢指出，社团骨干在社团日常管理中必须把规矩意识摆在首位，踏实做好各项工作，</span><span style=\"font-family: 仿宋;\">通过朋辈引领发挥社团育人功能</span><span style=\"font-family: 仿宋;\">她强调，思想文化类社团</span><span style=\"font-family: 仿宋;\">是高校思政工作的重要阵地，要把</span><span style=\"font-family: 仿宋;\">“思想引领”作为社团建设的首要课题，瞄准发展定位，</span><span style=\"font-family: 仿宋;\">牢牢落实立德树人的根本任务，</span><span style=\"font-family: 仿宋;\">落实</span><span style=\"font-family: 仿宋;\">“为党育人、为国育才”的目标，</span><span style=\"font-family: 仿宋;\">久久为功、聚沙成塔，终会见到实效。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/5c53c7d3-bc2c-4ba4-a487-8e0542cfc6df.png\" alt=\"\" width=\"600\" height=\"805\"> </span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    针对高星级社团提出的</span><span style=\"font-family: 仿宋;\">“怎样创新社团活动形式，进一步提升社团影响力”“如何让理论落地，真正彰显实践价值、发挥育人实效”等问题。王欢鼓励同学们走出校园、</span><span style=\"font-family: 仿宋;\">走进基层</span><span style=\"font-family: 仿宋;\">，积极开展</span><span style=\"font-family: 仿宋;\">理论</span><span style=\"font-family: 仿宋;\">宣讲、</span><span style=\"font-family: 仿宋;\">社会调研、志愿服务</span><span style=\"font-family: 仿宋;\">等</span><span style=\"font-family: 仿宋;\">实践活动</span><span style=\"font-family: 仿宋;\">，拓宽辐射范围；同时推动各社团联动协作、取长补短，合力扩大活动影响力。她特别强调，当前</span><span style=\"font-family: 仿宋;\">大学生的思想动态呈现出多元化、活跃化的特点</span><span style=\"font-family: 仿宋;\">，思想文化类社团必须</span><span style=\"font-family: 仿宋;\">把牢正确政治方向</span><span style=\"font-family: 仿宋;\">，</span><span style=\"font-family: 仿宋;\">坚定理想信念，弘扬向上向善正能量。</span></span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/b0bea7ca-d053-4856-8a7f-3994470c08eb.png\" alt=\"\" width=\"600\" height=\"807\"> </span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/4c7ee162-4dc4-4d10-96a4-64ac2a587497.png\" alt=\"\" width=\"600\" height=\"796\"> </span></p>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋; font-size: 20px;\">    最后，王欢在总结时提出期许。她指出，要始终围绕学生、关照学生、服务学生，不断提高政治站位；思想研究应当往深处走，不能浅尝辄止，同时保持开阔的视野，主动加强交流、携手共同成长。与会人员纷纷表示，将以此次座谈交流为契机，进一步明确发展方向、压实工作责任，不断提升社团建设规范化、科学化水平，更好服务学生成长成才和校园文化繁荣。</span></p>\n<p class=\"MsoNormal\" align=\"center\"><span style=\"font-size: 20px;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261112/d04387e8-8f08-4111-bf5c-1edd5e88a02e.png\" alt=\"\" width=\"600\" height=\"400\"> </span></p>\n<h4 align=\"center\"><span style=\"font-size: 20px;\"><strong><span style=\"font-family: 仿宋;\">结语</span></strong></span></h4>\n<p class=\"MsoNormal\" align=\"justify\"><span style=\"font-family: 仿宋; font-size: 20px;\">    本次座谈会搭建了思想文化类社团交流互鉴的平台，为各社团厘清发展定位、凝聚育人共识。未来，学生社团指导中心将继续在制度保障、资源对接、骨干培养等方面持续努力，推动思想文化类社团健康有序发展。期待各思想文化类社团以此次座谈为新起点，以思想铸魂夯实信仰之基，以理论宣讲传递青春之声，以创新实践彰显担当作为，共同谱写校园思政育人事业的崭新篇章！</span></p>",
+   "bodyLen": 1879,
+   "excerpt": "为进一步夯实思想文化类社团建设，提升社团骨干履职能力，推动学生社团思想引领工作走深走实，近日，校团委学生社团指导中心在党员之家举办了2026-2027学年“青衿”骨干培训项目第二期暨思想文化类社团工作专题座谈会。西安交通大学党委副书记王欢出席座谈会，与党委学工部、校团委主要负责同志和相关工作人员展开座谈交流。 严规强阵地，笃行谋新篇 崔东森立足《高校学生社团建设管理办法》，回顾2025-2026学年社团中心工作。社团中心统筹158个学生社团，强化社团功能型团支部建设，落实注册年审制度，优化考评细则推动社团建设规范化、制度化运行。社团中心始终加强阵地建设，统筹社团场地，扎实做好巡查运维；通过活动监察、报备审核、宣传物审批、网络督察，实现线上线下全流程监督。在品牌建设与育人成效方面，社团中心着力打造社团博览会、“一站式”学生社区学生社团“激活计划”等品牌项目，充分发挥社团在思想政治引领和校园文化建设中的积极作用。 未来，社团中心将进一步从严网络监管、完善宣传阵地、深化各方联动，推动社团高质量发展，为学校立德树人和校园文化繁荣贡献力量。",
+   "paragraphs": [
+    "为进一步夯实思想文化类社团建设，提升社团骨干履职能力，推动学生社团思想引领工作走深走实，近日，校团委学生社团指导中心在党员之家举办了2026-2027学年“青衿”骨干培训项目第二期暨思想文化类社团工作专题座谈会。西安交通大学党委副书记王欢出席座谈会，与党委学工部、校团委主要负责同志和相关工作人员展开座谈交流。",
+    "严规强阵地，笃行谋新篇",
+    "崔东森立足《高校学生社团建设管理办法》，回顾2025-2026学年社团中心工作。社团中心统筹158个学生社团，强化社团功能型团支部建设，落实注册年审制度，优化考评细则推动社团建设规范化、制度化运行。社团中心始终加强阵地建设，统筹社团场地，扎实做好巡查运维；通过活动监察、报备审核、宣传物审批、网络督察，实现线上线下全流程监督。在品牌建设与育人成效方面，社团中心着力打造社团博览会、“一站式”学生社区学生社团“激活计划”等品牌项目，充分发挥社团在思想政治引领和校园文化建设中的积极作用。",
+    "未来，社团中心将进一步从严网络监管、完善宣传阵地、深化各方联动，推动社团高质量发展，为学校立德树人和校园文化繁荣贡献力量。",
+    "微言铸信仰，薪火传校史",
+    "随后，两位社团代表分享建设经验，推动思想文化类社团互学互鉴、凝聚共识、共同提升。",
+    "筑梦社的尚卓然同学在简要介绍社团概况后，从思想铸魂与宣讲砺剑两个维度，系统阐述了社团的发展经验。筑梦社依托马克思主义学院专业指导，着力打造“三学三讲三研”三位一体的理论学习阵地。社团规范开展团组织生活，精心打磨了80余篇宣讲稿与系列精品课单，更积极拓展校内外实践基地，开展红色精神研学与微宣讲大赛，线上线下累计覆盖超两万五千人次，有效推动党的创新理论“声入人心”。同时，他提出“夯实理论之基、深扎实践之根、拓展传播之道”的发展规划，致力于让每次发声都为思想播种，让每个故事收获时代回响，充分展现了思想文化类社团以微言宣大义、并肩追光的活力与进取精神。",
+    "解说团的孙静茹同学向与会师生分享了社团深耕校史底蕴的建设成果。解说团成立于2005年，始终以“讲述百年校史，传承西迁精神”为己任，承担交大西迁博物馆九成以上的讲解任务，累计服务超十万人次；创新开展校史趣味闯关、银龄讲解员采访等沉浸式活动，打磨出10余份原创宣讲稿件，让西迁精神的生动讲述入脑、入心。面向未来，解说团提出了“加强党建引领、相互交流学习、善用AI技术”的发展构想。通过融合AI智能导览与AR增强现实技术，打造沉浸式互动体验，创新校史传播方式，让西迁故事更加鲜活，充分彰显解说团传承信仰、开拓创新的青春担当。",
+    "破题解迷津，领航明方向",
+    "在座谈研讨环节，各社团负责人立足社团实际运营情况展开交流，梳理社团在内部建设、活动策划、骨干培养、规范管理及作用发挥等工作中面临的现实困惑与难点。",
+    "针对试运行社团和新成立社团提出的“如何做实思想建设，拉近与社团成员之间的距离”等问题，王欢指出，社团骨干在社团日常管理中必须把规矩意识摆在首位，踏实做好各项工作，通过朋辈引领发挥社团育人功能她强调，思想文化类社团是高校思政工作的重要阵地，要把“思想引领”作为社团建设的首要课题，瞄准发展定位，牢牢落实立德树人的根本任务，落实“为党育人、为国育才”的目标，久久为功、聚沙成塔，终会见到实效。",
+    "针对高星级社团提出的“怎样创新社团活动形式，进一步提升社团影响力”“如何让理论落地，真正彰显实践价值、发挥育人实效”等问题。王欢鼓励同学们走出校园、走进基层，积极开展理论宣讲、社会调研、志愿服务等实践活动，拓宽辐射范围；同时推动各社团联动协作、取长补短，合力扩大活动影响力。她特别强调，当前大学生的思想动态呈现出多元化、活跃化的特点，思想文化类社团必须把牢正确政治方向，坚定理想信念，弘扬向上向善正能量。",
+    "最后，王欢在总结时提出期许。她指出，要始终围绕学生、关照学生、服务学生，不断提高政治站位；思想研究应当往深处走，不能浅尝辄止，同时保持开阔的视野，主动加强交流、携手共同成长。与会人员纷纷表示，将以此次座谈交流为契机，进一步明确发展方向、压实工作责任，不断提升社团建设规范化、科学化水平，更好服务学生成长成才和校园文化繁荣。",
+    "结语",
+    "本次座谈会搭建了思想文化类社团交流互鉴的平台，为各社团厘清发展定位、凝聚育人共识。未来，学生社团指导中心将继续在制度保障、资源对接、骨干培养等方面持续努力，推动思想文化类社团健康有序发展。期待各思想文化类社团以此次座谈为新起点，以思想铸魂夯实信仰之基，以理论宣讲传递青春之声，以创新实践彰显担当作为，共同谱写校园思政育人事业的崭新篇章！"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/ec071a6b-1ed2-4f0c-be48-503799bf91b3.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/091ff57b-1664-4954-a7a1-f609581f427d.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/c869a733-cb9e-485b-9507-655e33c69f63.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/f917b89e-f525-4eb6-8e83-c71fc7666df0.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5c53c7d3-bc2c-4ba4-a487-8e0542cfc6df.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/b0bea7ca-d053-4856-8a7f-3994470c08eb.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/4c7ee162-4dc4-4d10-96a4-64ac2a587497.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/d04387e8-8f08-4111-bf5c-1edd5e88a02e.png",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-13T06:53:47.821642+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4793",

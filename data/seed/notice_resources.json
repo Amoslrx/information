@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 51,
+  "count": 59,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -5861,7 +5861,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-12T07:21:20.467964+00:00",
+      "fetchedAt": "2026-11-13T06:54:38.634942+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -5913,7 +5913,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-12T07:21:25.832702+00:00",
+      "fetchedAt": "2026-11-13T06:54:41.874494+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -10613,6 +10613,574 @@
         "mime": "image/jpeg",
         "format": "image",
         "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/609faf5c-7a11-4eed-a9c6-c6b6698e6acc.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c20ac29f145b9af617912df37045742f5e630de8dd2df8b252214d74150957e2",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/ec071a6b-1ed2-4f0c-be48-503799bf91b3.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:01.024249+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/f01f810b119d3b0a2489460fe584652f97e2ab87a1e43909ae6122f1fc075cbb/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 760,
+            "height": 506
+          },
+          "qr": [],
+          "previewUrl": "media/300f43b963b479b51d670e069491bcb21eae3cfb740e7114fec2cce9a642e834.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/f01f810b119d3b0a2489460fe584652f97e2ab87a1e43909ae6122f1fc075cbb.img",
+        "sha256": "f01f810b119d3b0a2489460fe584652f97e2ab87a1e43909ae6122f1fc075cbb",
+        "bytes": 499046,
+        "filename": "ec071a6b-1ed2-4f0c-be48-503799bf91b3.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/ec071a6b-1ed2-4f0c-be48-503799bf91b3.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "849bca37bb6f379efe4a8663e6d12ef2cf93cbd8fd26c5dce087e4a5dc7dd84a",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/091ff57b-1664-4954-a7a1-f609581f427d.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:05.659187+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/80eb69999190764c1ee88dcee835819205b96aaabc7c57f100a20fd84301afa1/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 664,
+            "height": 442
+          },
+          "qr": [],
+          "previewUrl": "media/34ecd1bb00674a7cf911acb1a7dacff64956216c5872d863293b5577bc07d93a.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/80eb69999190764c1ee88dcee835819205b96aaabc7c57f100a20fd84301afa1.img",
+        "sha256": "80eb69999190764c1ee88dcee835819205b96aaabc7c57f100a20fd84301afa1",
+        "bytes": 335333,
+        "filename": "091ff57b-1664-4954-a7a1-f609581f427d.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/091ff57b-1664-4954-a7a1-f609581f427d.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "b57eacee15298b4feb4f7239dc18f4a3c28d2fe6affcefb73ae0063c7bc6cb08",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/c869a733-cb9e-485b-9507-655e33c69f63.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:09.795597+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "T=\n1M.\n中",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/daadbf67012b639cae36f83f1a5354c7f13b77e35a080e929e1a97d263dba7bf/image.jpg",
+          "textHash": "25666ff606877bf96661c4e9b3b55fbde27232c45c8fc63c12d64cb0a1cc838e",
+          "previewUrl": "media/96db34f03d44b7c2eaf2cd2d13bbfdeb2f02e8c9f85d5b96d3e6bd4c48fbb256.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/daadbf67012b639cae36f83f1a5354c7f13b77e35a080e929e1a97d263dba7bf/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "T=",
+                "words": [
+                  {
+                    "text": "T=",
+                    "confidence": 0.26787609,
+                    "bbox": [
+                      150,
+                      157,
+                      44,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.26787609
+              },
+              {
+                "text": "1M.",
+                "words": [
+                  {
+                    "text": "1M.",
+                    "confidence": 0.40621902,
+                    "bbox": [
+                      155,
+                      183,
+                      26,
+                      7
+                    ]
+                  }
+                ],
+                "confidence": 0.40621902
+              },
+              {
+                "text": "中",
+                "words": [
+                  {
+                    "text": "中",
+                    "confidence": 0.94177383,
+                    "bbox": [
+                      531,
+                      230,
+                      11,
+                      18
+                    ]
+                  }
+                ],
+                "confidence": 0.94177383
+              }
+            ],
+            "text": "T=\n1M.\n中",
+            "normalization": "join_cjk_word_spaces",
+            "width": 618,
+            "height": 412
+          },
+          "qr": [],
+          "previewUrl": "media/96db34f03d44b7c2eaf2cd2d13bbfdeb2f02e8c9f85d5b96d3e6bd4c48fbb256.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/daadbf67012b639cae36f83f1a5354c7f13b77e35a080e929e1a97d263dba7bf.img",
+        "sha256": "daadbf67012b639cae36f83f1a5354c7f13b77e35a080e929e1a97d263dba7bf",
+        "bytes": 267166,
+        "filename": "c869a733-cb9e-485b-9507-655e33c69f63.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/c869a733-cb9e-485b-9507-655e33c69f63.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "e6a890f3e6129613022e6aaeb6b4e57f9a5c4c57c50d16a2467de3fd90f76332",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/f917b89e-f525-4eb6-8e83-c71fc7666df0.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:12.417695+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/774ba14f2fef78da203cf3abe6a3cdf2312886ecb47319b9da2732add9b64e04/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 659,
+            "height": 439
+          },
+          "qr": [],
+          "previewUrl": "media/3702e87068cdba2e699e0858f233feb4c608584466c32e6144d81d55c42145fb.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/774ba14f2fef78da203cf3abe6a3cdf2312886ecb47319b9da2732add9b64e04.img",
+        "sha256": "774ba14f2fef78da203cf3abe6a3cdf2312886ecb47319b9da2732add9b64e04",
+        "bytes": 313394,
+        "filename": "f917b89e-f525-4eb6-8e83-c71fc7666df0.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/f917b89e-f525-4eb6-8e83-c71fc7666df0.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "20dec9f23a87ed24287df9d1fa75a6bf334c82fcfa3fed61bff262b4ec2a2b25",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5c53c7d3-bc2c-4ba4-a487-8e0542cfc6df.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:15.296186+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/5ce0f57c828a2efec3bfca18c5f584eae20c0f2dd9837c9c07ea34b7a89c7173/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 617,
+            "height": 828
+          },
+          "qr": [],
+          "previewUrl": "media/f3b12eed7d2dec2ceb19a9b6591b121c9c54e83070a00758a0a88b07b40a985f.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/5ce0f57c828a2efec3bfca18c5f584eae20c0f2dd9837c9c07ea34b7a89c7173.img",
+        "sha256": "5ce0f57c828a2efec3bfca18c5f584eae20c0f2dd9837c9c07ea34b7a89c7173",
+        "bytes": 2047704,
+        "filename": "5c53c7d3-bc2c-4ba4-a487-8e0542cfc6df.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/5c53c7d3-bc2c-4ba4-a487-8e0542cfc6df.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "ffe3d4c0ea33e3150b2a24de5cd263a2a4228fab27a37f3707e8b8a3917559eb",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/b0bea7ca-d053-4856-8a7f-3994470c08eb.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:23.675606+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/0da5b6a1bf9aabbe0379f3cc7e22b57eebff9927838a4cf136d292bd9948d383/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 700,
+            "height": 942
+          },
+          "qr": [],
+          "previewUrl": "media/f7afd48ccd05ae05b579b3b4c9a2067160aa5e024484e5fc4c840672eb8122f4.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/0da5b6a1bf9aabbe0379f3cc7e22b57eebff9927838a4cf136d292bd9948d383.img",
+        "sha256": "0da5b6a1bf9aabbe0379f3cc7e22b57eebff9927838a4cf136d292bd9948d383",
+        "bytes": 938687,
+        "filename": "b0bea7ca-d053-4856-8a7f-3994470c08eb.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/b0bea7ca-d053-4856-8a7f-3994470c08eb.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "0025122675036ea30168e3235b6fa37ee87b952599d42587f9df09746db5c9b7",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/4c7ee162-4dc4-4d10-96a4-64ac2a587497.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:27.632485+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/957e184d3a2dbe5a150ff7a731b2864482ed181c6b350e4e9aa2d55fc6c1aed7/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 654,
+            "height": 868
+          },
+          "qr": [],
+          "previewUrl": "media/4117da1b727d12668f0c60762adef238d08941d8b8f47b17671f7543d8cb6624.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/957e184d3a2dbe5a150ff7a731b2864482ed181c6b350e4e9aa2d55fc6c1aed7.img",
+        "sha256": "957e184d3a2dbe5a150ff7a731b2864482ed181c6b350e4e9aa2d55fc6c1aed7",
+        "bytes": 2275299,
+        "filename": "4c7ee162-4dc4-4d10-96a4-64ac2a587497.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/4c7ee162-4dc4-4d10-96a4-64ac2a587497.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c17dc02df00c0a60f4812a1aa20964d5a5880b871ea1ca4be4fff98716db8cda",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261112/d04387e8-8f08-4111-bf5c-1edd5e88a02e.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "a63014c629355e4d7526f69b0d0c5a511728990af53294362b708cd2ecfa2197",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-13T06:54:34.835997+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "站\niH\n一\na\n1]",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/958ce4687e601570877df6fabf5660fdef7f8776d421169ee5b5f1e642caf004/image.jpg",
+          "textHash": "fbb1c3370d4cb2a59a5cce05e7c35b92ddfb3bef0fbae4b4490a088daa8f7094",
+          "previewUrl": "media/73cca5e690acad972079d0a003f3243020db11eea7596b28df8997db66c00afc.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/958ce4687e601570877df6fabf5660fdef7f8776d421169ee5b5f1e642caf004/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "站",
+                "words": [
+                  {
+                    "text": "站",
+                    "confidence": 0.0,
+                    "bbox": [
+                      532,
+                      0,
+                      7,
+                      16
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "iH",
+                "words": [
+                  {
+                    "text": "iH",
+                    "confidence": 0.16166,
+                    "bbox": [
+                      532,
+                      21,
+                      11,
+                      10
+                    ]
+                  }
+                ],
+                "confidence": 0.16166
+              },
+              {
+                "text": "一",
+                "words": [
+                  {
+                    "text": "一",
+                    "confidence": 0.09956999,
+                    "bbox": [
+                      518,
+                      0,
+                      10,
+                      112
+                    ]
+                  }
+                ],
+                "confidence": 0.09956999
+              },
+              {
+                "text": "a",
+                "words": [
+                  {
+                    "text": "a",
+                    "confidence": 0.54695301,
+                    "bbox": [
+                      645,
+                      147,
+                      11,
+                      7
+                    ]
+                  }
+                ],
+                "confidence": 0.54695301
+              },
+              {
+                "text": "1]",
+                "words": [
+                  {
+                    "text": "1]",
+                    "confidence": 0.22487831,
+                    "bbox": [
+                      660,
+                      145,
+                      8,
+                      5
+                    ]
+                  }
+                ],
+                "confidence": 0.22487831
+              }
+            ],
+            "text": "站\niH\n一\na\n1]",
+            "normalization": "join_cjk_word_spaces",
+            "width": 711,
+            "height": 474
+          },
+          "qr": [],
+          "previewUrl": "media/73cca5e690acad972079d0a003f3243020db11eea7596b28df8997db66c00afc.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/958ce4687e601570877df6fabf5660fdef7f8776d421169ee5b5f1e642caf004.img",
+        "sha256": "958ce4687e601570877df6fabf5660fdef7f8776d421169ee5b5f1e642caf004",
+        "bytes": 380282,
+        "filename": "d04387e8-8f08-4111-bf5c-1edd5e88a02e.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/d04387e8-8f08-4111-bf5c-1edd5e88a02e.png"
       },
       "pageCount": null,
       "truncated": false,
