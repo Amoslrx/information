@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1271,
+  "count": 1273,
   "with_deadline": 178,
   "items": [
     {
@@ -58393,6 +58393,150 @@
       "timeline": [],
       "bodyLen": 439,
       "snippet": "1.能动学院拟录取研究生 “人事档案”邮寄到西安交通大学能源与动力工程学院（兴庆校区），邮寄地址：陕西省西安市碑林区咸宁西路28号 西安交通大学 能动学院研究生办公室（兴庆校区北二楼1303） 张丽娜老师 收 邮编：710049 。【咨询电话82668710，邮寄仅接受EMS、顺丰或机要】 2.本校考生无需调档 3.党员组织关系接转 (1) 本省转接：通过陕西省党建信息化平台进行转接，接入党组织为“中共西安交通大学能动学院2026级研究生新生临时支部委员会”。（开启转接时间另行通知） (2) 省外转接：采用全国党员信息平台或纸质党员组织关系介绍信两种方式，a.通过全国党员信息平台转接转入党组织为“中共西安交通大学能动学院委员会”；b.通过党员组织关系介绍信转接，介绍信抬头为“中共西安交通大学委员会，去向：中共西安交通大学能动学院委员会。 4.新生团员组织关系接转 请见：https://mp.weixin.qq.com/s/L9HqZehugRp8XDwTKoEpNg"
+    },
+    {
+      "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "title": "2026年能动学院拟录取博士研究生工作通知",
+      "noticeDate": "2026-06-10",
+      "contentHash": "77c034cce5d5a0fbba428953ec95fa2d156c1c701abf238ad4dd7b92f7f31fc2",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-06-30",
+          "raw": "2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 204,
+            "end": 241
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "6月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-30",
+          "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 242,
+            "end": 288
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "6月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-30",
+          "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 242,
+            "end": 288
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "6月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-30",
+          "raw": "5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 402,
+            "end": 513
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "6月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-01",
+          "raw": "（2026年6月1日之后开启转接）",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 592,
+            "end": 609
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年6月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-06-10",
+          "raw": "2026-6-10",
+          "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+          "location": {
+            "type": "body",
+            "start": 982,
+            "end": 991
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026-6-10",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 991,
+      "snippet": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。 2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。 3 本校考生及档案在本校的考生无需调档。 4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。"
     },
     {
       "url": "https://epe.xjtu.edu.cn/info/1483/5727.htm",
@@ -143372,6 +143516,44 @@
       "timeline": [],
       "bodyLen": 1879,
       "snippet": "为进一步夯实思想文化类社团建设，提升社团骨干履职能力，推动学生社团思想引领工作走深走实，近日，校团委学生社团指导中心在党员之家举办了2026-2027学年“青衿”骨干培训项目第二期暨思想文化类社团工作专题座谈会。西安交通大学党委副书记王欢出席座谈会，与党委学工部、校团委主要负责同志和相关工作人员展开座谈交流。 严规强阵地，笃行谋新篇 崔东森立足《高校学生社团建设管理办法》，回顾2025-2026学年社团中心工作。社团中心统筹158个学生社团，强化社团功能型团支部建设，落实注册年审制度，优化考评细则推动社团建设规范化、制度化运行。社团中心始终加强阵地建设，统筹社团场地，扎实做好巡查运维；通过活动监察、报备审核、宣传物审批、网络督察，实现线上线下全流程监督。在品牌建设与育人成效方面，社团中心着力打造社团博览会、“一站式”学生社区学生社团“激活计划”等品牌项目，充分发挥社团在思想政治引领和校园文化建设中的积极作用。 未来，社团中心将进一步从严网络监管、完善宣传阵地、深化各方联动，推动社团高质量发展，为学校立德树人和校园文化繁荣贡献力量。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+      "noticeDate": "2026-11-13",
+      "contentHash": "e7442f5f7a0628fdfbeff256ebd0469994259279de08b2b2adf0f04975a09392",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-11",
+          "raw": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 117
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月11日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1319,
+      "snippet": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。 王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=48",

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1271,
+  "count": 1273,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -301,6 +301,179 @@
       }
     },
     {
+      "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "title": "2026年能动学院拟录取博士研究生工作通知",
+      "date": "2026-06-10",
+      "contentHash": "77c034cce5d5a0fbba428953ec95fa2d156c1c701abf238ad4dd7b92f7f31fc2",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "77c034cce5d5a0fbba428953ec95fa2d156c1c701abf238ad4dd7b92f7f31fc2",
+        "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "http://yzbm.xjtu.edu.cn/",
+            "raw": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 203
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-06-30",
+            "raw": "2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 204,
+              "end": 241
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "6月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-06-30",
+            "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 242,
+              "end": 288
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "6月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-06-30",
+            "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 242,
+              "end": 288
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "6月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-06-30",
+            "raw": "5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 402,
+              "end": 513
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "6月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-06-01",
+            "raw": "（2026年6月1日之后开启转接）",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 592,
+              "end": 609
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年6月1日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-06-10",
+            "raw": "2026-6-10",
+            "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+            "location": {
+              "type": "body",
+              "start": 982,
+              "end": 991
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026-6-10",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
       "url": "https://www.robocon.org.cn/sys-nd/132.html",
       "title": "2027年足式机器人挑战赛-V1.0",
       "date": "2026-10-08",
@@ -427,6 +600,116 @@
         "registrationLinks": [],
         "requiredMaterials": [],
         "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+      "date": "2026-11-13",
+      "contentHash": "e7442f5f7a0628fdfbeff256ebd0469994259279de08b2b2adf0f04975a09392",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "e7442f5f7a0628fdfbeff256ebd0469994259279de08b2b2adf0f04975a09392",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+        "competitionNames": [],
+        "editions": [
+          {
+            "value": "第38届",
+            "raw": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 37
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "第37届",
+            "raw": "颁奖典礼上对第37届“腾飞杯”大赛中的获奖单位进行了表彰。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+            "location": {
+              "type": "body",
+              "start": 517,
+              "end": 546
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "第十五届",
+            "raw": "团委实践部部长边志坚介绍了“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+            "location": {
+              "type": "body",
+              "start": 796,
+              "end": 899
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "audiences": [
+          {
+            "value": "讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。",
+            "raw": "讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+            "location": {
+              "type": "body",
+              "start": 899,
+              "end": 1066
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-11",
+            "raw": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 117
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月11日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
         "contacts": [],
         "groups": [],
         "model": {

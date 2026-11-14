@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 59,
+  "count": 69,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -11181,6 +11181,1098 @@
         "mime": "image/png",
         "format": "image",
         "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261112/d04387e8-8f08-4111-bf5c-1edd5e88a02e.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "3e58b107285b842e0c6320956560606edb482fe6de3e48cc027c1dd03b1f651d",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:39.890432+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/3303e72069b0a1b8da90154fc98fb6a3fed3bafcc20f3ea42764f0bcd30c3cc6/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/7c2e6e7aab6e2b877cbe683e3e3dfbc885e57dba0dcccf7f9c0b1d99d5a45865.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/3303e72069b0a1b8da90154fc98fb6a3fed3bafcc20f3ea42764f0bcd30c3cc6.img",
+        "sha256": "3303e72069b0a1b8da90154fc98fb6a3fed3bafcc20f3ea42764f0bcd30c3cc6",
+        "bytes": 225612,
+        "filename": "f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "ce4615fa3360105688b8f07fa181626ff88af1caca14973c0acd1ca789021689",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:43.424171+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/dfb7f3e4b587a7fab9921a98e17c4f6072e5f7a4e729f5e12ab2ae95f5ebb7b3/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/218d6e5e1d43bec7db368c43755d14603ec7cff5bfa2dceaf5631c0e2ebdb7d2.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/dfb7f3e4b587a7fab9921a98e17c4f6072e5f7a4e729f5e12ab2ae95f5ebb7b3.img",
+        "sha256": "dfb7f3e4b587a7fab9921a98e17c4f6072e5f7a4e729f5e12ab2ae95f5ebb7b3",
+        "bytes": 244504,
+        "filename": "98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "d2c3a443c8bd0ee64501a4453bce112675b0e10edee530d03fbe4677216f3423",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:47.031934+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/936f17916110be2dff7a617e1809e44b002c82a910517328ed0088c256c316f9/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/a9bed2e8f326720e7938a7aacbe170b9182b0091061e93638eb2e29935296e75.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/936f17916110be2dff7a617e1809e44b002c82a910517328ed0088c256c316f9.img",
+        "sha256": "936f17916110be2dff7a617e1809e44b002c82a910517328ed0088c256c316f9",
+        "bytes": 322850,
+        "filename": "86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "4b2567297089ed715f3c56abef602c75653130cf462e82c5283594742f508456",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:51.351227+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/15baea5336226d7383d1c13617c1486f025fab9d6ccc6da9b13c5b482e37a578/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/3f4073f88910f11d955d6567836acb0f3ef73fbdf664673e1ce2e04a0e6ba630.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/15baea5336226d7383d1c13617c1486f025fab9d6ccc6da9b13c5b482e37a578.img",
+        "sha256": "15baea5336226d7383d1c13617c1486f025fab9d6ccc6da9b13c5b482e37a578",
+        "bytes": 305917,
+        "filename": "84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "813b448959dd962d6a99bb721676516e7d4eee0e529081674e1065d2d5617fd4",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:55.155622+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "qe\nJak f = 各 se —_\n=\nANY \\\n{pays\n加 (a= 二",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/a040a261607b356444afaaa18a8dc34173ddf9bf7750463f28a89292916036e3/image.jpg",
+          "textHash": "ccc96a93c2d128ca1db81b2b9438fb3448cf4f8227a72bc655e21399394b3580",
+          "previewUrl": "media/04fc52352bd9f8e3b5d44d8107660048a943a9dd9d7b81ccea7d5086edf9f8f2.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/a040a261607b356444afaaa18a8dc34173ddf9bf7750463f28a89292916036e3/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "qe",
+                "words": [
+                  {
+                    "text": "qe",
+                    "confidence": 0.49661583,
+                    "bbox": [
+                      1483,
+                      229,
+                      111,
+                      27
+                    ]
+                  }
+                ],
+                "confidence": 0.49661583
+              },
+              {
+                "text": "Jak f = 各 se —_",
+                "words": [
+                  {
+                    "text": "Jak",
+                    "confidence": 0.17680664000000001,
+                    "bbox": [
+                      214,
+                      312,
+                      3,
+                      1
+                    ]
+                  },
+                  {
+                    "text": "f",
+                    "confidence": 0.0,
+                    "bbox": [
+                      261,
+                      294,
+                      6,
+                      20
+                    ]
+                  },
+                  {
+                    "text": "=",
+                    "confidence": 0.59698811,
+                    "bbox": [
+                      345,
+                      308,
+                      29,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "各",
+                    "confidence": 0.13643789,
+                    "bbox": [
+                      406,
+                      329,
+                      37,
+                      14
+                    ]
+                  },
+                  {
+                    "text": "se",
+                    "confidence": 0.11802053000000001,
+                    "bbox": [
+                      464,
+                      301,
+                      33,
+                      37
+                    ]
+                  },
+                  {
+                    "text": "—_",
+                    "confidence": 0.30485258000000004,
+                    "bbox": [
+                      522,
+                      286,
+                      69,
+                      58
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "=",
+                "words": [
+                  {
+                    "text": "=",
+                    "confidence": 0.4881353,
+                    "bbox": [
+                      1354,
+                      298,
+                      63,
+                      25
+                    ]
+                  }
+                ],
+                "confidence": 0.4881353
+              },
+              {
+                "text": "ANY \\",
+                "words": [
+                  {
+                    "text": "ANY",
+                    "confidence": 0.47343822,
+                    "bbox": [
+                      1247,
+                      264,
+                      56,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "\\",
+                    "confidence": 0.8075535600000001,
+                    "bbox": [
+                      1323,
+                      278,
+                      5,
+                      17
+                    ]
+                  }
+                ],
+                "confidence": 0.47343822
+              },
+              {
+                "text": "{pays",
+                "words": [
+                  {
+                    "text": "{pays",
+                    "confidence": 0.6263084400000001,
+                    "bbox": [
+                      792,
+                      284,
+                      76,
+                      20
+                    ]
+                  }
+                ],
+                "confidence": 0.6263084400000001
+              },
+              {
+                "text": "加 (a= 二",
+                "words": [
+                  {
+                    "text": "加",
+                    "confidence": 0.0,
+                    "bbox": [
+                      637,
+                      318,
+                      91,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "(a=",
+                    "confidence": 0.30587034,
+                    "bbox": [
+                      736,
+                      297,
+                      85,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "二",
+                    "confidence": 0.0,
+                    "bbox": [
+                      836,
+                      328,
+                      30,
+                      15
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              }
+            ],
+            "text": "qe\nJak f = 各 se —_\n=\nANY \\\n{pays\n加 (a= 二",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/04fc52352bd9f8e3b5d44d8107660048a943a9dd9d7b81ccea7d5086edf9f8f2.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/a040a261607b356444afaaa18a8dc34173ddf9bf7750463f28a89292916036e3.img",
+        "sha256": "a040a261607b356444afaaa18a8dc34173ddf9bf7750463f28a89292916036e3",
+        "bytes": 308626,
+        "filename": "6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "2ca4ad7481fd46d3002b46da59a2c9329dc92d9a9409f1b1877bcf45c238864d",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:33:59.762129+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "=",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/da670d8b2ce96fa741157ee2795e21c976ea488c44d19d6dc83a72a36a2ef609/image.jpg",
+          "textHash": "380918b946a526640a40df5dced6516794f3d97bbd9e6bb553d037c4439f31c3",
+          "previewUrl": "media/53b9184f0ad44bc402664fb95f91641a4ad9fc760b83c01d6bb83d4789772b22.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/da670d8b2ce96fa741157ee2795e21c976ea488c44d19d6dc83a72a36a2ef609/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "=",
+                "words": [
+                  {
+                    "text": "=",
+                    "confidence": 0.94846474,
+                    "bbox": [
+                      0,
+                      831,
+                      17,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": 0.94846474
+              }
+            ],
+            "text": "=",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/53b9184f0ad44bc402664fb95f91641a4ad9fc760b83c01d6bb83d4789772b22.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/da670d8b2ce96fa741157ee2795e21c976ea488c44d19d6dc83a72a36a2ef609.img",
+        "sha256": "da670d8b2ce96fa741157ee2795e21c976ea488c44d19d6dc83a72a36a2ef609",
+        "bytes": 260966,
+        "filename": "9c797bdd-43d0-4c68-9c15-078576d3c264.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "bcf9838f57e5135fe977f03036df6f02fed0259403d0c07cc1638c899859b2cb",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:34:03.261925+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/31ca14f366069fc6cefa5013bd12c7f4790891562d7a2a14498b05d21cb248c0/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2560,
+            "height": 1696
+          },
+          "qr": [],
+          "previewUrl": "media/a0d7106268fb20e6e48377922790201c577ff9664a4dfb6fcad33b877f5b9270.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/31ca14f366069fc6cefa5013bd12c7f4790891562d7a2a14498b05d21cb248c0.img",
+        "sha256": "31ca14f366069fc6cefa5013bd12c7f4790891562d7a2a14498b05d21cb248c0",
+        "bytes": 1864665,
+        "filename": "631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "6e074d52d288c0e5634dda03585e0d58da899ac984c2bdfedc6985a71733f985",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:34:08.552501+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/bd7566962115ca318beed76431e27a0243b7ed22dfe4fc9a7b4f4328157e92fc/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/8990803acf5124dbcd2c67ca7c0289a07ada5789838cbd7ff0733767929233b0.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/bd7566962115ca318beed76431e27a0243b7ed22dfe4fc9a7b4f4328157e92fc.img",
+        "sha256": "bd7566962115ca318beed76431e27a0243b7ed22dfe4fc9a7b4f4328157e92fc",
+        "bytes": 126451,
+        "filename": "b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a0a85c8a68363515232a104ded1ebb338e633ad8dd3289f0a117c1ca6ae04cb6",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:34:11.646484+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "技术拐点 _\nSRA\n但 [2RAIAAI 正在淘汰 【不会用 Al 的人 】 .",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/8b37394609f587586238fa7d7840bbc513489028cfeea52174aad7aec667a2a6/image.jpg",
+          "textHash": "d49cbcd39e64bd322176fc2d0a40d19e73848fb5d586a4769a0db6c33b00fc5f",
+          "previewUrl": "media/593bab272e737fa19e757fcfd6d31567d159fa8d8fbf8556a375d7a935afcdc3.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/8b37394609f587586238fa7d7840bbc513489028cfeea52174aad7aec667a2a6/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "技术 拐点 _",
+                "words": [
+                  {
+                    "text": "技术",
+                    "confidence": 0.96347031,
+                    "bbox": [
+                      1003,
+                      442,
+                      83,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "拐点",
+                    "confidence": 0.01281786,
+                    "bbox": [
+                      1089,
+                      448,
+                      53,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "_",
+                    "confidence": 0.23382915,
+                    "bbox": [
+                      1500,
+                      474,
+                      56,
+                      22
+                    ]
+                  }
+                ],
+                "confidence": 0.01281786
+              },
+              {
+                "text": "SRA",
+                "words": [
+                  {
+                    "text": "SRA",
+                    "confidence": 0.1288311,
+                    "bbox": [
+                      1557,
+                      477,
+                      43,
+                      22
+                    ]
+                  }
+                ],
+                "confidence": 0.1288311
+              },
+              {
+                "text": "但 [2RAIAAI 正在 淘汰 【不 会 用 Al 的 人 】 .",
+                "words": [
+                  {
+                    "text": "但",
+                    "confidence": 0.9093689,
+                    "bbox": [
+                      1004,
+                      719,
+                      27,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "[2RAIAAI",
+                    "confidence": 0.010048099999999999,
+                    "bbox": [
+                      1056,
+                      717,
+                      186,
+                      20
+                    ]
+                  },
+                  {
+                    "text": "正在",
+                    "confidence": 0.9295718399999999,
+                    "bbox": [
+                      1264,
+                      717,
+                      45,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "淘汰",
+                    "confidence": 0.93250946,
+                    "bbox": [
+                      1319,
+                      717,
+                      50,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "【不",
+                    "confidence": 0.0085268,
+                    "bbox": [
+                      1388,
+                      716,
+                      26,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "会",
+                    "confidence": 0.96279991,
+                    "bbox": [
+                      1426,
+                      716,
+                      47,
+                      19
+                    ]
+                  },
+                  {
+                    "text": "用",
+                    "confidence": 0.9653544599999999,
+                    "bbox": [
+                      1463,
+                      712,
+                      16,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "Al",
+                    "confidence": 0.9599538400000001,
+                    "bbox": [
+                      1485,
+                      717,
+                      21,
+                      15
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96498627,
+                    "bbox": [
+                      1518,
+                      717,
+                      57,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "人",
+                    "confidence": 0.8768541000000001,
+                    "bbox": [
+                      1554,
+                      712,
+                      14,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "】",
+                    "confidence": 0.31643962999999997,
+                    "bbox": [
+                      1567,
+                      712,
+                      9,
+                      34
+                    ]
+                  },
+                  {
+                    "text": ".",
+                    "confidence": 0.69572495,
+                    "bbox": [
+                      1595,
+                      730,
+                      5,
+                      5
+                    ]
+                  }
+                ],
+                "confidence": 0.0085268
+              }
+            ],
+            "text": "技术拐点 _\nSRA\n但 [2RAIAAI 正在淘汰 【不会用 Al 的人 】 .",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/593bab272e737fa19e757fcfd6d31567d159fa8d8fbf8556a375d7a935afcdc3.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/8b37394609f587586238fa7d7840bbc513489028cfeea52174aad7aec667a2a6.img",
+        "sha256": "8b37394609f587586238fa7d7840bbc513489028cfeea52174aad7aec667a2a6",
+        "bytes": 131608,
+        "filename": "b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "936025ff92ec5ee0a01ae21b3daef721d148a2a126eba2e84e3485e0cd6ee04f",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-14T06:34:15.073422+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "OS RS\n进展\n在、 a 大模型 Agent 技术进\n》 过",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/2405a9925c73d103071c2ffe67b68cb09833055f21d15f70de3df2ebb79929fb/image.jpg",
+          "textHash": "cadaca9b5c71adffc69aa8c914a282a103109a437fa9311bd867031563abe228",
+          "previewUrl": "media/9c4aa23a230279900edf664f23911b794420ffc75e56cac002ba34e9d05a91d9.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/2405a9925c73d103071c2ffe67b68cb09833055f21d15f70de3df2ebb79929fb/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "OS RS",
+                "words": [
+                  {
+                    "text": "OS",
+                    "confidence": 0.7611301400000001,
+                    "bbox": [
+                      251,
+                      66,
+                      69,
+                      33
+                    ]
+                  },
+                  {
+                    "text": "RS",
+                    "confidence": 0.22348375,
+                    "bbox": [
+                      337,
+                      75,
+                      125,
+                      42
+                    ]
+                  }
+                ],
+                "confidence": 0.22348375
+              },
+              {
+                "text": "进展",
+                "words": [
+                  {
+                    "text": "进展",
+                    "confidence": 0.95402184,
+                    "bbox": [
+                      1352,
+                      416,
+                      102,
+                      41
+                    ]
+                  }
+                ],
+                "confidence": 0.95402184
+              },
+              {
+                "text": "在、 a 大 模型 Agent 技 术 进",
+                "words": [
+                  {
+                    "text": "在、",
+                    "confidence": 0.39631149,
+                    "bbox": [
+                      479,
+                      380,
+                      92,
+                      64
+                    ]
+                  },
+                  {
+                    "text": "a",
+                    "confidence": 0.14948244,
+                    "bbox": [
+                      687,
+                      356,
+                      148,
+                      73
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.9625766,
+                    "bbox": [
+                      874,
+                      381,
+                      84,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "模型",
+                    "confidence": 0.96526131,
+                    "bbox": [
+                      958,
+                      391,
+                      137,
+                      40
+                    ]
+                  },
+                  {
+                    "text": "Agent",
+                    "confidence": 0.92919441,
+                    "bbox": [
+                      1094,
+                      377,
+                      164,
+                      78
+                    ]
+                  },
+                  {
+                    "text": "技",
+                    "confidence": 0.90791,
+                    "bbox": [
+                      1260,
+                      409,
+                      33,
+                      38
+                    ]
+                  },
+                  {
+                    "text": "术",
+                    "confidence": 0.93108192,
+                    "bbox": [
+                      1318,
+                      412,
+                      29,
+                      38
+                    ]
+                  },
+                  {
+                    "text": "进",
+                    "confidence": 0.92928642,
+                    "bbox": [
+                      1366,
+                      416,
+                      35,
+                      32
+                    ]
+                  }
+                ],
+                "confidence": 0.14948244
+              },
+              {
+                "text": "》 过",
+                "words": [
+                  {
+                    "text": "》",
+                    "confidence": 0.73935883,
+                    "bbox": [
+                      483,
+                      443,
+                      1,
+                      3
+                    ]
+                  },
+                  {
+                    "text": "过",
+                    "confidence": 0.26246944,
+                    "bbox": [
+                      518,
+                      422,
+                      44,
+                      21
+                    ]
+                  }
+                ],
+                "confidence": 0.26246944
+              }
+            ],
+            "text": "OS RS\n进展\n在、 a 大模型 Agent 技术进\n》 过",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1600,
+            "height": 1066
+          },
+          "qr": [],
+          "previewUrl": "media/9c4aa23a230279900edf664f23911b794420ffc75e56cac002ba34e9d05a91d9.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/2405a9925c73d103071c2ffe67b68cb09833055f21d15f70de3df2ebb79929fb.img",
+        "sha256": "2405a9925c73d103071c2ffe67b68cb09833055f21d15f70de3df2ebb79929fb",
+        "bytes": 117561,
+        "filename": "53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg"
       },
       "pageCount": null,
       "truncated": false,

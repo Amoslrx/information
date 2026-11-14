@@ -1,20 +1,20 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-13 14:57
+// 生成时间: 2026-11-14 14:36
 window.SITE_DATA = {
- "generatedAt": "2026-11-13 14:57",
+ "generatedAt": "2026-11-14 14:36",
  "stats": {
   "competitions": 94,
-  "notices": 2408,
+  "notices": 2410,
   "noticesMatched": 535,
-  "noticesCompetition": 881,
+  "noticesCompetition": 882,
   "noticesCampus": 146,
   "noticesWithDeadline": 178,
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-13",
+  "today": "2026-11-14",
   "noticeFrom": "2003-12-19",
-  "noticeTo": "2026-11-12",
+  "noticeTo": "2026-11-13",
   "eeDist": {
    "5": 10,
    "4": 10,
@@ -30,17 +30,17 @@ window.SITE_DATA = {
    "C类": 8
   },
   "noticeCat": {
-   "其他": 867,
+   "学科竞赛": 808,
+   "其他": 868,
    "等级考试": 64,
-   "学科竞赛": 807,
    "社会实践": 207,
    "教学信息": 295,
    "文体竞赛": 63,
    "思政学习": 105
   },
   "noticeGroup": {
-   "其他": 867,
-   "学科竞赛": 871,
+   "学科竞赛": 872,
+   "其他": 868,
    "社会实践": 207,
    "教学信息": 295,
    "文体竞赛": 63,
@@ -50,9 +50,9 @@ window.SITE_DATA = {
   "xjtuKnown": 27,
   "crawledPages": 106,
   "bySite": {
-   "校团委": 1035,
+   "校团委": 1036,
    "教务处": 523,
-   "能动学院": 68,
+   "能动学院": 69,
    "电气学院": 226,
    "实践教学中心": 401,
    "RoboMaster官网": 26,
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 17,
+    "total": 18,
     "byStatus": {
-     "success": 1,
+     "success": 2,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:50.060986+00:00",
+        "fetchedAt": "2026-11-14T06:33:28.633710+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:50.060986+00:00",
+      "fetchedAt": "2026-11-14T06:33:28.633710+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
+        "fetchedAt": "2026-11-14T06:33:25.373197+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:47.823775+00:00",
+        "fetchedAt": "2026-11-14T06:33:25.373708+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:47.824387+00:00",
+        "fetchedAt": "2026-11-14T06:33:25.374249+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:49.144368+00:00",
+        "fetchedAt": "2026-11-14T06:33:27.031430+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
+      "fetchedAt": "2026-11-14T06:33:25.373197+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:47.823775+00:00",
+      "fetchedAt": "2026-11-14T06:33:25.373708+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:47.824387+00:00",
+      "fetchedAt": "2026-11-14T06:33:25.374249+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:49.144368+00:00",
+      "fetchedAt": "2026-11-14T06:33:27.031430+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
+    "fetchedAt": "2026-11-14T06:33:25.373197+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:55.262674+00:00",
+        "fetchedAt": "2026-11-14T06:33:33.239816+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:55.262674+00:00",
+      "fetchedAt": "2026-11-14T06:33:33.239816+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:49.146672+00:00",
+        "fetchedAt": "2026-11-14T06:33:27.047196+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:49.146672+00:00",
+      "fetchedAt": "2026-11-14T06:33:27.047196+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:51.468453+00:00",
+        "fetchedAt": "2026-11-14T06:33:29.030534+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:53.505366+00:00",
+        "fetchedAt": "2026-11-14T06:33:31.056873+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:53.520171+00:00",
+        "fetchedAt": "2026-11-14T06:33:32.368252+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:50.474222+00:00",
+        "fetchedAt": "2026-11-14T06:33:28.840479+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:51.487537+00:00",
+        "fetchedAt": "2026-11-14T06:33:30.148021+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-13T06:53:52.254063+00:00",
+        "fetchedAt": "2026-11-14T06:33:30.994950+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:50.474222+00:00",
+      "fetchedAt": "2026-11-14T06:33:28.840479+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:51.468453+00:00",
+      "fetchedAt": "2026-11-14T06:33:29.030534+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:51.487537+00:00",
+      "fetchedAt": "2026-11-14T06:33:30.148021+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:52.254063+00:00",
+      "fetchedAt": "2026-11-14T06:33:30.994950+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:53.505366+00:00",
+      "fetchedAt": "2026-11-14T06:33:31.056873+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-13T06:53:53.520171+00:00",
+      "fetchedAt": "2026-11-14T06:33:32.368252+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -239617,6 +239617,564 @@ window.SITE_DATA = {
  ],
  "notices": [
   {
+   "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+   "date": "2026-11-13",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+   "competition": "",
+   "moeNo": null,
+   "site": "校团委",
+   "sourceLabel": "校团委",
+   "dateUnavailableReason": "",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-14T06:33:25.372171+00:00",
+   "identitySources": [
+    {
+     "raw": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。",
+     "location": {
+      "type": "body",
+      "start": 0,
+      "end": 117
+     }
+    },
+    {
+     "raw": "颁奖典礼上对第37届“腾飞杯”大赛中的获奖单位进行了表彰。",
+     "location": {
+      "type": "body",
+      "start": 517,
+      "end": 546
+     }
+    },
+    {
+     "raw": "团委实践部部长边志坚介绍了“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。",
+     "location": {
+      "type": "body",
+      "start": 796,
+      "end": 899
+     }
+    }
+   ],
+   "noticeReferences": [],
+   "resourceHints": [
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "empty",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/bebf0794-3dd2-4fbd-945e-f24e73df2b3c.png",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "pending",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    },
+    {
+     "kind": "image",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/42c2c1f0-41b9-43d2-be4b-1ec4302c99e5.jpg",
+     "name": "图片原件",
+     "state": "resource_pending",
+     "resourceStatus": "pending",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": null
+    }
+   ],
+   "excerpt": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。\n王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉…",
+   "excerptEvidence": {
+    "value": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。\n王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉",
+    "raw": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。\n王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉",
+    "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "e7442f5f7a0628fdfbeff256ebd0469994259279de08b2b2adf0f04975a09392",
+    "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+    "competitionNames": [],
+    "editions": [
+     {
+      "value": "第38届",
+      "raw": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "location": {
+       "type": "title",
+       "start": 0,
+       "end": 37
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "第37届",
+      "raw": "颁奖典礼上对第37届“腾飞杯”大赛中的获奖单位进行了表彰。",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "location": {
+       "type": "body",
+       "start": 517,
+       "end": 546
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "第十五届",
+      "raw": "团委实践部部长边志坚介绍了“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "location": {
+       "type": "body",
+       "start": 796,
+       "end": 899
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "audiences": [
+     {
+      "value": "讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。",
+      "raw": "讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "location": {
+       "type": "body",
+       "start": 899,
+       "end": 1066
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "tracks": [],
+    "registrationMethods": [],
+    "registrationLinks": [],
+    "requiredMaterials": [],
+    "timeline": [
+     {
+      "value": "2026-11-11",
+      "raw": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。",
+      "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+      "location": {
+       "type": "body",
+       "start": 0,
+       "end": 117
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year",
+       "before_publication",
+       "possible_cross_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "11月11日",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [],
+    "groups": [],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [
+    {
+     "id": "3e58b107285b842e0c6320956560606edb482fe6de3e48cc027c1dd03b1f651d",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/7c2e6e7aab6e2b877cbe683e3e3dfbc885e57dba0dcccf7f9c0b1d99d5a45865.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "ce4615fa3360105688b8f07fa181626ff88af1caca14973c0acd1ca789021689",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/218d6e5e1d43bec7db368c43755d14603ec7cff5bfa2dceaf5631c0e2ebdb7d2.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "d2c3a443c8bd0ee64501a4453bce112675b0e10edee530d03fbe4677216f3423",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/a9bed2e8f326720e7938a7aacbe170b9182b0091061e93638eb2e29935296e75.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "4b2567297089ed715f3c56abef602c75653130cf462e82c5283594742f508456",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/3f4073f88910f11d955d6567836acb0f3ef73fbdf664673e1ce2e04a0e6ba630.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "813b448959dd962d6a99bb721676516e7d4eee0e529081674e1065d2d5617fd4",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/04fc52352bd9f8e3b5d44d8107660048a943a9dd9d7b81ccea7d5086edf9f8f2.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "2ca4ad7481fd46d3002b46da59a2c9329dc92d9a9409f1b1877bcf45c238864d",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/53b9184f0ad44bc402664fb95f91641a4ad9fc760b83c01d6bb83d4789772b22.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "bcf9838f57e5135fe977f03036df6f02fed0259403d0c07cc1638c899859b2cb",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/a0d7106268fb20e6e48377922790201c577ff9664a4dfb6fcad33b877f5b9270.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "6e074d52d288c0e5634dda03585e0d58da899ac984c2bdfedc6985a71733f985",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "empty",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/8990803acf5124dbcd2c67ca7c0289a07ada5789838cbd7ff0733767929233b0.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "a0a85c8a68363515232a104ded1ebb338e633ad8dd3289f0a117c1ca6ae04cb6",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/593bab272e737fa19e757fcfd6d31567d159fa8d8fbf8556a375d7a935afcdc3.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    },
+    {
+     "id": "936025ff92ec5ee0a01ae21b3daef721d148a2a126eba2e84e3485e0cd6ee04f",
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/9c4aa23a230279900edf664f23911b794420ffc75e56cac002ba34e9d05a91d9.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "not_decoded"
+      }
+     ]
+    }
+   ],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+   "repostSources": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+     "date": "2026-11-13",
+     "sourceLabel": "校团委"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
    "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
    "date": "2026-11-12",
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
@@ -254454,7 +255012,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.373197+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -256724,7 +257282,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:47.823775+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.373708+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -259578,7 +260136,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:47.824387+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.374249+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -275592,7 +276150,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-13T06:53:49.084895+00:00",
+   "fetchedAt": "2026-11-14T06:33:26.954680+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -280473,7 +281031,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:49.144368+00:00",
+   "fetchedAt": "2026-11-14T06:33:27.031430+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -358035,6 +358593,244 @@ window.SITE_DATA = {
      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4728",
      "date": "2026-06-10",
      "sourceLabel": "校团委"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
+   "title": "2026年能动学院拟录取博士研究生工作通知",
+   "date": "2026-06-10",
+   "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "能动学院",
+   "sourceLabel": "能动学院 · 通知公告",
+   "dateUnavailableReason": "",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "其他",
+   "group": "其他",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-14T06:33:27.032730+00:00",
+   "identitySources": [],
+   "noticeReferences": [],
+   "resourceHints": [],
+   "excerpt": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。\n2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。\n3 本校考生及档案在本校的考生无需调档。\n4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。\n5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字…",
+   "excerptEvidence": {
+    "value": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。\n2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。\n3 本校考生及档案在本校的考生无需调档。\n4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。\n5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字",
+    "raw": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。\n2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。\n3 本校考生及档案在本校的考生无需调档。\n4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。\n5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字",
+    "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [
+    {
+     "url": "http://yzbm.xjtu.edu.cn/",
+     "text": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn",
+     "kind": "form",
+     "evidence": {
+      "value": "http://yzbm.xjtu.edu.cn/",
+      "raw": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 0,
+       "end": 203
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "77c034cce5d5a0fbba428953ec95fa2d156c1c701abf238ad4dd7b92f7f31fc2",
+    "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+    "competitionNames": [],
+    "editions": [],
+    "audiences": [],
+    "tracks": [],
+    "registrationMethods": [],
+    "registrationLinks": [
+     {
+      "value": "http://yzbm.xjtu.edu.cn/",
+      "raw": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 0,
+       "end": 203
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "requiredMaterials": [],
+    "timeline": [
+     {
+      "value": "2026-06-30",
+      "raw": "2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 204,
+       "end": 241
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "6月30日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-06-30",
+      "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 242,
+       "end": 288
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "6月30日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-06-30",
+      "raw": "外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 242,
+       "end": 288
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "6月30日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-06-30",
+      "raw": "5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 402,
+       "end": 513
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "submission",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "6月30日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-06-01",
+      "raw": "（2026年6月1日之后开启转接）",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 592,
+       "end": 609
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "before_publication"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年6月1日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-06-10",
+      "raw": "2026-6-10",
+      "sourceUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+      "location": {
+       "type": "body",
+       "start": 982,
+       "end": 991
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026-6-10",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [],
+    "groups": [],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+   "repostSources": [
+    {
+     "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+     "date": "2026-06-10",
+     "sourceLabel": "能动学院 · 通知公告"
     }
    ],
    "revisionLinks": []
@@ -436260,7 +437056,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:49.146672+00:00",
+   "fetchedAt": "2026-11-14T06:33:27.047196+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -529869,7 +530665,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-13T06:53:49.150854+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.307070+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -558965,7 +559761,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:50.060986+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.633710+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -658804,7 +659600,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:50.474222+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.840479+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -667824,7 +668620,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:51.468453+00:00",
+   "fetchedAt": "2026-11-14T06:33:29.030534+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -694176,7 +694972,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:51.487537+00:00",
+   "fetchedAt": "2026-11-14T06:33:30.148021+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -699393,7 +700189,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:52.254063+00:00",
+   "fetchedAt": "2026-11-14T06:33:30.994950+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -702466,7 +703262,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:53.505366+00:00",
+   "fetchedAt": "2026-11-14T06:33:31.056873+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -716944,7 +717740,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:53.520171+00:00",
+   "fetchedAt": "2026-11-14T06:33:32.368252+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -801342,7 +802138,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-13T06:53:54.014315+00:00",
+   "fetchedAt": "2026-11-14T06:33:33.225937+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -802483,7 +803279,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-13T06:53:55.262674+00:00",
+   "fetchedAt": "2026-11-14T06:33:33.239816+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -802549,12 +803345,12 @@ window.SITE_DATA = {
   "3": 308,
   "4": 354,
   "5": 332,
-  "6": 228,
+  "6": 229,
   "7": 173,
   "8": 100,
   "9": 222,
   "10": 226,
-  "11": 184,
+  "11": 185,
   "12": 160
  },
  "cadenceCount": 50,
@@ -803240,6 +804036,24 @@ window.SITE_DATA = {
   "学院与书院"
  ],
  "wechat": [
+  {
+   "title": "【公开招聘】西安市事业单位公开招聘高层次及紧缺特殊专业人才",
+   "date": "2026-11-13",
+   "snippet": "中共西安市委组织部 西安市人力资源和社会保障局2022年7月25日转载来源 | 西安交大就业创业原文来源 | 西安发布",
+   "account": "西安交大基层就业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%85%AC%E5%BC%80%E6%8B%9B%E8%81%98%E3%80%91%E8%A5%BF%E5%AE%89%E5%B8%82%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D%E5%85%AC%E5%BC%80%E6%8B%9B%E8%81%98%E9%AB%98%E5%B1%82%E6%AC%A1%E5%8F%8A%E7%B4%A7%E7%BC%BA%E7%89%B9%E6%AE%8A%E4%B8%93%E4%B8%9A%E4%BA%BA%E6%89%8D"
+  },
+  {
+   "title": "【公开招聘】招人啦!2022年金华市婺城区部分事业单位招聘工作人员公告",
+   "date": "2026-11-13",
+   "snippet": "// 因工作需要,婺城区部分事业单位面向社会公开招聘107名工作人员.有关事项公告如下:一、招聘的基本条件1.政治素质好,遵纪守...",
+   "account": "西安交大基层就业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E5%85%AC%E5%BC%80%E6%8B%9B%E8%81%98%E3%80%91%E6%8B%9B%E4%BA%BA%E5%95%A6%212022%E5%B9%B4%E9%87%91%E5%8D%8E%E5%B8%82%E5%A9%BA%E5%9F%8E%E5%8C%BA%E9%83%A8%E5%88%86%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D%E6%8B%9B%E8%81%98%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E5%85%AC%E5%91%8A"
+  },
   {
    "title": "喜报 | 公共卫生学院荣获西安交通大学第37届“腾飞杯”创新创业大赛“优胜杯”",
    "date": "2026-11-12",
@@ -805842,6 +806656,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%21%E6%88%91%E4%BB%AC%E6%98%AF%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E7%9A%84%E9%9D%92%E6%98%A5%E5%8A%9B%E9%87%8F%21"
   },
   {
+   "title": "西安交通大学举办第三届中国“互联网+”大学生创新创业大赛颁奖典礼暨创新创业教育成果展",
+   "date": "2017-10-21",
+   "snippet": "西安交大创新创业学院院长徐忠锋徐忠锋对西安交大师生参与本届... 以“互联网+”大学生创新创业大赛等竞赛和项目为驱动,培养学...",
+   "account": "西安交大就业创业",
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E4%B8%BE%E5%8A%9E%E7%AC%AC%E4%B8%89%E5%B1%8A%E4%B8%AD%E5%9B%BD%E2%80%9C%E4%BA%92%E8%81%94%E7%BD%91%2B%E2%80%9D%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E5%A4%A7%E8%B5%9B%E9%A2%81%E5%A5%96%E5%85%B8%E7%A4%BC%E6%9A%A8%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A%E6%95%99%E8%82%B2%E6%88%90"
+  },
+  {
    "title": "砥砺奋进,继往开来,西安交通大学五年报告!",
    "date": "2017-10-18",
    "snippet": "西安交大学子获2015年度美国大学生数学建模竞赛特等奖 ▲ 2015年,西安交大学子在第八届全国大学生创新创业年会中获奖数居全国...",
@@ -805978,15 +806801,16 @@ window.SITE_DATA = {
   }
  ],
  "wechatStat": {
-  "total": 304,
+  "total": 307,
   "dropped": 147,
   "byAccount": {
+   "西安交大基层就业": 9,
    "西安交通大学公共卫生学院": 1,
    "西安交大科技创新指导中心": 3,
    "西安交通大学社会实践": 7,
    "西安交通大学南洋书院": 17,
    "西安交通大学基础医学院": 1,
-   "西安交大就业创业": 36,
+   "西安交大就业创业": 37,
    "西安交通大学教务处": 2,
    "中国人民大学崇实书院": 1,
    "西安交通大学宗濂书院": 18,
@@ -806014,7 +806838,6 @@ window.SITE_DATA = {
    "仲英书院学生会": 4,
    "西安交通大学": 15,
    "法协XJTU": 1,
-   "西安交大基层就业": 7,
    "西安交通大学学生处": 7,
    "XJTU荣命哲老师课题组": 3,
    "西安交通大学彭康书院团委": 15,
@@ -806061,10 +806884,10 @@ window.SITE_DATA = {
    "西交大生活圈": 1
   },
   "byGroup": {
-   "学科竞赛": 42,
+   "其他": 126,
+   "学科竞赛": 43,
    "社会实践": 41,
    "集体活动": 53,
-   "其他": 124,
    "教学信息": 11,
    "文体竞赛": 14,
    "思政学习": 19

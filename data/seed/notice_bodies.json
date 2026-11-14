@@ -9,8 +9,8 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
-    "title": "2026-2027学年“青衿”骨干培训项目第二期 暨思想文化类社团工作座谈会顺利召开",
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+    "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
     "priority": null
    },
    {
@@ -36,6 +36,11 @@
    {
     "url": "https://www.robocon.org.cn/sys-nd/132.html",
     "title": "2027年足式机器人挑战赛-V1.0",
+    "priority": null
+   },
+   {
+    "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+    "title": "2026年能动学院拟录取博士研究生工作通知",
     "priority": null
    },
    {
@@ -95,19 +100,19 @@
    }
   ],
   "byStatus": {
-   "success": 1,
+   "success": 2,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1255,
+  "success": 1257,
   "empty": 1,
   "failed": 15
  },
- "count": 1271,
- "withBody": 1255,
+ "count": 1273,
+ "withBody": 1257,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -115,7 +120,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-13T06:53:55.262674+00:00",
+   "fetchedAt": "2026-11-14T06:33:33.239816+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -136,11 +141,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 403",
-     "fetchedAt": "2026-11-08T06:10:33.437714+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -165,9 +165,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:55.262674+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:33.239816+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -175,7 +180,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-13T06:53:54.014315+00:00",
+   "fetchedAt": "2026-11-14T06:33:33.225937+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -196,11 +201,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-08T06:10:32.155623+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -225,9 +225,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-13T06:53:54.014315+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-14T06:33:33.225937+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -235,7 +240,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:53.520171+00:00",
+   "fetchedAt": "2026-11-14T06:33:32.368252+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -256,11 +261,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:32.013851+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -285,9 +285,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:53.520171+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:32.368252+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -295,7 +300,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:53.505366+00:00",
+   "fetchedAt": "2026-11-14T06:33:31.056873+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -316,11 +321,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:31.663825+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -345,9 +345,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:53.505366+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:31.056873+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -355,7 +360,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:52.254063+00:00",
+   "fetchedAt": "2026-11-14T06:33:30.994950+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -376,11 +381,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:30.386851+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -405,9 +405,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:52.254063+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:30.994950+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -415,7 +420,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:51.487537+00:00",
+   "fetchedAt": "2026-11-14T06:33:30.148021+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -436,11 +441,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:29.890212+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -465,9 +465,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:51.487537+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:30.148021+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -475,7 +480,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:51.468453+00:00",
+   "fetchedAt": "2026-11-14T06:33:29.030534+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -496,11 +501,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:29.544168+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -525,9 +525,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:51.468453+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:29.030534+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -535,7 +540,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-13T06:53:50.474222+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.840479+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -556,11 +561,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.590244+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -585,9 +585,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:50.474222+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:28.840479+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -595,7 +600,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-13T06:53:50.060986+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.633710+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -616,11 +621,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.157572+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -645,9 +645,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:50.060986+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:28.633710+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -655,7 +660,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-13T06:53:49.150854+00:00",
+   "fetchedAt": "2026-11-14T06:33:28.307070+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -676,11 +681,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-08T06:10:28.156209+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -705,9 +705,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-13T06:53:49.150854+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-14T06:33:28.307070+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -715,7 +720,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-13T06:53:49.146672+00:00",
+   "fetchedAt": "2026-11-14T06:33:27.047196+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -736,11 +741,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:28.150533+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -765,9 +765,146 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:49.146672+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:27.047196+00:00"
     }
    ],
-   "totalAttempts": 10
+   "totalAttempts": 11
+  },
+  {
+   "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
+   "title": "2026年能动学院拟录取博士研究生工作通知",
+   "site": "能动学院",
+   "date": "2026-06-10",
+   "source": "epe_notices",
+   "fetchedAt": "2026-11-14T06:33:27.032730+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "77c034cce5d5a0fbba428953ec95fa2d156c1c701abf238ad4dd7b92f7f31fc2",
+   "contentParserVersion": 2,
+   "body": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。\n2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。\n3 本校考生及档案在本校的考生无需调档。\n4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。\n5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。\n6. 新生党员组织关系接转\n(1) 本省转接：通过陕西省党建信息化平台进行转接，接入党组织为“中共西安交通大学能动学院2026级研究生新生临时支部委员会”。（2026年6月1日之后开启转接）\n(2) 省外转接：采用全国党员信息平台或纸质党员组织关系介绍信两种方式，a.通过全国党员信息平台转接转入党组织为“中共西安交通大学能动学院委员会”；b.通过党员组织关系介绍信转接，介绍信抬头为“中共西安交通大学委员会，去向：中共西安交通大学能动学院委员会。\n党组织关系接转有其他问题请咨询029-82668946\n7.新生团员组织关系接转\n请见：https://mp.weixin.qq.com/s/L9HqZehugRp8XDwTKoEpNg\n材料接收地址如下： （请使用顺丰或EMS或机要，拒收指定快递点自取件）\n地 址：陕西省西安市咸宁西路28号西安交通大学北二楼81303\n收件人：能动学院研究生办公室 高老师\n邮 编：710049\n电 话：(029)82668701\n研招办联系电话：（029）82668329\n能动学院研究生办公室\n2026-6-10",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">1. 2026</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">年能动学院拟录取考生登录</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">“</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">西安交通大学研究生报考服务系统</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">（</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">http://yzbm.xjtu.edu.cn/</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">），进入</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">“</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">拟录取材料下载</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">页面自行下载并打印</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">“</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">录取登记表</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">【所有考生（包括直博生）均需，须仔细核对个人姓名</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">“</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">思想政治素质和品德考核</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">、“调档通知</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">”</span><span style=\"font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px;\">【档案不在西交的考生】、相关协议【是否有协议以系统为准】。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">3 本校考生及档案在本校的考生无需调档。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">6. 新生党员组织关系接转</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">(1) 本省转接：通过陕西省党建信息化平台进行转接，接入党组织为“中共西安交通大学能动学院2026级研究生新生临时支部委员会”。（2026年6月1日之后开启转接）</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">(2) 省外转接：采用全国党员信息平台或纸质党员组织关系介绍信两种方式，a.通过全国党员信息平台转接转入党组织为“中共西安交通大学能动学院委员会”；b.通过党员组织关系介绍信转接，介绍信抬头为“中共西安交通大学委员会，去向：中共西安交通大学能动学院委员会。</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">党组织关系接转有其他问题请咨询029-82668946</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">7.新生团员组织关系接转</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">请见：https://mp.weixin.qq.com/s/L9HqZehugRp8XDwTKoEpNg</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">材料接收地址如下： （请使用顺丰或EMS或机要，拒收指定快递点自取件）</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">地 址：陕西省西安市咸宁西路28号西安交通大学北二楼81303</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">收件人：能动学院研究生办公室 高老师</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">邮 编：710049</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">电 话：(029)82668701</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">研招办联系电话：（029）82668329</span></p> \r\n   <p><br></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em; text-align: center;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">能动学院研究生办公室</span></p> \r\n   <p style=\"text-indent: 2em; line-height: 1.75em; text-align: center;\"><span style=\"font-size: 18px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;\">2026-6-10</span></p> \r\n   <p><br></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 991,
+   "excerpt": "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。 2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。 3 本校考生及档案在本校的考生无需调档。 4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。",
+   "paragraphs": [
+    "1. 2026年能动学院拟录取考生登录“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/），进入“拟录取材料下载”页面自行下载并打印“录取登记表”【所有考生（包括直博生）均需，须仔细核对个人姓名、证件号码、录取院系、学习方式、专业代码及名称、研究方向、专项计划等录取信息】、“思想政治素质和品德考核”、“调档通知”【档案不在西交的考生】、相关协议【是否有协议以系统为准】。",
+    "2. “人事档案”要求在6月30日前邮寄到西安交通大学能源与动力工程学院。 外校应届毕业生“人事档案”如果无法在6月30日前提档，可开具同意调档证明在6月30日前寄来。待档案全部齐备后寄出档案,无档案不予报到。",
+    "3 本校考生及档案在本校的考生无需调档。",
+    "4. “思想政治素质和品德考核表”务必按照要求上传到“西安交通大学研究生报考服务系统”（http://yzbm.xjtu.edu.cn/）。",
+    "5. 拟录取考生录取登记表考生签字，相关协议考生签字单位盖章【是否有协议以系统为准】，“思想政治素质和品德考核表”单位盖章，上述材料一起尽快转交指导教师签字，指导教师交系所主任，系所统一在6月30日前提交学院研究生办公室。",
+    "6. 新生党员组织关系接转",
+    "(1) 本省转接：通过陕西省党建信息化平台进行转接，接入党组织为“中共西安交通大学能动学院2026级研究生新生临时支部委员会”。（2026年6月1日之后开启转接）",
+    "(2) 省外转接：采用全国党员信息平台或纸质党员组织关系介绍信两种方式，a.通过全国党员信息平台转接转入党组织为“中共西安交通大学能动学院委员会”；b.通过党员组织关系介绍信转接，介绍信抬头为“中共西安交通大学委员会，去向：中共西安交通大学能动学院委员会。",
+    "党组织关系接转有其他问题请咨询029-82668946",
+    "7.新生团员组织关系接转",
+    "请见：https://mp.weixin.qq.com/s/L9HqZehugRp8XDwTKoEpNg",
+    "材料接收地址如下： （请使用顺丰或EMS或机要，拒收指定快递点自取件）",
+    "地 址：陕西省西安市咸宁西路28号西安交通大学北二楼81303",
+    "收件人：能动学院研究生办公室 高老师",
+    "邮 编：710049",
+    "电 话：(029)82668701",
+    "研招办联系电话：（029）82668329",
+    "能动学院研究生办公室",
+    "2026-6-10"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    }
+   ],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-14T06:33:27.032730+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -775,7 +912,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-13T06:53:49.144368+00:00",
+   "fetchedAt": "2026-11-14T06:33:27.031430+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -796,11 +933,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:27.537919+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -825,9 +957,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:49.144368+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:27.031430+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -835,7 +972,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-13T06:53:49.084895+00:00",
+   "fetchedAt": "2026-11-14T06:33:26.954680+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -856,11 +993,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-08T06:10:26.344564+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -885,9 +1017,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-13T06:53:49.084895+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-14T06:33:26.954680+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -895,7 +1032,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-13T06:53:47.824387+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.374249+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -916,11 +1053,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.343669+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -945,9 +1077,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:47.824387+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:25.374249+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -955,7 +1092,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-13T06:53:47.823775+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.373708+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -976,11 +1113,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.343024+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1005,9 +1137,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:47.823775+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:25.373708+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1015,7 +1152,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-13T06:53:47.822842+00:00",
+   "fetchedAt": "2026-11-14T06:33:25.373197+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1036,11 +1173,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-08T06:10:26.341731+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1065,9 +1197,147 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-13T06:53:47.822842+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-14T06:33:25.373197+00:00"
     }
    ],
-   "totalAttempts": 9
+   "totalAttempts": 10
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4798",
+   "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",
+   "site": "校团委",
+   "date": "2026-11-13",
+   "source": "团委",
+   "fetchedAt": "2026-11-14T06:33:25.372171+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "d6ee30f4e949fa48fdc89fe0e53c595903d1dc3671ca7375b81b88f36363b3aa",
+   "contentParserVersion": 2,
+   "body": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。\n王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉励交大学子敢想敢干、脚踏实地，在攀登科创高峰的征途上学有所获、行稳致远。\n颁奖典礼上对第37届“腾飞杯”大赛中的获奖单位进行了表彰。第37届赛事设置创新、创业、孵化加速赛道和企业专项赛4个赛道，有42个学院、书院规范开展院赛，共收到各类参赛作品2215项，参赛学生超12000人次。\n科大讯飞股份有限公司副总裁孙亮在讲话中对本次训练营正式启动表示热烈祝贺，对交大主动与企业搭建合作平台表示感谢。他希望大家建立AI思维、学会用好AI这一生产力工具，并寄语同学们大胆动手、以问题为导向、保持长期好奇心。他表示科大讯飞愿持续深度参与学校人才培养与科技孵化工作，把产业平台与技术资源开放给交大学子，陪伴大家把想法变成原型、把创意落地成真。\n团委实践部部长边志坚介绍了“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。\n启动仪式结束后，词元星火Harness工程部总监吕昕以“Agent技术进展和典型应用”为题，围绕AI前沿进展、大模型发展脉络与训练范式、国内大模型实践与端云协同、Agent架构演进与Skills机制、个人转型思考与能力边界等方面作深入分享。\n无论是“腾飞杯”还是“攀登计划”，学校搭建平台旨在引导同学们躬身实践、学以致用。以本次活动为契机，交大学子将把今日所学所悟融会贯通，在未来的赛场上呈现更多精彩作品，传承弘扬西迁精神，把个人创新追求融入科技报国的生动实践，为科技创新与人才培养同频共振注入青春动能。",
+   "bodyHtml": "<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，</span><span style=\"font-family: 仿宋;\">11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学</span><span style=\"font-family: 仿宋;\">全体</span><span style=\"font-family: 仿宋;\">师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，</span><span style=\"font-family: 仿宋;\">“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉励交大学子敢想敢干、脚踏实地，在攀登科创高峰的征途上学有所获、行稳致远。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    颁奖典礼上对第</span><span style=\"font-family: 仿宋;\">37届“腾飞杯”大赛中的获奖单位进行了表彰。第</span><span style=\"font-family: 仿宋;\">37</span><span style=\"font-family: 仿宋;\">届赛事设置创新、创业、孵化加速赛道和企业专项赛</span><span style=\"font-family: 仿宋;\">4个赛道，有42个</span><span style=\"font-family: 仿宋;\">学院、</span><span style=\"font-family: 仿宋;\">书</span><span style=\"font-family: 仿宋;\">院</span><span style=\"font-family: 仿宋;\">规范开展院赛</span><span style=\"font-family: 仿宋;\">，</span><span style=\"font-family: 仿宋;\">共收到各类参赛作品</span><span style=\"font-family: 仿宋;\">2215项，参赛学生超12000人次</span><span style=\"font-family: 仿宋;\">。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg\" alt=\"\" width=\"600\" height=\"398\"></span></p>\n<p class=\"15\"><span style=\"font-family: 仿宋; font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-family: 仿宋; font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    科大讯飞股份有限公司副总裁孙亮在讲话中对本次训练营正式启动表示热烈祝贺，对交大主动与企业搭建合作平台表示感谢。他希望大家建立</span><span style=\"font-family: 仿宋;\">AI思维、学会用好AI这一生产力工具，并寄语同学们大胆动手、以问题为导向、保持长期好奇心。他表示科大讯飞愿持续深度参与学校人才培养与科技孵化工作，把产业平台与技术资源开放给交大学子，陪伴大家把想法变成原型、把创意落地成真。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    团委实践部部长边志坚介绍了</span><span style=\"font-family: 仿宋;\">“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营</span><span style=\"font-family: 仿宋;\">，</span><span style=\"font-family: 仿宋;\">训练营由团委、学工部、研工部、科技园与科大讯飞集团</span><span style=\"font-family: 仿宋;\">AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/bebf0794-3dd2-4fbd-945e-f24e73df2b3c.png\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    启动仪式结束后，词元星火</span><span style=\"font-family: 仿宋;\">Harness工程部总监吕昕以“Agent技术进展和典型应用”为题，围绕AI前沿进展、大模型发展脉络与训练范式、国内大模型实践与端云协同、Agent架构演进与Skills机制、个人转型思考与能力边界等方面作深入分享。</span></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"> <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261113/42c2c1f0-41b9-43d2-be4b-1ec4302c99e5.jpg\" alt=\"\" width=\"600\" height=\"400\"></span></p>\n<p class=\"15\"><span style=\"font-size: 20px;\"><span style=\"font-family: 仿宋;\">    无论是</span><span style=\"font-family: 仿宋;\">“腾飞杯”还是“攀登计划”，学校搭建平台旨在引导同学们躬身实践、学以致用。以本次活动为契机，交大学子将把今日所学所悟融会贯通，在未来的赛场上呈现更多精彩作品，传承弘扬西迁精神，把个人创新追求融入科技报国的生动实践，为科技创新与人才培养同频共振注入青春动能。</span></span></p>",
+   "bodyLen": 1319,
+   "excerpt": "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。 王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。",
+   "paragraphs": [
+    "为引导学生将所学知识与产业需求紧密结合、推动科创成果向现实生产力转化，并进一步将人工智能教育融入创新创业育人全过程，11月11日下午，西安交通大学第38届“腾飞杯”创新创业大赛暨2026年“攀登计划”AI训练营启动仪式在兴庆校区举行。西安交通大学党委副书记王欢，科大讯飞股份有限公司副总裁孙亮出席活动，研究生院、学生处、产学研合作与成果转化处、就创中心、转移中心、科技园、团委及科大讯飞领导嘉宾参加活动，各学院、书院获奖师生代表和500余名在校生共同见证。",
+    "王欢代表学校向科大讯飞长期以来对人才培养工作的支持表示感谢，向受表彰单位表示祝贺。她指出，今年四月习近平总书记给四所交通大学全体师生回信，鼓励传承弘扬西迁精神、聚焦国家重大战略需求、加强科技自主创新和人才自主培养。站在建校一百三十周年的新起点上，同步启动的两项活动正是学校给出的两份答案：一份来自坚守，“腾飞杯”38年来孵化出数十家学生科创企业，成为交大青年科创的金字招牌；一份面向未来，学校与科大讯飞共同推出“攀登计划”AI训练营，就是帮助大家从AI的使用者变为AI的创造者，在智能时代抢占先机。她勉励交大学子敢想敢干、脚踏实地，在攀登科创高峰的征途上学有所获、行稳致远。",
+    "颁奖典礼上对第37届“腾飞杯”大赛中的获奖单位进行了表彰。第37届赛事设置创新、创业、孵化加速赛道和企业专项赛4个赛道，有42个学院、书院规范开展院赛，共收到各类参赛作品2215项，参赛学生超12000人次。",
+    "科大讯飞股份有限公司副总裁孙亮在讲话中对本次训练营正式启动表示热烈祝贺，对交大主动与企业搭建合作平台表示感谢。他希望大家建立AI思维、学会用好AI这一生产力工具，并寄语同学们大胆动手、以问题为导向、保持长期好奇心。他表示科大讯飞愿持续深度参与学校人才培养与科技孵化工作，把产业平台与技术资源开放给交大学子，陪伴大家把想法变成原型、把创意落地成真。",
+    "团委实践部部长边志坚介绍了“腾飞杯”大赛的组织和赛事规则，“腾飞杯”作为学校历史最悠久、参赛规模最大的校内学生科创比赛，选拔出的作品在第十五届“挑战杯”中斩获特等奖1项，一等奖2项，连续捧得大赛“优胜杯”。讯飞开放平台首席运营经理徐祯系统介绍了2026年“攀登计划”AI训练营，训练营由团委、学工部、研工部、科技园与科大讯飞集团AI大学堂联合主办，面向全体在校学生，围绕AI Agent、Skill开发、RAG三大技术方向设置四个主题训练营，采用“做中学”模式与四阶段实战路径，同时提供相应的算力和积分，鼓励创作具有西安交大特色的优秀作品。",
+    "启动仪式结束后，词元星火Harness工程部总监吕昕以“Agent技术进展和典型应用”为题，围绕AI前沿进展、大模型发展脉络与训练范式、国内大模型实践与端云协同、Agent架构演进与Skills机制、个人转型思考与能力边界等方面作深入分享。",
+    "无论是“腾飞杯”还是“攀登计划”，学校搭建平台旨在引导同学们躬身实践、学以致用。以本次活动为契机，交大学子将把今日所学所悟融会贯通，在未来的赛场上呈现更多精彩作品，传承弘扬西迁精神，把个人创新追求融入科技报国的生动实践，为科技创新与人才培养同频共振注入青春动能。"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/f1ae8a65-afbc-4f8a-89b4-9916da640ed3.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/98a0a2aa-1daa-4892-b8d4-b4e1092168c9.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/86060ef7-a9d7-4970-99a8-3250fe5c5bdf.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/84cbcc9d-7168-43db-bb1e-fd1d29080128.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/6b41fdb8-093e-4f8a-98d1-8f019f0f3893.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/9c797bdd-43d0-4c68-9c15-078576d3c264.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/631c5100-7cba-4078-9c54-eb9c3c3aefed.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b04c26b0-dc60-40cf-b6de-6aed4b9db59a.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/b9edacd1-a99a-4164-94ee-4eb72b9258e5.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/bebf0794-3dd2-4fbd-945e-f24e73df2b3c.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261113/42c2c1f0-41b9-43d2-be4b-1ec4302c99e5.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-14T06:33:25.372171+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4797",
