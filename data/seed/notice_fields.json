@@ -301,6 +301,141 @@
       }
     },
     {
+      "url": "https://www.robocon.org.cn/sys-nd/132.html",
+      "title": "2027年足式机器人挑战赛-V1.0",
+      "date": "2026-10-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
+      "date": "2026-10-14",
+      "contentHash": "",
+      "status": "failed",
+      "error": "HTTP 404",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/133.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
+      "date": "2026-10-20",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/134.html",
+      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
+      "date": "2026-10-26",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/135.html",
+      "title": "2027年足式机器人挑战赛-V2.0",
+      "date": "2026-10-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
       "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",
       "title": "2026年能动学院拟录取博士研究生工作通知",
       "date": "2026-06-10",
@@ -465,141 +600,6 @@
             "superseded": false
           }
         ],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/132.html",
-      "title": "2027年足式机器人挑战赛-V1.0",
-      "date": "2026-10-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-      "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
-      "date": "2026-10-14",
-      "contentHash": "",
-      "status": "failed",
-      "error": "HTTP 404",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/133.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天竞技赛规则V2",
-      "date": "2026-10-20",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/133.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/134.html",
-      "title": "第二十六届全国大学生机器人大赛女娲补天技能挑战赛规则V1",
-      "date": "2026-10-26",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/134.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/135.html",
-      "title": "2027年足式机器人挑战赛-V2.0",
-      "date": "2026-10-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
         "contacts": [],
         "groups": [],
         "model": {
