@@ -9,6 +9,11 @@
   "retries": 1,
   "targets": [
    {
+    "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+    "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
+    "priority": null
+   },
+   {
     "url": "https://www.robocon.org.cn/sys-nd/135.html",
     "title": "2027年足式机器人挑战赛-V2.0",
     "priority": null
@@ -90,19 +95,19 @@
    }
   ],
   "byStatus": {
-   "success": 0,
+   "success": 1,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1257,
+  "success": 1258,
   "empty": 1,
   "failed": 15
  },
- "count": 1273,
- "withBody": 1257,
+ "count": 1274,
+ "withBody": 1258,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -110,7 +115,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-15T06:41:22.166530+00:00",
+   "fetchedAt": "2026-11-16T06:39:16.266031+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -131,11 +136,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:36.773466+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -160,9 +160,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:22.166530+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:16.266031+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -170,7 +175,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-15T06:41:22.149541+00:00",
+   "fetchedAt": "2026-11-16T06:39:16.135680+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -191,11 +196,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-10T07:28:36.564706+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -220,9 +220,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-15T06:41:22.149541+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-16T06:39:16.135680+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -230,7 +235,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:21.012565+00:00",
+   "fetchedAt": "2026-11-16T06:39:14.860688+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -251,11 +256,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:35.770365+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -280,9 +280,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:21.012565+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:14.860688+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -290,7 +295,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:20.573655+00:00",
+   "fetchedAt": "2026-11-16T06:39:14.256450+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -311,11 +316,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:34.962789+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -340,9 +340,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:20.573655+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:14.256450+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -350,7 +355,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:20.554840+00:00",
+   "fetchedAt": "2026-11-16T06:39:14.084932+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -371,11 +376,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:34.472768+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -400,9 +400,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:20.554840+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:14.084932+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -410,7 +415,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:19.393439+00:00",
+   "fetchedAt": "2026-11-16T06:39:13.080314+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -431,11 +436,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:33.979087+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -460,9 +460,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:19.393439+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:13.080314+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -470,7 +475,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:19.199883+00:00",
+   "fetchedAt": "2026-11-16T06:39:12.446904+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -491,11 +496,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:33.142188+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -520,9 +520,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:19.199883+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:12.446904+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -530,7 +535,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-15T06:41:18.940809+00:00",
+   "fetchedAt": "2026-11-16T06:39:11.960754+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -551,11 +556,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:32.221069+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -580,9 +580,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:18.940809+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:11.960754+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -590,7 +595,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-15T06:41:18.045879+00:00",
+   "fetchedAt": "2026-11-16T06:39:11.682576+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -611,11 +616,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:32.050851+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -640,9 +640,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:18.045879+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:11.682576+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -650,7 +655,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-15T06:41:17.735332+00:00",
+   "fetchedAt": "2026-11-16T06:39:11.069102+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -671,11 +676,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-10T07:28:31.643481+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -700,9 +700,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-15T06:41:17.735332+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-16T06:39:11.069102+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -710,7 +715,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-15T06:41:17.570547+00:00",
+   "fetchedAt": "2026-11-16T06:39:11.065650+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -731,11 +736,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:31.638637+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -760,9 +760,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:17.570547+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:11.065650+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -770,7 +775,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-15T06:41:16.694561+00:00",
+   "fetchedAt": "2026-11-16T06:39:10.135420+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -791,11 +796,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:31.087996+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -820,9 +820,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:16.694561+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:10.135420+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -830,7 +835,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-15T06:41:15.753202+00:00",
+   "fetchedAt": "2026-11-16T06:39:09.863216+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -851,11 +856,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-10T07:28:30.861684+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -880,9 +880,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-15T06:41:15.753202+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-16T06:39:09.863216+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -890,7 +895,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-15T06:41:15.752711+00:00",
+   "fetchedAt": "2026-11-16T06:39:08.655017+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -911,11 +916,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:30.789898+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -940,9 +940,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:15.752711+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:08.655017+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -950,7 +955,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-15T06:41:15.752035+00:00",
+   "fetchedAt": "2026-11-16T06:39:08.654558+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -971,11 +976,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:30.763219+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1000,9 +1000,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:15.752035+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:08.654558+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1010,7 +1015,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-15T06:41:15.751096+00:00",
+   "fetchedAt": "2026-11-16T06:39:08.654165+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1031,11 +1036,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-10T07:28:29.586059+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1060,9 +1060,127 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-15T06:41:15.751096+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-16T06:39:08.654165+00:00"
     }
    ],
-   "totalAttempts": 11
+   "totalAttempts": 12
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+   "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
+   "site": "教务处",
+   "date": "2026-11-16",
+   "source": "jwc",
+   "fetchedAt": "2026-11-16T06:39:08.653290+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "0bd2c4e384618ef9561aeb5358ca775705b8ad16ccb6691bd6b23b7eeedbe182",
+   "contentParserVersion": 2,
+   "body": "各学院（部、中心）：\n为启发师生思维，拓展通识教育的内涵和形式，提高学生人文素养和思辨能力，特别邀请北京航空航天大学战略问题研究中心研究员张文木讲座。现将有关情况通知如下：\n讲座主题：特朗普新政与中国机遇\n讲座内容简介：\n本讲座围绕特朗普新政展开分析，梳理其由来、主要内容，剖析美国政治底层逻辑。将特朗普新政视作百年未有之大变局的加速器，对比其两任期对外举措，以中东为观察风向标，借鉴苏伊士运河事件等历史，研判美国重拾门罗主义等动向。结合我国周边地缘形势，分析祖国统一面临的机遇，明确我国内外战略与斗争策略，指出坚持 “两个确立”、做到 “两个维护”，是提升国家战略能力、实现民族复兴的思想基石。\n主讲人：张文木\n主讲人简介：\n北京航空航天大学战略问题研究中心研究员，国防科技大学国防科技战略研究智库特邀研究员，中国社会科学院世界社会主义研究中心常务理事。长期关注和研究领域：中国国家安全战略。主要著作有《论中国海权》《中国地缘政治论》《美国的没落》《毛泽东诗词中的战略思想》，诗集《花甲懂事集》等，2020年出版十卷本《张文木战略文集》。\n讲座时间：2026年11月18日星期三19：10-21：00\n讲座地点：兴庆校区教二楼1400\n报名方式：扫描海报中的二维码报名\n欢迎感兴趣的师生现场参加！\n教务处\n2026年11月16日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\">各学院（部、中心）：</span></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\">     <span style=\"font-family:仿宋\">为启发师生思维，拓展通识教育的内涵和形式，提高学生人文素养和思辨能力，特别邀请北京航空航天大学战略问题研究中心研究员张文木讲座。现将有关情况通知如下：</span></span></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\">讲座主题：</span></strong><span style=\"font-family: 仿宋;font-size: 19px\">特朗普新政与中国机遇</span></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\">讲座内容简介：</span></strong></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:37px;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">本讲座围绕特朗普新政展开分析，梳理其由来、主要内容，剖析美国政治底层逻辑。将特朗普新政视作百年未有之大变局的加速器，对比其两任期对外举措，以中东为观察风向标，借鉴苏伊士运河事件等历史，研判美国重拾门罗主义等动向。结合我国周边地缘形势，分析祖国统一面临的机遇，明确我国内外战略与斗争策略，指出坚持</span> <span style=\"font-family:仿宋\">“两个确立”、做到 “两个维护”，是提升国家战略能力、实现民族复兴的思想基石。</span></span></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\">主讲人：</span></strong><span style=\"font-family: 仿宋;font-size: 19px\">张文木</span></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\">主讲人简介：</span></strong></p> \r\n   <p style=\"text-align:justify;margin-right:0;margin-left:0;text-indent:37px;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">北京航空航天大学战略问题研究中心研究员，国防科技大学国防科技战略研究智库特邀研究员，中国社会科学院世界社会主义研究中心常务理事。长期关注和研究领域：中国国家安全战略。主要著作有《论中国海权》《中国地缘政治论》《美国的没落》《毛泽东诗词中的战略思想》，诗集《花甲懂事集》等，</span><span style=\"font-family:仿宋\">2020年出版十卷本《张文木战略文集》。</span></span></p> \r\n   <p style=\"text-align:justify;margin-right:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">讲座时间：</span></span></strong><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\"></span><span style=\"font-family:仿宋\">2026年11月18日星期三19：10-21：00</span></span></p> \r\n   <p style=\"text-align:justify;margin-right:0;text-justify:inter-ideograph\"><strong><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">讲座地点：</span></span></strong><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">兴庆校区教二楼</span><span style=\"font-family:仿宋\">1400</span></span></p> \r\n   <p style=\"text-align: center\"><img src=\"https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png\" width=\"500\" vsbhref=\"vurl\" vurl=\"/_vsl/8157F68F9E9C2D15B94A3B4421BDD2DA/567EBBC8/82F0F\" vheight=\"\" vwidth=\"500\" orisrc=\"https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png\" class=\"img_vsb_content\"></p> \r\n   <p style=\"text-align:justify;margin-right:0;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\">   <strong>报名方式：</strong>扫描海报中的二维码报名</span></p> \r\n   <p style=\"text-align:justify;margin-right:0;text-justify:inter-ideograph\"><span style=\"font-family: 仿宋;font-size: 19px\">    <span style=\"font-family:仿宋\">欢迎感兴趣的师生现场参加！</span></span></p> \r\n   <p style=\"text-align:justify;margin-right:0;text-justify:inter-ideograph\"><br></p> \r\n   <p style=\"text-align: right; margin-right: 0px; text-indent: 392px;\"><span style=\"font-family: 仿宋;font-size: 19px\">教务处</span></p> \r\n   <p style=\"text-align: right; margin-right: 0px; text-indent: 355px;\"><span style=\"font-family: 仿宋;font-size: 19px\">2026年1</span><span style=\"font-family: 仿宋;font-size: 19px\">1</span><span style=\"font-family: 仿宋;font-size: 19px\"><span style=\"font-family:仿宋\">月</span>1</span><span style=\"font-family: 仿宋;font-size: 19px\">6</span><span style=\"font-family: 仿宋;font-size: 19px\">日</span></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 565,
+   "excerpt": "各学院（部、中心）： 为启发师生思维，拓展通识教育的内涵和形式，提高学生人文素养和思辨能力，特别邀请北京航空航天大学战略问题研究中心研究员张文木讲座。现将有关情况通知如下： 讲座主题：特朗普新政与中国机遇 讲座内容简介： 本讲座围绕特朗普新政展开分析，梳理其由来、主要内容，剖析美国政治底层逻辑。将特朗普新政视作百年未有之大变局的加速器，对比其两任期对外举措，以中东为观察风向标，借鉴苏伊士运河事件等历史，研判美国重拾门罗主义等动向。结合我国周边地缘形势，分析祖国统一面临的机遇，明确我国内外战略与斗争策略，指出坚持 “两个确立”、做到 “两个维护”，是提升国家战略能力、实现民族复兴的思想基石。 主讲人：张文木 主讲人简介： 北京航空航天大学战略问题研究中心研究员，国防科技大学国防科技战略研究智库特邀研究员，中国社会科学院世界社会主义研究中心常务理事。长期关注和研究领域：中国国家安全战略。主要著作有《论中国海权》《中国地缘政治论》《美国的没落》《毛泽东诗词中的战略思想》，诗集《花甲懂事集》等，2020年出版十卷本《张文木战略文集》。",
+   "paragraphs": [
+    "各学院（部、中心）：",
+    "为启发师生思维，拓展通识教育的内涵和形式，提高学生人文素养和思辨能力，特别邀请北京航空航天大学战略问题研究中心研究员张文木讲座。现将有关情况通知如下：",
+    "讲座主题：特朗普新政与中国机遇",
+    "讲座内容简介：",
+    "本讲座围绕特朗普新政展开分析，梳理其由来、主要内容，剖析美国政治底层逻辑。将特朗普新政视作百年未有之大变局的加速器，对比其两任期对外举措，以中东为观察风向标，借鉴苏伊士运河事件等历史，研判美国重拾门罗主义等动向。结合我国周边地缘形势，分析祖国统一面临的机遇，明确我国内外战略与斗争策略，指出坚持 “两个确立”、做到 “两个维护”，是提升国家战略能力、实现民族复兴的思想基石。",
+    "主讲人：张文木",
+    "主讲人简介：",
+    "北京航空航天大学战略问题研究中心研究员，国防科技大学国防科技战略研究智库特邀研究员，中国社会科学院世界社会主义研究中心常务理事。长期关注和研究领域：中国国家安全战略。主要著作有《论中国海权》《中国地缘政治论》《美国的没落》《毛泽东诗词中的战略思想》，诗集《花甲懂事集》等，2020年出版十卷本《张文木战略文集》。",
+    "讲座时间：2026年11月18日星期三19：10-21：00",
+    "讲座地点：兴庆校区教二楼1400",
+    "报名方式：扫描海报中的二维码报名",
+    "欢迎感兴趣的师生现场参加！",
+    "教务处",
+    "2026年11月16日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    }
+   ],
+   "images": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png",
+     "alt": "",
+     "context": "报名方式：扫描海报中的二维码报名"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-16T06:39:08.653290+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://epe.xjtu.edu.cn/info/1483/5726.htm",

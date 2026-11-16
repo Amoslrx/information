@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1273,
+  "count": 1274,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -427,6 +427,110 @@
         "registrationLinks": [],
         "requiredMaterials": [],
         "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+      "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
+      "date": "2026-11-16",
+      "contentHash": "e822f4efc379d93a936f3770d00ee6da76ac7eccbbd20c98bfe3a3c4725587e0",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "e822f4efc379d93a936f3770d00ee6da76ac7eccbbd20c98bfe3a3c4725587e0",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "报名方式：扫描海报中的二维码报名",
+            "raw": "报名方式：扫描海报中的二维码报名",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+            "location": {
+              "type": "body",
+              "start": 519,
+              "end": 535
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [
+          {
+            "value": "https://www.wjx.top/vm/waEBWAM.aspx",
+            "raw": "https://www.wjx.top/vm/waEBWAM.aspx",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "c67447f5f02239ce21dcf3511fb1e8c4a4ec687c2f57f2249d3df653ce713528",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 35
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-18",
+            "raw": "讲座时间：2026年11月18日星期三19：10-21：00",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+            "location": {
+              "type": "body",
+              "start": 471,
+              "end": 501
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-16",
+            "raw": "2026年11月16日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+            "location": {
+              "type": "body",
+              "start": 554,
+              "end": 565
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月16日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
         "contacts": [],
         "groups": [],
         "model": {

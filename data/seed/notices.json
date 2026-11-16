@@ -180,12 +180,12 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2410,
+  "count": 2411,
   "matched_count": 535,
   "competition_related_count": 882,
   "by_site": {
+    "教务处": 524,
     "校团委": 1036,
-    "教务处": 523,
     "能动学院": 69,
     "电气学院": 226,
     "实践教学中心": 401,
@@ -217,6 +217,17 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-16",
+      "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
     {
       "date": "2026-11-13",
       "title": "西安交通大学第38届“腾飞杯”大赛暨 2026年“攀登计划”AI训练营启动",

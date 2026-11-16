@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 69,
+  "count": 70,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -11199,7 +11199,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:27.070098+00:00",
+      "fetchedAt": "2026-11-16T06:39:24.284683+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11251,7 +11251,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:29.672481+00:00",
+      "fetchedAt": "2026-11-16T06:39:27.384875+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11303,7 +11303,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:32.136843+00:00",
+      "fetchedAt": "2026-11-16T06:39:30.719233+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11355,7 +11355,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:34.638313+00:00",
+      "fetchedAt": "2026-11-16T06:39:33.779741+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11407,7 +11407,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:37.140121+00:00",
+      "fetchedAt": "2026-11-16T06:39:37.234133+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -11647,7 +11647,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:39.805739+00:00",
+      "fetchedAt": "2026-11-16T06:39:41.289543+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -11727,7 +11727,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:42.301903+00:00",
+      "fetchedAt": "2026-11-16T06:39:45.637397+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11779,7 +11779,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:46.632008+00:00",
+      "fetchedAt": "2026-11-16T06:39:53.489333+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -11831,7 +11831,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-15T06:41:48.676584+00:00",
+      "fetchedAt": "2026-11-16T06:39:55.806851+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -12273,6 +12273,3042 @@
         "mime": "image/jpeg",
         "format": "image",
         "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261113/53928949-d7dd-4ac8-8028-3501ae9bc1ba.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c67447f5f02239ce21dcf3511fb1e8c4a4ec687c2f57f2249d3df653ce713528",
+      "url": "https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
+      "kind": "image",
+      "name": "",
+      "context": "报名方式：扫描海报中的二维码报名",
+      "noticeBodyHash": "0bd2c4e384618ef9561aeb5358ca775705b8ad16ccb6691bd6b23b7eeedbe182",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-16T06:39:20.348227+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "wFAGAS 通上\n桂朗普新政与中国机遇\n讲座地点 : 兴庆校区教二楼 1400\n主讲人 : 张文本\n北京航空航天大学战略问题研究中心研究\n员 ， 国防科技大学国防科技战略研究智库特\n邀研究员 ， 中国社会科学院世界社会主义研\n帘中心常务理事 。 长期关注和研究领域 : 中\n国国家安全战略 。 主要著作有 《 论中国海权 》\n€ 缘政治论 》《 美国的没落 》《 毛泽\n东诗词中的战略思想 》， 诗集 《 花甲仅事\n集 》 等 ，2020 年出版十卷本 《 张文木战略\n文集 》。\n1.\n本讲座围绕特朗普新政展开分析 ， 梳理其由来 、 主要内容 ， 剖\n析美国政治底层逻辑 。 将特朗普新政视作百年未有之大变局的加速\n器 ， 对比其两任期对外举措 ， 以中东为观察风向标 ， 借鉴苏伊士运河\n事件等历史 ， 研判美国重拾门罗主义等动向 。 结合我国周边地缘形\n势 ， 分析祖国统一面临的机遇 ， 明确我国内外战略与斗争策略 ， 指出\n坚持 “两个确立 ”、 做到 “两个维护 ”， 是提升国家战略能力 、 实现 pried\n复兴的思想基石 。",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/e6789baa2470f0fbf9b671e6b482ffabcc3a4cffad1b0af9c7050ed82299b4d4/image.jpg",
+          "textHash": "d9933ee7078699e1512c69ac7214fbd18b1842dda69f94468ec654720c256695",
+          "previewUrl": "media/4daa36985a1c1310de02181719c1b5a08b5294a51162b56089bcbfecf9365452.jpg"
+        },
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://www.wjx.top/vm/waEBWAM.aspx",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/e6789baa2470f0fbf9b671e6b482ffabcc3a4cffad1b0af9c7050ed82299b4d4/image.jpg",
+          "textHash": "b3a46e43a638e49215828f1c1c427c106d8b3ab974a05d53d61e71ac08c8c184",
+          "previewUrl": "media/4daa36985a1c1310de02181719c1b5a08b5294a51162b56089bcbfecf9365452.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/e6789baa2470f0fbf9b671e6b482ffabcc3a4cffad1b0af9c7050ed82299b4d4/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "wFAGAS 通 上",
+                "words": [
+                  {
+                    "text": "wFAGAS",
+                    "confidence": 0.0,
+                    "bbox": [
+                      103,
+                      34,
+                      142,
+                      44
+                    ]
+                  },
+                  {
+                    "text": "通",
+                    "confidence": 0.8442999299999999,
+                    "bbox": [
+                      270,
+                      37,
+                      45,
+                      37
+                    ]
+                  },
+                  {
+                    "text": "上",
+                    "confidence": 0.2955484,
+                    "bbox": [
+                      298,
+                      23,
+                      19,
+                      59
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "桂 朗 普 新 政 与 中 国 机 遇",
+                "words": [
+                  {
+                    "text": "桂",
+                    "confidence": 0.54252441,
+                    "bbox": [
+                      39,
+                      102,
+                      294,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "朗",
+                    "confidence": 0.90063507,
+                    "bbox": [
+                      112,
+                      98,
+                      49,
+                      69
+                    ]
+                  },
+                  {
+                    "text": "普",
+                    "confidence": 0.9153694900000001,
+                    "bbox": [
+                      160,
+                      98,
+                      57,
+                      69
+                    ]
+                  },
+                  {
+                    "text": "新",
+                    "confidence": 0.93196053,
+                    "bbox": [
+                      216,
+                      98,
+                      52,
+                      69
+                    ]
+                  },
+                  {
+                    "text": "政",
+                    "confidence": 0.88927002,
+                    "bbox": [
+                      267,
+                      98,
+                      62,
+                      69
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.90176849,
+                    "bbox": [
+                      351,
+                      102,
+                      25,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.93264359,
+                    "bbox": [
+                      375,
+                      98,
+                      49,
+                      69
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.8880572499999999,
+                    "bbox": [
+                      423,
+                      102,
+                      50,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "机",
+                    "confidence": 0.9251413700000001,
+                    "bbox": [
+                      474,
+                      102,
+                      40,
+                      50
+                    ]
+                  },
+                  {
+                    "text": "遇",
+                    "confidence": 0.0,
+                    "bbox": [
+                      513,
+                      103,
+                      41,
+                      49
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "讲座 地 点 : 兴 庆 校区 教 二 楼 1400",
+                "words": [
+                  {
+                    "text": "讲座",
+                    "confidence": 0.9620625300000001,
+                    "bbox": [
+                      37,
+                      250,
+                      39,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "地",
+                    "confidence": 0.9698367299999999,
+                    "bbox": [
+                      85,
+                      250,
+                      11,
+                      17
+                    ]
+                  },
+                  {
+                    "text": "点",
+                    "confidence": 0.9326853900000001,
+                    "bbox": [
+                      121,
+                      254,
+                      3,
+                      12
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.84445526,
+                    "bbox": [
+                      123,
+                      246,
+                      8,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "兴",
+                    "confidence": 0.9009144600000001,
+                    "bbox": [
+                      150,
+                      250,
+                      6,
+                      7
+                    ]
+                  },
+                  {
+                    "text": "庆",
+                    "confidence": 0.9056732200000001,
+                    "bbox": [
+                      163,
+                      250,
+                      14,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "校区",
+                    "confidence": 0.93248642,
+                    "bbox": [
+                      185,
+                      250,
+                      31,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "教",
+                    "confidence": 0.9299630000000001,
+                    "bbox": [
+                      227,
+                      250,
+                      22,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "二",
+                    "confidence": 0.96977051,
+                    "bbox": [
+                      249,
+                      246,
+                      18,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "楼",
+                    "confidence": 0.9695562,
+                    "bbox": [
+                      267,
+                      250,
+                      18,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "1400",
+                    "confidence": 0.9163494900000001,
+                    "bbox": [
+                      285,
+                      250,
+                      48,
+                      18
+                    ]
+                  }
+                ],
+                "confidence": 0.84445526
+              },
+              {
+                "text": "主讲 人 : 张 文 本",
+                "words": [
+                  {
+                    "text": "主讲",
+                    "confidence": 0.6887026199999999,
+                    "bbox": [
+                      132,
+                      295,
+                      48,
+                      15
+                    ]
+                  },
+                  {
+                    "text": "人",
+                    "confidence": 0.89096619,
+                    "bbox": [
+                      168,
+                      291,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.7551219899999999,
+                    "bbox": [
+                      177,
+                      291,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "张",
+                    "confidence": 0.66196671,
+                    "bbox": [
+                      193,
+                      295,
+                      45,
+                      15
+                    ]
+                  },
+                  {
+                    "text": "文",
+                    "confidence": 0.9065995,
+                    "bbox": [
+                      215,
+                      291,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "本",
+                    "confidence": 0.94670479,
+                    "bbox": [
+                      229,
+                      291,
+                      13,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.66196671
+              },
+              {
+                "text": "北京 航空 航天 大 学 战略 问题 研究 中 心 研究",
+                "words": [
+                  {
+                    "text": "北京",
+                    "confidence": 0.96382935,
+                    "bbox": [
+                      79,
+                      330,
+                      25,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "航空",
+                    "confidence": 0.8637052900000001,
+                    "bbox": [
+                      110,
+                      329,
+                      30,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "航天",
+                    "confidence": 0.90760155,
+                    "bbox": [
+                      139,
+                      325,
+                      19,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.96952209,
+                    "bbox": [
+                      162,
+                      330,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.96931,
+                    "bbox": [
+                      175,
+                      330,
+                      18,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.9651056699999999,
+                    "bbox": [
+                      192,
+                      325,
+                      20,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "问题",
+                    "confidence": 0.96895882,
+                    "bbox": [
+                      218,
+                      330,
+                      20,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.96673332,
+                    "bbox": [
+                      245,
+                      330,
+                      21,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.91866119,
+                    "bbox": [
+                      271,
+                      329,
+                      11,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "心",
+                    "confidence": 0.9252398700000001,
+                    "bbox": [
+                      284,
+                      330,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.95183838,
+                    "bbox": [
+                      298,
+                      330,
+                      21,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.8637052900000001
+              },
+              {
+                "text": "员 ， 国 防 科技 大 学 国防 科技 战略 研究 智库 特",
+                "words": [
+                  {
+                    "text": "员",
+                    "confidence": 0.90334122,
+                    "bbox": [
+                      52,
+                      350,
+                      18,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92723816,
+                    "bbox": [
+                      69,
+                      345,
+                      14,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.9270668000000001,
+                    "bbox": [
+                      82,
+                      350,
+                      10,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "防",
+                    "confidence": 0.8917524,
+                    "bbox": [
+                      100,
+                      349,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "科技",
+                    "confidence": 0.9535881,
+                    "bbox": [
+                      113,
+                      349,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.96809517,
+                    "bbox": [
+                      142,
+                      349,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.9324445299999999,
+                    "bbox": [
+                      155,
+                      350,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "国防",
+                    "confidence": 0.9689244100000001,
+                    "bbox": [
+                      169,
+                      349,
+                      23,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "科技",
+                    "confidence": 0.96952843,
+                    "bbox": [
+                      197,
+                      349,
+                      32,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.96828209,
+                    "bbox": [
+                      228,
+                      345,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.96708534,
+                    "bbox": [
+                      256,
+                      349,
+                      30,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "智库",
+                    "confidence": 0.9234937999999999,
+                    "bbox": [
+                      285,
+                      345,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "特",
+                    "confidence": 0.93194092,
+                    "bbox": [
+                      311,
+                      349,
+                      8,
+                      13
+                    ]
+                  }
+                ],
+                "confidence": 0.8917524
+              },
+              {
+                "text": "邀 研究 员 ， 中 国 社会 科学 院 世界 社会 主义 研",
+                "words": [
+                  {
+                    "text": "邀",
+                    "confidence": 0.52650944,
+                    "bbox": [
+                      52,
+                      369,
+                      21,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.93215179,
+                    "bbox": [
+                      72,
+                      365,
+                      30,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "员",
+                    "confidence": 0.93038284,
+                    "bbox": [
+                      111,
+                      378,
+                      2,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93085846,
+                    "bbox": [
+                      113,
+                      365,
+                      12,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.9254270200000001,
+                    "bbox": [
+                      124,
+                      369,
+                      11,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.9287361900000001,
+                    "bbox": [
+                      140,
+                      370,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "社会",
+                    "confidence": 0.96427094,
+                    "bbox": [
+                      156,
+                      365,
+                      29,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "科学",
+                    "confidence": 0.92687408,
+                    "bbox": [
+                      184,
+                      369,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "院",
+                    "confidence": 0.9327806099999999,
+                    "bbox": [
+                      213,
+                      369,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "世界",
+                    "confidence": 0.9692076900000001,
+                    "bbox": [
+                      226,
+                      369,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "社会",
+                    "confidence": 0.96737083,
+                    "bbox": [
+                      256,
+                      369,
+                      30,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "主义",
+                    "confidence": 0.9294414500000001,
+                    "bbox": [
+                      285,
+                      365,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.931017,
+                    "bbox": [
+                      311,
+                      370,
+                      8,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.52650944
+              },
+              {
+                "text": "帘 中 心 常务 理事 。 长 期 关注 和 研究 领域 : 中",
+                "words": [
+                  {
+                    "text": "帘",
+                    "confidence": 0.43690739,
+                    "bbox": [
+                      53,
+                      389,
+                      12,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.6527825199999999,
+                    "bbox": [
+                      68,
+                      389,
+                      15,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "心",
+                    "confidence": 0.93167,
+                    "bbox": [
+                      84,
+                      389,
+                      19,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "常务",
+                    "confidence": 0.9585067700000001,
+                    "bbox": [
+                      102,
+                      385,
+                      19,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "理事",
+                    "confidence": 0.92883987,
+                    "bbox": [
+                      128,
+                      385,
+                      27,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.92294319,
+                    "bbox": [
+                      154,
+                      397,
+                      3,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "长",
+                    "confidence": 0.9303373,
+                    "bbox": [
+                      169,
+                      389,
+                      19,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "期",
+                    "confidence": 0.96928734,
+                    "bbox": [
+                      194,
+                      389,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "关注",
+                    "confidence": 0.9648845699999999,
+                    "bbox": [
+                      208,
+                      389,
+                      12,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "和",
+                    "confidence": 0.96953262,
+                    "bbox": [
+                      226,
+                      390,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "研究",
+                    "confidence": 0.96734138,
+                    "bbox": [
+                      239,
+                      389,
+                      24,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "领域",
+                    "confidence": 0.9202735900000001,
+                    "bbox": [
+                      270,
+                      389,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.93102127,
+                    "bbox": [
+                      297,
+                      385,
+                      8,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.96171059,
+                    "bbox": [
+                      307,
+                      389,
+                      12,
+                      13
+                    ]
+                  }
+                ],
+                "confidence": 0.43690739
+              },
+              {
+                "text": "国 国家 安全 战略 。 主 要 著作 有 《 论 中 国 海 权 》",
+                "words": [
+                  {
+                    "text": "国",
+                    "confidence": 0.9310127300000001,
+                    "bbox": [
+                      53,
+                      410,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "国家",
+                    "confidence": 0.96713379,
+                    "bbox": [
+                      71,
+                      405,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "安全",
+                    "confidence": 0.96252861,
+                    "bbox": [
+                      97,
+                      409,
+                      21,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.9293273200000001,
+                    "bbox": [
+                      125,
+                      409,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.93257515,
+                    "bbox": [
+                      153,
+                      405,
+                      10,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "主",
+                    "confidence": 0.93093941,
+                    "bbox": [
+                      162,
+                      409,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "要",
+                    "confidence": 0.96714737,
+                    "bbox": [
+                      177,
+                      410,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "著作",
+                    "confidence": 0.9534246799999999,
+                    "bbox": [
+                      187,
+                      409,
+                      39,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "有",
+                    "confidence": 0.93299805,
+                    "bbox": [
+                      218,
+                      405,
+                      10,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "《",
+                    "confidence": 0.37514172,
+                    "bbox": [
+                      232,
+                      409,
+                      5,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "论",
+                    "confidence": 0.92057213,
+                    "bbox": [
+                      242,
+                      409,
+                      10,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.92030632,
+                    "bbox": [
+                      258,
+                      409,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.9303173800000001,
+                    "bbox": [
+                      271,
+                      409,
+                      16,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "海",
+                    "confidence": 0.93239662,
+                    "bbox": [
+                      293,
+                      409,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "权",
+                    "confidence": 0.85028801,
+                    "bbox": [
+                      299,
+                      405,
+                      9,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "》",
+                    "confidence": 0.7238565800000001,
+                    "bbox": [
+                      309,
+                      409,
+                      5,
+                      13
+                    ]
+                  }
+                ],
+                "confidence": 0.37514172
+              },
+              {
+                "text": "€ 缘 政治 论 》《 美国 的 没落 》《 毛 泽",
+                "words": [
+                  {
+                    "text": "€",
+                    "confidence": 0.11425637999999999,
+                    "bbox": [
+                      57,
+                      429,
+                      6,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "缘",
+                    "confidence": 0.6064303600000001,
+                    "bbox": [
+                      107,
+                      429,
+                      12,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "政治",
+                    "confidence": 0.93277451,
+                    "bbox": [
+                      125,
+                      429,
+                      30,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "论",
+                    "confidence": 0.92896271,
+                    "bbox": [
+                      164,
+                      429,
+                      3,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "》《",
+                    "confidence": 0.47004199999999996,
+                    "bbox": [
+                      166,
+                      425,
+                      19,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "美国",
+                    "confidence": 0.80893463,
+                    "bbox": [
+                      190,
+                      429,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96969521,
+                    "bbox": [
+                      224,
+                      425,
+                      16,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "没落",
+                    "confidence": 0.92752907,
+                    "bbox": [
+                      237,
+                      429,
+                      34,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "》《",
+                    "confidence": 0.37664825,
+                    "bbox": [
+                      267,
+                      425,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "毛",
+                    "confidence": 0.37664825,
+                    "bbox": [
+                      292,
+                      430,
+                      27,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "泽",
+                    "confidence": 0.92021629,
+                    "bbox": [
+                      311,
+                      425,
+                      12,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.11425637999999999
+              },
+              {
+                "text": "东 诗词 中 的 战略 思想 》， 诗 集 《 花甲 仅 事",
+                "words": [
+                  {
+                    "text": "东",
+                    "confidence": 0.9164589700000001,
+                    "bbox": [
+                      52,
+                      449,
+                      13,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "诗词",
+                    "confidence": 0.74674744,
+                    "bbox": [
+                      69,
+                      449,
+                      35,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.96458038,
+                    "bbox": [
+                      103,
+                      444,
+                      15,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.9696431699999999,
+                    "bbox": [
+                      117,
+                      449,
+                      18,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.9681823,
+                    "bbox": [
+                      143,
+                      444,
+                      20,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "思想",
+                    "confidence": 0.93101776,
+                    "bbox": [
+                      162,
+                      448,
+                      32,
+                      14
+                    ]
+                  },
+                  {
+                    "text": "》，",
+                    "confidence": 0.7537312300000001,
+                    "bbox": [
+                      204,
+                      457,
+                      2,
+                      5
+                    ]
+                  },
+                  {
+                    "text": "诗",
+                    "confidence": 0.93027901,
+                    "bbox": [
+                      217,
+                      449,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "集",
+                    "confidence": 0.9285253899999999,
+                    "bbox": [
+                      238,
+                      444,
+                      15,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "《",
+                    "confidence": 0.88630875,
+                    "bbox": [
+                      252,
+                      449,
+                      5,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "花甲",
+                    "confidence": 0.9327426099999999,
+                    "bbox": [
+                      262,
+                      449,
+                      57,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "仅",
+                    "confidence": 0.0,
+                    "bbox": [
+                      297,
+                      444,
+                      13,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "事",
+                    "confidence": 0.87967621,
+                    "bbox": [
+                      309,
+                      444,
+                      15,
+                      27
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "集 》 等 ，2020 年 出 版 十 卷 本 《 张 文 木 战略",
+                "words": [
+                  {
+                    "text": "集",
+                    "confidence": 0.9212028499999999,
+                    "bbox": [
+                      52,
+                      468,
+                      22,
+                      14
+                    ]
+                  },
+                  {
+                    "text": "》",
+                    "confidence": 0.70329033,
+                    "bbox": [
+                      70,
+                      464,
+                      6,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "等",
+                    "confidence": 0.93033974,
+                    "bbox": [
+                      81,
+                      469,
+                      19,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，2020",
+                    "confidence": 0.91584267,
+                    "bbox": [
+                      110,
+                      469,
+                      122,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "年",
+                    "confidence": 0.9299361399999999,
+                    "bbox": [
+                      152,
+                      464,
+                      17,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "出",
+                    "confidence": 0.96872452,
+                    "bbox": [
+                      168,
+                      464,
+                      15,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "版",
+                    "confidence": 0.96955788,
+                    "bbox": [
+                      182,
+                      464,
+                      18,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "十",
+                    "confidence": 0.90680222,
+                    "bbox": [
+                      199,
+                      464,
+                      15,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "卷",
+                    "confidence": 0.88286713,
+                    "bbox": [
+                      213,
+                      464,
+                      14,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "本",
+                    "confidence": 0.92503052,
+                    "bbox": [
+                      226,
+                      464,
+                      13,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "《",
+                    "confidence": 0.9176889799999999,
+                    "bbox": [
+                      239,
+                      469,
+                      6,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "张",
+                    "confidence": 0.90632248,
+                    "bbox": [
+                      249,
+                      469,
+                      70,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "文",
+                    "confidence": 0.91875458,
+                    "bbox": [
+                      272,
+                      464,
+                      15,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "木",
+                    "confidence": 0.70128296,
+                    "bbox": [
+                      286,
+                      464,
+                      14,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.96079552,
+                    "bbox": [
+                      299,
+                      464,
+                      24,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.70128296
+              },
+              {
+                "text": "文集 》。",
+                "words": [
+                  {
+                    "text": "文集",
+                    "confidence": 0.93227142,
+                    "bbox": [
+                      52,
+                      488,
+                      36,
+                      14
+                    ]
+                  },
+                  {
+                    "text": "》。",
+                    "confidence": 0.80991966,
+                    "bbox": [
+                      96,
+                      497,
+                      4,
+                      4
+                    ]
+                  }
+                ],
+                "confidence": 0.80991966
+              },
+              {
+                "text": "1.",
+                "words": [
+                  {
+                    "text": "1.",
+                    "confidence": 0.14316673,
+                    "bbox": [
+                      200,
+                      582,
+                      125,
+                      15
+                    ]
+                  }
+                ],
+                "confidence": 0.14316673
+              },
+              {
+                "text": "本 讲座 围绕 特 朗 普 新 政 展开 分 析 ， 梳 理 其 由 来 、 主 要 内 容 ， 剖",
+                "words": [
+                  {
+                    "text": "本",
+                    "confidence": 0.96412437,
+                    "bbox": [
+                      66,
+                      612,
+                      13,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "讲座",
+                    "confidence": 0.96809395,
+                    "bbox": [
+                      83,
+                      612,
+                      24,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "围绕",
+                    "confidence": 0.93201431,
+                    "bbox": [
+                      113,
+                      612,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "特",
+                    "confidence": 0.93221634,
+                    "bbox": [
+                      141,
+                      612,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "朗",
+                    "confidence": 0.87309578,
+                    "bbox": [
+                      155,
+                      612,
+                      7,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "普",
+                    "confidence": 0.9123865499999999,
+                    "bbox": [
+                      169,
+                      612,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "新",
+                    "confidence": 0.93169044,
+                    "bbox": [
+                      183,
+                      612,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "政",
+                    "confidence": 0.93260735,
+                    "bbox": [
+                      197,
+                      612,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "展开",
+                    "confidence": 0.9674310300000001,
+                    "bbox": [
+                      212,
+                      612,
+                      21,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "分",
+                    "confidence": 0.9327034000000001,
+                    "bbox": [
+                      238,
+                      612,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "析",
+                    "confidence": 0.92310143,
+                    "bbox": [
+                      252,
+                      612,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92889297,
+                    "bbox": [
+                      264,
+                      620,
+                      2,
+                      5
+                    ]
+                  },
+                  {
+                    "text": "梳",
+                    "confidence": 0.92767639,
+                    "bbox": [
+                      277,
+                      612,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "理",
+                    "confidence": 0.93279388,
+                    "bbox": [
+                      294,
+                      612,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "其",
+                    "confidence": 0.92149529,
+                    "bbox": [
+                      308,
+                      612,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "由",
+                    "confidence": 0.96772903,
+                    "bbox": [
+                      319,
+                      612,
+                      32,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "来",
+                    "confidence": 0.9288690900000001,
+                    "bbox": [
+                      340,
+                      608,
+                      15,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.9293483,
+                    "bbox": [
+                      354,
+                      608,
+                      10,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "主",
+                    "confidence": 0.93025841,
+                    "bbox": [
+                      363,
+                      612,
+                      10,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "要",
+                    "confidence": 0.96929031,
+                    "bbox": [
+                      377,
+                      612,
+                      10,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "内",
+                    "confidence": 0.9330409199999999,
+                    "bbox": [
+                      391,
+                      612,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "容",
+                    "confidence": 0.93079597,
+                    "bbox": [
+                      405,
+                      612,
+                      15,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.8978643,
+                    "bbox": [
+                      419,
+                      608,
+                      14,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "剖",
+                    "confidence": 0.25673088,
+                    "bbox": [
+                      430,
+                      612,
+                      12,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.25673088
+              },
+              {
+                "text": "析 美 国政 治 底层 逻辑 。 将 特 朗 普 新 政 视 作 百年 未 有 之 大 变局 的 加 速",
+                "words": [
+                  {
+                    "text": "析",
+                    "confidence": 0.92357254,
+                    "bbox": [
+                      39,
+                      631,
+                      13,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "美",
+                    "confidence": 0.90559959,
+                    "bbox": [
+                      58,
+                      631,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "国政",
+                    "confidence": 0.93172241,
+                    "bbox": [
+                      74,
+                      627,
+                      26,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "治",
+                    "confidence": 0.93224815,
+                    "bbox": [
+                      102,
+                      631,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "底层",
+                    "confidence": 0.9613551300000001,
+                    "bbox": [
+                      116,
+                      631,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "逻辑",
+                    "confidence": 0.52887726,
+                    "bbox": [
+                      144,
+                      631,
+                      29,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.9324675,
+                    "bbox": [
+                      172,
+                      627,
+                      13,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "将",
+                    "confidence": 0.90271744,
+                    "bbox": [
+                      185,
+                      631,
+                      10,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "特",
+                    "confidence": 0.9309590900000001,
+                    "bbox": [
+                      200,
+                      631,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "朗",
+                    "confidence": 0.68903549,
+                    "bbox": [
+                      216,
+                      631,
+                      7,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "普",
+                    "confidence": 0.92503304,
+                    "bbox": [
+                      230,
+                      631,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "新",
+                    "confidence": 0.93258842,
+                    "bbox": [
+                      244,
+                      631,
+                      16,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "政",
+                    "confidence": 0.92728561,
+                    "bbox": [
+                      260,
+                      627,
+                      13,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "视",
+                    "confidence": 0.9252201800000001,
+                    "bbox": [
+                      272,
+                      631,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "作",
+                    "confidence": 0.93209221,
+                    "bbox": [
+                      285,
+                      631,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "百年",
+                    "confidence": 0.95843987,
+                    "bbox": [
+                      297,
+                      631,
+                      34,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "未",
+                    "confidence": 0.8899292,
+                    "bbox": [
+                      330,
+                      627,
+                      10,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "有",
+                    "confidence": 0.96973053,
+                    "bbox": [
+                      339,
+                      631,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "之",
+                    "confidence": 0.9691091900000001,
+                    "bbox": [
+                      352,
+                      631,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.96584251,
+                    "bbox": [
+                      366,
+                      631,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "变局",
+                    "confidence": 0.96842178,
+                    "bbox": [
+                      380,
+                      631,
+                      21,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.9679560100000001,
+                    "bbox": [
+                      408,
+                      631,
+                      15,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "加",
+                    "confidence": 0.93279076,
+                    "bbox": [
+                      422,
+                      627,
+                      13,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "速",
+                    "confidence": 0.67965439,
+                    "bbox": [
+                      435,
+                      631,
+                      8,
+                      12
+                    ]
+                  }
+                ],
+                "confidence": 0.52887726
+              },
+              {
+                "text": "器 ， 对 比 其 两 任期 对 外 举措 ， 以 中 东 为 观察 风向 标 ， 借 鉴 苏伊士 运河",
+                "words": [
+                  {
+                    "text": "器",
+                    "confidence": 0.9314366900000001,
+                    "bbox": [
+                      39,
+                      651,
+                      18,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92263596,
+                    "bbox": [
+                      57,
+                      646,
+                      11,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "对",
+                    "confidence": 0.93233597,
+                    "bbox": [
+                      67,
+                      650,
+                      16,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "比",
+                    "confidence": 0.86199989,
+                    "bbox": [
+                      86,
+                      650,
+                      6,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "其",
+                    "confidence": 0.9178445399999999,
+                    "bbox": [
+                      98,
+                      650,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "两",
+                    "confidence": 0.96922356,
+                    "bbox": [
+                      113,
+                      651,
+                      6,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "任期",
+                    "confidence": 0.9505274199999999,
+                    "bbox": [
+                      126,
+                      650,
+                      28,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "对",
+                    "confidence": 0.96617226,
+                    "bbox": [
+                      160,
+                      650,
+                      5,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "外",
+                    "confidence": 0.96938835,
+                    "bbox": [
+                      168,
+                      650,
+                      5,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "举措",
+                    "confidence": 0.93292343,
+                    "bbox": [
+                      178,
+                      650,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93090599,
+                    "bbox": [
+                      215,
+                      651,
+                      4,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "以",
+                    "confidence": 0.93187431,
+                    "bbox": [
+                      219,
+                      650,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.9159242999999999,
+                    "bbox": [
+                      233,
+                      650,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "东",
+                    "confidence": 0.9289606499999999,
+                    "bbox": [
+                      244,
+                      650,
+                      10,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "为",
+                    "confidence": 0.91243904,
+                    "bbox": [
+                      259,
+                      650,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "观察",
+                    "confidence": 0.96710747,
+                    "bbox": [
+                      273,
+                      650,
+                      29,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "风向",
+                    "confidence": 0.93263634,
+                    "bbox": [
+                      301,
+                      646,
+                      29,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "标",
+                    "confidence": 0.93029495,
+                    "bbox": [
+                      337,
+                      659,
+                      3,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93151573,
+                    "bbox": [
+                      340,
+                      646,
+                      12,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "借",
+                    "confidence": 0.9201014700000001,
+                    "bbox": [
+                      351,
+                      650,
+                      19,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "鉴",
+                    "confidence": 0.8944768500000001,
+                    "bbox": [
+                      376,
+                      650,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "苏伊士",
+                    "confidence": 0.94539513,
+                    "bbox": [
+                      382,
+                      650,
+                      61,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "运河",
+                    "confidence": 0.96632942,
+                    "bbox": [
+                      421,
+                      646,
+                      26,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.86199989
+              },
+              {
+                "text": "事件 等 历史 ， 研 判 美国 重 拾 门 罗 主 义 等 动向 。 结 合 我 国 周边 地 缘 形",
+                "words": [
+                  {
+                    "text": "事件",
+                    "confidence": 0.93360062,
+                    "bbox": [
+                      39,
+                      669,
+                      74,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "等",
+                    "confidence": 0.96959969,
+                    "bbox": [
+                      74,
+                      665,
+                      15,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "历史",
+                    "confidence": 0.92889252,
+                    "bbox": [
+                      88,
+                      669,
+                      25,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.9303424800000001,
+                    "bbox": [
+                      113,
+                      665,
+                      13,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "研",
+                    "confidence": 0.9257601200000001,
+                    "bbox": [
+                      126,
+                      669,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "判",
+                    "confidence": 0.9220970900000001,
+                    "bbox": [
+                      145,
+                      669,
+                      4,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "美国",
+                    "confidence": 0.93290047,
+                    "bbox": [
+                      156,
+                      669,
+                      21,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "重",
+                    "confidence": 0.9270372,
+                    "bbox": [
+                      184,
+                      669,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "拾",
+                    "confidence": 0.26585136,
+                    "bbox": [
+                      207,
+                      669,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "门",
+                    "confidence": 0.9225363900000001,
+                    "bbox": [
+                      213,
+                      665,
+                      13,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "罗",
+                    "confidence": 0.89399895,
+                    "bbox": [
+                      225,
+                      670,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "主",
+                    "confidence": 0.92104736,
+                    "bbox": [
+                      238,
+                      669,
+                      9,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "义",
+                    "confidence": 0.9304244199999999,
+                    "bbox": [
+                      254,
+                      669,
+                      15,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "等",
+                    "confidence": 0.96772491,
+                    "bbox": [
+                      276,
+                      669,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "动向",
+                    "confidence": 0.93263222,
+                    "bbox": [
+                      291,
+                      669,
+                      19,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.92943405,
+                    "bbox": [
+                      309,
+                      665,
+                      14,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "结",
+                    "confidence": 0.9165040600000001,
+                    "bbox": [
+                      322,
+                      669,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "合",
+                    "confidence": 0.93021652,
+                    "bbox": [
+                      337,
+                      669,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "我",
+                    "confidence": 0.9304686,
+                    "bbox": [
+                      361,
+                      670,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.93291077,
+                    "bbox": [
+                      374,
+                      670,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "周边",
+                    "confidence": 0.65010841,
+                    "bbox": [
+                      388,
+                      665,
+                      20,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "地",
+                    "confidence": 0.932659,
+                    "bbox": [
+                      407,
+                      669,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "缘",
+                    "confidence": 0.0,
+                    "bbox": [
+                      420,
+                      669,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.78861641,
+                    "bbox": [
+                      433,
+                      669,
+                      10,
+                      13
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "势 ， 分 析 祖国 统一 面临 的 机 遇 ， 明 确 我 国内 外 战略 与 斗争 策略 ， 指 出",
+                "words": [
+                  {
+                    "text": "势",
+                    "confidence": 0.83779236,
+                    "bbox": [
+                      39,
+                      688,
+                      18,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.90850044,
+                    "bbox": [
+                      59,
+                      684,
+                      11,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "分",
+                    "confidence": 0.904132,
+                    "bbox": [
+                      69,
+                      688,
+                      11,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "析",
+                    "confidence": 0.93243484,
+                    "bbox": [
+                      83,
+                      688,
+                      11,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "祖国",
+                    "confidence": 0.9622823300000001,
+                    "bbox": [
+                      98,
+                      688,
+                      21,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "统一",
+                    "confidence": 0.9658255800000001,
+                    "bbox": [
+                      127,
+                      684,
+                      21,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "面临",
+                    "confidence": 0.95969971,
+                    "bbox": [
+                      148,
+                      689,
+                      71,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96634964,
+                    "bbox": [
+                      182,
+                      684,
+                      13,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "机",
+                    "confidence": 0.93249092,
+                    "bbox": [
+                      194,
+                      684,
+                      12,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "遇",
+                    "confidence": 0.8609397900000001,
+                    "bbox": [
+                      205,
+                      684,
+                      14,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.93046852,
+                    "bbox": [
+                      218,
+                      684,
+                      12,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "明",
+                    "confidence": 0.91607201,
+                    "bbox": [
+                      230,
+                      689,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "确",
+                    "confidence": 0.16001635,
+                    "bbox": [
+                      246,
+                      688,
+                      15,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "我",
+                    "confidence": 0.92515152,
+                    "bbox": [
+                      270,
+                      689,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "国内",
+                    "confidence": 0.9688777199999999,
+                    "bbox": [
+                      277,
+                      684,
+                      17,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "外",
+                    "confidence": 0.96989792,
+                    "bbox": [
+                      299,
+                      688,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.96688316,
+                    "bbox": [
+                      314,
+                      688,
+                      29,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.9468091599999999,
+                    "bbox": [
+                      350,
+                      689,
+                      7,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "斗争",
+                    "confidence": 0.65750214,
+                    "bbox": [
+                      356,
+                      684,
+                      27,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "策略",
+                    "confidence": 0.9324960299999999,
+                    "bbox": [
+                      390,
+                      688,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.92883118,
+                    "bbox": [
+                      408,
+                      684,
+                      13,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "指",
+                    "confidence": 0.92409904,
+                    "bbox": [
+                      416,
+                      688,
+                      26,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "出",
+                    "confidence": 0.9605497,
+                    "bbox": [
+                      434,
+                      684,
+                      13,
+                      26
+                    ]
+                  }
+                ],
+                "confidence": 0.16001635
+              },
+              {
+                "text": "坚持 “两 个 确立 ”、 做 到 “两 个 维护 ”， 是 提升 国家 战略 能 力 、 实 现 pried",
+                "words": [
+                  {
+                    "text": "坚持",
+                    "confidence": 0.9630404699999999,
+                    "bbox": [
+                      39,
+                      708,
+                      27,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "“两",
+                    "confidence": 0.9646834599999999,
+                    "bbox": [
+                      73,
+                      707,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "个",
+                    "confidence": 0.96957275,
+                    "bbox": [
+                      107,
+                      708,
+                      7,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "确立",
+                    "confidence": 0.93120522,
+                    "bbox": [
+                      134,
+                      707,
+                      5,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "”、",
+                    "confidence": 0.91640144,
+                    "bbox": [
+                      149,
+                      716,
+                      3,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "做",
+                    "confidence": 0.9161300699999999,
+                    "bbox": [
+                      160,
+                      707,
+                      26,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "到",
+                    "confidence": 0.96761459,
+                    "bbox": [
+                      180,
+                      703,
+                      12,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "“两",
+                    "confidence": 0.95617249,
+                    "bbox": [
+                      195,
+                      707,
+                      65,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "个",
+                    "confidence": 0.96719025,
+                    "bbox": [
+                      220,
+                      703,
+                      14,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "维护",
+                    "confidence": 0.90907135,
+                    "bbox": [
+                      233,
+                      707,
+                      27,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "”，",
+                    "confidence": 0.9217700999999999,
+                    "bbox": [
+                      270,
+                      716,
+                      2,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "是",
+                    "confidence": 0.90731598,
+                    "bbox": [
+                      283,
+                      708,
+                      11,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "提升",
+                    "confidence": 0.96169907,
+                    "bbox": [
+                      299,
+                      708,
+                      30,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "国家",
+                    "confidence": 0.96406059,
+                    "bbox": [
+                      328,
+                      703,
+                      28,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "战略",
+                    "confidence": 0.9201334400000001,
+                    "bbox": [
+                      355,
+                      703,
+                      20,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "能",
+                    "confidence": 0.93120216,
+                    "bbox": [
+                      381,
+                      707,
+                      17,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "力",
+                    "confidence": 0.92913574,
+                    "bbox": [
+                      405,
+                      716,
+                      3,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.93210213,
+                    "bbox": [
+                      408,
+                      703,
+                      12,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.9281826,
+                    "bbox": [
+                      417,
+                      708,
+                      26,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "现",
+                    "confidence": 0.9277065299999999,
+                    "bbox": [
+                      435,
+                      703,
+                      11,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "pried",
+                    "confidence": 0.33389083999999997,
+                    "bbox": [
+                      483,
+                      693,
+                      50,
+                      25
+                    ]
+                  }
+                ],
+                "confidence": 0.33389083999999997
+              },
+              {
+                "text": "复兴 的 思想 基石 。",
+                "words": [
+                  {
+                    "text": "复兴",
+                    "confidence": 0.73875763,
+                    "bbox": [
+                      66,
+                      727,
+                      98,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "的",
+                    "confidence": 0.96929092,
+                    "bbox": [
+                      96,
+                      723,
+                      14,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "思想",
+                    "confidence": 0.96849129,
+                    "bbox": [
+                      110,
+                      723,
+                      27,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "基石",
+                    "confidence": 0.93136703,
+                    "bbox": [
+                      137,
+                      723,
+                      26,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.90535301,
+                    "bbox": [
+                      162,
+                      723,
+                      5,
+                      24
+                    ]
+                  }
+                ],
+                "confidence": 0.73875763
+              }
+            ],
+            "text": "wFAGAS 通上\n桂朗普新政与中国机遇\n讲座地点 : 兴庆校区教二楼 1400\n主讲人 : 张文本\n北京航空航天大学战略问题研究中心研究\n员 ， 国防科技大学国防科技战略研究智库特\n邀研究员 ， 中国社会科学院世界社会主义研\n帘中心常务理事 。 长期关注和研究领域 : 中\n国国家安全战略 。 主要著作有 《 论中国海权 》\n€ 缘政治论 》《 美国的没落 》《 毛泽\n东诗词中的战略思想 》， 诗集 《 花甲仅事\n集 》 等 ，2020 年出版十卷本 《 张文木战略\n文集 》。\n1.\n本讲座围绕特朗普新政展开分析 ， 梳理其由来 、 主要内容 ， 剖\n析美国政治底层逻辑 。 将特朗普新政视作百年未有之大变局的加速\n器 ， 对比其两任期对外举措 ， 以中东为观察风向标 ， 借鉴苏伊士运河\n事件等历史 ， 研判美国重拾门罗主义等动向 。 结合我国周边地缘形\n势 ， 分析祖国统一面临的机遇 ， 明确我国内外战略与斗争策略 ， 指出\n坚持 “两个确立 ”、 做到 “两个维护 ”， 是提升国家战略能力 、 实现 pried\n复兴的思想基石 。",
+            "normalization": "join_cjk_word_spaces",
+            "width": 589,
+            "height": 782
+          },
+          "qr": [
+            {
+              "text": "https://www.wjx.top/vm/waEBWAM.aspx",
+              "format": "QR Code",
+              "position": "468x619 550x619 550x701 468x701"
+            }
+          ],
+          "previewUrl": "media/4daa36985a1c1310de02181719c1b5a08b5294a51162b56089bcbfecf9365452.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/e6789baa2470f0fbf9b671e6b482ffabcc3a4cffad1b0af9c7050ed82299b4d4.img",
+        "sha256": "e6789baa2470f0fbf9b671e6b482ffabcc3a4cffad1b0af9c7050ed82299b4d4",
+        "bytes": 536335,
+        "filename": "68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png"
       },
       "pageCount": null,
       "truncated": false,
