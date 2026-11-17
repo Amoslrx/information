@@ -9,8 +9,28 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
-    "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
+    "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+    "title": "关于思源学堂2.0平台升级暂停服务的通知",
+    "priority": null
+   },
+   {
+    "url": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+    "title": "2026-2027学年第一学期2025级本科生​“形势与政策”开课、选课通知",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+    "title": "关于开展2026年度“玉峰科创资助金”学生科创团队资助申报的通知",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+    "title": "开讲了！2026年陕西省青年志愿服务公开课（第二期）正式上线！",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+    "title": "团建 · 星航 | 聚青年微光，启星航新章——2026年“星航新干”培训班开班仪式顺利举行",
     "priority": null
    },
    {
@@ -95,19 +115,19 @@
    }
   ],
   "byStatus": {
-   "success": 1,
+   "success": 5,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1258,
+  "success": 1263,
   "empty": 1,
   "failed": 15
  },
- "count": 1274,
- "withBody": 1258,
+ "count": 1279,
+ "withBody": 1263,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -115,7 +135,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-16T06:39:16.266031+00:00",
+   "fetchedAt": "2026-11-17T08:03:42.111433+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -136,11 +156,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:57.474308+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -165,9 +180,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:16.266031+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:42.111433+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -175,7 +195,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-16T06:39:16.135680+00:00",
+   "fetchedAt": "2026-11-17T08:03:40.782410+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -196,11 +216,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-11T06:34:54.353708+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -225,9 +240,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-16T06:39:16.135680+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-17T08:03:40.782410+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -235,7 +255,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:14.860688+00:00",
+   "fetchedAt": "2026-11-17T08:03:40.590850+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -256,11 +276,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:54.335812+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -285,9 +300,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:14.860688+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:40.590850+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -295,7 +315,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:14.256450+00:00",
+   "fetchedAt": "2026-11-17T08:03:39.523879+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -316,11 +336,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:53.706408+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -345,9 +360,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:14.256450+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:39.523879+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -355,7 +375,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:14.084932+00:00",
+   "fetchedAt": "2026-11-17T08:03:37.643779+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -376,11 +396,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:51.773287+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -405,9 +420,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:14.084932+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:37.643779+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -415,7 +435,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:13.080314+00:00",
+   "fetchedAt": "2026-11-17T08:03:36.807072+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -436,11 +456,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:51.407694+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -465,9 +480,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:13.080314+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:36.807072+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -475,7 +495,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:12.446904+00:00",
+   "fetchedAt": "2026-11-17T08:03:36.486705+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -496,11 +516,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:51.004678+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -525,9 +540,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:12.446904+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:36.486705+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -535,7 +555,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-16T06:39:11.960754+00:00",
+   "fetchedAt": "2026-11-17T08:03:35.509201+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -556,11 +576,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:49.273483+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -585,9 +600,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:11.960754+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:35.509201+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -595,7 +615,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-16T06:39:11.682576+00:00",
+   "fetchedAt": "2026-11-17T08:03:35.413902+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -616,11 +636,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:49.139468+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -645,9 +660,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:11.682576+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:35.413902+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -655,7 +675,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-16T06:39:11.069102+00:00",
+   "fetchedAt": "2026-11-17T08:03:35.065896+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -676,11 +696,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-11T06:34:48.873478+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -705,9 +720,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-16T06:39:11.069102+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-17T08:03:35.065896+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -715,7 +735,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-16T06:39:11.065650+00:00",
+   "fetchedAt": "2026-11-17T08:03:34.995412+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -736,11 +756,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:48.637508+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -765,9 +780,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:11.065650+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:34.995412+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -775,7 +795,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-16T06:39:10.135420+00:00",
+   "fetchedAt": "2026-11-17T08:03:34.396024+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -796,11 +816,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:48.216254+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -825,9 +840,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:10.135420+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:34.396024+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -835,7 +855,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-16T06:39:09.863216+00:00",
+   "fetchedAt": "2026-11-17T08:03:34.186850+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -856,11 +876,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-11T06:34:47.648522+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -885,9 +900,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-16T06:39:09.863216+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-17T08:03:34.186850+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -895,7 +915,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-16T06:39:08.655017+00:00",
+   "fetchedAt": "2026-11-17T08:03:33.947077+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -916,11 +936,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:46.056573+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -945,9 +960,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:08.655017+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:33.947077+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -955,7 +975,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-16T06:39:08.654558+00:00",
+   "fetchedAt": "2026-11-17T08:03:33.403988+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -976,11 +996,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:46.056015+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1005,9 +1020,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:08.654558+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:33.403988+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1015,7 +1035,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-16T06:39:08.654165+00:00",
+   "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1036,11 +1056,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-11T06:34:46.055514+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1065,9 +1080,1139 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-16T06:39:08.654165+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-17T08:03:32.554865+00:00"
     }
    ],
-   "totalAttempts": 12
+   "totalAttempts": 13
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+   "title": "团建 · 星航 | 聚青年微光，启星航新章——2026年“星航新干”培训班开班仪式顺利举行",
+   "site": "校团委",
+   "date": "2026-11-12",
+   "source": "https://mp.weixin.qq.com/s/IGApSbtiSJZELXZQbgYnIA",
+   "fetchedAt": "2026-11-17T08:03:32.126106+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+   "contentParserVersion": 2,
+   "body": "图1 “星航新干”培训班开班仪式现场\n为引导我校团员青年听党话、跟党走，进一步提升“星航计划”实践育人成效，11月8日晚，西安交通大学2026年“星航新干”培训班开班仪式在兴庆校区宪梓堂举行。校团委副书记石杨根、孟浩出席活动，来自11个书院及各团学组织的900余名学员、培训班各班班主任、助教同学参加活动，共同开启成长新征程。\n开班仪式 扬帆起航\n图2 全体同学齐唱国歌\n仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。\n图3 主任团成员张靖宜介绍本期培训班概况\n团组织建设指导中心主任团成员张靖宜向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块，希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。\n图4 孟浩老师发表指导讲话\n孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。\n图5、6 学生代表接受授旗\n旗帜引领方向，使命呼唤担当。孟浩为各班学员代表授旗。\n图7 班主任代表黄镁洁发言\n三班班主任黄镁洁作为班主任代表发言。她结合自身经历，鼓励学员们珍惜培训机会，认真对待每一次实践，在实践中锤炼本领，不断成长。全体班主任和助教将带着饱满热情和责任心投入培训班工作，带领培训学员们在团学道路上不断向前迈进。\n图8 学员代表张晓雨发言\n来自崇实书院的张晓雨代表全体学员发言。她表示学员要在学懂弄通、服务同学、锤炼作风三个方面下功夫，把培训内容转化为实干行动，接过西迁精神的接力棒，把青春播洒在祖国最需要的地方，在新征程上创造属于青年的成就。\n理论赋能 铸魂育人\n专题报告：《传承弘扬西迁精神，奋力谱写时代华章》\n图9 刘源老师作专题报告\n培训班首场讲座特别邀请到马克思主义学院副教授、校团委副书记刘源老师作专题报告。刘源从新中国初期的工业分布与国家战略安全的宏观视角切入，深刻解答了“交大为什么要西迁”的历史命题。通过一张张珍贵的历史照片与一个个感人至深的故事，深情讲述了彭康校长、钟兆琳教授、陈学俊教授等老一辈交大人舍弃繁华、扎根黄土地的壮举。他勉励在座的新生骨干：“西迁精神的核心是爱国主义，精髓是听党指挥跟党走。作为交大人，要将个人的成长融入国家发展，求实学、务实业，到祖国最需要的地方建功立业！”\n团务知识学习分享\n图10 团务部副主任谢博睿开展团务知识培训\n团建中心团务部副主任谢博睿为学员们带来基础团务知识专题培训。他从共青团的性质与使命出发，详细讲解了“三会两制一课”制度、团员发展与档案管理、智慧团建系统操作以及规范使用团旗团徽团歌等内容，帮助参训学员夯实团务基本功，提升开展团务工作的实操能力。\n图11 开班仪式参与人员合影\n星航赴新程，笃行见初心。伴随着热烈的掌声，2026年“星航新干”培训班开班仪式圆满落幕。开班，是新征程的开始。愿全体学员们在接下来的理论学习与实践锻炼中，立大志、明大德、成大才、担大任，做新时代西迁精神的新传人，以青春之我，书写新时代的青春华章！",
+   "bodyHtml": "<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/de4a849d-0e45-4940-b63f-99d0fd61be49.jpg\" width=\"800\"></p>\n<section>\n<p style=\"text-align: center;\">图1 “星航新干”培训班开班仪式现场</p>\n</section>\n<section>\n<p>  为引导我校团员青年听党话、跟党走，进一步提升“星航计划”实践育人成效，11月8日晚，西安交通大学2026年“星航新干”培训班开班仪式在兴庆校区<span class=\"\">宪梓堂</span>举行。校团委副书记石杨根、孟浩出席活动，来自11个书院及各团学组织的900余名学员、培训班各班班主任、助教同学参加活动，共同开启成长新征程。</p>\n<h2 style=\"text-align: center;\"><strong>开班仪式 扬帆起航</strong></h2>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/b9eaea5a-70fd-41ad-8e5e-bdc0538c280a.jpg\" width=\"800\"></p>\n<section>\n<p style=\"text-align: center;\">图2 全体同学齐唱国歌</p>\n</section>\n<section>\n<p>  仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/699d77c2-245b-4859-aaf3-88c0af329dd1.jpg\" width=\"500\"></p>\n<section>\n<p style=\"text-align: center;\">图3 主任团成员张靖宜介绍本期培训班概况</p>\n</section>\n<section>\n<p><strong>  团组织建设指导中心主任团成员张靖宜</strong>向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置<strong>理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块</strong><strong>，</strong>希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/b702d2cb-c976-41ec-bc0f-f202d67b93d7.jpg\" width=\"500\"></p>\n<section>\n<p style=\"text-align: center;\">图4 孟浩老师发表指导讲话</p>\n</section>\n<section>\n<p>  孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要<strong>主动学习，积极融合，将专业所学知识与人工智能结合</strong>，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/5c60c2d3-416b-4636-b16c-be9eeae82492.jpg\" width=\"800\"></p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/898e414a-e7c5-463d-9479-4f7ff093c86a.jpg\" width=\"800\"></p>\n<p style=\"text-align: center;\"> 图5、6 学生代表接受授旗</p>\n<section>\n<p>  旗帜引领方向，使命呼唤担当。孟浩为各班学员代表授旗。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/be35ed73-da21-4b1c-bd10-c7d0e4cb5f23.jpg\" width=\"500\"></p>\n<section>\n<p style=\"text-align: center;\">图7 班主任代表黄镁洁发言</p>\n</section>\n<section>\n<p><strong>  三班班主任黄镁洁</strong>作为班主任代表发言。她结合自身经历，<strong>鼓励学员们珍惜培训机会，认真对待每一次实践，在实践中锤炼本领，不断成长。</strong>全体班主任和助教将带着饱满热情和责任心投入培训班工作，带领培训学员们在团学道路上不断向前迈进。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/967448af-0931-4658-adf1-1580ecbb944c.jpg\" width=\"500\"></p>\n<section>\n<p style=\"text-align: center;\">图8 学员代表张晓雨发言</p>\n</section>\n<section>\n<p><strong>  来自崇实书院的张晓雨</strong>代表全体学员发言。她表示学员要在<strong>学懂弄通、服务同学、锤炼作风</strong>三个方面下功夫，把培训内容转化为实干行动，接过西迁精神的接力棒，把青春播洒在祖国最需要的地方，在新征程上创造属于青年的成就。</p>\n<h2 style=\"text-align: center;\"><strong>理论赋能 铸魂育人</strong></h2>\n<h3 style=\"text-align: center;\"><strong>专题报告：《传承弘扬西迁精神，奋力谱写时代华章》</strong></h3>\n<p><strong><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/3bccedc0-38ff-4c1b-83ef-b77ad884a487.jpg\" width=\"500\"></strong></p>\n<section>\n<p style=\"text-align: center;\">图9 刘源老师作专题报告</p>\n</section>\n<section>\n<p>  培训班首场讲座特别邀请到<strong>马克思主义学院副教授、校团委副书记刘源老师</strong>作专题报告。刘源从新中国初期的工业分布与国家战略安全的宏观视角切入，深刻解答了“交大为什么要西迁”的历史命题。通过一张张珍贵的历史照片与一个个感人至深的故事，深情讲述了彭康校长、钟兆琳教授、陈学俊教授等老一辈交大人<strong>舍弃繁华、扎根黄土地</strong>的壮举。他勉励在座的新生骨干：“西迁精神的核心是爱国主义，精髓是听党指挥跟党走。<strong>作为交大人，要将个人的成长融入国家发展，求实学、务实业，到祖国最需要的地方建功立业！</strong>”</p>\n<h3 style=\"text-align: center;\">团务知识学习分享</h3>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/f530097e-a1fb-41d3-8f42-40808a695bb9.jpg\" width=\"500\"></p>\n<section>\n<p style=\"text-align: center;\">图10 团务部副主任谢博睿开展团务知识培训</p>\n</section>\n<section>\n<p><strong>  团建中心团务部副主任谢博睿</strong>为学员们带来基础团务知识专题培训。他从共青团的性质与使命出发，详细讲解了“<span class=\"\">三会两制一课</span>”制度、团员发展与档案管理、智慧团建系统操作以及规范使用团旗团徽团歌等内容，帮助参训学员<strong>夯实团务基本功，提升开展团务工作的实操能力。</strong></p>\n<p><strong><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/99e694e0-3db6-487f-88aa-dccce01bf1c3.jpg\" width=\"800\"></strong></p>\n<section>\n<p style=\"text-align: center;\">图11 开班仪式参与人员合影</p>\n</section>\n<section>\n<p><strong>  星航赴新程，笃行见初心。</strong>伴随着热烈的掌声，2026年“星航新干”培训班开班仪式圆满落幕。开班，是新征程的开始。愿全体学员们在接下来的理论学习与实践锻炼中，<strong>立大志、明大德、成大才、担大任</strong>，做新时代西迁精神的新传人，以青春之我，书写新时代的青春华章！</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>",
+   "bodyLen": 1436,
+   "excerpt": "图1 “星航新干”培训班开班仪式现场 为引导我校团员青年听党话、跟党走，进一步提升“星航计划”实践育人成效，11月8日晚，西安交通大学2026年“星航新干”培训班开班仪式在兴庆校区宪梓堂举行。校团委副书记石杨根、孟浩出席活动，来自11个书院及各团学组织的900余名学员、培训班各班班主任、助教同学参加活动，共同开启成长新征程。 开班仪式 扬帆起航 图2 全体同学齐唱国歌 仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。 图3 主任团成员张靖宜介绍本期培训班概况 团组织建设指导中心主任团成员张靖宜向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块，希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。",
+   "paragraphs": [
+    "图1 “星航新干”培训班开班仪式现场",
+    "为引导我校团员青年听党话、跟党走，进一步提升“星航计划”实践育人成效，11月8日晚，西安交通大学2026年“星航新干”培训班开班仪式在兴庆校区宪梓堂举行。校团委副书记石杨根、孟浩出席活动，来自11个书院及各团学组织的900余名学员、培训班各班班主任、助教同学参加活动，共同开启成长新征程。",
+    "开班仪式 扬帆起航",
+    "图2 全体同学齐唱国歌",
+    "仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。",
+    "图3 主任团成员张靖宜介绍本期培训班概况",
+    "团组织建设指导中心主任团成员张靖宜向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块，希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。",
+    "图4 孟浩老师发表指导讲话",
+    "孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。",
+    "图5、6 学生代表接受授旗",
+    "旗帜引领方向，使命呼唤担当。孟浩为各班学员代表授旗。",
+    "图7 班主任代表黄镁洁发言",
+    "三班班主任黄镁洁作为班主任代表发言。她结合自身经历，鼓励学员们珍惜培训机会，认真对待每一次实践，在实践中锤炼本领，不断成长。全体班主任和助教将带着饱满热情和责任心投入培训班工作，带领培训学员们在团学道路上不断向前迈进。",
+    "图8 学员代表张晓雨发言",
+    "来自崇实书院的张晓雨代表全体学员发言。她表示学员要在学懂弄通、服务同学、锤炼作风三个方面下功夫，把培训内容转化为实干行动，接过西迁精神的接力棒，把青春播洒在祖国最需要的地方，在新征程上创造属于青年的成就。",
+    "理论赋能 铸魂育人",
+    "专题报告：《传承弘扬西迁精神，奋力谱写时代华章》",
+    "图9 刘源老师作专题报告",
+    "培训班首场讲座特别邀请到马克思主义学院副教授、校团委副书记刘源老师作专题报告。刘源从新中国初期的工业分布与国家战略安全的宏观视角切入，深刻解答了“交大为什么要西迁”的历史命题。通过一张张珍贵的历史照片与一个个感人至深的故事，深情讲述了彭康校长、钟兆琳教授、陈学俊教授等老一辈交大人舍弃繁华、扎根黄土地的壮举。他勉励在座的新生骨干：“西迁精神的核心是爱国主义，精髓是听党指挥跟党走。作为交大人，要将个人的成长融入国家发展，求实学、务实业，到祖国最需要的地方建功立业！”",
+    "团务知识学习分享",
+    "图10 团务部副主任谢博睿开展团务知识培训",
+    "团建中心团务部副主任谢博睿为学员们带来基础团务知识专题培训。他从共青团的性质与使命出发，详细讲解了“三会两制一课”制度、团员发展与档案管理、智慧团建系统操作以及规范使用团旗团徽团歌等内容，帮助参训学员夯实团务基本功，提升开展团务工作的实操能力。",
+    "图11 开班仪式参与人员合影",
+    "星航赴新程，笃行见初心。伴随着热烈的掌声，2026年“星航新干”培训班开班仪式圆满落幕。开班，是新征程的开始。愿全体学员们在接下来的理论学习与实践锻炼中，立大志、明大德、成大才、担大任，做新时代西迁精神的新传人，以青春之我，书写新时代的青春华章！"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/de4a849d-0e45-4940-b63f-99d0fd61be49.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b9eaea5a-70fd-41ad-8e5e-bdc0538c280a.jpg",
+     "alt": "",
+     "context": "开班仪式 扬帆起航"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/699d77c2-245b-4859-aaf3-88c0af329dd1.jpg",
+     "alt": "",
+     "context": "仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b702d2cb-c976-41ec-bc0f-f202d67b93d7.jpg",
+     "alt": "",
+     "context": "团组织建设指导中心主任团成员张靖宜向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块，希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/5c60c2d3-416b-4636-b16c-be9eeae82492.jpg",
+     "alt": "",
+     "context": "孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/898e414a-e7c5-463d-9479-4f7ff093c86a.jpg",
+     "alt": "",
+     "context": "孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/be35ed73-da21-4b1c-bd10-c7d0e4cb5f23.jpg",
+     "alt": "",
+     "context": "旗帜引领方向，使命呼唤担当。孟浩为各班学员代表授旗。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/967448af-0931-4658-adf1-1580ecbb944c.jpg",
+     "alt": "",
+     "context": "三班班主任黄镁洁作为班主任代表发言。她结合自身经历，鼓励学员们珍惜培训机会，认真对待每一次实践，在实践中锤炼本领，不断成长。全体班主任和助教将带着饱满热情和责任心投入培训班工作，带领培训学员们在团学道路上不断向前迈进。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/3bccedc0-38ff-4c1b-83ef-b77ad884a487.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/f530097e-a1fb-41d3-8f42-40808a695bb9.jpg",
+     "alt": "",
+     "context": "团务知识学习分享"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/99e694e0-3db6-487f-88aa-dccce01bf1c3.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-17T08:03:32.126106+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+   "title": "开讲了！2026年陕西省青年志愿服务公开课（第二期）正式上线！",
+   "site": "校团委",
+   "date": "2026-11-12",
+   "source": "https://mp.weixin.qq.com/s/EQMPtF9Av7zuxWMlJgayUA",
+   "fetchedAt": "2026-11-17T08:03:30.787540+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "963b4c2a4e113911231b438948f608150ef06ac4b30406544b31a65b4185532c",
+   "contentParserVersion": 2,
+   "body": "根据陕西省青年志愿者协会“青年志愿者能力提升培训计划”安排，近期协会联合“志愿汇”平台推出“2026年陕西省青年志愿服务公开课（第二期）”系列培训活动\n01参培对象\n全省青年志愿服务工作者、青年志愿者\n02时间安排\n2026年11月2日至11月30日\n03课程安排\n04参与方式\n打开AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记\n活动二维码\n参与流程如下：\n05培训激励\n参加2026年陕西省青年志愿服务公开课（第二期）系列培训活动的志愿者完成四节课程视频学习可在“志愿汇”APP活动专区获取志愿服务培训证明。",
+   "bodyHtml": "<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/f9209954-36be-4387-a293-1746c706cbd1.jpg\" width=\"300\"></p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/edaa8069-5dae-42c0-8329-7698624b64d0.png\" width=\"800\"></p>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\">根据陕西省青年志愿者协会“青年志愿者能力提升培训计划”安排，近期<strong>协会联合“<span class=\"\">志愿汇</span>”平台推出“2026年陕西省青年志愿服务公开课（第二期）”系列培训活动</strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\">01</span></strong><strong><span class=\"15\"><span style=\"font-family: 宋体;\">参培对象</span></span></strong></p>\n<p class=\"p\" style=\"text-align: center;\"><span style=\"font-family: Arial;\">全省青年志愿服务工作者、青年志愿者</span></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\">02</span></strong><strong><span class=\"15\"><span style=\"font-family: 宋体;\">时间安排</span></span></strong></p>\n<p class=\"p\" style=\"text-align: center;\">2026年11月2日至11月30日</p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\">03</span></strong><strong><span class=\"15\"><span style=\"font-family: 宋体;\">课程安排</span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/5e1e057c-75c7-4ce8-b998-21eb99747ff5.png\" width=\"800\"></span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\">04参与方式</span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\"><span style=\"font-family: Arial;\">打开</span>AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记</span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/6891817b-308d-44a1-8fa9-6bf1d8bce35f.png\" width=\"500\"></span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\">活动二维码</span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\">参与流程如下：</span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\"><span style=\"font-family: 宋体;\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/2fdcc5fb-733b-4485-b443-e01015d00dcb.jpg\" width=\"800\"></span></span></strong></p>\n<p class=\"MsoNormal\" style=\"text-align: center;\"><strong><span class=\"15\">05培训激励</span></strong></p>\n<p class=\"p\" style=\"text-align: center;\" align=\"justify\"><span style=\"font-family: Arial;\">参加</span>2026年陕西省青年志愿服务公开课（第二期）系列培训活动的志愿者完成四节课程视频学习可在“志愿汇”APP活动专区获取志愿服务培训证明。</p>\n<p class=\"p\" style=\"text-align: center;\" align=\"justify\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/0b400e35-9f8e-4e84-8a83-f0f3b1e2238b.jpg\" width=\"800\"></p>\n</section>\n</section>\n</section>\n</section>",
+   "bodyLen": 302,
+   "excerpt": "根据陕西省青年志愿者协会“青年志愿者能力提升培训计划”安排，近期协会联合“志愿汇”平台推出“2026年陕西省青年志愿服务公开课（第二期）”系列培训活动 01参培对象 全省青年志愿服务工作者、青年志愿者 02时间安排 2026年11月2日至11月30日 03课程安排 04参与方式 打开AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记 活动二维码 参与流程如下： 05培训激励 参加2026年陕西省青年志愿服务公开课（第二期）系列培训活动的志愿者完成四节课程视频学习可在“志愿汇”APP活动专区获取志愿服务培训证明。",
+   "paragraphs": [
+    "根据陕西省青年志愿者协会“青年志愿者能力提升培训计划”安排，近期协会联合“志愿汇”平台推出“2026年陕西省青年志愿服务公开课（第二期）”系列培训活动",
+    "01参培对象",
+    "全省青年志愿服务工作者、青年志愿者",
+    "02时间安排",
+    "2026年11月2日至11月30日",
+    "03课程安排",
+    "04参与方式",
+    "打开AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记",
+    "活动二维码",
+    "参与流程如下：",
+    "05培训激励",
+    "参加2026年陕西省青年志愿服务公开课（第二期）系列培训活动的志愿者完成四节课程视频学习可在“志愿汇”APP活动专区获取志愿服务培训证明。"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/f9209954-36be-4387-a293-1746c706cbd1.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/edaa8069-5dae-42c0-8329-7698624b64d0.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/5e1e057c-75c7-4ce8-b998-21eb99747ff5.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/6891817b-308d-44a1-8fa9-6bf1d8bce35f.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/2fdcc5fb-733b-4485-b443-e01015d00dcb.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/0b400e35-9f8e-4e84-8a83-f0f3b1e2238b.jpg",
+     "alt": "",
+     "context": "参加2026年陕西省青年志愿服务公开课（第二期）系列培训活动的志愿者完成四节课程视频学习可在“志愿汇”APP活动专区获取志愿服务培训证明。"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-17T08:03:30.787540+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+   "title": "关于开展2026年度“玉峰科创资助金”学生科创团队资助申报的通知",
+   "site": "校团委",
+   "date": "2026-11-13",
+   "source": "https://mp.weixin.qq.com/s/wTyZFPG9dNTUa9Pztxyjhg",
+   "fetchedAt": "2026-11-17T08:03:30.786810+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "bc2e29ceb4c62ccb070114cd3b7bdea786c36364b8e7a27e7df0fffe1fef1ddd",
+   "contentParserVersion": 2,
+   "body": "为深入贯彻落实立德树人根本任务，激发学生科技创新热情，培养具有创新精神和实践能力的高素质人才，西安交通大学杰出校友出资专项设立“玉峰科创资助金”（以下简称“资助金”），用于支持在校学生开展科学研究、发明创造与创业实践。根据相关实施方案，现启动2026年度申报工作。有关事项通知如下。\n01 资助概况\n“玉峰科创资助金”设学生研发研究赛事项目资助、学生落地项目资助、学生科技社团项目资助三个板块，年度资助额度分别为35万元、60万元、30万元。\n02 申报对象与条件\n01资助对象\n资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。申报团队应当指定一名成员为团队负责人，作为资助金领取、使用与管理的直接责任人；团队负责人须为本校全日制在校学生。\n02申报基本条件\n申报团队应当同时具备下列条件：\n1.团队成员热爱祖国，遵守法律法规和校纪校规，品行端正，无违纪违规记录。\n2.团队成员学术作风严谨，恪守学术道德，无学术不端行为，无侵犯他人知识产权等行为。\n3.团队结构稳定、分工明确，具备完成项目所必需的研发能力、运营条件和时间投入。\n4.申报项目真实可信，申报材料齐全规范，经费预算合理、用途明确，并书面承诺资助金专项用于资助项目，接受校团委、资助方对资金使用情况的核查、抽查。\n5.团队成员中，应当有不少于 50%为本校全日制在校学生，公司形式申报的本校全日制在校学生合计持股应当不少于 50%，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生。\n03一票否决情形\n申报团队存在下列情形之一的，实行一票否决，取消其申报或者获资助资格：\n（1）违反法律法规和校纪校规的；\n（2）存在学术不端或者侵犯知识产权行为的；\n（3）申报材料弄虚作假的；\n（4）曾获本资助金支持但验收不合格且尚在黑名单管理期内的；\n（5）同一项目、同一团队在同一年度内重复申报、拆分申报，或者以关联人名义多头申报的；\n（6）申报项目已获得校内或者校外同类资助且资助内容重复，未如实说明的；\n（7）团队成员与实际执行人不一致，存在挂名、顶替情形的。\n03资助板块与资助标准\n各板块资助坚持宁缺毋滥，以项目质量和团队实力为唯一依据。同一项目、同一团队只能申报一个板块，不得重复申报或者拆分申报。同一个项目在研发研究赛事、落地项目、科技社团板块历年累计资助金额不超过 15 万元，且合计资助不超过 4 次。\n01学生研发研究赛事项目资助\n本板块年度额度 35 万元，每年资助学生科创项目 35 个，重点支持参加各级赛事的学生科创团队开展创新研发、知识产权申请、前沿理论研究，以及参加比赛、竞赛、展会等活动。申报项目须具备明确的产品或技术落地前景、扎实的研究基础，或者成熟的竞赛基础，同时项目团队有能力、有意愿推进成果转化或者赛事奖项冲刺。资助金额分为四档，各档按应用研究与成果转化、理论前沿探索、赛事竞赛三个通道并行择优评定，且单个通道的项目在四档的合计数不超过总项目数的二分之一。\n1.第一档3万元，拟资助2个。\n项目应处于领先水平，技术或理论创新性突出，并符合下列情形之一：\n（1）已取得阶段性研发成果且已取得知识产权，落地转化路径清晰；\n（2）已在顶尖学术期刊发表或者录用高水平论文，或者形成具有学科影响力的理论成果，研究处于学科前沿。\n2.第二档2万元，拟资助5个。\n项目应具备较好的技术基础或者理论基础，研发、研究、比赛竞赛进展明确，阶段性成果可以验证，并符合下列情形之一：\n（1）已形成样机、算法模型或者实验数据等阶段性研发成果，知识产权已申请或获受理，具有较大的落地转化潜力；\n（2）研究方向处于学科前沿，究方案系统完整，已在权威学术会议报告或重要学术期刊论文投稿、录用、发表等方面取得阶段性理论进展；\n（3）已获得国家级重要赛事高等级奖项，具备冲击国家级最高奖项的实力。\n3.第三档1万元，资助10个。\n项目应具备明确的研究方向和基本的实施条件，研发、研究工作已实质性启动，并符合下列情形之一：\n（1）技术路线基本清晰，已初步完成方案设计、功能原型或者实验准备，具备进一步研发验证的条件；\n（2）虽属于理论研究，但研究方向所处领域具有前沿性，具有较强的理论创新价值和学术意义，研究方案较为完整，已具备产出阶段性学术成果的条件；\n（3）已在省部级及以上赛事、竞赛中获得较高等级奖项，具备向更高层级赛事冲刺并再获荣誉的实力。\n4.第四档5000元，资助18个。\n本档为培育性资助，重点支持处于起步阶段但目标明确、成长性良好的项目，并符合下列情形之一：\n（1）技术创新设想明确，尚处于方案论证、原型设计或者实验准备阶段，具备成长为更高档次项目的潜力；\n（2）虽属于理论研究，但研究方向处于学科前沿，具有探索价值和学术意义，需要开展前期调研、文献综述或者可行性验证；\n（3）已取得校级及以上比赛、竞赛二等奖及以上奖励，并已报名或者入围省部级及以上重要赛事、竞赛，具备冲击高等级奖项的实际潜力。\n02学生落地项目资助\n本板块年度额度 60 万元，每年资助学生创业落地项目 20个，单个项目资助 1 万至 8 万元。申报项目必须为已创业或资助前完成落地运营的项目。资助金以项目资助金形式发放至参与项目的学生所在公司银行账户，专项用于项目运营发展，不得挪作他用。资助金额分为四档：\n1.第一档8万元，拟资助1个。\n项目应运营规范、业绩突出，营业收入或者用户规模增长明显，发展前景良好。\n2.第二档6万元，拟资助3个。\n项目应运营状况稳定，已形成持续收入，具备较好的成长性。\n前两档同时要求项目已依法注册成立公司（公司需满足学生团队合计持股不少于 50%要求，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生），具有固定经营场所、明确的业务模式和稳定的运营团队，项目产品或者服务已进入市场并形成实际收入。\n3.第三档4万元，拟资助6个。\n项目应已完成注册并实际运营，业务模式基本成型。\n4.第四档1万元，拟资助10个。\n团队已形成，项目应当已有雏形，方向基本选定，公司已注册或在资助前完成注册。\n第三档与前两档相比，不要求已形成收入，第四档要求在资助前完成公司注册。\n03学生科技社团项目资助\n本板块年度额度 30 万元，每年支持 10 个科技类学生社团，支持其开展技术研发与市场化落地验证，提升社团科创水平和成果转化能力。受资助社团应当在学校社团管理部门登记在册。资助金应围绕社团科创活动使用，花销情况需向社团全体成员公开；设备耗材、场地等必要开支，按照学校财务管理有关规定执行。社团负责人换届的，应当办理经费交接手续并出具经费交接清单，报校团委备案和本人、本社团留档，接受校团委、资助方的核查、抽查。资助金额分为四档：\n1.第一档：资助额度8万元，拟资助 1个。\n要求社团技术研发实力突出，科创产品储备丰富，竞赛成果丰硕、成果转化成效明显；内部运行管理规范，发挥标杆示范作用。\n2.第二档：资助额度6万元，拟资助 2个。\n要求社团技术积累扎实，研究方向稳定，活动成效良好，竞赛成绩突出；已形成科创产品，技术落地可行性较强。\n3.第三档：资助额度2万元，拟资助 3个。\n要求社团具备较好技术基础，拥有明确研发计划与活动实施方案，已产出产品雏形，技术具备一定落地应用前景。\n4.第四档：资助额度1万元，拟资助 4个。\n要求社团常态化开展科创活动，具备基本技术研发条件，拥有清晰产品规划，具备良好发展潜力。\n04申报评审程序\n1.团队申报（11月22日前）。符合条件的团队按要求填写申报书、汇总表，签署承诺书，提交佐证材料。\n2.资格审查（11月29日前）。对申报团队和项目进行资格审查，重点核查申报基本条件。\n3.专家评审（12月13日前）。组织校、地、企专家采取材料评审、现场答辩等方式评审，提出建议资助名单及档次，报基金会和捐赠人审定。\n4.公示审定（12月20日前）。评审结果公示5个工作日，公示项目名称、团队负责人及学院、团队成员、资助板块、档次金额等。公示期内实名异议仅暂缓该项目拨付，核查后另行处理。\n05资金拨付与结项验收\n资助金实行“申请—验收”制，分两批拨付：资助名单公布后拨付资助金额的70%，获资助项目须在第二年5月前完成结项验收，验收结果分为优秀、良好、合格、不合格四档，项目通过结项验收后再拨付剩余30%。不合格项目不发放尾款，相关项目及成员纳入黑名单管理，后续年度不再支持。\n06纪律与监督\n申报、评审、验收过程中弄虚作假、骗取资助，或挪用、侵占资助金的，一经查实取消资格、全额追回已发放资金，相关项目及成员后续年度不再支持，并依规追究责任。\n07材料报送与联系方式\n请各二级单位团组织做好宣传动员，指导符合条件的团队规范准备申报材料。全套申报材料电子版打包发送至指定邮箱；纸质版经所在二级单位团组织审核、签字盖章后，报送至校团委1号办公室。电子版材料命名统一为【板块名称+项目名称+负责人姓名】，附件材料分类命名、清晰索引。材料清单如下：\n1.项目申报书\n2.项目经费预算表\n3.申报承诺书\n4.项目详细介绍（1000 字以内）\n5.相关附件支撑材料（按类别整理、合并为一个PDF，单个文件大小控制在20MB以内，选择性提供，无则可不附）：\n（1）竞赛类：获奖证书、赛事入围通知、参赛回执、邀请函等扫描件；\n（2）知识产权类：专利、软著、商标受理通知书/授权证书、查新报告等扫描件；\n（3）论文成果类：论文录用证明、见刊页面、会议报告证明等扫描件；\n（4）落地创业类：营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等扫描件；\n（5）样机/产品佐证：样机照片、测试报告、第三方检测报告、用户反馈证明等；\n（6）其他能够佐证项目基础、团队实力的材料。\n请提交申请材料的同学添加下方QQ群，群号：1132393359。\n08其他注意事项\n1.涉及国家秘密、商业秘密或者敏感技术的项目，须在申报前完成保密审查，按保密要求提交材料，不得在公示材料中披露敏感信息。\n2.项目实施期内，团队负责人原则上不得变更；确因毕业、休学、出国等正当事由需要变更的，须书面申请、团队全体成员签字同意、指导教师签署意见，报工作组审核、备案，并完成经费与任务交接。\n3. 获得资助的项目可申请入驻“挑战杯”大学生科创成果孵化转化基地，基地配套提供办公场地、孵化资源与专项政策支持。\n4.本通知由共青团西安交通大学委员会负责解释，未尽事宜及内容调整以后续通知为准。\n09联系方式\n1. 申报材料电子版报送邮箱：tuanwei@mail.xjtu.edu.cn\n2. 联系电话：029-82668261\n附件：\n附件1项目申报书模板.docx\n附件2项目经费预算表模板.docx\n附件3申报承诺书模板.docx",
+   "bodyHtml": "<section>\n<section class=\"\" data-lazy-bgimg=\"https://mmecoa.qpic.cn/mmecoa_png/NKSPfYPZcd6VDS0VAYJo7R0TkicibzJ7uSSwTTR6DQ4licqSTbYItZP4cvUzBQktBCDfHgqaCcNscmySbtXlxRyq0kKNtsMibcDADQn9CPhxsh8/640?wx_fmt=png\" data-fail=\"0\">\n<section>\n<section>\n<section>\n<section>\n<p>  为深入贯彻落实立德树人根本任务，激发学生科技创新热情，培养具有创新精神和实践能力的高素质人才，西安交通大学杰出校友出资专项设立“玉峰科创资助金”（以下简称“资助金”），用于支持在校学生开展科学研究、发明创造与创业实践。根据相关实施方案，现启动2026年度申报工作。有关事项通知如下。</p>\n<h2><strong><span style=\"font-family: Arial;\">01</span></strong><strong> </strong><strong><span style=\"font-family: 黑体;\">资助概况</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  “玉峰科创资助金”设学生研发研究赛事项目资助、学生落地项目资助、学生科技社团项目资助三个板块，年度资助额度分别为</span><span style=\"font-family: Calibri;\">35</span><span style=\"font-family: 宋体;\">万元、</span><span style=\"font-family: Calibri;\">60</span><span style=\"font-family: 宋体;\">万元、</span><span style=\"font-family: Calibri;\">30</span><span style=\"font-family: 宋体;\">万元。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">02</span></strong><strong> </strong><strong><span style=\"font-family: 黑体;\">申报对象与条件</span></strong></h2>\n<h3><strong><span style=\"font-family: Calibri;\">01</span><span style=\"font-family: 宋体;\">资助对象</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。申报团队应当指定一名成员为团队负责人，作为资助金领取、使用与管理的直接责任人；团队负责人须为本校全日制在校学生。</span></p>\n<h3><strong><span style=\"font-family: Calibri;\">02</span><span style=\"font-family: 宋体;\">申报基本条件</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  申报团队应当同时具备下列条件：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">1.</span><span style=\"font-family: 宋体;\">团队成员热爱祖国，遵守法律法规和校纪校规，品行端正，无违纪违规记录。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">2.</span><span style=\"font-family: 宋体;\">团队成员学术作风严谨，恪守学术道德，无学术不端行为，无侵犯他人知识产权等行为。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">3.</span><span style=\"font-family: 宋体;\">团队结构稳定、分工明确，具备完成项目所必需的研发能力、运营条件和时间投入。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">4.</span><span style=\"font-family: 宋体;\">申报项目真实可信，申报材料齐全规范，经费预算合理、用途明确，并书面承诺资助金专项用于资助项目，接受校团委、资助方对资金使用情况的核查、抽查。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">5.</span><span style=\"font-family: 宋体;\">团队成员中，应当有不少于 </span><span style=\"font-family: Calibri;\">50%</span><span style=\"font-family: 宋体;\">为本校全日制在校学生，公司形式申报的本校全日制在校学生合计持股应当不少于 </span><span style=\"font-family: Calibri;\">50%</span><span style=\"font-family: 宋体;\">，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生。</span></p>\n<h3><strong><span style=\"font-family: Calibri;\">03</span><span style=\"font-family: 宋体;\">一票否决情形</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  申报团队存在下列情形之一的，实行一票否决，取消其申报或者获资助资格：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）违反法律法规和校纪校规的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）存在学术不端或者侵犯知识产权行为的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">）申报材料弄虚作假的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">4</span><span style=\"font-family: 宋体;\">）曾获本资助金支持但验收不合格且尚在黑名单管理期内的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">5</span><span style=\"font-family: 宋体;\">）同一项目、同一团队在同一年度内重复申报、拆分申报，或者以关联人名义多头申报的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">6</span><span style=\"font-family: 宋体;\">）申报项目已获得校内或者校外同类资助且资助内容重复，未如实说明的；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">7</span><span style=\"font-family: 宋体;\">）团队成员与实际执行人不一致，存在挂名、顶替情形的。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">03</span><span style=\"font-family: 黑体;\">资助板块与资助标准</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  各板块资助坚持宁缺毋滥，以项目质量和团队实力为唯一依据。同一项目、同一团队只能申报一个板块，不得重复申报或者拆分申报。同一个项目在研发研究赛事、落地项目、科技社团板块历年累计资助金额不超过</span> <span style=\"font-family: Calibri;\">15 </span><span style=\"font-family: 宋体;\">万元，且合计资助不超过 </span><span style=\"font-family: Calibri;\">4 </span><span style=\"font-family: 宋体;\">次。</span></p>\n<h3><strong><span style=\"font-family: Calibri;\">01</span><span style=\"font-family: 宋体;\">学生研发研究赛事项目资助</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  本板块年度额度</span> <span style=\"font-family: Calibri;\">35 </span><span style=\"font-family: 宋体;\">万元，每年资助学生科创项目 </span><span style=\"font-family: Calibri;\">35 </span><span style=\"font-family: 宋体;\">个，重点支持参加各级赛事的学生科创团队开展创新研发、知识产权申请、前沿理论研究，以及参加比赛、竞赛、展会等活动。申报项目须具备明确的产品或技术落地前景、扎实的研究基础，或者成熟的竞赛基础，同时项目团队有能力、有意愿推进成果转化或者赛事奖项冲刺。资助金额分为四档，各档按应用研究与成果转化、理论前沿探索、赛事竞赛三个通道并行择优评定，且单个通道的项目在四档的合计数不超过总项目数的二分之一。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">1.</span><span style=\"font-family: 黑体;\">第一档</span><span style=\"font-family: Arial;\">3</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">2</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应处于领先水平，技术或理论创新性突出，并符合下列情形之一：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）已取得阶段性研发成果且已取得知识产权，落地转化路径清晰；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）已在顶尖学术期刊发表或者录用高水平论文，或者形成具有学科影响力的理论成果，研究处于学科前沿。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">2.</span><span style=\"font-family: 黑体;\">第二档</span><span style=\"font-family: Arial;\">2</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">5</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应具备较好的技术基础或者理论基础，研发、研究、比赛竞赛进展明确，阶段性成果可以验证，并符合下列情形之一：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）已形成样机、算法模型或者实验数据等阶段性研发成果，知识产权已申请或获受理，具有较大的落地转化潜力；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）研究方向处于学科前沿，究方案系统完整，已在权威学术会议报告或重要学术期刊论文投稿、录用、发表等方面取得阶段性理论进展；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">）已获得国家级重要赛事高等级奖项，具备冲击国家级最高奖项的实力。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">3.</span><span style=\"font-family: 黑体;\">第三档</span><span style=\"font-family: Arial;\">1</span><span style=\"font-family: 黑体;\">万元，资助</span><span style=\"font-family: Arial;\">10</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应具备明确的研究方向和基本的实施条件，研发、研究工作已实质性启动，并符合下列情形之一：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）技术路线基本清晰，已初步完成方案设计、功能原型或者实验准备，具备进一步研发验证的条件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）虽属于理论研究，但研究方向所处领域具有前沿性，具有较强的理论创新价值和学术意义，研究方案较为完整，已具备产出阶段性学术成果的条件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">）已在省部级及以上赛事、竞赛中获得较高等级奖项，具备向更高层级赛事冲刺并再获荣誉的实力。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">4.</span><span style=\"font-family: 黑体;\">第四档</span><span style=\"font-family: Arial;\">5000</span><span style=\"font-family: 黑体;\">元，资助</span><span style=\"font-family: Arial;\">18</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  本档为培育性资助，重点支持处于起步阶段但目标明确、成长性良好的项目，并符合下列情形之一：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）技术创新设想明确，尚处于方案论证、原型设计或者实验准备阶段，具备成长为更高档次项目的潜力；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）虽属于理论研究，但研究方向处于学科前沿，具有探索价值和学术意义，需要开展前期调研、文献综述或者可行性验证；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">）已取得校级及以上比赛、竞赛二等奖及以上奖励，并已报名或者入围省部级及以上重要赛事、竞赛，具备冲击高等级奖项的实际潜力。</span></p>\n<h3><strong><span style=\"font-family: Calibri;\">02</span><span style=\"font-family: 宋体;\">学生落地项目资助</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  本板块年度额度</span> <span style=\"font-family: Calibri;\">60 </span><span style=\"font-family: 宋体;\">万元，每年资助学生创业落地项目 </span><span style=\"font-family: Calibri;\">20</span><span style=\"font-family: 宋体;\">个，单个项目资助 </span><span style=\"font-family: Calibri;\">1 </span><span style=\"font-family: 宋体;\">万至 </span><span style=\"font-family: Calibri;\">8 </span><span style=\"font-family: 宋体;\">万元。申报项目必须为已创业或资助前完成落地运营的项目。资助金以项目资助金形式发放至参与项目的学生所在公司银行账户，专项用于项目运营发展，不得挪作他用。资助金额分为四档：</span></p>\n<h4><strong><span style=\"font-family: Arial;\">1.</span><span style=\"font-family: 黑体;\">第一档</span><span style=\"font-family: Arial;\">8</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">1</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应运营规范、业绩突出，营业收入或者用户规模增长明显，发展前景良好。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">2.</span><span style=\"font-family: 黑体;\">第二档</span><span style=\"font-family: Arial;\">6</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">3</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应运营状况稳定，已形成持续收入，具备较好的成长性。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  前两档同时要求项目已依法注册成立公司（公司需满足学生团队合计持股不少于</span> <span style=\"font-family: Calibri;\">50%</span><span style=\"font-family: 宋体;\">要求，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生），具有固定经营场所、明确的业务模式和稳定的运营团队，项目产品或者服务已进入市场并形成实际收入。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">3.</span><span style=\"font-family: 黑体;\">第三档</span><span style=\"font-family: Arial;\">4</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">6</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  项目应已完成注册并实际运营，业务模式基本成型。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">4.</span><span style=\"font-family: 黑体;\">第四档</span><span style=\"font-family: Arial;\">1</span><span style=\"font-family: 黑体;\">万元，拟资助</span><span style=\"font-family: Arial;\">10</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  团队已形成，项目应当已有雏形，方向基本选定，公司已注册或在资助前完成注册。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  第三档与前两档相比，不要求已形成收入，第四档要求在资助前完成公司注册。</span></p>\n<h3><strong><span style=\"font-family: Calibri;\">03</span><span style=\"font-family: 宋体;\">学生科技社团项目资助</span></strong></h3>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  本板块年度额度</span> <span style=\"font-family: Calibri;\">30 </span><span style=\"font-family: 宋体;\">万元，每年支持 </span><span style=\"font-family: Calibri;\">10 </span><span style=\"font-family: 宋体;\">个科技类学生社团，支持其开展技术研发与市场化落地验证，提升社团科创水平和成果转化能力。受资助社团应当在学校社团管理部门登记在册。资助金应围绕社团科创活动使用，花销情况需向社团全体成员公开；设备耗材、场地等必要开支，按照学校财务管理有关规定执行。社团负责人换届的，应当办理经费交接手续并出具经费交接清单，报校团委备案和本人、本社团留档，接受校团委、资助方的核查、抽查。资助金额分为四档：</span></p>\n<h4><strong><span style=\"font-family: Arial;\">1.</span><span style=\"font-family: 黑体;\">第一档：资助额度</span><span style=\"font-family: Arial;\">8</span><span style=\"font-family: 黑体;\">万元，拟资助 </span><span style=\"font-family: Arial;\">1</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  要求社团技术研发实力突出，科创产品储备丰富，竞赛成果丰硕、成果转化成效明显；内部运行管理规范，发挥标杆示范作用。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">2.</span><span style=\"font-family: 黑体;\">第二档：资助额度</span><span style=\"font-family: Arial;\">6</span><span style=\"font-family: 黑体;\">万元，拟资助 </span><span style=\"font-family: Arial;\">2</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  要求社团技术积累扎实，研究方向稳定，活动成效良好，竞赛成绩突出；已形成科创产品，技术落地可行性较强。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">3.</span><span style=\"font-family: 黑体;\">第三档：资助额度</span><span style=\"font-family: Arial;\">2</span><span style=\"font-family: 黑体;\">万元，拟资助 </span><span style=\"font-family: Arial;\">3</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  要求社团具备较好技术基础，拥有明确研发计划与活动实施方案，已产出产品雏形，技术具备一定落地应用前景。</span></p>\n<h4><strong><span style=\"font-family: Arial;\">4.</span><span style=\"font-family: 黑体;\">第四档：资助额度</span><span style=\"font-family: Arial;\">1</span><span style=\"font-family: 黑体;\">万元，拟资助 </span><span style=\"font-family: Arial;\">4</span><span style=\"font-family: 黑体;\">个。</span></strong></h4>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  要求社团常态化开展科创活动，具备基本技术研发条件，拥有清晰产品规划，具备良好发展潜力。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">04</span><span style=\"font-family: 黑体;\">申报评审程序</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">1.</span><span style=\"font-family: 宋体;\">团队申报（</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">22</span><span style=\"font-family: 宋体;\">日前）。符合条件的团队按要求填写申报书、汇总表，签署承诺书，提交佐证材料。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">2.</span><span style=\"font-family: 宋体;\">资格审查（</span><span style=\"font-family: Calibri;\">11</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">29</span><span style=\"font-family: 宋体;\">日前）。对申报团队和项目进行资格审查，重点核查申报基本条件。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">3.</span><span style=\"font-family: 宋体;\">专家评审（</span><span style=\"font-family: Calibri;\">12</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">13</span><span style=\"font-family: 宋体;\">日前）。组织校、地、企专家采取材料评审、现场答辩等方式评审，提出建议资助名单及档次，报基金会和捐赠人审定。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">4.</span><span style=\"font-family: 宋体;\">公示审定（</span><span style=\"font-family: Calibri;\">12</span><span style=\"font-family: 宋体;\">月</span><span style=\"font-family: Calibri;\">20</span><span style=\"font-family: 宋体;\">日前）。评审结果公示</span><span style=\"font-family: Calibri;\">5</span><span style=\"font-family: 宋体;\">个工作日，公示项目名称、团队负责人及学院、团队成员、资助板块、档次金额等。公示期内实名异议仅暂缓该项目拨付，核查后另行处理。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">05</span><span style=\"font-family: 黑体;\">资金拨付与结项验收</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  资助金实行</span><span style=\"font-family: 宋体;\">“申请—验收”制，分两批拨付：资助名单公布后拨付资助金额的</span><span style=\"font-family: Calibri;\">70%</span><span style=\"font-family: 宋体;\">，获资助项目须在第二年</span><span style=\"font-family: Calibri;\">5</span><span style=\"font-family: 宋体;\">月前完成结项验收，验收结果分为优秀、良好、合格、不合格四档，项目通过结项验收后再拨付剩余</span><span style=\"font-family: Calibri;\">30%</span><span style=\"font-family: 宋体;\">。不合格项目不发放尾款，相关项目及成员纳入黑名单管理，后续年度不再支持。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">06</span><span style=\"font-family: 黑体;\">纪律与监督</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  申报、评审、验收过程中弄虚作假、骗取资助，或挪用、侵占资助金的，一经查实取消资格、全额追回已发放资金，相关项目及成员后续年度不再支持，并依规追究责任。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">07</span><span style=\"font-family: 黑体;\">材料报送与联系方式</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">  请各二级单位团组织做好宣传动员，指导符合条件的团队规范准备申报材料。全套申报材料电子版打包发送至指定邮箱；纸质版经所在二级单位团组织审核、签字盖章后，报送至校团委</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">号办公室。电子版材料命名统一为【板块名称</span><span style=\"font-family: Calibri;\">+</span><span style=\"font-family: 宋体;\">项目名称</span><span style=\"font-family: Calibri;\">+</span><span style=\"font-family: 宋体;\">负责人姓名】，附件材料分类命名、清晰索引。材料清单如下：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">1.</span><span style=\"font-family: 宋体;\">项目申报书</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">2.</span><span style=\"font-family: 宋体;\">项目经费预算表</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">3.</span><span style=\"font-family: 宋体;\">申报承诺书</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">4.</span><span style=\"font-family: 宋体;\">项目详细介绍（</span><span style=\"font-family: Calibri;\">1000 </span><span style=\"font-family: 宋体;\">字以内）</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">5.</span><span style=\"font-family: 宋体;\">相关附件支撑材料（按类别整理、合并为一个</span><span style=\"font-family: Calibri;\">PDF</span><span style=\"font-family: 宋体;\">，单个文件大小控制在</span><span style=\"font-family: Calibri;\">20MB</span><span style=\"font-family: 宋体;\">以内，选择性提供，无则可不附）：</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">1</span><span style=\"font-family: 宋体;\">）竞赛类：获奖证书、赛事入围通知、参赛回执、邀请函等扫描件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">2</span><span style=\"font-family: 宋体;\">）知识产权类：专利、软著、商标受理通知书</span><span style=\"font-family: Calibri;\">/</span><span style=\"font-family: 宋体;\">授权证书、查新报告等扫描件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">3</span><span style=\"font-family: 宋体;\">）论文成果类：论文录用证明、见刊页面、会议报告证明等扫描件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">4</span><span style=\"font-family: 宋体;\">）落地创业类：营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等扫描件；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">5</span><span style=\"font-family: 宋体;\">）样机</span><span style=\"font-family: Calibri;\">/</span><span style=\"font-family: 宋体;\">产品佐证：样机照片、测试报告、第三方检测报告、用户反馈证明等；</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">（</span><span style=\"font-family: Calibri;\">6</span><span style=\"font-family: 宋体;\">）其他能够佐证项目基础、团队实力的材料。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\">请提交申请材料的同学添加下方</span><span style=\"font-family: Calibri;\">QQ</span><span style=\"font-family: 宋体;\">群，群号：</span><span style=\"font-family: Calibri;\">1132393359</span><span style=\"font-family: 宋体;\">。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: 宋体;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261116/8cbd7d02-7abc-4f1f-ba67-6969b2c010be.jpg\" width=\"500\"></span></p>\n<h2><strong><span style=\"font-family: Arial;\">08</span><span style=\"font-family: 黑体;\">其他注意事项</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">1.</span><span style=\"font-family: 宋体;\">涉及国家秘密、商业秘密或者敏感技术的项目，须在申报前完成保密审查，按保密要求提交材料，不得在公示材料中披露敏感信息。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">2.</span><span style=\"font-family: 宋体;\">项目实施期内，团队负责人原则上不得变更；确因毕业、休学、出国等正当事由需要变更的，须书面申请、团队全体成员签字同意、指导教师签署意见，报工作组审核、备案，并完成经费与任务交接。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">3. </span><span style=\"font-family: 宋体;\">获得资助的项目可申请入驻“挑战杯”大学生科创成果孵化转化基地，基地配套提供办公场地、孵化资源与专项政策支持。</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">4.</span><span style=\"font-family: 宋体;\">本通知由共青团西安交通大学委员会负责解释，未尽事宜及内容调整以后续通知为准。</span></p>\n<h2><strong><span style=\"font-family: Arial;\">09</span><span style=\"font-family: 黑体;\">联系方式</span></strong></h2>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">1. </span><span style=\"font-family: 宋体;\">申报材料电子版报送邮箱：</span><span style=\"font-family: Calibri;\">tuanwei@mail.xjtu.edu.cn</span></p>\n<p class=\"MsoNormal\"><span style=\"font-family: Calibri;\">2. </span><span style=\"font-family: 宋体;\">联系电话：</span><span style=\"font-family: Calibri;\">029-82668261</span></p>\n<p>附件：</p>\n<p><a class=\"weapp_text_link js_weapp_entry wx_tap_link js_wx_tap_highlight\" href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&amp;mid=2247820614&amp;idx=1&amp;sn=c21294d44390ba2cc5f199bc40788583&amp;chksm=e98ed7bc254f87b47a8a78e7bdb263985adcbcc20fd42cfab326c65ba94e2306128635c81993&amp;mpshare=1&amp;scene=1&amp;srcid=1116bE30tABor3y9OkxcIgv5&amp;sharer_shareinfo=d44689478f3c481d5346790c05fc5d56&amp;sharer_shareinfo_first=d44689478f3c481d5346790c05fc5d56&amp;key=daf9bdc5abc4e8d05127047e23d42db1eb41643c05775ab1aebf6aaa64a8e650a6066e1709d8d593cd078799c9762fede115b4270ab278bdd3aeb193490caa71e41b9898cf5e6df1dba6d2a6454817a0fb39d1212ce7090f5039d9dfbb382d12b3e3fc651ebfdbf1984a8ac4625c19bef508ffb7bd35084cb1c140ba82883326&amp;ascene=0&amp;uin=MzA2MjQzMjA5NQ%3D%3D&amp;devicetype=UnifiedPCWindows&amp;version=f254200d&amp;lang=zh_CN&amp;countrycode=CN&amp;exportkey=n_ChQIAhIQaEUdx%2BNt2107Rr%2FzucFoHBLoAQIE97dBBAEAAAAAAHnFKubacGEAAAAOpnltbLcz9gKNyK89dVj0mqzhOWrlFy3vvka4p0XvImAlXS0dqrINobyH8pW4OnQSIQkVmZv4Ftq%2B80SPxCiQN33kf5IPUNOa5GxztWTpCozPG94LNZdhCDbcHdKPY%2FnMSxVJHUw6jKf96olRygyQlq0BXTMHmtvWKGr03Kenh3wUX8xR5k7RHYN7Z0PXGKeunxFOxjSpr5%2FBhEjE%2BsBqOFec65VbbKrb6JrUt20A6QFlTE%2Btyy7HOvDOy3zZK%2Fs2LWy0hPrDN2nFs0ifzVFR21c%3D&amp;acctmode=0&amp;pass_ticket=QJ7nxPruqlHKMmx%2FM5fpyAe9W22w%2BeNKDS3oZbe700IJRqbiNyKc%2BU0iItAxfOo4LQz%2B%2BQ2rTZTpaTqQlBAAIg%3D%3D&amp;wx_header=0\" data-miniprogram-type=\"text\" data-miniprogram-appid=\"wx429ee4d4fe086418\" data-miniprogram-path=\"/pages/file/detail?fid=266646269504655360&amp;sid=39823023\" data-miniprogram-nickname=\"图文卷\" data-miniprogram-servicetype=\"\">附件1项目申报书模板.docx</a></p>\n<p><a class=\"weapp_text_link js_weapp_entry wx_tap_link js_wx_tap_highlight\" href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&amp;mid=2247820614&amp;idx=1&amp;sn=c21294d44390ba2cc5f199bc40788583&amp;chksm=e98ed7bc254f87b47a8a78e7bdb263985adcbcc20fd42cfab326c65ba94e2306128635c81993&amp;mpshare=1&amp;scene=1&amp;srcid=1116bE30tABor3y9OkxcIgv5&amp;sharer_shareinfo=d44689478f3c481d5346790c05fc5d56&amp;sharer_shareinfo_first=d44689478f3c481d5346790c05fc5d56&amp;key=daf9bdc5abc4e8d05127047e23d42db1eb41643c05775ab1aebf6aaa64a8e650a6066e1709d8d593cd078799c9762fede115b4270ab278bdd3aeb193490caa71e41b9898cf5e6df1dba6d2a6454817a0fb39d1212ce7090f5039d9dfbb382d12b3e3fc651ebfdbf1984a8ac4625c19bef508ffb7bd35084cb1c140ba82883326&amp;ascene=0&amp;uin=MzA2MjQzMjA5NQ%3D%3D&amp;devicetype=UnifiedPCWindows&amp;version=f254200d&amp;lang=zh_CN&amp;countrycode=CN&amp;exportkey=n_ChQIAhIQaEUdx%2BNt2107Rr%2FzucFoHBLoAQIE97dBBAEAAAAAAHnFKubacGEAAAAOpnltbLcz9gKNyK89dVj0mqzhOWrlFy3vvka4p0XvImAlXS0dqrINobyH8pW4OnQSIQkVmZv4Ftq%2B80SPxCiQN33kf5IPUNOa5GxztWTpCozPG94LNZdhCDbcHdKPY%2FnMSxVJHUw6jKf96olRygyQlq0BXTMHmtvWKGr03Kenh3wUX8xR5k7RHYN7Z0PXGKeunxFOxjSpr5%2FBhEjE%2BsBqOFec65VbbKrb6JrUt20A6QFlTE%2Btyy7HOvDOy3zZK%2Fs2LWy0hPrDN2nFs0ifzVFR21c%3D&amp;acctmode=0&amp;pass_ticket=QJ7nxPruqlHKMmx%2FM5fpyAe9W22w%2BeNKDS3oZbe700IJRqbiNyKc%2BU0iItAxfOo4LQz%2B%2BQ2rTZTpaTqQlBAAIg%3D%3D&amp;wx_header=0\" data-miniprogram-type=\"text\" data-miniprogram-appid=\"wx429ee4d4fe086418\" data-miniprogram-path=\"/pages/file/detail?fid=266646437964681216&amp;sid=39823023\" data-miniprogram-nickname=\"图文卷\" data-miniprogram-servicetype=\"\">附件2项目经费预算表模板.docx</a></p>\n<p><a class=\"weapp_text_link js_weapp_entry wx_tap_link js_wx_tap_highlight\" href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&amp;mid=2247820614&amp;idx=1&amp;sn=c21294d44390ba2cc5f199bc40788583&amp;chksm=e98ed7bc254f87b47a8a78e7bdb263985adcbcc20fd42cfab326c65ba94e2306128635c81993&amp;mpshare=1&amp;scene=1&amp;srcid=1116bE30tABor3y9OkxcIgv5&amp;sharer_shareinfo=d44689478f3c481d5346790c05fc5d56&amp;sharer_shareinfo_first=d44689478f3c481d5346790c05fc5d56&amp;key=daf9bdc5abc4e8d05127047e23d42db1eb41643c05775ab1aebf6aaa64a8e650a6066e1709d8d593cd078799c9762fede115b4270ab278bdd3aeb193490caa71e41b9898cf5e6df1dba6d2a6454817a0fb39d1212ce7090f5039d9dfbb382d12b3e3fc651ebfdbf1984a8ac4625c19bef508ffb7bd35084cb1c140ba82883326&amp;ascene=0&amp;uin=MzA2MjQzMjA5NQ%3D%3D&amp;devicetype=UnifiedPCWindows&amp;version=f254200d&amp;lang=zh_CN&amp;countrycode=CN&amp;exportkey=n_ChQIAhIQaEUdx%2BNt2107Rr%2FzucFoHBLoAQIE97dBBAEAAAAAAHnFKubacGEAAAAOpnltbLcz9gKNyK89dVj0mqzhOWrlFy3vvka4p0XvImAlXS0dqrINobyH8pW4OnQSIQkVmZv4Ftq%2B80SPxCiQN33kf5IPUNOa5GxztWTpCozPG94LNZdhCDbcHdKPY%2FnMSxVJHUw6jKf96olRygyQlq0BXTMHmtvWKGr03Kenh3wUX8xR5k7RHYN7Z0PXGKeunxFOxjSpr5%2FBhEjE%2BsBqOFec65VbbKrb6JrUt20A6QFlTE%2Btyy7HOvDOy3zZK%2Fs2LWy0hPrDN2nFs0ifzVFR21c%3D&amp;acctmode=0&amp;pass_ticket=QJ7nxPruqlHKMmx%2FM5fpyAe9W22w%2BeNKDS3oZbe700IJRqbiNyKc%2BU0iItAxfOo4LQz%2B%2BQ2rTZTpaTqQlBAAIg%3D%3D&amp;wx_header=0\" data-miniprogram-type=\"text\" data-miniprogram-appid=\"wx429ee4d4fe086418\" data-miniprogram-path=\"/pages/file/detail?fid=266646475520479232&amp;sid=39823023\" data-miniprogram-nickname=\"图文卷\" data-miniprogram-servicetype=\"\">附件3申报承诺书模板.docx</a></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>",
+   "bodyLen": 4457,
+   "excerpt": "为深入贯彻落实立德树人根本任务，激发学生科技创新热情，培养具有创新精神和实践能力的高素质人才，西安交通大学杰出校友出资专项设立“玉峰科创资助金”（以下简称“资助金”），用于支持在校学生开展科学研究、发明创造与创业实践。根据相关实施方案，现启动2026年度申报工作。有关事项通知如下。 01 资助概况 “玉峰科创资助金”设学生研发研究赛事项目资助、学生落地项目资助、学生科技社团项目资助三个板块，年度资助额度分别为35万元、60万元、30万元。 02 申报对象与条件 01资助对象 资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。申报团队应当指定一名成员为团队负责人，作为资助金领取、使用与管理的直接责任人；团队负责人须为本校全日制在校学生。 02申报基本条件 申报团队应当同时具备下列条件： 1.团队成员热爱祖国，遵守法律法规和校纪校规，品行端正，无违纪违规记录。 2.团队成员学术作风严谨，恪守学术道德，无学术不端行为，无侵犯他人知识产权等行为。",
+   "paragraphs": [
+    "为深入贯彻落实立德树人根本任务，激发学生科技创新热情，培养具有创新精神和实践能力的高素质人才，西安交通大学杰出校友出资专项设立“玉峰科创资助金”（以下简称“资助金”），用于支持在校学生开展科学研究、发明创造与创业实践。根据相关实施方案，现启动2026年度申报工作。有关事项通知如下。",
+    "01 资助概况",
+    "“玉峰科创资助金”设学生研发研究赛事项目资助、学生落地项目资助、学生科技社团项目资助三个板块，年度资助额度分别为35万元、60万元、30万元。",
+    "02 申报对象与条件",
+    "01资助对象",
+    "资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。申报团队应当指定一名成员为团队负责人，作为资助金领取、使用与管理的直接责任人；团队负责人须为本校全日制在校学生。",
+    "02申报基本条件",
+    "申报团队应当同时具备下列条件：",
+    "1.团队成员热爱祖国，遵守法律法规和校纪校规，品行端正，无违纪违规记录。",
+    "2.团队成员学术作风严谨，恪守学术道德，无学术不端行为，无侵犯他人知识产权等行为。",
+    "3.团队结构稳定、分工明确，具备完成项目所必需的研发能力、运营条件和时间投入。",
+    "4.申报项目真实可信，申报材料齐全规范，经费预算合理、用途明确，并书面承诺资助金专项用于资助项目，接受校团委、资助方对资金使用情况的核查、抽查。",
+    "5.团队成员中，应当有不少于 50%为本校全日制在校学生，公司形式申报的本校全日制在校学生合计持股应当不少于 50%，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生。",
+    "03一票否决情形",
+    "申报团队存在下列情形之一的，实行一票否决，取消其申报或者获资助资格：",
+    "（1）违反法律法规和校纪校规的；",
+    "（2）存在学术不端或者侵犯知识产权行为的；",
+    "（3）申报材料弄虚作假的；",
+    "（4）曾获本资助金支持但验收不合格且尚在黑名单管理期内的；",
+    "（5）同一项目、同一团队在同一年度内重复申报、拆分申报，或者以关联人名义多头申报的；",
+    "（6）申报项目已获得校内或者校外同类资助且资助内容重复，未如实说明的；",
+    "（7）团队成员与实际执行人不一致，存在挂名、顶替情形的。",
+    "03资助板块与资助标准",
+    "各板块资助坚持宁缺毋滥，以项目质量和团队实力为唯一依据。同一项目、同一团队只能申报一个板块，不得重复申报或者拆分申报。同一个项目在研发研究赛事、落地项目、科技社团板块历年累计资助金额不超过 15 万元，且合计资助不超过 4 次。",
+    "01学生研发研究赛事项目资助",
+    "本板块年度额度 35 万元，每年资助学生科创项目 35 个，重点支持参加各级赛事的学生科创团队开展创新研发、知识产权申请、前沿理论研究，以及参加比赛、竞赛、展会等活动。申报项目须具备明确的产品或技术落地前景、扎实的研究基础，或者成熟的竞赛基础，同时项目团队有能力、有意愿推进成果转化或者赛事奖项冲刺。资助金额分为四档，各档按应用研究与成果转化、理论前沿探索、赛事竞赛三个通道并行择优评定，且单个通道的项目在四档的合计数不超过总项目数的二分之一。",
+    "1.第一档3万元，拟资助2个。",
+    "项目应处于领先水平，技术或理论创新性突出，并符合下列情形之一：",
+    "（1）已取得阶段性研发成果且已取得知识产权，落地转化路径清晰；",
+    "（2）已在顶尖学术期刊发表或者录用高水平论文，或者形成具有学科影响力的理论成果，研究处于学科前沿。",
+    "2.第二档2万元，拟资助5个。",
+    "项目应具备较好的技术基础或者理论基础，研发、研究、比赛竞赛进展明确，阶段性成果可以验证，并符合下列情形之一：",
+    "（1）已形成样机、算法模型或者实验数据等阶段性研发成果，知识产权已申请或获受理，具有较大的落地转化潜力；",
+    "（2）研究方向处于学科前沿，究方案系统完整，已在权威学术会议报告或重要学术期刊论文投稿、录用、发表等方面取得阶段性理论进展；",
+    "（3）已获得国家级重要赛事高等级奖项，具备冲击国家级最高奖项的实力。",
+    "3.第三档1万元，资助10个。",
+    "项目应具备明确的研究方向和基本的实施条件，研发、研究工作已实质性启动，并符合下列情形之一：",
+    "（1）技术路线基本清晰，已初步完成方案设计、功能原型或者实验准备，具备进一步研发验证的条件；",
+    "（2）虽属于理论研究，但研究方向所处领域具有前沿性，具有较强的理论创新价值和学术意义，研究方案较为完整，已具备产出阶段性学术成果的条件；",
+    "（3）已在省部级及以上赛事、竞赛中获得较高等级奖项，具备向更高层级赛事冲刺并再获荣誉的实力。",
+    "4.第四档5000元，资助18个。",
+    "本档为培育性资助，重点支持处于起步阶段但目标明确、成长性良好的项目，并符合下列情形之一：",
+    "（1）技术创新设想明确，尚处于方案论证、原型设计或者实验准备阶段，具备成长为更高档次项目的潜力；",
+    "（2）虽属于理论研究，但研究方向处于学科前沿，具有探索价值和学术意义，需要开展前期调研、文献综述或者可行性验证；",
+    "（3）已取得校级及以上比赛、竞赛二等奖及以上奖励，并已报名或者入围省部级及以上重要赛事、竞赛，具备冲击高等级奖项的实际潜力。",
+    "02学生落地项目资助",
+    "本板块年度额度 60 万元，每年资助学生创业落地项目 20个，单个项目资助 1 万至 8 万元。申报项目必须为已创业或资助前完成落地运营的项目。资助金以项目资助金形式发放至参与项目的学生所在公司银行账户，专项用于项目运营发展，不得挪作他用。资助金额分为四档：",
+    "1.第一档8万元，拟资助1个。",
+    "项目应运营规范、业绩突出，营业收入或者用户规模增长明显，发展前景良好。",
+    "2.第二档6万元，拟资助3个。",
+    "项目应运营状况稳定，已形成持续收入，具备较好的成长性。",
+    "前两档同时要求项目已依法注册成立公司（公司需满足学生团队合计持股不少于 50%要求，且单一最大股东、法定代表人或者执行董事均须为本校全日制在校学生），具有固定经营场所、明确的业务模式和稳定的运营团队，项目产品或者服务已进入市场并形成实际收入。",
+    "3.第三档4万元，拟资助6个。",
+    "项目应已完成注册并实际运营，业务模式基本成型。",
+    "4.第四档1万元，拟资助10个。",
+    "团队已形成，项目应当已有雏形，方向基本选定，公司已注册或在资助前完成注册。",
+    "第三档与前两档相比，不要求已形成收入，第四档要求在资助前完成公司注册。",
+    "03学生科技社团项目资助",
+    "本板块年度额度 30 万元，每年支持 10 个科技类学生社团，支持其开展技术研发与市场化落地验证，提升社团科创水平和成果转化能力。受资助社团应当在学校社团管理部门登记在册。资助金应围绕社团科创活动使用，花销情况需向社团全体成员公开；设备耗材、场地等必要开支，按照学校财务管理有关规定执行。社团负责人换届的，应当办理经费交接手续并出具经费交接清单，报校团委备案和本人、本社团留档，接受校团委、资助方的核查、抽查。资助金额分为四档：",
+    "1.第一档：资助额度8万元，拟资助 1个。",
+    "要求社团技术研发实力突出，科创产品储备丰富，竞赛成果丰硕、成果转化成效明显；内部运行管理规范，发挥标杆示范作用。",
+    "2.第二档：资助额度6万元，拟资助 2个。",
+    "要求社团技术积累扎实，研究方向稳定，活动成效良好，竞赛成绩突出；已形成科创产品，技术落地可行性较强。",
+    "3.第三档：资助额度2万元，拟资助 3个。",
+    "要求社团具备较好技术基础，拥有明确研发计划与活动实施方案，已产出产品雏形，技术具备一定落地应用前景。",
+    "4.第四档：资助额度1万元，拟资助 4个。",
+    "要求社团常态化开展科创活动，具备基本技术研发条件，拥有清晰产品规划，具备良好发展潜力。",
+    "04申报评审程序",
+    "1.团队申报（11月22日前）。符合条件的团队按要求填写申报书、汇总表，签署承诺书，提交佐证材料。",
+    "2.资格审查（11月29日前）。对申报团队和项目进行资格审查，重点核查申报基本条件。",
+    "3.专家评审（12月13日前）。组织校、地、企专家采取材料评审、现场答辩等方式评审，提出建议资助名单及档次，报基金会和捐赠人审定。",
+    "4.公示审定（12月20日前）。评审结果公示5个工作日，公示项目名称、团队负责人及学院、团队成员、资助板块、档次金额等。公示期内实名异议仅暂缓该项目拨付，核查后另行处理。",
+    "05资金拨付与结项验收",
+    "资助金实行“申请—验收”制，分两批拨付：资助名单公布后拨付资助金额的70%，获资助项目须在第二年5月前完成结项验收，验收结果分为优秀、良好、合格、不合格四档，项目通过结项验收后再拨付剩余30%。不合格项目不发放尾款，相关项目及成员纳入黑名单管理，后续年度不再支持。",
+    "06纪律与监督",
+    "申报、评审、验收过程中弄虚作假、骗取资助，或挪用、侵占资助金的，一经查实取消资格、全额追回已发放资金，相关项目及成员后续年度不再支持，并依规追究责任。",
+    "07材料报送与联系方式",
+    "请各二级单位团组织做好宣传动员，指导符合条件的团队规范准备申报材料。全套申报材料电子版打包发送至指定邮箱；纸质版经所在二级单位团组织审核、签字盖章后，报送至校团委1号办公室。电子版材料命名统一为【板块名称+项目名称+负责人姓名】，附件材料分类命名、清晰索引。材料清单如下：",
+    "1.项目申报书",
+    "2.项目经费预算表",
+    "3.申报承诺书",
+    "4.项目详细介绍（1000 字以内）",
+    "5.相关附件支撑材料（按类别整理、合并为一个PDF，单个文件大小控制在20MB以内，选择性提供，无则可不附）：",
+    "（1）竞赛类：获奖证书、赛事入围通知、参赛回执、邀请函等扫描件；",
+    "（2）知识产权类：专利、软著、商标受理通知书/授权证书、查新报告等扫描件；",
+    "（3）论文成果类：论文录用证明、见刊页面、会议报告证明等扫描件；",
+    "（4）落地创业类：营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等扫描件；",
+    "（5）样机/产品佐证：样机照片、测试报告、第三方检测报告、用户反馈证明等；",
+    "（6）其他能够佐证项目基础、团队实力的材料。",
+    "请提交申请材料的同学添加下方QQ群，群号：1132393359。",
+    "08其他注意事项",
+    "1.涉及国家秘密、商业秘密或者敏感技术的项目，须在申报前完成保密审查，按保密要求提交材料，不得在公示材料中披露敏感信息。",
+    "2.项目实施期内，团队负责人原则上不得变更；确因毕业、休学、出国等正当事由需要变更的，须书面申请、团队全体成员签字同意、指导教师签署意见，报工作组审核、备案，并完成经费与任务交接。",
+    "3. 获得资助的项目可申请入驻“挑战杯”大学生科创成果孵化转化基地，基地配套提供办公场地、孵化资源与专项政策支持。",
+    "4.本通知由共青团西安交通大学委员会负责解释，未尽事宜及内容调整以后续通知为准。",
+    "09联系方式",
+    "1. 申报材料电子版报送邮箱：tuanwei@mail.xjtu.edu.cn",
+    "2. 联系电话：029-82668261",
+    "附件：",
+    "附件1项目申报书模板.docx",
+    "附件2项目经费预算表模板.docx",
+    "附件3申报承诺书模板.docx"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    },
+    {
+     "type": "paragraph",
+     "index": 61
+    },
+    {
+     "type": "paragraph",
+     "index": 62
+    },
+    {
+     "type": "paragraph",
+     "index": 63
+    },
+    {
+     "type": "paragraph",
+     "index": 64
+    },
+    {
+     "type": "paragraph",
+     "index": 65
+    },
+    {
+     "type": "paragraph",
+     "index": 66
+    },
+    {
+     "type": "paragraph",
+     "index": 67
+    },
+    {
+     "type": "paragraph",
+     "index": 68
+    },
+    {
+     "type": "paragraph",
+     "index": 69
+    },
+    {
+     "type": "paragraph",
+     "index": 70
+    },
+    {
+     "type": "paragraph",
+     "index": 71
+    },
+    {
+     "type": "paragraph",
+     "index": 72
+    },
+    {
+     "type": "paragraph",
+     "index": 73
+    },
+    {
+     "type": "paragraph",
+     "index": 74
+    },
+    {
+     "type": "paragraph",
+     "index": 75
+    },
+    {
+     "type": "paragraph",
+     "index": 76
+    },
+    {
+     "type": "paragraph",
+     "index": 77
+    },
+    {
+     "type": "paragraph",
+     "index": 78
+    },
+    {
+     "type": "paragraph",
+     "index": 79
+    },
+    {
+     "type": "paragraph",
+     "index": 80
+    },
+    {
+     "type": "paragraph",
+     "index": 81
+    },
+    {
+     "type": "paragraph",
+     "index": 82
+    },
+    {
+     "type": "paragraph",
+     "index": 83
+    },
+    {
+     "type": "paragraph",
+     "index": 84
+    },
+    {
+     "type": "paragraph",
+     "index": 85
+    },
+    {
+     "type": "paragraph",
+     "index": 86
+    },
+    {
+     "type": "paragraph",
+     "index": 87
+    },
+    {
+     "type": "paragraph",
+     "index": 88
+    },
+    {
+     "type": "paragraph",
+     "index": 89
+    },
+    {
+     "type": "paragraph",
+     "index": 90
+    },
+    {
+     "type": "paragraph",
+     "index": 91
+    },
+    {
+     "type": "paragraph",
+     "index": 92
+    },
+    {
+     "type": "paragraph",
+     "index": 93
+    },
+    {
+     "type": "paragraph",
+     "index": 94
+    },
+    {
+     "type": "paragraph",
+     "index": 95
+    },
+    {
+     "type": "paragraph",
+     "index": 96
+    },
+    {
+     "type": "paragraph",
+     "index": 97
+    },
+    {
+     "type": "paragraph",
+     "index": 98
+    },
+    {
+     "type": "paragraph",
+     "index": 99
+    },
+    {
+     "type": "paragraph",
+     "index": 100
+    },
+    {
+     "type": "paragraph",
+     "index": 101
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/8cbd7d02-7abc-4f1f-ba67-6969b2c010be.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+     "text": "附件",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+     "text": "附件",
+     "kind": "file"
+    },
+    {
+     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&mid=2247820614&idx=1&sn=c21294d44390ba2cc5f199bc40788583&chksm=e98ed7bc254f87b47a8a78e7bdb263985adcbcc20fd42cfab326c65ba94e2306128635c81993&mpshare=1&scene=1&srcid=1116bE30tABor3y9OkxcIgv5&sharer_shareinfo=d44689478f3c481d5346790c05fc5d56&sharer_shareinfo_first=d44689478f3c481d5346790c05fc5d56&key=daf9bdc5abc4e8d05127047e23d42db1eb41643c05775ab1aebf6aaa64a8e650a6066e1709d8d593cd078799c9762fede115b4270ab278bdd3aeb193490caa71e41b9898cf5e6df1dba6d2a6454817a0fb39d1212ce7090f5039d9dfbb382d12b3e3fc651ebfdbf1984a8ac4625c19bef508ffb7bd35084cb1c140ba82883326&ascene=0&uin=MzA2MjQzMjA5NQ%3D%3D&devicetype=UnifiedPCWindows&version=f254200d&lang=zh_CN&countrycode=CN&exportkey=n_ChQIAhIQaEUdx%2BNt2107Rr%2FzucFoHBLoAQIE97dBBAEAAAAAAHnFKubacGEAAAAOpnltbLcz9gKNyK89dVj0mqzhOWrlFy3vvka4p0XvImAlXS0dqrINobyH8pW4OnQSIQkVmZv4Ftq%2B80SPxCiQN33kf5IPUNOa5GxztWTpCozPG94LNZdhCDbcHdKPY%2FnMSxVJHUw6jKf96olRygyQlq0BXTMHmtvWKGr03Kenh3wUX8xR5k7RHYN7Z0PXGKeunxFOxjSpr5%2FBhEjE%2BsBqOFec65VbbKrb6JrUt20A6QFlTE%2Btyy7HOvDOy3zZK%2Fs2LWy0hPrDN2nFs0ifzVFR21c%3D&acctmode=0&pass_ticket=QJ7nxPruqlHKMmx%2FM5fpyAe9W22w%2BeNKDS3oZbe700IJRqbiNyKc%2BU0iItAxfOo4LQz%2B%2BQ2rTZTpaTqQlBAAIg%3D%3D&wx_header=0",
+     "text": "附件3申报承诺书模板.docx",
+     "kind": "link"
+    }
+   ],
+   "contact": "",
+   "phone": "029-82668261",
+   "email": "tuanwei@mail.xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-17T08:03:30.786810+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+   "title": "2026-2027学年第一学期2025级本科生​“形势与政策”开课、选课通知",
+   "site": "教务处",
+   "date": "2026-11-16",
+   "source": "jwc_kcap",
+   "fetchedAt": "2026-11-17T08:03:30.784863+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "4dcd01ba2b4cdcf547a058546a9516a8ad99f719195930896fcdeff8f47e2ea0",
+   "contentParserVersion": 2,
+   "body": "2025级本科生：\n由于课程教学计划调整，本年级学生继续以线下课方式开设“形势与政策”课。2024级、2023级以线上课开课方式不变，线上课开设情况另行通知。请2025级本科生注意选课上课。现将有关要求发布如下：\n1. 选课对象：各校区2025级全体本科生。\n2. 本次选课（选课端网址：https://xkfw.xjtu.edu.cn/）分2个轮次进行，均为正选，可选可退，每位学生选择一个专题学习即可。\n第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。第1轮选课结束后，根据选课情况，11月18日18点公布停开课程目录。请所有学生于第1轮选课结束后务必登录系统查看是否“停开落选”，第1轮已选好一个专题且未停开的学生，第2轮无需再选；所选专题停开的学生，须参加第2轮选课补选。第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。\n若第2轮选课截止后仍未选课成功，不再安排补选，可在此后学期补课，请务必在选课期间完成选课。\n3. 请务必根据所选专题上课。如错过上课时间，只可补同一位老师的课，在补课时要将学号、姓名和原上课时间地点告知任课老师，以便修改考勤。\n4. 部分专题由多位老师共同开设，每位同学仅能选择其中一位教师的专题进行学习。\n5.开设专题如下：\n特别提醒：同一个专题虽任课老师不同，但不得重复选择，选择一位老师的专题即可。李家胜、张坤、南亚娟、刘珈彤、高如五位老师的课程分布在兴庆校区和雁塔校区，请确认所选课程在本校区开课后再提交。\n专题一：正确理解和把握习近平党建思想（周远/李家胜/韩锐/高飞/冯亮/南亚娟）\n专题二：科学认识当前经济热点问题（段朱清）\n专题三：人工智能：一个划时代的重大技术变革（雒自新/马溯川/陈永华/李婧/辛文）\n专题四：繁荣互联网条件下新大众文艺（高如/刘珈彤/杨华）\n专题五：全面推进美丽中国建设（伊景冰/张坤）\n专题六：构建更加公正合理的全球治理体系（朱旭）\n5. 本课程是必须参加的线下实体课，需完成选课、线下上课，与2024级、2023级线上课不同（线上课开课另行通知），请勿混淆。\n6. 如有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊。\n一群：619057588；二群：681195160；三群：162737850。\n马克思主义学院思想政治教育研究所\n“形势与政策”课程组\n2026年11月",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n    \r\n    \r\n   <div class=\"Section0\" style=\"vsb_temp: 15.6000pt;\"> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 0pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 0.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><strong><span style=\"font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2025</span><span style=\"font-family: 宋体;\">级本科生：</span></span></strong></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">由于课程教学计划调整，本年级</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">学生继续以线下课方式开设</span><span style=\"font-family: 宋体;\">“形势与政策”课。</span><span style=\"font-family: Times New Roman;\">2024</span><span style=\"font-family: 宋体;\">级、</span><span style=\"font-family: Times New Roman;\">2023</span><span style=\"font-family: 宋体;\">级以线上课开课方式不变，线上课开设情况另行通知。</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">请</span>2025<span style=\"font-family: 宋体;\">级本科生注意选课上课</span></span></strong><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">。现将有关要求发布如下：</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">1. <span style=\"font-family: 宋体;\">选课对象：</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">各校区</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">2025<span style=\"font-family: 宋体;\">级</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">全体</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">本科生</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">2. <span style=\"font-family: 宋体;\">本次选课（选课端网址：</span><span style=\"font-family: Times New Roman;\">https://xkfw.xjtu.edu.cn/</span><span style=\"font-family: 宋体;\">）分</span><span style=\"font-family: Times New Roman;\">2</span><span style=\"font-family: 宋体;\">个轮次进行，均为正选，可选可退</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">，</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">每位学生</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">选择一个</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">专题学习</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">即可</span></span></strong><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">第</span>1<span style=\"font-family: 宋体;\">轮选课时</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">间：</span>202</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">6</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">年</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">17</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">日</span>1</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">5</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">:00<span style=\"font-family: 宋体;\">至</span><span style=\"font-family: Times New Roman;\">202</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">6</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">年</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">18</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">日</span>1</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">5</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">:00<span style=\"font-family: 宋体;\">。第</span><span style=\"font-family: Times New Roman;\">1</span><span style=\"font-family: 宋体;\">轮选课结束后，根据选课情况，</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">18</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">日</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">18</span><span style=\"font-family: 宋体;\">点</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">公布停开课程目录。</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">请所有学</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">生于第</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">1</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">轮选课结束后务必登录系统查看是否</span><span style=\"font-family: Times New Roman;\">“</span><span style=\"font-family: 宋体;\">停开落选</span><span style=\"font-family: Times New Roman;\">”</span><span style=\"font-family: 宋体;\">，第</span><span style=\"font-family: Times New Roman;\">1</span><span style=\"font-family: 宋体;\">轮已选</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">好一</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">个专题且未停开的学生，第</span>2<span style=\"font-family: 宋体;\">轮无需再选；所选专题停开的学生，须参加第</span><span style=\"font-family: Times New Roman;\">2</span><span style=\"font-family: 宋体;\">轮选课补选。</span></span></strong><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">第</span>2<span style=\"font-family: 宋体;\">轮选课时间：</span><span style=\"font-family: Times New Roman;\">202</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">6</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">年</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">19</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">日</span>1</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">0</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">:00<span style=\"font-family: 宋体;\">至</span><span style=\"font-family: Times New Roman;\">202</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">6</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">年</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">20</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">日</span>1</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">0</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">:00<span style=\"font-family: 宋体;\">。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24.1pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"> </span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">若</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">第</span>2<span style=\"font-family: 宋体;\">轮选课截止后仍未选</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">课成功</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">，不再安排补选，</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">可在此后学期补课，</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">请务必在选课期间完成选课。</span></span></strong></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">3. <span style=\"font-family: 宋体;\">请务必根据所选专题上课。如错过上课时间，只可补同一位老师的课，在补课时要将学号、姓名和原上课时间地点告知任课老师，以便修改考勤。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">4. <span style=\"font-family: 宋体;\">部分专题由多位老师共同开设，每位同学仅能选择</span></span><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">其中一位教师的</span></span></strong><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题</span></span></strong><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">进行学习。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">5.<span style=\"font-family: 宋体;\">开设专题如下</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">：</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24.1pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><strong><span style=\"color: rgb(255, 0, 0); font-family: 宋体; font-size: 12pt; font-weight: bold; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">特别提醒：同一个专题虽任课老师不同，但不得重复选择，选择一位老师的专题即可。李家胜、张坤、南亚娟、刘珈彤、高如五位老师的课程分布在兴庆校区和雁塔校区，请确认所选课程在本校区开课后再提交。</span></span></strong></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题一：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">正确理解和把握习近平党建思想</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">周远</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">李家胜</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">韩锐</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">高飞</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">冯亮</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">南亚娟</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题二：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">科学认识当前经济热点问题</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">段朱清</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题三：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">人工智能：一个划时代的重大技术变革</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">雒自新</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">马溯川</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">陈永华</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">李婧</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">辛文</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题四：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">繁荣互联网条件下新大众文艺</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">高如</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">刘珈彤</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">杨华）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题五：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">全面推进美丽中国建设</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">伊景冰</span><span style=\"font-family: Times New Roman;\">/</span><span style=\"font-family: 宋体;\">张坤</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">专题六：</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">构建更加公正合理的全球治理体系</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">（</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">朱旭</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">5. <span style=\"font-family: 宋体;\">本课程是必须参加的线下实体课，需完成选课、线下上课，与</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2024</span><span style=\"font-family: 宋体;\">级、</span><span style=\"font-family: Times New Roman;\">2023</span><span style=\"font-family: 宋体;\">级</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">线上课不同（线上课开课</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">另行</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">通知），请勿混淆。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">6. </span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">如有疑惑，</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">请添加</span>QQ<span style=\"font-family: 宋体;\">群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">一群：</span>619057588<span style=\"font-family: 宋体;\">；二群：</span><span style=\"font-family: Times New Roman;\">681195160</span><span style=\"font-family: 宋体;\">；三群：</span><span style=\"font-family: Times New Roman;\">162737850</span><span style=\"font-family: 宋体;\">。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">马克思主义学院思想政治教育研究所</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">“</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">形势与政策</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">”</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">课程组</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; line-height: 24pt; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none; mso-line-height-rule: exactly;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">202</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">6</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">年</span></span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">11</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体;\">月</span></span></p> \r\n    <p class=\"MsoNormal\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 10.5pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n   </div> \r\n    \r\n  </div>",
+   "bodyLen": 1037,
+   "excerpt": "2025级本科生： 由于课程教学计划调整，本年级学生继续以线下课方式开设“形势与政策”课。2024级、2023级以线上课开课方式不变，线上课开设情况另行通知。请2025级本科生注意选课上课。现将有关要求发布如下： 1. 选课对象：各校区2025级全体本科生。 2. 本次选课（选课端网址：https://xkfw.xjtu.edu.cn/）分2个轮次进行，均为正选，可选可退，每位学生选择一个专题学习即可。 第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。第1轮选课结束后，根据选课情况，11月18日18点公布停开课程目录。请所有学生于第1轮选课结束后务必登录系统查看是否“停开落选”，第1轮已选好一个专题且未停开的学生，第2轮无需再选；所选专题停开的学生，须参加第2轮选课补选。第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。 若第2轮选课截止后仍未选课成功，不再安排补选，可在此后学期补课，请务必在选课期间完成选课。 3. 请务必根据所选专题上课。",
+   "paragraphs": [
+    "2025级本科生：",
+    "由于课程教学计划调整，本年级学生继续以线下课方式开设“形势与政策”课。2024级、2023级以线上课开课方式不变，线上课开设情况另行通知。请2025级本科生注意选课上课。现将有关要求发布如下：",
+    "1. 选课对象：各校区2025级全体本科生。",
+    "2. 本次选课（选课端网址：https://xkfw.xjtu.edu.cn/）分2个轮次进行，均为正选，可选可退，每位学生选择一个专题学习即可。",
+    "第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。第1轮选课结束后，根据选课情况，11月18日18点公布停开课程目录。请所有学生于第1轮选课结束后务必登录系统查看是否“停开落选”，第1轮已选好一个专题且未停开的学生，第2轮无需再选；所选专题停开的学生，须参加第2轮选课补选。第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。",
+    "若第2轮选课截止后仍未选课成功，不再安排补选，可在此后学期补课，请务必在选课期间完成选课。",
+    "3. 请务必根据所选专题上课。如错过上课时间，只可补同一位老师的课，在补课时要将学号、姓名和原上课时间地点告知任课老师，以便修改考勤。",
+    "4. 部分专题由多位老师共同开设，每位同学仅能选择其中一位教师的专题进行学习。",
+    "5.开设专题如下：",
+    "特别提醒：同一个专题虽任课老师不同，但不得重复选择，选择一位老师的专题即可。李家胜、张坤、南亚娟、刘珈彤、高如五位老师的课程分布在兴庆校区和雁塔校区，请确认所选课程在本校区开课后再提交。",
+    "专题一：正确理解和把握习近平党建思想（周远/李家胜/韩锐/高飞/冯亮/南亚娟）",
+    "专题二：科学认识当前经济热点问题（段朱清）",
+    "专题三：人工智能：一个划时代的重大技术变革（雒自新/马溯川/陈永华/李婧/辛文）",
+    "专题四：繁荣互联网条件下新大众文艺（高如/刘珈彤/杨华）",
+    "专题五：全面推进美丽中国建设（伊景冰/张坤）",
+    "专题六：构建更加公正合理的全球治理体系（朱旭）",
+    "5. 本课程是必须参加的线下实体课，需完成选课、线下上课，与2024级、2023级线上课不同（线上课开课另行通知），请勿混淆。",
+    "6. 如有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊。",
+    "一群：619057588；二群：681195160；三群：162737850。",
+    "马克思主义学院思想政治教育研究所",
+    "“形势与政策”课程组",
+    "2026年11月"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    }
+   ],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-17T08:03:30.784863+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+   "title": "关于思源学堂2.0平台升级暂停服务的通知",
+   "site": "教务处",
+   "date": "2026-11-17",
+   "source": "jwc",
+   "fetchedAt": "2026-11-17T08:03:30.783792+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "c8659ecac80138819f92e6c4a9bd4261be090daa4b635c3cdeea3022156c849e",
+   "contentParserVersion": 2,
+   "body": "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。期间思源学堂2.0平台将暂停使用，请各位师生提前安排好相关工作，避免对教学产生影响。\n根据具体工作进度，停机结束时间可能会适当提前或延后。升级完成后即可恢复正常。对于平台升级给各位师生带来的不便，敬请谅解。\n感谢您对学校教学工作的理解和支持！\n教务处\n网络信息中心\n2026年11月17日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:43px\"><br></p> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\"></span></p> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">为</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">做好</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">思源学堂</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">2.0</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">平台</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">功能升级</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">，提高教学服务能力，</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">学校将于</span><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">2026年</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">11</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">月</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">17</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">日</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">22</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">:00—</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">11</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">月</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">18</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">日</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">6</span></strong><strong><span style=\"font-family: 仿宋_gb2312;color: rgb(255, 0, 0);letter-spacing: 0;font-size: 21px\">:00</span></strong><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">对</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">平台</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">进行</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">升级维护</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">。</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">期间</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">思源学堂</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">2.0</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">平台将</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">暂停</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">使用，请</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">各位</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">师生</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">提前安排好</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">相关</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">工作，避免对教学产生影响。</span></p> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">根据具体工作进度，停机结束时间可能会适当提前或延后。</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">升级完成后即可恢复正常。对于</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">平台</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">升级给各位师生带来的不便，敬请谅解。</span></p> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:40px;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">感谢您对学校教学工作的理解和支持！</span></p> \r\n   <p style=\"text-align:right;margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0;text-autospace:ideograph-numeric;line-height:37px\"><br></p> \r\n   <p style=\"text-align:right;margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0;text-autospace:ideograph-numeric;line-height:37px\"><br></p> \r\n   <p style=\"text-align:justify;margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:384px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">                                  教务处</span></p> \r\n   <p style=\"text-align:center;margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">网络信息中心</span></p> \r\n   <p style=\"text-align:center;margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:0;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">202</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">6</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">年</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">11</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">月</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">1</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">7</span><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 21px\">日</span></p> \r\n   <p style=\"margin-top:5px;margin-right:0;margin-bottom:5px;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;letter-spacing: 0;font-size: 20px\"></span><br></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 211,
+   "excerpt": "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。期间思源学堂2.0平台将暂停使用，请各位师生提前安排好相关工作，避免对教学产生影响。 根据具体工作进度，停机结束时间可能会适当提前或延后。升级完成后即可恢复正常。对于平台升级给各位师生带来的不便，敬请谅解。 感谢您对学校教学工作的理解和支持！ 教务处 网络信息中心 2026年11月17日",
+   "paragraphs": [
+    "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。期间思源学堂2.0平台将暂停使用，请各位师生提前安排好相关工作，避免对教学产生影响。",
+    "根据具体工作进度，停机结束时间可能会适当提前或延后。升级完成后即可恢复正常。对于平台升级给各位师生带来的不便，敬请谅解。",
+    "感谢您对学校教学工作的理解和支持！",
+    "教务处",
+    "网络信息中心",
+    "2026年11月17日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    }
+   ],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-17T08:03:30.783792+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",

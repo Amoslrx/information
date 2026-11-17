@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 70,
+  "count": 80,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -15309,6 +15309,664 @@
         "mime": "image/png",
         "format": "image",
         "finalUrl": "https://jwc.xjtu.edu.cn/__local/8/15/7F/68F9E9C2D15B94A3B4421BDD2DA_567EBBC8_82F0F.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "3143bc9920db4bf6e9336b3f5fc1ab7696444fa4d9d3ee55ce71048b6717a84e",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/de4a849d-0e45-4940-b63f-99d0fd61be49.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:03:47.815145+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/4f83eb0fa51b22b1e72fce51417cc6507b34db8d76d2655f6a44348527ce1b4f/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/96af4953aec972f8d2422792bd4d3f649d1e01ee167cb48cb5c5cd882c01cf9d.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/4f83eb0fa51b22b1e72fce51417cc6507b34db8d76d2655f6a44348527ce1b4f.img",
+        "sha256": "4f83eb0fa51b22b1e72fce51417cc6507b34db8d76d2655f6a44348527ce1b4f",
+        "bytes": 128757,
+        "filename": "de4a849d-0e45-4940-b63f-99d0fd61be49.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/de4a849d-0e45-4940-b63f-99d0fd61be49.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "29d2c2cf16111a9df0c97c7d446156423f5ca12fa0041fd5853139ed7cacd2dc",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b9eaea5a-70fd-41ad-8e5e-bdc0538c280a.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "开班仪式 扬帆起航",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:03:50.949754+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/c7a2c55571cf30bfcb7ee09329dfe49fc1f2c0219135717a5d09a7b99b4ee682/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/14ca4dfb969493446b2faaf56b738046e7073ac487139d041464af50faa555c4.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/c7a2c55571cf30bfcb7ee09329dfe49fc1f2c0219135717a5d09a7b99b4ee682.img",
+        "sha256": "c7a2c55571cf30bfcb7ee09329dfe49fc1f2c0219135717a5d09a7b99b4ee682",
+        "bytes": 175895,
+        "filename": "b9eaea5a-70fd-41ad-8e5e-bdc0538c280a.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b9eaea5a-70fd-41ad-8e5e-bdc0538c280a.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "68f3f3c065c9e31aa9b9203c84b1e0d1d242510efc840284fa72e7e783d796fa",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/699d77c2-245b-4859-aaf3-88c0af329dd1.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "仪式在庄严的国歌声中拉开帷幕。全体师生肃立，齐唱国歌，满腔热血与昂扬斗志在宪梓堂会场内回荡。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:03:53.711229+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "互生六过\nAe\nXIAN JIAOTONG UNIVERSITY",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/98a8c0dbeffae66fd58220cf00da22525a7041af8759d99439f60e152a0ef963/image.jpg",
+          "textHash": "061d0d816db71b28b89f96d450b4806e0a59d0f2caca531c7190b52c4f7051bb",
+          "previewUrl": "media/f9e7c63054c0966d05bdf4c536afe1de5b928a27e53f25f95278ab01982df26f.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/98a8c0dbeffae66fd58220cf00da22525a7041af8759d99439f60e152a0ef963/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "互生 六 过",
+                "words": [
+                  {
+                    "text": "互生",
+                    "confidence": 0.32231007,
+                    "bbox": [
+                      543,
+                      900,
+                      297,
+                      92
+                    ]
+                  },
+                  {
+                    "text": "六",
+                    "confidence": 0.23408085,
+                    "bbox": [
+                      717,
+                      862,
+                      66,
+                      150
+                    ]
+                  },
+                  {
+                    "text": "过",
+                    "confidence": 0.48235718,
+                    "bbox": [
+                      782,
+                      862,
+                      57,
+                      150
+                    ]
+                  }
+                ],
+                "confidence": 0.23408085
+              },
+              {
+                "text": "Ae",
+                "words": [
+                  {
+                    "text": "Ae",
+                    "confidence": 0.39248657000000003,
+                    "bbox": [
+                      859,
+                      901,
+                      153,
+                      107
+                    ]
+                  }
+                ],
+                "confidence": 0.39248657000000003
+              },
+              {
+                "text": "XIAN JIAOTONG UNIVERSITY",
+                "words": [
+                  {
+                    "text": "XIAN",
+                    "confidence": 0.66395859,
+                    "bbox": [
+                      542,
+                      1011,
+                      79,
+                      19
+                    ]
+                  },
+                  {
+                    "text": "JIAOTONG",
+                    "confidence": 0.9598149100000001,
+                    "bbox": [
+                      630,
+                      1013,
+                      169,
+                      21
+                    ]
+                  },
+                  {
+                    "text": "UNIVERSITY",
+                    "confidence": 0.9520107299999999,
+                    "bbox": [
+                      813,
+                      1016,
+                      185,
+                      20
+                    ]
+                  }
+                ],
+                "confidence": 0.66395859
+              }
+            ],
+            "text": "互生六过\nAe\nXIAN JIAOTONG UNIVERSITY",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1920
+          },
+          "qr": [],
+          "previewUrl": "media/f9e7c63054c0966d05bdf4c536afe1de5b928a27e53f25f95278ab01982df26f.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/98a8c0dbeffae66fd58220cf00da22525a7041af8759d99439f60e152a0ef963.img",
+        "sha256": "98a8c0dbeffae66fd58220cf00da22525a7041af8759d99439f60e152a0ef963",
+        "bytes": 198337,
+        "filename": "699d77c2-245b-4859-aaf3-88c0af329dd1.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/699d77c2-245b-4859-aaf3-88c0af329dd1.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "25020855de905ee85d6e9c54f581f42fa5e9e028a318ab46ef8b9f8014c5cff4",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b702d2cb-c976-41ec-bc0f-f202d67b93d7.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "团组织建设指导中心主任团成员张靖宜向全体学员详细介绍了本期培训班的基本情况，培训坚持“五育并举”，统筹兼顾，设置理论讲座、实践锻炼、文化体验、文体训练、志愿服务等多个板块，希望学员们能够在学思践悟中传承弘扬西迁精神，在服务同学中锻炼过硬本领。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:03:57.105126+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/fa004c51ca0c5aa17ca637e16903da4bcf47eea5b4cbdf5c7a2291d751639d94/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1920
+          },
+          "qr": [],
+          "previewUrl": "media/69e7ccd4c8792fb539288744385650f469817372336baa613746b88359a42fdf.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/fa004c51ca0c5aa17ca637e16903da4bcf47eea5b4cbdf5c7a2291d751639d94.img",
+        "sha256": "fa004c51ca0c5aa17ca637e16903da4bcf47eea5b4cbdf5c7a2291d751639d94",
+        "bytes": 155589,
+        "filename": "b702d2cb-c976-41ec-bc0f-f202d67b93d7.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/b702d2cb-c976-41ec-bc0f-f202d67b93d7.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "f3b7e0d7aa828acb99d147a71bdb3fe102c7d5d7ae678dc8b1aa1ca88a7e8070",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/5c60c2d3-416b-4636-b16c-be9eeae82492.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:00.102568+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/be58802eb09b352df4e9868b93d3dd8ccc69c1993dab0bac7896a1fc118ce662/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/3623a72e67e484ccbd774b671f4dc2237460d58a4de90f1119749dd7700ff521.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/be58802eb09b352df4e9868b93d3dd8ccc69c1993dab0bac7896a1fc118ce662.img",
+        "sha256": "be58802eb09b352df4e9868b93d3dd8ccc69c1993dab0bac7896a1fc118ce662",
+        "bytes": 140642,
+        "filename": "5c60c2d3-416b-4636-b16c-be9eeae82492.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/5c60c2d3-416b-4636-b16c-be9eeae82492.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a961a11a2de3adb014d0ed55d6cfb8d4fae11b01a60650f2e8b49948dec13edd",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/898e414a-e7c5-463d-9479-4f7ff093c86a.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "孟浩在发言中提出设问，引导学员们认真思考“学生团干部的职责是什么？”“如何带领团支部做得更好？”“能为同学们提供哪些服务和支撑？”他指出，当代青年面临着前所未有的AI大模型发展浪潮，青年朋友们要主动学习，积极融合，将专业所学知识与人工智能结合，在不同的领域发光发热、革故鼎新。他寄语全体学员，要认真完成培训过程中的各项安排，提升团干部的综合能力素质，把握时代机遇，让青春闪闪发光。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:02.824061+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/39fb26cefec105b6605d71b04bd3d4af8dd4d7cf1246ee9cc9c057f712b36d7d/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 853
+          },
+          "qr": [],
+          "previewUrl": "media/b6e9a0ec2090792d72c2fccceff6584d90c27f8460cb9b15c22adfe7ac095301.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/39fb26cefec105b6605d71b04bd3d4af8dd4d7cf1246ee9cc9c057f712b36d7d.img",
+        "sha256": "39fb26cefec105b6605d71b04bd3d4af8dd4d7cf1246ee9cc9c057f712b36d7d",
+        "bytes": 144152,
+        "filename": "898e414a-e7c5-463d-9479-4f7ff093c86a.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/898e414a-e7c5-463d-9479-4f7ff093c86a.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "e6c9a05b93a9f30412d4883f0d24614a0d6eaa7f021867993de15d47653eace9",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/be35ed73-da21-4b1c-bd10-c7d0e4cb5f23.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "旗帜引领方向，使命呼唤担当。孟浩为各班学员代表授旗。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:05.952420+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/5bdc90bde59002c3a72048eb932bba0f9170f83e5102050bad7627102d54e26b/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1920
+          },
+          "qr": [],
+          "previewUrl": "media/f2ee775e7ce3ddf64773482e9869e92914ad31d18571b677ba34f1a353ec0933.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/5bdc90bde59002c3a72048eb932bba0f9170f83e5102050bad7627102d54e26b.img",
+        "sha256": "5bdc90bde59002c3a72048eb932bba0f9170f83e5102050bad7627102d54e26b",
+        "bytes": 204096,
+        "filename": "be35ed73-da21-4b1c-bd10-c7d0e4cb5f23.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/be35ed73-da21-4b1c-bd10-c7d0e4cb5f23.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "34ba4c4dc2fd50098c400a2b30ce69de520047c3cf796daa35f06b909506ee2f",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/967448af-0931-4658-adf1-1580ecbb944c.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "三班班主任黄镁洁作为班主任代表发言。她结合自身经历，鼓励学员们珍惜培训机会，认真对待每一次实践，在实践中锤炼本领，不断成长。全体班主任和助教将带着饱满热情和责任心投入培训班工作，带领培训学员们在团学道路上不断向前迈进。",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:09.126905+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/81c41464835deeb5bd25970c973dbbabc71b0a02202fe31b6a4d649ccd6a459c/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1920
+          },
+          "qr": [],
+          "previewUrl": "media/39048a2af248c953c89538f95e363b771bb1f32d69071d2c44583ef974b85072.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/81c41464835deeb5bd25970c973dbbabc71b0a02202fe31b6a4d649ccd6a459c.img",
+        "sha256": "81c41464835deeb5bd25970c973dbbabc71b0a02202fe31b6a4d649ccd6a459c",
+        "bytes": 204275,
+        "filename": "967448af-0931-4658-adf1-1580ecbb944c.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/967448af-0931-4658-adf1-1580ecbb944c.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "f24a5a40f2ca5a253794fb2628d3c5461a3d6c8c065cc4db18390d50b0b45fd0",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/3bccedc0-38ff-4c1b-83ef-b77ad884a487.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:12.419463+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "om Nieto",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/f97a6d2702351c37697f467fd1a315f6f9169bfaa2d12f8b248914e73221b039/image.jpg",
+          "textHash": "b6f60fb64aea86dcbe9bffc4d34f0a2d4a3a700bac73e1e8b10446fd84bad3f5",
+          "previewUrl": "media/95f9a00ff38d03c434f9391c51a1ff923bfa8d6c278cac146ef4ae7f2d9e3683.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/f97a6d2702351c37697f467fd1a315f6f9169bfaa2d12f8b248914e73221b039/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "om Nieto",
+                "words": [
+                  {
+                    "text": "om",
+                    "confidence": 0.06111059,
+                    "bbox": [
+                      1028,
+                      183,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "Nieto",
+                    "confidence": 0.0,
+                    "bbox": [
+                      1026,
+                      232,
+                      11,
+                      73
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              }
+            ],
+            "text": "om Nieto",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1919
+          },
+          "qr": [],
+          "previewUrl": "media/95f9a00ff38d03c434f9391c51a1ff923bfa8d6c278cac146ef4ae7f2d9e3683.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/f97a6d2702351c37697f467fd1a315f6f9169bfaa2d12f8b248914e73221b039.img",
+        "sha256": "f97a6d2702351c37697f467fd1a315f6f9169bfaa2d12f8b248914e73221b039",
+        "bytes": 282400,
+        "filename": "3bccedc0-38ff-4c1b-83ef-b77ad884a487.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/3bccedc0-38ff-4c1b-83ef-b77ad884a487.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "450ebdd4bb7b50029083cc57067eac002e76fc2ae067e97181eb320f5ffa5bb4",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261116/f530097e-a1fb-41d3-8f42-40808a695bb9.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "kind": "image",
+      "name": "",
+      "context": "团务知识学习分享",
+      "noticeBodyHash": "ddee898ee7b1e1e3033f0b1e23cb7f0c33fbcdd6d36091b4afc621c9589e9be0",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-17T08:04:15.934508+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/7a36e2fbd706eb4dee97e3703bbe29b82aa964735a13ed638e9e0c5ae6268e44/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 1920
+          },
+          "qr": [],
+          "previewUrl": "media/368452c94b04a1dc6beab64067025345fe52f5e444c7280424d241e26069495a.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/7a36e2fbd706eb4dee97e3703bbe29b82aa964735a13ed638e9e0c5ae6268e44.img",
+        "sha256": "7a36e2fbd706eb4dee97e3703bbe29b82aa964735a13ed638e9e0c5ae6268e44",
+        "bytes": 198989,
+        "filename": "f530097e-a1fb-41d3-8f42-40808a695bb9.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261116/f530097e-a1fb-41d3-8f42-40808a695bb9.jpg"
       },
       "pageCount": null,
       "truncated": false,

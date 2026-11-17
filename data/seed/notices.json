@@ -180,12 +180,12 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2411,
+  "count": 2416,
   "matched_count": 535,
   "competition_related_count": 882,
   "by_site": {
-    "教务处": 524,
-    "校团委": 1036,
+    "教务处": 526,
+    "校团委": 1039,
     "能动学院": 69,
     "电气学院": 226,
     "实践教学中心": 401,
@@ -218,10 +218,32 @@
   },
   "items": [
     {
+      "date": "2026-11-17",
+      "title": "关于思源学堂2.0平台升级暂停服务的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2026-11-16",
       "title": "关于举办通识大讲堂第44讲——《特朗普新政与中国机遇》的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1092/10643.htm",
       "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": "2026-2027学年第一学期2025级本科生​“形势与政策”开课、选课通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+      "source": "jwc_kcap",
       "site": "教务处",
       "competition": "",
       "moe_no": "",
@@ -238,6 +260,39 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": true
+    },
+    {
+      "date": "2026-11-13",
+      "title": "关于开展2026年度“玉峰科创资助金”学生科创团队资助申报的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+      "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "开讲了！2026年陕西省青年志愿服务公开课（第二期）正式上线！",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "团建 · 星航 | 聚青年微光，启星航新章——2026年“星航新干”培训班开班仪式顺利举行",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2026-11-12",

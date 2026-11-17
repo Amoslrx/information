@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1274,
+  "count": 1279,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -427,6 +427,701 @@
         "registrationLinks": [],
         "requiredMaterials": [],
         "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+      "title": "团建 · 星航 | 聚青年微光，启星航新章——2026年“星航新干”培训班开班仪式顺利举行",
+      "date": "2026-11-12",
+      "contentHash": "e00859b13048604cd0d8227d6a9e7c1c2316df805e5dacb15d4017a940a1d391",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "e00859b13048604cd0d8227d6a9e7c1c2316df805e5dacb15d4017a940a1d391",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-08",
+            "raw": "为引导我校团员青年听党话、跟党走，进一步提升“星航计划”实践育人成效，11月8日晚，西安交通大学2026年“星航新干”培训班开班仪式在兴庆校区宪梓堂举行。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
+            "location": {
+              "type": "body",
+              "start": 19,
+              "end": 96
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月8日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+      "title": "开讲了！2026年陕西省青年志愿服务公开课（第二期）正式上线！",
+      "date": "2026-11-12",
+      "contentHash": "963b4c2a4e113911231b438948f608150ef06ac4b30406544b31a65b4185532c",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "963b4c2a4e113911231b438948f608150ef06ac4b30406544b31a65b4185532c",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "打开AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记",
+            "raw": "打开AI应用“千问”APP，扫描下方二维码进入活动页，填写并提交相应信息完成报名，按时观看视频课程，学习志愿服务知识，确保培训学习记录有效登记",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+            "location": {
+              "type": "body",
+              "start": 140,
+              "end": 211
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-02",
+            "raw": "2026年11月2日至11月30日",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+            "location": {
+              "type": "body",
+              "start": 108,
+              "end": 125
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication",
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月2日",
+            "endDate": "2026-11-30",
+            "superseded": false
+          },
+          {
+            "value": "2026-11-30",
+            "raw": "2026年11月2日至11月30日",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
+            "location": {
+              "type": "body",
+              "start": 108,
+              "end": 125
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月30日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+      "title": "关于开展2026年度“玉峰科创资助金”学生科创团队资助申报的通知",
+      "date": "2026-11-13",
+      "contentHash": "bc2e29ceb4c62ccb070114cd3b7bdea786c36364b8e7a27e7df0fffe1fef1ddd",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "bc2e29ceb4c62ccb070114cd3b7bdea786c36364b8e7a27e7df0fffe1fef1ddd",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。",
+            "raw": "资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 240,
+              "end": 318
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [
+          {
+            "value": "符合条件的团队按要求填写申报书、汇总表，签署承诺书，提交佐证材料。",
+            "raw": "符合条件的团队按要求填写申报书、汇总表，签署承诺书，提交佐证材料。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3127,
+              "end": 3160
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "电子版材料命名统一为【板块名称+项目名称+负责人姓名】，附件材料分类命名、清晰索引。",
+            "raw": "电子版材料命名统一为【板块名称+项目名称+负责人姓名】，附件材料分类命名、清晰索引。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3684,
+              "end": 3726
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "请提交申请材料的同学添加下方QQ群，群号：1132393359。",
+            "raw": "请提交申请材料的同学添加下方QQ群，群号：1132393359。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 4043,
+              "end": 4075
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "1.涉及国家秘密、商业秘密或者敏感技术的项目，须在申报前完成保密审查，按保密要求提交材料，不得在公示材料中披露敏感信息。",
+            "raw": "1.涉及国家秘密、商业秘密或者敏感技术的项目，须在申报前完成保密审查，按保密要求提交材料，不得在公示材料中披露敏感信息。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 4085,
+              "end": 4145
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-22",
+            "raw": "1.团队申报（11月22日前）。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3111,
+              "end": 3127
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月22日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-29",
+            "raw": "2.资格审查（11月29日前）。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3161,
+              "end": 3177
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月29日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-13",
+            "raw": "3.专家评审（12月13日前）。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3204,
+              "end": 3220
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月13日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-20",
+            "raw": "4.公示审定（12月20日前）。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+            "location": {
+              "type": "body",
+              "start": 3270,
+              "end": 3286
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月20日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "1132393359",
+              "raw": "请提交申请材料的同学添加下方QQ群，群号：1132393359。",
+              "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
+              "location": {
+                "type": "body",
+                "start": 4043,
+                "end": 4075
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+      "title": "2026-2027学年第一学期2025级本科生​“形势与政策”开课、选课通知",
+      "date": "2026-11-16",
+      "contentHash": "4dcd01ba2b4cdcf547a058546a9516a8ad99f719195930896fcdeff8f47e2ea0",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "4dcd01ba2b4cdcf547a058546a9516a8ad99f719195930896fcdeff8f47e2ea0",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-17",
+            "raw": "第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 204,
+              "end": 246
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "15:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月17日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-18",
+            "raw": "第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 204,
+              "end": 246
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "15:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-18",
+            "raw": "第1轮选课结束后，根据选课情况，11月18日18点公布停开课程目录。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 246,
+              "end": 280
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-19",
+            "raw": "第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 358,
+              "end": 400
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "10:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月19日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-20",
+            "raw": "第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 358,
+              "end": 400
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "10:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月20日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "2026年11月",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+            "location": {
+              "type": "body",
+              "start": 1029,
+              "end": 1037
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "month_precision"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "619057588",
+              "raw": "一群：619057588；",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+              "location": {
+                "type": "body",
+                "start": 961,
+                "end": 974
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          },
+          {
+            "kind": "qq",
+            "number": {
+              "value": "681195160",
+              "raw": "二群：681195160；",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+              "location": {
+                "type": "body",
+                "start": 974,
+                "end": 987
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          },
+          {
+            "kind": "qq",
+            "number": {
+              "value": "162737850",
+              "raw": "三群：162737850。",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
+              "location": {
+                "type": "body",
+                "start": 987,
+                "end": 1000
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+      "title": "关于思源学堂2.0平台升级暂停服务的通知",
+      "date": "2026-11-17",
+      "contentHash": "c8659ecac80138819f92e6c4a9bd4261be090daa4b635c3cdeea3022156c849e",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "c8659ecac80138819f92e6c4a9bd4261be090daa4b635c3cdeea3022156c849e",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": null,
+            "raw": "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 67
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2.0",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-17",
+            "raw": "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 67
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "22:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月17日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-18",
+            "raw": "为做好思源学堂2.0平台功能升级，提高教学服务能力，学校将于2026年11月17日22:00—11月18日6:00对平台进行升级维护。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 67
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "06:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月18日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": null,
+            "raw": "期间思源学堂2.0平台将暂停使用，请各位师生提前安排好相关工作，避免对教学产生影响。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+            "location": {
+              "type": "body",
+              "start": 67,
+              "end": 109
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "invalid_date"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2.0",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-17",
+            "raw": "2026年11月17日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
+            "location": {
+              "type": "body",
+              "start": 200,
+              "end": 211
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月17日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
         "contacts": [],
         "groups": [],
         "model": {
