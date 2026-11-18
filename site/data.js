@@ -1,10 +1,10 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-17 16:06
+// 生成时间: 2026-11-18 15:41
 window.SITE_DATA = {
- "generatedAt": "2026-11-17 16:06",
+ "generatedAt": "2026-11-18 15:41",
  "stats": {
   "competitions": 94,
-  "notices": 2416,
+  "notices": 2417,
   "noticesMatched": 535,
   "noticesCompetition": 882,
   "noticesCampus": 146,
@@ -12,9 +12,9 @@ window.SITE_DATA = {
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-17",
+  "today": "2026-11-18",
   "noticeFrom": "2003-12-19",
-  "noticeTo": "2026-11-17",
+  "noticeTo": "2026-11-18",
   "eeDist": {
    "5": 10,
    "4": 10,
@@ -30,7 +30,7 @@ window.SITE_DATA = {
    "C类": 8
   },
   "noticeCat": {
-   "其他": 871,
+   "其他": 872,
    "教学信息": 296,
    "学科竞赛": 808,
    "社会实践": 208,
@@ -39,7 +39,7 @@ window.SITE_DATA = {
    "文体竞赛": 63
   },
   "noticeGroup": {
-   "其他": 871,
+   "其他": 872,
    "教学信息": 296,
    "学科竞赛": 872,
    "社会实践": 208,
@@ -50,7 +50,7 @@ window.SITE_DATA = {
   "xjtuKnown": 27,
   "crawledPages": 106,
   "bySite": {
-   "教务处": 526,
+   "教务处": 527,
    "校团委": 1039,
    "能动学院": 69,
    "电气学院": 226,
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 21,
+    "total": 17,
     "byStatus": {
-     "success": 5,
+     "success": 1,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:35.413902+00:00",
+        "fetchedAt": "2026-11-18T07:38:26.394380+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:35.413902+00:00",
+      "fetchedAt": "2026-11-18T07:38:26.394380+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
+        "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:33.403988+00:00",
+        "fetchedAt": "2026-11-18T07:38:23.036375+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:33.947077+00:00",
+        "fetchedAt": "2026-11-18T07:38:23.036863+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:34.396024+00:00",
+        "fetchedAt": "2026-11-18T07:38:24.585450+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
+      "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:33.403988+00:00",
+      "fetchedAt": "2026-11-18T07:38:23.036375+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:33.947077+00:00",
+      "fetchedAt": "2026-11-18T07:38:23.036863+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:34.396024+00:00",
+      "fetchedAt": "2026-11-18T07:38:24.585450+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
+    "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:42.111433+00:00",
+        "fetchedAt": "2026-11-18T07:38:33.849167+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:42.111433+00:00",
+      "fetchedAt": "2026-11-18T07:38:33.849167+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:34.995412+00:00",
+        "fetchedAt": "2026-11-18T07:38:24.592613+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:34.995412+00:00",
+      "fetchedAt": "2026-11-18T07:38:24.592613+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:36.486705+00:00",
+        "fetchedAt": "2026-11-18T07:38:27.933038+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:39.523879+00:00",
+        "fetchedAt": "2026-11-18T07:38:30.525077+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:40.590850+00:00",
+        "fetchedAt": "2026-11-18T07:38:31.493991+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:35.509201+00:00",
+        "fetchedAt": "2026-11-18T07:38:27.250686+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:36.807072+00:00",
+        "fetchedAt": "2026-11-18T07:38:27.954385+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-17T08:03:37.643779+00:00",
+        "fetchedAt": "2026-11-18T07:38:30.491756+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:35.509201+00:00",
+      "fetchedAt": "2026-11-18T07:38:27.250686+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:36.486705+00:00",
+      "fetchedAt": "2026-11-18T07:38:27.933038+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:36.807072+00:00",
+      "fetchedAt": "2026-11-18T07:38:27.954385+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:37.643779+00:00",
+      "fetchedAt": "2026-11-18T07:38:30.491756+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:39.523879+00:00",
+      "fetchedAt": "2026-11-18T07:38:30.525077+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-17T08:03:40.590850+00:00",
+      "fetchedAt": "2026-11-18T07:38:31.493991+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -239617,6 +239617,446 @@ window.SITE_DATA = {
  ],
  "notices": [
   {
+   "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
+   "date": "2026-11-18",
+   "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "sourceLabel": "教务处",
+   "dateUnavailableReason": "",
+   "isCompetition": false,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "其他",
+   "group": "其他",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-18T07:38:23.035012+00:00",
+   "identitySources": [],
+   "noticeReferences": [],
+   "resourceHints": [
+    {
+     "kind": "attachment",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+     "name": "附件1：西安交通大学微专业建设指南.docx",
+     "state": "resource_failed",
+     "resourceStatus": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+      "raw": "附件1：西安交通大学微专业建设指南.docx",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "kind": "attachment",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+     "name": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+     "state": "resource_failed",
+     "resourceStatus": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+      "raw": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "kind": "attachment",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+     "name": "附件3：西安交通大学微专业申报材料.zip",
+     "state": "resource_failed",
+     "resourceStatus": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "fieldKeys": [
+      "requiredMaterials",
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+      "raw": "附件3：西安交通大学微专业申报材料.zip",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "kind": "reference",
+     "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+     "name": "原网页中的附件／二维码提示",
+     "state": "resource_pending",
+     "resourceStatus": "reference",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "具体要求见附件2。",
+      "raw": "具体要求见附件2。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 513,
+       "end": 522
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "kind": "reference",
+     "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+     "name": "原网页中的附件／二维码提示",
+     "state": "resource_pending",
+     "resourceStatus": "reference",
+     "error": "",
+     "fieldKeys": [
+      "requiredMaterials"
+     ],
+     "evidence": {
+      "value": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+      "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 1766,
+       "end": 1905
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "excerpt": "各学院（部、中心）：\n根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：\n一、建设方向\n微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。\n面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。\n二、建设要求\n（一）申报基本条件\n坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务；坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队、实验实践教学条件、校企合作基础和完善的微…",
+   "excerptEvidence": {
+    "value": "各学院（部、中心）：\n根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：\n一、建设方向\n微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。\n面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。\n二、建设要求\n（一）申报基本条件\n坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务；坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队、实验实践教学条件、校企合作基础和完善的微",
+    "raw": "各学院（部、中心）：\n根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：\n一、建设方向\n微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。\n面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。\n二、建设要求\n（一）申报基本条件\n坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务；坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队、实验实践教学条件、校企合作基础和完善的微",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+     "text": "附件1：西安交通大学微专业建设指南.docx",
+     "kind": "file",
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+      "raw": "附件1：西安交通大学微专业建设指南.docx",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+     "text": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+     "kind": "file",
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+      "raw": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+     "text": "附件3：西安交通大学微专业申报材料.zip",
+     "kind": "file",
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+      "raw": "附件3：西安交通大学微专业申报材料.zip",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "link",
+       "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "bdce2eedc26af08692e2b59c1faf7900f0bee84d69724557338e8f8f77541844",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+    "competitionNames": [],
+    "editions": [],
+    "audiences": [
+     {
+      "value": "面向校内学生、校外人员招生，优先保障本校学生修读。",
+      "raw": "面向校内学生、校外人员招生，优先保障本校学生修读。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 638,
+       "end": 663
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "tracks": [],
+    "registrationMethods": [],
+    "registrationLinks": [],
+    "requiredMaterials": [
+     {
+      "value": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+      "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 1766,
+       "end": 1905
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "timeline": [
+     {
+      "value": "2026-12-11",
+      "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 1766,
+       "end": 1905
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "submission",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "12月11日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-18",
+      "raw": "2026年11月18日",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "location": {
+       "type": "body",
+       "start": 1996,
+       "end": 2007
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年11月18日",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [
+     {
+      "name": {
+       "value": "吴愿晶",
+       "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+       "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+       "location": {
+        "type": "body",
+        "start": 1906,
+        "end": 1930
+       },
+       "method": "rule",
+       "verification": "source_matched",
+       "flags": [],
+       "trackId": null
+      },
+      "phones": [],
+      "emails": [],
+      "qq": [],
+      "trackId": null
+     },
+     {
+      "name": {
+       "value": "郑娟",
+       "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+       "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+       "location": {
+        "type": "body",
+        "start": 1906,
+        "end": 1930
+       },
+       "method": "rule",
+       "verification": "source_matched",
+       "flags": [],
+       "trackId": null
+      },
+      "phones": [],
+      "emails": [],
+      "qq": [],
+      "trackId": null
+     },
+     {
+      "name": null,
+      "phones": [
+       {
+        "value": "82668306",
+        "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+        "location": {
+         "type": "body",
+         "start": 1906,
+         "end": 1930
+        },
+        "method": "rule",
+        "verification": "needs_review",
+        "flags": [
+         "relationship_ambiguous"
+        ],
+        "trackId": null
+       }
+      ],
+      "emails": [],
+      "qq": [],
+      "trackId": null
+     }
+    ],
+    "groups": [],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [
+    {
+     "id": "55238235a67a9064da36133f1fe7aa6ee3dfe7de51909bab3ca0927b028fc4fa",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+     "kind": "attachment",
+     "name": "附件1：西安交通大学微专业建设指南.docx",
+     "status": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "images": []
+    },
+    {
+     "id": "b00ab30bacb230e09c9a7bf2ce9808cfb3c60093c3fa013178d9f48e064ea0c4",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+     "kind": "attachment",
+     "name": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+     "status": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "images": []
+    },
+    {
+     "id": "3e36499badccab42cfb094fb29e92153dc67b78751482fa09beda0420032d4b5",
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+     "kind": "attachment",
+     "name": "附件3：西安交通大学微专业申报材料.zip",
+     "status": "failed",
+     "error": "ValueError:captcha_required: open original link and import the downloaded file",
+     "images": []
+    }
+   ],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+   "repostSources": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+     "date": "2026-11-18",
+     "sourceLabel": "教务处"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
    "title": "关于思源学堂2.0平台升级暂停服务的通知",
    "date": "2026-11-17",
    "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
@@ -256798,7 +257238,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -259068,7 +259508,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:33.403988+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.036375+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -261922,7 +262362,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:33.947077+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.036863+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -277936,7 +278376,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-17T08:03:34.186850+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.581769+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -282817,7 +283257,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:34.396024+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.585450+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -438842,7 +439282,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:34.995412+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.592613+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -532451,7 +532891,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-17T08:03:35.065896+00:00",
+   "fetchedAt": "2026-11-18T07:38:26.195146+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -561547,7 +561987,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:35.413902+00:00",
+   "fetchedAt": "2026-11-18T07:38:26.394380+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -661386,7 +661826,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:35.509201+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.250686+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -670406,7 +670846,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:36.486705+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.933038+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -696758,7 +697198,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:36.807072+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.954385+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -701975,7 +702415,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:37.643779+00:00",
+   "fetchedAt": "2026-11-18T07:38:30.491756+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -705048,7 +705488,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:39.523879+00:00",
+   "fetchedAt": "2026-11-18T07:38:30.525077+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -719526,7 +719966,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:40.590850+00:00",
+   "fetchedAt": "2026-11-18T07:38:31.493991+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -803924,7 +804364,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-17T08:03:40.782410+00:00",
+   "fetchedAt": "2026-11-18T07:38:33.842576+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -805065,7 +805505,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-17T08:03:42.111433+00:00",
+   "fetchedAt": "2026-11-18T07:38:33.849167+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -805136,7 +805576,7 @@ window.SITE_DATA = {
   "8": 100,
   "9": 222,
   "10": 226,
-  "11": 191,
+  "11": 192,
   "12": 160
  },
  "cadenceCount": 50,
@@ -807272,6 +807712,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%A7%8B%E5%AD%A3%E5%AD%A6%E6%9C%9F%E5%B0%B1%E4%B8%9A%E6%9C%8D%E5%8A%A1%E5%8F%8A%E8%81%8C%E4%B8%9A%E6%8C%87%E5%AF%BC%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A%282022%E5%B9%B411%E6%9C%887%E6%97%A5%E8%87%B311%E6%9C%8813"
   },
   {
+   "title": "宗濂书院2022年11月组织生活指导意见",
+   "date": "2022-11-07",
+   "snippet": "宗濂书院团学组织面向书院全体同学开展“健康中国有我,争做向上青年”主题实践活动,用实际行动庆祝党的二十大胜利召开,并丰...",
+   "account": "西安交通大学宗濂书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A22022%E5%B9%B411%E6%9C%88%E7%BB%84%E7%BB%87%E7%94%9F%E6%B4%BB%E6%8C%87%E5%AF%BC%E6%84%8F%E8%A7%81"
+  },
+  {
    "title": "西安交通大学秋季学期就业服务及职业指导活动预告 (2022年10月31日至11月6日)",
    "date": "2022-10-31",
    "snippet": "其他活动敬请关注“西安交大就业创业”公众号.职业咨询:线上... 陈永华,西安交通大学研究生院学位办主任,航天航空学院党委副...",
@@ -808641,7 +809090,7 @@ window.SITE_DATA = {
   }
  ],
  "wechatStat": {
-  "total": 313,
+  "total": 314,
   "dropped": 153,
   "byAccount": {
    "西安交通大学励志书院": 17,
@@ -808656,7 +809105,7 @@ window.SITE_DATA = {
    "西安交通大学教务处": 2,
    "西安交通大学电气工程学院": 7,
    "中国人民大学崇实书院": 1,
-   "西安交通大学宗濂书院": 18,
+   "西安交通大学宗濂书院": 19,
    "仲英学业辅导中心及薪火工作室": 1,
    "仲英青年": 6,
    "宗濂星火": 2,
@@ -808727,7 +809176,7 @@ window.SITE_DATA = {
    "西交大生活圈": 1
   },
   "byGroup": {
-   "其他": 128,
+   "其他": 129,
    "集体活动": 54,
    "学科竞赛": 43,
    "社会实践": 42,

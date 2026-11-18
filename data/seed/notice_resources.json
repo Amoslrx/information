@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 80,
+  "count": 83,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -15327,7 +15327,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:03:47.815145+00:00",
+      "fetchedAt": "2026-11-18T07:38:47.015342+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15379,7 +15379,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:03:50.949754+00:00",
+      "fetchedAt": "2026-11-18T07:38:50.891062+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15431,7 +15431,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:03:53.711229+00:00",
+      "fetchedAt": "2026-11-18T07:38:53.987286+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -15583,7 +15583,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:03:57.105126+00:00",
+      "fetchedAt": "2026-11-18T07:38:57.586877+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15635,7 +15635,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:04:00.102568+00:00",
+      "fetchedAt": "2026-11-18T07:39:01.964111+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15687,7 +15687,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:04:02.824061+00:00",
+      "fetchedAt": "2026-11-18T07:39:05.000589+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15739,7 +15739,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-17T08:04:05.952420+00:00",
+      "fetchedAt": "2026-11-18T07:39:07.705872+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -15971,6 +15971,66 @@
       "pageCount": null,
       "truncated": false,
       "errors": []
+    },
+    {
+      "id": "55238235a67a9064da36133f1fe7aa6ee3dfe7de51909bab3ca0927b028fc4fa",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "kind": "attachment",
+      "name": "附件1：西安交通大学微专业建设指南.docx",
+      "context": "",
+      "noticeBodyHash": "122355633d67c64ca47d7d2469350883c70f6c94f0ae2cbc873e7525d08df1a2",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-18T07:38:41.237364+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "b00ab30bacb230e09c9a7bf2ce9808cfb3c60093c3fa013178d9f48e064ea0c4",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "kind": "attachment",
+      "name": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+      "context": "",
+      "noticeBodyHash": "122355633d67c64ca47d7d2469350883c70f6c94f0ae2cbc873e7525d08df1a2",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-18T07:38:42.846595+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "3e36499badccab42cfb094fb29e92153dc67b78751482fa09beda0420032d4b5",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "kind": "attachment",
+      "name": "附件3：西安交通大学微专业申报材料.zip",
+      "context": "",
+      "noticeBodyHash": "122355633d67c64ca47d7d2469350883c70f6c94f0ae2cbc873e7525d08df1a2",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-18T07:38:45.446753+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
     }
   ]
 }

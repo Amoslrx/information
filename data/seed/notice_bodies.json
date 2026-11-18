@@ -9,28 +9,8 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
-    "title": "关于思源学堂2.0平台升级暂停服务的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10645.htm",
-    "title": "2026-2027学年第一学期2025级本科生​“形势与政策”开课、选课通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4801",
-    "title": "关于开展2026年度“玉峰科创资助金”学生科创团队资助申报的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4799",
-    "title": "开讲了！2026年陕西省青年志愿服务公开课（第二期）正式上线！",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",
-    "title": "团建 · 星航 | 聚青年微光，启星航新章——2026年“星航新干”培训班开班仪式顺利举行",
+    "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+    "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
     "priority": null
    },
    {
@@ -115,19 +95,19 @@
    }
   ],
   "byStatus": {
-   "success": 5,
+   "success": 1,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1263,
+  "success": 1264,
   "empty": 1,
   "failed": 15
  },
- "count": 1279,
- "withBody": 1263,
+ "count": 1280,
+ "withBody": 1264,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -135,7 +115,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-17T08:03:42.111433+00:00",
+   "fetchedAt": "2026-11-18T07:38:33.849167+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -156,11 +136,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:15.849220+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -185,9 +160,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:42.111433+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:33.849167+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -195,7 +175,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-17T08:03:40.782410+00:00",
+   "fetchedAt": "2026-11-18T07:38:33.842576+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -216,11 +196,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-12T07:21:15.805444+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -245,9 +220,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-17T08:03:40.782410+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-18T07:38:33.842576+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -255,7 +235,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:40.590850+00:00",
+   "fetchedAt": "2026-11-18T07:38:31.493991+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -276,11 +256,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:14.536206+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -305,9 +280,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:40.590850+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:31.493991+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -315,7 +295,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:39.523879+00:00",
+   "fetchedAt": "2026-11-18T07:38:30.525077+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -336,11 +316,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:13.415833+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -365,9 +340,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:39.523879+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:30.525077+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -375,7 +355,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:37.643779+00:00",
+   "fetchedAt": "2026-11-18T07:38:30.491756+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -396,11 +376,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:13.396764+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -425,9 +400,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:37.643779+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:30.491756+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -435,7 +415,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:36.807072+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.954385+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -456,11 +436,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:09.568463+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -485,9 +460,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:36.807072+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:27.954385+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -495,7 +475,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:36.486705+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.933038+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -516,11 +496,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:08.928281+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -545,9 +520,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:36.486705+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:27.933038+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -555,7 +535,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-17T08:03:35.509201+00:00",
+   "fetchedAt": "2026-11-18T07:38:27.250686+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -576,11 +556,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:08.797209+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -605,9 +580,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:35.509201+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:27.250686+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -615,7 +595,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-17T08:03:35.413902+00:00",
+   "fetchedAt": "2026-11-18T07:38:26.394380+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -636,11 +616,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:08.083146+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -665,9 +640,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:35.413902+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:26.394380+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -675,7 +655,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-17T08:03:35.065896+00:00",
+   "fetchedAt": "2026-11-18T07:38:26.195146+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -696,11 +676,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-12T07:21:07.111198+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -725,9 +700,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-17T08:03:35.065896+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-18T07:38:26.195146+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -735,7 +715,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-17T08:03:34.995412+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.592613+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -756,11 +736,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:07.103860+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -785,9 +760,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:34.995412+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:24.592613+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -795,7 +775,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-17T08:03:34.396024+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.585450+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -816,11 +796,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:06.893959+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -845,9 +820,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:34.396024+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:24.585450+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -855,7 +835,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-17T08:03:34.186850+00:00",
+   "fetchedAt": "2026-11-18T07:38:24.581769+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -876,11 +856,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-12T07:21:05.852073+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -905,9 +880,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-17T08:03:34.186850+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-18T07:38:24.581769+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -915,7 +895,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-17T08:03:33.947077+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.036863+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -936,11 +916,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:05.434855+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -965,9 +940,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:33.947077+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:23.036863+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -975,7 +955,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-17T08:03:33.403988+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.036375+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -996,11 +976,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:05.422187+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1025,9 +1000,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:33.403988+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:23.036375+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1035,7 +1015,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-17T08:03:32.554865+00:00",
+   "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1056,11 +1036,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-12T07:21:05.407657+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1085,9 +1060,253 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-17T08:03:32.554865+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-18T07:38:23.035956+00:00"
     }
    ],
-   "totalAttempts": 13
+   "totalAttempts": 14
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+   "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
+   "site": "教务处",
+   "date": "2026-11-18",
+   "source": "jwc",
+   "fetchedAt": "2026-11-18T07:38:23.035012+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "122355633d67c64ca47d7d2469350883c70f6c94f0ae2cbc873e7525d08df1a2",
+   "contentParserVersion": 2,
+   "body": "各学院（部、中心）：\n根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：\n一、建设方向\n微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。\n面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。\n二、建设要求\n（一）申报基本条件\n坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务；坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队、实验实践教学条件、校企合作基础和完善的微专业培养方案；微专业负责人教学科研成果丰富，原则上应具有高级职称。具体要求见附件2。\n（二）学分学制及招生对象\n学分学制。微专业学制为1年。总学分10-16学分，原则上设置至少5门课程，其中实践类课程设置1-3门。微专业名称由学院根据学科优势特色和产业需求自主命名，与现有本科专业名称有区分度。\n招生对象及开班要求。面向校内学生、校外人员招生，优先保障本校学生修读。学院合理制定招生班额和开班最低人数。招生达到开班最低人数则必须启动开班授课。\n微专业-辅修协同。学校优先支持有辅修专业建设基础的学院开设微专业，申请开设2个及以上微专业的学院原则上须开设1个辅修专业。\n（三）具体建设要求\n打造精品课程。聚焦行业产业需求、科技前沿与核心技能提升，开设前沿课、应用课、交叉课程；课内教学融入行业实际案例，开展小组研讨、项目式、探究式教学，推动企业真实问题、最新科研前沿成果进课堂。\n深化产教融合。至少与一家行业企业开展校企协同育人，邀请行业企业专家授课或共建课程，融入企业真实问题研究；鼓励组织企业走访、实习实践，服务学生就业与长期发展。\n鼓励项目牵引。鼓励微专业推行项目制教学改革，以项目为主线设置课程体系，组织课程教学，与学科竞赛、创新创业项目、科研训练等相衔接，形成“项目目标—课程模块—实践任务—成果产出”的培养链条。\n强化成果产出。坚持目标导向、问题导向，科学设计课程体系，注重学生培养成效，明确预期学习成果，有效帮助学生增强就业竞争力、提升创新能力、支撑未来发展。\n三、建设管理\n主体责任。开设学院是微专业建设的主体单位，全面负责微专业招生、培养、管理等工作，成立微专业工作领导小组，明确微专业负责人。涉及多学科交叉融合的微专业，主办学院应建立协调工作小组共建微专业。\n教学组织。微专业单独编班，授课时间一般安排在周末或周内晚间。申请混合式教学的课程可采用线上线下相结合教学方式。考核方式分为考试与考查，其中考试课程比例不低于60%。\n证书管理。学生按规定完成修读后，由学校发放微专业结业证书、非学历教育证书。校内学生毕业前获得微专业结业证书的，学校根据当年教育部“双千计划”相关政策规定积极争取学信网备案入库。校外人员无法进行学信网备案。\n质量保障。学院应建立质量保障机制，做好教学质量监督与检查，确保微专业建设质量。学校将对微专业建设开展常态化过程监管和定期评估，微专业建设期为两年，建设期满后评估不符合要求的，将予以撤销。\n四、收费标准\n1.微专业按照非学历教育项目进行收费与成本管理，参照《西安交通大学非学历教育财务管理办法》相关规定执行，学院对微专业进行全成本测算，合理提出收费建议方案，经学校审批后执行。\n2.微专业实行分类收费标准：对校内学生，收费参照学校普通全日制本科生学年学费标准实行一定比例的减免，原则上收费标准不超过该专业类别一学年的学费额度；对校外人员，由学院根据当地经济、培养成本等因素提出收费建议。\n五、申报程序\n1.各学院规划布局微专业建设，学院党政联席会对微专业设置事宜进行审议批准后提出正式申请，学校将组织微专业设置及收费论证。\n2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。\n联系人：吴愿晶、郑娟，联系电话：82668306\n附件：1.《西安交通大学微专业建设指南》\n2.《西安交通大学微专业建设管理办法（试行）》\n3.西安交通大学微专业申报材料\n教务处\n2026年11月18日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">各学院（部、中心）：</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">根据《教育部办公厅关于实施高校学生就业能力提升</span><span style=\"font-family:仿宋_GB2312\">“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 黑体;font-size: 21px\">一、建设方向</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有</span><span style=\"font-family:仿宋_GB2312\">“小学分、精课程、高聚焦、跨学科、强实践”等特点。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">面向国家战略、社会产业需求、科技前沿</span><span style=\"font-family:仿宋_GB2312\">，本次</span></span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">重点布局</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">九</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">大建议方向：</span><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康</span></strong><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">、创新创业</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">具体</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">参照《西安交通大学微专业建设指南》（附件</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">1</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">）。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 黑体;font-size: 21px\">二、建设要求</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 楷体;font-size: 21px\">（一）申报基本条件</span></strong></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">；</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">、</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">实验实践教学条件</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">、</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">校企合作基础</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">和</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">完善的微专业培养方案</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">；</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">微专业负责人教学科研成果丰富，原则上应具有高级职称。</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">具体要求见附件</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">2</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 楷体;font-size: 21px\">（二）学分学制及招生对象</span></strong></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学分学制。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">微专业学制为</span><span style=\"font-family:仿宋_GB2312\">1年。总学分10-16学分，原则上设置至少5门课程，其中实践类课程设置1-3门。微专业名称由学院根据学科优势特色和产业需求自主命名，与现有本科专业名称有区分度。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">招生对象及开班要求。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">面向校内学生、校外人员招生，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">优先保障本校学生修读。学院合理制定招生班额和开班最低人数。招生达到开班最低人数则必须启动开班授课。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">微专业</span><span style=\"font-family:Times New Roman\">-</span><span style=\"font-family:仿宋_GB2312\">辅修协同。</span></span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">学校优先支持有辅修专业建设基础的学院开设微专业，申请开设</span><span style=\"font-family:Times New Roman\">2</span><span style=\"font-family:仿宋_GB2312\">个及以上微专业的学院原则上须开设</span><span style=\"font-family:Times New Roman\">1</span><span style=\"font-family:仿宋_GB2312\">个辅修专业。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 楷体;font-size: 21px\">（三）具体建设要求</span></strong></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">打造精品课程。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">聚焦行业产业需求、科技前沿与核心技能提升，开设前沿课、应用课、交叉课程；课内教学融入行业实际案例，开展小组研讨、项目式、探究式教学，推动企业真实问题、最新科研前沿成果进课堂。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">深化产教融合。</span></strong><span style=\"font-family:仿宋_gb2312;font-size:21px\">至少</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">与</span><span style=\"font-family:仿宋_gb2312;font-size:21px\">一家行业企业开展校企协同育人，邀请行业企业专家授课或共建课程，融入企业真实问题研究；鼓励组织企业走访、实习实践，服务学生就业与长期发展。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">鼓励项目牵引。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">鼓励微专业</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">推行项目制教学改革，以项目为主线设置课程体系，组织课程教学，与学科竞赛、创新创业项目、科研训练等相衔接，形成</span><span style=\"font-family:仿宋_GB2312\">“项目目标—课程模块—实践任务—成果产出”的培养链条。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">强化成果产出。</span></strong><span style=\"font-family:仿宋_gb2312;font-size:21px\">坚持目标导向、问题导向，科学设计课程体系，注重学生培养成效，明确预期学习成果，有效帮助学生增强就业竞争力、提升创新能力、支撑未来发展。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 黑体;font-size: 21px\">三、建设管理</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">主体责任。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">开设</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学院是微专业建设的主体单位，全面负责微专业招生、培养、管理等工作，成立微专业工作领导小组，明确微专业负责人。涉及多学科交叉融合的微专业，主办学院应建立协调工作小组共建微专业。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">教学组织。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">微专业单独编班，授课时间一般安排在周末或周内晚间。申请混合式教学的课程可采用线上线下相结合教学方式。考核方式分为考试与考查，其中考试课程比例不低于</span><span style=\"font-family:仿宋_GB2312\">60%。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">证书管理。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学生按规定完成修读后，由学校发放微专业结业证书、非学历教育证书。</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">校内学生毕业前获得微专业结业证书的，学校根据当年教育部</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">“</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">双千计划</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">”</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">相关政策规定积极</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">争取</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学信网备案</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">入库</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">。校外人员</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">无法进行</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学信网备案。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">质量保障。</span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学院应建立质量保障机制，做好教学质量监督与检查，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">确保微专业建设质量。</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学校将对微专业建设开展常态化过程监管和定期评估，微专业建设期为两年，建设期满后评估不符合要求的，将予以撤销。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 黑体;font-size: 21px\">四、收费标准</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">1.微专业</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">按照非学历教育项目进行收费与成本管理，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">参照《西安交通大学非学历教育财务管理办法》相关规定执行，学院对微专业进行全成本测算，合理提出收费建议方案，经学校审批后执行。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">2.微专业</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">实行分类收费标准：</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">对校内学生，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">收费参照学校普通全日制本科生学年学费标准实行一定比例的减免，原则上收费标准不超过该专业类别一学年的学费额度；对校外人员，由学院根据当地经济、培养成本等因素提出收费建议。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 黑体;font-size: 21px\">五、申报程序</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">1.各学院规划布局微专业建设，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学院党政联席会对微专业设置事宜进行审议批准后提出正式申请，</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学校将组织微专业设置及收费论证。</span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">2.</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件</span><span style=\"font-family:仿宋_GB2312\">3），经学院审核、学院负责人签字、盖章后</span></span><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">于</span><span style=\"font-family:仿宋_GB2312\">12月11日</span></span></strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">前将申报材料纸质版一式一份报送至教务处教学研究办公室（主</span><span style=\"font-family:仿宋_GB2312\">E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><br></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">联系人：吴愿晶、郑娟，联系电话：</span><span style=\"font-family:仿宋_GB2312\">82668306</span></span></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><br></p> \r\n   <p style=\"text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">附件：</span><span style=\"font-family:仿宋_GB2312\">1.《西安交通大学微专业建设指南》</span></span></p> \r\n   <p style=\"margin-left:59px;text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">2.《西安交通大学微专业建设管理办法（试行）》</span></p> \r\n   <p style=\"margin-left:59px;text-indent:43px;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">3.西安交通大学微专业申报材料</span></p> \r\n   <p style=\"margin-left:59px;text-indent:43px;line-height:37px\"><br></p> \r\n   <p style=\"text-align:right;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">教务处</span></p> \r\n   <p style=\"text-align:right;line-height:37px\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">20</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">2</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">6年11月1</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">8</span><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">日</span></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 2007,
+   "excerpt": "各学院（部、中心）： 根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下： 一、建设方向 微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。 面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。",
+   "paragraphs": [
+    "各学院（部、中心）：",
+    "根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下：",
+    "一、建设方向",
+    "微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。",
+    "面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。",
+    "二、建设要求",
+    "（一）申报基本条件",
+    "坚持社会主义办学方向，以习近平新时代中国特色社会主义思想为指导，落实立德树人根本任务；坚持就业导向，服务社会行业发展需求，符合学校人才培养定位和办学特色；具备学科基础、教学团队、实验实践教学条件、校企合作基础和完善的微专业培养方案；微专业负责人教学科研成果丰富，原则上应具有高级职称。具体要求见附件2。",
+    "（二）学分学制及招生对象",
+    "学分学制。微专业学制为1年。总学分10-16学分，原则上设置至少5门课程，其中实践类课程设置1-3门。微专业名称由学院根据学科优势特色和产业需求自主命名，与现有本科专业名称有区分度。",
+    "招生对象及开班要求。面向校内学生、校外人员招生，优先保障本校学生修读。学院合理制定招生班额和开班最低人数。招生达到开班最低人数则必须启动开班授课。",
+    "微专业-辅修协同。学校优先支持有辅修专业建设基础的学院开设微专业，申请开设2个及以上微专业的学院原则上须开设1个辅修专业。",
+    "（三）具体建设要求",
+    "打造精品课程。聚焦行业产业需求、科技前沿与核心技能提升，开设前沿课、应用课、交叉课程；课内教学融入行业实际案例，开展小组研讨、项目式、探究式教学，推动企业真实问题、最新科研前沿成果进课堂。",
+    "深化产教融合。至少与一家行业企业开展校企协同育人，邀请行业企业专家授课或共建课程，融入企业真实问题研究；鼓励组织企业走访、实习实践，服务学生就业与长期发展。",
+    "鼓励项目牵引。鼓励微专业推行项目制教学改革，以项目为主线设置课程体系，组织课程教学，与学科竞赛、创新创业项目、科研训练等相衔接，形成“项目目标—课程模块—实践任务—成果产出”的培养链条。",
+    "强化成果产出。坚持目标导向、问题导向，科学设计课程体系，注重学生培养成效，明确预期学习成果，有效帮助学生增强就业竞争力、提升创新能力、支撑未来发展。",
+    "三、建设管理",
+    "主体责任。开设学院是微专业建设的主体单位，全面负责微专业招生、培养、管理等工作，成立微专业工作领导小组，明确微专业负责人。涉及多学科交叉融合的微专业，主办学院应建立协调工作小组共建微专业。",
+    "教学组织。微专业单独编班，授课时间一般安排在周末或周内晚间。申请混合式教学的课程可采用线上线下相结合教学方式。考核方式分为考试与考查，其中考试课程比例不低于60%。",
+    "证书管理。学生按规定完成修读后，由学校发放微专业结业证书、非学历教育证书。校内学生毕业前获得微专业结业证书的，学校根据当年教育部“双千计划”相关政策规定积极争取学信网备案入库。校外人员无法进行学信网备案。",
+    "质量保障。学院应建立质量保障机制，做好教学质量监督与检查，确保微专业建设质量。学校将对微专业建设开展常态化过程监管和定期评估，微专业建设期为两年，建设期满后评估不符合要求的，将予以撤销。",
+    "四、收费标准",
+    "1.微专业按照非学历教育项目进行收费与成本管理，参照《西安交通大学非学历教育财务管理办法》相关规定执行，学院对微专业进行全成本测算，合理提出收费建议方案，经学校审批后执行。",
+    "2.微专业实行分类收费标准：对校内学生，收费参照学校普通全日制本科生学年学费标准实行一定比例的减免，原则上收费标准不超过该专业类别一学年的学费额度；对校外人员，由学院根据当地经济、培养成本等因素提出收费建议。",
+    "五、申报程序",
+    "1.各学院规划布局微专业建设，学院党政联席会对微专业设置事宜进行审议批准后提出正式申请，学校将组织微专业设置及收费论证。",
+    "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+    "联系人：吴愿晶、郑娟，联系电话：82668306",
+    "附件：1.《西安交通大学微专业建设指南》",
+    "2.《西安交通大学微专业建设管理办法（试行）》",
+    "3.西安交通大学微专业申报材料",
+    "教务处",
+    "2026年11月18日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+     "text": "附件1：西安交通大学微专业建设指南.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+     "text": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+     "text": "附件3：西安交通大学微专业申报材料.zip",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628085",
+     "text": "附件1：西安交通大学微专业建设指南.docx",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628086",
+     "text": "附件2：《西安交通大学微专业建设管理办法（试行）》.pdf",
+     "kind": "file"
+    },
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628092",
+     "text": "附件3：西安交通大学微专业申报材料.zip",
+     "kind": "file"
+    }
+   ],
+   "contact": "吴愿晶",
+   "phone": "",
+   "email": "yuanjing96@xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-18T07:38:23.035012+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4800",

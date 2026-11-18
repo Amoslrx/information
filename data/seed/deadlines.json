@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1279,
+  "count": 1280,
   "with_deadline": 178,
   "items": [
     {
@@ -92808,6 +92808,62 @@
       ],
       "bodyLen": 3339,
       "snippet": "各学院(部、中心)及有关单位： 根据《西安交通大学“国家级大学生创新性实验计划”管理办法》，学校决定对2025年国家级、省级大学生创新训练项目和西安交通大学“本科生科研训练和实践创新基金项目”进行结题验收（名单详见附件1），现将具体事宜通知如下： 一、结题验收安排 1.验收范围与要求。学院负责组织实施自选命题与竞赛命题的结题验收工作，要求项目负责人参加结题答辩，具体答辩安排由学院通知。 2.时间安排。结题验收工作定于4月28日前完成。各学院根据本院实际情况，合理安排答辩时间，并提前通知项目负责人。项目报销材料提交截止时间为5月8日，请各学院负责人按时完成材料报送。 3.产业命题答辩安排。2025年产业命题的结题答辩工作将由实践教学中心统一组织开展。具体答辩时间、地点及相关要求将另行通知，请相关项目负责人关注实践教学中心的通知，确保不错过任何重要信息。 4.成果展优秀项目推荐。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
+      "noticeDate": "2026-11-18",
+      "contentHash": "bdce2eedc26af08692e2b59c1faf7900f0bee84d69724557338e8f8f77541844",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-12-11",
+          "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+          "location": {
+            "type": "body",
+            "start": 1766,
+            "end": 1905
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月11日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-18",
+          "raw": "2026年11月18日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+          "location": {
+            "type": "body",
+            "start": 1996,
+            "end": 2007
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 2007,
+      "snippet": "各学院（部、中心）： 根据《教育部办公厅关于实施高校学生就业能力提升“双千”计划的通知》（教就业厅函〔2025〕5号）等文件精神，为适应社会发展对复合型创新人才的需求，促进学生跨学科学习和就业能力提升，助力学习型社会建设，学校决定启动第二批微专业申报工作。现将有关事项通知如下： 一、建设方向 微专业为非学历教育，是指在主专业学习以外，围绕某一特定领域、研究方向或核心素养，系统开设的一组课程，旨在提升跨学科、跨领域整合能力和就业竞争力，具有“小学分、精课程、高聚焦、跨学科、强实践”等特点。 面向国家战略、社会产业需求、科技前沿，本次重点布局九大建议方向：AI+X、新一代信息技术、新材料技术、新能源、高端装备、低空经济、数字新文科、生命健康、创新创业，具体参照《西安交通大学微专业建设指南》（附件1）。"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1100/2141.htm",

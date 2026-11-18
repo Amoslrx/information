@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1279,
+  "count": 1280,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -428,6 +428,171 @@
         "requiredMaterials": [],
         "timeline": [],
         "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+      "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
+      "date": "2026-11-18",
+      "contentHash": "bdce2eedc26af08692e2b59c1faf7900f0bee84d69724557338e8f8f77541844",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "bdce2eedc26af08692e2b59c1faf7900f0bee84d69724557338e8f8f77541844",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "面向校内学生、校外人员招生，优先保障本校学生修读。",
+            "raw": "面向校内学生、校外人员招生，优先保障本校学生修读。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+            "location": {
+              "type": "body",
+              "start": 638,
+              "end": 663
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [
+          {
+            "value": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+            "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+            "location": {
+              "type": "body",
+              "start": 1766,
+              "end": 1905
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-12-11",
+            "raw": "2.请各学院认真组织填写微专业申报书、培养方案、收费方案、招生简章等申报材料（模板见附件3），经学院审核、学院负责人签字、盖章后于12月11日前将申报材料纸质版一式一份报送至教务处教学研究办公室（主E1304），并将电子版发送至邮箱yuanjing96@xjtu.edu.cn。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+            "location": {
+              "type": "body",
+              "start": 1766,
+              "end": 1905
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月11日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-18",
+            "raw": "2026年11月18日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+            "location": {
+              "type": "body",
+              "start": 1996,
+              "end": 2007
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月18日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "吴愿晶",
+              "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+              "location": {
+                "type": "body",
+                "start": 1906,
+                "end": 1930
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          },
+          {
+            "name": {
+              "value": "郑娟",
+              "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+              "location": {
+                "type": "body",
+                "start": 1906,
+                "end": 1930
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          },
+          {
+            "name": null,
+            "phones": [
+              {
+                "value": "82668306",
+                "raw": "联系人：吴愿晶、郑娟，联系电话：82668306",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
+                "location": {
+                  "type": "body",
+                  "start": 1906,
+                  "end": 1930
+                },
+                "method": "rule",
+                "verification": "needs_review",
+                "flags": [
+                  "relationship_ambiguous"
+                ],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
         "groups": [],
         "model": {
           "status": "disabled",
