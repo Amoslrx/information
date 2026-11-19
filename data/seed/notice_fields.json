@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1280,
+  "count": 1284,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -428,6 +428,705 @@
         "requiredMaterials": [],
         "timeline": [],
         "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+      "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
+      "date": "2026-11-16",
+      "contentHash": "52a57290f3c6aa2051736cb48063528efba2ecbfe67ac558d248171ef1388115",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "52a57290f3c6aa2051736cb48063528efba2ecbfe67ac558d248171ef1388115",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [
+          {
+            "value": "其认定需提交刊物或论文录用通知、接收证明等材料。",
+            "raw": "其认定需提交刊物或论文录用通知、接收证明等材料。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 727,
+              "end": 751
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "3.前三作者获得发明专利、实用新型专利、软件著作权，第一署名单位为：西安交通大学或Xi'an Jiaotong University，其认定需提交证书或者授权证明等材料；",
+            "raw": "3.前三作者获得发明专利、实用新型专利、软件著作权，第一署名单位为：西安交通大学或Xi'an Jiaotong University，其认定需提交证书或者授权证明等材料；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 972,
+              "end": 1057
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "其认定需提交企业法人证书以及投资、合作、订单等支撑材料。",
+            "raw": "其认定需提交企业法人证书以及投资、合作、订单等支撑材料。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 1086,
+              "end": 1114
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "1. 各申报个人或集体须如实填写申报表（见附件1、2），另附1000字以内的事迹材料（见附件3），所涉奖项荣誉需提供佐证材料。",
+            "raw": "1. 各申报个人或集体须如实填写申报表（见附件1、2），另附1000字以内的事迹材料（见附件3），所涉奖项荣誉需提供佐证材料。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 2439,
+              "end": 2502
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。",
+            "raw": "4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 2698,
+              "end": 2783
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-26",
+            "raw": "4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+            "location": {
+              "type": "body",
+              "start": 2698,
+              "end": 2783
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月26日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "崔老师",
+              "raw": "联系人：崔老师 李同学",
+              "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+              "location": {
+                "type": "body",
+                "start": 2784,
+                "end": 2795
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "029-82668564",
+                "raw": "联系电话：029-82668564",
+                "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+                "location": {
+                  "type": "body",
+                  "start": 2796,
+                  "end": 2813
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
+      "date": "2026-11-17",
+      "contentHash": "6b9305995a1f7409724c5fa47c13f6cb163612463c3286257a80d8ddb3b6d2f6",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "6b9305995a1f7409724c5fa47c13f6cb163612463c3286257a80d8ddb3b6d2f6",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。",
+            "raw": "活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+            "location": {
+              "type": "body",
+              "start": 79,
+              "end": 168
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-06",
+            "raw": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 79
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月6日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+      "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
+      "date": "2026-11-18",
+      "contentHash": "262916b2c80b60416ee9ff7a9562b25777ed90696a9b6e8e43008d479ecb3b44",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "262916b2c80b60416ee9ff7a9562b25777ed90696a9b6e8e43008d479ecb3b44",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-19",
+            "raw": "请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+            "location": {
+              "type": "body",
+              "start": 75,
+              "end": 134
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "10:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月19日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-20",
+            "raw": "请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+            "location": {
+              "type": "body",
+              "start": 75,
+              "end": 134
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "10:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月20日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-18",
+            "raw": "2026年11月18日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+            "location": {
+              "type": "body",
+              "start": 411,
+              "end": 422
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月18日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "619057588",
+              "raw": "加群后已完成答疑的同学务必及时退出群聊：一群：619057588；",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+              "location": {
+                "type": "body",
+                "start": 323,
+                "end": 356
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          },
+          {
+            "kind": "qq",
+            "number": {
+              "value": "681195160",
+              "raw": "二群：681195160；",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+              "location": {
+                "type": "body",
+                "start": 356,
+                "end": 369
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          },
+          {
+            "kind": "qq",
+            "number": {
+              "value": "162737850",
+              "raw": "三群：162737850。",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+              "location": {
+                "type": "body",
+                "start": 369,
+                "end": 382
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
+      "date": "2026-11-19",
+      "contentHash": "163cc0fc4ce8cb071e463dde542a892e25fcab9322e2a28b2d1acde2ce205690",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "163cc0fc4ce8cb071e463dde542a892e25fcab9322e2a28b2d1acde2ce205690",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+            "raw": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 81
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "raw": "报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 666,
+              "end": 806
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "raw": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 1289,
+              "end": 1337
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [
+          {
+            "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628791",
+            "raw": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "link",
+              "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628791"
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "raw": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 1289,
+              "end": 1337
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-22",
+            "raw": "请各位同学于2026年11月22日13:00-18:00准时登录西安交通大学教务处主页报名抢选。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 557,
+              "end": 605
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "13:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月22日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-23",
+            "raw": "报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 666,
+              "end": 806
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": "12:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月23日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-14",
+            "raw": "2026.12.14–2026.12.20",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 934,
+              "end": 955
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.14",
+            "endDate": "2026-12-20",
+            "superseded": false
+          },
+          {
+            "value": "2026-12-20",
+            "raw": "2026.12.14–2026.12.20",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 934,
+              "end": 955
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.20",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-14",
+            "raw": "2026.12.14–2026.12.19",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 989,
+              "end": 1010
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.14",
+            "endDate": "2026-12-19",
+            "superseded": false
+          },
+          {
+            "value": "2026-12-19",
+            "raw": "2026.12.14–2026.12.19",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 989,
+              "end": 1010
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.19",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-21",
+            "raw": "2026.12.21– 2026.12.28",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 1043,
+              "end": 1065
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.21",
+            "endDate": "2026-12-28",
+            "superseded": false
+          },
+          {
+            "value": "2026-12-28",
+            "raw": "2026.12.21– 2026.12.28",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 1043,
+              "end": 1065
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.28",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-19",
+            "raw": "2026年11月19日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+            "location": {
+              "type": "body",
+              "start": 1455,
+              "end": 1466
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月19日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "校教务处老师",
+              "raw": "校教务处老师 电话：82665477",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+              "location": {
+                "type": "body",
+                "start": 1378,
+                "end": 1396
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "82665477",
+                "raw": "校教务处老师 电话：82665477",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+                "location": {
+                  "type": "body",
+                  "start": 1378,
+                  "end": 1396
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
         "groups": [],
         "model": {
           "status": "disabled",

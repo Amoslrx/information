@@ -9,8 +9,23 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
-    "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
+    "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+    "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
+    "priority": null
+   },
+   {
+    "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+    "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+    "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+    "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
     "priority": null
    },
    {
@@ -95,19 +110,19 @@
    }
   ],
   "byStatus": {
-   "success": 1,
+   "success": 4,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1264,
+  "success": 1268,
   "empty": 1,
   "failed": 15
  },
- "count": 1280,
- "withBody": 1264,
+ "count": 1284,
+ "withBody": 1268,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -115,7 +130,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-18T07:38:33.849167+00:00",
+   "fetchedAt": "2026-11-19T07:35:34.894123+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -136,11 +151,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:55.262674+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -165,9 +175,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:33.849167+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:34.894123+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -175,7 +190,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-18T07:38:33.842576+00:00",
+   "fetchedAt": "2026-11-19T07:35:34.429337+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -196,11 +211,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-13T06:53:54.014315+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -225,9 +235,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-18T07:38:33.842576+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-19T07:35:34.429337+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -235,7 +250,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:31.493991+00:00",
+   "fetchedAt": "2026-11-19T07:35:32.923816+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -256,11 +271,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:53.520171+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -285,9 +295,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:31.493991+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:32.923816+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -295,7 +310,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:30.525077+00:00",
+   "fetchedAt": "2026-11-19T07:35:32.496214+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -316,11 +331,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:53.505366+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -345,9 +355,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:30.525077+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:32.496214+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -355,7 +370,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:30.491756+00:00",
+   "fetchedAt": "2026-11-19T07:35:32.141124+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -376,11 +391,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:52.254063+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -405,9 +415,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:30.491756+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:32.141124+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -415,7 +430,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:27.954385+00:00",
+   "fetchedAt": "2026-11-19T07:35:30.540428+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -436,11 +451,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:51.487537+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -465,9 +475,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:27.954385+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:30.540428+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -475,7 +490,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:27.933038+00:00",
+   "fetchedAt": "2026-11-19T07:35:30.191489+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -496,11 +511,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:51.468453+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -525,9 +535,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:27.933038+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:30.191489+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -535,7 +550,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-18T07:38:27.250686+00:00",
+   "fetchedAt": "2026-11-19T07:35:29.953620+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -556,11 +571,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:50.474222+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -585,9 +595,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:27.250686+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:29.953620+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -595,7 +610,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-18T07:38:26.394380+00:00",
+   "fetchedAt": "2026-11-19T07:35:29.297299+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -616,11 +631,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:50.060986+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -645,9 +655,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:26.394380+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:29.297299+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -655,7 +670,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-18T07:38:26.195146+00:00",
+   "fetchedAt": "2026-11-19T07:35:28.584907+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -676,11 +691,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-13T06:53:49.150854+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -705,9 +715,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-18T07:38:26.195146+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-19T07:35:28.584907+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -715,7 +730,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-18T07:38:24.592613+00:00",
+   "fetchedAt": "2026-11-19T07:35:28.571599+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -736,11 +751,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:49.146672+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -765,9 +775,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:24.592613+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:28.571599+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -775,7 +790,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-18T07:38:24.585450+00:00",
+   "fetchedAt": "2026-11-19T07:35:28.571181+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -796,11 +811,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:49.144368+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -825,9 +835,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:24.585450+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:28.571181+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -835,7 +850,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-18T07:38:24.581769+00:00",
+   "fetchedAt": "2026-11-19T07:35:26.934005+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -856,11 +871,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-13T06:53:49.084895+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -885,9 +895,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-18T07:38:24.581769+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-19T07:35:26.934005+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -895,7 +910,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-18T07:38:23.036863+00:00",
+   "fetchedAt": "2026-11-19T07:35:26.929900+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -916,11 +931,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:47.824387+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -945,9 +955,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:23.036863+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:26.929900+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -955,7 +970,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-18T07:38:23.036375+00:00",
+   "fetchedAt": "2026-11-19T07:35:26.925663+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -976,11 +991,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:47.823775+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1005,9 +1015,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:23.036375+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:26.925663+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1015,7 +1030,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-18T07:38:23.035956+00:00",
+   "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1036,11 +1051,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-13T06:53:47.822842+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1065,9 +1075,997 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-18T07:38:23.035956+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:26.922361+00:00"
     }
    ],
-   "totalAttempts": 14
+   "totalAttempts": 15
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+   "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
+   "site": "校团委",
+   "date": "2026-11-16",
+   "source": "西安交通大学团委",
+   "fetchedAt": "2026-11-19T07:35:25.660939+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "d2f2d7025d2d575c988c2c9f41779b6e7402c7746eb8ea0aeb54dc1234425ddd",
+   "contentParserVersion": 2,
+   "body": "各二级单位团组织：\n根据《西安交通大学本科生表彰奖励办法》（西交学〔2019〕36号）文件精神，设立校园文化及精神文明单项奖和集体奖，以表彰在学校精神文明建设中做出突出贡献，为学校赢得荣誉或用正能量影响社会的优秀本科生。其中，学术科研奖、创新创业奖、劳动实践奖、公益服务奖、文化艺术奖、体育精神奖、自强不息奖等七类单项奖由各书院组织初评后向团委推荐，团委组织校级评选；集体荣誉称号中的优秀学生社团和校园文化突出贡献奖由团委直接组织评定。现将相关评选要求通知如下：\n一、参评范围\n2025-2026学年在西安交通大学接受普通高等学历教育的全日制本科生。\n参评表彰奖励的学生应当具备以下基本条件：\n（一）热爱祖国，热爱人民，拥护中国共产党领导；\n（二）遵守宪法和法律，遵守学校规章制度；\n（三）诚实守信，道德品质优良；\n（四）学习态度端正，刻苦努力；\n（五）热爱学校，尊敬师长，关心同学，团结互助，积极参加朋辈帮扶；\n（六）主动参加集体活动，在德智体美劳等方面全面发展，积极参与“星航计划”“攀登计划”“首雁计划”等，在各类理论学习中表现较好，充分发挥模范带头作用。\n二、奖项及要求\n单项奖七大类，全校每学年每个单项奖评选不超过10人。\n（一）学术科研奖\n勤奋学习，成绩优异。具有较强的科研能力，在学术研究上取得显著成绩，主持或参与高水平科研项目，或在核心期刊发表有较高学术价值论文、著作或合著学术专著、参加高水平学术会议并获邀做专题报告等。\n具备以下条件者在同等条件下应优先考虑：\n1.相关事迹被校园或社会主要媒体报道，取得较好反响；\n2.参与或主导公开发表论文、出版专著的第一署名单位为西安交通大学或 Xi'an Jiaotong University；其认定需提交刊物或论文录用通知、接收证明等材料。其中包括：\n（1）学校认定的国际期刊论文；\n（2）国内核心期刊、国际会议论文；\n（3）国内一般期刊、国内会议论文；\n（4）出版专著。\n（二）创新创业奖\n崇尚科学，求实创新。有较强的运用所学知识解决实际问题的能力和开拓创新精神，在学科竞赛、创新发明或创业方面获得奖励、国家专利或取得显著的业绩。\n具备以下条件者在同等条件下应优先考虑：\n1.相关事迹被校园或社会主要媒体报道，取得较好反响；\n2.参加高水平国际、国家级学生竞赛获评三等奖及以上；\n3.前三作者获得发明专利、实用新型专利、软件著作权，第一署名单位为：西安交通大学或Xi'an Jiaotong University，其认定需提交证书或者授权证明等材料；\n4.注册成立公司并担任法人，创业项目已落地并商业化运营。其认定需提交企业法人证书以及投资、合作、订单等支撑材料。\n（三）劳动实践奖\n热爱劳动，主动实践。积极参加义务劳动服务，深入基层了解社会，服务他人，在教室、实验室值日，“文明宿舍”创建、思源景事、划片劳动、文明餐桌等劳育活动，以及“三下乡”暑期社会实践等活动中表现突出，能够努力提高实践能力，发挥先锋模范带头作用。\n具备以下条件者在同等条件下应优先考虑：\n1.相关事迹被校园或社会主要媒体报道，取得较好反响；\n2.获得省级以上优秀实践团队的学生主要负责人。\n（四）公益服务奖\n积极践行社会主义核心价值观，具有强烈的社会责任感。积极组织参加校内外公益服务活动，能够起到模范带头作用，并在自己承担的工作中做出一定的贡献。\n具备以下条件者在同等条件下应优先考虑：\n1.积极参与西安交通大学建校130周年暨西迁70周年校庆志愿服务、星航志愿服务、基础学科辅导团学业辅导、首雁计划志愿服务团，表现突出；\n2.积极申报本年度校级“公益之星”评选；\n3.相关事迹被校园或社会主要媒体报道，取得较好反响；\n4.积极参与当年度志愿服务征文和论坛等活动。\n（五）文化艺术奖\n热爱文艺，具有较高的文艺素养和审美修养，自觉传承弘扬中华优秀传统文化，积极参加校学生艺术团、高水平文艺展演和竞赛、“大先生”系列话剧展演等，取得显著成绩，为学校赢得荣誉、做出突出贡献，并带动其他同学积极参加校园文化和艺术实践活动，传播青春正能量，服务学校美育工作。\n具备以下条件者在同等条件下应优先考虑：\n1.相关事迹被校园或社会主要媒体报道，取得较好反响；\n2.代表学校参加过国家级、省级文艺演出活动。\n（六）体育精神奖\n热爱体育，具有较好的身体素质，积极参加体育锻炼和体育比赛，取得显著成绩，为学校争得荣誉，或在校园体育氛围营造和体育活动组织中具有突出贡献，广泛带动其他同学参加校园体育运动。\n具备以下条件者在同等条件下应优先考虑：\n1.相关事迹被校园或社会主要媒体报道，取得较好反响；\n2.当年度代表学校参加国家级体育比赛，并获得冠军者；\n3.在荧光夜跑等主题活动中有突出表现者；\n4.参与组织筹备省级以上体育赛事活动的学生社团主要负责人。\n（七）自强不息奖\n积极进取，努力拼搏。在学习和生活中，以顽强的毅力勇于克服各种困难，自立自强，乐观向上，用实际行动践行新时代青年的使命与担当，有突出的自强事迹或个人成就。\n具备以下条件者在同等条件下应优先考虑：\n1.获得省级及以上“自强之星”表彰；\n2.相关事迹被校园或社会主流媒体报道，取得较好反响；\n3.有突出的事迹或成就，来自相对困难家庭或地区\n集体荣誉称号\n（一）优秀学生社团\n按照《西安交通大学星级社团暨文明社团评定评分细则》有关规定，评选出的2025-2026学年五星级社团等同于优秀学生社团，不再单独组织评选。\n（二）校园文化突出贡献奖\n每学年评选不超过10个集体，标准如下：\n1.能够组织开展具有一定精神高度、文化内涵、艺术价值的校园文化活动和作品创作；\n2.能够充分带动广大学生参与校园文化建设，为优秀校园文化传播起到积极的推动作用；\n3.能够积极参加高水平文艺展演和竞赛，为学校争得荣誉、做出突出贡献；\n4.能够持续传承弘扬西迁精神，助力学校宣传思想文化工作再上新台阶。\n三、评审要求\n1. 各申报个人或集体须如实填写申报表（见附件1、2），另附1000字以内的事迹材料（见附件3），所涉奖项荣誉需提供佐证材料。个人、集体须确保所交材料应为2025-2026学年期间相关事迹且真实有效，如发现弄虚作假，一律取消评优资格。原则上曾获过单项奖的个人不再申报同一奖项。\n2. “校园文化及精神文明单项奖” 的申报材料由学生向所在二级单位团组织提交，经书院初评后每个单项奖推荐不超过3名至团委。\n3. “校园文化突出贡献奖” 的申报材料经所在党团组织审核后，由集体负责人直接报送至团委；团委将统一组织校级评审。\n4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。\n联系人：崔老师 李同学\n联系电话：029-82668564",
+   "bodyHtml": "<p><span class=\"js_title_inner\" style=\"font-size: 20px;\">各二级单位团组织：</span></p>\n<p><span class=\"js_title_inner\" style=\"font-size: 18px;\">根据《西安交通大学本科生表彰奖励办法》（西交学〔2019〕36号）文件精神，设立校园文化及精神文明单项奖和集体奖，以表彰在学校精神文明建设中做出突出贡献，为学校赢得荣誉或用正能量影响社会的优秀本科生。其中，学术科研奖、创新创业奖、劳动实践奖、公益服务奖、文化艺术奖、体育精神奖、自强不息奖等七类单项奖由各书院组织初评后向团委推荐，团委组织校级评选；集体荣誉称号中的优秀学生社团和校园文化突出贡献奖由团委直接组织评定。现将相关评选要求通知如下：</span></p>\n<p style=\"text-align: center;\"><strong><span class=\"js_title_inner\" style=\"font-size: 20px;\">一、参评范围</span></strong></p>\n<p class=\"js_darkmode__text__61\"><span class=\"js_darkmode__text__62\" style=\"font-size: 18px;\">2025-2026学年在西安交通大学接受普通高等学历教育的全日制本科生。</span></p>\n<p class=\"js_darkmode__text__63\"><span class=\"js_darkmode__text__64\" style=\"font-size: 18px;\">参评表彰奖励的学生应当具备以下基本条件：</span></p>\n<p class=\"js_darkmode__text__65\"><span class=\"js_darkmode__text__66\" style=\"font-size: 18px;\">（一）热爱祖国，热爱人民，拥护中国共产党领导；</span></p>\n<p class=\"js_darkmode__text__67\"><span class=\"js_darkmode__text__68\" style=\"font-size: 18px;\">（二）遵守宪法和法律，遵守学校规章制度；</span></p>\n<p class=\"js_darkmode__text__69\"><span class=\"js_darkmode__text__70\" style=\"font-size: 18px;\">（三）诚实守信，道德品质优良；</span></p>\n<p class=\"js_darkmode__text__71\"><span class=\"js_darkmode__text__72\" style=\"font-size: 18px;\">（四）学习态度端正，刻苦努力；</span></p>\n<p class=\"js_darkmode__text__73\"><span class=\"js_darkmode__text__74\" style=\"font-size: 18px;\">（五）热爱学校，尊敬师长，关心同学，团结互助，积极参加朋辈帮扶；</span></p>\n<p class=\"js_darkmode__text__75\"><span class=\"js_darkmode__text__76\" style=\"font-size: 18px;\">（六）主动参加集体活动，在德智体美劳等方面全面发展，积极参与“星航计划”“攀登计划”“<span class=\"\">首雁计划</span>”等，在各类理论学习中表现较好，充分发挥模范带头作用。</span></p>\n<p class=\"js_darkmode__text__75\" style=\"text-align: center;\"><strong><span class=\"js_darkmode__text__76\" style=\"font-size: 20px;\">二、奖项及要求</span></strong></p>\n<p class=\"js_darkmode__text__75\" style=\"text-align: center;\"><strong><span class=\"js_darkmode__text__76\" style=\"font-size: 20px;\">单项奖七大类，全校每学年每个单项奖评选不超过10人。</span></strong></p>\n<p><span class=\"js_darkmode__text__76\" style=\"font-size: 18px;\">（一）学术科研奖</span></p>\n<p class=\"js_darkmode__text__112 js_darkmode__98\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__113 js_darkmode__99\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__114 js_darkmode__100\">勤奋学习，成绩优异。具有较强的科研能力，在学术研究上取得显著成绩，主持或参与高水平科研项目，或在核心期刊发表有较高学术价值论文、著作或合著学术专著、参加<span class=\"\">高水平学术会议</span>并获邀做专题报告等。</span></span></p>\n<p class=\"js_darkmode__text__115 js_darkmode__101\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__116 js_darkmode__102\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__117 js_darkmode__103\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__118 js_darkmode__104\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__119 js_darkmode__105\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__120 js_darkmode__106\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__121 js_darkmode__107\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__122 js_darkmode__108\">1.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__123 js_darkmode__109\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__124 js_darkmode__110\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__125 js_darkmode__111\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__126 js_darkmode__112\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__127 js_darkmode__113\">2.参与或主导公开发表论文、出版专著的第一署名单位为西安交通大学或 Xi&#x27;an Jiaotong University；其认定需提交刊物或论文录用通知、接收证明等材料。其中包括：</span></span></strong></span></p>\n<p class=\"js_darkmode__text__128 js_darkmode__114\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__129 js_darkmode__115\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__130 js_darkmode__116\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__131 js_darkmode__117\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__132 js_darkmode__118\">（1）学校认定的国际期刊论文；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__133 js_darkmode__119\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__134 js_darkmode__120\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__135 js_darkmode__121\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__136 js_darkmode__122\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__137 js_darkmode__123\">（2）国内核心期刊、国际会议论文；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__138 js_darkmode__124\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__139 js_darkmode__125\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__140 js_darkmode__126\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__141 js_darkmode__127\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__142 js_darkmode__128\">（3）国内一般期刊、国内会议论文；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__143 js_darkmode__129\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__144 js_darkmode__130\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__145 js_darkmode__131\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__146 js_darkmode__132\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__147 js_darkmode__133\">（4）出版专著。</span></span></strong></span></p>\n<p class=\"js_darkmode__text__143 js_darkmode__129\" data-ignore-dm=\"text-bg-gradient\">（二）创新创业奖</p>\n<p class=\"js_darkmode__text__157 js_darkmode__135\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__158 js_darkmode__136\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__159 js_darkmode__137\">崇尚科学，求实创新。有较强的运用所学知识解决实际问题的能力和开拓创新精神，在学科竞赛、创新发明或创业方面获得奖励、国家专利或取得显著的业绩。</span></span></p>\n<p class=\"js_darkmode__text__160 js_darkmode__138\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__161 js_darkmode__139\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__162 js_darkmode__140\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__163 js_darkmode__141\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__164 js_darkmode__142\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__165 js_darkmode__143\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__166 js_darkmode__144\">1.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></p>\n<p class=\"js_darkmode__text__167 js_darkmode__145\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__168 js_darkmode__146\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__169 js_darkmode__147\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__170 js_darkmode__148\">2.参加高水平国际、国家级学生竞赛获评三等奖及以上；</span></span></strong></p>\n<p class=\"js_darkmode__text__171 js_darkmode__149\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__172 js_darkmode__150\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__173 js_darkmode__151\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__174 js_darkmode__152\">3.前三作者获得发明专利、实用新型专利、软件著作权，第一署名单位为：西安交通大学或Xi&#x27;an Jiaotong University，其认定需提交证书或者授权证明等材料；</span></span></strong></p>\n<p class=\"js_darkmode__text__175 js_darkmode__153\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__176 js_darkmode__154\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__177 js_darkmode__155\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__178 js_darkmode__156\">4.注册成立公司并担任法人，创业项目已落地并商业化运营。其认定需提交企业法人证书以及投资、合作、订单等支撑材料。</span></span></strong></p>\n<p class=\"js_darkmode__text__175 js_darkmode__153\" data-ignore-dm=\"text-bg-gradient\">（三）劳动实践奖</p>\n<p class=\"js_darkmode__text__188 js_darkmode__158\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__189 js_darkmode__159\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__190 js_darkmode__160\">热爱劳动，主动实践。积极参加义务劳动服务，深入基层了解社会，服务他人，在教室、实验室值日，“文明宿舍”创建、思源景事、划片劳动、文明餐桌等劳育活动，以及“三下乡”暑期社会实践等活动中表现突出，能够努力提高实践能力，发挥先锋模范带头作用。</span></span></p>\n<p class=\"js_darkmode__text__191 js_darkmode__161\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__192 js_darkmode__162\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__193 js_darkmode__163\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__194 js_darkmode__164\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__195 js_darkmode__165\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__196 js_darkmode__166\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__197 js_darkmode__167\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__198 js_darkmode__168\">1.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__199 js_darkmode__169\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__200 js_darkmode__170\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__201 js_darkmode__171\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__202 js_darkmode__172\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__203 js_darkmode__173\">2.获得省级以上优秀实践团队的学生主要负责人。</span></span></strong></span></p>\n<p class=\"js_darkmode__text__199 js_darkmode__169\" data-ignore-dm=\"text-bg-gradient\">（四）公益服务奖</p>\n<p class=\"js_darkmode__text__213 js_darkmode__175\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__214 js_darkmode__176\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__215 js_darkmode__177\">积极践行社会主义核心价值观，具有强烈的社会责任感。积极组织参加校内外公益服务活动，能够起到模范带头作用，并在自己承担的工作中做出一定的贡献。</span></span></p>\n<p class=\"js_darkmode__text__216 js_darkmode__178\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__217 js_darkmode__179\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__218 js_darkmode__180\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__219 js_darkmode__181\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__220 js_darkmode__182\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__221 js_darkmode__183\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__222 js_darkmode__184\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__223 js_darkmode__185\">1.积极参与西安交通大学建校130周年暨西迁70周年校庆志愿服务、星航志愿服务、基础学科辅导团学业辅导、首雁计划志愿服务团，表现突出；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__224 js_darkmode__186\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__225 js_darkmode__187\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__226 js_darkmode__188\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__227 js_darkmode__189\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__228 js_darkmode__190\">2.积极申报本年度校级“公益之星”评选；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__229 js_darkmode__191\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__230 js_darkmode__192\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__231 js_darkmode__193\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__232 js_darkmode__194\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__233 js_darkmode__195\">3.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__234 js_darkmode__196\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__235 js_darkmode__197\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__236 js_darkmode__198\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__237 js_darkmode__199\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__238 js_darkmode__200\">4.积极参与当年度志愿服务征文和论坛等活动。</span></span></strong></span></p>\n<p class=\"js_darkmode__text__234 js_darkmode__196\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__235 js_darkmode__197\" data-ignore-dm=\"text-bg-gradient\">（五）文化艺术奖</span></p>\n<p class=\"js_darkmode__text__248 js_darkmode__202\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__249 js_darkmode__203\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__250 js_darkmode__204\">热爱文艺，具有较高的文艺素养和审美修养，自觉传承弘扬中华优秀传统文化，积极参加校学生艺术团、高水平文艺展演和竞赛、“大先生”系列话剧展演等，取得显著成绩，为学校赢得荣誉、做出突出贡献，并带动其他同学积极参加校园文化和艺术实践活动，传播青春正能量，服务学校美育工作。</span></span></p>\n<p class=\"js_darkmode__text__251 js_darkmode__205\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__252 js_darkmode__206\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__253 js_darkmode__207\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__254 js_darkmode__208\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__255 js_darkmode__209\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__256 js_darkmode__210\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__257 js_darkmode__211\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__258 js_darkmode__212\">1.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__259 js_darkmode__213\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__260 js_darkmode__214\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__261 js_darkmode__215\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__262 js_darkmode__216\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__263 js_darkmode__217\">2.代表学校参加过国家级、省级文艺演出活动</span></span></strong></span><strong class=\"js_darkmode__text__264 js_darkmode__218\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__265 js_darkmode__219\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__266 js_darkmode__220\">。</span></span></strong></p>\n<p class=\"js_darkmode__text__259 js_darkmode__213\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__264 js_darkmode__218\"><span class=\"js_darkmode__text__265 js_darkmode__219\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__266 js_darkmode__220\">（六）体育精神奖</span></span></span></p>\n<p class=\"js_darkmode__text__276 js_darkmode__222\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__277 js_darkmode__223\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__278 js_darkmode__224\">热爱体育，具有较好的身体素质，积极参加体育锻炼和体育比赛，取得显著成绩，为学校争得荣誉，或在校园体育氛围营造和体育活动组织中具有突出贡献，广泛带动其他同学参加校园体育运动。</span></span></p>\n<p class=\"js_darkmode__text__279 js_darkmode__225\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__280 js_darkmode__226\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__281 js_darkmode__227\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__282 js_darkmode__228\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__283 js_darkmode__229\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__284 js_darkmode__230\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__285 js_darkmode__231\">1.相关事迹被校园或社会主要媒体报道，取得较好反响；</span></span></strong></p>\n<p class=\"js_darkmode__text__286 js_darkmode__232\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__287 js_darkmode__233\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__288 js_darkmode__234\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__289 js_darkmode__235\">2.当年度代表学校参加国家级体育比赛，并获得冠军者；</span></span></strong></p>\n<p class=\"js_darkmode__text__290 js_darkmode__236\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__291 js_darkmode__237\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__292 js_darkmode__238\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__293 js_darkmode__239\">3.在荧光夜跑等主题活动中有突出表现者；</span></span></strong></p>\n<p class=\"js_darkmode__text__294 js_darkmode__240\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__295 js_darkmode__241\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__296 js_darkmode__242\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__297 js_darkmode__243\">4.参与组织筹备省级以上体育赛事活动的学生社团主要负责人。</span></span></strong></p>\n<p class=\"js_darkmode__text__294 js_darkmode__240\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__295 js_darkmode__241\">（七）自强不息奖</span></p>\n<p class=\"js_darkmode__text__307 js_darkmode__245\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__308 js_darkmode__246\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__309 js_darkmode__247\">积极进取，努力拼搏。在学习和生活中，以顽强的毅力勇于克服各种困难，自立自强，乐观向上，用实际行动践行新时代青年的使命与担当，有突出的自强事迹或个人成就。</span></span></p>\n<p class=\"js_darkmode__text__310 js_darkmode__248\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__311 js_darkmode__249\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__312 js_darkmode__250\">具备以下条件者在同等条件下应优先考虑：</span></span></p>\n<p class=\"js_darkmode__text__313 js_darkmode__251\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__314 js_darkmode__252\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__315 js_darkmode__253\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__316 js_darkmode__254\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__317 js_darkmode__255\">1.获得省级及以上“自强之星”表彰；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__318 js_darkmode__256\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__319 js_darkmode__257\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__320 js_darkmode__258\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__321 js_darkmode__259\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__322 js_darkmode__260\">2.相关事迹被校园或社会主流媒体报道，取得较好反响；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__323 js_darkmode__261\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__324 js_darkmode__262\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__325 js_darkmode__263\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__326 js_darkmode__264\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__327 js_darkmode__265\">3.有突出的事迹或成就，来自相对困难家庭或地区</span></span></strong></span></p>\n<p class=\"js_darkmode__text__323 js_darkmode__261\" style=\"text-align: center;\" data-ignore-dm=\"text-bg-gradient\"><strong><span class=\"js_darkmode__text__324 js_darkmode__262\" style=\"font-size: 20px;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__325 js_darkmode__263\"><span class=\"js_darkmode__text__326 js_darkmode__264\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__327 js_darkmode__265\">集体荣誉称号</span></span></span></span></strong></p>\n<p class=\"js_darkmode__text__323 js_darkmode__261\" style=\"text-align: left;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__324 js_darkmode__262\" style=\"font-size: 18px;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__325 js_darkmode__263\"><span class=\"js_darkmode__text__326 js_darkmode__264\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__327 js_darkmode__265\">（一）优秀学生社团</span></span></span></span></p>\n<p class=\"js_darkmode__text__323 js_darkmode__261\" style=\"text-align: left;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__324 js_darkmode__262\" style=\"font-size: 18px;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__325 js_darkmode__263\"><span class=\"js_darkmode__text__326 js_darkmode__264\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__327 js_darkmode__265\">按照《西安交通大学星级社团暨文明社团评定评分细则》有关规定，评选出的2025-2026学年五星级社团等同于优秀学生社团，不再单独组织评选。</span></span></span></span></p>\n<p class=\"js_darkmode__text__323 js_darkmode__261\" style=\"text-align: left;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__324 js_darkmode__262\" style=\"font-size: 18px;\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__325 js_darkmode__263\"><span class=\"js_darkmode__text__326 js_darkmode__264\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__327 js_darkmode__265\">（二）校园文化突出贡献奖</span></span></span></span></p>\n<p class=\"js_darkmode__text__376 js_darkmode__289\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__377 js_darkmode__290\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__378 js_darkmode__291\">每学年评选不超过10个集体，标准如下：</span></span></p>\n<p class=\"js_darkmode__text__379 js_darkmode__292\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__380 js_darkmode__293\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__381 js_darkmode__294\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__382 js_darkmode__295\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__383 js_darkmode__296\">1.能够组织开展具有一定精神高度、文化内涵、艺术价值的校园文化活动和作品创作；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__384 js_darkmode__297\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__385 js_darkmode__298\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__386 js_darkmode__299\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__387 js_darkmode__300\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__388 js_darkmode__301\">2.能够充分带动广大学生参与校园文化建设，为优秀校园文化传播起到积极的推动作用；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__389 js_darkmode__302\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__390 js_darkmode__303\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__391 js_darkmode__304\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__392 js_darkmode__305\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__393 js_darkmode__306\">3.能够积极参加高水平文艺展演和竞赛，为学校争得荣誉、做出突出贡献；</span></span></strong></span></p>\n<p class=\"js_darkmode__text__394 js_darkmode__307\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__395 js_darkmode__308\" data-ignore-dm=\"text-bg-gradient\"><strong class=\"js_darkmode__text__396 js_darkmode__309\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__397 js_darkmode__310\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__398 js_darkmode__311\">4.能够持续传承弘扬西迁精神，助力学校宣传思想文化工作再上新台阶。</span></span></strong></span></p>\n<p class=\"js_darkmode__text__394 js_darkmode__307\" style=\"text-align: center;\" data-ignore-dm=\"text-bg-gradient\"><span style=\"font-size: 20px;\"><strong><span class=\"js_darkmode__text__395 js_darkmode__308\" data-ignore-dm=\"text-bg-gradient\">三、评审要求</span></strong></span></p>\n<p class=\"js_darkmode__text__419 js_darkmode__317\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__420 js_darkmode__318\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__421 js_darkmode__319\">1. 各申报个人或集体须如实填写申报表（见附件1、2），另附1000字以内的事迹材料（见附件3），所涉奖项荣誉需提供佐证材料。个人、集体须确保所交材料应为2025-2026学年期间相关事迹且真实有效，如发现弄虚作假，一律取消评优资格。原则上曾获过单项奖的个人不再申报同一奖项。</span></span></p>\n<p class=\"js_darkmode__text__422 js_darkmode__320\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__423 js_darkmode__321\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__424 js_darkmode__322\">2. “校园文化及精神文明单项奖” 的申报材料由学生向所在二级单位团组织提交，经书院初评后每个单项奖推荐不超过3名至团委。</span></span></p>\n<p class=\"js_darkmode__text__425 js_darkmode__323\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__426 js_darkmode__324\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__427 js_darkmode__325\">3. “校园文化突出贡献奖” 的申报材料经所在党团组织审核后，由集体负责人直接报送至团委；团委将统一组织校级评审。</span></span></p>\n<p class=\"js_darkmode__text__428 js_darkmode__326\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__429 js_darkmode__327\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__430 js_darkmode__328\">4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。</span></span></p>\n<p class=\"js_darkmode__text__431 js_darkmode__329\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__432 js_darkmode__330\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__433 js_darkmode__331\">联系人：崔老师 李同学 </span></span></p>\n<p class=\"js_darkmode__text__434 js_darkmode__332\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__435 js_darkmode__333\" data-ignore-dm=\"text-bg-gradient\"><span class=\"js_darkmode__text__436 js_darkmode__334\">联系电话：029-82668564</span></span></p>\n<p class=\"js_darkmode__text__434 js_darkmode__332\" data-ignore-dm=\"text-bg-gradient\"> </p>",
+   "bodyLen": 2813,
+   "excerpt": "各二级单位团组织： 根据《西安交通大学本科生表彰奖励办法》（西交学〔2019〕36号）文件精神，设立校园文化及精神文明单项奖和集体奖，以表彰在学校精神文明建设中做出突出贡献，为学校赢得荣誉或用正能量影响社会的优秀本科生。其中，学术科研奖、创新创业奖、劳动实践奖、公益服务奖、文化艺术奖、体育精神奖、自强不息奖等七类单项奖由各书院组织初评后向团委推荐，团委组织校级评选；集体荣誉称号中的优秀学生社团和校园文化突出贡献奖由团委直接组织评定。现将相关评选要求通知如下： 一、参评范围 2025-2026学年在西安交通大学接受普通高等学历教育的全日制本科生。",
+   "paragraphs": [
+    "各二级单位团组织：",
+    "根据《西安交通大学本科生表彰奖励办法》（西交学〔2019〕36号）文件精神，设立校园文化及精神文明单项奖和集体奖，以表彰在学校精神文明建设中做出突出贡献，为学校赢得荣誉或用正能量影响社会的优秀本科生。其中，学术科研奖、创新创业奖、劳动实践奖、公益服务奖、文化艺术奖、体育精神奖、自强不息奖等七类单项奖由各书院组织初评后向团委推荐，团委组织校级评选；集体荣誉称号中的优秀学生社团和校园文化突出贡献奖由团委直接组织评定。现将相关评选要求通知如下：",
+    "一、参评范围",
+    "2025-2026学年在西安交通大学接受普通高等学历教育的全日制本科生。",
+    "参评表彰奖励的学生应当具备以下基本条件：",
+    "（一）热爱祖国，热爱人民，拥护中国共产党领导；",
+    "（二）遵守宪法和法律，遵守学校规章制度；",
+    "（三）诚实守信，道德品质优良；",
+    "（四）学习态度端正，刻苦努力；",
+    "（五）热爱学校，尊敬师长，关心同学，团结互助，积极参加朋辈帮扶；",
+    "（六）主动参加集体活动，在德智体美劳等方面全面发展，积极参与“星航计划”“攀登计划”“首雁计划”等，在各类理论学习中表现较好，充分发挥模范带头作用。",
+    "二、奖项及要求",
+    "单项奖七大类，全校每学年每个单项奖评选不超过10人。",
+    "（一）学术科研奖",
+    "勤奋学习，成绩优异。具有较强的科研能力，在学术研究上取得显著成绩，主持或参与高水平科研项目，或在核心期刊发表有较高学术价值论文、著作或合著学术专著、参加高水平学术会议并获邀做专题报告等。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "2.参与或主导公开发表论文、出版专著的第一署名单位为西安交通大学或 Xi'an Jiaotong University；其认定需提交刊物或论文录用通知、接收证明等材料。其中包括：",
+    "（1）学校认定的国际期刊论文；",
+    "（2）国内核心期刊、国际会议论文；",
+    "（3）国内一般期刊、国内会议论文；",
+    "（4）出版专著。",
+    "（二）创新创业奖",
+    "崇尚科学，求实创新。有较强的运用所学知识解决实际问题的能力和开拓创新精神，在学科竞赛、创新发明或创业方面获得奖励、国家专利或取得显著的业绩。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "2.参加高水平国际、国家级学生竞赛获评三等奖及以上；",
+    "3.前三作者获得发明专利、实用新型专利、软件著作权，第一署名单位为：西安交通大学或Xi'an Jiaotong University，其认定需提交证书或者授权证明等材料；",
+    "4.注册成立公司并担任法人，创业项目已落地并商业化运营。其认定需提交企业法人证书以及投资、合作、订单等支撑材料。",
+    "（三）劳动实践奖",
+    "热爱劳动，主动实践。积极参加义务劳动服务，深入基层了解社会，服务他人，在教室、实验室值日，“文明宿舍”创建、思源景事、划片劳动、文明餐桌等劳育活动，以及“三下乡”暑期社会实践等活动中表现突出，能够努力提高实践能力，发挥先锋模范带头作用。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "2.获得省级以上优秀实践团队的学生主要负责人。",
+    "（四）公益服务奖",
+    "积极践行社会主义核心价值观，具有强烈的社会责任感。积极组织参加校内外公益服务活动，能够起到模范带头作用，并在自己承担的工作中做出一定的贡献。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.积极参与西安交通大学建校130周年暨西迁70周年校庆志愿服务、星航志愿服务、基础学科辅导团学业辅导、首雁计划志愿服务团，表现突出；",
+    "2.积极申报本年度校级“公益之星”评选；",
+    "3.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "4.积极参与当年度志愿服务征文和论坛等活动。",
+    "（五）文化艺术奖",
+    "热爱文艺，具有较高的文艺素养和审美修养，自觉传承弘扬中华优秀传统文化，积极参加校学生艺术团、高水平文艺展演和竞赛、“大先生”系列话剧展演等，取得显著成绩，为学校赢得荣誉、做出突出贡献，并带动其他同学积极参加校园文化和艺术实践活动，传播青春正能量，服务学校美育工作。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "2.代表学校参加过国家级、省级文艺演出活动。",
+    "（六）体育精神奖",
+    "热爱体育，具有较好的身体素质，积极参加体育锻炼和体育比赛，取得显著成绩，为学校争得荣誉，或在校园体育氛围营造和体育活动组织中具有突出贡献，广泛带动其他同学参加校园体育运动。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.相关事迹被校园或社会主要媒体报道，取得较好反响；",
+    "2.当年度代表学校参加国家级体育比赛，并获得冠军者；",
+    "3.在荧光夜跑等主题活动中有突出表现者；",
+    "4.参与组织筹备省级以上体育赛事活动的学生社团主要负责人。",
+    "（七）自强不息奖",
+    "积极进取，努力拼搏。在学习和生活中，以顽强的毅力勇于克服各种困难，自立自强，乐观向上，用实际行动践行新时代青年的使命与担当，有突出的自强事迹或个人成就。",
+    "具备以下条件者在同等条件下应优先考虑：",
+    "1.获得省级及以上“自强之星”表彰；",
+    "2.相关事迹被校园或社会主流媒体报道，取得较好反响；",
+    "3.有突出的事迹或成就，来自相对困难家庭或地区",
+    "集体荣誉称号",
+    "（一）优秀学生社团",
+    "按照《西安交通大学星级社团暨文明社团评定评分细则》有关规定，评选出的2025-2026学年五星级社团等同于优秀学生社团，不再单独组织评选。",
+    "（二）校园文化突出贡献奖",
+    "每学年评选不超过10个集体，标准如下：",
+    "1.能够组织开展具有一定精神高度、文化内涵、艺术价值的校园文化活动和作品创作；",
+    "2.能够充分带动广大学生参与校园文化建设，为优秀校园文化传播起到积极的推动作用；",
+    "3.能够积极参加高水平文艺展演和竞赛，为学校争得荣誉、做出突出贡献；",
+    "4.能够持续传承弘扬西迁精神，助力学校宣传思想文化工作再上新台阶。",
+    "三、评审要求",
+    "1. 各申报个人或集体须如实填写申报表（见附件1、2），另附1000字以内的事迹材料（见附件3），所涉奖项荣誉需提供佐证材料。个人、集体须确保所交材料应为2025-2026学年期间相关事迹且真实有效，如发现弄虚作假，一律取消评优资格。原则上曾获过单项奖的个人不再申报同一奖项。",
+    "2. “校园文化及精神文明单项奖” 的申报材料由学生向所在二级单位团组织提交，经书院初评后每个单项奖推荐不超过3名至团委。",
+    "3. “校园文化突出贡献奖” 的申报材料经所在党团组织审核后，由集体负责人直接报送至团委；团委将统一组织校级评审。",
+    "4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。",
+    "联系人：崔老师 李同学",
+    "联系电话：029-82668564"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    },
+    {
+     "type": "paragraph",
+     "index": 61
+    },
+    {
+     "type": "paragraph",
+     "index": 62
+    },
+    {
+     "type": "paragraph",
+     "index": 63
+    },
+    {
+     "type": "paragraph",
+     "index": 64
+    },
+    {
+     "type": "paragraph",
+     "index": 65
+    },
+    {
+     "type": "paragraph",
+     "index": 66
+    },
+    {
+     "type": "paragraph",
+     "index": 67
+    },
+    {
+     "type": "paragraph",
+     "index": 68
+    },
+    {
+     "type": "paragraph",
+     "index": 69
+    },
+    {
+     "type": "paragraph",
+     "index": 70
+    },
+    {
+     "type": "paragraph",
+     "index": 71
+    },
+    {
+     "type": "paragraph",
+     "index": 72
+    },
+    {
+     "type": "paragraph",
+     "index": 73
+    },
+    {
+     "type": "paragraph",
+     "index": 74
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+     "text": "附件",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+     "text": "附件",
+     "kind": "file"
+    }
+   ],
+   "contact": "崔老师",
+   "phone": "029-82668564",
+   "email": "2019311557@qq.com",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-19T07:35:25.660939+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+   "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
+   "site": "校团委",
+   "date": "2026-11-17",
+   "source": "西安交通大学团委",
+   "fetchedAt": "2026-11-19T07:35:25.660355+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+   "contentParserVersion": 2,
+   "body": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。\n01 开场动员：明晰网格职责，筑牢安全防线\n活动伊始，机械工程学院裴珮老师为本次讲座致辞，阐明本次安全培训的重要意义，指出实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境。\n02 主题讲座：细拆典型风险，提升排查能力\n本次培训特邀实验室管理处宋航行老师担任主讲，为大家带来实验室安全检查要点、2号巨构典型风险点拆解以及隐患填报注意事项主题讲座。\n宋老师带领同学们回顾了往年高校典型安全事故案例，提出在事故前要求一切按规范进行实验室设置；在实验中要求按照标准实验流程进行；在事故后按照应急预案中明确的处置措施及时果断处置。此外，宋老师结合机械工程学院、航天航空学院实验室安全管理实际，对实验室安全检查要点进行更为细致梳理说明，其中包含制度规定、标识张贴、环境卫生、气瓶管理、化学试剂、危废贮存等8大主要内容。\n通过结合典型场景对检查标准、风险辨识系统讲解，帮助参会实验室安全网格员准确把握实验室安全检查的重点内容和判定尺度，提升参会人员对典型风险点的精准识别能力，切实提升实验室安全管理的针对性和实效性。\n03 现场演示：排查典型风险，演示填报操作\n在现场演示环节，宋老师结合多年巡查经验和2号巨构电、力、化学等典型风险开展隐患模拟排查教学。通过一次实验室巡查记录，演示了实验室安全网格员们进入实验室查什么、怎么查。此外提醒进入实验室检查时要在保证自身安全情况下再有序开展检查工作。\n实操中，宋老师还现场开展实验室预警系统操作演示，分步讲解系统操作流程，直观展示巡查上报相关操作，帮助大家掌握工具使用方法，提高隐患巡查、隐患上报、隐患整改闭环的工作效率。\n04 首雁领航：首雁织密安网，青春共筑防线\n最后， “首雁计划”志愿服务团实践部邢文胤详细介绍了团队运行机制与专项工作流程，重点对“党建+专业+志愿”三位一体的育人模式进行了解读。“首雁计划”志愿服务团依托学生网格员队伍，推行“一人一格”的微网格管理，旨在将行政监管与志愿引领深度融合，筑牢校园实验室安全的基层防线。\n在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。\n总结\n本次培训帮助同学系统掌握隐患识别、隐患填报、隐患整改等实用知识，进一步强化了参会人员的安全责任意识与隐患排查能力。未来，“首雁计划”志愿服务团将持续联合实验室管理处、校团委及相关学院，推动实验室安全网格员培训常态化开展，进一步完善隐患排查、上报、整改和反馈机制，不断提升校园实验室安全治理能力。\n青春护航，网格担当。安全网格员们将持续扎根一线，当好实验室的“前沿哨兵”，以青春力量筑牢安全防线，为打造全覆盖、无死角、常态化的实验室安全管理新格局贡献源源不断的青年力量。",
+   "bodyHtml": "<p>    为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，<strong>11月6日，</strong><strong>实验室安全网格员安全讲座在2-6004</strong>举行。活动面向<span class=\"\">2号巨构</span>实验室学生网格员、硕博新生及相关人员开展，<strong>围绕机械工程学院、航天航空学院实验室安全管理实际，进行</strong><strong>专项化、针对性培训，</strong>引导学生网格员做到“会识别、会记录、会上报”。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/6bc2e28c-c49a-4486-a277-4540a1081390.jpg\" alt=\"\" width=\"600\" height=\"354\"></p>\n<p>   <span style=\"font-size: 20px;\"> 01 开场动员：明晰网格职责，筑牢安全防线</span></p>\n<p>    <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/8c34d5c5-2cdd-4413-9aa8-9459da680feb.png\" alt=\"\" width=\"600\" height=\"480\"></p>\n<p>    活动伊始，<strong>机械工程学院裴珮老师</strong>为本次讲座致辞，阐明本次安全培训的重要意义，指出<strong>实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量</strong>。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，<strong>做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境</strong>。</p>\n<p><span style=\"font-size: 20px;\">    02 主题讲座：细拆典型风险，提升排查能力</span></p>\n<p><span style=\"font-size: 20px;\">    <span style=\"font-size: 18px;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/51ee576b-229c-4e5c-bf25-0bea72b54fdb.png\" alt=\"\" width=\"600\" height=\"297\"></span></span></p>\n<p><span style=\"font-size: 20px;\"><span style=\"font-size: 18px;\">    </span></span></p>\n<section>\n<p>    本次培训特邀<strong>实验室管理处宋航行老师</strong>担任主讲，为大家带来实验室安全检查要点、2号巨构典型风险点拆解以及隐患填报注意事项主题讲座。</p>\n<p>    宋老师带领同学们回顾了往年高校典型安全事故案例，提出在事故前要求一切按规范进行实验室设置；在实验中要求按照标准实验流程进行；在事故后按照应急预案中明确的处置措施及时果断处置。此外，宋老师<strong>结合机械工程学院、航天航空学院实验室安全管理实际</strong>，<strong>对实验室安全检查要点进行更为细致梳理说明</strong>，其中包含制度规定、标识张贴、环境卫生、气瓶管理、化学试剂、危废贮存等8大主要内容。</p>\n<p>    通过结合典型场景对检查标准、风险辨识系统讲解，帮助参会实验室安全网格员准确把握实验室安全检查的重点内容和判定尺度，提升参会人员对典型风险点的精准识别能力，切实提升实验室安全管理的针对性和实效性。</p>\n<p><span style=\"font-size: 20px;\">    03 现场演示：排查典型风险，演示填报操作</span></p>\n<p>    在现场演示环节，宋老师结合多年巡查经验和2号巨构电、力、化学等典型风险开展隐患模拟排查教学。通过一次实验室巡查记录，演示了实验室安全网格员们进入实验室查什么、怎么查。此外提醒进入实验室检查时要在保证自身安全情况下再有序开展检查工作。</p>\n<p>    实操中，宋老师还现场开展<strong>实验室预警系统操作演示</strong>，分步讲解系统操作流程，直观展示巡查上报相关操作，帮助大家掌握工具使用方法，<strong>提高隐患巡查、隐患上报、隐患整改</strong>闭环的工作效率。</p>\n<p> </p>\n</section>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/d0514d78-2630-4634-839b-1d58f4b69517.png\" alt=\"\" width=\"600\" height=\"408\"></p>\n<p><span style=\"font-size: 20px;\">    04 首雁领航：首雁织密安网，青春共筑防线</span></p>\n<p><span style=\"font-size: 20px;\">    <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/45e48261-cb45-4b2a-85a7-18e77a2846f9.png\" alt=\"\" width=\"600\" height=\"407\"></span></p>\n<p>    最后，<strong> “<span class=\"\">首雁计划</span>”志愿服务团实践部邢文胤</strong>详细介绍了团队运行机制与专项工作流程，重点对“党建+专业+志愿”三位一体的育人模式进行了解读。“首雁计划”志愿服务团依托学生网格员队伍，推行“一人一格”的微网格管理，旨在将行政监管与志愿引领深度融合，筑牢校园实验室安全的基层防线。</p>\n<p>    在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/c94ee14e-823d-46cf-b54a-044c7150c031.png\" alt=\"\" width=\"600\" height=\"437\"></p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261118/e0bc2993-6c3b-4a4a-978c-4c3704cabb65.png\" alt=\"\" width=\"600\" height=\"462\"></p>\n<p><span style=\"font-size: 20px;\">    总结</span></p>\n<p>    本次培训帮助同学系统掌握隐患识别、隐患填报、隐患整改等实用知识，进一步强化了参会人员的安全责任意识与隐患排查能力。未来，“首雁计划”志愿服务团将持续联合实验室管理处、校团委及相关学院，推动实验室安全网格员培训常态化开展，进一步完善隐患排查、上报、整改和反馈机制，不断提升校园实验室安全治理能力。</p>\n<p>    青春护航，网格担当。安全网格员们将持续扎根一线，当好实验室的“前沿哨兵”，以青春力量筑牢安全防线，为打造全覆盖、无死角、常态化的实验室安全管理新格局贡献源源不断的青年力量。</p>",
+   "bodyLen": 1573,
+   "excerpt": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。 01 开场动员：明晰网格职责，筑牢安全防线 活动伊始，机械工程学院裴珮老师为本次讲座致辞，阐明本次安全培训的重要意义，指出实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境。",
+   "paragraphs": [
+    "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。",
+    "01 开场动员：明晰网格职责，筑牢安全防线",
+    "活动伊始，机械工程学院裴珮老师为本次讲座致辞，阐明本次安全培训的重要意义，指出实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境。",
+    "02 主题讲座：细拆典型风险，提升排查能力",
+    "本次培训特邀实验室管理处宋航行老师担任主讲，为大家带来实验室安全检查要点、2号巨构典型风险点拆解以及隐患填报注意事项主题讲座。",
+    "宋老师带领同学们回顾了往年高校典型安全事故案例，提出在事故前要求一切按规范进行实验室设置；在实验中要求按照标准实验流程进行；在事故后按照应急预案中明确的处置措施及时果断处置。此外，宋老师结合机械工程学院、航天航空学院实验室安全管理实际，对实验室安全检查要点进行更为细致梳理说明，其中包含制度规定、标识张贴、环境卫生、气瓶管理、化学试剂、危废贮存等8大主要内容。",
+    "通过结合典型场景对检查标准、风险辨识系统讲解，帮助参会实验室安全网格员准确把握实验室安全检查的重点内容和判定尺度，提升参会人员对典型风险点的精准识别能力，切实提升实验室安全管理的针对性和实效性。",
+    "03 现场演示：排查典型风险，演示填报操作",
+    "在现场演示环节，宋老师结合多年巡查经验和2号巨构电、力、化学等典型风险开展隐患模拟排查教学。通过一次实验室巡查记录，演示了实验室安全网格员们进入实验室查什么、怎么查。此外提醒进入实验室检查时要在保证自身安全情况下再有序开展检查工作。",
+    "实操中，宋老师还现场开展实验室预警系统操作演示，分步讲解系统操作流程，直观展示巡查上报相关操作，帮助大家掌握工具使用方法，提高隐患巡查、隐患上报、隐患整改闭环的工作效率。",
+    "04 首雁领航：首雁织密安网，青春共筑防线",
+    "最后， “首雁计划”志愿服务团实践部邢文胤详细介绍了团队运行机制与专项工作流程，重点对“党建+专业+志愿”三位一体的育人模式进行了解读。“首雁计划”志愿服务团依托学生网格员队伍，推行“一人一格”的微网格管理，旨在将行政监管与志愿引领深度融合，筑牢校园实验室安全的基层防线。",
+    "在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。",
+    "总结",
+    "本次培训帮助同学系统掌握隐患识别、隐患填报、隐患整改等实用知识，进一步强化了参会人员的安全责任意识与隐患排查能力。未来，“首雁计划”志愿服务团将持续联合实验室管理处、校团委及相关学院，推动实验室安全网格员培训常态化开展，进一步完善隐患排查、上报、整改和反馈机制，不断提升校园实验室安全治理能力。",
+    "青春护航，网格担当。安全网格员们将持续扎根一线，当好实验室的“前沿哨兵”，以青春力量筑牢安全防线，为打造全覆盖、无死角、常态化的实验室安全管理新格局贡献源源不断的青年力量。"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/6bc2e28c-c49a-4486-a277-4540a1081390.jpg",
+     "alt": "",
+     "context": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/8c34d5c5-2cdd-4413-9aa8-9459da680feb.png",
+     "alt": "",
+     "context": "01 开场动员：明晰网格职责，筑牢安全防线"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/51ee576b-229c-4e5c-bf25-0bea72b54fdb.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/d0514d78-2630-4634-839b-1d58f4b69517.png",
+     "alt": "",
+     "context": "本次培训特邀实验室管理处宋航行老师担任主讲，为大家带来实验室安全检查要点、2号巨构典型风险点拆解以及隐患填报注意事项主题讲座。\n\n 宋老师带领同学们回顾了往年高校典型安全事故案例，提出在事故前要求一切按规范进行实验室设置；在实验中要求按照标准实验流程进行；在事故后按照应急预案中明确的处置措施及时果断处置。此外，宋老师结合机械工程学院、航天航空学院实验室安全管理实际，对实验室安全检查要点进行更为细致梳理说明，其中包含制度规定、标识张贴、环境卫生、气瓶管理、化学试剂、危废贮存等8大主要内容。\n\n 通过结合典型场景对检查标准、风险辨识系统讲解，帮助参会实验室安全网格员准确把握实验室安全检查的重点内容和判定尺度，提升参会人员对典型风险点的精准识别能力，切实提升实验室安全管理的针对性和实效性。\n\n 03 现场演示：排查典型风险，演示填报操作\n\n 在现场演示环节，宋老师结合多年巡查经验和2号巨构电、力、化学等典型风险开展隐患模拟排查教学。通过一次实验室巡查记录，演示了实验室安全网格员们进入实验室查什么、怎么查。此外提醒进入实验室检查时要在保证自身安全情况下再有序开展检查工作。\n\n 实操中，宋老师还现场开展实验室预警系统操作演示，分步讲解系统操作流程，直观展示巡查上报相关操作，帮助大家掌握工具使用方法，提高隐患巡查、隐患上报、隐患整改闭环的工作效率。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/45e48261-cb45-4b2a-85a7-18e77a2846f9.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/c94ee14e-823d-46cf-b54a-044c7150c031.png",
+     "alt": "",
+     "context": "在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/e0bc2993-6c3b-4a4a-978c-4c3704cabb65.png",
+     "alt": "",
+     "context": "在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-19T07:35:25.660355+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+   "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
+   "site": "教务处",
+   "date": "2026-11-18",
+   "source": "jwc_kcap",
+   "fetchedAt": "2026-11-19T07:35:25.659937+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "ebe3a523ca812090d8c5d17fc8bfb886ca5aec2d04eadca3cf32ebe86a8fb2ed",
+   "contentParserVersion": 2,
+   "body": "2025级本科生：\n你们好！\n2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。\n请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。该轮次依然为正选，可选可退，即选即得。(注：时间截止后不再处理相关事宜，请务必在选课期间完成选、退课）\n答疑方式：请同学们仔细阅读“2026-2027学年第一学期2025级本科生“形势与政策”开课、选课通知”（网址：https://jwc.xjtu.edu.cn/info/1093/10645.htm）。如还有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊：一群：619057588；二群：681195160；三群：162737850。\n马克思主义学院思想政治教育研究所\n《形势与政策》课程组\n2026年11月18日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n    \r\n   <div class=\"Section0\" style=\"vsb_temp: 15.6000pt;\"> \r\n    <p class=\"MsoNormal\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">2025级本科生：</span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 150%; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">你们好！</span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 150%; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。</span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: center; line-height: 150%; -ms-text-autospace: ideograph-numeric; mso-pagination: none;\"><img width=\"554\" height=\"448\" src=\"https://jwc.xjtu.edu.cn/__local/E/C6/97/A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png\" vwidth=\"554\" vheight=\"448\" vurl=\"/_vsl/EC697A4620DEF45ADD1044786A45FB33/C2A55647/F2E56\" vsbhref=\"vurl\" orisrc=\"https://jwc.xjtu.edu.cn/__local/E/C6/97/A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png\" class=\"img_vsb_content\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 150%; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> <span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。该轮次依然为正选，可选可退，即选即得。(注：时间截止后不再处理相关事宜，请务必在选课期间完成选、退课）</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"line-height: 150%; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> <span style=\"line-height: 150%; font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">答疑方式：请同学们仔细阅读“2026-2027学年第一学期2025级本科生“形势与政策”开课、选课通知”（网址：https://jwc.xjtu.edu.cn/info/1093/10645.htm）。如还有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊：一群：619057588；二群：681195160；三群：162737850。</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"> </span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">马克思主义学院思想政治教育研究所</span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">《形势与政策》课程组</span></span></p> \r\n    <p class=\"MsoNormal\" style=\"text-align: right; text-indent: 24pt; -ms-text-autospace: ideograph-numeric; mso-char-indent-count: 2.0000; mso-pagination: none;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\"><span style=\"font-family: 宋体; font-size: 21px; font-weight: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 1.0000pt;\">2026年11月18日</span></span></p> \r\n   </div> \r\n    \r\n  </div>",
+   "bodyLen": 422,
+   "excerpt": "2025级本科生： 你们好！ 2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。 请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。该轮次依然为正选，可选可退，即选即得。(注：时间截止后不再处理相关事宜，请务必在选课期间完成选、退课） 答疑方式：请同学们仔细阅读“2026-2027学年第一学期2025级本科生“形势与政策”开课、选课通知”（网址：https://jwc.xjtu.edu.cn/info/1093/10645.htm）。如还有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊：一群：619057588；二群：681195160；三群：162737850。 马克思主义学院思想政治教育研究所 《形势与政策》课程组 2026年11月18日",
+   "paragraphs": [
+    "2025级本科生：",
+    "你们好！",
+    "2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。",
+    "请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。该轮次依然为正选，可选可退，即选即得。(注：时间截止后不再处理相关事宜，请务必在选课期间完成选、退课）",
+    "答疑方式：请同学们仔细阅读“2026-2027学年第一学期2025级本科生“形势与政策”开课、选课通知”（网址：https://jwc.xjtu.edu.cn/info/1093/10645.htm）。如还有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊：一群：619057588；二群：681195160；三群：162737850。",
+    "马克思主义学院思想政治教育研究所",
+    "《形势与政策》课程组",
+    "2026年11月18日"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    }
+   ],
+   "images": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/__local/E/C6/97/A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png",
+     "alt": "",
+     "context": "2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-19T07:35:25.659937+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+   "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
+   "site": "教务处",
+   "date": "2026-11-19",
+   "source": "jwc",
+   "fetchedAt": "2026-11-19T07:35:25.658967+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "bc083fa0e87b27f48d7526b5b7e8486de762aaf98482c315df211d4e883fcecc",
+   "contentParserVersion": 2,
+   "body": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：\n一、寒期学校介绍\n哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。\n二、报名要求\n1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；\n2. 品学兼优，身心健康；\n3. 德智体美劳全面发展，知识、能力、素质优良；\n4. 大二（2025级）、大三（2024级）的在籍且在校本科生；\n5. 违纪受过处分者不予报名；\n6. 课程采用英文授课，报名者须具备英语交流能力；\n7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。\n特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。\n三、报名程序\n由于寒期学校名额有限，本次报名采用网上报名，先报先得。请各位同学于2026年11月22日13:00-18:00准时登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）→ 学生社会考试报名 → 报名申请 →2026年哈尔滨工业大学寒期学校。\n报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。\n请注意，电子照片涉及入校权限，需为正面、免冠、JPG格式、大小100K-1M。\n四、项目信息及注意事项\n哈尔滨工业大学2026年国际寒期学校举办主题清单如下：\n序号\n主题\n联系方式\n时间\nA\n尔滨循踪·冰韵冰城\nliuying01@hit.edu.cn\n2026.12.14–2026.12.20\nB\nAI赋能智慧交通\nxiaowei_hu@hit.edu.cn\n2026.12.14–2026.12.19\nD\n遇见冰港智慧，共创自主未来\n33478861@qq.com\n2026.12.21– 2026.12.28\n各项目详细信息见http://hitgss.hit.edu.cn/HITGWS/list.htm\n报名截止后，各主题项目负责人会直接通知学生后续报到事宜。报名学生需与项目负责人保持联系。\n（一）授课语言：英文授课。\n（二）人数：每个主题限3个名额。每名学生只能报名参加一个主题。\n（三）注意事项：\n1. 费用情况：免收学费、住宿费（提供备品，退寝时须归还），其他费用自理。\n2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。\n3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。\n五、联系方式\n校教务处老师 电话：82665477\n哈工大老师咨询电话：0451-86402367\n附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表\n教务处\n2026年11月19日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"margin: 1em 0px; text-align: left; line-height: 21px; text-indent: 28px;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\"><br></span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">根据《九所首批</span><span style=\"font-family: 微软雅黑;\">“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校，</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校面向</span><span style=\"font-family: 微软雅黑;\">C9联盟本科生开放，报名通知如下：</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">一、</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校介绍</span></span></strong></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-layout-grid-mode: char; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈尔滨工业大学坐落于素有</span><span style=\"font-family: 微软雅黑;\">“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">二、报名要求</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">2. 品学兼优，身心健康；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">3. 德智体美劳全面发展，知识、能力、素质优良；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">4. </span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">大二（</span><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">5</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">级）、大三（</span><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">4</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">级）</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">的</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">在籍且在校</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">本科生；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">5. 违纪受过处分者不予报名；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6. 课程采用英文授课，报名者</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">须</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">具备</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">英语交流能力</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">为避免</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">与日常</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">教学安排冲突，报名前请务必咨询所在学院（部、中心）。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">三、报名程序</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">由于寒期学校名额有限，本次报名采用网上报名，先报先得。请各位同学</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">于</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">6</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">年</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">11</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">月</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">22</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">日</span><span style=\"font-family: 微软雅黑;\">13:00-18:00</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">准时</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）</span><span style=\"font-family: 微软雅黑;\">→ 学生社会考试报名 → </span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">报名申请</span><span style=\"font-family: 微软雅黑;\"> →2026年哈尔滨工业大学</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名成功后</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">，务必填写附件</span><span style=\"font-family: 微软雅黑;\">1报名表，并于</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">11</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">月</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">23</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">日</span><span style=\"font-family: 微软雅黑;\">12:00前</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">将</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">附件</span><span style=\"font-family: 微软雅黑;\">1报名表电子版</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（以</span> <span style=\"font-family: 微软雅黑;\">姓名</span><span style=\"font-family: 微软雅黑;\">+学号+2026年哈工大</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校</span> <span style=\"font-family: 微软雅黑;\">命名）和</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">一寸电子照片</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（以</span> <span style=\"font-family: 微软雅黑;\">姓名</span><span style=\"font-family: 微软雅黑;\">+</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">身份证</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"> <span style=\"font-family: 微软雅黑;\">命名）发送至教务处</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">老师邮箱</span><span style=\"font-family: 微软雅黑;\">yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校</span> <span style=\"font-family: 微软雅黑;\">命名。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">请注意，电子照片涉及入校权限，需为正面、免冠、</span><span style=\"font-family: 微软雅黑;\">JPG格式、大小100K-1M。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">四、项目信息及注意事项</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈尔滨工业大学</span><span style=\"font-family: 微软雅黑;\">202</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">年国际</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校举办</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">主题清单</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">如下：</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p style=\"margin: 1em 0px; text-align: left; line-height: 21px; text-indent: 28px;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\"></span></span></strong></p> \r\n   <table style=\"margin-bottom: 10px; display: table; border-collapse: collapse;\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\"> \r\n      <td width=\"288\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\">序号</span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">主题<br></span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">联系方式<br></span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">时间<br></span></strong></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">A<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 16px; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\">尔滨循踪·冰韵冰城</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(12, 12, 12); letter-spacing: -0.1pt; font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">liuying01@hit.edu.cn</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">14–</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.20</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">B<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"color: rgb(0, 0, 0); font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\">AI</span><span style=\"color: rgb(0, 0, 0); font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\">赋能智慧交通</span></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">xiaowei_hu@hit.edu.cn</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">14–</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">19</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">D<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\">遇见冰港智慧，共创自主未来</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">33478861@qq.com</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">21– </span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">28</span></span></td> \r\n     </tr> \r\n    </tbody> \r\n   </table> \r\n   <p style=\"margin: 1em 0px; text-align: left; line-height: 21px; text-indent: 28px;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\"></span></span></strong></p> \r\n   <p> </p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 19px; -ms-layout-grid-mode: char; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">  各项目详细信息见</span><span style=\"font-family: 微软雅黑;\">http://hitgss.hit.edu.cn/HITGWS/list.htm</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名截止后，各主题项目负责</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">人</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">会直接通知学生后续报到事宜</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">。</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名学生需与项目负责人保持联系。</span></span></strong></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">     （一）授课语言：英文授课</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">。</span></span></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">     （二）人数：</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">每个主题限</span><span style=\"font-family: 微软雅黑;\">3个名额。每名学生只能报名参加一个</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">主题</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">。</span></span></strong></p> \r\n   <p style=\"margin: 0px 0px 0px 28px; text-align: justify; line-height: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（三）</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">注意事项：</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">1</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">. </span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">费用情况：</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">免收学费、住宿费</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">提供备品，退寝时须归还</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">）</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">，其他费用自理</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">。</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">3.</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名</span><span style=\"font-family: 微软雅黑;\">C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">五、联系方式</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校教务处老师</span> <span style=\"font-family: 微软雅黑;\">电话：</span><span style=\"font-family: 微软雅黑;\">82665477 </span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈工大老师咨询电话：</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">0451-86402367</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">附件</span><span style=\"font-family: 微软雅黑;\">1：哈尔滨工业大学2026年国际</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校学生报名汇总表</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p style=\"margin: 1em 0px; text-align: right; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">                                                              教务处</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: right; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">                                                                  202</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">年</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">11</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">月</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">19</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">日</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p> </p> \r\n  </div>",
+   "bodyLen": 1466,
+   "excerpt": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下： 一、寒期学校介绍 哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。 二、报名要求 1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录； 2. 品学兼优，身心健康； 3. 德智体美劳全面发展，知识、能力、素质优良； 4. 大二（2025级）、大三（2024级）的在籍且在校本科生； 5. 违纪受过处分者不予报名； 6. 课程采用英文授课，报名者须具备英语交流能力； 7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。",
+   "paragraphs": [
+    "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+    "一、寒期学校介绍",
+    "哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。",
+    "二、报名要求",
+    "1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；",
+    "2. 品学兼优，身心健康；",
+    "3. 德智体美劳全面发展，知识、能力、素质优良；",
+    "4. 大二（2025级）、大三（2024级）的在籍且在校本科生；",
+    "5. 违纪受过处分者不予报名；",
+    "6. 课程采用英文授课，报名者须具备英语交流能力；",
+    "7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。",
+    "特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。",
+    "三、报名程序",
+    "由于寒期学校名额有限，本次报名采用网上报名，先报先得。请各位同学于2026年11月22日13:00-18:00准时登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）→ 学生社会考试报名 → 报名申请 →2026年哈尔滨工业大学寒期学校。",
+    "报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+    "请注意，电子照片涉及入校权限，需为正面、免冠、JPG格式、大小100K-1M。",
+    "四、项目信息及注意事项",
+    "哈尔滨工业大学2026年国际寒期学校举办主题清单如下：",
+    "各项目详细信息见http://hitgss.hit.edu.cn/HITGWS/list.htm",
+    "报名截止后，各主题项目负责人会直接通知学生后续报到事宜。报名学生需与项目负责人保持联系。",
+    "（一）授课语言：英文授课。",
+    "（二）人数：每个主题限3个名额。每名学生只能报名参加一个主题。",
+    "（三）注意事项：",
+    "1. 费用情况：免收学费、住宿费（提供备品，退寝时须归还），其他费用自理。",
+    "2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。",
+    "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。",
+    "五、联系方式",
+    "校教务处老师 电话：82665477",
+    "哈工大老师咨询电话：0451-86402367",
+    "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表",
+    "教务处",
+    "2026年11月19日"
+   ],
+   "tables": [
+    {
+     "rows": [
+      [
+       {
+        "text": "序号",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "主题",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "联系方式",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "时间",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "A",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "尔滨循踪·冰韵冰城",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "liuying01@hit.edu.cn",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "2026.12.14–2026.12.20",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "B",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "AI赋能智慧交通",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "xiaowei_hu@hit.edu.cn",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "2026.12.14–2026.12.19",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "D",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "遇见冰港智慧，共创自主未来",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "33478861@qq.com",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "2026.12.21– 2026.12.28",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ]
+     ],
+     "html": "<table style=\"margin-bottom: 10px; display: table; border-collapse: collapse;\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\"> \r\n      <td width=\"288\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\">序号</span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">主题<br></span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">联系方式<br></span></strong></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><strong><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">时间<br></span></strong></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">A<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 16px; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\">尔滨循踪·冰韵冰城</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(12, 12, 12); letter-spacing: -0.1pt; font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">liuying01@hit.edu.cn</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">14–</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.20</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">B<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"color: rgb(0, 0, 0); font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\">AI</span><span style=\"color: rgb(0, 0, 0); font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt;\">赋能智慧交通</span></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">xiaowei_hu@hit.edu.cn</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">14–</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">19</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;\">D<br></span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\">遇见冰港智慧，共创自主未来</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">33478861@qq.com</span></td> \r\n      <td width=\"287\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 微软雅黑,Microsoft YaHei;\"><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">21– </span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">2026.12.</span><span style=\"font-size: 12pt; mso-spacerun: &quot;yes&quot;;\">28</span></span></td> \r\n     </tr> \r\n    </tbody> \r\n   </table>"
+    }
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "table",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628791",
+     "text": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628791",
+     "text": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+     "kind": "file"
+    }
+   ],
+   "contact": "",
+   "phone": "0451-86402367",
+   "email": "yiranwang@xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-19T07:35:25.658967+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",

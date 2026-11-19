@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1280,
+  "count": 1284,
   "with_deadline": 178,
   "items": [
     {
@@ -82322,6 +82322,80 @@
       "snippet": "2025级本科生： 由于课程教学计划调整，本年级学生继续以线下课方式开设“形势与政策”课。2024级、2023级以线上课开课方式不变，线上课开设情况另行通知。请2025级本科生注意选课上课。现将有关要求发布如下： 1. 选课对象：各校区2025级全体本科生。 2. 本次选课（选课端网址：https://xkfw.xjtu.edu.cn/）分2个轮次进行，均为正选，可选可退，每位学生选择一个专题学习即可。 第1轮选课时间：2026年11月17日15:00至2026年11月18日15:00。第1轮选课结束后，根据选课情况，11月18日18点公布停开课程目录。请所有学生于第1轮选课结束后务必登录系统查看是否“停开落选”，第1轮已选好一个专题且未停开的学生，第2轮无需再选；所选专题停开的学生，须参加第2轮选课补选。第2轮选课时间：2026年11月19日10:00至2026年11月20日10:00。 若第2轮选课截止后仍未选课成功，不再安排补选，可在此后学期补课，请务必在选课期间完成选课。 3. 请务必根据所选专题上课。"
     },
     {
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+      "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
+      "noticeDate": "2026-11-18",
+      "contentHash": "262916b2c80b60416ee9ff7a9562b25777ed90696a9b6e8e43008d479ecb3b44",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-19",
+          "raw": "请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+          "location": {
+            "type": "body",
+            "start": 75,
+            "end": 134
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月19日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-20",
+          "raw": "请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+          "location": {
+            "type": "body",
+            "start": 75,
+            "end": 134
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "10:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月20日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-18",
+          "raw": "2026年11月18日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+          "location": {
+            "type": "body",
+            "start": 411,
+            "end": 422
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月18日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 422,
+      "snippet": "2025级本科生： 你们好！ 2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。 请落选或未选到课程的学生参加第2轮选课，选课时间为2026年11月19日10:00至2026年11月20日10:00。该轮次依然为正选，可选可退，即选即得。(注：时间截止后不再处理相关事宜，请务必在选课期间完成选、退课） 答疑方式：请同学们仔细阅读“2026-2027学年第一学期2025级本科生“形势与政策”开课、选课通知”（网址：https://jwc.xjtu.edu.cn/info/1093/10645.htm）。如还有疑惑，请添加QQ群咨询。请注意群资源有限，没有疑惑的同学不必加群；加群后已完成答疑的同学务必及时退出群聊：一群：619057588；二群：681195160；三群：162737850。 马克思主义学院思想政治教育研究所 《形势与政策》课程组 2026年11月18日"
+    },
+    {
       "url": "https://jwc.xjtu.edu.cn/info/1093/9594.htm",
       "title": "2025-2026学年第一学期“形势与政策”线上课开课通知",
       "noticeDate": "2025-12-31",
@@ -88106,6 +88180,214 @@
       ],
       "bodyLen": 170,
       "snippet": "各位同学： 经书院审核、学院初选，学校综合评价选拔，2027年春季学期我校赴港澳台地区高校交换生选拔工作已结束。现将推选名单（见附件）予以公示，最终录取名单由对方学校审核后确定。 公示时间：2026年9月22日至9月24日 如有问题，请与港澳台事务办公室联系。 联系人：郝老师 电话：82668230 港澳台事务办公室 2026年9月22日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
+      "noticeDate": "2026-11-19",
+      "contentHash": "163cc0fc4ce8cb071e463dde542a892e25fcab9322e2a28b2d1acde2ce205690",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-22",
+          "raw": "请各位同学于2026年11月22日13:00-18:00准时登录西安交通大学教务处主页报名抢选。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 557,
+            "end": 605
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "13:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月22日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-23",
+          "raw": "报名成功后，务必填写附件1报名表，并于11月23日12:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 666,
+            "end": 806
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": "12:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月23日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-14",
+          "raw": "2026.12.14–2026.12.20",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 934,
+            "end": 955
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.14",
+          "endDate": "2026-12-20",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-20",
+          "raw": "2026.12.14–2026.12.20",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 934,
+            "end": 955
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.20",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-14",
+          "raw": "2026.12.14–2026.12.19",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 989,
+            "end": 1010
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.14",
+          "endDate": "2026-12-19",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-19",
+          "raw": "2026.12.14–2026.12.19",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 989,
+            "end": 1010
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.19",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-21",
+          "raw": "2026.12.21– 2026.12.28",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 1043,
+            "end": 1065
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.21",
+          "endDate": "2026-12-28",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-28",
+          "raw": "2026.12.21– 2026.12.28",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 1043,
+            "end": 1065
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.28",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-19",
+          "raw": "2026年11月19日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+          "location": {
+            "type": "body",
+            "start": 1455,
+            "end": 1466
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月19日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1466,
+      "snippet": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下： 一、寒期学校介绍 哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。 二、报名要求 1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录； 2. 品学兼优，身心健康； 3. 德智体美劳全面发展，知识、能力、素质优良； 4. 大二（2025级）、大三（2024级）的在籍且在校本科生； 5. 违纪受过处分者不予报名； 6. 课程采用英文授课，报名者须具备英语交流能力； 7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1097/3445.htm",
@@ -144206,6 +144488,78 @@
       ],
       "bodyLen": 4457,
       "snippet": "为深入贯彻落实立德树人根本任务，激发学生科技创新热情，培养具有创新精神和实践能力的高素质人才，西安交通大学杰出校友出资专项设立“玉峰科创资助金”（以下简称“资助金”），用于支持在校学生开展科学研究、发明创造与创业实践。根据相关实施方案，现启动2026年度申报工作。有关事项通知如下。 01 资助概况 “玉峰科创资助金”设学生研发研究赛事项目资助、学生落地项目资助、学生科技社团项目资助三个板块，年度资助额度分别为35万元、60万元、30万元。 02 申报对象与条件 01资助对象 资助金面向西安交通大学全日制在校学生科创团队（指两人及以上组队形式，仅学生研发研究赛事项目中的竞赛活动可面向单人），本科生、硕士研究生、博士研究生均可申报。申报团队应当指定一名成员为团队负责人，作为资助金领取、使用与管理的直接责任人；团队负责人须为本校全日制在校学生。 02申报基本条件 申报团队应当同时具备下列条件： 1.团队成员热爱祖国，遵守法律法规和校纪校规，品行端正，无违纪违规记录。 2.团队成员学术作风严谨，恪守学术道德，无学术不端行为，无侵犯他人知识产权等行为。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+      "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
+      "noticeDate": "2026-11-16",
+      "contentHash": "52a57290f3c6aa2051736cb48063528efba2ecbfe67ac558d248171ef1388115",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-26",
+          "raw": "4. 各推荐单位务必于2026年11月26日18:00前，将电子版推荐材料（报名表、事迹材料、支撑证明、汇总表等）盖章、扫描后统一发至2019311557@qq.com。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+          "location": {
+            "type": "body",
+            "start": 2698,
+            "end": 2783
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "18:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月26日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 2813,
+      "snippet": "各二级单位团组织： 根据《西安交通大学本科生表彰奖励办法》（西交学〔2019〕36号）文件精神，设立校园文化及精神文明单项奖和集体奖，以表彰在学校精神文明建设中做出突出贡献，为学校赢得荣誉或用正能量影响社会的优秀本科生。其中，学术科研奖、创新创业奖、劳动实践奖、公益服务奖、文化艺术奖、体育精神奖、自强不息奖等七类单项奖由各书院组织初评后向团委推荐，团委组织校级评选；集体荣誉称号中的优秀学生社团和校园文化突出贡献奖由团委直接组织评定。现将相关评选要求通知如下： 一、参评范围 2025-2026学年在西安交通大学接受普通高等学历教育的全日制本科生。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
+      "noticeDate": "2026-11-17",
+      "contentHash": "6b9305995a1f7409724c5fa47c13f6cb163612463c3286257a80d8ddb3b6d2f6",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-06",
+          "raw": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 79
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月6日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1573,
+      "snippet": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。 01 开场动员：明晰网格职责，筑牢安全防线 活动伊始，机械工程学院裴珮老师为本次讲座致辞，阐明本次安全培训的重要意义，指出实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境。"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=51",

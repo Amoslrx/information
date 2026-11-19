@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 83,
+  "count": 93,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -16026,6 +16026,3998 @@
         "maxPages": 5
       },
       "fetchedAt": "2026-11-18T07:38:45.446753+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:captcha_required: open original link and import the downloaded file",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "5aecd391f077dcb93f597c49e7d1d478f58b959a0deb2f96528fbbbc880301cf",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+      "kind": "attachment",
+      "name": "附件",
+      "context": "",
+      "noticeBodyHash": "d2f2d7025d2d575c988c2c9f41779b6e7402c7746eb8ea0aeb54dc1234425ddd",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:35:39.281504+00:00",
+      "downloadStatus": "failed",
+      "status": "failed",
+      "error": "ValueError:unexpected_html_instead_of_resource",
+      "chunks": [],
+      "images": []
+    },
+    {
+      "id": "c1dd21d36e0b95b67c5cca0ccad0d42a57ae551969ec6c35cd420c2c6917cd58",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/6bc2e28c-c49a-4486-a277-4540a1081390.jpg",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:35:46.143883+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/5fe3e3484e3631c15d8a6d79be9e85122cded11e00d7b28bcc6631e49634ed31/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1280,
+            "height": 756
+          },
+          "qr": [],
+          "previewUrl": "media/91a07cedd44845e882a5198b8f1c10c89b45845106e326fac4d1682bf8ae0b4b.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/5fe3e3484e3631c15d8a6d79be9e85122cded11e00d7b28bcc6631e49634ed31.img",
+        "sha256": "5fe3e3484e3631c15d8a6d79be9e85122cded11e00d7b28bcc6631e49634ed31",
+        "bytes": 143566,
+        "filename": "6bc2e28c-c49a-4486-a277-4540a1081390.jpg",
+        "mime": "image/jpeg",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/6bc2e28c-c49a-4486-a277-4540a1081390.jpg"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "dffca9493a1af36ba53e237752312a319f3708061694164927fb21bb3cd3fc2c",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/8c34d5c5-2cdd-4413-9aa8-9459da680feb.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "01 开场动员：明晰网格职责，筑牢安全防线",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:35:48.706756+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "A: nostri] 指导单位实哈室管理处 、 以团委\nLal: 26004 把单位 : 机械工程学院 、 航天航空学院 、“",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/31fc9e543afffd3a01a2a3b2a0997413227ab291cf36135fd97f121bbcd46852/image.jpg",
+          "textHash": "541235d12bb14f11fda405e0e35a42354a6c504fa250f6d812545c702f089567",
+          "previewUrl": "media/d303d91f07b31bcea587d5a3ba3c4cdbcf34524aad90750ec1a9ecbaaa451d9a.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/31fc9e543afffd3a01a2a3b2a0997413227ab291cf36135fd97f121bbcd46852/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "A: nostri] 指导 单位 实 哈 室 管理 处 、 以 团委",
+                "words": [
+                  {
+                    "text": "A:",
+                    "confidence": 0.35671196,
+                    "bbox": [
+                      0,
+                      1515,
+                      73,
+                      62
+                    ]
+                  },
+                  {
+                    "text": "nostri]",
+                    "confidence": 0.0,
+                    "bbox": [
+                      107,
+                      1514,
+                      268,
+                      63
+                    ]
+                  },
+                  {
+                    "text": "指导",
+                    "confidence": 0.71900101,
+                    "bbox": [
+                      461,
+                      1506,
+                      101,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "单位",
+                    "confidence": 0.33224541,
+                    "bbox": [
+                      561,
+                      1506,
+                      81,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.33224541,
+                    "bbox": [
+                      699,
+                      1506,
+                      47,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "哈",
+                    "confidence": 0.0,
+                    "bbox": [
+                      745,
+                      1506,
+                      47,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "室",
+                    "confidence": 0.0,
+                    "bbox": [
+                      791,
+                      1511,
+                      55,
+                      67
+                    ]
+                  },
+                  {
+                    "text": "管理",
+                    "confidence": 0.84821114,
+                    "bbox": [
+                      845,
+                      1511,
+                      130,
+                      67
+                    ]
+                  },
+                  {
+                    "text": "处",
+                    "confidence": 0.93274422,
+                    "bbox": [
+                      945,
+                      1506,
+                      40,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.869599,
+                    "bbox": [
+                      984,
+                      1506,
+                      39,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "以",
+                    "confidence": 0.36165916000000004,
+                    "bbox": [
+                      1022,
+                      1506,
+                      55,
+                      123
+                    ]
+                  },
+                  {
+                    "text": "团委",
+                    "confidence": 0.0,
+                    "bbox": [
+                      1007,
+                      1510,
+                      147,
+                      68
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Lal: 26004 把 单位 : 机 械 工 程 学 院 、 航 天 航空 学 院 、“",
+                "words": [
+                  {
+                    "text": "Lal:",
+                    "confidence": 0.34180923,
+                    "bbox": [
+                      0,
+                      1619,
+                      73,
+                      63
+                    ]
+                  },
+                  {
+                    "text": "26004",
+                    "confidence": 0.5011430699999999,
+                    "bbox": [
+                      106,
+                      1631,
+                      120,
+                      46
+                    ]
+                  },
+                  {
+                    "text": "把",
+                    "confidence": 0.0,
+                    "bbox": [
+                      446,
+                      1623,
+                      108,
+                      67
+                    ]
+                  },
+                  {
+                    "text": "单位",
+                    "confidence": 0.8598600000000001,
+                    "bbox": [
+                      553,
+                      1619,
+                      91,
+                      105
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.81870544,
+                    "bbox": [
+                      645,
+                      1619,
+                      21,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "机",
+                    "confidence": 0.93301262,
+                    "bbox": [
+                      697,
+                      1619,
+                      47,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "械",
+                    "confidence": 0.8117038,
+                    "bbox": [
+                      743,
+                      1619,
+                      54,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "工",
+                    "confidence": 0.8903955100000001,
+                    "bbox": [
+                      796,
+                      1625,
+                      47,
+                      68
+                    ]
+                  },
+                  {
+                    "text": "程",
+                    "confidence": 0.85585144,
+                    "bbox": [
+                      842,
+                      1619,
+                      47,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.9200413500000001,
+                    "bbox": [
+                      888,
+                      1619,
+                      53,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "院",
+                    "confidence": 0.9216302500000001,
+                    "bbox": [
+                      940,
+                      1619,
+                      41,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "、",
+                    "confidence": 0.9211874400000001,
+                    "bbox": [
+                      980,
+                      1619,
+                      47,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "航",
+                    "confidence": 0.92800491,
+                    "bbox": [
+                      1026,
+                      1619,
+                      46,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "天",
+                    "confidence": 0.9686975099999999,
+                    "bbox": [
+                      1072,
+                      1619,
+                      53,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "航空",
+                    "confidence": 0.95689934,
+                    "bbox": [
+                      1007,
+                      1626,
+                      314,
+                      70
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.9309735100000001,
+                    "bbox": [
+                      1236,
+                      1619,
+                      53,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "院",
+                    "confidence": 0.6388546,
+                    "bbox": [
+                      1288,
+                      1619,
+                      54,
+                      105
+                    ]
+                  },
+                  {
+                    "text": "、“",
+                    "confidence": 0.33488579,
+                    "bbox": [
+                      1369,
+                      1628,
+                      49,
+                      41
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              }
+            ],
+            "text": "A: nostri] 指导单位实哈室管理处 、 以团委\nLal: 26004 把单位 : 机械工程学院 、 航天航空学院 、“",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2413,
+            "height": 1931
+          },
+          "qr": [],
+          "previewUrl": "media/d303d91f07b31bcea587d5a3ba3c4cdbcf34524aad90750ec1a9ecbaaa451d9a.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/31fc9e543afffd3a01a2a3b2a0997413227ab291cf36135fd97f121bbcd46852.img",
+        "sha256": "31fc9e543afffd3a01a2a3b2a0997413227ab291cf36135fd97f121bbcd46852",
+        "bytes": 2719998,
+        "filename": "8c34d5c5-2cdd-4413-9aa8-9459da680feb.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/8c34d5c5-2cdd-4413-9aa8-9459da680feb.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "c50dcf1d959d2f8200b1b698aaf69a0bce4e855581c49eb894edc0844ba3ebe3",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/51ee576b-229c-4e5c-bf25-0bea72b54fdb.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:35:57.650008+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "ys $<\n2026. 11",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/7ae44db1ddf8dddc277f0063edaf9b792e544593f62ab14c1f367d536687ffaa/image.jpg",
+          "textHash": "9dd79a2629b76f11200068b6c00775cf8ffe62cdae01df2077fdc99eb6add681",
+          "previewUrl": "media/d40dc1fd6c491f6ecb2e8157b4950467237134c78105538987109a190928986e.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/7ae44db1ddf8dddc277f0063edaf9b792e544593f62ab14c1f367d536687ffaa/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "ys $<",
+                "words": [
+                  {
+                    "text": "ys",
+                    "confidence": 0.47533562,
+                    "bbox": [
+                      845,
+                      0,
+                      171,
+                      87
+                    ]
+                  },
+                  {
+                    "text": "$<",
+                    "confidence": 0.0,
+                    "bbox": [
+                      907,
+                      0,
+                      1446,
+                      181
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "2026. 11",
+                "words": [
+                  {
+                    "text": "2026.",
+                    "confidence": 0.96578186,
+                    "bbox": [
+                      946,
+                      290,
+                      121,
+                      77
+                    ]
+                  },
+                  {
+                    "text": "11",
+                    "confidence": 0.96918167,
+                    "bbox": [
+                      1072,
+                      293,
+                      43,
+                      35
+                    ]
+                  }
+                ],
+                "confidence": 0.96578186
+              }
+            ],
+            "text": "ys $<\n2026. 11",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2488,
+            "height": 1232
+          },
+          "qr": [],
+          "previewUrl": "media/d40dc1fd6c491f6ecb2e8157b4950467237134c78105538987109a190928986e.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/7ae44db1ddf8dddc277f0063edaf9b792e544593f62ab14c1f367d536687ffaa.img",
+        "sha256": "7ae44db1ddf8dddc277f0063edaf9b792e544593f62ab14c1f367d536687ffaa",
+        "bytes": 4679235,
+        "filename": "51ee576b-229c-4e5c-bf25-0bea72b54fdb.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/51ee576b-229c-4e5c-bf25-0bea72b54fdb.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "1ca8804ba42cc4e76fea021dbc3a395705bff1d406987b50450d31a5e55b043f",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/d0514d78-2630-4634-839b-1d58f4b69517.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "本次培训特邀实验室管理处宋航行老师担任主讲，为大家带来实验室安全检查要点、2号巨构典型风险点拆解以及隐患填报注意事项主题讲座。\n\n 宋老师带领同学们回顾了往年高校典型安全事故案例，提出在事故前要求一切按规范进行实验室设置；在实验中要求按照标准实验流程进行；在事故后按照应急预案中明确的处置措施及时果断处置。此外，宋老师结合机械工程学院、航天航空学院实验室安全管理实际，对实验室安全检查要点进行更为细致梳理说明，其中包含制度规定、标识张贴、环境卫生、气瓶管理、化学试剂、危废贮存等8大主要内容。\n\n 通过结合典型场景对检查标准、风险辨识系统讲解，帮助参会实验室安全网格员准确把握实验室安全检查的重点内容和判定尺度，提升参会人员对典型风险点的精准识别能力，切实提升实验室安全管理的针对性和实效性。\n\n 03 现场演示：排查典型风险，演示填报操作\n\n 在现场演示环节，宋老师结合多年巡查经验和2号巨构电、力、化学等典型风险开展隐患模拟排查教学。通过一次实验室巡查记录，演示了实验室安全网格员们进入实验室查什么、怎么查。此外提醒进入实验室检查时要在保证自身安全情况下再有序开展检查工作。\n\n 实操中，宋老师还现场开展实验室预警系统操作演示，分步讲解系统操作流程，直观展示巡查上报相关操作，帮助大家掌握工具使用方法，提高隐患巡查、隐患上报、隐患整改闭环的工作效率。",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:03.511373+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "， 2. 标识张贴方面\n, 3. 环境卫生方面\n信和与实奈不相符\nLU REET Bi, RES\n天检查\n7. 消防安全方面\n* 8. 用电方面",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/96c170f056ce3133e65b994685091e2933a70a824633ca21b29114095a61d8fb/image.jpg",
+          "textHash": "45f6ed3ec1c9385452d848cba379e70d7f45896298b826976d29f17345f1ae93",
+          "previewUrl": "media/8c55f456f9fe3bb0d3a09ff58271db5e2fcae9569a05ec7b8400678141d3f715.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/96c170f056ce3133e65b994685091e2933a70a824633ca21b29114095a61d8fb/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "， 2. 标 识 张贴 方面",
+                "words": [
+                  {
+                    "text": "，",
+                    "confidence": 0.50451321,
+                    "bbox": [
+                      443,
+                      522,
+                      8,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "2.",
+                    "confidence": 0.9056057,
+                    "bbox": [
+                      460,
+                      514,
+                      15,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "标",
+                    "confidence": 0.9277658099999999,
+                    "bbox": [
+                      490,
+                      513,
+                      20,
+                      29
+                    ]
+                  },
+                  {
+                    "text": "识",
+                    "confidence": 0.9058169599999999,
+                    "bbox": [
+                      514,
+                      511,
+                      21,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "张贴",
+                    "confidence": 0.9647294599999999,
+                    "bbox": [
+                      536,
+                      508,
+                      84,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "方面",
+                    "confidence": 0.7981487300000001,
+                    "bbox": [
+                      586,
+                      504,
+                      36,
+                      48
+                    ]
+                  }
+                ],
+                "confidence": 0.50451321
+              },
+              {
+                "text": ", 3. 环境 卫生 方面",
+                "words": [
+                  {
+                    "text": ",",
+                    "confidence": 0.0,
+                    "bbox": [
+                      442,
+                      594,
+                      6,
+                      11
+                    ]
+                  },
+                  {
+                    "text": "3.",
+                    "confidence": 0.95760818,
+                    "bbox": [
+                      459,
+                      577,
+                      30,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "环境",
+                    "confidence": 0.96641884,
+                    "bbox": [
+                      489,
+                      584,
+                      35,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "卫生",
+                    "confidence": 0.95899704,
+                    "bbox": [
+                      534,
+                      582,
+                      37,
+                      30
+                    ]
+                  },
+                  {
+                    "text": "方面",
+                    "confidence": 0.85850754,
+                    "bbox": [
+                      579,
+                      581,
+                      40,
+                      31
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "信和 与 实 奈 不 相符",
+                "words": [
+                  {
+                    "text": "信和",
+                    "confidence": 0.057847600000000006,
+                    "bbox": [
+                      440,
+                      616,
+                      709,
+                      88
+                    ]
+                  },
+                  {
+                    "text": "与",
+                    "confidence": 0.0,
+                    "bbox": [
+                      902,
+                      612,
+                      64,
+                      113
+                    ]
+                  },
+                  {
+                    "text": "实",
+                    "confidence": 0.7075573,
+                    "bbox": [
+                      965,
+                      612,
+                      44,
+                      113
+                    ]
+                  },
+                  {
+                    "text": "奈",
+                    "confidence": 0.6138552899999999,
+                    "bbox": [
+                      1008,
+                      612,
+                      29,
+                      113
+                    ]
+                  },
+                  {
+                    "text": "不",
+                    "confidence": 0.91960884,
+                    "bbox": [
+                      1036,
+                      612,
+                      36,
+                      113
+                    ]
+                  },
+                  {
+                    "text": "相符",
+                    "confidence": 0.72115562,
+                    "bbox": [
+                      1071,
+                      612,
+                      79,
+                      113
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "LU REET Bi, RES",
+                "words": [
+                  {
+                    "text": "LU",
+                    "confidence": 0.17753744000000002,
+                    "bbox": [
+                      438,
+                      728,
+                      178,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "REET",
+                    "confidence": 0.36945934,
+                    "bbox": [
+                      677,
+                      732,
+                      209,
+                      48
+                    ]
+                  },
+                  {
+                    "text": "Bi,",
+                    "confidence": 0.12910318,
+                    "bbox": [
+                      911,
+                      732,
+                      83,
+                      49
+                    ]
+                  },
+                  {
+                    "text": "RES",
+                    "confidence": 0.0685813,
+                    "bbox": [
+                      1023,
+                      731,
+                      149,
+                      51
+                    ]
+                  }
+                ],
+                "confidence": 0.0685813
+              },
+              {
+                "text": "天 检查",
+                "words": [
+                  {
+                    "text": "天",
+                    "confidence": 0.18608322000000002,
+                    "bbox": [
+                      436,
+                      800,
+                      402,
+                      34
+                    ]
+                  },
+                  {
+                    "text": "检查",
+                    "confidence": 0.33277649,
+                    "bbox": [
+                      843,
+                      778,
+                      136,
+                      108
+                    ]
+                  }
+                ],
+                "confidence": 0.18608322000000002
+              },
+              {
+                "text": "7. 消防 安全 方面",
+                "words": [
+                  {
+                    "text": "7.",
+                    "confidence": 0.0,
+                    "bbox": [
+                      434,
+                      873,
+                      32,
+                      26
+                    ]
+                  },
+                  {
+                    "text": "消防",
+                    "confidence": 0.8630529,
+                    "bbox": [
+                      473,
+                      872,
+                      43,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "安全",
+                    "confidence": 0.95822998,
+                    "bbox": [
+                      518,
+                      874,
+                      69,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "方面",
+                    "confidence": 0.76103683,
+                    "bbox": [
+                      589,
+                      876,
+                      21,
+                      31
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "* 8. 用 电 方面",
+                "words": [
+                  {
+                    "text": "*",
+                    "confidence": 0.037370969999999996,
+                    "bbox": [
+                      431,
+                      953,
+                      9,
+                      14
+                    ]
+                  },
+                  {
+                    "text": "8.",
+                    "confidence": 0.7765417499999999,
+                    "bbox": [
+                      451,
+                      945,
+                      16,
+                      27
+                    ]
+                  },
+                  {
+                    "text": "用",
+                    "confidence": 0.9307158699999999,
+                    "bbox": [
+                      478,
+                      946,
+                      15,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "电",
+                    "confidence": 0.9178335599999999,
+                    "bbox": [
+                      500,
+                      946,
+                      16,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "方面",
+                    "confidence": 0.69258087,
+                    "bbox": [
+                      517,
+                      946,
+                      45,
+                      33
+                    ]
+                  }
+                ],
+                "confidence": 0.037370969999999996
+              }
+            ],
+            "text": "， 2. 标识张贴方面\n, 3. 环境卫生方面\n信和与实奈不相符\nLU REET Bi, RES\n天检查\n7. 消防安全方面\n* 8. 用电方面",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2058,
+            "height": 1399
+          },
+          "qr": [],
+          "previewUrl": "media/8c55f456f9fe3bb0d3a09ff58271db5e2fcae9569a05ec7b8400678141d3f715.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/96c170f056ce3133e65b994685091e2933a70a824633ca21b29114095a61d8fb.img",
+        "sha256": "96c170f056ce3133e65b994685091e2933a70a824633ca21b29114095a61d8fb",
+        "bytes": 4558698,
+        "filename": "d0514d78-2630-4634-839b-1d58f4b69517.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/d0514d78-2630-4634-839b-1d58f4b69517.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "23ac7e33183399c9293d5b6e8bd438c15b009be48916dd54ea845257cdd4c61f",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/45e48261-cb45-4b2a-85a7-18e77a2846f9.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:12.249227+00:00",
+      "downloadStatus": "success",
+      "status": "empty",
+      "error": "",
+      "chunks": [],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/5c8e674a09d73c6c469b80871619702f176871c48f0dad1edba1e569ab6a696f/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1888,
+            "height": 1280
+          },
+          "qr": [],
+          "previewUrl": "media/4f3f4f1cb603cc886179ed8afd4e564b01a06ac4db7f0b5ad8d5b063cc14196f.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/5c8e674a09d73c6c469b80871619702f176871c48f0dad1edba1e569ab6a696f.img",
+        "sha256": "5c8e674a09d73c6c469b80871619702f176871c48f0dad1edba1e569ab6a696f",
+        "bytes": 3629793,
+        "filename": "45e48261-cb45-4b2a-85a7-18e77a2846f9.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/45e48261-cb45-4b2a-85a7-18e77a2846f9.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "71fcd88d498e37ee9928d7fe27c8244f79e1f968cf8e020062b7ad8fe2d56bbc",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/c94ee14e-823d-46cf-b54a-044c7150c031.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:18.368654+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "a\nHELLO IAM",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/b5b742841e7121dfb5fccd9ab6f200adbc3828718b215b671039193b2cdd21e7/image.jpg",
+          "textHash": "a7f13a607f160bf313d59da9aab84a4f2ec3d03ffecf7ab336db561ceeef9645",
+          "previewUrl": "media/69aa32b7b4b40ba077b73fcfd3d04fa191e66bae97066aede6fd6f90ce838187.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/b5b742841e7121dfb5fccd9ab6f200adbc3828718b215b671039193b2cdd21e7/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "a",
+                "words": [
+                  {
+                    "text": "a",
+                    "confidence": 0.0,
+                    "bbox": [
+                      683,
+                      190,
+                      859,
+                      62
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "HELLO IAM",
+                "words": [
+                  {
+                    "text": "HELLO",
+                    "confidence": 0.9652372699999999,
+                    "bbox": [
+                      463,
+                      1304,
+                      94,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "IAM",
+                    "confidence": 0.67731865,
+                    "bbox": [
+                      573,
+                      1306,
+                      53,
+                      25
+                    ]
+                  }
+                ],
+                "confidence": 0.67731865
+              }
+            ],
+            "text": "a\nHELLO IAM",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2504,
+            "height": 1824
+          },
+          "qr": [],
+          "previewUrl": "media/69aa32b7b4b40ba077b73fcfd3d04fa191e66bae97066aede6fd6f90ce838187.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/b5b742841e7121dfb5fccd9ab6f200adbc3828718b215b671039193b2cdd21e7.img",
+        "sha256": "b5b742841e7121dfb5fccd9ab6f200adbc3828718b215b671039193b2cdd21e7",
+        "bytes": 4126137,
+        "filename": "c94ee14e-823d-46cf-b54a-044c7150c031.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/c94ee14e-823d-46cf-b54a-044c7150c031.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "4c8486304b6d501bd6e2a2920494cf341832c2a0172f6fcd30321ce1763561dc",
+      "url": "https://tuanwei.xjtu.edu.cn/uploads/20261118/e0bc2993-6c3b-4a4a-978c-4c3704cabb65.png",
+      "noticeUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "kind": "image",
+      "name": "",
+      "context": "在此，我们诚挚号召更多同学以“首雁”之姿挺身而出，用青春的敏锐与担当，织密实验室安全防护网，共筑坚不可摧的校园平安防线。在护航科研的征途中，让每一次排查都成为淬炼本领的熔炉，让个人的拔节生长与集体的安全发展同频共振，携手书写双向奔赴、互促双赢的青春答卷。",
+      "noticeBodyHash": "1f82f41ef3f406f81eb57017b0385d197e1d4b8fbbd75faeec1d3c17640a9af5",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:30.790623+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "—|\n= 0 从 |\n1 i\nFe",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/9d2a55dd2fb061efdb3bed9dcd9f6db8f9066520ae82af64135570c88e249df8/image.jpg",
+          "textHash": "89e432aba31c569555e3875c5a06fceaf7f3d74d5554e5e62741a6af1f97f4e0",
+          "previewUrl": "media/620819b70a555bc496c0a0aa2612183654022e81e53e5cff2430dbfe3d747ddd.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/9d2a55dd2fb061efdb3bed9dcd9f6db8f9066520ae82af64135570c88e249df8/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "—|",
+                "words": [
+                  {
+                    "text": "—|",
+                    "confidence": 0.76818878,
+                    "bbox": [
+                      1221,
+                      1455,
+                      109,
+                      18
+                    ]
+                  }
+                ],
+                "confidence": 0.76818878
+              },
+              {
+                "text": "= 0 从 |",
+                "words": [
+                  {
+                    "text": "=",
+                    "confidence": 0.55547161,
+                    "bbox": [
+                      1210,
+                      1480,
+                      59,
+                      93
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "confidence": 0.94113182,
+                    "bbox": [
+                      1274,
+                      1491,
+                      14,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "从",
+                    "confidence": 0.59192131,
+                    "bbox": [
+                      1298,
+                      1489,
+                      20,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "|",
+                    "confidence": 0.85850464,
+                    "bbox": [
+                      1340,
+                      1476,
+                      7,
+                      31
+                    ]
+                  }
+                ],
+                "confidence": 0.55547161
+              },
+              {
+                "text": "1 i",
+                "words": [
+                  {
+                    "text": "1",
+                    "confidence": 0.3098679,
+                    "bbox": [
+                      1214,
+                      1550,
+                      109,
+                      106
+                    ]
+                  },
+                  {
+                    "text": "i",
+                    "confidence": 0.5228941300000001,
+                    "bbox": [
+                      1315,
+                      1566,
+                      37,
+                      58
+                    ]
+                  }
+                ],
+                "confidence": 0.3098679
+              },
+              {
+                "text": "Fe",
+                "words": [
+                  {
+                    "text": "Fe",
+                    "confidence": 0.23560266,
+                    "bbox": [
+                      1218,
+                      1602,
+                      143,
+                      141
+                    ]
+                  }
+                ],
+                "confidence": 0.23560266
+              }
+            ],
+            "text": "—|\n= 0 从 |\n1 i\nFe",
+            "normalization": "join_cjk_word_spaces",
+            "width": 2296,
+            "height": 1768
+          },
+          "qr": [],
+          "previewUrl": "media/620819b70a555bc496c0a0aa2612183654022e81e53e5cff2430dbfe3d747ddd.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/9d2a55dd2fb061efdb3bed9dcd9f6db8f9066520ae82af64135570c88e249df8.img",
+        "sha256": "9d2a55dd2fb061efdb3bed9dcd9f6db8f9066520ae82af64135570c88e249df8",
+        "bytes": 3730819,
+        "filename": "e0bc2993-6c3b-4a4a-978c-4c3704cabb65.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261118/e0bc2993-6c3b-4a4a-978c-4c3704cabb65.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "a5ef05f14e6ba61b7f5ae587af1c978bfbee854c1f2d2c2c6f7eb98483cced8f",
+      "url": "https://jwc.xjtu.edu.cn/__local/E/C6/97/A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+      "kind": "image",
+      "name": "",
+      "context": "2026-2027学年第一学期2025级本科生《形势与政策》第1轮选课已结束，下列课程选课人数少于规定要求，予以停开。",
+      "noticeBodyHash": "ebe3a523ca812090d8c5d17fc8bfb886ca5aec2d04eadca3cf32ebe86a8fb2ed",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:36.885493+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "课程号课程名课序号上课教师学校校区\nPoU107514 RIE RIA LED HE WE 只大校区\nPot107514 RIUM RTE RHA LE) ie o Wir 类大术区\nPou107514 RRIF LE) WE 08 BE PREC\nPouto7e14 EMSA ELC SAL) 7 05 ied PRR\nPou107614 EMAL AEM SAE) 9 o7 ie\nPou107714 vad 03 see\nPoU107714 05 ses\nPou107714 o7 Wises\nPoU107714 10 Wises\nPOU107714 1 南亚由\nPOU107814 。。 形第 26 乱 《专题四 :繁荣互联风条件下新大众文艺 ) 商各 1 it\nPOU107814 。。 FeRDOH CORI: RH TIRM IE EH AMR LZ) al 15 高如\nPOU107814 。。 形策 26 次 CORI: RH TIRM IE EB AiR LZ) ah 2 高如\nPOU107814 RDB C CREM: AI TINM ATE KB KAR LZ sil 2 高如\nPOU107914 开征 26 居 《专题由， AIIM RET FB Kok LE) AU 05 ams\nPOU107914 §— EAE CUMIN: AI TINM AEE KB Kite LZ) AU 08\nPOU107914 。 RE AZEKK CUMIN: SATIN ART RB Kok 2) 刘攻内 09\nPoU108114 形策 28 秋 《专题五 ， 全而推进美国中国建设 》 张 08\nPoU108114 形策 28 委 《专题五 ， 全而推进美国中国建设 》 张 0 meagre\nPoU108114 FOB CLM fie REMI aR) a 10 aa\nPoU108114 形策 26 委 (专题五 ， 全轩推进美国中国建设 》 号 \n5\t1\t12\t2\t3\t20\t504\t260\t38\t9\t39.455803\tmene\n4\t1\t12\t2\t4\t0\t3\t272\t539\t10\t-1\t\n5\t1\t12\t2\t4\t1\t3\t272\t56\t8\t54.309593\tPOU108214\n5\t1\t12\t2\t4\t2\t70\t262\t10\t28\t0.000000\t—\n5\t1\t12\t2\t4\t3\t84\t272\t40\t9\t11.033792\t形\n5\t1\t12\t2\t4\t4\t98\t262\t7\t28\t28.198147\t第\n5\t1\t12\t2\t4\t5\t105\t272\t11\t9\t95.461861\t26\n5\t1\t12\t2\t4\t6\t115\t262\t8\t28\t64.258286\t和\n5\t1\t12\t2\t4\t7\t130\t272\t34\t9\t8.837414\t《专题\n5\t1\t12\t2\t4\t8\t177\t272\t67\t9\t0.000000\tEMAAR\n5\t1\t12\t2\t4\t9\t237\t262\t22\t28\t4.287815\tNT\n5\t1\t12\t2\t4\t10\t273\t262\t21\t28\t0.000000\tSEAB\n5\t1\t12\t2\t4\t11\t298\t272\t23\t9\t26.424118\tLA)\n5\t1\t12\t2\t4\t12\t327\t272\t18\t9\t39.644501\t周\n5\t1\t12\t2\t4\t13\t339\t262\t10\t28\t37.355072\t远\n5\t1\t12\t2\t4\t14\t387\t272\t11\t8\t59.342773\t3\n5\t1\t12\t2\t4\t15\t504\t273\t38\t8\t37.967628\tURC\n4\t1\t12\t2\t5\t0\t3\t274\t539\t28\t-1\t\n5\t1\t12\t2\t5\t1\t3\t284\t56\t8\t53.248734\tPOU108214\n5\t1\t12\t2\t5\t2\t66\t274\t17\t28\t25.931997\t。\n5\t1\t12\t2\t5\t3\t84\t285\t9\t8\t0.000000\t形\n5\t1\t12\t2\t5\t4\t98\t284\t7\t9\t69.035309\t征\n5\t1\t12\t2\t5\t5\t105\t274\t13\t28\t91.542084\t26\n5\t1\t12\t2\t5\t6\t117\t285\t7\t8\t64.753418\t秋\n5\t1\t12\t2\t5\t7\t130\t284\t24\t9\t84.700851\t《专题\n5\t1\t12\t2\t5\t8\t162\t274\t36\t28\t52.541199\t;正确\n5\t1\t12\t2\t5\t9\t201\t285\t14\t8\t0.000000\t开明\n5\t1\t12\t2\t5\t10\t217\t284\t7\t9\t35.910408\t和\n5\t1\t12\t2\t5\t11\t229\t284\t6\t9\t96.386642\t把\n5\t1\t12\t2\t5\t12\t238\t284\t6\t9\t76.102386\t提\n5\t1\t12\t2\t5\t13\t248\t274\t10\t28\t43.882233\t习\n5\t1\t12\t2\t5\t14\t257\t285\t27\t8\t64.641266\t近乎\n5\t1\t12\t2\t5\t15\t286\t284\t19\t10\t0.000000\t寻思\n5\t1\t12\t2\t5\t16\t309\t284\t6\t9\t0.000000\t龟\n5\t1\t12\t2\t5\t17\t318\t285\t3\t8\t45.074165\t》\n5\t1\t12\t2\t5\t18\t327\t284\t18\t9\t53.209084\t周\n5\t1\t12\t2\t5\t19\t341\t274\t8\t28\t66.890305\t远\n5\t1\t12\t2\t5\t20\t383\t274\t15\t28\t66.703545\tof\n5\t1\t12\t2\t5\t21\t504\t285\t38\t8\t46.439625\tURC\n4\t1\t12\t2\t6\t0\t3\t286\t539\t28\t-1\t\n5\t1\t12\t2\t6\t1\t3\t296\t56\t8\t61.357941\tPOU108414\n5\t1\t12\t2\t6\t2\t67\t287\t13\t28\t26.450829\t—\n5\t1\t12\t2\t6\t3\t88\t287\t10\t28\t0.000000\tee\n5\t1\t12\t2\t6\t4\t105\t287\t21\t28\t0.000000\tDOH\n5\t1\t12\t2\t6\t5\t135\t287\t24\t28\t30.709476\tCHAE\n5\t1\t12\t2\t6\t6\t165\t287\t10\t28\t22.800694\tSe\n5\t1\t12\t2\t6\t7\t181\t296\t125\t10\t0.000000\tFHPULUL\n5\t1\t12\t2\t6\t8\t224\t287\t26\t28\t0.000000\tYES\n5\t1\t12\t2\t6\t9\t251\t287\t18\t28\t0.000000\tIRAR\n5\t1\t12\t2\t6\t10\t273\t296\t33\t10\t31.822968\tSCANNED\n5\t1\t12\t2\t6\t11\t311\t297\t29\t9\t20.599960\tPIRI\n5\t1\t12\t2\t6\t12\t387\t286\t12\t28\t61.202946\t03\n5\t1\t12\t2\t6\t13\t504\t297\t38\t9\t7.925730\tPRUE\n4\t1\t12\t2\t7\t0\t3\t308\t539\t10\t-1\t\n5\t1\t12\t2\t7\t1\t3\t308\t56\t8\t66.806007\tPOU108414\n5\t1\t12\t2\t7\t2\t70\t299\t12\t28\t28.111229\t—\n5\t1\t12\t2\t7\t3\t92\t309\t6\t8\t0.000000\t形\n5\t1\t12\t2\t7\t4\t103\t299\t8\t28\t76.313232\t第\n5\t1\t12\t2\t7\t5\t110\t299\t13\t28\t92.488609\t26\n5\t1\t12\t2\t7\t6\t122\t299\t10\t28\t29.520641\t秋\n5\t1\t12\t2\t7\t7\t135\t308\t24\t10\t49.380398\t《专题\n5\t1\t12\t2\t7\t8\t168\t299\t31\t28\t61.960510\t:科学\n5\t1\t12\t2\t7\t9\t204\t309\t16\t8\t91.325661\t认识\n5\t1\t12\t2\t7\t10\t222\t309\t21\t9\t73.132507\t当前\n5\t1\t12\t2\t7\t11\t245\t299\t11\t28\t78.894768\t经\n5\t1\t12\t2\t7\t12\t255\t299\t10\t28\t79.819092\t济\n5\t1\t12\t2\t7\t13\t271\t316\t2\t2\t0.000000\t雪\n5\t1\t12\t2\t7\t14\t277\t310\t8\t7\t32.730824\t点\n5\t1\t12\t2\t7\t15\t286\t309\t10\t9\t47.083481\t问\n5\t1\t12\t2\t7\t16\t302\t309\t4\t8\t51.843964\t是\n5\t1\t12\t2\t7\t17\t311\t309\t29\t9\t36.083607\tURIS\n5\t1\t12\t2\t7\t18\t387\t308\t11\t8\t40.575253\tor\n5\t1\t12\t2\t7\t19\t504\t309\t38\t9\t12.938557\taU\n4\t1\t12\t2\t8\t0\t3\t320\t539\t10\t-1\t\n5\t1\t12\t2\t8\t1\t3\t320\t56\t8\t57.169731\tPOU108414\n5\t1\t12\t2\t8\t2\t68\t311\t16\t28\t52.609333\t。。\n5\t1\t12\t2\t8\t3\t92\t321\t6\t8\t10.721560\t者\n5\t1\t12\t2\t8\t4\t101\t321\t7\t9\t88.601807\t第\n5\t1\t12\t2\t8\t5\t110\t311\t13\t28\t92.256920\t26\n5\t1\t12\t2\t8\t6\t122\t321\t7\t9\t1.307602\t秋\n5\t1\t12\t2\t8\t7\t135\t320\t24\t10\t70.997879\t《专题\n5\t1\t12\t2\t8\t8\t171\t321\t28\t9\t35.723537\t:科学\n5\t1\t12\t2\t8\t9\t204\t321\t16\t8\t92.044395\t认识\n5\t1\t12\t2\t8\t10\t222\t321\t21\t9\t67.445892\t当前\n5\t1\t12\t2\t8\t11\t245\t311\t11\t28\t73.378822\t经\n5\t1\t12\t2\t8\t12\t255\t321\t4\t8\t74.100517\t济\n5\t1\t12\t2\t8\t13\t264\t321\t6\t8\t0.000000\t夫\n5\t1\t12\t2\t8\t14\t273\t321\t3\t6\t24.082289\t点\n5\t1\t12\t2\t8\t15\t286\t321\t10\t9\t59.023598\t问\n5\t1\t12\t2\t8\t16\t302\t321\t3\t8\t60.557991\t是\n5\t1\t12\t2\t8\t17\t304\t311\t4\t28\t63.299362\t)\n5\t1\t12\t2\t8\t18\t311\t321\t29\t9\t19.252605\tURIS\n5\t1\t12\t2\t8\t19\t387\t320\t9\t8\t43.351650\t0\n5\t1\t12\t2\t8\t20\t504\t321\t38\t9\t22.849092\tPRUE\n4\t1\t12\t2\t9\t0\t0\t321\t542\t29\t-1\t\n5\t1\t12\t2\t9\t1\t0\t321\t59\t28\t25.229130\tPoLito8e14\n5\t1\t12\t2\t9\t2\t191\t333\t27\t9\t24.044968\tei\n5\t1\t12\t2\t9\t3\t236\t333\t60\t9\t3.815079\tRAMEE)\n5\t1\t12\t2\t9\t4\t302\t333\t28\t9\t28.394531\tORK\n5\t1\t12\t2\t9\t5\t383\t322\t15\t28\t64.952599\t03\n5\t1\t12\t2\t9\t6\t504\t333\t38\t9\t13.255749\tacs\n4\t1\t12\t2\t10\t0\t0\t333\t542\t30\t-1\t\n5\t1\t12\t2\t10\t1\t0\t333\t59\t28\t3.751717\tPoLito8e14\n5\t1\t12\t2\t10\t2\t191\t345\t27\t9\t28.582859\tri\n5\t1\t12\t2\t10\t3\t236\t345\t60\t9\t3.510780\tRAMEE\n5\t1\t12\t2\t10\t4\t302\t345\t28\t9\t20.483070\tORK\n5\t1\t12\t2\t10\t5\t383\t335\t15\t28\t62.752815\t04\n5\t1\t12\t2\t10\t6\t504\t345\t38\t9\t20.555099\tPRUE\n4\t1\t12\t2\t11\t0\t0\t345\t542\t30\t-1\t\n5\t1\t12\t2\t11\t1\t0\t345\t59\t28\t16.976376\tPOLit08614\n5\t1\t12\t2\t11\t2\t187\t347\t22\t28\t30.903339\tZr\n5\t1\t12\t2\t11\t3\t236\t357\t17\t9\t6.073961\tRAM\n5\t1\t12\t2\t11\t4\t271\t357\t25\t9\t30.635391\tLEE)\n5\t1\t12\t2\t11\t5\t302\t357\t28\t9\t9.117966\tORK\n5\t1\t12\t2\t11\t6\t383\t347\t15\t28\t65.786400\t06\n5\t1\t12\t2\t11\t7\t504\t357\t38\t9\t10.489254\tPRR\n4\t1\t12\t2\t12\t0\t3\t358\t539\t29\t-1\t\n5\t1\t12\t2\t12\t1\t3\t358\t56\t28\t67.441849\tPou108614\n5\t1\t12\t2\t12\t2\t191\t369\t38\t9\t28.460747\tZr\n5\t1\t12\t2\t12\t3\t233\t369\t63\t9\t21.779877\tRAMEE)\n5\t1\t12\t2\t12\t4\t302\t369\t5\t9\t79.131561\t人\n5\t1\t12\t2\t12\t5\t383\t359\t15\t28\t16.472654\tor\n5\t1\t12\t2\t12\t6\t504\t359\t17\t28\t10.075550\tPRR\n5\t1\t12\t2\t12\t7\t525\t369\t17\t9\t35.249134\tRC\n4\t1\t12\t2\t13\t0\t3\t370\t538\t29\t-1\t\n5\t1\t12\t2\t13\t1\t3\t370\t56\t28\t57.705235\tPou108614\n5\t1\t12\t2\t13\t2\t176\t384\t7\t6\t74.583145\tfe\n5\t1\t12\t2\t13\t3\t191\t381\t32\t9\t48.616074\t全面\n5\t1\t12\t2\t13\t4\t215\t371\t20\t28\t68.011482\t推进\n5\t1\t12\t2\t13\t5\t233\t381\t63\t9\t31.183819\t美国\n5\t1\t12\t2\t13\t6\t252\t371\t13\t28\t91.495293\t中\n5\t1\t12\t2\t13\t7\t264\t371\t12\t28\t93.261948\t国\n5\t1\t12\t2\t13\t8\t275\t381\t18\t9\t82.073547\t建设\n5\t1\t12\t2\t13\t9\t292\t371\t5\t28\t71.331314\t)\n5\t1\t12\t2\t13\t10\t302\t381\t5\t9\t0.000000\t包\n5\t1\t12\t2\t13\t11\t383\t371\t15\t28\t69.163383\t08\n5\t1\t12\t2\t13\t12\t504\t371\t17\t28\t6.460505\tPRR\n5\t1\t12\t2\t13\t13\t525\t381\t16\t9\t44.794460\tRC\n4\t1\t12\t2\t14\t0\t3\t393\t539\t9\t-1\t\n5\t1\t12\t2\t14\t1\t3\t393\t56\t8\t46.352554\tPOU108614\n5\t1\t12\t2\t14\t2\t99\t393\t84\t9\t3.237200\tFRAG\n5\t1\t12\t2\t14\t3\t147\t383\t21\t28\t24.416538\tCAE\n5\t1\t12\t2\t14\t4\t172\t383\t13\t28\t61.762905\tfis\n5\t1\t12\t2\t14\t5\t193\t393\t34\t9\t0.000000\tPUTIN\n5\t1\t12\t2\t14\t6\t235\t393\t61\t9\t0.000000\tRHEE)\n5\t1\t12\t2\t14\t7\t302\t393\t8\t9\t15.377007\tOe\n5\t1\t12\t2\t14\t8\t312\t393\t18\t9\t0.000000\tSRIK\n5\t1\t12\t2\t14\t9\t387\t393\t11\t8\t73.575043\t0\n5\t1\t12\t2\t14\t10\t504\t393\t38\t9\t0.000000\tPRI\n4\t1\t12\t2\t15\t0\t3\t405\t539\t9\t-1\t\n5\t1\t12\t2\t15\t1\t3\t405\t56\t8\t6.412525\tPOLNORTIA\n5\t1\t12\t2\t15\t2\t81\t395\t28\t28\t25.331711\tmde\n5\t1\t12\t2\t15\t3\t128\t405\t35\t9\t21.115904\tCEM:\n5\t1\t12\t2\t15\t4\t172\t405\t47\t9\t0.000000\tMAME\n5\t1\t12\t2\t15\t5\t230\t405\t9\t9\t0.000000\tMALT\n5\t1\t12\t2\t15\t6\t270\t405\t40\t9\t13.649683\tLAA\n5\t1\t12\t2\t15\t7\t324\t405\t26\t9\t38.754196\teM\n5\t1\t12\t2\t15\t8\t364\t395\t12\t28\t17.277174\t|\n5\t1\t12\t2\t15\t9\t387\t405\t11\t8\t24.668060\tOm\n5\t1\t12\t2\t15\t10\t504\t405\t38\t9\t32.868866\taa\n4\t1\t12\t2\t16\t0\t3\t417\t539\t9\t-1\t\n5\t1\t12\t2\t16\t1\t3\t417\t56\t8\t31.103640\tPOLNORTIA\n5\t1\t12\t2\t16\t2\t86\t407\t33\t28\t20.156818\tDSK\n5\t1\t12\t2\t16\t3\t128\t417\t35\t9\t31.172361\tCEM:\n5\t1\t12\t2\t16\t4\t172\t417\t47\t9\t0.000000\tEMM\n5\t1\t12\t2\t16\t5\t230\t417\t9\t9\t0.000000\tREM\n5\t1\t12\t2\t16\t6\t242\t407\t17\t28\t0.000000\tALT\n5\t1\t12\t2\t16\t7\t270\t417\t40\t9\t35.250568\tLALA\n5\t1\t12\t2\t16\t8\t322\t417\t28\t9\t38.031013\tAM\n5\t1\t12\t2\t16\t9\t387\t417\t11\t8\t29.855347\tTB\n5\t1\t12\t2\t16\t10\t504\t417\t38\t9\t25.735331\tas\n4\t1\t12\t2\t17\t0\t3\t429\t539\t9\t-1\t\n5\t1\t12\t2\t17\t1\t3\t429\t56\t8\t34.154335\tPOUI108814\n5\t1\t12\t2\t17\t2\t84\t429\t35\t9\t22.779560\tDK\n5\t1\t12\t2\t17\t3\t125\t429\t38\t9\t38.967300\tCEM:\n5\t1\t12\t2\t17\t4\t172\t429\t35\t9\t15.475178\tHEMI\n5\t1\t12\t2\t17\t5\t212\t419\t19\t28\t0.000000\tAIE\n5\t1\t12\t2\t17\t6\t233\t419\t22\t28\t8.988600\tCAN\n5\t1\t12\t2\t17\t7\t266\t419\t60\t28\t0.000000\tEHRERIKR)\n5\t1\t12\t2\t17\t8\t333\t429\t18\t9\t51.079041\tRM\n5\t1\t12\t2\t17\t9\t387\t429\t11\t8\t45.719673\tTOD\n5\t1\t12\t2\t17\t10\t504\t429\t8\t9\t73.944557\t类\n5\t1\t12\t2\t17\t11\t514\t429\t8\t9\t7.311783\t大\n5\t1\t12\t2\t17\t12\t528\t429\t14\t9\t68.134705\t校区\n2\t1\t13\t0\t0\t0\t439\t200\t29\t238\t-1\t\n3\t1\t13\t1\t0\t0\t439\t200\t29\t238\t-1\t\n4\t1\t13\t1\t1\t0\t439\t200\t29\t238\t-1\t\n5\t1\t13\t1\t1\t1\t439\t200\t29\t238\t95.000000\t \n2\t1\t14\t0\t0\t0\t0\t447\t554\t1\t-1\t\n3\t1\t14\t1\t0\t0\t0\t447\t554\t1\t-1\t\n4\t1\t14\t1\t1\t0\t0\t447\t554\t1\t-1\t\n5\t1\t14\t1\t1\t1\t0\t447\t554\t1\t95.000000\t \n",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/6c91290a684191fc06f19d20a6ebfa6689f673265fe98303d83908fcdfc3edf3/image.jpg",
+          "textHash": "a3dffb8a7d27cf2cb5a0d88a1840ef967436694037c1eca103bdfb779d40c29b",
+          "previewUrl": "media/8b69f9bb6f801d1b80caa7324229ed37685b8a36febcc3bc5f73abd0703d43f3.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/6c91290a684191fc06f19d20a6ebfa6689f673265fe98303d83908fcdfc3edf3/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "not_decoded",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "课程 号 课程 名 课 序号 上 课 教师 学 校 校区",
+                "words": [
+                  {
+                    "text": "课程",
+                    "confidence": 0.9506501,
+                    "bbox": [
+                      10,
+                      3,
+                      28,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "号",
+                    "confidence": 0.9681443799999999,
+                    "bbox": [
+                      45,
+                      3,
+                      7,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "课程",
+                    "confidence": 0.96265511,
+                    "bbox": [
+                      194,
+                      0,
+                      34,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "名",
+                    "confidence": 0.9691256699999999,
+                    "bbox": [
+                      227,
+                      3,
+                      8,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "课",
+                    "confidence": 0.91598999,
+                    "bbox": [
+                      371,
+                      3,
+                      22,
+                      24
+                    ]
+                  },
+                  {
+                    "text": "序号",
+                    "confidence": 0.94163094,
+                    "bbox": [
+                      392,
+                      0,
+                      21,
+                      31
+                    ]
+                  },
+                  {
+                    "text": "上",
+                    "confidence": 0.9293119799999999,
+                    "bbox": [
+                      426,
+                      3,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "text": "课",
+                    "confidence": 0.8041303999999999,
+                    "bbox": [
+                      440,
+                      3,
+                      22,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "教师",
+                    "confidence": 0.63877106,
+                    "bbox": [
+                      469,
+                      0,
+                      19,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "学",
+                    "confidence": 0.63877106,
+                    "bbox": [
+                      498,
+                      3,
+                      18,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "校",
+                    "confidence": 0.92509399,
+                    "bbox": [
+                      523,
+                      3,
+                      9,
+                      13
+                    ]
+                  },
+                  {
+                    "text": "校区",
+                    "confidence": 0.87557518,
+                    "bbox": [
+                      531,
+                      0,
+                      20,
+                      25
+                    ]
+                  }
+                ],
+                "confidence": 0.63877106
+              },
+              {
+                "text": "PoU107514 RIE RIA LED HE WE 只 大 校区",
+                "words": [
+                  {
+                    "text": "PoU107514",
+                    "confidence": 0.4464188,
+                    "bbox": [
+                      3,
+                      9,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "RIE",
+                    "confidence": 0.0,
+                    "bbox": [
+                      181,
+                      19,
+                      66,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "RIA",
+                    "confidence": 0.40371681000000004,
+                    "bbox": [
+                      256,
+                      20,
+                      24,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "LED",
+                    "confidence": 0.42564579,
+                    "bbox": [
+                      293,
+                      20,
+                      22,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "HE",
+                    "confidence": 0.40487297,
+                    "bbox": [
+                      322,
+                      20,
+                      19,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "WE",
+                    "confidence": 0.60401024,
+                    "bbox": [
+                      444,
+                      20,
+                      19,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "只",
+                    "confidence": 0.16069069,
+                    "bbox": [
+                      504,
+                      20,
+                      8,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.34311249,
+                    "bbox": [
+                      514,
+                      21,
+                      8,
+                      7
+                    ]
+                  },
+                  {
+                    "text": "校区",
+                    "confidence": 0.47624110999999997,
+                    "bbox": [
+                      528,
+                      20,
+                      14,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Pot107514 RIUM RTE RHA LE) ie o Wir 类 大 术 区",
+                "words": [
+                  {
+                    "text": "Pot107514",
+                    "confidence": 0.0,
+                    "bbox": [
+                      0,
+                      20,
+                      59,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "RIUM",
+                    "confidence": 0.11571274000000001,
+                    "bbox": [
+                      181,
+                      31,
+                      66,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "RTE",
+                    "confidence": 0.29525709,
+                    "bbox": [
+                      233,
+                      22,
+                      17,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "RHA",
+                    "confidence": 0.2614172,
+                    "bbox": [
+                      256,
+                      32,
+                      24,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "LE)",
+                    "confidence": 0.40881596000000003,
+                    "bbox": [
+                      293,
+                      32,
+                      23,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "ie",
+                    "confidence": 0.50305382,
+                    "bbox": [
+                      322,
+                      32,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "o",
+                    "confidence": 0.26309443,
+                    "bbox": [
+                      387,
+                      19,
+                      11,
+                      20
+                    ]
+                  },
+                  {
+                    "text": "Wir",
+                    "confidence": 0.53260628,
+                    "bbox": [
+                      444,
+                      32,
+                      19,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "类",
+                    "confidence": 0.43837119999999996,
+                    "bbox": [
+                      504,
+                      32,
+                      8,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.39077168,
+                    "bbox": [
+                      514,
+                      33,
+                      8,
+                      7
+                    ]
+                  },
+                  {
+                    "text": "术",
+                    "confidence": 0.29178343,
+                    "bbox": [
+                      524,
+                      32,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "区",
+                    "confidence": 0.8379581500000001,
+                    "bbox": [
+                      536,
+                      32,
+                      6,
+                      6
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Pou107514 RRIF LE) WE 08 BE PREC",
+                "words": [
+                  {
+                    "text": "Pou107514",
+                    "confidence": 0.0,
+                    "bbox": [
+                      0,
+                      32,
+                      59,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "RRIF",
+                    "confidence": 0.0,
+                    "bbox": [
+                      181,
+                      43,
+                      88,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "LE)",
+                    "confidence": 0.56479332,
+                    "bbox": [
+                      295,
+                      44,
+                      21,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "WE",
+                    "confidence": 0.6526121500000001,
+                    "bbox": [
+                      322,
+                      44,
+                      19,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "08",
+                    "confidence": 0.54163521,
+                    "bbox": [
+                      383,
+                      34,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "BE",
+                    "confidence": 0.49352459000000004,
+                    "bbox": [
+                      444,
+                      44,
+                      19,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "PREC",
+                    "confidence": 0.09603662,
+                    "bbox": [
+                      504,
+                      44,
+                      38,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Pouto7e14 EMSA ELC SAL) 7 05 ied PRR",
+                "words": [
+                  {
+                    "text": "Pouto7e14",
+                    "confidence": 0.0,
+                    "bbox": [
+                      0,
+                      44,
+                      59,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "EMSA",
+                    "confidence": 0.0,
+                    "bbox": [
+                      166,
+                      56,
+                      69,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "ELC",
+                    "confidence": 0.22263950000000002,
+                    "bbox": [
+                      223,
+                      46,
+                      41,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "SAL)",
+                    "confidence": 0.25648674,
+                    "bbox": [
+                      278,
+                      56,
+                      43,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "7",
+                    "confidence": 0.3792532,
+                    "bbox": [
+                      327,
+                      56,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "05",
+                    "confidence": 0.65795769,
+                    "bbox": [
+                      383,
+                      46,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "ied",
+                    "confidence": 0.27349907,
+                    "bbox": [
+                      444,
+                      56,
+                      19,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "PRR",
+                    "confidence": 0.04207468,
+                    "bbox": [
+                      504,
+                      56,
+                      38,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Pou107614 EMAL AEM SAE) 9 o7 ie",
+                "words": [
+                  {
+                    "text": "Pou107614",
+                    "confidence": 0.25646687,
+                    "bbox": [
+                      0,
+                      57,
+                      59,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "EMAL",
+                    "confidence": 0.28440993999999997,
+                    "bbox": [
+                      177,
+                      68,
+                      51,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AEM",
+                    "confidence": 0.0,
+                    "bbox": [
+                      218,
+                      58,
+                      35,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "SAE)",
+                    "confidence": 0.53220245,
+                    "bbox": [
+                      278,
+                      68,
+                      43,
+                      18
+                    ]
+                  },
+                  {
+                    "text": "9",
+                    "confidence": 0.20788464,
+                    "bbox": [
+                      327,
+                      68,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "o7",
+                    "confidence": 0.52083172,
+                    "bbox": [
+                      383,
+                      58,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "ie",
+                    "confidence": 0.2878986,
+                    "bbox": [
+                      444,
+                      68,
+                      19,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "Pou107714 vad 03 see",
+                "words": [
+                  {
+                    "text": "Pou107714",
+                    "confidence": 0.23216647999999998,
+                    "bbox": [
+                      3,
+                      69,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "vad",
+                    "confidence": 0.07910194,
+                    "bbox": [
+                      181,
+                      70,
+                      38,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "03",
+                    "confidence": 0.6306942,
+                    "bbox": [
+                      387,
+                      80,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "see",
+                    "confidence": 0.22134708,
+                    "bbox": [
+                      440,
+                      80,
+                      28,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.07910194
+              },
+              {
+                "text": "PoU107714 05 ses",
+                "words": [
+                  {
+                    "text": "PoU107714",
+                    "confidence": 0.15307522,
+                    "bbox": [
+                      3,
+                      81,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "05",
+                    "confidence": 0.53034664,
+                    "bbox": [
+                      387,
+                      92,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "ses",
+                    "confidence": 0.28861208,
+                    "bbox": [
+                      440,
+                      92,
+                      28,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.15307522
+              },
+              {
+                "text": "Pou107714 o7 Wises",
+                "words": [
+                  {
+                    "text": "Pou107714",
+                    "confidence": 0.22098761,
+                    "bbox": [
+                      3,
+                      93,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "o7",
+                    "confidence": 0.6150766,
+                    "bbox": [
+                      383,
+                      94,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "Wises",
+                    "confidence": 0.22954559,
+                    "bbox": [
+                      440,
+                      104,
+                      28,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.22098761
+              },
+              {
+                "text": "PoU107714 10 Wises",
+                "words": [
+                  {
+                    "text": "PoU107714",
+                    "confidence": 0.20600166,
+                    "bbox": [
+                      3,
+                      105,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "10",
+                    "confidence": 0.81658417,
+                    "bbox": [
+                      388,
+                      116,
+                      10,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "Wises",
+                    "confidence": 0.30150513,
+                    "bbox": [
+                      440,
+                      116,
+                      28,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.20600166
+              },
+              {
+                "text": "POU107714 1 南亚 由",
+                "words": [
+                  {
+                    "text": "POU107714",
+                    "confidence": 0.66737015,
+                    "bbox": [
+                      0,
+                      117,
+                      59,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "1",
+                    "confidence": 0.6771559899999999,
+                    "bbox": [
+                      388,
+                      128,
+                      8,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "南亚",
+                    "confidence": 0.8263659699999999,
+                    "bbox": [
+                      440,
+                      128,
+                      28,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "由",
+                    "confidence": 0.26695633,
+                    "bbox": [
+                      460,
+                      118,
+                      11,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.26695633
+              },
+              {
+                "text": "POU107814 。。 形 第 26 乱 《专题 四 :繁荣 互联 风 条 件 下 新 大 众 文艺 ) 商 各 1 it",
+                "words": [
+                  {
+                    "text": "POU107814",
+                    "confidence": 0.52931973,
+                    "bbox": [
+                      3,
+                      140,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "。。",
+                    "confidence": 0.56972523,
+                    "bbox": [
+                      68,
+                      130,
+                      16,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.0,
+                    "bbox": [
+                      92,
+                      140,
+                      12,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "第",
+                    "confidence": 0.59069603,
+                    "bbox": [
+                      103,
+                      130,
+                      8,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "26",
+                    "confidence": 0.92205017,
+                    "bbox": [
+                      110,
+                      140,
+                      15,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "乱",
+                    "confidence": 0.0,
+                    "bbox": [
+                      124,
+                      130,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "《专题",
+                    "confidence": 0.82267014,
+                    "bbox": [
+                      135,
+                      140,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "四",
+                    "confidence": 0.8490842399999999,
+                    "bbox": [
+                      164,
+                      130,
+                      8,
+                      28
+                    ]
+                  },
+                  {
+                    "text": ":繁荣",
+                    "confidence": 0.19448051,
+                    "bbox": [
+                      181,
+                      140,
+                      8,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "互联",
+                    "confidence": 0.0,
+                    "bbox": [
+                      211,
+                      140,
+                      36,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "风",
+                    "confidence": 0.7606732900000001,
+                    "bbox": [
+                      224,
+                      130,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "条",
+                    "confidence": 0.10765877,
+                    "bbox": [
+                      232,
+                      140,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "件",
+                    "confidence": 0.8765022299999999,
+                    "bbox": [
+                      245,
+                      130,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "下",
+                    "confidence": 0.90853882,
+                    "bbox": [
+                      254,
+                      141,
+                      5,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "新",
+                    "confidence": 0.37943344,
+                    "bbox": [
+                      264,
+                      140,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "大",
+                    "confidence": 0.89176468,
+                    "bbox": [
+                      274,
+                      140,
+                      12,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "众",
+                    "confidence": 0.70712967,
+                    "bbox": [
+                      285,
+                      130,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "文艺",
+                    "confidence": 0.64725739,
+                    "bbox": [
+                      292,
+                      140,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": ")",
+                    "confidence": 0.5962643400000001,
+                    "bbox": [
+                      315,
+                      130,
+                      4,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "商",
+                    "confidence": 0.77535843,
+                    "bbox": [
+                      322,
+                      140,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "各",
+                    "confidence": 0.59598461,
+                    "bbox": [
+                      336,
+                      130,
+                      7,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "1",
+                    "confidence": 0.6257489,
+                    "bbox": [
+                      388,
+                      140,
+                      8,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "it",
+                    "confidence": 0.31029596000000004,
+                    "bbox": [
+                      445,
+                      140,
+                      18,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "POU107814 。。 FeRDOH CORI: RH TIRM IE EH AMR LZ) al 15 高 如",
+                "words": [
+                  {
+                    "text": "POU107814",
+                    "confidence": 0.47595692,
+                    "bbox": [
+                      3,
+                      152,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "。。",
+                    "confidence": 0.45002781,
+                    "bbox": [
+                      68,
+                      142,
+                      16,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "FeRDOH",
+                    "confidence": 0.0,
+                    "bbox": [
+                      91,
+                      142,
+                      35,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "CORI:",
+                    "confidence": 0.45809005999999997,
+                    "bbox": [
+                      135,
+                      152,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "RH",
+                    "confidence": 0.09258118,
+                    "bbox": [
+                      181,
+                      152,
+                      8,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "TIRM",
+                    "confidence": 0.0,
+                    "bbox": [
+                      203,
+                      142,
+                      26,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "IE",
+                    "confidence": 0.42855843,
+                    "bbox": [
+                      235,
+                      152,
+                      12,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "EH",
+                    "confidence": 0.4353685,
+                    "bbox": [
+                      256,
+                      152,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AMR",
+                    "confidence": 0.13169193,
+                    "bbox": [
+                      273,
+                      142,
+                      17,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "LZ)",
+                    "confidence": 0.44547215,
+                    "bbox": [
+                      294,
+                      152,
+                      21,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "al",
+                    "confidence": 0.12432995,
+                    "bbox": [
+                      322,
+                      152,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "15",
+                    "confidence": 0.9292854300000001,
+                    "bbox": [
+                      388,
+                      152,
+                      10,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "高",
+                    "confidence": 0.50406475,
+                    "bbox": [
+                      445,
+                      152,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "如",
+                    "confidence": 0.94667412,
+                    "bbox": [
+                      458,
+                      142,
+                      10,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "POU107814 。。 形 策 26 次 CORI: RH TIRM IE EB AiR LZ) ah 2 高 如",
+                "words": [
+                  {
+                    "text": "POU107814",
+                    "confidence": 0.67716774,
+                    "bbox": [
+                      3,
+                      164,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "。。",
+                    "confidence": 0.45891224,
+                    "bbox": [
+                      68,
+                      154,
+                      16,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.0,
+                    "bbox": [
+                      92,
+                      164,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "策",
+                    "confidence": 0.57191299,
+                    "bbox": [
+                      103,
+                      164,
+                      5,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "26",
+                    "confidence": 0.96504433,
+                    "bbox": [
+                      110,
+                      164,
+                      15,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "次",
+                    "confidence": 0.34263416,
+                    "bbox": [
+                      124,
+                      154,
+                      8,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "CORI:",
+                    "confidence": 0.39517128,
+                    "bbox": [
+                      135,
+                      164,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "RH",
+                    "confidence": 0.18954411000000002,
+                    "bbox": [
+                      181,
+                      164,
+                      8,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "TIRM",
+                    "confidence": 0.04832677999999999,
+                    "bbox": [
+                      203,
+                      154,
+                      26,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "IE",
+                    "confidence": 0.40072296,
+                    "bbox": [
+                      235,
+                      164,
+                      12,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "EB",
+                    "confidence": 0.49448372,
+                    "bbox": [
+                      256,
+                      164,
+                      10,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AiR",
+                    "confidence": 0.20129314,
+                    "bbox": [
+                      273,
+                      154,
+                      19,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "LZ)",
+                    "confidence": 0.46091045,
+                    "bbox": [
+                      294,
+                      164,
+                      21,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "ah",
+                    "confidence": 0.12799243999999999,
+                    "bbox": [
+                      322,
+                      164,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "2",
+                    "confidence": 0.85359238,
+                    "bbox": [
+                      387,
+                      164,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "高",
+                    "confidence": 0.68913147,
+                    "bbox": [
+                      445,
+                      164,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "如",
+                    "confidence": 0.93424416,
+                    "bbox": [
+                      458,
+                      154,
+                      10,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "POU107814 RDB C CREM: AI TINM ATE KB KAR LZ sil 2 高 如",
+                "words": [
+                  {
+                    "text": "POU107814",
+                    "confidence": 0.6690216800000001,
+                    "bbox": [
+                      3,
+                      176,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "RDB",
+                    "confidence": 0.0,
+                    "bbox": [
+                      90,
+                      176,
+                      83,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "C",
+                    "confidence": 0.6359214,
+                    "bbox": [
+                      135,
+                      166,
+                      5,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "CREM:",
+                    "confidence": 0.5716597,
+                    "bbox": [
+                      144,
+                      176,
+                      29,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AI",
+                    "confidence": 0.27698498,
+                    "bbox": [
+                      181,
+                      176,
+                      8,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "TINM",
+                    "confidence": 0.0,
+                    "bbox": [
+                      203,
+                      166,
+                      26,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "ATE",
+                    "confidence": 0.35671886,
+                    "bbox": [
+                      232,
+                      176,
+                      15,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "KB",
+                    "confidence": 0.4831649,
+                    "bbox": [
+                      256,
+                      176,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "KAR",
+                    "confidence": 0.42884106000000005,
+                    "bbox": [
+                      273,
+                      166,
+                      19,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "LZ",
+                    "confidence": 0.42884106000000005,
+                    "bbox": [
+                      294,
+                      176,
+                      16,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "sil",
+                    "confidence": 0.10835171,
+                    "bbox": [
+                      322,
+                      176,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "2",
+                    "confidence": 0.73165848,
+                    "bbox": [
+                      387,
+                      176,
+                      9,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "高",
+                    "confidence": 0.85335464,
+                    "bbox": [
+                      445,
+                      176,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "如",
+                    "confidence": 0.85112251,
+                    "bbox": [
+                      458,
+                      166,
+                      10,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "POU107914 开征 26 居 《专题 由， AIIM RET FB Kok LE) AU 05 ams",
+                "words": [
+                  {
+                    "text": "POU107914",
+                    "confidence": 0.34538528,
+                    "bbox": [
+                      3,
+                      188,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "开征",
+                    "confidence": 0.415308,
+                    "bbox": [
+                      85,
+                      188,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "26",
+                    "confidence": 0.9222888899999999,
+                    "bbox": [
+                      105,
+                      178,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "居",
+                    "confidence": 0.30729942,
+                    "bbox": [
+                      117,
+                      188,
+                      7,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "《专题",
+                    "confidence": 0.08393879,
+                    "bbox": [
+                      130,
+                      188,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "由，",
+                    "confidence": 0.22500105,
+                    "bbox": [
+                      159,
+                      178,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "AIIM",
+                    "confidence": 0.09934367999999999,
+                    "bbox": [
+                      176,
+                      188,
+                      46,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "RET",
+                    "confidence": 0.36359108,
+                    "bbox": [
+                      228,
+                      178,
+                      14,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "FB",
+                    "confidence": 0.48813293,
+                    "bbox": [
+                      249,
+                      188,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "Kok",
+                    "confidence": 0.18699589,
+                    "bbox": [
+                      268,
+                      178,
+                      17,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "LE)",
+                    "confidence": 0.28194595,
+                    "bbox": [
+                      291,
+                      188,
+                      20,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AU",
+                    "confidence": 0.38280327,
+                    "bbox": [
+                      322,
+                      188,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "05",
+                    "confidence": 0.64842133,
+                    "bbox": [
+                      387,
+                      188,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "ams",
+                    "confidence": 0.25719395,
+                    "bbox": [
+                      440,
+                      188,
+                      28,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.08393879
+              },
+              {
+                "text": "POU107914 §— EAE CUMIN: AI TINM AEE KB Kite LZ) AU 08",
+                "words": [
+                  {
+                    "text": "POU107914",
+                    "confidence": 0.55285172,
+                    "bbox": [
+                      3,
+                      200,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "§—",
+                    "confidence": 0.14846458,
+                    "bbox": [
+                      67,
+                      190,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "EAE",
+                    "confidence": 0.0,
+                    "bbox": [
+                      86,
+                      200,
+                      28,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "CUMIN:",
+                    "confidence": 0.32410931,
+                    "bbox": [
+                      130,
+                      200,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AI",
+                    "confidence": 0.40298096,
+                    "bbox": [
+                      176,
+                      200,
+                      8,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "TINM",
+                    "confidence": 0.09589586,
+                    "bbox": [
+                      198,
+                      190,
+                      24,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "AEE",
+                    "confidence": 0.41295261000000005,
+                    "bbox": [
+                      228,
+                      190,
+                      14,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "KB",
+                    "confidence": 0.43723979999999996,
+                    "bbox": [
+                      251,
+                      200,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "Kite",
+                    "confidence": 0.0,
+                    "bbox": [
+                      268,
+                      190,
+                      17,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "LZ)",
+                    "confidence": 0.41334324,
+                    "bbox": [
+                      289,
+                      200,
+                      22,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "AU",
+                    "confidence": 0.36956589,
+                    "bbox": [
+                      322,
+                      200,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "08",
+                    "confidence": 0.75137581,
+                    "bbox": [
+                      387,
+                      200,
+                      11,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "POU107914 。 RE AZEKK CUMIN: SATIN ART RB Kok 2) 刘 攻 内 09",
+                "words": [
+                  {
+                    "text": "POU107914",
+                    "confidence": 0.50601845,
+                    "bbox": [
+                      3,
+                      212,
+                      56,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "。",
+                    "confidence": 0.27042656,
+                    "bbox": [
+                      68,
+                      202,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "RE",
+                    "confidence": 0.0,
+                    "bbox": [
+                      86,
+                      202,
+                      7,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "AZEKK",
+                    "confidence": 0.0,
+                    "bbox": [
+                      95,
+                      212,
+                      29,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "CUMIN:",
+                    "confidence": 0.37270702,
+                    "bbox": [
+                      130,
+                      212,
+                      38,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "SATIN",
+                    "confidence": 0.057915400000000006,
+                    "bbox": [
+                      176,
+                      212,
+                      39,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "ART",
+                    "confidence": 0.23330879,
+                    "bbox": [
+                      226,
+                      212,
+                      16,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "RB",
+                    "confidence": 0.28922095999999997,
+                    "bbox": [
+                      251,
+                      213,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "Kok",
+                    "confidence": 0.22258469000000003,
+                    "bbox": [
+                      270,
+                      202,
+                      15,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "2)",
+                    "confidence": 0.12742424,
+                    "bbox": [
+                      287,
+                      212,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "刘",
+                    "confidence": 0.90991249,
+                    "bbox": [
+                      317,
+                      212,
+                      28,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "攻",
+                    "confidence": 0.0,
+                    "bbox": [
+                      327,
+                      202,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "内",
+                    "confidence": 0.39414943999999996,
+                    "bbox": [
+                      336,
+                      202,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "09",
+                    "confidence": 0.65846413,
+                    "bbox": [
+                      387,
+                      212,
+                      11,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "PoU108114 形 策 28 秋 《专题 五 ， 全 而 推进 美 国 中 国 建设 》 张 08",
+                "words": [
+                  {
+                    "text": "PoU108114",
+                    "confidence": 0.43854103,
+                    "bbox": [
+                      3,
+                      214,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.58082752,
+                    "bbox": [
+                      104,
+                      224,
+                      9,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "策",
+                    "confidence": 0.74051544,
+                    "bbox": [
+                      117,
+                      224,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "28",
+                    "confidence": 0.34273415,
+                    "bbox": [
+                      126,
+                      214,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "秋",
+                    "confidence": 0.67372429,
+                    "bbox": [
+                      136,
+                      214,
+                      12,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "《专题",
+                    "confidence": 0.75424385,
+                    "bbox": [
+                      150,
+                      224,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "五",
+                    "confidence": 0.61407475,
+                    "bbox": [
+                      186,
+                      228,
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.80826584,
+                    "bbox": [
+                      191,
+                      214,
+                      6,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "confidence": 0.85691299,
+                    "bbox": [
+                      196,
+                      224,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "而",
+                    "confidence": 0.4208099,
+                    "bbox": [
+                      208,
+                      224,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "推进",
+                    "confidence": 0.56249653,
+                    "bbox": [
+                      226,
+                      214,
+                      14,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "美",
+                    "confidence": 0.0,
+                    "bbox": [
+                      240,
+                      224,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.8056811500000001,
+                    "bbox": [
+                      256,
+                      226,
+                      2,
+                      4
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.93198402,
+                    "bbox": [
+                      259,
+                      224,
+                      9,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.91960609,
+                    "bbox": [
+                      269,
+                      224,
+                      13,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "建设",
+                    "confidence": 0.87356255,
+                    "bbox": [
+                      287,
+                      224,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "》",
+                    "confidence": 0.83113693,
+                    "bbox": [
+                      299,
+                      214,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "张",
+                    "confidence": 0.0,
+                    "bbox": [
+                      307,
+                      224,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "08",
+                    "confidence": 0.84438705,
+                    "bbox": [
+                      387,
+                      224,
+                      11,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "PoU108114 形 策 28 委 《专题 五 ， 全 而 推进 美国 中 国 建设 》 张 0 meagre",
+                "words": [
+                  {
+                    "text": "PoU108114",
+                    "confidence": 0.52661243,
+                    "bbox": [
+                      3,
+                      226,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.6681562,
+                    "bbox": [
+                      104,
+                      236,
+                      9,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "策",
+                    "confidence": 0.62894215,
+                    "bbox": [
+                      117,
+                      236,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "28",
+                    "confidence": 0.5977088899999999,
+                    "bbox": [
+                      126,
+                      226,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "委",
+                    "confidence": 0.38441071,
+                    "bbox": [
+                      136,
+                      226,
+                      12,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "《专题",
+                    "confidence": 0.59867779,
+                    "bbox": [
+                      150,
+                      236,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "五",
+                    "confidence": 0.38834415,
+                    "bbox": [
+                      186,
+                      240,
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.85640274,
+                    "bbox": [
+                      191,
+                      226,
+                      6,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "confidence": 0.8699027300000001,
+                    "bbox": [
+                      196,
+                      236,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "而",
+                    "confidence": 0.27347212,
+                    "bbox": [
+                      208,
+                      236,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "推进",
+                    "confidence": 0.76636719,
+                    "bbox": [
+                      226,
+                      226,
+                      14,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "美国",
+                    "confidence": 0.0,
+                    "bbox": [
+                      240,
+                      236,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.93161697,
+                    "bbox": [
+                      259,
+                      236,
+                      9,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.6515263400000001,
+                    "bbox": [
+                      269,
+                      236,
+                      13,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "建设",
+                    "confidence": 0.75727913,
+                    "bbox": [
+                      287,
+                      236,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "》",
+                    "confidence": 0.81256783,
+                    "bbox": [
+                      299,
+                      226,
+                      11,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "张",
+                    "confidence": 0.0,
+                    "bbox": [
+                      307,
+                      236,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "0",
+                    "confidence": 0.66856087,
+                    "bbox": [
+                      387,
+                      236,
+                      11,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "meagre",
+                    "confidence": 0.30741587,
+                    "bbox": [
+                      504,
+                      236,
+                      38,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "PoU108114 FOB CLM fie REMI aR) a 10 aa",
+                "words": [
+                  {
+                    "text": "PoU108114",
+                    "confidence": 0.5992212299999999,
+                    "bbox": [
+                      3,
+                      238,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "FOB",
+                    "confidence": 0.0,
+                    "bbox": [
+                      100,
+                      239,
+                      38,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "CLM",
+                    "confidence": 0.29761124,
+                    "bbox": [
+                      151,
+                      239,
+                      19,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "fie",
+                    "confidence": 0.5626161199999999,
+                    "bbox": [
+                      186,
+                      252,
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "text": "REMI",
+                    "confidence": 0.08045731,
+                    "bbox": [
+                      200,
+                      248,
+                      52,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "aR)",
+                    "confidence": 0.05680122,
+                    "bbox": [
+                      270,
+                      248,
+                      31,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "a",
+                    "confidence": 0.38788071,
+                    "bbox": [
+                      307,
+                      248,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "10",
+                    "confidence": 0.93468056,
+                    "bbox": [
+                      388,
+                      248,
+                      10,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "aa",
+                    "confidence": 0.39616982,
+                    "bbox": [
+                      504,
+                      248,
+                      38,
+                      9
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              },
+              {
+                "text": "PoU108114 形 策 26 委 (专题 五 ， 全 轩 推 进 美国 中 国 建设 》 号 \n5\t1\t12\t2\t3\t20\t504\t260\t38\t9\t39.455803\tmene\n4\t1\t12\t2\t4\t0\t3\t272\t539\t10\t-1\t\n5\t1\t12\t2\t4\t1\t3\t272\t56\t8\t54.309593\tPOU108214\n5\t1\t12\t2\t4\t2\t70\t262\t10\t28\t0.000000\t—\n5\t1\t12\t2\t4\t3\t84\t272\t40\t9\t11.033792\t形\n5\t1\t12\t2\t4\t4\t98\t262\t7\t28\t28.198147\t第\n5\t1\t12\t2\t4\t5\t105\t272\t11\t9\t95.461861\t26\n5\t1\t12\t2\t4\t6\t115\t262\t8\t28\t64.258286\t和\n5\t1\t12\t2\t4\t7\t130\t272\t34\t9\t8.837414\t《专题\n5\t1\t12\t2\t4\t8\t177\t272\t67\t9\t0.000000\tEMAAR\n5\t1\t12\t2\t4\t9\t237\t262\t22\t28\t4.287815\tNT\n5\t1\t12\t2\t4\t10\t273\t262\t21\t28\t0.000000\tSEAB\n5\t1\t12\t2\t4\t11\t298\t272\t23\t9\t26.424118\tLA)\n5\t1\t12\t2\t4\t12\t327\t272\t18\t9\t39.644501\t周\n5\t1\t12\t2\t4\t13\t339\t262\t10\t28\t37.355072\t远\n5\t1\t12\t2\t4\t14\t387\t272\t11\t8\t59.342773\t3\n5\t1\t12\t2\t4\t15\t504\t273\t38\t8\t37.967628\tURC\n4\t1\t12\t2\t5\t0\t3\t274\t539\t28\t-1\t\n5\t1\t12\t2\t5\t1\t3\t284\t56\t8\t53.248734\tPOU108214\n5\t1\t12\t2\t5\t2\t66\t274\t17\t28\t25.931997\t。\n5\t1\t12\t2\t5\t3\t84\t285\t9\t8\t0.000000\t形\n5\t1\t12\t2\t5\t4\t98\t284\t7\t9\t69.035309\t征\n5\t1\t12\t2\t5\t5\t105\t274\t13\t28\t91.542084\t26\n5\t1\t12\t2\t5\t6\t117\t285\t7\t8\t64.753418\t秋\n5\t1\t12\t2\t5\t7\t130\t284\t24\t9\t84.700851\t《专题\n5\t1\t12\t2\t5\t8\t162\t274\t36\t28\t52.541199\t;正确\n5\t1\t12\t2\t5\t9\t201\t285\t14\t8\t0.000000\t开明\n5\t1\t12\t2\t5\t10\t217\t284\t7\t9\t35.910408\t和\n5\t1\t12\t2\t5\t11\t229\t284\t6\t9\t96.386642\t把\n5\t1\t12\t2\t5\t12\t238\t284\t6\t9\t76.102386\t提\n5\t1\t12\t2\t5\t13\t248\t274\t10\t28\t43.882233\t习\n5\t1\t12\t2\t5\t14\t257\t285\t27\t8\t64.641266\t近乎\n5\t1\t12\t2\t5\t15\t286\t284\t19\t10\t0.000000\t寻思\n5\t1\t12\t2\t5\t16\t309\t284\t6\t9\t0.000000\t龟\n5\t1\t12\t2\t5\t17\t318\t285\t3\t8\t45.074165\t》\n5\t1\t12\t2\t5\t18\t327\t284\t18\t9\t53.209084\t周\n5\t1\t12\t2\t5\t19\t341\t274\t8\t28\t66.890305\t远\n5\t1\t12\t2\t5\t20\t383\t274\t15\t28\t66.703545\tof\n5\t1\t12\t2\t5\t21\t504\t285\t38\t8\t46.439625\tURC\n4\t1\t12\t2\t6\t0\t3\t286\t539\t28\t-1\t\n5\t1\t12\t2\t6\t1\t3\t296\t56\t8\t61.357941\tPOU108414\n5\t1\t12\t2\t6\t2\t67\t287\t13\t28\t26.450829\t—\n5\t1\t12\t2\t6\t3\t88\t287\t10\t28\t0.000000\tee\n5\t1\t12\t2\t6\t4\t105\t287\t21\t28\t0.000000\tDOH\n5\t1\t12\t2\t6\t5\t135\t287\t24\t28\t30.709476\tCHAE\n5\t1\t12\t2\t6\t6\t165\t287\t10\t28\t22.800694\tSe\n5\t1\t12\t2\t6\t7\t181\t296\t125\t10\t0.000000\tFHPULUL\n5\t1\t12\t2\t6\t8\t224\t287\t26\t28\t0.000000\tYES\n5\t1\t12\t2\t6\t9\t251\t287\t18\t28\t0.000000\tIRAR\n5\t1\t12\t2\t6\t10\t273\t296\t33\t10\t31.822968\tSCANNED\n5\t1\t12\t2\t6\t11\t311\t297\t29\t9\t20.599960\tPIRI\n5\t1\t12\t2\t6\t12\t387\t286\t12\t28\t61.202946\t03\n5\t1\t12\t2\t6\t13\t504\t297\t38\t9\t7.925730\tPRUE\n4\t1\t12\t2\t7\t0\t3\t308\t539\t10\t-1\t\n5\t1\t12\t2\t7\t1\t3\t308\t56\t8\t66.806007\tPOU108414\n5\t1\t12\t2\t7\t2\t70\t299\t12\t28\t28.111229\t—\n5\t1\t12\t2\t7\t3\t92\t309\t6\t8\t0.000000\t形\n5\t1\t12\t2\t7\t4\t103\t299\t8\t28\t76.313232\t第\n5\t1\t12\t2\t7\t5\t110\t299\t13\t28\t92.488609\t26\n5\t1\t12\t2\t7\t6\t122\t299\t10\t28\t29.520641\t秋\n5\t1\t12\t2\t7\t7\t135\t308\t24\t10\t49.380398\t《专题\n5\t1\t12\t2\t7\t8\t168\t299\t31\t28\t61.960510\t:科学\n5\t1\t12\t2\t7\t9\t204\t309\t16\t8\t91.325661\t认识\n5\t1\t12\t2\t7\t10\t222\t309\t21\t9\t73.132507\t当前\n5\t1\t12\t2\t7\t11\t245\t299\t11\t28\t78.894768\t经\n5\t1\t12\t2\t7\t12\t255\t299\t10\t28\t79.819092\t济\n5\t1\t12\t2\t7\t13\t271\t316\t2\t2\t0.000000\t雪\n5\t1\t12\t2\t7\t14\t277\t310\t8\t7\t32.730824\t点\n5\t1\t12\t2\t7\t15\t286\t309\t10\t9\t47.083481\t问\n5\t1\t12\t2\t7\t16\t302\t309\t4\t8\t51.843964\t是\n5\t1\t12\t2\t7\t17\t311\t309\t29\t9\t36.083607\tURIS\n5\t1\t12\t2\t7\t18\t387\t308\t11\t8\t40.575253\tor\n5\t1\t12\t2\t7\t19\t504\t309\t38\t9\t12.938557\taU\n4\t1\t12\t2\t8\t0\t3\t320\t539\t10\t-1\t\n5\t1\t12\t2\t8\t1\t3\t320\t56\t8\t57.169731\tPOU108414\n5\t1\t12\t2\t8\t2\t68\t311\t16\t28\t52.609333\t。。\n5\t1\t12\t2\t8\t3\t92\t321\t6\t8\t10.721560\t者\n5\t1\t12\t2\t8\t4\t101\t321\t7\t9\t88.601807\t第\n5\t1\t12\t2\t8\t5\t110\t311\t13\t28\t92.256920\t26\n5\t1\t12\t2\t8\t6\t122\t321\t7\t9\t1.307602\t秋\n5\t1\t12\t2\t8\t7\t135\t320\t24\t10\t70.997879\t《专题\n5\t1\t12\t2\t8\t8\t171\t321\t28\t9\t35.723537\t:科学\n5\t1\t12\t2\t8\t9\t204\t321\t16\t8\t92.044395\t认识\n5\t1\t12\t2\t8\t10\t222\t321\t21\t9\t67.445892\t当前\n5\t1\t12\t2\t8\t11\t245\t311\t11\t28\t73.378822\t经\n5\t1\t12\t2\t8\t12\t255\t321\t4\t8\t74.100517\t济\n5\t1\t12\t2\t8\t13\t264\t321\t6\t8\t0.000000\t夫\n5\t1\t12\t2\t8\t14\t273\t321\t3\t6\t24.082289\t点\n5\t1\t12\t2\t8\t15\t286\t321\t10\t9\t59.023598\t问\n5\t1\t12\t2\t8\t16\t302\t321\t3\t8\t60.557991\t是\n5\t1\t12\t2\t8\t17\t304\t311\t4\t28\t63.299362\t)\n5\t1\t12\t2\t8\t18\t311\t321\t29\t9\t19.252605\tURIS\n5\t1\t12\t2\t8\t19\t387\t320\t9\t8\t43.351650\t0\n5\t1\t12\t2\t8\t20\t504\t321\t38\t9\t22.849092\tPRUE\n4\t1\t12\t2\t9\t0\t0\t321\t542\t29\t-1\t\n5\t1\t12\t2\t9\t1\t0\t321\t59\t28\t25.229130\tPoLito8e14\n5\t1\t12\t2\t9\t2\t191\t333\t27\t9\t24.044968\tei\n5\t1\t12\t2\t9\t3\t236\t333\t60\t9\t3.815079\tRAMEE)\n5\t1\t12\t2\t9\t4\t302\t333\t28\t9\t28.394531\tORK\n5\t1\t12\t2\t9\t5\t383\t322\t15\t28\t64.952599\t03\n5\t1\t12\t2\t9\t6\t504\t333\t38\t9\t13.255749\tacs\n4\t1\t12\t2\t10\t0\t0\t333\t542\t30\t-1\t\n5\t1\t12\t2\t10\t1\t0\t333\t59\t28\t3.751717\tPoLito8e14\n5\t1\t12\t2\t10\t2\t191\t345\t27\t9\t28.582859\tri\n5\t1\t12\t2\t10\t3\t236\t345\t60\t9\t3.510780\tRAMEE\n5\t1\t12\t2\t10\t4\t302\t345\t28\t9\t20.483070\tORK\n5\t1\t12\t2\t10\t5\t383\t335\t15\t28\t62.752815\t04\n5\t1\t12\t2\t10\t6\t504\t345\t38\t9\t20.555099\tPRUE\n4\t1\t12\t2\t11\t0\t0\t345\t542\t30\t-1\t\n5\t1\t12\t2\t11\t1\t0\t345\t59\t28\t16.976376\tPOLit08614\n5\t1\t12\t2\t11\t2\t187\t347\t22\t28\t30.903339\tZr\n5\t1\t12\t2\t11\t3\t236\t357\t17\t9\t6.073961\tRAM\n5\t1\t12\t2\t11\t4\t271\t357\t25\t9\t30.635391\tLEE)\n5\t1\t12\t2\t11\t5\t302\t357\t28\t9\t9.117966\tORK\n5\t1\t12\t2\t11\t6\t383\t347\t15\t28\t65.786400\t06\n5\t1\t12\t2\t11\t7\t504\t357\t38\t9\t10.489254\tPRR\n4\t1\t12\t2\t12\t0\t3\t358\t539\t29\t-1\t\n5\t1\t12\t2\t12\t1\t3\t358\t56\t28\t67.441849\tPou108614\n5\t1\t12\t2\t12\t2\t191\t369\t38\t9\t28.460747\tZr\n5\t1\t12\t2\t12\t3\t233\t369\t63\t9\t21.779877\tRAMEE)\n5\t1\t12\t2\t12\t4\t302\t369\t5\t9\t79.131561\t人\n5\t1\t12\t2\t12\t5\t383\t359\t15\t28\t16.472654\tor\n5\t1\t12\t2\t12\t6\t504\t359\t17\t28\t10.075550\tPRR\n5\t1\t12\t2\t12\t7\t525\t369\t17\t9\t35.249134\tRC\n4\t1\t12\t2\t13\t0\t3\t370\t538\t29\t-1\t\n5\t1\t12\t2\t13\t1\t3\t370\t56\t28\t57.705235\tPou108614\n5\t1\t12\t2\t13\t2\t176\t384\t7\t6\t74.583145\tfe\n5\t1\t12\t2\t13\t3\t191\t381\t32\t9\t48.616074\t全面\n5\t1\t12\t2\t13\t4\t215\t371\t20\t28\t68.011482\t推进\n5\t1\t12\t2\t13\t5\t233\t381\t63\t9\t31.183819\t美国\n5\t1\t12\t2\t13\t6\t252\t371\t13\t28\t91.495293\t中\n5\t1\t12\t2\t13\t7\t264\t371\t12\t28\t93.261948\t国\n5\t1\t12\t2\t13\t8\t275\t381\t18\t9\t82.073547\t建设\n5\t1\t12\t2\t13\t9\t292\t371\t5\t28\t71.331314\t)\n5\t1\t12\t2\t13\t10\t302\t381\t5\t9\t0.000000\t包\n5\t1\t12\t2\t13\t11\t383\t371\t15\t28\t69.163383\t08\n5\t1\t12\t2\t13\t12\t504\t371\t17\t28\t6.460505\tPRR\n5\t1\t12\t2\t13\t13\t525\t381\t16\t9\t44.794460\tRC\n4\t1\t12\t2\t14\t0\t3\t393\t539\t9\t-1\t\n5\t1\t12\t2\t14\t1\t3\t393\t56\t8\t46.352554\tPOU108614\n5\t1\t12\t2\t14\t2\t99\t393\t84\t9\t3.237200\tFRAG\n5\t1\t12\t2\t14\t3\t147\t383\t21\t28\t24.416538\tCAE\n5\t1\t12\t2\t14\t4\t172\t383\t13\t28\t61.762905\tfis\n5\t1\t12\t2\t14\t5\t193\t393\t34\t9\t0.000000\tPUTIN\n5\t1\t12\t2\t14\t6\t235\t393\t61\t9\t0.000000\tRHEE)\n5\t1\t12\t2\t14\t7\t302\t393\t8\t9\t15.377007\tOe\n5\t1\t12\t2\t14\t8\t312\t393\t18\t9\t0.000000\tSRIK\n5\t1\t12\t2\t14\t9\t387\t393\t11\t8\t73.575043\t0\n5\t1\t12\t2\t14\t10\t504\t393\t38\t9\t0.000000\tPRI\n4\t1\t12\t2\t15\t0\t3\t405\t539\t9\t-1\t\n5\t1\t12\t2\t15\t1\t3\t405\t56\t8\t6.412525\tPOLNORTIA\n5\t1\t12\t2\t15\t2\t81\t395\t28\t28\t25.331711\tmde\n5\t1\t12\t2\t15\t3\t128\t405\t35\t9\t21.115904\tCEM:\n5\t1\t12\t2\t15\t4\t172\t405\t47\t9\t0.000000\tMAME\n5\t1\t12\t2\t15\t5\t230\t405\t9\t9\t0.000000\tMALT\n5\t1\t12\t2\t15\t6\t270\t405\t40\t9\t13.649683\tLAA\n5\t1\t12\t2\t15\t7\t324\t405\t26\t9\t38.754196\teM\n5\t1\t12\t2\t15\t8\t364\t395\t12\t28\t17.277174\t|\n5\t1\t12\t2\t15\t9\t387\t405\t11\t8\t24.668060\tOm\n5\t1\t12\t2\t15\t10\t504\t405\t38\t9\t32.868866\taa\n4\t1\t12\t2\t16\t0\t3\t417\t539\t9\t-1\t\n5\t1\t12\t2\t16\t1\t3\t417\t56\t8\t31.103640\tPOLNORTIA\n5\t1\t12\t2\t16\t2\t86\t407\t33\t28\t20.156818\tDSK\n5\t1\t12\t2\t16\t3\t128\t417\t35\t9\t31.172361\tCEM:\n5\t1\t12\t2\t16\t4\t172\t417\t47\t9\t0.000000\tEMM\n5\t1\t12\t2\t16\t5\t230\t417\t9\t9\t0.000000\tREM\n5\t1\t12\t2\t16\t6\t242\t407\t17\t28\t0.000000\tALT\n5\t1\t12\t2\t16\t7\t270\t417\t40\t9\t35.250568\tLALA\n5\t1\t12\t2\t16\t8\t322\t417\t28\t9\t38.031013\tAM\n5\t1\t12\t2\t16\t9\t387\t417\t11\t8\t29.855347\tTB\n5\t1\t12\t2\t16\t10\t504\t417\t38\t9\t25.735331\tas\n4\t1\t12\t2\t17\t0\t3\t429\t539\t9\t-1\t\n5\t1\t12\t2\t17\t1\t3\t429\t56\t8\t34.154335\tPOUI108814\n5\t1\t12\t2\t17\t2\t84\t429\t35\t9\t22.779560\tDK\n5\t1\t12\t2\t17\t3\t125\t429\t38\t9\t38.967300\tCEM:\n5\t1\t12\t2\t17\t4\t172\t429\t35\t9\t15.475178\tHEMI\n5\t1\t12\t2\t17\t5\t212\t419\t19\t28\t0.000000\tAIE\n5\t1\t12\t2\t17\t6\t233\t419\t22\t28\t8.988600\tCAN\n5\t1\t12\t2\t17\t7\t266\t419\t60\t28\t0.000000\tEHRERIKR)\n5\t1\t12\t2\t17\t8\t333\t429\t18\t9\t51.079041\tRM\n5\t1\t12\t2\t17\t9\t387\t429\t11\t8\t45.719673\tTOD\n5\t1\t12\t2\t17\t10\t504\t429\t8\t9\t73.944557\t类\n5\t1\t12\t2\t17\t11\t514\t429\t8\t9\t7.311783\t大\n5\t1\t12\t2\t17\t12\t528\t429\t14\t9\t68.134705\t校区\n2\t1\t13\t0\t0\t0\t439\t200\t29\t238\t-1\t\n3\t1\t13\t1\t0\t0\t439\t200\t29\t238\t-1\t\n4\t1\t13\t1\t1\t0\t439\t200\t29\t238\t-1\t\n5\t1\t13\t1\t1\t1\t439\t200\t29\t238\t95.000000\t \n2\t1\t14\t0\t0\t0\t0\t447\t554\t1\t-1\t\n3\t1\t14\t1\t0\t0\t0\t447\t554\t1\t-1\t\n4\t1\t14\t1\t1\t0\t0\t447\t554\t1\t-1\t\n5\t1\t14\t1\t1\t1\t0\t447\t554\t1\t95.000000\t \n",
+                "words": [
+                  {
+                    "text": "PoU108114",
+                    "confidence": 0.5507843,
+                    "bbox": [
+                      3,
+                      250,
+                      56,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "形",
+                    "confidence": 0.42605339000000003,
+                    "bbox": [
+                      104,
+                      260,
+                      9,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "策",
+                    "confidence": 0.5060437,
+                    "bbox": [
+                      117,
+                      260,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "26",
+                    "confidence": 0.7459406300000001,
+                    "bbox": [
+                      126,
+                      251,
+                      13,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "委",
+                    "confidence": 0.06440449,
+                    "bbox": [
+                      138,
+                      251,
+                      10,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "(专题",
+                    "confidence": 0.45732582,
+                    "bbox": [
+                      150,
+                      260,
+                      24,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "五",
+                    "confidence": 0.84780632,
+                    "bbox": [
+                      184,
+                      251,
+                      7,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "，",
+                    "confidence": 0.8624076100000001,
+                    "bbox": [
+                      191,
+                      251,
+                      6,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "全",
+                    "confidence": 0.91663727,
+                    "bbox": [
+                      196,
+                      260,
+                      11,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "轩",
+                    "confidence": 0.0,
+                    "bbox": [
+                      208,
+                      260,
+                      6,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "推",
+                    "confidence": 0.0,
+                    "bbox": [
+                      219,
+                      260,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "进",
+                    "confidence": 0.82066986,
+                    "bbox": [
+                      231,
+                      251,
+                      9,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "美国",
+                    "confidence": 0.30913839,
+                    "bbox": [
+                      240,
+                      260,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "中",
+                    "confidence": 0.93101395,
+                    "bbox": [
+                      259,
+                      261,
+                      9,
+                      8
+                    ]
+                  },
+                  {
+                    "text": "国",
+                    "confidence": 0.93147789,
+                    "bbox": [
+                      269,
+                      260,
+                      12,
+                      10
+                    ]
+                  },
+                  {
+                    "text": "建设",
+                    "confidence": 0.89444,
+                    "bbox": [
+                      287,
+                      260,
+                      13,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "》",
+                    "confidence": 0.0,
+                    "bbox": [
+                      299,
+                      251,
+                      6,
+                      28
+                    ]
+                  },
+                  {
+                    "text": "号",
+                    "confidence": 0.0,
+                    "bbox": [
+                      307,
+                      260,
+                      18,
+                      9
+                    ]
+                  },
+                  {
+                    "text": "\n5\t1\t12\t2\t3\t20\t504\t260\t38\t9\t39.455803\tmene\n4\t1\t12\t2\t4\t0\t3\t272\t539\t10\t-1\t\n5\t1\t12\t2\t4\t1\t3\t272\t56\t8\t54.309593\tPOU108214\n5\t1\t12\t2\t4\t2\t70\t262\t10\t28\t0.000000\t—\n5\t1\t12\t2\t4\t3\t84\t272\t40\t9\t11.033792\t形\n5\t1\t12\t2\t4\t4\t98\t262\t7\t28\t28.198147\t第\n5\t1\t12\t2\t4\t5\t105\t272\t11\t9\t95.461861\t26\n5\t1\t12\t2\t4\t6\t115\t262\t8\t28\t64.258286\t和\n5\t1\t12\t2\t4\t7\t130\t272\t34\t9\t8.837414\t《专题\n5\t1\t12\t2\t4\t8\t177\t272\t67\t9\t0.000000\tEMAAR\n5\t1\t12\t2\t4\t9\t237\t262\t22\t28\t4.287815\tNT\n5\t1\t12\t2\t4\t10\t273\t262\t21\t28\t0.000000\tSEAB\n5\t1\t12\t2\t4\t11\t298\t272\t23\t9\t26.424118\tLA)\n5\t1\t12\t2\t4\t12\t327\t272\t18\t9\t39.644501\t周\n5\t1\t12\t2\t4\t13\t339\t262\t10\t28\t37.355072\t远\n5\t1\t12\t2\t4\t14\t387\t272\t11\t8\t59.342773\t3\n5\t1\t12\t2\t4\t15\t504\t273\t38\t8\t37.967628\tURC\n4\t1\t12\t2\t5\t0\t3\t274\t539\t28\t-1\t\n5\t1\t12\t2\t5\t1\t3\t284\t56\t8\t53.248734\tPOU108214\n5\t1\t12\t2\t5\t2\t66\t274\t17\t28\t25.931997\t。\n5\t1\t12\t2\t5\t3\t84\t285\t9\t8\t0.000000\t形\n5\t1\t12\t2\t5\t4\t98\t284\t7\t9\t69.035309\t征\n5\t1\t12\t2\t5\t5\t105\t274\t13\t28\t91.542084\t26\n5\t1\t12\t2\t5\t6\t117\t285\t7\t8\t64.753418\t秋\n5\t1\t12\t2\t5\t7\t130\t284\t24\t9\t84.700851\t《专题\n5\t1\t12\t2\t5\t8\t162\t274\t36\t28\t52.541199\t;正确\n5\t1\t12\t2\t5\t9\t201\t285\t14\t8\t0.000000\t开明\n5\t1\t12\t2\t5\t10\t217\t284\t7\t9\t35.910408\t和\n5\t1\t12\t2\t5\t11\t229\t284\t6\t9\t96.386642\t把\n5\t1\t12\t2\t5\t12\t238\t284\t6\t9\t76.102386\t提\n5\t1\t12\t2\t5\t13\t248\t274\t10\t28\t43.882233\t习\n5\t1\t12\t2\t5\t14\t257\t285\t27\t8\t64.641266\t近乎\n5\t1\t12\t2\t5\t15\t286\t284\t19\t10\t0.000000\t寻思\n5\t1\t12\t2\t5\t16\t309\t284\t6\t9\t0.000000\t龟\n5\t1\t12\t2\t5\t17\t318\t285\t3\t8\t45.074165\t》\n5\t1\t12\t2\t5\t18\t327\t284\t18\t9\t53.209084\t周\n5\t1\t12\t2\t5\t19\t341\t274\t8\t28\t66.890305\t远\n5\t1\t12\t2\t5\t20\t383\t274\t15\t28\t66.703545\tof\n5\t1\t12\t2\t5\t21\t504\t285\t38\t8\t46.439625\tURC\n4\t1\t12\t2\t6\t0\t3\t286\t539\t28\t-1\t\n5\t1\t12\t2\t6\t1\t3\t296\t56\t8\t61.357941\tPOU108414\n5\t1\t12\t2\t6\t2\t67\t287\t13\t28\t26.450829\t—\n5\t1\t12\t2\t6\t3\t88\t287\t10\t28\t0.000000\tee\n5\t1\t12\t2\t6\t4\t105\t287\t21\t28\t0.000000\tDOH\n5\t1\t12\t2\t6\t5\t135\t287\t24\t28\t30.709476\tCHAE\n5\t1\t12\t2\t6\t6\t165\t287\t10\t28\t22.800694\tSe\n5\t1\t12\t2\t6\t7\t181\t296\t125\t10\t0.000000\tFHPULUL\n5\t1\t12\t2\t6\t8\t224\t287\t26\t28\t0.000000\tYES\n5\t1\t12\t2\t6\t9\t251\t287\t18\t28\t0.000000\tIRAR\n5\t1\t12\t2\t6\t10\t273\t296\t33\t10\t31.822968\tSCANNED\n5\t1\t12\t2\t6\t11\t311\t297\t29\t9\t20.599960\tPIRI\n5\t1\t12\t2\t6\t12\t387\t286\t12\t28\t61.202946\t03\n5\t1\t12\t2\t6\t13\t504\t297\t38\t9\t7.925730\tPRUE\n4\t1\t12\t2\t7\t0\t3\t308\t539\t10\t-1\t\n5\t1\t12\t2\t7\t1\t3\t308\t56\t8\t66.806007\tPOU108414\n5\t1\t12\t2\t7\t2\t70\t299\t12\t28\t28.111229\t—\n5\t1\t12\t2\t7\t3\t92\t309\t6\t8\t0.000000\t形\n5\t1\t12\t2\t7\t4\t103\t299\t8\t28\t76.313232\t第\n5\t1\t12\t2\t7\t5\t110\t299\t13\t28\t92.488609\t26\n5\t1\t12\t2\t7\t6\t122\t299\t10\t28\t29.520641\t秋\n5\t1\t12\t2\t7\t7\t135\t308\t24\t10\t49.380398\t《专题\n5\t1\t12\t2\t7\t8\t168\t299\t31\t28\t61.960510\t:科学\n5\t1\t12\t2\t7\t9\t204\t309\t16\t8\t91.325661\t认识\n5\t1\t12\t2\t7\t10\t222\t309\t21\t9\t73.132507\t当前\n5\t1\t12\t2\t7\t11\t245\t299\t11\t28\t78.894768\t经\n5\t1\t12\t2\t7\t12\t255\t299\t10\t28\t79.819092\t济\n5\t1\t12\t2\t7\t13\t271\t316\t2\t2\t0.000000\t雪\n5\t1\t12\t2\t7\t14\t277\t310\t8\t7\t32.730824\t点\n5\t1\t12\t2\t7\t15\t286\t309\t10\t9\t47.083481\t问\n5\t1\t12\t2\t7\t16\t302\t309\t4\t8\t51.843964\t是\n5\t1\t12\t2\t7\t17\t311\t309\t29\t9\t36.083607\tURIS\n5\t1\t12\t2\t7\t18\t387\t308\t11\t8\t40.575253\tor\n5\t1\t12\t2\t7\t19\t504\t309\t38\t9\t12.938557\taU\n4\t1\t12\t2\t8\t0\t3\t320\t539\t10\t-1\t\n5\t1\t12\t2\t8\t1\t3\t320\t56\t8\t57.169731\tPOU108414\n5\t1\t12\t2\t8\t2\t68\t311\t16\t28\t52.609333\t。。\n5\t1\t12\t2\t8\t3\t92\t321\t6\t8\t10.721560\t者\n5\t1\t12\t2\t8\t4\t101\t321\t7\t9\t88.601807\t第\n5\t1\t12\t2\t8\t5\t110\t311\t13\t28\t92.256920\t26\n5\t1\t12\t2\t8\t6\t122\t321\t7\t9\t1.307602\t秋\n5\t1\t12\t2\t8\t7\t135\t320\t24\t10\t70.997879\t《专题\n5\t1\t12\t2\t8\t8\t171\t321\t28\t9\t35.723537\t:科学\n5\t1\t12\t2\t8\t9\t204\t321\t16\t8\t92.044395\t认识\n5\t1\t12\t2\t8\t10\t222\t321\t21\t9\t67.445892\t当前\n5\t1\t12\t2\t8\t11\t245\t311\t11\t28\t73.378822\t经\n5\t1\t12\t2\t8\t12\t255\t321\t4\t8\t74.100517\t济\n5\t1\t12\t2\t8\t13\t264\t321\t6\t8\t0.000000\t夫\n5\t1\t12\t2\t8\t14\t273\t321\t3\t6\t24.082289\t点\n5\t1\t12\t2\t8\t15\t286\t321\t10\t9\t59.023598\t问\n5\t1\t12\t2\t8\t16\t302\t321\t3\t8\t60.557991\t是\n5\t1\t12\t2\t8\t17\t304\t311\t4\t28\t63.299362\t)\n5\t1\t12\t2\t8\t18\t311\t321\t29\t9\t19.252605\tURIS\n5\t1\t12\t2\t8\t19\t387\t320\t9\t8\t43.351650\t0\n5\t1\t12\t2\t8\t20\t504\t321\t38\t9\t22.849092\tPRUE\n4\t1\t12\t2\t9\t0\t0\t321\t542\t29\t-1\t\n5\t1\t12\t2\t9\t1\t0\t321\t59\t28\t25.229130\tPoLito8e14\n5\t1\t12\t2\t9\t2\t191\t333\t27\t9\t24.044968\tei\n5\t1\t12\t2\t9\t3\t236\t333\t60\t9\t3.815079\tRAMEE)\n5\t1\t12\t2\t9\t4\t302\t333\t28\t9\t28.394531\tORK\n5\t1\t12\t2\t9\t5\t383\t322\t15\t28\t64.952599\t03\n5\t1\t12\t2\t9\t6\t504\t333\t38\t9\t13.255749\tacs\n4\t1\t12\t2\t10\t0\t0\t333\t542\t30\t-1\t\n5\t1\t12\t2\t10\t1\t0\t333\t59\t28\t3.751717\tPoLito8e14\n5\t1\t12\t2\t10\t2\t191\t345\t27\t9\t28.582859\tri\n5\t1\t12\t2\t10\t3\t236\t345\t60\t9\t3.510780\tRAMEE\n5\t1\t12\t2\t10\t4\t302\t345\t28\t9\t20.483070\tORK\n5\t1\t12\t2\t10\t5\t383\t335\t15\t28\t62.752815\t04\n5\t1\t12\t2\t10\t6\t504\t345\t38\t9\t20.555099\tPRUE\n4\t1\t12\t2\t11\t0\t0\t345\t542\t30\t-1\t\n5\t1\t12\t2\t11\t1\t0\t345\t59\t28\t16.976376\tPOLit08614\n5\t1\t12\t2\t11\t2\t187\t347\t22\t28\t30.903339\tZr\n5\t1\t12\t2\t11\t3\t236\t357\t17\t9\t6.073961\tRAM\n5\t1\t12\t2\t11\t4\t271\t357\t25\t9\t30.635391\tLEE)\n5\t1\t12\t2\t11\t5\t302\t357\t28\t9\t9.117966\tORK\n5\t1\t12\t2\t11\t6\t383\t347\t15\t28\t65.786400\t06\n5\t1\t12\t2\t11\t7\t504\t357\t38\t9\t10.489254\tPRR\n4\t1\t12\t2\t12\t0\t3\t358\t539\t29\t-1\t\n5\t1\t12\t2\t12\t1\t3\t358\t56\t28\t67.441849\tPou108614\n5\t1\t12\t2\t12\t2\t191\t369\t38\t9\t28.460747\tZr\n5\t1\t12\t2\t12\t3\t233\t369\t63\t9\t21.779877\tRAMEE)\n5\t1\t12\t2\t12\t4\t302\t369\t5\t9\t79.131561\t人\n5\t1\t12\t2\t12\t5\t383\t359\t15\t28\t16.472654\tor\n5\t1\t12\t2\t12\t6\t504\t359\t17\t28\t10.075550\tPRR\n5\t1\t12\t2\t12\t7\t525\t369\t17\t9\t35.249134\tRC\n4\t1\t12\t2\t13\t0\t3\t370\t538\t29\t-1\t\n5\t1\t12\t2\t13\t1\t3\t370\t56\t28\t57.705235\tPou108614\n5\t1\t12\t2\t13\t2\t176\t384\t7\t6\t74.583145\tfe\n5\t1\t12\t2\t13\t3\t191\t381\t32\t9\t48.616074\t全面\n5\t1\t12\t2\t13\t4\t215\t371\t20\t28\t68.011482\t推进\n5\t1\t12\t2\t13\t5\t233\t381\t63\t9\t31.183819\t美国\n5\t1\t12\t2\t13\t6\t252\t371\t13\t28\t91.495293\t中\n5\t1\t12\t2\t13\t7\t264\t371\t12\t28\t93.261948\t国\n5\t1\t12\t2\t13\t8\t275\t381\t18\t9\t82.073547\t建设\n5\t1\t12\t2\t13\t9\t292\t371\t5\t28\t71.331314\t)\n5\t1\t12\t2\t13\t10\t302\t381\t5\t9\t0.000000\t包\n5\t1\t12\t2\t13\t11\t383\t371\t15\t28\t69.163383\t08\n5\t1\t12\t2\t13\t12\t504\t371\t17\t28\t6.460505\tPRR\n5\t1\t12\t2\t13\t13\t525\t381\t16\t9\t44.794460\tRC\n4\t1\t12\t2\t14\t0\t3\t393\t539\t9\t-1\t\n5\t1\t12\t2\t14\t1\t3\t393\t56\t8\t46.352554\tPOU108614\n5\t1\t12\t2\t14\t2\t99\t393\t84\t9\t3.237200\tFRAG\n5\t1\t12\t2\t14\t3\t147\t383\t21\t28\t24.416538\tCAE\n5\t1\t12\t2\t14\t4\t172\t383\t13\t28\t61.762905\tfis\n5\t1\t12\t2\t14\t5\t193\t393\t34\t9\t0.000000\tPUTIN\n5\t1\t12\t2\t14\t6\t235\t393\t61\t9\t0.000000\tRHEE)\n5\t1\t12\t2\t14\t7\t302\t393\t8\t9\t15.377007\tOe\n5\t1\t12\t2\t14\t8\t312\t393\t18\t9\t0.000000\tSRIK\n5\t1\t12\t2\t14\t9\t387\t393\t11\t8\t73.575043\t0\n5\t1\t12\t2\t14\t10\t504\t393\t38\t9\t0.000000\tPRI\n4\t1\t12\t2\t15\t0\t3\t405\t539\t9\t-1\t\n5\t1\t12\t2\t15\t1\t3\t405\t56\t8\t6.412525\tPOLNORTIA\n5\t1\t12\t2\t15\t2\t81\t395\t28\t28\t25.331711\tmde\n5\t1\t12\t2\t15\t3\t128\t405\t35\t9\t21.115904\tCEM:\n5\t1\t12\t2\t15\t4\t172\t405\t47\t9\t0.000000\tMAME\n5\t1\t12\t2\t15\t5\t230\t405\t9\t9\t0.000000\tMALT\n5\t1\t12\t2\t15\t6\t270\t405\t40\t9\t13.649683\tLAA\n5\t1\t12\t2\t15\t7\t324\t405\t26\t9\t38.754196\teM\n5\t1\t12\t2\t15\t8\t364\t395\t12\t28\t17.277174\t|\n5\t1\t12\t2\t15\t9\t387\t405\t11\t8\t24.668060\tOm\n5\t1\t12\t2\t15\t10\t504\t405\t38\t9\t32.868866\taa\n4\t1\t12\t2\t16\t0\t3\t417\t539\t9\t-1\t\n5\t1\t12\t2\t16\t1\t3\t417\t56\t8\t31.103640\tPOLNORTIA\n5\t1\t12\t2\t16\t2\t86\t407\t33\t28\t20.156818\tDSK\n5\t1\t12\t2\t16\t3\t128\t417\t35\t9\t31.172361\tCEM:\n5\t1\t12\t2\t16\t4\t172\t417\t47\t9\t0.000000\tEMM\n5\t1\t12\t2\t16\t5\t230\t417\t9\t9\t0.000000\tREM\n5\t1\t12\t2\t16\t6\t242\t407\t17\t28\t0.000000\tALT\n5\t1\t12\t2\t16\t7\t270\t417\t40\t9\t35.250568\tLALA\n5\t1\t12\t2\t16\t8\t322\t417\t28\t9\t38.031013\tAM\n5\t1\t12\t2\t16\t9\t387\t417\t11\t8\t29.855347\tTB\n5\t1\t12\t2\t16\t10\t504\t417\t38\t9\t25.735331\tas\n4\t1\t12\t2\t17\t0\t3\t429\t539\t9\t-1\t\n5\t1\t12\t2\t17\t1\t3\t429\t56\t8\t34.154335\tPOUI108814\n5\t1\t12\t2\t17\t2\t84\t429\t35\t9\t22.779560\tDK\n5\t1\t12\t2\t17\t3\t125\t429\t38\t9\t38.967300\tCEM:\n5\t1\t12\t2\t17\t4\t172\t429\t35\t9\t15.475178\tHEMI\n5\t1\t12\t2\t17\t5\t212\t419\t19\t28\t0.000000\tAIE\n5\t1\t12\t2\t17\t6\t233\t419\t22\t28\t8.988600\tCAN\n5\t1\t12\t2\t17\t7\t266\t419\t60\t28\t0.000000\tEHRERIKR)\n5\t1\t12\t2\t17\t8\t333\t429\t18\t9\t51.079041\tRM\n5\t1\t12\t2\t17\t9\t387\t429\t11\t8\t45.719673\tTOD\n5\t1\t12\t2\t17\t10\t504\t429\t8\t9\t73.944557\t类\n5\t1\t12\t2\t17\t11\t514\t429\t8\t9\t7.311783\t大\n5\t1\t12\t2\t17\t12\t528\t429\t14\t9\t68.134705\t校区\n2\t1\t13\t0\t0\t0\t439\t200\t29\t238\t-1\t\n3\t1\t13\t1\t0\t0\t439\t200\t29\t238\t-1\t\n4\t1\t13\t1\t1\t0\t439\t200\t29\t238\t-1\t\n5\t1\t13\t1\t1\t1\t439\t200\t29\t238\t95.000000\t \n2\t1\t14\t0\t0\t0\t0\t447\t554\t1\t-1\t\n3\t1\t14\t1\t0\t0\t0\t447\t554\t1\t-1\t\n4\t1\t14\t1\t1\t0\t0\t447\t554\t1\t-1\t\n5\t1\t14\t1\t1\t1\t0\t447\t554\t1\t95.000000\t \n",
+                    "confidence": 0.75329384,
+                    "bbox": [
+                      388,
+                      260,
+                      8,
+                      8
+                    ]
+                  }
+                ],
+                "confidence": 0.0
+              }
+            ],
+            "text": "课程号课程名课序号上课教师学校校区\nPoU107514 RIE RIA LED HE WE 只大校区\nPot107514 RIUM RTE RHA LE) ie o Wir 类大术区\nPou107514 RRIF LE) WE 08 BE PREC\nPouto7e14 EMSA ELC SAL) 7 05 ied PRR\nPou107614 EMAL AEM SAE) 9 o7 ie\nPou107714 vad 03 see\nPoU107714 05 ses\nPou107714 o7 Wises\nPoU107714 10 Wises\nPOU107714 1 南亚由\nPOU107814 。。 形第 26 乱 《专题四 :繁荣互联风条件下新大众文艺 ) 商各 1 it\nPOU107814 。。 FeRDOH CORI: RH TIRM IE EH AMR LZ) al 15 高如\nPOU107814 。。 形策 26 次 CORI: RH TIRM IE EB AiR LZ) ah 2 高如\nPOU107814 RDB C CREM: AI TINM ATE KB KAR LZ sil 2 高如\nPOU107914 开征 26 居 《专题由， AIIM RET FB Kok LE) AU 05 ams\nPOU107914 §— EAE CUMIN: AI TINM AEE KB Kite LZ) AU 08\nPOU107914 。 RE AZEKK CUMIN: SATIN ART RB Kok 2) 刘攻内 09\nPoU108114 形策 28 秋 《专题五 ， 全而推进美国中国建设 》 张 08\nPoU108114 形策 28 委 《专题五 ， 全而推进美国中国建设 》 张 0 meagre\nPoU108114 FOB CLM fie REMI aR) a 10 aa\nPoU108114 形策 26 委 (专题五 ， 全轩推进美国中国建设 》 号 \n5\t1\t12\t2\t3\t20\t504\t260\t38\t9\t39.455803\tmene\n4\t1\t12\t2\t4\t0\t3\t272\t539\t10\t-1\t\n5\t1\t12\t2\t4\t1\t3\t272\t56\t8\t54.309593\tPOU108214\n5\t1\t12\t2\t4\t2\t70\t262\t10\t28\t0.000000\t—\n5\t1\t12\t2\t4\t3\t84\t272\t40\t9\t11.033792\t形\n5\t1\t12\t2\t4\t4\t98\t262\t7\t28\t28.198147\t第\n5\t1\t12\t2\t4\t5\t105\t272\t11\t9\t95.461861\t26\n5\t1\t12\t2\t4\t6\t115\t262\t8\t28\t64.258286\t和\n5\t1\t12\t2\t4\t7\t130\t272\t34\t9\t8.837414\t《专题\n5\t1\t12\t2\t4\t8\t177\t272\t67\t9\t0.000000\tEMAAR\n5\t1\t12\t2\t4\t9\t237\t262\t22\t28\t4.287815\tNT\n5\t1\t12\t2\t4\t10\t273\t262\t21\t28\t0.000000\tSEAB\n5\t1\t12\t2\t4\t11\t298\t272\t23\t9\t26.424118\tLA)\n5\t1\t12\t2\t4\t12\t327\t272\t18\t9\t39.644501\t周\n5\t1\t12\t2\t4\t13\t339\t262\t10\t28\t37.355072\t远\n5\t1\t12\t2\t4\t14\t387\t272\t11\t8\t59.342773\t3\n5\t1\t12\t2\t4\t15\t504\t273\t38\t8\t37.967628\tURC\n4\t1\t12\t2\t5\t0\t3\t274\t539\t28\t-1\t\n5\t1\t12\t2\t5\t1\t3\t284\t56\t8\t53.248734\tPOU108214\n5\t1\t12\t2\t5\t2\t66\t274\t17\t28\t25.931997\t。\n5\t1\t12\t2\t5\t3\t84\t285\t9\t8\t0.000000\t形\n5\t1\t12\t2\t5\t4\t98\t284\t7\t9\t69.035309\t征\n5\t1\t12\t2\t5\t5\t105\t274\t13\t28\t91.542084\t26\n5\t1\t12\t2\t5\t6\t117\t285\t7\t8\t64.753418\t秋\n5\t1\t12\t2\t5\t7\t130\t284\t24\t9\t84.700851\t《专题\n5\t1\t12\t2\t5\t8\t162\t274\t36\t28\t52.541199\t;正确\n5\t1\t12\t2\t5\t9\t201\t285\t14\t8\t0.000000\t开明\n5\t1\t12\t2\t5\t10\t217\t284\t7\t9\t35.910408\t和\n5\t1\t12\t2\t5\t11\t229\t284\t6\t9\t96.386642\t把\n5\t1\t12\t2\t5\t12\t238\t284\t6\t9\t76.102386\t提\n5\t1\t12\t2\t5\t13\t248\t274\t10\t28\t43.882233\t习\n5\t1\t12\t2\t5\t14\t257\t285\t27\t8\t64.641266\t近乎\n5\t1\t12\t2\t5\t15\t286\t284\t19\t10\t0.000000\t寻思\n5\t1\t12\t2\t5\t16\t309\t284\t6\t9\t0.000000\t龟\n5\t1\t12\t2\t5\t17\t318\t285\t3\t8\t45.074165\t》\n5\t1\t12\t2\t5\t18\t327\t284\t18\t9\t53.209084\t周\n5\t1\t12\t2\t5\t19\t341\t274\t8\t28\t66.890305\t远\n5\t1\t12\t2\t5\t20\t383\t274\t15\t28\t66.703545\tof\n5\t1\t12\t2\t5\t21\t504\t285\t38\t8\t46.439625\tURC\n4\t1\t12\t2\t6\t0\t3\t286\t539\t28\t-1\t\n5\t1\t12\t2\t6\t1\t3\t296\t56\t8\t61.357941\tPOU108414\n5\t1\t12\t2\t6\t2\t67\t287\t13\t28\t26.450829\t—\n5\t1\t12\t2\t6\t3\t88\t287\t10\t28\t0.000000\tee\n5\t1\t12\t2\t6\t4\t105\t287\t21\t28\t0.000000\tDOH\n5\t1\t12\t2\t6\t5\t135\t287\t24\t28\t30.709476\tCHAE\n5\t1\t12\t2\t6\t6\t165\t287\t10\t28\t22.800694\tSe\n5\t1\t12\t2\t6\t7\t181\t296\t125\t10\t0.000000\tFHPULUL\n5\t1\t12\t2\t6\t8\t224\t287\t26\t28\t0.000000\tYES\n5\t1\t12\t2\t6\t9\t251\t287\t18\t28\t0.000000\tIRAR\n5\t1\t12\t2\t6\t10\t273\t296\t33\t10\t31.822968\tSCANNED\n5\t1\t12\t2\t6\t11\t311\t297\t29\t9\t20.599960\tPIRI\n5\t1\t12\t2\t6\t12\t387\t286\t12\t28\t61.202946\t03\n5\t1\t12\t2\t6\t13\t504\t297\t38\t9\t7.925730\tPRUE\n4\t1\t12\t2\t7\t0\t3\t308\t539\t10\t-1\t\n5\t1\t12\t2\t7\t1\t3\t308\t56\t8\t66.806007\tPOU108414\n5\t1\t12\t2\t7\t2\t70\t299\t12\t28\t28.111229\t—\n5\t1\t12\t2\t7\t3\t92\t309\t6\t8\t0.000000\t形\n5\t1\t12\t2\t7\t4\t103\t299\t8\t28\t76.313232\t第\n5\t1\t12\t2\t7\t5\t110\t299\t13\t28\t92.488609\t26\n5\t1\t12\t2\t7\t6\t122\t299\t10\t28\t29.520641\t秋\n5\t1\t12\t2\t7\t7\t135\t308\t24\t10\t49.380398\t《专题\n5\t1\t12\t2\t7\t8\t168\t299\t31\t28\t61.960510\t:科学\n5\t1\t12\t2\t7\t9\t204\t309\t16\t8\t91.325661\t认识\n5\t1\t12\t2\t7\t10\t222\t309\t21\t9\t73.132507\t当前\n5\t1\t12\t2\t7\t11\t245\t299\t11\t28\t78.894768\t经\n5\t1\t12\t2\t7\t12\t255\t299\t10\t28\t79.819092\t济\n5\t1\t12\t2\t7\t13\t271\t316\t2\t2\t0.000000\t雪\n5\t1\t12\t2\t7\t14\t277\t310\t8\t7\t32.730824\t点\n5\t1\t12\t2\t7\t15\t286\t309\t10\t9\t47.083481\t问\n5\t1\t12\t2\t7\t16\t302\t309\t4\t8\t51.843964\t是\n5\t1\t12\t2\t7\t17\t311\t309\t29\t9\t36.083607\tURIS\n5\t1\t12\t2\t7\t18\t387\t308\t11\t8\t40.575253\tor\n5\t1\t12\t2\t7\t19\t504\t309\t38\t9\t12.938557\taU\n4\t1\t12\t2\t8\t0\t3\t320\t539\t10\t-1\t\n5\t1\t12\t2\t8\t1\t3\t320\t56\t8\t57.169731\tPOU108414\n5\t1\t12\t2\t8\t2\t68\t311\t16\t28\t52.609333\t。。\n5\t1\t12\t2\t8\t3\t92\t321\t6\t8\t10.721560\t者\n5\t1\t12\t2\t8\t4\t101\t321\t7\t9\t88.601807\t第\n5\t1\t12\t2\t8\t5\t110\t311\t13\t28\t92.256920\t26\n5\t1\t12\t2\t8\t6\t122\t321\t7\t9\t1.307602\t秋\n5\t1\t12\t2\t8\t7\t135\t320\t24\t10\t70.997879\t《专题\n5\t1\t12\t2\t8\t8\t171\t321\t28\t9\t35.723537\t:科学\n5\t1\t12\t2\t8\t9\t204\t321\t16\t8\t92.044395\t认识\n5\t1\t12\t2\t8\t10\t222\t321\t21\t9\t67.445892\t当前\n5\t1\t12\t2\t8\t11\t245\t311\t11\t28\t73.378822\t经\n5\t1\t12\t2\t8\t12\t255\t321\t4\t8\t74.100517\t济\n5\t1\t12\t2\t8\t13\t264\t321\t6\t8\t0.000000\t夫\n5\t1\t12\t2\t8\t14\t273\t321\t3\t6\t24.082289\t点\n5\t1\t12\t2\t8\t15\t286\t321\t10\t9\t59.023598\t问\n5\t1\t12\t2\t8\t16\t302\t321\t3\t8\t60.557991\t是\n5\t1\t12\t2\t8\t17\t304\t311\t4\t28\t63.299362\t)\n5\t1\t12\t2\t8\t18\t311\t321\t29\t9\t19.252605\tURIS\n5\t1\t12\t2\t8\t19\t387\t320\t9\t8\t43.351650\t0\n5\t1\t12\t2\t8\t20\t504\t321\t38\t9\t22.849092\tPRUE\n4\t1\t12\t2\t9\t0\t0\t321\t542\t29\t-1\t\n5\t1\t12\t2\t9\t1\t0\t321\t59\t28\t25.229130\tPoLito8e14\n5\t1\t12\t2\t9\t2\t191\t333\t27\t9\t24.044968\tei\n5\t1\t12\t2\t9\t3\t236\t333\t60\t9\t3.815079\tRAMEE)\n5\t1\t12\t2\t9\t4\t302\t333\t28\t9\t28.394531\tORK\n5\t1\t12\t2\t9\t5\t383\t322\t15\t28\t64.952599\t03\n5\t1\t12\t2\t9\t6\t504\t333\t38\t9\t13.255749\tacs\n4\t1\t12\t2\t10\t0\t0\t333\t542\t30\t-1\t\n5\t1\t12\t2\t10\t1\t0\t333\t59\t28\t3.751717\tPoLito8e14\n5\t1\t12\t2\t10\t2\t191\t345\t27\t9\t28.582859\tri\n5\t1\t12\t2\t10\t3\t236\t345\t60\t9\t3.510780\tRAMEE\n5\t1\t12\t2\t10\t4\t302\t345\t28\t9\t20.483070\tORK\n5\t1\t12\t2\t10\t5\t383\t335\t15\t28\t62.752815\t04\n5\t1\t12\t2\t10\t6\t504\t345\t38\t9\t20.555099\tPRUE\n4\t1\t12\t2\t11\t0\t0\t345\t542\t30\t-1\t\n5\t1\t12\t2\t11\t1\t0\t345\t59\t28\t16.976376\tPOLit08614\n5\t1\t12\t2\t11\t2\t187\t347\t22\t28\t30.903339\tZr\n5\t1\t12\t2\t11\t3\t236\t357\t17\t9\t6.073961\tRAM\n5\t1\t12\t2\t11\t4\t271\t357\t25\t9\t30.635391\tLEE)\n5\t1\t12\t2\t11\t5\t302\t357\t28\t9\t9.117966\tORK\n5\t1\t12\t2\t11\t6\t383\t347\t15\t28\t65.786400\t06\n5\t1\t12\t2\t11\t7\t504\t357\t38\t9\t10.489254\tPRR\n4\t1\t12\t2\t12\t0\t3\t358\t539\t29\t-1\t\n5\t1\t12\t2\t12\t1\t3\t358\t56\t28\t67.441849\tPou108614\n5\t1\t12\t2\t12\t2\t191\t369\t38\t9\t28.460747\tZr\n5\t1\t12\t2\t12\t3\t233\t369\t63\t9\t21.779877\tRAMEE)\n5\t1\t12\t2\t12\t4\t302\t369\t5\t9\t79.131561\t人\n5\t1\t12\t2\t12\t5\t383\t359\t15\t28\t16.472654\tor\n5\t1\t12\t2\t12\t6\t504\t359\t17\t28\t10.075550\tPRR\n5\t1\t12\t2\t12\t7\t525\t369\t17\t9\t35.249134\tRC\n4\t1\t12\t2\t13\t0\t3\t370\t538\t29\t-1\t\n5\t1\t12\t2\t13\t1\t3\t370\t56\t28\t57.705235\tPou108614\n5\t1\t12\t2\t13\t2\t176\t384\t7\t6\t74.583145\tfe\n5\t1\t12\t2\t13\t3\t191\t381\t32\t9\t48.616074\t全面\n5\t1\t12\t2\t13\t4\t215\t371\t20\t28\t68.011482\t推进\n5\t1\t12\t2\t13\t5\t233\t381\t63\t9\t31.183819\t美国\n5\t1\t12\t2\t13\t6\t252\t371\t13\t28\t91.495293\t中\n5\t1\t12\t2\t13\t7\t264\t371\t12\t28\t93.261948\t国\n5\t1\t12\t2\t13\t8\t275\t381\t18\t9\t82.073547\t建设\n5\t1\t12\t2\t13\t9\t292\t371\t5\t28\t71.331314\t)\n5\t1\t12\t2\t13\t10\t302\t381\t5\t9\t0.000000\t包\n5\t1\t12\t2\t13\t11\t383\t371\t15\t28\t69.163383\t08\n5\t1\t12\t2\t13\t12\t504\t371\t17\t28\t6.460505\tPRR\n5\t1\t12\t2\t13\t13\t525\t381\t16\t9\t44.794460\tRC\n4\t1\t12\t2\t14\t0\t3\t393\t539\t9\t-1\t\n5\t1\t12\t2\t14\t1\t3\t393\t56\t8\t46.352554\tPOU108614\n5\t1\t12\t2\t14\t2\t99\t393\t84\t9\t3.237200\tFRAG\n5\t1\t12\t2\t14\t3\t147\t383\t21\t28\t24.416538\tCAE\n5\t1\t12\t2\t14\t4\t172\t383\t13\t28\t61.762905\tfis\n5\t1\t12\t2\t14\t5\t193\t393\t34\t9\t0.000000\tPUTIN\n5\t1\t12\t2\t14\t6\t235\t393\t61\t9\t0.000000\tRHEE)\n5\t1\t12\t2\t14\t7\t302\t393\t8\t9\t15.377007\tOe\n5\t1\t12\t2\t14\t8\t312\t393\t18\t9\t0.000000\tSRIK\n5\t1\t12\t2\t14\t9\t387\t393\t11\t8\t73.575043\t0\n5\t1\t12\t2\t14\t10\t504\t393\t38\t9\t0.000000\tPRI\n4\t1\t12\t2\t15\t0\t3\t405\t539\t9\t-1\t\n5\t1\t12\t2\t15\t1\t3\t405\t56\t8\t6.412525\tPOLNORTIA\n5\t1\t12\t2\t15\t2\t81\t395\t28\t28\t25.331711\tmde\n5\t1\t12\t2\t15\t3\t128\t405\t35\t9\t21.115904\tCEM:\n5\t1\t12\t2\t15\t4\t172\t405\t47\t9\t0.000000\tMAME\n5\t1\t12\t2\t15\t5\t230\t405\t9\t9\t0.000000\tMALT\n5\t1\t12\t2\t15\t6\t270\t405\t40\t9\t13.649683\tLAA\n5\t1\t12\t2\t15\t7\t324\t405\t26\t9\t38.754196\teM\n5\t1\t12\t2\t15\t8\t364\t395\t12\t28\t17.277174\t|\n5\t1\t12\t2\t15\t9\t387\t405\t11\t8\t24.668060\tOm\n5\t1\t12\t2\t15\t10\t504\t405\t38\t9\t32.868866\taa\n4\t1\t12\t2\t16\t0\t3\t417\t539\t9\t-1\t\n5\t1\t12\t2\t16\t1\t3\t417\t56\t8\t31.103640\tPOLNORTIA\n5\t1\t12\t2\t16\t2\t86\t407\t33\t28\t20.156818\tDSK\n5\t1\t12\t2\t16\t3\t128\t417\t35\t9\t31.172361\tCEM:\n5\t1\t12\t2\t16\t4\t172\t417\t47\t9\t0.000000\tEMM\n5\t1\t12\t2\t16\t5\t230\t417\t9\t9\t0.000000\tREM\n5\t1\t12\t2\t16\t6\t242\t407\t17\t28\t0.000000\tALT\n5\t1\t12\t2\t16\t7\t270\t417\t40\t9\t35.250568\tLALA\n5\t1\t12\t2\t16\t8\t322\t417\t28\t9\t38.031013\tAM\n5\t1\t12\t2\t16\t9\t387\t417\t11\t8\t29.855347\tTB\n5\t1\t12\t2\t16\t10\t504\t417\t38\t9\t25.735331\tas\n4\t1\t12\t2\t17\t0\t3\t429\t539\t9\t-1\t\n5\t1\t12\t2\t17\t1\t3\t429\t56\t8\t34.154335\tPOUI108814\n5\t1\t12\t2\t17\t2\t84\t429\t35\t9\t22.779560\tDK\n5\t1\t12\t2\t17\t3\t125\t429\t38\t9\t38.967300\tCEM:\n5\t1\t12\t2\t17\t4\t172\t429\t35\t9\t15.475178\tHEMI\n5\t1\t12\t2\t17\t5\t212\t419\t19\t28\t0.000000\tAIE\n5\t1\t12\t2\t17\t6\t233\t419\t22\t28\t8.988600\tCAN\n5\t1\t12\t2\t17\t7\t266\t419\t60\t28\t0.000000\tEHRERIKR)\n5\t1\t12\t2\t17\t8\t333\t429\t18\t9\t51.079041\tRM\n5\t1\t12\t2\t17\t9\t387\t429\t11\t8\t45.719673\tTOD\n5\t1\t12\t2\t17\t10\t504\t429\t8\t9\t73.944557\t类\n5\t1\t12\t2\t17\t11\t514\t429\t8\t9\t7.311783\t大\n5\t1\t12\t2\t17\t12\t528\t429\t14\t9\t68.134705\t校区\n2\t1\t13\t0\t0\t0\t439\t200\t29\t238\t-1\t\n3\t1\t13\t1\t0\t0\t439\t200\t29\t238\t-1\t\n4\t1\t13\t1\t1\t0\t439\t200\t29\t238\t-1\t\n5\t1\t13\t1\t1\t1\t439\t200\t29\t238\t95.000000\t \n2\t1\t14\t0\t0\t0\t0\t447\t554\t1\t-1\t\n3\t1\t14\t1\t0\t0\t0\t447\t554\t1\t-1\t\n4\t1\t14\t1\t1\t0\t0\t447\t554\t1\t-1\t\n5\t1\t14\t1\t1\t1\t0\t447\t554\t1\t95.000000\t \n",
+            "normalization": "join_cjk_word_spaces",
+            "width": 554,
+            "height": 448
+          },
+          "qr": [],
+          "previewUrl": "media/8b69f9bb6f801d1b80caa7324229ed37685b8a36febcc3bc5f73abd0703d43f3.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/6c91290a684191fc06f19d20a6ebfa6689f673265fe98303d83908fcdfc3edf3.img",
+        "sha256": "6c91290a684191fc06f19d20a6ebfa6689f673265fe98303d83908fcdfc3edf3",
+        "bytes": 994902,
+        "filename": "A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/E/C6/97/A4620DEF45ADD1044786A45FB33_C2A55647_F2E56.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "8e8a44d3c30c2d2561571b009b1e85a9f48c09edd01b29cbfb8a1c6896605249",
+      "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18628791",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+      "kind": "attachment",
+      "name": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+      "context": "",
+      "noticeBodyHash": "bc083fa0e87b27f48d7526b5b7e8486de762aaf98482c315df211d4e883fcecc",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-19T07:36:43.107587+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:captcha_required: open original link and import the downloaded file",

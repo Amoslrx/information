@@ -180,12 +180,12 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2417,
+  "count": 2421,
   "matched_count": 535,
-  "competition_related_count": 882,
+  "competition_related_count": 883,
   "by_site": {
-    "教务处": 527,
-    "校团委": 1039,
+    "教务处": 529,
+    "校团委": 1041,
     "能动学院": 69,
     "电气学院": 226,
     "实践教学中心": 401,
@@ -201,8 +201,8 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
+    "教务处": 175,
     "校团委": 205,
-    "教务处": 174,
     "实践教学中心": 331,
     "电气学院": 22,
     "RoboMaster官网": 10,
@@ -218,6 +218,17 @@
   },
   "items": [
     {
+      "date": "2026-11-19",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
       "date": "2026-11-18",
       "title": "关于组织开展西安交通大学第二批微专业申报工作的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1100/10651.htm",
@@ -229,11 +240,44 @@
       "is_competition": false
     },
     {
+      "date": "2026-11-18",
+      "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
+      "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
+      "source": "jwc_kcap",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-17",
+      "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
       "date": "2026-11-17",
       "title": "关于思源学堂2.0平台升级暂停服务的通知",
       "url": "https://jwc.xjtu.edu.cn/info/1180/10646.htm",
       "source": "jwc",
       "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
+      "source": "tuanwei",
+      "site": "校团委",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
