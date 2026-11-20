@@ -9,26 +9,6 @@
   "retries": 1,
   "targets": [
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1097/10662.htm",
-    "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
-    "priority": null
-   },
-   {
-    "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
-    "title": "关于公布2026-2027（1）《形势与政策》线下课停开部分课程的通知",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4803",
-    "title": "青春守安全 网格护科研 | 实验室安全网格员安全讲座第四期顺利举行",
-    "priority": null
-   },
-   {
-    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",
-    "title": "关于组织申报2025-2026学年校园文化及精神文明单项奖和集体奖的通知",
-    "priority": null
-   },
-   {
     "url": "https://www.robocon.org.cn/sys-nd/135.html",
     "title": "2027年足式机器人挑战赛-V2.0",
     "priority": null
@@ -110,7 +90,7 @@
    }
   ],
   "byStatus": {
-   "success": 4,
+   "success": 0,
    "empty": 1,
    "failed": 15,
    "pending": 0
@@ -130,7 +110,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-19T07:35:34.894123+00:00",
+   "fetchedAt": "2026-11-20T07:25:30.415160+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -151,11 +131,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:33.239816+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -180,9 +155,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:34.894123+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:30.415160+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -190,7 +170,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-19T07:35:34.429337+00:00",
+   "fetchedAt": "2026-11-20T07:25:30.392929+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -211,11 +191,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-14T06:33:33.225937+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -240,9 +215,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-19T07:35:34.429337+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-20T07:25:30.392929+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -250,7 +230,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:32.923816+00:00",
+   "fetchedAt": "2026-11-20T07:25:29.426380+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -271,11 +251,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:32.368252+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -300,9 +275,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:32.923816+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:29.426380+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -310,7 +290,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:32.496214+00:00",
+   "fetchedAt": "2026-11-20T07:25:28.318309+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -331,11 +311,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:31.056873+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -360,9 +335,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:32.496214+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:28.318309+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -370,7 +350,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:32.141124+00:00",
+   "fetchedAt": "2026-11-20T07:25:28.300137+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -391,11 +371,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:30.994950+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -420,9 +395,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:32.141124+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:28.300137+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -430,7 +410,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:30.540428+00:00",
+   "fetchedAt": "2026-11-20T07:25:27.289109+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -451,11 +431,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:30.148021+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -480,9 +455,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:30.540428+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:27.289109+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -490,7 +470,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:30.191489+00:00",
+   "fetchedAt": "2026-11-20T07:25:26.376494+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -511,11 +491,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:29.030534+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -540,9 +515,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:30.191489+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:26.376494+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -550,7 +530,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-19T07:35:29.953620+00:00",
+   "fetchedAt": "2026-11-20T07:25:26.152579+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -571,11 +551,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:28.840479+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -600,9 +575,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:29.953620+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:26.152579+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -610,7 +590,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-19T07:35:29.297299+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.670943+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -631,11 +611,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:28.633710+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -660,9 +635,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:29.297299+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:24.670943+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -670,7 +650,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-19T07:35:28.584907+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.670051+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -691,11 +671,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-14T06:33:28.307070+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -720,9 +695,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-19T07:35:28.584907+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-20T07:25:24.670051+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -730,7 +710,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-19T07:35:28.571599+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.669557+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -751,11 +731,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:27.047196+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -780,9 +755,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:28.571599+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:24.669557+00:00"
     }
    ],
-   "totalAttempts": 16
+   "totalAttempts": 17
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -790,7 +770,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-19T07:35:28.571181+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.465175+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -811,11 +791,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:27.031430+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -840,9 +815,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:28.571181+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:24.465175+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -850,7 +830,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-19T07:35:26.934005+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.926092+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -871,11 +851,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-14T06:33:26.954680+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -900,9 +875,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-19T07:35:26.934005+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-20T07:25:22.926092+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -910,7 +890,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-19T07:35:26.929900+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.924654+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -931,11 +911,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:25.374249+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -960,9 +935,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:26.929900+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:22.924654+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -970,7 +950,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-19T07:35:26.925663+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.923938+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -991,11 +971,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:25.373708+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1020,9 +995,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:26.925663+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:22.923938+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1030,7 +1010,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.922854+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1051,11 +1031,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-14T06:33:25.373197+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1080,9 +1055,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-19T07:35:26.922361+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:22.922854+00:00"
     }
    ],
-   "totalAttempts": 15
+   "totalAttempts": 16
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",

@@ -1,7 +1,7 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-19 15:38
+// 生成时间: 2026-11-20 15:28
 window.SITE_DATA = {
- "generatedAt": "2026-11-19 15:38",
+ "generatedAt": "2026-11-20 15:28",
  "stats": {
   "competitions": 94,
   "notices": 2421,
@@ -12,7 +12,7 @@ window.SITE_DATA = {
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-19",
+  "today": "2026-11-20",
   "noticeFrom": "2003-12-19",
   "noticeTo": "2026-11-19",
   "eeDist": {
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 20,
+    "total": 16,
     "byStatus": {
-     "success": 4,
+     "success": 0,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:29.297299+00:00",
+        "fetchedAt": "2026-11-20T07:25:24.670943+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:29.297299+00:00",
+      "fetchedAt": "2026-11-20T07:25:24.670943+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
+        "fetchedAt": "2026-11-20T07:25:22.922854+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:26.925663+00:00",
+        "fetchedAt": "2026-11-20T07:25:22.923938+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:26.929900+00:00",
+        "fetchedAt": "2026-11-20T07:25:22.924654+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:28.571181+00:00",
+        "fetchedAt": "2026-11-20T07:25:24.465175+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
+      "fetchedAt": "2026-11-20T07:25:22.922854+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:26.925663+00:00",
+      "fetchedAt": "2026-11-20T07:25:22.923938+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:26.929900+00:00",
+      "fetchedAt": "2026-11-20T07:25:22.924654+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:28.571181+00:00",
+      "fetchedAt": "2026-11-20T07:25:24.465175+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
+    "fetchedAt": "2026-11-20T07:25:22.922854+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:34.894123+00:00",
+        "fetchedAt": "2026-11-20T07:25:30.415160+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:34.894123+00:00",
+      "fetchedAt": "2026-11-20T07:25:30.415160+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:28.571599+00:00",
+        "fetchedAt": "2026-11-20T07:25:24.669557+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:28.571599+00:00",
+      "fetchedAt": "2026-11-20T07:25:24.669557+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:30.191489+00:00",
+        "fetchedAt": "2026-11-20T07:25:26.376494+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:32.496214+00:00",
+        "fetchedAt": "2026-11-20T07:25:28.318309+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:32.923816+00:00",
+        "fetchedAt": "2026-11-20T07:25:29.426380+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:29.953620+00:00",
+        "fetchedAt": "2026-11-20T07:25:26.152579+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:30.540428+00:00",
+        "fetchedAt": "2026-11-20T07:25:27.289109+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-19T07:35:32.141124+00:00",
+        "fetchedAt": "2026-11-20T07:25:28.300137+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:29.953620+00:00",
+      "fetchedAt": "2026-11-20T07:25:26.152579+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:30.191489+00:00",
+      "fetchedAt": "2026-11-20T07:25:26.376494+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:30.540428+00:00",
+      "fetchedAt": "2026-11-20T07:25:27.289109+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:32.141124+00:00",
+      "fetchedAt": "2026-11-20T07:25:28.300137+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:32.496214+00:00",
+      "fetchedAt": "2026-11-20T07:25:28.318309+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-19T07:35:32.923816+00:00",
+      "fetchedAt": "2026-11-20T07:25:29.426380+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -258593,7 +258593,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:26.922361+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.922854+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -260863,7 +260863,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:26.925663+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.923938+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -263717,7 +263717,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:26.929900+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.924654+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -279731,7 +279731,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-19T07:35:26.934005+00:00",
+   "fetchedAt": "2026-11-20T07:25:22.926092+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -284612,7 +284612,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:28.571181+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.465175+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -440637,7 +440637,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:28.571599+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.669557+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -534246,7 +534246,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-19T07:35:28.584907+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.670051+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -563342,7 +563342,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:29.297299+00:00",
+   "fetchedAt": "2026-11-20T07:25:24.670943+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -663181,7 +663181,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:29.953620+00:00",
+   "fetchedAt": "2026-11-20T07:25:26.152579+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -672201,7 +672201,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:30.191489+00:00",
+   "fetchedAt": "2026-11-20T07:25:26.376494+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -698553,7 +698553,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:30.540428+00:00",
+   "fetchedAt": "2026-11-20T07:25:27.289109+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -703770,7 +703770,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:32.141124+00:00",
+   "fetchedAt": "2026-11-20T07:25:28.300137+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -706843,7 +706843,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:32.496214+00:00",
+   "fetchedAt": "2026-11-20T07:25:28.318309+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -721321,7 +721321,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:32.923816+00:00",
+   "fetchedAt": "2026-11-20T07:25:29.426380+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -805719,7 +805719,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-19T07:35:34.429337+00:00",
+   "fetchedAt": "2026-11-20T07:25:30.392929+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -806860,7 +806860,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-19T07:35:34.894123+00:00",
+   "fetchedAt": "2026-11-20T07:25:30.415160+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -807617,6 +807617,24 @@ window.SITE_DATA = {
   "学院与书院"
  ],
  "wechat": [
+  {
+   "title": "【校招】中国邮政储蓄银行2027校园招聘重磅开启!",
+   "date": "2026-11-17",
+   "snippet": "近期热点回顾· 西安交通大学2026年秋季校园招聘指南· 西安交通大学2027届毕业生生源信息· 西安交通大学2025届毕业生就业质...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%A0%A1%E6%8B%9B%E3%80%91%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF%E5%82%A8%E8%93%84%E9%93%B6%E8%A1%8C2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98%E9%87%8D%E7%A3%85%E5%BC%80%E5%90%AF%21"
+  },
+  {
+   "title": "文治书院消防游园会活动来啦- 拷贝",
+   "date": "2026-11-16",
+   "snippet": "2026年文治书院消防游园会活动概要XIAOFANGYOUYUANHUILIVE活动目的:以游园会的形式普及消防安全知识,把灭火器材使用、...",
+   "account": "文治宿生会",
+   "cat": "集体活动",
+   "group": "集体活动",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E6%B6%88%E9%98%B2%E6%B8%B8%E5%9B%AD%E4%BC%9A%E6%B4%BB%E5%8A%A8%E6%9D%A5%E5%95%A6-%20%E6%8B%B7%E8%B4%9D"
+  },
   {
    "title": "励行向新|励志书院秋日活动合集",
    "date": "2026-11-16",
@@ -808410,6 +808428,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D%E3%80%91%E5%85%B3%E4%BA%8E2024%E5%B9%B4%E8%A5%BF%E5%AE%89%E5%B8%82%E4%BA%8B%E4%B8%9A%E5%8D%95%E4%BD%8D%E5%85%AC%E5%BC%80%E6%8B%9B%E8%81%98%E9%AB%98%E5%B1%82%E6%AC%A1%E5%8F%8A%E7%B4%A7%E7%BC%BA%E7%89%B9%E6%AE%8A%E4%B8%93%E4%B8%9A%E4%BA%BA%E6%89%8D%E7%9A%84%E5%85%AC%E5%91%8A"
   },
   {
+   "title": "【院部动态】宗濂书院与商洛市中心医院共建“就业实践基地”签约暨授牌仪式举行",
+   "date": "2024-05-07",
+   "snippet": "宗濂书院坚持“双院育人”,与学院紧密合作,组织了多次“院院合作,医路畅通——医学生探院行”活动,曾前往安康市中心医院、...",
+   "account": "西安交大就业创业",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E9%99%A2%E9%83%A8%E5%8A%A8%E6%80%81%E3%80%91%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E4%B8%8E%E5%95%86%E6%B4%9B%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2%E5%85%B1%E5%BB%BA%E2%80%9C%E5%B0%B1%E4%B8%9A%E5%AE%9E%E8%B7%B5%E5%9F%BA%E5%9C%B0%E2%80%9D%E7%AD%BE%E7%BA%A6%E6%9A%A8%E6%8E%88%E7%89%8C%E4%BB%AA%E5%BC%8F%E4%B8%BE%E8%A1%8C"
+  },
+  {
    "title": "一周活动早知道 | 5.6-5.12南洋书院活动预告",
    "date": "2024-05-05",
    "snippet": "HI SPRING5.6-5.12南洋书院活动预告 一周活动早知道 春风里带着甜甜的味道细雨轻柔地抚摸着每一个小芽儿一转眼五月已然到来来...",
@@ -808687,6 +808714,15 @@ window.SITE_DATA = {
    "cat": "集体活动",
    "group": "集体活动",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%80%E5%91%A8%E6%B4%BB%E5%8A%A8%E6%97%A9%E7%9F%A5%E9%81%93%20%7C%2011.20-11.26%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%B4%BB%E5%8A%A8%E9%A2%84%E5%91%8A"
+  },
+  {
+   "title": "【院部动态】宗濂书院多举措全程化做好医学生职业规划与就业指导",
+   "date": "2023-11-15",
+   "snippet": "宗濂书院依托职业发展工作室开展了一系列活动帮助学生规划职业生涯,找到自我定位,实现人生价值.医路畅通,共建就创基地就创...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E9%99%A2%E9%83%A8%E5%8A%A8%E6%80%81%E3%80%91%E5%AE%97%E6%BF%82%E4%B9%A6%E9%99%A2%E5%A4%9A%E4%B8%BE%E6%8E%AA%E5%85%A8%E7%A8%8B%E5%8C%96%E5%81%9A%E5%A5%BD%E5%8C%BB%E5%AD%A6%E7%94%9F%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E4%B8%8E%E5%B0%B1%E4%B8%9A%E6%8C%87%E5%AF%BC"
   },
   {
    "title": "西安交通大学学生会秘书长、副秘书长聘任仪式暨秋季工作人员培训会议顺利召开",
@@ -809400,6 +809436,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%8B%9B%E5%8B%9F%20%7C%20%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC24%E5%B1%8A%E7%A0%94%E7%A9%B6%E7%94%9F%E6%94%AF%E6%95%99%E5%9B%A2%E6%9C%9F%E5%BE%85%E6%82%A8%E7%9A%84%E5%8A%A0%E5%85%A5"
   },
   {
+   "title": "西安交通大学学生就业创业中心招聘公告",
+   "date": "2021-08-25",
+   "snippet": "聘用办法和待遇参照学校相关规定执行,现将岗位职责、任职条件及报名程序公布如下1岗位职责1.就业创业指导活动的组织与实施;...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A%E4%B8%AD%E5%BF%83%E6%8B%9B%E8%81%98%E5%85%AC%E5%91%8A"
+  },
+  {
    "title": "交叉融合,100%保研——西安交大最牛班级:钱学森班!",
    "date": "2021-06-27",
    "snippet": "同意命名西安交通大学图书馆为钱学森图书馆.1995年9月,时任... 全国大学生数学建模竞赛、全国大学生机械创新设计大赛、全国大...",
@@ -809515,6 +809560,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%9B%BD%E8%BF%90-%E4%BA%A4%E5%A4%A7%E2%80%9C%E9%9D%92%E5%B9%B4%E9%A2%86%E5%AF%BC%E5%8A%9B%E2%80%9D%E5%9F%BA%E9%87%91%E9%A1%B9%E7%9B%AE%20%E7%AC%AC%E4%BA%94%E6%9C%9F%E7%AE%A1%E7%90%86%E5%9B%A2%E9%98%9F%E6%8B%9B%E5%8B%9F%E5%85%AC%E5%91%8A"
+  },
+  {
+   "title": "【重磅】西安交通大学第五届就业创业体验周志愿者招募",
+   "date": "2021-04-12",
+   "snippet": "我校即将开展第五届就业创业体验周活动,现阶段正在进行志愿者招募工作,请大家踊跃报名.活动简介就业创业体验周 就业创业体...",
+   "account": "西安交大就业创业",
+   "cat": "社会实践",
+   "group": "社会实践",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E9%87%8D%E7%A3%85%E3%80%91%E8%A5%BF%E5%AE%89%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%BA%94%E5%B1%8A%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A%E4%BD%93%E9%AA%8C%E5%91%A8%E5%BF%97%E6%84%BF%E8%80%85%E6%8B%9B%E5%8B%9F"
   },
   {
    "title": "彭康书院开展党员宿舍挂牌行动",
@@ -809641,6 +809695,15 @@ window.SITE_DATA = {
    "cat": "其他",
    "group": "其他",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E5%B0%8F%E5%8A%B1%E6%80%BB%E7%BB%93%20%7C%20%E8%AE%B0%E5%8A%B1%E5%BF%97%E4%B9%A6%E9%99%A22020%E5%B9%B4%E7%A0%B4%E5%86%B0%E6%B4%BB%E5%8A%A8"
+  },
+  {
+   "title": "文治书院全面投入文明校园创建工作",
+   "date": "2020-09-25",
+   "snippet": "以多种艺术形式传扬西迁精神,举办西迁博物馆、创新港线上云直播互动活动,成立文治书院西迁精神宣讲践行团.繁荣书院文创、激...",
+   "account": "西安交通大学文治书院",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E6%96%87%E6%B2%BB%E4%B9%A6%E9%99%A2%E5%85%A8%E9%9D%A2%E6%8A%95%E5%85%A5%E6%96%87%E6%98%8E%E6%A0%A1%E5%9B%AD%E5%88%9B%E5%BB%BA%E5%B7%A5%E4%BD%9C"
   },
   {
    "title": "一睹为快!来看看交大优秀学子的风采!",
@@ -809805,6 +809868,15 @@ window.SITE_DATA = {
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E9%A2%84%E5%91%8A%E3%80%912020%E5%8D%97%E6%B4%8B%E4%B9%A6%E9%99%A2%E6%99%9A%E4%BC%9A"
   },
   {
+   "title": "【招募】“西安交大就业创业”新媒体团队欢迎你的加入!",
+   "date": "2020-05-08",
+   "snippet": "关于我们“西安交大就业创业”官方微信平台建立于2014年现关注... 03招募对象1.面向西安交通大学在校学生招募新媒体小编和负责人...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E3%80%90%E6%8B%9B%E5%8B%9F%E3%80%91%E2%80%9C%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A%E2%80%9D%E6%96%B0%E5%AA%92%E4%BD%93%E5%9B%A2%E9%98%9F%E6%AC%A2%E8%BF%8E%E4%BD%A0%E7%9A%84%E5%8A%A0%E5%85%A5%21"
+  },
+  {
    "title": "预告|崇实书院“萌宠大作战”活动",
    "date": "2020-04-13",
    "snippet": "预告 | 崇实书院“萌宠大作战”活动转眼已是人间四月,万物苏生,一切顺遂.不知道在这段漫长的自我隔离中,大家身边有没有一些...",
@@ -809902,6 +809974,15 @@ window.SITE_DATA = {
    "cat": "社会实践",
    "group": "社会实践",
    "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E6%AC%A2%E9%80%81%E8%B5%B4%E8%BE%B9%E8%BF%9C%E3%80%81%E5%9F%BA%E5%B1%82%E5%8F%8A%E9%87%8D%E7%82%B9%E5%8D%95%E4%BD%8D%E5%B0%B1%E4%B8%9A%E5%AD%A6%E7%94%9F%E4%BB%A3%E8%A1%A8"
+  },
+  {
+   "title": "“西安交大就业创业”新媒体团队招募时间到!",
+   "date": "2019-10-17",
+   "snippet": "就业创业相关活动支持.贰岗位要求学有余力,服从工作安排;... 招募对象03本次招募面向西安交通大学在校学生;语文类新闻类专...",
+   "account": "西安交大就业创业",
+   "cat": "其他",
+   "group": "其他",
+   "searchUrl": "https://weixin.sogou.com/weixin?type=2&query=%E2%80%9C%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E5%B0%B1%E4%B8%9A%E5%88%9B%E4%B8%9A%E2%80%9D%E6%96%B0%E5%AA%92%E4%BD%93%E5%9B%A2%E9%98%9F%E6%8B%9B%E5%8B%9F%E6%97%B6%E9%97%B4%E5%88%B0%21"
   },
   {
    "title": "【青春告白祖国】宗濂书院:举办系列活动,献礼祖国",
@@ -810463,9 +810544,11 @@ window.SITE_DATA = {
   }
  ],
  "wechatStat": {
-  "total": 316,
-  "dropped": 153,
+  "total": 325,
+  "dropped": 154,
   "byAccount": {
+   "西安交大就业创业": 44,
+   "文治宿生会": 3,
    "西安交通大学励志书院": 17,
    "西安交通大学南洋书院": 18,
    "西安交大基层就业": 9,
@@ -810475,7 +810558,6 @@ window.SITE_DATA = {
    "西安交通大学社会实践": 7,
    "西安交大物理学院": 1,
    "西安交通大学基础医学院": 1,
-   "西安交大就业创业": 37,
    "西安交通大学教务处": 2,
    "西安交通大学电气工程学院": 7,
    "中国人民大学崇实书院": 1,
@@ -810485,7 +810567,6 @@ window.SITE_DATA = {
    "宗濂星火": 2,
    "崇实学辅": 1,
    "启德南宁": 1,
-   "文治宿生会": 2,
    "励志党总支": 4,
    "西安交大彭康书院党总支": 2,
    "南洋书院党总支": 5,
@@ -810531,6 +810612,7 @@ window.SITE_DATA = {
    "西安交通大学附属中学航天学校": 2,
    "仙交大南洋书院学生会": 2,
    "启德二零级医学支部": 1,
+   "西安交通大学文治书院": 3,
    "西安交大志愿者基地": 1,
    "西安交通大学附属中学兴庆校区": 1,
    "西安交大钱学森学院": 1,
@@ -810542,17 +810624,16 @@ window.SITE_DATA = {
    "西安交大社会实践": 1,
    "西安交大韩城幼儿园": 1,
    "西安交大国际教育学院": 1,
-   "西安交通大学文治书院": 2,
    "西安交大VEX机器人社": 1,
    "XJTUCC管理系": 1,
    "崇实团子酱": 2,
    "西交大生活圈": 1
   },
   "byGroup": {
-   "其他": 130,
-   "集体活动": 54,
+   "其他": 136,
+   "集体活动": 55,
    "学科竞赛": 44,
-   "社会实践": 42,
+   "社会实践": 44,
    "思政学习": 20,
    "文体竞赛": 15,
    "教学信息": 11

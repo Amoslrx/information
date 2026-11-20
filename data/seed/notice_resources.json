@@ -16045,7 +16045,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:35:39.281504+00:00",
+      "fetchedAt": "2026-11-20T07:25:35.097196+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:unexpected_html_instead_of_resource",
@@ -16065,7 +16065,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:35:46.143883+00:00",
+      "fetchedAt": "2026-11-20T07:25:38.559645+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -16117,7 +16117,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:35:48.706756+00:00",
+      "fetchedAt": "2026-11-20T07:25:41.666876+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -16493,7 +16493,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:35:57.650008+00:00",
+      "fetchedAt": "2026-11-20T07:25:52.583642+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -16609,7 +16609,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:03.511373+00:00",
+      "fetchedAt": "2026-11-20T07:26:04.763250+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -17035,7 +17035,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:12.249227+00:00",
+      "fetchedAt": "2026-11-20T07:26:17.354006+00:00",
       "downloadStatus": "success",
       "status": "empty",
       "error": "",
@@ -17087,7 +17087,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:18.368654+00:00",
+      "fetchedAt": "2026-11-20T07:26:25.977058+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -17193,7 +17193,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:30.790623+00:00",
+      "fetchedAt": "2026-11-20T07:26:34.841739+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -17361,7 +17361,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:36.885493+00:00",
+      "fetchedAt": "2026-11-20T07:26:46.952796+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -20017,7 +20017,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-19T07:36:43.107587+00:00",
+      "fetchedAt": "2026-11-20T07:26:54.669966+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:captcha_required: open original link and import the downloaded file",
