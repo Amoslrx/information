@@ -9,6 +9,26 @@
   "retries": 1,
   "targets": [
    {
+    "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+    "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
+    "priority": null
+   },
+   {
+    "url": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+    "title": "《电磁场理论》考试安排",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+    "title": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+    "title": "“金色梧桐·诗意交大” 绘画作品征集",
+    "priority": null
+   },
+   {
     "url": "https://www.robocon.org.cn/sys-nd/135.html",
     "title": "2027年足式机器人挑战赛-V2.0",
     "priority": null
@@ -90,27 +110,147 @@
    }
   ],
   "byStatus": {
-   "success": 0,
+   "success": 4,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1268,
+  "success": 1272,
   "empty": 1,
   "failed": 15
  },
- "count": 1284,
- "withBody": 1268,
+ "count": 1288,
+ "withBody": 1272,
  "items": [
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/132.html",
+   "title": "2027年足式机器人挑战赛-V1.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-08",
+   "source": "robocon",
+   "fetchedAt": "2026-11-23T07:47:51.166539+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 2,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:28.571181+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:24.465175+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-21T07:18:02.015450+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-22T06:57:35.541942+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+     "fetchedAt": "2026-11-23T07:47:23.967743+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:51.166539+00:00"
+    }
+   ],
+   "totalAttempts": 20
+  },
+  {
+   "url": "https://www.robocon.org.cn/sys-nd/135.html",
+   "title": "2027年足式机器人挑战赛-V2.0",
+   "site": "ROBOCON官网",
+   "date": "2026-10-29",
+   "source": "robocon",
+   "fetchedAt": "2026-11-23T07:47:48.901511+00:00",
+   "status": "failed",
+   "error": "ValueError:body_not_found: no configured article selector matched",
+   "contentHash": "",
+   "contentParserVersion": 2,
+   "body": "",
+   "bodyHtml": "",
+   "bodyLen": 0,
+   "excerpt": "",
+   "paragraphs": [],
+   "tables": [],
+   "blocks": [],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 2,
+   "attemptHistory": [
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-19T07:35:26.922361+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-20T07:25:22.922854+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-21T07:18:00.979057+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-22T06:57:34.605453+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "URLError:<urlopen error _ssl.c:994: The handshake operation timed out>",
+     "fetchedAt": "2026-11-23T07:47:22.050531+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:48.901511+00:00"
+    }
+   ],
+   "totalAttempts": 20
+  },
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
    "title": "XJTU ACM 算法竞赛校队选拔 xjtu-selection-2026-2027",
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-22T06:57:40.767892+00:00",
+   "fetchedAt": "2026-11-23T07:47:40.627080+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -131,11 +271,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:42.111433+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -160,9 +295,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:40.767892+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:40.627080+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -170,7 +310,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-22T06:57:40.490708+00:00",
+   "fetchedAt": "2026-11-23T07:47:39.596703+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -191,11 +331,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-17T08:03:40.782410+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -220,9 +355,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-22T06:57:40.490708+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-23T07:47:39.596703+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -230,7 +370,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:39.442189+00:00",
+   "fetchedAt": "2026-11-23T07:47:38.400209+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -251,11 +391,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:40.590850+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -280,9 +415,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:39.442189+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:38.400209+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -290,7 +430,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:39.395578+00:00",
+   "fetchedAt": "2026-11-23T07:47:37.567696+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -311,11 +451,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:39.523879+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -340,9 +475,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:39.395578+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:37.567696+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -350,7 +490,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:38.872482+00:00",
+   "fetchedAt": "2026-11-23T07:47:36.341508+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -371,11 +511,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:37.643779+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -400,9 +535,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:38.872482+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:36.341508+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -410,7 +550,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:38.064655+00:00",
+   "fetchedAt": "2026-11-23T07:47:33.563688+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -431,11 +571,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:36.807072+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -460,9 +595,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:38.064655+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:33.563688+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -470,7 +610,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:37.836421+00:00",
+   "fetchedAt": "2026-11-23T07:47:31.722668+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -491,11 +631,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:36.486705+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -520,9 +655,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:37.836421+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:31.722668+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -530,7 +670,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-22T06:57:37.259531+00:00",
+   "fetchedAt": "2026-11-23T07:47:28.172990+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -551,11 +691,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:35.509201+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -580,9 +715,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:37.259531+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:28.172990+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -590,7 +730,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-22T06:57:36.845594+00:00",
+   "fetchedAt": "2026-11-23T07:47:27.585420+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -611,11 +751,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:35.413902+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -640,9 +775,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:36.845594+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:27.585420+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -650,7 +790,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-22T06:57:36.661631+00:00",
+   "fetchedAt": "2026-11-23T07:47:26.590547+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -671,11 +811,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-17T08:03:35.065896+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -700,9 +835,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-22T06:57:36.661631+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-23T07:47:26.590547+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -710,7 +850,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-22T06:57:36.659801+00:00",
+   "fetchedAt": "2026-11-23T07:47:25.595411+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -731,11 +871,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:34.995412+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -760,69 +895,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:36.659801+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:25.595411+00:00"
     }
    ],
-   "totalAttempts": 19
-  },
-  {
-   "url": "https://www.robocon.org.cn/sys-nd/132.html",
-   "title": "2027年足式机器人挑战赛-V1.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-08",
-   "source": "robocon",
-   "fetchedAt": "2026-11-22T06:57:35.541942+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
-   "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
-   "tables": [],
-   "blocks": [],
-   "images": [],
-   "attachments": [],
-   "links": [],
-   "contact": "",
-   "phone": "",
-   "email": "",
-   "qq": "",
-   "attempts": 1,
-   "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:34.396024+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-18T07:38:24.585450+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-19T07:35:28.571181+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:24.465175+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-21T07:18:02.015450+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-22T06:57:35.541942+00:00"
-    }
-   ],
-   "totalAttempts": 18
+   "totalAttempts": 20
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -830,7 +910,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-22T06:57:34.607214+00:00",
+   "fetchedAt": "2026-11-23T07:47:22.387354+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -851,11 +931,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-17T08:03:34.186850+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -880,9 +955,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-22T06:57:34.607214+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-23T07:47:22.387354+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -890,7 +970,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-22T06:57:34.606735+00:00",
+   "fetchedAt": "2026-11-23T07:47:22.247751+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -911,11 +991,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:33.947077+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -940,9 +1015,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:34.606735+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:22.247751+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -950,7 +1030,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-22T06:57:34.606286+00:00",
+   "fetchedAt": "2026-11-23T07:47:22.052226+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -971,11 +1051,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:33.403988+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1000,28 +1075,346 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-22T06:57:34.606286+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-23T07:47:22.052226+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 19
   },
   {
-   "url": "https://www.robocon.org.cn/sys-nd/135.html",
-   "title": "2027年足式机器人挑战赛-V2.0",
-   "site": "ROBOCON官网",
-   "date": "2026-10-29",
-   "source": "robocon",
-   "fetchedAt": "2026-11-22T06:57:34.605453+00:00",
-   "status": "failed",
-   "error": "ValueError:body_not_found: no configured article selector matched",
-   "contentHash": "",
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+   "title": "“金色梧桐·诗意交大” 绘画作品征集",
+   "site": "校团委",
+   "date": "2026-11-18",
+   "source": "西安交通大学团委",
+   "fetchedAt": "2026-11-23T07:47:20.067322+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "8fec94d54c0bf6966f5a761ba15322e023c7af7f6df7edcddf877daf0aa3126c",
    "contentParserVersion": 2,
-   "body": "",
-   "bodyHtml": "",
-   "bodyLen": 0,
-   "excerpt": "",
-   "paragraphs": [],
+   "body": "银杏金黄，梧桐铺道，白鸽掠过澄空\n每一帧，都是写给校园的情书\n这一次，别只用眼睛收藏\n拿起你的平板\n把2026年的交大风景\n定格成独一无二的图画记忆\n“金色梧桐·诗意交大”绘画作品征集\n正式启动\n分享你用平板画下的交大瞬间\n就有机会把精美礼品带回家\n01 活动时间\n2026年11月17日——11月26日\n02 创作方向\n方向一:华为笔记\n用华为笔记记日常笔记(如:读书笔记、旅游攻略、听课重点等)。\n方向二:天生会画\n天生会画:用天生会画画交大插画(如:画景色、画落叶、画国风等)。\n方向三:手账创作\n用平板做艺术手账(如:贴照片、加贴纸、写日记等)。\n03 作品要求\n①使用华为平板创作，上传的作品需带“天生会画APP”水印。\n②JPG/PNG格式，分辨率不低于300dpi。\n③作品需附带文字说明(作品名+一句话描述你与交大的故事)。\n04 参与方式\n扫码立即参与。活动期间，使用华为平板进行主题创作并上传我的华为征集链接，即有机会赢取精美礼品!\n05 评奖规则\n创作征集基于作品点赞数进行评奖，奖品明细如下图：\n06 注意事项\n①实物奖品获奖用户需在获奖名单公示之日起20日内，通过【我的华为】APP-首页-热门活动-更多-本活动-公告查看获奖名单;或通过【我的华为】APP首页-右上角信息枢-消息，查看中奖通知，并点击该条获奖通知消息输入奖品收件人姓名、手机号和邮寄地址申领奖品。逾期未填写的用户将视为自动放弃获奖资格奖品不再补发。若奖品寄出后因用户个人原因导致奖品被退回，奖品不再补发。\n②活动奖品将在确认获奖用户收件信息之日起60个工作日内发放，活动奖品配送区域范围仅限中国大陆地区(港/澳/台地区及海外地区除外)\n③广告图片仅供参考，请以实物为准，活动详情请咨询门店工作人员。",
+   "bodyHtml": "<p class=\"js_darkmode__text__18\" style=\"text-align: center;\"><span class=\"js_darkmode__text__19\">银杏金黄，梧桐铺道，白鸽掠过澄空</span></p>\n<p class=\"js_darkmode__text__20\" style=\"text-align: center;\"><span class=\"js_darkmode__text__21\">每一帧，都是写给校园的情书</span></p>\n<p class=\"js_darkmode__text__22\" style=\"text-align: center;\"><span class=\"js_darkmode__text__23\">这一次，别只用眼睛收藏</span></p>\n<p class=\"js_darkmode__text__24\" style=\"text-align: center;\"><span class=\"js_darkmode__text__25\">拿起你的平板</span></p>\n<p class=\"js_darkmode__text__26\" style=\"text-align: center;\"><span class=\"js_darkmode__text__27\">把2026年的交大风景</span></p>\n<p class=\"js_darkmode__text__28\" style=\"text-align: center;\"><span class=\"js_darkmode__text__29\">定格成独一无二的图画记忆</span></p>\n<p class=\"js_darkmode__text__30\" style=\"text-align: center;\"><strong class=\"js_darkmode__text__31\"><span class=\"js_darkmode__text__32\">“金色梧桐·诗意交大”绘画作品征集</span></strong></p>\n<p class=\"js_darkmode__text__33\" style=\"text-align: center;\"><span class=\"js_darkmode__text__34\">正式启动</span></p>\n<p class=\"js_darkmode__text__35\" style=\"text-align: center;\"><span class=\"js_darkmode__text__36\">分享你用平板画下的交大瞬间</span></p>\n<p class=\"js_darkmode__text__37\" style=\"text-align: center;\"><span class=\"js_darkmode__text__38\">就有机会把精美礼品带回家</span></p>\n<p class=\"js_darkmode__text__37\" style=\"text-align: left;\"><span class=\"js_darkmode__text__38\" style=\"font-size: 20px;\">01 活动时间</span></p>\n<p class=\"js_darkmode__text__37\" style=\"text-align: left;\"><span class=\"js_darkmode__text__38\">    2026年11月17日——11月26日</span></p>\n<p class=\"js_darkmode__text__37\" style=\"text-align: left;\"><span style=\"font-size: 20px;\">02 创作方向</span></p>\n<p class=\"js_darkmode__text__69\"><strong class=\"js_darkmode__text__70\"><span class=\"js_darkmode__text__71\">    方向一:华为笔记</span></strong></p>\n<p class=\"js_darkmode__text__72\"><span class=\"js_darkmode__text__73\">    用华为笔记记日常笔记(如:读书笔记、旅游攻略、听课重点等)。</span></p>\n<p class=\"js_darkmode__text__74\"><strong class=\"js_darkmode__text__75\"><span class=\"js_darkmode__text__76\"><span class=\"js_darkmode__text__77\">    方向二:天生会画</span></span></strong></p>\n<p class=\"js_darkmode__text__78\"><span class=\"js_darkmode__text__79\"><span class=\"js_darkmode__text__80\">    天生会画:用天生会画画交大插画(如:画景色、画落叶、画国风等)。</span></span></p>\n<p class=\"js_darkmode__text__81\"><strong class=\"js_darkmode__text__82\"><span class=\"js_darkmode__text__83\"><span class=\"js_darkmode__text__84\">    方向三:手账创作</span></span></strong></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__86\">    用平板做艺术手账(如:贴照片、加贴纸、写日记等)。</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__86\" style=\"font-size: 20px;\">03 作品要求</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__86\">    </span><span class=\"js_darkmode__text__100\">①使用华为平板创作，上传的作品需带</span><strong class=\"js_darkmode__text__101\"><span class=\"js_darkmode__text__102\">“天生会画APP”</span></strong><span class=\"js_darkmode__text__103\">水印。</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__105\">    ②JPG/PNG格式，分辨率不低于300dpi。</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\">    ③作品需附带文字说明(作品名+一句话描述你与交大的故事)。</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span style=\"font-size: 20px;\">04 参与方式</span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\">    <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/11d4c177-ddcc-4ef9-ad1e-273273ff405a.jpeg\" alt=\"\" width=\"403\" height=\"401\"></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\">    <strong class=\"js_darkmode__text__121\"><span class=\"js_darkmode__text__122\">扫码立即参与。</span></strong><span class=\"js_darkmode__text__123\">活动期间，使用</span><strong class=\"js_darkmode__text__124\"><span class=\"js_darkmode__text__125\">华为平板</span></strong><span class=\"js_darkmode__text__126\">进行主题创作并上传</span><strong class=\"js_darkmode__text__127\"><span class=\"js_darkmode__text__128\"><span class=\"\">我的华为</span></span></strong><span class=\"js_darkmode__text__129\">征集链接，即有机会</span><strong class=\"js_darkmode__text__130\"><span class=\"js_darkmode__text__131\">赢取精美礼品</span></strong><span class=\"js_darkmode__text__132\">!</span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span class=\"js_darkmode__text__132\"><span style=\"font-size: 20px;\">05 评奖规则</span></span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span class=\"js_darkmode__text__132\">    <span class=\"js_darkmode__text__146\">创作征集基于</span><strong class=\"js_darkmode__text__147\"><span class=\"js_darkmode__text__148\">作品点赞数</span></strong><span class=\"js_darkmode__text__149\">进行评奖，奖品明细如下图：</span></span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span class=\"js_darkmode__text__132\"><span class=\"js_darkmode__text__149\">    <img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/7e5bf56f-fe3f-46a7-bae2-48751d7b1df6.jpeg\" alt=\"\" width=\"600\" height=\"240\"></span></span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span class=\"js_darkmode__text__132\"><span class=\"js_darkmode__text__149\"><span style=\"font-size: 20px;\">06 注意事项</span></span></span></span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__107\"><span class=\"js_darkmode__text__132\"><span class=\"js_darkmode__text__149\">    </span></span></span><span class=\"js_darkmode__text__163\">①实物奖品获奖用户需在获奖名单公示之日起20日内，通过【我的华为】APP-首页-热门活动-更多-本活动-公告查看获奖名单;或通过【我的华为】APP首页-右上角信息枢-消息，查看中奖通知，并点击该条获奖通知消息输入奖品收件人姓名、手机号和邮寄地址申领奖品。逾期未填写的用户将视为自动放弃获奖资格奖品不再补发。若奖品寄出后因用户个人原因导致奖品被退回，奖品不再补发。</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__165\">    ②活动奖品将在确认获奖用户收件信息之日起60个工作日内发放，活动奖品配送区域范围仅限中国大陆地区(港/澳/台地区及海外地区除外)</span></p>\n<p class=\"js_darkmode__text__85\"><span class=\"js_darkmode__text__167\">    ③广告图片仅供参考，请以实物为准，活动详情请咨询门店工作人员。</span></p>",
+   "bodyLen": 746,
+   "excerpt": "银杏金黄，梧桐铺道，白鸽掠过澄空 每一帧，都是写给校园的情书 这一次，别只用眼睛收藏 拿起你的平板 把2026年的交大风景 定格成独一无二的图画记忆 “金色梧桐·诗意交大”绘画作品征集 正式启动 分享你用平板画下的交大瞬间 就有机会把精美礼品带回家 01 活动时间 2026年11月17日——11月26日 02 创作方向 方向一:华为笔记 用华为笔记记日常笔记(如:读书笔记、旅游攻略、听课重点等)。 方向二:天生会画 天生会画:用天生会画画交大插画(如:画景色、画落叶、画国风等)。 方向三:手账创作 用平板做艺术手账(如:贴照片、加贴纸、写日记等)。 03 作品要求 ①使用华为平板创作，上传的作品需带“天生会画APP”水印。 ②JPG/PNG格式，分辨率不低于300dpi。 ③作品需附带文字说明(作品名+一句话描述你与交大的故事)。 04 参与方式 扫码立即参与。",
+   "paragraphs": [
+    "银杏金黄，梧桐铺道，白鸽掠过澄空",
+    "每一帧，都是写给校园的情书",
+    "这一次，别只用眼睛收藏",
+    "拿起你的平板",
+    "把2026年的交大风景",
+    "定格成独一无二的图画记忆",
+    "“金色梧桐·诗意交大”绘画作品征集",
+    "正式启动",
+    "分享你用平板画下的交大瞬间",
+    "就有机会把精美礼品带回家",
+    "01 活动时间",
+    "2026年11月17日——11月26日",
+    "02 创作方向",
+    "方向一:华为笔记",
+    "用华为笔记记日常笔记(如:读书笔记、旅游攻略、听课重点等)。",
+    "方向二:天生会画",
+    "天生会画:用天生会画画交大插画(如:画景色、画落叶、画国风等)。",
+    "方向三:手账创作",
+    "用平板做艺术手账(如:贴照片、加贴纸、写日记等)。",
+    "03 作品要求",
+    "①使用华为平板创作，上传的作品需带“天生会画APP”水印。",
+    "②JPG/PNG格式，分辨率不低于300dpi。",
+    "③作品需附带文字说明(作品名+一句话描述你与交大的故事)。",
+    "04 参与方式",
+    "扫码立即参与。活动期间，使用华为平板进行主题创作并上传我的华为征集链接，即有机会赢取精美礼品!",
+    "05 评奖规则",
+    "创作征集基于作品点赞数进行评奖，奖品明细如下图：",
+    "06 注意事项",
+    "①实物奖品获奖用户需在获奖名单公示之日起20日内，通过【我的华为】APP-首页-热门活动-更多-本活动-公告查看获奖名单;或通过【我的华为】APP首页-右上角信息枢-消息，查看中奖通知，并点击该条获奖通知消息输入奖品收件人姓名、手机号和邮寄地址申领奖品。逾期未填写的用户将视为自动放弃获奖资格奖品不再补发。若奖品寄出后因用户个人原因导致奖品被退回，奖品不再补发。",
+    "②活动奖品将在确认获奖用户收件信息之日起60个工作日内发放，活动奖品配送区域范围仅限中国大陆地区(港/澳/台地区及海外地区除外)",
+    "③广告图片仅供参考，请以实物为准，活动详情请咨询门店工作人员。"
+   ],
    "tables": [],
-   "blocks": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/11d4c177-ddcc-4ef9-ad1e-273273ff405a.jpeg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/7e5bf56f-fe3f-46a7-bae2-48751d7b1df6.jpeg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-23T07:47:20.067322+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+   "title": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+   "site": "校团委",
+   "date": "2026-11-21",
+   "source": "西安交通大学团委",
+   "fetchedAt": "2026-11-23T07:47:20.066744+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "1b274876d9d4d16cf3fa0f9c350dc307af13cdf238274a4e73d0fedd8c9611e5",
+   "contentParserVersion": 2,
+   "body": "西安交通大学第四十一届“最佳团日”晋级决赛答辩团支部名单\n为深入学习领会习近平总书记给四所交通大学全体师生的重要回信精神，引导广大团员青年牢记“求实学、务实业”的殷殷嘱托，传承弘扬西迁精神，厚植家国情怀，校团委组织开展西安交通大学第四十一届“最佳团日”评选活动。\n活动期间，各团支部围绕“赓续百卅西迁薪火，青春建功挺膺新程”主题，积极开展了一系列富有专业特色、紧扣时事热点的团日活动，充分展现了青年学子在强国建设、民族复兴新征程上的挺膺担当，为全面推进中国式现代化、实现中华民族伟大复兴持续贡献交大青春力量。\n经过各二级单位团组织推荐、材料审核与综合评议，共有20个本科生团支部、30个研究生团支部、4个社团团支部进入决赛答辩环节，现将入选名单公布如下：\n以上排名均不分先后\n热烈祝贺以上晋级决赛的团支部，感谢各二级单位团组织的指导支持和所有团支部的积极参与！决赛答辩具体时间地点另行通知，请各团支部提前做好准备。期待各晋级团支部在答辩舞台上展现支部特色和青春风采，让我们相聚决赛现场，共睹支部风采、共话青春担当！",
+   "bodyHtml": "<p class=\"js_darkmode__text__12\" style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong class=\"js_darkmode__text__13\"><span class=\"js_darkmode__text__14\">西安交通大学</span></strong><strong class=\"js_darkmode__text__16\"><span class=\"js_darkmode__text__17\">第四十一届“最佳团日”</span></strong><span class=\"js_darkmode__text__19\"><strong class=\"js_darkmode__text__20\"><span class=\"js_darkmode__text__21\">晋级决赛答辩团支部名单</span></strong></span></span></p>\n<p class=\"js_darkmode__text__12\" style=\"text-align: center;\"><span class=\"js_darkmode__text__19\"><strong class=\"js_darkmode__text__20\"><span class=\"js_darkmode__text__21\"><img src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/0357e8b7-7cb1-4162-b276-1a02bac18970.png\" alt=\"\" width=\"600\" height=\"256\"></span></strong></span></p>\n<section class=\"js_darkmode__text__31\">\n<section class=\"js_darkmode__5 js_darkmode__text__32\">\n<section class=\"js_darkmode__text__33\">\n<section class=\"js_darkmode__text__34\">\n<p class=\"js_darkmode__text__35\"><span class=\"js_darkmode__text__36\">    为深入学习领会习近平总书记给四所交通大学全体师生的重要回信精神，</span><strong class=\"js_darkmode__text__37\"><span class=\"js_darkmode__text__38\"><span class=\"js_darkmode__text__39\">引导广大团员青年牢记“求实学、务实业”的殷殷嘱托，传承弘扬西迁精神，厚植家国情怀</span></span></strong><span class=\"js_darkmode__text__40\">，校团委组织开展西安交通大学第四十一届“最佳团日”评选活动。</span></p>\n</section>\n</section>\n</section>\n</section>\n<section class=\"js_darkmode__text__41\">\n<section class=\"js_darkmode__6 js_darkmode__text__42\">\n<section class=\"js_darkmode__text__43\">\n<section class=\"js_darkmode__text__44\">\n<section class=\"js_darkmode__text__45\">\n<p class=\"js_darkmode__text__46\"><span class=\"js_darkmode__text__47\">    活动期间，各团支部围绕</span><strong class=\"js_darkmode__text__48\"><span class=\"js_darkmode__text__49\"><span class=\"js_darkmode__text__50\">“赓续百卅西迁薪火，青春建功挺膺新程”</span></span></strong><span class=\"js_darkmode__text__51\">主题，积极开展了一系列富有专业特色、紧扣时事热点的团日活动，充分展现了青年学子在强国建设、民族复兴新征程上的挺膺担当，为全面推进中国式现代化、实现中华民族伟大复兴持续贡献交大青春力量。</span></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section class=\"js_darkmode__text__52\">\n<section class=\"js_darkmode__text__53\">\n<section class=\"js_darkmode__text__54\">\n<section class=\"js_darkmode__text__55\">\n<section class=\"js_darkmode__text__56\">\n<section class=\"js_darkmode__text__57\">\n<section class=\"js_darkmode__text__58\">\n<section class=\"js_darkmode__text__59\">\n<section class=\"js_darkmode__7 js_darkmode__text__60\">\n<section class=\"js_darkmode__text__61\">\n<p class=\"js_darkmode__text__62\"><span class=\"js_darkmode__text__63\">    经过各二级单位团组织推荐、材料审核与综合评议，共有</span><strong class=\"js_darkmode__text__64\"><span class=\"js_darkmode__text__65\"><span class=\"js_darkmode__text__66\">20个本科生团支部、30个研究生团支部、4个社团团支部</span></span></strong><span class=\"js_darkmode__text__67\">进入决赛答辩环节，现将入选名单公布如下：</span></p>\n<p class=\"js_darkmode__text__62\"><span class=\"js_darkmode__text__67\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/4fdf7fe0-3691-4e06-8c81-6d2b7de86075.png\" alt=\"\" width=\"600\" height=\"538\"></span></p>\n<p class=\"js_darkmode__text__62\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/0defcb6f-f866-4e19-b37c-1a1928d4910f.png\" alt=\"\" width=\"600\" height=\"772\"></p>\n<p class=\"js_darkmode__text__62\" style=\"text-align: center;\"><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261122/1fca3664-6277-4a69-bab6-4f1c8e0c1852.png\" alt=\"\" width=\"600\" height=\"158\">以上排名均不分先后</p>\n<p class=\"js_darkmode__text__62\" style=\"text-align: left;\">    热烈祝贺以上晋级决赛的团支部，感谢各二级单位团组织的指导支持和所有团支部的积极参与！决赛答辩具体时间地点另行通知，请各团支部提前做好准备。期待各晋级团支部在答辩舞台上展现支部特色和青春风采，让我们相聚决赛现场，共睹支部风采、共话青春担当！</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>",
+   "bodyLen": 457,
+   "excerpt": "西安交通大学第四十一届“最佳团日”晋级决赛答辩团支部名单 为深入学习领会习近平总书记给四所交通大学全体师生的重要回信精神，引导广大团员青年牢记“求实学、务实业”的殷殷嘱托，传承弘扬西迁精神，厚植家国情怀，校团委组织开展西安交通大学第四十一届“最佳团日”评选活动。 活动期间，各团支部围绕“赓续百卅西迁薪火，青春建功挺膺新程”主题，积极开展了一系列富有专业特色、紧扣时事热点的团日活动，充分展现了青年学子在强国建设、民族复兴新征程上的挺膺担当，为全面推进中国式现代化、实现中华民族伟大复兴持续贡献交大青春力量。 经过各二级单位团组织推荐、材料审核与综合评议，共有20个本科生团支部、30个研究生团支部、4个社团团支部进入决赛答辩环节，现将入选名单公布如下： 以上排名均不分先后 热烈祝贺以上晋级决赛的团支部，感谢各二级单位团组织的指导支持和所有团支部的积极参与！决赛答辩具体时间地点另行通知，请各团支部提前做好准备。期待各晋级团支部在答辩舞台上展现支部特色和青春风采，让我们相聚决赛现场，共睹支部风采、共话青春担当！",
+   "paragraphs": [
+    "西安交通大学第四十一届“最佳团日”晋级决赛答辩团支部名单",
+    "为深入学习领会习近平总书记给四所交通大学全体师生的重要回信精神，引导广大团员青年牢记“求实学、务实业”的殷殷嘱托，传承弘扬西迁精神，厚植家国情怀，校团委组织开展西安交通大学第四十一届“最佳团日”评选活动。",
+    "活动期间，各团支部围绕“赓续百卅西迁薪火，青春建功挺膺新程”主题，积极开展了一系列富有专业特色、紧扣时事热点的团日活动，充分展现了青年学子在强国建设、民族复兴新征程上的挺膺担当，为全面推进中国式现代化、实现中华民族伟大复兴持续贡献交大青春力量。",
+    "经过各二级单位团组织推荐、材料审核与综合评议，共有20个本科生团支部、30个研究生团支部、4个社团团支部进入决赛答辩环节，现将入选名单公布如下：",
+    "以上排名均不分先后",
+    "热烈祝贺以上晋级决赛的团支部，感谢各二级单位团组织的指导支持和所有团支部的积极参与！决赛答辩具体时间地点另行通知，请各团支部提前做好准备。期待各晋级团支部在答辩舞台上展现支部特色和青春风采，让我们相聚决赛现场，共睹支部风采、共话青春担当！"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/0357e8b7-7cb1-4162-b276-1a02bac18970.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/4fdf7fe0-3691-4e06-8c81-6d2b7de86075.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/0defcb6f-f866-4e19-b37c-1a1928d4910f.png",
+     "alt": "",
+     "context": "经过各二级单位团组织推荐、材料审核与综合评议，共有20个本科生团支部、30个研究生团支部、4个社团团支部进入决赛答辩环节，现将入选名单公布如下："
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261122/1fca3664-6277-4a69-bab6-4f1c8e0c1852.png",
+     "alt": "",
+     "context": "以上排名均不分先后"
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-23T07:47:20.066744+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+   "title": "《电磁场理论》考试安排",
+   "site": "电气学院",
+   "date": "2026-11-23",
+   "source": "ee_yjs",
+   "fetchedAt": "2026-11-23T07:47:20.066278+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "d2f6de6d598b96cc1fe3a49308dcdb90160aa6644dd0395732d4a61089060aee",
+   "contentParserVersion": 2,
+   "body": "《电磁场理论》考试安排如下：\n考试时间: 12月1号(第12周的周二)下午2:00-4:30\n考试地点：创新港3-4009\n请同学们相互转告，切勿迟到！",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p>《电磁场理论》考试安排如下：</p> \r\n   <p>考试时间: 12月1号(第12周的周二)下午2:00-4:30</p> \r\n   <p>考试地点：创新港3-4009</p> \r\n   <p>请同学们相互转告，切勿迟到！</p> \r\n   <p><br style=\"white-space: normal;\"></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 76,
+   "excerpt": "《电磁场理论》考试安排如下： 考试时间: 12月1号(第12周的周二)下午2:00-4:30 考试地点：创新港3-4009 请同学们相互转告，切勿迟到！",
+   "paragraphs": [
+    "《电磁场理论》考试安排如下：",
+    "考试时间: 12月1号(第12周的周二)下午2:00-4:30",
+    "考试地点：创新港3-4009",
+    "请同学们相互转告，切勿迟到！"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    }
+   ],
    "images": [],
    "attachments": [],
    "links": [],
@@ -1032,37 +1425,327 @@
    "attempts": 1,
    "attemptHistory": [
     {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-17T08:03:32.554865+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-18T07:38:23.035956+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-19T07:35:26.922361+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:22.922854+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-21T07:18:00.979057+00:00"
-    },
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-22T06:57:34.605453+00:00"
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-23T07:47:20.066278+00:00"
     }
    ],
-   "totalAttempts": 18
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+   "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
+   "site": "教务处",
+   "date": "2026-11-23",
+   "source": "jwc",
+   "fetchedAt": "2026-11-23T07:47:20.065369+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "efc491924f90397082a190060ee3eb9ab0f0f2ec6535cd3a432b337f54f0fc12",
+   "contentParserVersion": 2,
+   "body": "由于哈尔滨工业大学国际寒期学校还有名额，现进行第二轮报名。根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：\n一、寒期学校介绍\n哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。\n二、报名要求\n1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；\n2. 品学兼优，身心健康；\n3. 德智体美劳全面发展，知识、能力、素质优良；\n4. 大二（2025级）、大三（2024级）的在籍且在校本科生；\n5. 违纪受过处分者不予报名；\n6. 课程采用英文授课，报名者须具备英语交流能力；\n7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。\n特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。\n三、报名程序\n本轮报名采用网上报名，先报先得。请各位同学于2026年11月24日9:00-11:00准时登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）→ 学生社会考试报名 → 报名申请 →2026年哈尔滨工业大学寒期学校（第二轮）。\n报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。\n请注意，电子照片涉及入校权限，需为正面、免冠、JPG格式、大小100K-1M。\n四、项目信息及注意事项\n哈尔滨工业大学2026年国际寒期学校共举办主题清单如下：\n序号\n主 题\n联系方式\n时 间\n第二轮可报人数\nA\n尔滨循踪·冰韵冰城\nliuying01@hit.edu.cn\n2026.12.14–2026.12.20\n1\nB\nAI赋能智慧交通\nxiaowei_hu@hit.edu.cn\n2026.12.14–2026.12.19\n3\n各项目详细信息见http://hitgss.hit.edu.cn/HITGWS/list.htm\n报名截止后，各主题项目负责人会直接通知学生后续报到事宜。报名学生需与项目负责人保持联系。\n（一）授课语言：英文授课。\n（二）人数：每名学生只能报名参加一个主题。\n（三）注意事项：\n1. 费用情况：免收学费、住宿费（提供备品，退寝时须归还），其他费用自理。\n2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。\n3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。\n五、联系方式\n校教务处老师 电话：82665477\n哈工大老师咨询电话：0451-86402367\n附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表\n教务处\n2026年11月23日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\"><br></span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">由于</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈尔滨工业大学国际</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">还有名额，现进行第二轮报名。</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">根据《九所首批</span><span style=\"font-family: 微软雅黑;\">“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校，</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校面向</span><span style=\"font-family: 微软雅黑;\">C9联盟本科生开放，报名通知如下：</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">一、</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校介绍</span></span></strong></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-layout-grid-mode: char; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈尔滨工业大学坐落于素有</span><span style=\"font-family: 微软雅黑;\">“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">二、报名要求</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">2. 品学兼优，身心健康；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">3. 德智体美劳全面发展，知识、能力、素质优良；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">4. </span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">大二（</span><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">5</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">级）、大三（</span><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">4</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">级）</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">的</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">在籍且在校</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">本科生；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">5. 违纪受过处分者不予报名；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6. 课程采用英文授课，报名者</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">须</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">具备</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">英语交流能力</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">；</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">为避免</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">与日常</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">教学安排冲突，报名前请务必咨询所在学院（部、中心）。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">三、报名程序</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">本</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">轮</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">报名采用网上报名，先报先得。请各位同学</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">于</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">202</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">6</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">年</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">11</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">月</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">24</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">日</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">9</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">:00-</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">11</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">:00</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">准时</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）</span><span style=\"font-family: 微软雅黑;\">→ 学生社会考试报名 → </span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">报名申请</span><span style=\"font-family: 微软雅黑;\"> →2026年哈尔滨工业大学</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">第二轮</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">）</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名成功后</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">，务必填写附件</span><span style=\"font-family: 微软雅黑;\">1报名表，并于</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">11</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">月</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">24</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">日</span><span style=\"font-family: 微软雅黑;\">1</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">4</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">:00前</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">将</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">附件</span><span style=\"font-family: 微软雅黑;\">1报名表电子版</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（以</span> <span style=\"font-family: 微软雅黑;\">姓名</span><span style=\"font-family: 微软雅黑;\">+学号+2026年哈工大</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校</span> <span style=\"font-family: 微软雅黑;\">命名）和</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">一寸电子照片</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（以</span> <span style=\"font-family: 微软雅黑;\">姓名</span><span style=\"font-family: 微软雅黑;\">+</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">身份证</span></span></strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"> <span style=\"font-family: 微软雅黑;\">命名）发送至教务处</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">老师邮箱</span><span style=\"font-family: 微软雅黑;\">yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校</span> <span style=\"font-family: 微软雅黑;\">命名。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">请注意，电子照片涉及入校权限，需为正面、免冠、</span><span style=\"font-family: 微软雅黑;\">JPG格式、大小100K-1M。</span></span></strong></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; text-indent: 2em; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">四、项目信息及注意事项</span></span></strong></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; text-indent: 2em; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈尔滨工业大学</span><span style=\"font-family: 微软雅黑;\">202</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">年国际</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校共举办</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">主题清单</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">如下：</span></span></p> \r\n   <p><br></p> \r\n   <table style=\"margin-bottom: 10px; display: table; border-collapse: collapse;\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\"> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>序号</strong></span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><strong><span style=\"font-family: 宋体;\">主</span> <span style=\"font-family: 宋体;\">题</span></strong></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>联系方式</strong></span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><strong><span style=\"font-family: 宋体;\">时</span> <span style=\"font-family: 宋体;\">间</span></strong></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>第二轮可报人数</strong></span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">A</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">尔滨循踪</span><span style=\"font-family: 宋体;\">·冰韵冰城</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(12, 12, 12); letter-spacing: -0.1pt; font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">liuying01@hit.edu.cn</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">14–</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.20</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">1</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">B</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">AI</span><span style=\"font-family: 宋体;\">赋能智慧交通</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">xiaowei_hu@hit.edu.cn</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">14–</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">19</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">3</span></span></td> \r\n     </tr> \r\n    </tbody> \r\n   </table> \r\n   <p><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\"><br></span></span></strong></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 19px; -ms-layout-grid-mode: char; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">各项目详细信息见</span><span style=\"font-family: 微软雅黑;\">http://hitgss.hit.edu.cn/HITGWS/list.htm</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名截止后，各主题项目负责</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">人</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">会直接通知学生后续报到事宜</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">。</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">报名学生需与项目负责人保持联系。</span></span></strong></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; text-indent: 2em; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（一）授课语言：英文授课</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">。</span></span></p> \r\n   <p style=\"text-align: justify; color: rgb(0, 0, 0); line-height: 37px; text-indent: 2em; font-family: calibri; font-size: 16px; font-style: normal; font-weight: normal; margin-top: 1em; margin-bottom: 1em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（二）人数：</span></span><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">每名学生只能报名参加一个</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">主题</span></span></strong><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">。</span></span></strong></p> \r\n   <p style=\"margin: 0px 0px 0px 28px; text-align: justify; line-height: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（三）</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">注意事项：</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">1</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">. </span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">费用情况：</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">免收学费、住宿费</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">（</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">提供备品，退寝时须归还</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">）</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">，其他费用自理</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">。</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">3.</span></span></strong><strong><span style=\"color: rgb(192, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名</span><span style=\"font-family: 微软雅黑;\">C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><strong><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px; font-weight: bold;\"><span style=\"font-family: 微软雅黑;\">五、联系方式</span></span></strong></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">校教务处老师</span> <span style=\"font-family: 微软雅黑;\">电话：</span><span style=\"font-family: 微软雅黑;\">82665477 </span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">哈工大老师咨询电话：</span></span><span style=\"color: rgb(13, 13, 13); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">0451-86402367</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">附件</span><span style=\"font-family: 微软雅黑;\">1：哈尔滨工业大学2026年国际</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">寒</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">期学校学生报名汇总表</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: justify; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p style=\"margin: 1em 0px; text-align: right; line-height: 37px; text-indent: 28px; -ms-text-autospace: ideograph-numeric;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">                                                              教务处</span></span></p> \r\n   <p style=\"margin: 1em 0px; text-align: right; line-height: 37px; text-indent: 0em; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">                                                                  202</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">6</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">年</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">11</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">月</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">23</span></span><span style=\"color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 19px;\"><span style=\"font-family: 微软雅黑;\">日</span></span></p> \r\n   <p style=\"text-align: justify; line-height: 37px; -ms-text-autospace: ideograph-numeric; -ms-text-justify: inter-ideograph;\"> </p> \r\n   <p><strong> </strong></p> \r\n   <p></p> \r\n  </div>",
+   "bodyLen": 1438,
+   "excerpt": "由于哈尔滨工业大学国际寒期学校还有名额，现进行第二轮报名。根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下： 一、寒期学校介绍 哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。 二、报名要求 1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录； 2. 品学兼优，身心健康； 3. 德智体美劳全面发展，知识、能力、素质优良； 4. 大二（2025级）、大三（2024级）的在籍且在校本科生； 5. 违纪受过处分者不予报名； 6. 课程采用英文授课，报名者须具备英语交流能力； 7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。",
+   "paragraphs": [
+    "由于哈尔滨工业大学国际寒期学校还有名额，现进行第二轮报名。根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+    "一、寒期学校介绍",
+    "哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。",
+    "二、报名要求",
+    "1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录；",
+    "2. 品学兼优，身心健康；",
+    "3. 德智体美劳全面发展，知识、能力、素质优良；",
+    "4. 大二（2025级）、大三（2024级）的在籍且在校本科生；",
+    "5. 违纪受过处分者不予报名；",
+    "6. 课程采用英文授课，报名者须具备英语交流能力；",
+    "7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。",
+    "特别提醒：报名前请详细阅读项目介绍要求，谨慎选择。如项目照常执行，除不可抗力因素以外，报名成功者承诺不退出项目。",
+    "三、报名程序",
+    "本轮报名采用网上报名，先报先得。请各位同学于2026年11月24日9:00-11:00准时登录西安交通大学教务处主页报名抢选。具体步骤为：登录综合教学服务平台（简称教务系统）→ 学生社会考试报名 → 报名申请 →2026年哈尔滨工业大学寒期学校（第二轮）。",
+    "报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+    "请注意，电子照片涉及入校权限，需为正面、免冠、JPG格式、大小100K-1M。",
+    "四、项目信息及注意事项",
+    "哈尔滨工业大学2026年国际寒期学校共举办主题清单如下：",
+    "各项目详细信息见http://hitgss.hit.edu.cn/HITGWS/list.htm",
+    "报名截止后，各主题项目负责人会直接通知学生后续报到事宜。报名学生需与项目负责人保持联系。",
+    "（一）授课语言：英文授课。",
+    "（二）人数：每名学生只能报名参加一个主题。",
+    "（三）注意事项：",
+    "1. 费用情况：免收学费、住宿费（提供备品，退寝时须归还），其他费用自理。",
+    "2.请假手续：出访前，学生需按我校请假办法前往书院和学院办理相关手续。",
+    "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。已成功报名其他C9暑校的学生若再次报名后续暑校将自动取消报名资格。",
+    "五、联系方式",
+    "校教务处老师 电话：82665477",
+    "哈工大老师咨询电话：0451-86402367",
+    "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表",
+    "教务处",
+    "2026年11月23日"
+   ],
+   "tables": [
+    {
+     "rows": [
+      [
+       {
+        "text": "序号",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "主 题",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "联系方式",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "时 间",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "第二轮可报人数",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "A",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "尔滨循踪·冰韵冰城",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "liuying01@hit.edu.cn",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "2026.12.14–2026.12.20",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "1",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "B",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "AI赋能智慧交通",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "xiaowei_hu@hit.edu.cn",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "2026.12.14–2026.12.19",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "3",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ]
+     ],
+     "html": "<table style=\"margin-bottom: 10px; display: table; border-collapse: collapse;\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\"> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>序号</strong></span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><strong><span style=\"font-family: 宋体;\">主</span> <span style=\"font-family: 宋体;\">题</span></strong></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>联系方式</strong></span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><strong><span style=\"font-family: 宋体;\">时</span> <span style=\"font-family: 宋体;\">间</span></strong></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 14pt; mso-spacerun: &quot;yes&quot;; mso-ansi-font-weight: bold; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: Calibri; mso-hansi-font-family: Calibri;\"><span style=\"font-family: 宋体;\"><strong>第二轮可报人数</strong></span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">A</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: 宋体;\">尔滨循踪</span><span style=\"font-family: 宋体;\">·冰韵冰城</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(12, 12, 12); letter-spacing: -0.1pt; font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">liuying01@hit.edu.cn</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">14–</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.20</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">1</span></span></td> \r\n     </tr> \r\n     <tr> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">B</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"color: rgb(0, 0, 0); font-family: 宋体; font-size: 12pt; font-style: normal; mso-spacerun: &quot;yes&quot;; mso-font-kerning: 0.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">AI</span><span style=\"font-family: 宋体;\">赋能智慧交通</span></span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-bidi-font-family: Calibri; mso-font-kerning: 1.0000pt;\">xiaowei_hu@hit.edu.cn</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">14–</span><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">2026.12.</span></span><span style=\"font-family: &quot;Times New Roman&quot;; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-fareast-font-family: 宋体; mso-font-kerning: 1.0000pt;\">19</span></td> \r\n      <td width=\"229\" valign=\"top\" style=\"padding: 5px 10px; border: 1px solid rgb(51, 51, 51); border-image: none; -ms-word-break: break-all;\"><span style=\"font-family: 宋体; font-size: 12pt; mso-spacerun: &quot;yes&quot;; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-font-kerning: 1.0000pt; mso-ascii-font-family: &quot;Times New Roman&quot;; mso-hansi-font-family: &quot;Times New Roman&quot;;\"><span style=\"font-family: Times New Roman;\">3</span></span></td> \r\n     </tr> \r\n    </tbody> \r\n   </table>"
+    }
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "table",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    }
+   ],
+   "images": [],
+   "attachments": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18629836",
+     "text": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+     "kind": "file"
+    }
+   ],
+   "links": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18629836",
+     "text": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+     "kind": "file"
+    }
+   ],
+   "contact": "",
+   "phone": "0451-86402367",
+   "email": "yiranwang@xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-23T07:47:20.065369+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4802",

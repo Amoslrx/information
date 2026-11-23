@@ -1,8 +1,62 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1284,
+  "count": 1288,
   "items": [
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/132.html",
+      "title": "2027年足式机器人挑战赛-V1.0",
+      "date": "2026-10-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/135.html",
+      "title": "2027年足式机器人挑战赛-V2.0",
+      "date": "2026-10-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
       "title": "XJTU ACM 算法竞赛校队选拔 xjtu-selection-2026-2027",
@@ -301,33 +355,6 @@
       }
     },
     {
-      "url": "https://www.robocon.org.cn/sys-nd/132.html",
-      "title": "2027年足式机器人挑战赛-V1.0",
-      "date": "2026-10-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
       "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
       "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
       "date": "2026-10-14",
@@ -409,18 +436,198 @@
       }
     },
     {
-      "url": "https://www.robocon.org.cn/sys-nd/135.html",
-      "title": "2027年足式机器人挑战赛-V2.0",
-      "date": "2026-10-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+      "title": "“金色梧桐·诗意交大” 绘画作品征集",
+      "date": "2026-11-18",
+      "contentHash": "31d536494adfdb25f37cfcfa244728ea9a06f982a4a9f8fcebc7987672065634",
+      "status": "success",
+      "error": "",
       "fields": {
         "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "contentHash": "31d536494adfdb25f37cfcfa244728ea9a06f982a4a9f8fcebc7987672065634",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
         "competitionNames": [],
         "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "https://c.huawei.com/r/s/0oi0O",
+            "raw": "https://c.huawei.com/r/s/0oi0O",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261122/11d4c177-ddcc-4ef9-ad1e-273273ff405a.jpeg",
+            "location": {
+              "type": "resource",
+              "resourceId": "6c31ffff2f51148dbbd20e7d59d22e39aadaf6f697175220adccfe7f6014c471",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 30
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "①使用华为平板创作，上传的作品需带“天生会画APP”水印。",
+            "raw": "①使用华为平板创作，上传的作品需带“天生会画APP”水印。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+            "location": {
+              "type": "body",
+              "start": 286,
+              "end": 315
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "符合创作主题和上传要求的作品 ， 通过赞评量评选获奖用户 ， 获奖礼品在活动结束后 20 个工作日内寄出",
+            "raw": "符合创作主题和上传要求的作品 ， 通过赞评量评选获奖用户 ， 获奖礼品在活动结束后 20 个工作日内寄出",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261122/7e5bf56f-fe3f-46a7-bae2-48751d7b1df6.jpeg",
+            "location": {
+              "type": "resource",
+              "resourceId": "e26140e3baff57e1176eca30d5ca4c88bfb239c4681c3d625197f01cfe81dc57",
+              "chunkId": "image-ocr",
+              "page": null,
+              "start": 51,
+              "end": 103
+            },
+            "method": "ocr",
+            "verification": "needs_review",
+            "flags": [
+              "ocr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-17",
+            "raw": "2026年11月17日——11月26日",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+            "location": {
+              "type": "body",
+              "start": 133,
+              "end": 152
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "before_publication"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月17日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-26",
+            "raw": "2026年11月17日——11月26日",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+            "location": {
+              "type": "body",
+              "start": 133,
+              "end": 152
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月26日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+      "title": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+      "date": "2026-11-21",
+      "contentHash": "4668818cd87109c99b394919697ca34a2d18951c9a3afe7a258298245e0b4d03",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "4668818cd87109c99b394919697ca34a2d18951c9a3afe7a258298245e0b4d03",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+        "competitionNames": [],
+        "editions": [
+          {
+            "value": "第四十一届",
+            "raw": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 32
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "第四十一届",
+            "raw": "第四十一届 “ 最佳团日 ”本科生团支部晋级决赛名单",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261122/4fdf7fe0-3691-4e06-8c81-6d2b7de86075.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "78113b06b1b29db01917a87e7f9b7d81da63eaf9f550c05786edb79746e8b52a",
+              "chunkId": "image-ocr",
+              "page": null,
+              "start": 0,
+              "end": 26
+            },
+            "method": "ocr",
+            "verification": "needs_review",
+            "flags": [
+              "ocr_requires_review"
+            ],
+            "trackId": null
+          },
+          {
+            "value": "第四十一届",
+            "raw": "第四十一届 “ 最佳团日 ”研究生团支部晋级决赛名单",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261122/0defcb6f-f866-4e19-b37c-1a1928d4910f.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "0f143647339c82b0091329dfefb565e2aaabb725a8d0f89b5352a7bd37c8776b",
+              "chunkId": "image-ocr",
+              "page": null,
+              "start": 0,
+              "end": 26
+            },
+            "method": "ocr",
+            "verification": "needs_review",
+            "flags": [
+              "ocr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
         "audiences": [],
         "tracks": [],
         "registrationMethods": [],
@@ -428,6 +635,343 @@
         "requiredMaterials": [],
         "timeline": [],
         "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+      "title": "《电磁场理论》考试安排",
+      "date": "2026-11-23",
+      "contentHash": "d2f6de6d598b96cc1fe3a49308dcdb90160aa6644dd0395732d4a61089060aee",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "d2f6de6d598b96cc1fe3a49308dcdb90160aa6644dd0395732d4a61089060aee",
+        "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-12-01",
+            "raw": "考试时间: 12月1号(第12周的周二)下午2:00-4:30",
+            "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+            "location": {
+              "type": "body",
+              "start": 15,
+              "end": 46
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月1",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
+      "date": "2026-11-23",
+      "contentHash": "c9a309f224a6fe8f2ec62a8cb8243f0c5bb743971a21061ee2a83a874a9d745f",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "c9a309f224a6fe8f2ec62a8cb8243f0c5bb743971a21061ee2a83a874a9d745f",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+            "raw": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下：",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 29,
+              "end": 110
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "raw": "报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 688,
+              "end": 828
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "raw": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 1261,
+              "end": 1309
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [
+          {
+            "value": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18629836",
+            "raw": "附件1：哈尔滨工业大学2026年国际寒期学校学生报名汇总表.xls",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "link",
+              "url": "https://jwc.xjtu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1968706210&wbfileid=18629836"
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "raw": "3.若在教务系统报名截止后因个人原因退出，包括未按时提交报名表的，后续再报名C9暑校将不予推荐。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 1261,
+              "end": 1309
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-24",
+            "raw": "请各位同学于2026年11月24日9:00-11:00准时登录西安交通大学教务处主页报名抢选。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 575,
+              "end": 622
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "09:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月24日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-24",
+            "raw": "报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 688,
+              "end": 828
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "submission",
+            "time": "14:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月24日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-14",
+            "raw": "2026.12.14–2026.12.20",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 967,
+              "end": 988
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.14",
+            "endDate": "2026-12-20",
+            "superseded": false
+          },
+          {
+            "value": "2026-12-20",
+            "raw": "2026.12.14–2026.12.20",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 967,
+              "end": 988
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.20",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-14",
+            "raw": "2026.12.14–2026.12.19",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 1024,
+              "end": 1045
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "date_range"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.14",
+            "endDate": "2026-12-19",
+            "superseded": false
+          },
+          {
+            "value": "2026-12-19",
+            "raw": "2026.12.14–2026.12.19",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 1024,
+              "end": 1045
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "range_endpoint"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026.12.19",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-23",
+            "raw": "2026年11月23日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+            "location": {
+              "type": "body",
+              "start": 1427,
+              "end": 1438
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月23日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "校教务处老师",
+              "raw": "校教务处老师 电话：82665477",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+              "location": {
+                "type": "body",
+                "start": 1350,
+                "end": 1368
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "82665477",
+                "raw": "校教务处老师 电话：82665477",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+                "location": {
+                  "type": "body",
+                  "start": 1350,
+                  "end": 1368
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
         "groups": [],
         "model": {
           "status": "disabled",

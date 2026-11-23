@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1284,
+  "count": 1288,
   "with_deadline": 178,
   "items": [
     {
@@ -58148,6 +58148,42 @@
       "snippet": "根据《西安交通大学博士研究生资格考核实施办法（试行）》（西交研[2019]151号）、《西安交通大学学术型硕士博士贯通式培养实施办法》（西交研[2017]93号）及《西安交通大学电气学院博士研究生资格考核实施细则http://ee.xjtu.edu.cn/info/1124/11310.htm》的要求，本次电气学院博士生资格考核安排如下： 一、申请条件 参加资格考核的研二硕士研究生应满足基本条件如下： 1.贯通培养的硕士研究生应完成硕博贯通培养计划中的课程学习（不含博士阶段思政课）并成绩合格，具有强烈科研意愿，已开展一定的科研工作。 2.未进入硕博贯通培养的硕士研究生申请参加资格考核前，应完成所报考学科学术型硕士研究生贯通培养方案所要求课程且成绩合格，并满足学院资格考核要求。 3.参加专业学位博士资格考核的专业学位硕士应完成专业学位硕士培养方案中的课程学习且成绩合格，具有强烈的科研意愿，并有一定专业实践训练。 4.本次资格考核主要面向本院25级硕士研究生。 二、网上报名 时间：2026年11月10日-11月17日。"
     },
     {
+      "url": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+      "title": "《电磁场理论》考试安排",
+      "noticeDate": "2026-11-23",
+      "contentHash": "d2f6de6d598b96cc1fe3a49308dcdb90160aa6644dd0395732d4a61089060aee",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-12-01",
+          "raw": "考试时间: 12月1号(第12周的周二)下午2:00-4:30",
+          "sourceUrl": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+          "location": {
+            "type": "body",
+            "start": 15,
+            "end": 46
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月1",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 76,
+      "snippet": "《电磁场理论》考试安排如下： 考试时间: 12月1号(第12周的周二)下午2:00-4:30 考试地点：创新港3-4009 请同学们相互转告，切勿迟到！"
+    },
+    {
       "url": "https://ee.xjtu.edu.cn/info/1420/14652.htm",
       "title": "",
       "noticeDate": "",
@@ -88388,6 +88424,170 @@
       ],
       "bodyLen": 1466,
       "snippet": "根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下： 一、寒期学校介绍 哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。 二、报名要求 1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录； 2. 品学兼优，身心健康； 3. 德智体美劳全面发展，知识、能力、素质优良； 4. 大二（2025级）、大三（2024级）的在籍且在校本科生； 5. 违纪受过处分者不予报名； 6. 课程采用英文授课，报名者须具备英语交流能力； 7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。为避免与日常教学安排冲突，报名前请务必咨询所在学院（部、中心）。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
+      "noticeDate": "2026-11-23",
+      "contentHash": "c9a309f224a6fe8f2ec62a8cb8243f0c5bb743971a21061ee2a83a874a9d745f",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-24",
+          "raw": "请各位同学于2026年11月24日9:00-11:00准时登录西安交通大学教务处主页报名抢选。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 575,
+            "end": 622
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "09:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月24日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-24",
+          "raw": "报名成功后，务必填写附件1报名表，并于11月24日14:00前将附件1报名表电子版（以 姓名+学号+2026年哈工大寒校 命名）和一寸电子照片（以 姓名+身份证 命名）发送至教务处老师邮箱yiranwang@xjtu.edu.cn，邮件以 姓名+学号+2026年哈工大寒校 命名。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 688,
+            "end": 828
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "submission",
+          "time": "14:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月24日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-14",
+          "raw": "2026.12.14–2026.12.20",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 967,
+            "end": 988
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.14",
+          "endDate": "2026-12-20",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-20",
+          "raw": "2026.12.14–2026.12.20",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 967,
+            "end": 988
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.20",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-14",
+          "raw": "2026.12.14–2026.12.19",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 1024,
+            "end": 1045
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "date_range"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.14",
+          "endDate": "2026-12-19",
+          "superseded": false
+        },
+        {
+          "value": "2026-12-19",
+          "raw": "2026.12.14–2026.12.19",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 1024,
+            "end": 1045
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "range_endpoint"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026.12.19",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-23",
+          "raw": "2026年11月23日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+          "location": {
+            "type": "body",
+            "start": 1427,
+            "end": 1438
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月23日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 1438,
+      "snippet": "由于哈尔滨工业大学国际寒期学校还有名额，现进行第二轮报名。根据《九所首批“985工程”建设高等学校人才培养合作与交流协议书》相关内容，哈尔滨工业大学将举办2026年寒期学校，寒期学校面向C9联盟本科生开放，报名通知如下： 一、寒期学校介绍 哈尔滨工业大学坐落于素有“冰城夏都”之称的哈尔滨市，冬季冰雪特色鲜明、学术氛围浓厚。2026年秋季学期，学校将继续举办主题多样、特色鲜明的国际寒期学校，联合各领域国际知名教授讲授专业前沿知识，与来自国内外的优秀本科生共同探究学术前沿问题，在专业热门领域开展探讨交流与合作创新。 二、报名要求 1. 热爱社会主义祖国，具有良好的政治素质，无违法违纪记录； 2. 品学兼优，身心健康； 3. 德智体美劳全面发展，知识、能力、素质优良； 4. 大二（2025级）、大三（2024级）的在籍且在校本科生； 5. 违纪受过处分者不予报名； 6. 课程采用英文授课，报名者须具备英语交流能力； 7. 其它条件请参考项目具体要求，请务必详细了解项目情况、并根据自己的学业安排进行统筹规划后再行申请。"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1097/3445.htm",
@@ -144560,6 +144760,77 @@
       ],
       "bodyLen": 1573,
       "snippet": "为进一步贯彻落实《高等学校实验室安全规范》要求，提升实验室安全网格员隐患识别、隐患上报和隐患整改能力，11月6日，实验室安全网格员安全讲座在2-6004举行。活动面向2号巨构实验室学生网格员、硕博新生及相关人员开展，围绕机械工程学院、航天航空学院实验室安全管理实际，进行专项化、针对性培训，引导学生网格员做到“会识别、会记录、会上报”。 01 开场动员：明晰网格职责，筑牢安全防线 活动伊始，机械工程学院裴珮老师为本次讲座致辞，阐明本次安全培训的重要意义，指出实验室安全是教学科研工作顺利开展的重要底线和前提，网格员是实验室安全责任体系中的重要力量。随后，裴珮老师对在场网格员提出学习与工作要求，希望大家认真听讲、主动思考，熟悉实验室安全规范、巡查要点和应急处置流程，明确自身职责，在日常巡查中做到发现问题及时上报、推动整改闭环，切实发挥宣传、提醒和监督作用。最后，她勉励各位同学珍惜培训机会，端正学习态度，把培训所学转化为实际工作能力，做到学以致用，切实扛起实验室安全巡查责任，共同维护安全、稳定、有序的实验环境。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+      "title": "“金色梧桐·诗意交大” 绘画作品征集",
+      "noticeDate": "2026-11-18",
+      "contentHash": "31d536494adfdb25f37cfcfa244728ea9a06f982a4a9f8fcebc7987672065634",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-11-17",
+          "raw": "2026年11月17日——11月26日",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+          "location": {
+            "type": "body",
+            "start": 133,
+            "end": 152
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "before_publication"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月17日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-26",
+          "raw": "2026年11月17日——11月26日",
+          "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+          "location": {
+            "type": "body",
+            "start": 133,
+            "end": 152
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月26日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 746,
+      "snippet": "银杏金黄，梧桐铺道，白鸽掠过澄空 每一帧，都是写给校园的情书 这一次，别只用眼睛收藏 拿起你的平板 把2026年的交大风景 定格成独一无二的图画记忆 “金色梧桐·诗意交大”绘画作品征集 正式启动 分享你用平板画下的交大瞬间 就有机会把精美礼品带回家 01 活动时间 2026年11月17日——11月26日 02 创作方向 方向一:华为笔记 用华为笔记记日常笔记(如:读书笔记、旅游攻略、听课重点等)。 方向二:天生会画 天生会画:用天生会画画交大插画(如:画景色、画落叶、画国风等)。 方向三:手账创作 用平板做艺术手账(如:贴照片、加贴纸、写日记等)。 03 作品要求 ①使用华为平板创作，上传的作品需带“天生会画APP”水印。 ②JPG/PNG格式，分辨率不低于300dpi。 ③作品需附带文字说明(作品名+一句话描述你与交大的故事)。 04 参与方式 扫码立即参与。"
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+      "title": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+      "noticeDate": "2026-11-21",
+      "contentHash": "4668818cd87109c99b394919697ca34a2d18951c9a3afe7a258298245e0b4d03",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [],
+      "bodyLen": 457,
+      "snippet": "西安交通大学第四十一届“最佳团日”晋级决赛答辩团支部名单 为深入学习领会习近平总书记给四所交通大学全体师生的重要回信精神，引导广大团员青年牢记“求实学、务实业”的殷殷嘱托，传承弘扬西迁精神，厚植家国情怀，校团委组织开展西安交通大学第四十一届“最佳团日”评选活动。 活动期间，各团支部围绕“赓续百卅西迁薪火，青春建功挺膺新程”主题，积极开展了一系列富有专业特色、紧扣时事热点的团日活动，充分展现了青年学子在强国建设、民族复兴新征程上的挺膺担当，为全面推进中国式现代化、实现中华民族伟大复兴持续贡献交大青春力量。 经过各二级单位团组织推荐、材料审核与综合评议，共有20个本科生团支部、30个研究生团支部、4个社团团支部进入决赛答辩环节，现将入选名单公布如下： 以上排名均不分先后 热烈祝贺以上晋级决赛的团支部，感谢各二级单位团组织的指导支持和所有团支部的积极参与！决赛答辩具体时间地点另行通知，请各团支部提前做好准备。期待各晋级团支部在答辩舞台上展现支部特色和青春风采，让我们相聚决赛现场，共睹支部风采、共话青春担当！"
     },
     {
       "url": "https://tuanwei.xjtu.edu.cn/passage?id=51",

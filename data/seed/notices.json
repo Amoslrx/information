@@ -180,14 +180,14 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2421,
+  "count": 2425,
   "matched_count": 535,
-  "competition_related_count": 883,
+  "competition_related_count": 885,
   "by_site": {
-    "教务处": 529,
-    "校团委": 1041,
+    "教务处": 530,
+    "电气学院": 227,
+    "校团委": 1043,
     "能动学院": 69,
-    "电气学院": 226,
     "实践教学中心": 401,
     "RoboMaster官网": 26,
     "ROBOCON官网": 14,
@@ -201,8 +201,8 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
-    "教务处": 175,
-    "校团委": 205,
+    "教务处": 176,
+    "校团委": 206,
     "实践教学中心": 331,
     "电气学院": 22,
     "RoboMaster官网": 10,
@@ -217,6 +217,39 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-23",
+      "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
+      "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
+    {
+      "date": "2026-11-23",
+      "title": "《电磁场理论》考试安排",
+      "url": "https://ee.xjtu.edu.cn/info/1383/16011.htm",
+      "source": "ee_yjs",
+      "site": "电气学院",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-21",
+      "title": "团建 · 通知 | 第四十一届“最佳团日”晋级决赛答辩团支部名单",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4805",
+      "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
     {
       "date": "2026-11-19",
       "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知",
@@ -245,6 +278,17 @@
       "url": "https://jwc.xjtu.edu.cn/info/1093/10661.htm",
       "source": "jwc_kcap",
       "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-18",
+      "title": "“金色梧桐·诗意交大” 绘画作品征集",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4804",
+      "source": "tuanwei_act",
+      "site": "校团委",
       "competition": "",
       "moe_no": "",
       "matched_keyword": "",
