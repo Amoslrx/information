@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1288,
+  "count": 1289,
   "with_deadline": 178,
   "items": [
     {
@@ -95490,6 +95490,212 @@
       ],
       "bodyLen": 423,
       "snippet": "2026年下半年全国大学英语四六级口语考试将于2026年11月21至22日举行，为了确保考试顺利进行，西安交通大学考点提醒广大考生注意以下相关事项： 1.11月17日起，考生须自行登录CET报名系统（cet-bm.neea.edu.cn）下载并打印准考证。 2.考试当天，考生须按准考证规定的考试时间提前60分钟到达考点，凭身份证、纸质版准考证进入考点及考场。（请提前备好纸质准考证，考试场所附近无打印设备。） 3.迟到考生禁止入场。 4.外校考生可从西安交通大学南门、东南门、北门、西门凭身份证、纸质版准考证进入学校。 5.考生进入考试楼时须听从考试工作人员指挥，排队并出示身份证、纸质版准考证，配合工作人员完成身份核验，而后按照指引候考。 6.考试结束后考生离开考场不得拥挤，不得在楼道内聚集，不得大声喧哗，有序及时离场。 7.考试地点：西安交通大学逸夫外文楼（B座），如图所示（考生可导航前往）： 外国语学院 教务处 2026年11月11日"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "title": "2026年12月全国大学英语四、六级预测考试报名通知",
+      "noticeDate": "2026-11-24",
+      "contentHash": "53718e57fc0c2ae16596461f7905ecca8e7228de508f9f6f3dae0e48873f8a29",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-12-12",
+          "raw": "2026年12月12日将进行全国大学外语四、六级考试。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 0,
+            "end": 27
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-02",
+          "raw": "已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 27,
+            "end": 103
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月2日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-12",
+          "raw": "报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 148,
+            "end": 191
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-24",
+          "raw": "报名时间为11月24日18:00到11月27日14:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 274,
+            "end": 303
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "18:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月24日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-27",
+          "raw": "报名时间为11月24日18:00到11月27日14:00。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 274,
+            "end": 303
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": "14:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月27日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-12",
+          "raw": "（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 435,
+            "end": 470
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月12日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-01",
+          "raw": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 470,
+            "end": 515
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "12月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-30",
+          "raw": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 599,
+            "end": 633
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "11月30日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-24",
+          "raw": "2026年11月24日",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+          "location": {
+            "type": "body",
+            "start": 668,
+            "end": 679
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月24日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 679,
+      "snippet": "2026年12月12日将进行全国大学外语四、六级考试。已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。预测考试题型仅包括对应正式考试的客观题部分，考试地点为兴庆校区外文楼A座。 一、报名条件 报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。 预测考试不收取任何费用，考生自愿报名参加，名额有限，先报先得。考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。 二、报名时间和方式 报名时间为11月24日18:00到11月27日14:00。 报名采用网上报名方式： 四级报名链接为https://www.wjx.top/m/89488523.aspx# 也可以扫二维码报名 六级报名链接为https://www.wjx.top/m/89486022.aspx# 也可以扫二维码报名 三、预测考试注意事项 （一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1171/7723.htm",

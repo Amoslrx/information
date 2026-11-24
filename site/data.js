@@ -1,20 +1,20 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-23 15:50
+// 生成时间: 2026-11-24 18:04
 window.SITE_DATA = {
- "generatedAt": "2026-11-23 15:50",
+ "generatedAt": "2026-11-24 18:04",
  "stats": {
   "competitions": 94,
-  "notices": 2425,
+  "notices": 2426,
   "noticesMatched": 535,
-  "noticesCompetition": 885,
+  "noticesCompetition": 886,
   "noticesCampus": 146,
   "noticesWithDeadline": 178,
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-23",
+  "today": "2026-11-24",
   "noticeFrom": "2003-12-19",
-  "noticeTo": "2026-11-23",
+  "noticeTo": "2026-11-24",
   "eeDist": {
    "5": 10,
    "4": 10,
@@ -30,27 +30,27 @@ window.SITE_DATA = {
    "C类": 8
   },
   "noticeCat": {
+   "等级考试": 65,
    "其他": 876,
    "教学信息": 298,
    "思政学习": 107,
    "文体竞赛": 64,
    "学科竞赛": 808,
-   "社会实践": 208,
-   "等级考试": 64
+   "社会实践": 208
   },
   "noticeGroup": {
+   "学科竞赛": 873,
    "其他": 876,
    "教学信息": 298,
    "思政学习": 107,
    "文体竞赛": 64,
-   "学科竞赛": 872,
    "社会实践": 208
   },
   "withUrl": 83,
   "xjtuKnown": 27,
   "crawledPages": 106,
   "bySite": {
-   "教务处": 530,
+   "教务处": 531,
    "电气学院": 227,
    "校团委": 1043,
    "能动学院": 69,
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 20,
+    "total": 17,
     "byStatus": {
-     "success": 4,
+     "success": 1,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:27.585420+00:00",
+        "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:27.585420+00:00",
+      "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:48.901511+00:00",
+        "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:22.052226+00:00",
+        "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:22.247751+00:00",
+        "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:51.166539+00:00",
+        "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:48.901511+00:00",
+      "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:22.052226+00:00",
+      "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:22.247751+00:00",
+      "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:51.166539+00:00",
+      "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-23T07:47:48.901511+00:00",
+    "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:40.627080+00:00",
+        "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:40.627080+00:00",
+      "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:25.595411+00:00",
+        "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:25.595411+00:00",
+      "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:31.722668+00:00",
+        "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:37.567696+00:00",
+        "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:38.400209+00:00",
+        "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:28.172990+00:00",
+        "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:33.563688+00:00",
+        "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-23T07:47:36.341508+00:00",
+        "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:28.172990+00:00",
+      "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:31.722668+00:00",
+      "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:33.563688+00:00",
+      "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:36.341508+00:00",
+      "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:37.567696+00:00",
+      "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-23T07:47:38.400209+00:00",
+      "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -239617,6 +239617,636 @@ window.SITE_DATA = {
  ],
  "notices": [
   {
+   "title": "2026年12月全国大学英语四、六级预测考试报名通知",
+   "date": "2026-11-24",
+   "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "sourceLabel": "教务处",
+   "dateUnavailableReason": "",
+   "isCompetition": true,
+   "isCampus": false,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "等级考试",
+   "group": "学科竞赛",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-24T10:01:48.480890+00:00",
+   "identitySources": [],
+   "noticeReferences": [
+    {
+     "value": "https://www.wjx.top/m/89488523.aspx",
+     "raw": "https://www.wjx.top/m/89488523.aspx#",
+     "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+     "location": {
+      "type": "link",
+      "url": "https://www.wjx.top/m/89488523.aspx"
+     },
+     "method": "rule",
+     "verification": "source_matched",
+     "flags": [],
+     "trackId": null
+    },
+    {
+     "value": "https://www.wjx.top/m/89486022.aspx",
+     "raw": "https://www.wjx.top/m/89486022.aspx#",
+     "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+     "location": {
+      "type": "link",
+      "url": "https://www.wjx.top/m/89486022.aspx"
+     },
+     "method": "rule",
+     "verification": "source_matched",
+     "flags": [],
+     "trackId": null
+    }
+   ],
+   "resourceHints": [
+    {
+     "kind": "image",
+     "url": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "registrationMethods",
+      "registrationLinks"
+     ],
+     "evidence": {
+      "value": "也可以扫二维码报名",
+      "raw": "也可以扫二维码报名",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 360,
+       "end": 369
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "kind": "image",
+     "url": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "registrationMethods",
+      "registrationLinks"
+     ],
+     "evidence": {
+      "value": "也可以扫二维码报名",
+      "raw": "也可以扫二维码报名",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 360,
+       "end": 369
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "excerpt": "2026年12月12日将进行全国大学外语四、六级考试。已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。预测考试题型仅包括对应正式考试的客观题部分，考试地点为兴庆校区外文楼A座。\n一、报名条件\n报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。\n预测考试不收取任何费用，考生自愿报名参加，名额有限，先报先得。考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。\n二、报名时间和方式\n报名时间为11月24日18:00到11月27日14:00。\n报名采用网上报名方式：\n四级报名链接为https://www.wjx.top/m/89488523.aspx#\n也可以扫二维码报名\n六级报名链接为https://www.wjx.top/m/89486022.aspx#\n也可以扫二维码报名\n三、预测考试注意事项\n（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。（请12月1日起登录…",
+   "excerptEvidence": {
+    "value": "2026年12月12日将进行全国大学外语四、六级考试。已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。预测考试题型仅包括对应正式考试的客观题部分，考试地点为兴庆校区外文楼A座。\n一、报名条件\n报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。\n预测考试不收取任何费用，考生自愿报名参加，名额有限，先报先得。考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。\n二、报名时间和方式\n报名时间为11月24日18:00到11月27日14:00。\n报名采用网上报名方式：\n四级报名链接为https://www.wjx.top/m/89488523.aspx#\n也可以扫二维码报名\n六级报名链接为https://www.wjx.top/m/89486022.aspx#\n也可以扫二维码报名\n三、预测考试注意事项\n（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。（请12月1日起登录",
+    "raw": "2026年12月12日将进行全国大学外语四、六级考试。已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。预测考试题型仅包括对应正式考试的客观题部分，考试地点为兴庆校区外文楼A座。\n一、报名条件\n报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。\n预测考试不收取任何费用，考生自愿报名参加，名额有限，先报先得。考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。\n二、报名时间和方式\n报名时间为11月24日18:00到11月27日14:00。\n报名采用网上报名方式：\n四级报名链接为https://www.wjx.top/m/89488523.aspx#\n也可以扫二维码报名\n六级报名链接为https://www.wjx.top/m/89486022.aspx#\n也可以扫二维码报名\n三、预测考试注意事项\n（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。（请12月1日起登录",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [
+    {
+     "url": "https://www.wjx.top/m/89488523.aspx",
+     "text": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.wjx.top/m/89488523.aspx",
+      "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 316,
+       "end": 359
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://www.wjx.top/m/89486022.aspx",
+     "text": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.wjx.top/m/89486022.aspx",
+      "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 370,
+       "end": 413
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://www.wjx.top/m/89488523.aspx#",
+     "text": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.wjx.top/m/89488523.aspx#",
+      "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 316,
+       "end": 359
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://www.wjx.top/m/89486022.aspx#",
+     "text": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.wjx.top/m/89486022.aspx#",
+      "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 370,
+       "end": 413
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "53718e57fc0c2ae16596461f7905ecca8e7228de508f9f6f3dae0e48873f8a29",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+    "competitionNames": [],
+    "editions": [],
+    "audiences": [],
+    "tracks": [],
+    "registrationMethods": [
+     {
+      "value": "考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。",
+      "raw": "考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 223,
+       "end": 263
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "报名采用网上报名方式：",
+      "raw": "报名采用网上报名方式：",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 304,
+       "end": 315
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+      "raw": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 470,
+       "end": 515
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+      "raw": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 599,
+       "end": 633
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "registrationLinks": [
+     {
+      "value": "https://www.wjx.top/m/89488523.aspx",
+      "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 316,
+       "end": 359
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.wjx.top/m/89486022.aspx",
+      "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 370,
+       "end": 413
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.wjx.top/m/89488523.aspx#",
+      "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 316,
+       "end": 359
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.wjx.top/m/89486022.aspx#",
+      "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 370,
+       "end": 413
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.wjx.top/m/89488523.aspx",
+      "raw": "https://www.wjx.top/m/89488523.aspx",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+      "location": {
+       "type": "resource",
+       "resourceId": "853463b2b2829d55aa7c4a8ea599b1a196666a2943c34f06d0c9c5e4504c71dd",
+       "chunkId": "image-qr-0",
+       "page": null,
+       "start": 0,
+       "end": 35
+      },
+      "method": "qr",
+      "verification": "needs_review",
+      "flags": [
+       "qr_purpose_unverified",
+       "qr_requires_review"
+      ],
+      "trackId": null
+     },
+     {
+      "value": "https://www.wjx.top/m/89486022.aspx",
+      "raw": "https://www.wjx.top/m/89486022.aspx",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+      "location": {
+       "type": "resource",
+       "resourceId": "0973f9aa6276fa0f40e2894362f1ddc3e1e1d7e16f710f0ffa64273809805a7e",
+       "chunkId": "image-qr-0",
+       "page": null,
+       "start": 0,
+       "end": 35
+      },
+      "method": "qr",
+      "verification": "needs_review",
+      "flags": [
+       "qr_purpose_unverified",
+       "qr_requires_review"
+      ],
+      "trackId": null
+     }
+    ],
+    "requiredMaterials": [],
+    "timeline": [
+     {
+      "value": "2026-12-12",
+      "raw": "2026年12月12日将进行全国大学外语四、六级考试。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 0,
+       "end": 27
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年12月12日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-02",
+      "raw": "已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 27,
+       "end": 103
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年12月2日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-12",
+      "raw": "报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 148,
+       "end": 191
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "12月12日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-24",
+      "raw": "报名时间为11月24日18:00到11月27日14:00。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 274,
+       "end": 303
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": "18:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "11月24日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-27",
+      "raw": "报名时间为11月24日18:00到11月27日14:00。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 274,
+       "end": 303
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": "14:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "11月27日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-12",
+      "raw": "（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 435,
+       "end": 470
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "12月12日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-01",
+      "raw": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 470,
+       "end": 515
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "12月1日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-30",
+      "raw": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 599,
+       "end": 633
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "11月30日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-24",
+      "raw": "2026年11月24日",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "location": {
+       "type": "body",
+       "start": 668,
+       "end": 679
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年11月24日",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [
+     {
+      "name": {
+       "value": "俞老师",
+       "raw": "（五）报名咨询电话：82663962 俞老师。",
+       "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+       "location": {
+        "type": "body",
+        "start": 634,
+        "end": 657
+       },
+       "method": "rule",
+       "verification": "source_matched",
+       "flags": [],
+       "trackId": null
+      },
+      "phones": [],
+      "emails": [],
+      "qq": [],
+      "trackId": null
+     }
+    ],
+    "groups": [],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [
+    {
+     "id": "853463b2b2829d55aa7c4a8ea599b1a196666a2943c34f06d0c9c5e4504c71dd",
+     "url": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/29a41a60f36d08d0dbcd69f3dd7c8142962c14b5fd8e8bb1ae380373d1aad072.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "success"
+      }
+     ]
+    },
+    {
+     "id": "0973f9aa6276fa0f40e2894362f1ddc3e1e1d7e16f710f0ffa64273809805a7e",
+     "url": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/1e11c43bcddb7e5fbd02d00d3b541e86d4a19004fc6ef784aa97dc70ef378bd4.jpg",
+       "ocrStatus": "empty",
+       "qrStatus": "success"
+      }
+     ]
+    }
+   ],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+   "repostSources": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+     "date": "2026-11-24",
+     "sourceLabel": "教务处"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
    "title": "关于2026年C9哈尔滨工业大学国际寒期学校报名的通知（第二轮）",
    "date": "2026-11-23",
    "url": "https://jwc.xjtu.edu.cn/info/1097/10674.htm",
@@ -259616,7 +260246,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:48.901511+00:00",
+   "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -261886,7 +262516,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:22.052226+00:00",
+   "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -264740,7 +265370,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:22.247751+00:00",
+   "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -280754,7 +281384,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-23T07:47:22.387354+00:00",
+   "fetchedAt": "2026-11-24T10:01:49.725024+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -285635,7 +286265,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:51.166539+00:00",
+   "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -441660,7 +442290,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:25.595411+00:00",
+   "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -535269,7 +535899,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-23T07:47:26.590547+00:00",
+   "fetchedAt": "2026-11-24T10:01:49.967459+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -564365,7 +564995,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:27.585420+00:00",
+   "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -664204,7 +664834,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:28.172990+00:00",
+   "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -673224,7 +673854,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:31.722668+00:00",
+   "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -699576,7 +700206,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:33.563688+00:00",
+   "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -704793,7 +705423,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:36.341508+00:00",
+   "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -707866,7 +708496,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:37.567696+00:00",
+   "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -722344,7 +722974,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:38.400209+00:00",
+   "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -806742,7 +807372,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-23T07:47:39.596703+00:00",
+   "fetchedAt": "2026-11-24T10:01:55.191224+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -807883,7 +808513,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-23T07:47:40.627080+00:00",
+   "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -807954,7 +808584,7 @@ window.SITE_DATA = {
   "8": 100,
   "9": 222,
   "10": 226,
-  "11": 200,
+  "11": 201,
   "12": 160
  },
  "cadenceCount": 50,

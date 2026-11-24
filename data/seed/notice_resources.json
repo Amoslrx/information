@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 100,
+  "count": 102,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -16045,7 +16045,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:21.856870+00:00",
+      "fetchedAt": "2026-11-24T10:02:30.772762+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:unexpected_html_instead_of_resource",
@@ -20037,7 +20037,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:47:56.413095+00:00",
+      "fetchedAt": "2026-11-24T10:02:06.140623+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -20106,7 +20106,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:47:58.439071+00:00",
+      "fetchedAt": "2026-11-24T10:02:08.398979+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -21044,7 +21044,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:00.850532+00:00",
+      "fetchedAt": "2026-11-24T10:02:11.082001+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -21210,7 +21210,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:05.573396+00:00",
+      "fetchedAt": "2026-11-24T10:02:14.392768+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -23756,7 +23756,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:09.409625+00:00",
+      "fetchedAt": "2026-11-24T10:02:19.480365+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -27282,7 +27282,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:16.780101+00:00",
+      "fetchedAt": "2026-11-24T10:02:25.979244+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -28034,12 +28034,150 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-23T07:48:20.000731+00:00",
+      "fetchedAt": "2026-11-24T10:02:29.645820+00:00",
       "downloadStatus": "failed",
       "status": "failed",
       "error": "ValueError:captcha_required: open original link and import the downloaded file",
       "chunks": [],
       "images": []
+    },
+    {
+      "id": "853463b2b2829d55aa7c4a8ea599b1a196666a2943c34f06d0c9c5e4504c71dd",
+      "url": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "kind": "image",
+      "name": "",
+      "context": "也可以扫二维码报名",
+      "noticeBodyHash": "1bd59a0d481ed1a819da887d5c26289809e0c5c3ed3afcabc9ee293c8310de3a",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-24T10:02:01.535548+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://www.wjx.top/m/89488523.aspx",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/85060dfa93cbf25a9bf7ac863795c1a9d01a9fd2f59fd392582c14a56b633f09/image.jpg",
+          "textHash": "2ab429eddff9a6fa35173904b7217495e20c6203f24421e7fd971e5534d148e3",
+          "previewUrl": "media/29a41a60f36d08d0dbcd69f3dd7c8142962c14b5fd8e8bb1ae380373d1aad072.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/85060dfa93cbf25a9bf7ac863795c1a9d01a9fd2f59fd392582c14a56b633f09/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 150,
+            "height": 150
+          },
+          "qr": [
+            {
+              "text": "https://www.wjx.top/m/89488523.aspx",
+              "format": "QR Code",
+              "position": "17x17 133x17 133x133 17x133"
+            }
+          ],
+          "previewUrl": "media/29a41a60f36d08d0dbcd69f3dd7c8142962c14b5fd8e8bb1ae380373d1aad072.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/85060dfa93cbf25a9bf7ac863795c1a9d01a9fd2f59fd392582c14a56b633f09.img",
+        "sha256": "85060dfa93cbf25a9bf7ac863795c1a9d01a9fd2f59fd392582c14a56b633f09",
+        "bytes": 90381,
+        "filename": "568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "0973f9aa6276fa0f40e2894362f1ddc3e1e1d7e16f710f0ffa64273809805a7e",
+      "url": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "kind": "image",
+      "name": "",
+      "context": "也可以扫二维码报名",
+      "noticeBodyHash": "1bd59a0d481ed1a819da887d5c26289809e0c5c3ed3afcabc9ee293c8310de3a",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-24T10:02:03.710071+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://www.wjx.top/m/89486022.aspx",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/9a029d03611229b1de390bc20074a2d5fafdaed12687bd62e3b518f40a410c75/image.jpg",
+          "textHash": "feb2632da646cc5de5b25fe814e150dab49b16fbea7a4cb52af41ba05a7b54e2",
+          "previewUrl": "media/1e11c43bcddb7e5fbd02d00d3b541e86d4a19004fc6ef784aa97dc70ef378bd4.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/9a029d03611229b1de390bc20074a2d5fafdaed12687bd62e3b518f40a410c75/image.jpg",
+          "ocrStatus": "empty",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [],
+            "text": "",
+            "normalization": "join_cjk_word_spaces",
+            "width": 150,
+            "height": 150
+          },
+          "qr": [
+            {
+              "text": "https://www.wjx.top/m/89486022.aspx",
+              "format": "QR Code",
+              "position": "17x17 133x17 133x133 17x133"
+            }
+          ],
+          "previewUrl": "media/1e11c43bcddb7e5fbd02d00d3b541e86d4a19004fc6ef784aa97dc70ef378bd4.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/9a029d03611229b1de390bc20074a2d5fafdaed12687bd62e3b518f40a410c75.img",
+        "sha256": "9a029d03611229b1de390bc20074a2d5fafdaed12687bd62e3b518f40a410c75",
+        "bytes": 90381,
+        "filename": "2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
     }
   ]
 }

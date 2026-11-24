@@ -1,62 +1,8 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1288,
+  "count": 1289,
   "items": [
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/132.html",
-      "title": "2027年足式机器人挑战赛-V1.0",
-      "date": "2026-10-08",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
-    {
-      "url": "https://www.robocon.org.cn/sys-nd/135.html",
-      "title": "2027年足式机器人挑战赛-V2.0",
-      "date": "2026-10-29",
-      "contentHash": "",
-      "status": "failed",
-      "error": "ValueError:body_not_found: no configured article selector matched",
-      "fields": {
-        "schemaVersion": 2,
-        "contentHash": "",
-        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
-        "competitionNames": [],
-        "editions": [],
-        "audiences": [],
-        "tracks": [],
-        "registrationMethods": [],
-        "registrationLinks": [],
-        "requiredMaterials": [],
-        "timeline": [],
-        "contacts": [],
-        "groups": [],
-        "model": {
-          "status": "disabled",
-          "error": ""
-        }
-      }
-    },
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
       "title": "XJTU ACM 算法竞赛校队选拔 xjtu-selection-2026-2027",
@@ -355,6 +301,33 @@
       }
     },
     {
+      "url": "https://www.robocon.org.cn/sys-nd/132.html",
+      "title": "2027年足式机器人挑战赛-V1.0",
+      "date": "2026-10-08",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/132.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
       "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
       "title": "关于开展“2026年大学生新文科实践创新大赛”展示答辩工作的通知",
       "date": "2026-10-14",
@@ -428,6 +401,428 @@
         "requiredMaterials": [],
         "timeline": [],
         "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://www.robocon.org.cn/sys-nd/135.html",
+      "title": "2027年足式机器人挑战赛-V2.0",
+      "date": "2026-10-29",
+      "contentHash": "",
+      "status": "failed",
+      "error": "ValueError:body_not_found: no configured article selector matched",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "",
+        "sourceUrl": "https://www.robocon.org.cn/sys-nd/135.html",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+      "title": "2026年12月全国大学英语四、六级预测考试报名通知",
+      "date": "2026-11-24",
+      "contentHash": "53718e57fc0c2ae16596461f7905ecca8e7228de508f9f6f3dae0e48873f8a29",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "53718e57fc0c2ae16596461f7905ecca8e7228de508f9f6f3dae0e48873f8a29",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [
+          {
+            "value": "考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。",
+            "raw": "考生报名信息成功提交后不要再次提交报名信息，否则取消资格，将考位释放给候补同学。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 223,
+              "end": 263
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "报名采用网上报名方式：",
+            "raw": "报名采用网上报名方式：",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 304,
+              "end": 315
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+            "raw": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 470,
+              "end": 515
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+            "raw": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 599,
+              "end": 633
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "registrationLinks": [
+          {
+            "value": "https://www.wjx.top/m/89488523.aspx",
+            "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 316,
+              "end": 359
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.wjx.top/m/89486022.aspx",
+            "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 370,
+              "end": 413
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.wjx.top/m/89488523.aspx#",
+            "raw": "四级报名链接为https://www.wjx.top/m/89488523.aspx#",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 316,
+              "end": 359
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.wjx.top/m/89486022.aspx#",
+            "raw": "六级报名链接为https://www.wjx.top/m/89486022.aspx#",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 370,
+              "end": 413
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.wjx.top/m/89488523.aspx",
+            "raw": "https://www.wjx.top/m/89488523.aspx",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/61/AB/568A9F4C4848B64EECCB6F5C960_981B59E7_1610D.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "853463b2b2829d55aa7c4a8ea599b1a196666a2943c34f06d0c9c5e4504c71dd",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 35
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          },
+          {
+            "value": "https://www.wjx.top/m/89486022.aspx",
+            "raw": "https://www.wjx.top/m/89486022.aspx",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "0973f9aa6276fa0f40e2894362f1ddc3e1e1d7e16f710f0ffa64273809805a7e",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 35
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-12-12",
+            "raw": "2026年12月12日将进行全国大学外语四、六级考试。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 0,
+              "end": 27
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月12日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-02",
+            "raw": "已报名参加本次考试的我校考生有资格报名参加2026年12月2日下午举行的全国大学英语四、六级预测考试（四级预测考试14:25，六级预测考试15:50）。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 27,
+              "end": 103
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月2日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-12",
+            "raw": "报名参加预测考试的考生必须为我校已报名参加12月12日全国大学英语四、六级考试的考生。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 148,
+              "end": 191
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月12日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-24",
+            "raw": "报名时间为11月24日18:00到11月27日14:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 274,
+              "end": 303
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "18:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月24日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-27",
+            "raw": "报名时间为11月24日18:00到11月27日14:00。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 274,
+              "end": 303
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": "14:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月27日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-12",
+            "raw": "（一）考生参加四、六级预测考试时必须携带12月12日正式考试的准考证。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 435,
+              "end": 470
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月12日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-01",
+            "raw": "（请12月1日起登录正式考试报名系统自行打印正式考试准考证，打印准考证通知详见教务处网站。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 470,
+              "end": 515
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "12月1日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-30",
+            "raw": "（四）最终报名结果和具体安排请考生于11月30日后在教务处网站查看。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 599,
+              "end": 633
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月30日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-24",
+            "raw": "2026年11月24日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+            "location": {
+              "type": "body",
+              "start": 668,
+              "end": 679
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月24日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "俞老师",
+              "raw": "（五）报名咨询电话：82663962 俞老师。",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
+              "location": {
+                "type": "body",
+                "start": 634,
+                "end": 657
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [],
+            "emails": [],
+            "qq": [],
+            "trackId": null
+          }
+        ],
         "groups": [],
         "model": {
           "status": "disabled",
