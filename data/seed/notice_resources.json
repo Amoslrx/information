@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "parser_version": 1,
-  "count": 102,
+  "count": 104,
   "items": [
     {
       "id": "f4158715b8020514fc941ac81b2f1e7a5ee10a949bd847360937a64edd7a07cc",
@@ -20037,7 +20037,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:06.140623+00:00",
+      "fetchedAt": "2026-11-25T08:46:44.423066+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -20106,7 +20106,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:08.398979+00:00",
+      "fetchedAt": "2026-11-25T08:46:46.763155+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -21044,7 +21044,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:11.082001+00:00",
+      "fetchedAt": "2026-11-25T08:46:49.797053+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -21210,7 +21210,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:14.392768+00:00",
+      "fetchedAt": "2026-11-25T08:46:53.274421+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -23756,7 +23756,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:19.480365+00:00",
+      "fetchedAt": "2026-11-25T08:47:00.604408+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -27282,7 +27282,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:25.979244+00:00",
+      "fetchedAt": "2026-11-25T08:47:06.687576+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -28054,7 +28054,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:01.535548+00:00",
+      "fetchedAt": "2026-11-25T08:46:39.480346+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -28123,7 +28123,7 @@
         "ocrBackend": "auto",
         "maxPages": 5
       },
-      "fetchedAt": "2026-11-24T10:02:03.710071+00:00",
+      "fetchedAt": "2026-11-25T08:46:41.780976+00:00",
       "downloadStatus": "success",
       "status": "success",
       "error": "",
@@ -28174,6 +28174,482 @@
         "mime": "image/png",
         "format": "image",
         "finalUrl": "https://jwc.xjtu.edu.cn/__local/3/B8/F0/2F0B76E73ABDA89D9D2D0B80827_D6B04020_1610D.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+      "url": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "noticeUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "kind": "image",
+      "name": "",
+      "context": "五、校赛组织",
+      "noticeBodyHash": "9479e51b9beda07887d36c190b28cefabfde9143528403e16cb0a2b2243d7d46",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-25T08:46:32.878595+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "ae 2026 仙交华灿\n群号 : 1132019360 | 加复制\nae",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "textHash": "76581ba6a1f04e62d2cfb67369c3af667fbaf92f3b0fc4467f6b6cc0a4fc96e1",
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        },
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://qm.qq.com/q/PDdo6XVcI0",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "textHash": "1189d57a9c5e5cf4cace80348a904969a2af40e186bdf06ec2a7151edbcf0f20",
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "ae 2026 仙 交 华 灿",
+                "words": [
+                  {
+                    "text": "ae",
+                    "confidence": 0.61972279,
+                    "bbox": [
+                      132,
+                      115,
+                      115,
+                      93
+                    ]
+                  },
+                  {
+                    "text": "2026",
+                    "confidence": 0.91223007,
+                    "bbox": [
+                      326,
+                      116,
+                      132,
+                      46
+                    ]
+                  },
+                  {
+                    "text": "仙",
+                    "confidence": 0.88888794,
+                    "bbox": [
+                      473,
+                      110,
+                      45,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "交",
+                    "confidence": 0.89893768,
+                    "bbox": [
+                      536,
+                      110,
+                      42,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "华",
+                    "confidence": 0.91941704,
+                    "bbox": [
+                      599,
+                      110,
+                      38,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "灿",
+                    "confidence": 0.9163063800000001,
+                    "bbox": [
+                      653,
+                      110,
+                      39,
+                      54
+                    ]
+                  }
+                ],
+                "confidence": 0.61972279
+              },
+              {
+                "text": "群 号 : 1132019360 | 加 复制",
+                "words": [
+                  {
+                    "text": "群",
+                    "confidence": 0.91073357,
+                    "bbox": [
+                      325,
+                      190,
+                      88,
+                      38
+                    ]
+                  },
+                  {
+                    "text": "号",
+                    "confidence": 0.92907822,
+                    "bbox": [
+                      384,
+                      184,
+                      27,
+                      51
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.9243392199999999,
+                    "bbox": [
+                      410,
+                      184,
+                      13,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "1132019360",
+                    "confidence": 0.8934034,
+                    "bbox": [
+                      428,
+                      194,
+                      223,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "|",
+                    "confidence": 0.83828964,
+                    "bbox": [
+                      674,
+                      184,
+                      24,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "加",
+                    "confidence": 0.45572514,
+                    "bbox": [
+                      696,
+                      197,
+                      25,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "复制",
+                    "confidence": 0.61335953,
+                    "bbox": [
+                      730,
+                      195,
+                      54,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.45572514
+              },
+              {
+                "text": "ae",
+                "words": [
+                  {
+                    "text": "ae",
+                    "confidence": 0.48760193,
+                    "bbox": [
+                      113,
+                      391,
+                      784,
+                      552
+                    ]
+                  }
+                ],
+                "confidence": 0.48760193
+              }
+            ],
+            "text": "ae 2026 仙交华灿\n群号 : 1132019360 | 加复制\nae",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1024,
+            "height": 1267
+          },
+          "qr": [
+            {
+              "text": "https://qm.qq.com/q/PDdo6XVcI0",
+              "format": "QR Code",
+              "position": "113x391 917x391 915x1193 114x1194"
+            }
+          ],
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7.img",
+        "sha256": "19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7",
+        "bytes": 95016,
+        "filename": "517F95EF140D5014D388D21182C_19A47862_17328.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png"
+      },
+      "pageCount": null,
+      "truncated": false,
+      "errors": []
+    },
+    {
+      "id": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+      "url": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "noticeUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "kind": "image",
+      "name": "",
+      "context": "五、校赛组织",
+      "noticeBodyHash": "45f18f2acf02cbc227851ee55999545538071d04f4236da8a84aaa10775b6b76",
+      "parserVersion": 1,
+      "parserConfig": {
+        "ocrBackend": "auto",
+        "maxPages": 5
+      },
+      "fetchedAt": "2026-11-25T08:46:36.685575+00:00",
+      "downloadStatus": "success",
+      "status": "success",
+      "error": "",
+      "chunks": [
+        {
+          "id": "image-ocr",
+          "page": null,
+          "text": "ae 2026 仙交华灿\n群号 : 1132019360 | 加复制\nae",
+          "method": "ocr",
+          "engine": "tesseract",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "textHash": "76581ba6a1f04e62d2cfb67369c3af667fbaf92f3b0fc4467f6b6cc0a4fc96e1",
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        },
+        {
+          "id": "image-qr-0",
+          "page": null,
+          "text": "https://qm.qq.com/q/PDdo6XVcI0",
+          "method": "qr",
+          "engine": "zxing-cpp",
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "textHash": "1189d57a9c5e5cf4cace80348a904969a2af40e186bdf06ec2a7151edbcf0f20",
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        }
+      ],
+      "images": [
+        {
+          "page": null,
+          "previewPath": "/home/runner/work/information/information/.cache/notice-resources/extracted/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7/image.jpg",
+          "ocrStatus": "success",
+          "ocrError": "",
+          "qrStatus": "success",
+          "qrError": "",
+          "ocr": {
+            "engine": "tesseract",
+            "language": "chi_sim+eng",
+            "lines": [
+              {
+                "text": "ae 2026 仙 交 华 灿",
+                "words": [
+                  {
+                    "text": "ae",
+                    "confidence": 0.61972279,
+                    "bbox": [
+                      132,
+                      115,
+                      115,
+                      93
+                    ]
+                  },
+                  {
+                    "text": "2026",
+                    "confidence": 0.91223007,
+                    "bbox": [
+                      326,
+                      116,
+                      132,
+                      46
+                    ]
+                  },
+                  {
+                    "text": "仙",
+                    "confidence": 0.88888794,
+                    "bbox": [
+                      473,
+                      110,
+                      45,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "交",
+                    "confidence": 0.89893768,
+                    "bbox": [
+                      536,
+                      110,
+                      42,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "华",
+                    "confidence": 0.91941704,
+                    "bbox": [
+                      599,
+                      110,
+                      38,
+                      55
+                    ]
+                  },
+                  {
+                    "text": "灿",
+                    "confidence": 0.9163063800000001,
+                    "bbox": [
+                      653,
+                      110,
+                      39,
+                      54
+                    ]
+                  }
+                ],
+                "confidence": 0.61972279
+              },
+              {
+                "text": "群 号 : 1132019360 | 加 复制",
+                "words": [
+                  {
+                    "text": "群",
+                    "confidence": 0.91073357,
+                    "bbox": [
+                      325,
+                      190,
+                      88,
+                      38
+                    ]
+                  },
+                  {
+                    "text": "号",
+                    "confidence": 0.92907822,
+                    "bbox": [
+                      384,
+                      184,
+                      27,
+                      51
+                    ]
+                  },
+                  {
+                    "text": ":",
+                    "confidence": 0.9243392199999999,
+                    "bbox": [
+                      410,
+                      184,
+                      13,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "1132019360",
+                    "confidence": 0.8934034,
+                    "bbox": [
+                      428,
+                      194,
+                      223,
+                      32
+                    ]
+                  },
+                  {
+                    "text": "|",
+                    "confidence": 0.83828964,
+                    "bbox": [
+                      674,
+                      184,
+                      24,
+                      51
+                    ]
+                  },
+                  {
+                    "text": "加",
+                    "confidence": 0.45572514,
+                    "bbox": [
+                      696,
+                      197,
+                      25,
+                      25
+                    ]
+                  },
+                  {
+                    "text": "复制",
+                    "confidence": 0.61335953,
+                    "bbox": [
+                      730,
+                      195,
+                      54,
+                      28
+                    ]
+                  }
+                ],
+                "confidence": 0.45572514
+              },
+              {
+                "text": "ae",
+                "words": [
+                  {
+                    "text": "ae",
+                    "confidence": 0.48760193,
+                    "bbox": [
+                      113,
+                      391,
+                      784,
+                      552
+                    ]
+                  }
+                ],
+                "confidence": 0.48760193
+              }
+            ],
+            "text": "ae 2026 仙交华灿\n群号 : 1132019360 | 加复制\nae",
+            "normalization": "join_cjk_word_spaces",
+            "width": 1024,
+            "height": 1267
+          },
+          "qr": [
+            {
+              "text": "https://qm.qq.com/q/PDdo6XVcI0",
+              "format": "QR Code",
+              "position": "113x391 917x391 915x1193 114x1194"
+            }
+          ],
+          "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg"
+        }
+      ],
+      "download": {
+        "path": "/home/runner/work/information/information/.cache/notice-resources/19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7.img",
+        "sha256": "19c2e9c0a6d2ebd2bfc88001570c337575b6eba6c8551c12a8ef530f4d6f97e7",
+        "bytes": 95016,
+        "filename": "517F95EF140D5014D388D21182C_19A47862_17328.png",
+        "mime": "image/png",
+        "format": "image",
+        "finalUrl": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png"
       },
       "pageCount": null,
       "truncated": false,

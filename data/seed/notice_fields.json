@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1289,
+  "count": 1291,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -429,6 +429,614 @@
         "timeline": [],
         "contacts": [],
         "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "date": "2026-11-25",
+      "contentHash": "7c417cdbe88616c2a60753c51c72c7353c254e07bc96b3dd2da316465cf98106",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "7c417cdbe88616c2a60753c51c72c7353c254e07bc96b3dd2da316465cf98106",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+        "competitionNames": [
+          {
+            "value": "2026新锐设计竞赛",
+            "raw": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 31
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 200,
+              "end": 245
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "可以个人或团队形式参赛；",
+            "raw": "可以个人或团队形式参赛；",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 245,
+              "end": 257
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+            "raw": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 258,
+              "end": 295
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+            "raw": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 296,
+              "end": 338
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "http://www.huacanjiang.com/",
+            "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 388,
+              "end": 427
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.huacanjiang.com",
+            "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 388,
+              "end": 427
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://qm.qq.com/q/PDdo6XVcI0",
+            "raw": "https://qm.qq.com/q/PDdo6XVcI0",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 30
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "注意，需先提交作品，才能参与校赛选拔。",
+            "raw": "注意，需先提交作品，才能参与校赛选拔。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 468,
+              "end": 487
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-01-01",
+            "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 200,
+              "end": 245
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "1月1日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-27",
+            "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 349,
+              "end": 387
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "submission",
+            "time": "17:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月27日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-29",
+            "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+            "location": {
+              "type": "body",
+              "start": 435,
+              "end": 468
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "17:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月29日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "竺老师",
+              "raw": "联系人：竺老师",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+              "location": {
+                "type": "body",
+                "start": 517,
+                "end": 524
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "18502909196",
+                "raw": "电话：18502909196",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+                "location": {
+                  "type": "body",
+                  "start": 525,
+                  "end": 539
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [
+              {
+                "value": "way.zsy@xjtu.edu.cn",
+                "raw": "邮箱：way.zsy@xjtu.edu.cn",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+                "location": {
+                  "type": "body",
+                  "start": 540,
+                  "end": 562
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [
+          {
+            "kind": "unknown",
+            "number": {
+              "value": "1132019360",
+              "raw": "群号 : 1132019360 | 加复制",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+              "location": {
+                "type": "resource",
+                "resourceId": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+                "chunkId": "image-ocr",
+                "page": null,
+                "start": 13,
+                "end": 34
+              },
+              "method": "ocr",
+              "verification": "needs_review",
+              "flags": [
+                "ocr_requires_review"
+              ],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "date": "2026-11-25",
+      "contentHash": "597ec6bd153dce5e02eb781edfde8bdd2fc14715dbe3e0c5527dad54ce5ee552",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "597ec6bd153dce5e02eb781edfde8bdd2fc14715dbe3e0c5527dad54ce5ee552",
+        "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+        "competitionNames": [
+          {
+            "value": "2026新锐设计竞赛",
+            "raw": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 31
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 200,
+              "end": 245
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "可以个人或团队形式参赛；",
+            "raw": "可以个人或团队形式参赛；",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 245,
+              "end": 257
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+            "raw": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 258,
+              "end": 295
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+            "raw": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 296,
+              "end": 338
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "http://www.huacanjiang.com/",
+            "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 388,
+              "end": 427
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://www.huacanjiang.com",
+            "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 388,
+              "end": 427
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://qm.qq.com/q/PDdo6XVcI0",
+            "raw": "https://qm.qq.com/q/PDdo6XVcI0",
+            "sourceUrl": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+            "location": {
+              "type": "resource",
+              "resourceId": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 30
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "注意，需先提交作品，才能参与校赛选拔。",
+            "raw": "注意，需先提交作品，才能参与校赛选拔。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 468,
+              "end": 487
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-01-01",
+            "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 200,
+              "end": 245
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year",
+              "before_publication",
+              "possible_cross_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "1月1日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-27",
+            "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 349,
+              "end": 387
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "submission",
+            "time": "17:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月27日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-12-29",
+            "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+            "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+            "location": {
+              "type": "body",
+              "start": 435,
+              "end": 468
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "17:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年12月29日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "竺老师",
+              "raw": "联系人：竺老师",
+              "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+              "location": {
+                "type": "body",
+                "start": 517,
+                "end": 524
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "18502909196",
+                "raw": "电话：18502909196",
+                "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+                "location": {
+                  "type": "body",
+                  "start": 525,
+                  "end": 539
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [
+              {
+                "value": "way.zsy@xjtu.edu.cn",
+                "raw": "邮箱：way.zsy@xjtu.edu.cn",
+                "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+                "location": {
+                  "type": "body",
+                  "start": 540,
+                  "end": 562
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "qq": [],
+            "trackId": null
+          }
+        ],
+        "groups": [
+          {
+            "kind": "unknown",
+            "number": {
+              "value": "1132019360",
+              "raw": "群号 : 1132019360 | 加复制",
+              "sourceUrl": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+              "location": {
+                "type": "resource",
+                "resourceId": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+                "chunkId": "image-ocr",
+                "page": null,
+                "start": 13,
+                "end": 34
+              },
+              "method": "ocr",
+              "verification": "needs_review",
+              "flags": [
+                "ocr_requires_review"
+              ],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
         "model": {
           "status": "disabled",
           "error": ""

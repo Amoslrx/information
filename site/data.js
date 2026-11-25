@@ -1,20 +1,20 @@
 // 由 scripts/build_site_data.py 自动生成, 请勿手工编辑
-// 生成时间: 2026-11-24 18:04
+// 生成时间: 2026-11-25 16:49
 window.SITE_DATA = {
- "generatedAt": "2026-11-24 18:04",
+ "generatedAt": "2026-11-25 16:49",
  "stats": {
   "competitions": 94,
-  "notices": 2426,
+  "notices": 2428,
   "noticesMatched": 535,
-  "noticesCompetition": 886,
-  "noticesCampus": 146,
+  "noticesCompetition": 888,
+  "noticesCampus": 148,
   "noticesWithDeadline": 178,
   "competitionsOpen": 0,
   "competitionsSelecting": 0,
   "competitionsRecruiting": 0,
-  "today": "2026-11-24",
+  "today": "2026-11-25",
   "noticeFrom": "2003-12-19",
-  "noticeTo": "2026-11-24",
+  "noticeTo": "2026-11-25",
   "eeDist": {
    "5": 10,
    "4": 10,
@@ -30,16 +30,16 @@ window.SITE_DATA = {
    "C类": 8
   },
   "noticeCat": {
+   "学科竞赛": 810,
    "等级考试": 65,
    "其他": 876,
    "教学信息": 298,
    "思政学习": 107,
    "文体竞赛": 64,
-   "学科竞赛": 808,
    "社会实践": 208
   },
   "noticeGroup": {
-   "学科竞赛": 873,
+   "学科竞赛": 875,
    "其他": 876,
    "教学信息": 298,
    "思政学习": 107,
@@ -50,11 +50,11 @@ window.SITE_DATA = {
   "xjtuKnown": 27,
   "crawledPages": 106,
   "bySite": {
-   "教务处": 531,
+   "实践教学中心": 402,
+   "教务处": 532,
    "电气学院": 227,
    "校团委": 1043,
    "能动学院": 69,
-   "实践教学中心": 401,
    "RoboMaster官网": 26,
    "ROBOCON官网": 14,
    "研究生院": 76,
@@ -137,9 +137,9 @@ window.SITE_DATA = {
    "crawlTargets": {
     "policy": "default",
     "yearHint": 2026,
-    "total": 17,
+    "total": 18,
     "byStatus": {
-     "success": 1,
+     "success": 2,
      "empty": 1,
      "failed": 15,
      "pending": 0
@@ -7760,7 +7760,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
+        "fetchedAt": "2026-11-25T08:46:18.361583+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -13255,7 +13255,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
+      "fetchedAt": "2026-11-25T08:46:18.361583+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -63527,7 +63527,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
+        "fetchedAt": "2026-11-25T08:46:14.604297+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63541,7 +63541,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
+        "fetchedAt": "2026-11-25T08:46:14.605212+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63555,7 +63555,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
+        "fetchedAt": "2026-11-25T08:46:15.634954+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -63569,7 +63569,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
+        "fetchedAt": "2026-11-25T08:46:16.535957+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -64910,7 +64910,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
+      "fetchedAt": "2026-11-25T08:46:14.604297+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64924,7 +64924,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
+      "fetchedAt": "2026-11-25T08:46:14.605212+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64938,7 +64938,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
+      "fetchedAt": "2026-11-25T08:46:15.634954+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -64952,7 +64952,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
+      "fetchedAt": "2026-11-25T08:46:16.535957+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -65861,7 +65861,7 @@ window.SITE_DATA = {
     "group": "其他",
     "fetchStatus": "failed",
     "fetchError": "ValueError:body_not_found: no configured article selector matched",
-    "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
+    "fetchedAt": "2026-11-25T08:46:14.604297+00:00",
     "association": {
      "year": 2027,
      "yearEnd": 2027,
@@ -91998,7 +91998,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
+        "fetchedAt": "2026-11-25T08:46:25.682603+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -92817,7 +92817,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
+      "fetchedAt": "2026-11-25T08:46:25.682603+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -97193,7 +97193,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
+        "fetchedAt": "2026-11-25T08:46:16.735009+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -98496,7 +98496,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
+      "fetchedAt": "2026-11-25T08:46:16.735009+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -165895,7 +165895,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
+        "fetchedAt": "2026-11-25T08:46:19.452545+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167060,7 +167060,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
+        "fetchedAt": "2026-11-25T08:46:23.596148+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -167429,7 +167429,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
+        "fetchedAt": "2026-11-25T08:46:23.685974+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -173588,7 +173588,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
+        "fetchedAt": "2026-11-25T08:46:18.822064+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -180409,7 +180409,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
+        "fetchedAt": "2026-11-25T08:46:20.965716+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -182874,7 +182874,7 @@ window.SITE_DATA = {
         "state": "fetch_failed",
         "fetchStatus": "failed",
         "error": "ValueError:body_not_found: no configured article selector matched",
-        "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
+        "fetchedAt": "2026-11-25T08:46:21.263052+00:00",
         "hasFields": false,
         "resourceHints": [],
         "identityConflicts": [],
@@ -185283,7 +185283,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
+      "fetchedAt": "2026-11-25T08:46:18.822064+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185297,7 +185297,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
+      "fetchedAt": "2026-11-25T08:46:19.452545+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185619,7 +185619,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
+      "fetchedAt": "2026-11-25T08:46:20.965716+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -185633,7 +185633,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
+      "fetchedAt": "2026-11-25T08:46:21.263052+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186004,7 +186004,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
+      "fetchedAt": "2026-11-25T08:46:23.596148+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -186626,7 +186626,7 @@ window.SITE_DATA = {
       "state": "fetch_failed",
       "fetchStatus": "failed",
       "error": "ValueError:body_not_found: no configured article selector matched",
-      "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
+      "fetchedAt": "2026-11-25T08:46:23.685974+00:00",
       "hasFields": false,
       "resourceHints": [],
       "identityConflicts": [],
@@ -239617,6 +239617,940 @@ window.SITE_DATA = {
  ],
  "notices": [
   {
+   "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+   "date": "2026-11-25",
+   "url": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "实践教学中心",
+   "sourceLabel": "实践教学中心",
+   "dateUnavailableReason": "",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-25T08:46:14.602142+00:00",
+   "identitySources": [
+    {
+     "raw": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。",
+     "location": {
+      "type": "body",
+      "start": 0,
+      "end": 85
+     }
+    },
+    {
+     "raw": "根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。",
+     "location": {
+      "type": "body",
+      "start": 85,
+      "end": 152
+     }
+    }
+   ],
+   "noticeReferences": [
+    {
+     "value": "http://www.huacanjiang.com/",
+     "raw": "www.huacanjiang.com",
+     "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+     "location": {
+      "type": "link",
+      "url": "http://www.huacanjiang.com/"
+     },
+     "method": "rule",
+     "verification": "source_matched",
+     "flags": [],
+     "trackId": null
+    }
+   ],
+   "resourceHints": [
+    {
+     "kind": "image",
+     "url": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "raw": "五、校赛组织",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "image",
+       "url": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "excerpt": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能…",
+   "excerptEvidence": {
+    "value": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能",
+    "raw": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能",
+    "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [
+    {
+     "url": "http://www.huacanjiang.com/",
+     "text": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+     "kind": "form",
+     "evidence": {
+      "value": "http://www.huacanjiang.com/",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://www.huacanjiang.com",
+     "text": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.huacanjiang.com",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "597ec6bd153dce5e02eb781edfde8bdd2fc14715dbe3e0c5527dad54ce5ee552",
+    "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+    "competitionNames": [
+     {
+      "value": "2026新锐设计竞赛",
+      "raw": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "title",
+       "start": 0,
+       "end": 31
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "editions": [],
+    "audiences": [
+     {
+      "value": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 200,
+       "end": 245
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "可以个人或团队形式参赛；",
+      "raw": "可以个人或团队形式参赛；",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 245,
+       "end": 257
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+      "raw": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 258,
+       "end": 295
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+      "raw": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 296,
+       "end": 338
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "tracks": [],
+    "registrationMethods": [],
+    "registrationLinks": [
+     {
+      "value": "http://www.huacanjiang.com/",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.huacanjiang.com",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://qm.qq.com/q/PDdo6XVcI0",
+      "raw": "https://qm.qq.com/q/PDdo6XVcI0",
+      "sourceUrl": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "location": {
+       "type": "resource",
+       "resourceId": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+       "chunkId": "image-qr-0",
+       "page": null,
+       "start": 0,
+       "end": 30
+      },
+      "method": "qr",
+      "verification": "needs_review",
+      "flags": [
+       "qr_purpose_unverified",
+       "qr_requires_review"
+      ],
+      "trackId": null
+     }
+    ],
+    "requiredMaterials": [
+     {
+      "value": "注意，需先提交作品，才能参与校赛选拔。",
+      "raw": "注意，需先提交作品，才能参与校赛选拔。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 468,
+       "end": 487
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "timeline": [
+     {
+      "value": "2026-01-01",
+      "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 200,
+       "end": 245
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year",
+       "before_publication",
+       "possible_cross_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "1月1日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-27",
+      "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 349,
+       "end": 387
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "submission",
+      "time": "17:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年11月27日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-29",
+      "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+      "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "location": {
+       "type": "body",
+       "start": 435,
+       "end": 468
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": "17:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年12月29日",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [
+     {
+      "name": {
+       "value": "竺老师",
+       "raw": "联系人：竺老师",
+       "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+       "location": {
+        "type": "body",
+        "start": 517,
+        "end": 524
+       },
+       "method": "rule",
+       "verification": "source_matched",
+       "flags": [],
+       "trackId": null
+      },
+      "phones": [
+       {
+        "value": "18502909196",
+        "raw": "电话：18502909196",
+        "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+        "location": {
+         "type": "body",
+         "start": 525,
+         "end": 539
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null
+       }
+      ],
+      "emails": [
+       {
+        "value": "way.zsy@xjtu.edu.cn",
+        "raw": "邮箱：way.zsy@xjtu.edu.cn",
+        "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+        "location": {
+         "type": "body",
+         "start": 540,
+         "end": 562
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null
+       }
+      ],
+      "qq": [],
+      "trackId": null
+     }
+    ],
+    "groups": [
+     {
+      "kind": "unknown",
+      "number": {
+       "value": "1132019360",
+       "raw": "群号 : 1132019360 | 加复制",
+       "sourceUrl": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+       "location": {
+        "type": "resource",
+        "resourceId": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+        "chunkId": "image-ocr",
+        "page": null,
+        "start": 13,
+        "end": 34
+       },
+       "method": "ocr",
+       "verification": "needs_review",
+       "flags": [
+        "ocr_requires_review"
+       ],
+       "trackId": null
+      },
+      "images": [],
+      "trackId": null
+     }
+    ],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [
+    {
+     "id": "f62055bf1350ea6fda7604b04adb9b96aa72b23d409f4bcb8b061a8d84fef284",
+     "url": "http://pec.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "success"
+      }
+     ]
+    }
+   ],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+   "repostSources": [
+    {
+     "url": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+     "date": "2026-11-25",
+     "sourceLabel": "实践教学中心"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
+   "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+   "date": "2026-11-25",
+   "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+   "competition": "",
+   "moeNo": null,
+   "site": "教务处",
+   "sourceLabel": "教务处",
+   "dateUnavailableReason": "",
+   "isCompetition": true,
+   "isCampus": true,
+   "deadline": "",
+   "deadlineScore": 0,
+   "deadlineEvent": null,
+   "cat": "学科竞赛",
+   "group": "学科竞赛",
+   "fetchStatus": "success",
+   "fetchError": "",
+   "fetchedAt": "2026-11-25T08:46:14.603545+00:00",
+   "identitySources": [
+    {
+     "raw": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。",
+     "location": {
+      "type": "body",
+      "start": 0,
+      "end": 85
+     }
+    },
+    {
+     "raw": "根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。",
+     "location": {
+      "type": "body",
+      "start": 85,
+      "end": 152
+     }
+    }
+   ],
+   "noticeReferences": [
+    {
+     "value": "http://www.huacanjiang.com/",
+     "raw": "www.huacanjiang.com",
+     "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+     "location": {
+      "type": "link",
+      "url": "http://www.huacanjiang.com/"
+     },
+     "method": "rule",
+     "verification": "source_matched",
+     "flags": [],
+     "trackId": null
+    }
+   ],
+   "resourceHints": [
+    {
+     "kind": "image",
+     "url": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+     "name": "图片原件",
+     "state": "parsed",
+     "resourceStatus": "success",
+     "error": "",
+     "fieldKeys": [
+      "deadline",
+      "audiences",
+      "registrationMethods",
+      "registrationLinks",
+      "requiredMaterials",
+      "contacts",
+      "groups"
+     ],
+     "evidence": {
+      "value": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "raw": "五、校赛组织",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "image",
+       "url": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png"
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "excerpt": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能…",
+   "excerptEvidence": {
+    "value": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能",
+    "raw": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。\n一、组织机构\n主办单位：实践教学中心\n承办单位：人居学院\n二、参赛对象\n我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛；\n团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。\n每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。\n三、报名与作品提交\n请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。\n竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com\n四、校赛评审\n学校于2026年12月29日17:00前在官网系统内完成校赛评审。注意，需先提交作品，才能",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+    "location": {
+     "type": "body",
+     "start": 0,
+     "end": 480
+    },
+    "method": "rule",
+    "verification": "source_matched",
+    "flags": [],
+    "trackId": null
+   },
+   "links": [
+    {
+     "url": "http://www.huacanjiang.com/",
+     "text": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+     "kind": "form",
+     "evidence": {
+      "value": "http://www.huacanjiang.com/",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    },
+    {
+     "url": "https://www.huacanjiang.com",
+     "text": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+     "kind": "form",
+     "evidence": {
+      "value": "https://www.huacanjiang.com",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    }
+   ],
+   "fields": {
+    "schemaVersion": 2,
+    "contentHash": "7c417cdbe88616c2a60753c51c72c7353c254e07bc96b3dd2da316465cf98106",
+    "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+    "competitionNames": [
+     {
+      "value": "2026新锐设计竞赛",
+      "raw": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "title",
+       "start": 0,
+       "end": 31
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "editions": [],
+    "audiences": [
+     {
+      "value": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 200,
+       "end": 245
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "可以个人或团队形式参赛；",
+      "raw": "可以个人或团队形式参赛；",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 245,
+       "end": 257
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+      "raw": "团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 258,
+       "end": 295
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+      "raw": "每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 296,
+       "end": 338
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "tracks": [],
+    "registrationMethods": [],
+    "registrationLinks": [
+     {
+      "value": "http://www.huacanjiang.com/",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://www.huacanjiang.com",
+      "raw": "竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 388,
+       "end": 427
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     },
+     {
+      "value": "https://qm.qq.com/q/PDdo6XVcI0",
+      "raw": "https://qm.qq.com/q/PDdo6XVcI0",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+      "location": {
+       "type": "resource",
+       "resourceId": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+       "chunkId": "image-qr-0",
+       "page": null,
+       "start": 0,
+       "end": 30
+      },
+      "method": "qr",
+      "verification": "needs_review",
+      "flags": [
+       "qr_purpose_unverified",
+       "qr_requires_review"
+      ],
+      "trackId": null
+     }
+    ],
+    "requiredMaterials": [
+     {
+      "value": "注意，需先提交作品，才能参与校赛选拔。",
+      "raw": "注意，需先提交作品，才能参与校赛选拔。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 468,
+       "end": 487
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null
+     }
+    ],
+    "timeline": [
+     {
+      "value": "2026-01-01",
+      "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 200,
+       "end": 245
+      },
+      "method": "rule",
+      "verification": "needs_review",
+      "flags": [
+       "missing_year",
+       "before_publication",
+       "possible_cross_year"
+      ],
+      "trackId": null,
+      "kind": "other",
+      "time": null,
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "1月1日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-11-27",
+      "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 349,
+       "end": 387
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "submission",
+      "time": "17:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年11月27日",
+      "endDate": null,
+      "superseded": false
+     },
+     {
+      "value": "2026-12-29",
+      "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+      "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "location": {
+       "type": "body",
+       "start": 435,
+       "end": 468
+      },
+      "method": "rule",
+      "verification": "source_matched",
+      "flags": [],
+      "trackId": null,
+      "kind": "other",
+      "time": "17:00",
+      "timezone": "Asia/Shanghai",
+      "dateRaw": "2026年12月29日",
+      "endDate": null,
+      "superseded": false
+     }
+    ],
+    "contacts": [
+     {
+      "name": {
+       "value": "竺老师",
+       "raw": "联系人：竺老师",
+       "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+       "location": {
+        "type": "body",
+        "start": 517,
+        "end": 524
+       },
+       "method": "rule",
+       "verification": "source_matched",
+       "flags": [],
+       "trackId": null
+      },
+      "phones": [
+       {
+        "value": "18502909196",
+        "raw": "电话：18502909196",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+        "location": {
+         "type": "body",
+         "start": 525,
+         "end": 539
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null
+       }
+      ],
+      "emails": [
+       {
+        "value": "way.zsy@xjtu.edu.cn",
+        "raw": "邮箱：way.zsy@xjtu.edu.cn",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+        "location": {
+         "type": "body",
+         "start": 540,
+         "end": 562
+        },
+        "method": "rule",
+        "verification": "source_matched",
+        "flags": [],
+        "trackId": null
+       }
+      ],
+      "qq": [],
+      "trackId": null
+     }
+    ],
+    "groups": [
+     {
+      "kind": "unknown",
+      "number": {
+       "value": "1132019360",
+       "raw": "群号 : 1132019360 | 加复制",
+       "sourceUrl": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+       "location": {
+        "type": "resource",
+        "resourceId": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+        "chunkId": "image-ocr",
+        "page": null,
+        "start": 13,
+        "end": 34
+       },
+       "method": "ocr",
+       "verification": "needs_review",
+       "flags": [
+        "ocr_requires_review"
+       ],
+       "trackId": null
+      },
+      "images": [],
+      "trackId": null
+     }
+    ],
+    "model": {
+     "status": "disabled",
+     "error": ""
+    }
+   },
+   "resources": [
+    {
+     "id": "b12916c8ea60f5e1cca4b175782096dc34267032d068d6da91daf15d5795ed98",
+     "url": "https://jwc.xjtu.edu.cn/__local/A/3E/98/517F95EF140D5014D388D21182C_19A47862_17328.png",
+     "kind": "image",
+     "name": "",
+     "status": "success",
+     "error": "",
+     "images": [
+      {
+       "page": null,
+       "previewUrl": "media/175168a24a47145cbf660998b402a1e7e60e564aabb078c2642e4b4e1a7f3982.jpg",
+       "ocrStatus": "success",
+       "qrStatus": "success"
+      }
+     ]
+    }
+   ],
+   "association": {
+    "competitionMethod": "unmatched",
+    "editionId": null
+   },
+   "displayGroupUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+   "repostSources": [
+    {
+     "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+     "date": "2026-11-25",
+     "sourceLabel": "教务处"
+    }
+   ],
+   "revisionLinks": []
+  },
+  {
    "title": "2026年12月全国大学英语四、六级预测考试报名通知",
    "date": "2026-11-24",
    "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
@@ -260246,7 +261180,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:48.481873+00:00",
+   "fetchedAt": "2026-11-25T08:46:14.604297+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -262516,7 +263450,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:48.482356+00:00",
+   "fetchedAt": "2026-11-25T08:46:14.605212+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -265370,7 +266304,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:48.482966+00:00",
+   "fetchedAt": "2026-11-25T08:46:15.634954+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -281384,7 +282318,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-24T10:01:49.725024+00:00",
+   "fetchedAt": "2026-11-25T08:46:16.513046+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -286265,7 +287199,7 @@ window.SITE_DATA = {
    "group": "其他",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:49.961752+00:00",
+   "fetchedAt": "2026-11-25T08:46:16.535957+00:00",
    "association": {
     "year": 2027,
     "yearEnd": 2027,
@@ -442290,7 +443224,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:49.963704+00:00",
+   "fetchedAt": "2026-11-25T08:46:16.735009+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -535899,7 +536833,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "HTTP 404",
-   "fetchedAt": "2026-11-24T10:01:49.967459+00:00",
+   "fetchedAt": "2026-11-25T08:46:17.719523+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -564995,7 +565929,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:50.950874+00:00",
+   "fetchedAt": "2026-11-25T08:46:18.361583+00:00",
    "association": {
     "year": 2025,
     "yearEnd": 2025,
@@ -664834,7 +665768,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:51.405915+00:00",
+   "fetchedAt": "2026-11-25T08:46:18.822064+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -673854,7 +674788,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:51.769075+00:00",
+   "fetchedAt": "2026-11-25T08:46:19.452545+00:00",
    "association": {
     "year": 2021,
     "yearEnd": 2021,
@@ -700206,7 +701140,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:51.851816+00:00",
+   "fetchedAt": "2026-11-25T08:46:20.965716+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -705423,7 +706357,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:53.359269+00:00",
+   "fetchedAt": "2026-11-25T08:46:21.263052+00:00",
    "association": {
     "year": null,
     "yearEnd": null,
@@ -708496,7 +709430,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:53.382186+00:00",
+   "fetchedAt": "2026-11-25T08:46:23.596148+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -722974,7 +723908,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:53.421857+00:00",
+   "fetchedAt": "2026-11-25T08:46:23.685974+00:00",
    "association": {
     "year": 2019,
     "yearEnd": 2019,
@@ -807372,7 +808306,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "empty",
    "fetchError": "empty_content",
-   "fetchedAt": "2026-11-24T10:01:55.191224+00:00",
+   "fetchedAt": "2026-11-25T08:46:24.036919+00:00",
    "association": {
     "competitionMethod": "unmatched",
     "editionId": null
@@ -808513,7 +809447,7 @@ window.SITE_DATA = {
    "group": "学科竞赛",
    "fetchStatus": "failed",
    "fetchError": "ValueError:body_not_found: no configured article selector matched",
-   "fetchedAt": "2026-11-24T10:01:55.450492+00:00",
+   "fetchedAt": "2026-11-25T08:46:25.682603+00:00",
    "association": {
     "year": 2026,
     "yearEnd": 2026,
@@ -808584,7 +809518,7 @@ window.SITE_DATA = {
   "8": 100,
   "9": 222,
   "10": 226,
-  "11": 201,
+  "11": 203,
   "12": 160
  },
  "cadenceCount": 50,

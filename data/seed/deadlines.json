@@ -3,7 +3,7 @@
   "source": "统一正文证据",
   "method": "typed-registration-events",
   "min_score": 4,
-  "count": 1289,
+  "count": 1291,
   "with_deadline": 178,
   "items": [
     {
@@ -42880,6 +42880,84 @@
       ],
       "bodyLen": 1478,
       "snippet": "各学院（部、中心）及全体在校学生： 全国大学生智能汽车竞赛系教育部认可并连续多年入选《全国普通高校学科竞赛排行榜》的学科竞赛。为做好我校2027年参赛备赛工作，培养学生工程实践与创新能力，现决定面向全校公开招募参赛队员，组织系统训练，择优组队参加第二十二届全国大学生智能汽车竞赛。现将有关事项通知如下。 一、竞赛简介 全国大学生智能汽车竞赛是一项面向全国大学生的探索性工程实践活动，于2005年受教育部高等教育司委托，由教育部高等学校自动化类专业教学指导委员会创办，2020年起主办单位转为中国自动化学会。赛事以“立足培养、重在参与、鼓励探索、追求卓越”为指导思想，近年来全国参赛队伍已逾3000支，是国内智能汽车领域具有广泛影响力的代表性学科竞赛之一。 竞赛以自主设计并制作全自主智能模型汽车为核心任务，要求参赛队伍在竞赛秘书处统一指定的车模套件和微控制器平台上，自主完成传感器信号采集处理、电机驱动、转向舵机控制及决策算法开发等工程设计与调试，内容涵盖自动控制、人工智能、传感器融合、电子电路与机械结构等多个学科领域。"
+    },
+    {
+      "url": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+      "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "noticeDate": "2026-11-25",
+      "contentHash": "597ec6bd153dce5e02eb781edfde8bdd2fc14715dbe3e0c5527dad54ce5ee552",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-01-01",
+          "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+          "location": {
+            "type": "body",
+            "start": 200,
+            "end": 245
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "1月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-27",
+          "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+          "location": {
+            "type": "body",
+            "start": 349,
+            "end": 387
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "submission",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月27日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-29",
+          "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+          "sourceUrl": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
+          "location": {
+            "type": "body",
+            "start": 435,
+            "end": 468
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月29日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 562,
+      "snippet": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。 一、组织机构 主办单位：实践教学中心 承办单位：人居学院 二、参赛对象 我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛； 团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。 每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。 三、报名与作品提交 请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。 竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com 四、校赛评审 学校于2026年12月29日17:00前在官网系统内完成校赛评审。"
     },
     {
       "url": "https://ee.xjtu.edu.cn/info/1382/13498.htm",
@@ -109030,6 +109108,84 @@
       ],
       "bodyLen": 627,
       "snippet": "各院、部、中心及全体本科生： 根据第 3 届学研杯大学物理强基邀请赛III卷报名通知，第 3 届学研杯大学物理强基邀请赛III卷将于2026年12月26日（星期六）上午9点30到11点30举行。本竞赛由清华大学出版社主办， 陕西省物理学会和西安物理学会共同组织本次竞赛。西安交通大学将在兴庆校区自设考场。具体事宜如下： 一、考试范围: 本次考试范围为 III 卷(振动、波动、光学)，考试涉及的大纲见报名通知的附件一。 二、参赛对象 凡是在校本科生均可参加，考场设在兴庆校区，其他校区的学生报名后需到兴庆校区参加考试。 三、报名办法 西安交通大学采用集体报名的方式，以学校为单位报名，报名费缴纳100元/考生。 本次报名通过手机扫码在线报名并缴费的方式完成，二维码见下方。 和清华大学出版社沟通，11月14日下午举行的II卷获得一等奖的同学，如果继续报名III卷，免报名费，符合条件的同学，请填写问卷星报名。"
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+      "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+      "noticeDate": "2026-11-25",
+      "contentHash": "7c417cdbe88616c2a60753c51c72c7353c254e07bc96b3dd2da316465cf98106",
+      "schemaVersion": 2,
+      "deadline": null,
+      "score": 0,
+      "deadlineEvent": null,
+      "timeline": [
+        {
+          "value": "2026-01-01",
+          "raw": "我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+          "location": {
+            "type": "body",
+            "start": 200,
+            "end": 245
+          },
+          "method": "rule",
+          "verification": "needs_review",
+          "flags": [
+            "missing_year",
+            "before_publication",
+            "possible_cross_year"
+          ],
+          "trackId": null,
+          "kind": "other",
+          "time": null,
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "1月1日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-11-27",
+          "raw": "请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+          "location": {
+            "type": "body",
+            "start": 349,
+            "end": 387
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "submission",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年11月27日",
+          "endDate": null,
+          "superseded": false
+        },
+        {
+          "value": "2026-12-29",
+          "raw": "学校于2026年12月29日17:00前在官网系统内完成校赛评审。",
+          "sourceUrl": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
+          "location": {
+            "type": "body",
+            "start": 435,
+            "end": 468
+          },
+          "method": "rule",
+          "verification": "source_matched",
+          "flags": [],
+          "trackId": null,
+          "kind": "other",
+          "time": "17:00",
+          "timezone": "Asia/Shanghai",
+          "dateRaw": "2026年12月29日",
+          "endDate": null,
+          "superseded": false
+        }
+      ],
+      "bodyLen": 562,
+      "snippet": "新锐设计竞赛・华灿奖创办于 2014 年，由中国高等教育学会、中华中山文化交流协会主办，入选教育部直属单位 “三评一竞赛” 保留项目清单，列入全国普通高校学科竞赛排行榜。根据华灿奖官网公布的《2026新锐设计竞赛·华灿奖参赛办法》，现组织开展2026新锐设计竞赛·华灿奖（以下简称“华灿奖”）校内选拔赛。现将有关事项通知如下。 一、组织机构 主办单位：实践教学中心 承办单位：人居学院 二、参赛对象 我校在读本科生、研究生及在职青年教师，年龄不超过45周岁（1981年1月1日及以后出生）。可以个人或团队形式参赛； 团队由1名第一作者和不超过4名团队成员组成，高校学生组指导教师不超过2人。 每位选手最多参与5件创意赛道作品（含第一作者及团队成员），定向主题赛道作品数量不限。 三、报名与作品提交 请参赛者于2026年11月27日17:00前在华灿奖官网完成报名及作品上传。 竞赛赛道和报名操作等详情，请见赛事官网：www.huacanjiang.com 四、校赛评审 学校于2026年12月29日17:00前在官网系统内完成校赛评审。"
     },
     {
       "url": "https://jwc.xjtu.edu.cn/info/1172/6689.htm",
