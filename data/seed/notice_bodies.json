@@ -9,13 +9,18 @@
   "retries": 1,
   "targets": [
    {
-    "url": "http://pec.xjtu.edu.cn/info/1191/5632.htm",
-    "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+    "url": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+    "title": "关于西安交通大学2026年本科教学秘书素质能力大赛审评结果的公示",
     "priority": null
    },
    {
-    "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",
-    "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4806",
+    "title": "首雁说 | 实验室安全优秀学生访谈纪实（第四期）",
+    "priority": null
+   },
+   {
+    "url": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+    "title": "关于开展西安交通大学“思创力”青年创业者俱乐部成员招募的通知",
     "priority": null
    },
    {
@@ -100,19 +105,19 @@
    }
   ],
   "byStatus": {
-   "success": 2,
+   "success": 3,
    "empty": 1,
    "failed": 15,
    "pending": 0
   }
  },
  "byStatus": {
-  "success": 1275,
+  "success": 1278,
   "empty": 1,
   "failed": 15
  },
- "count": 1291,
- "withBody": 1275,
+ "count": 1294,
+ "withBody": 1278,
  "items": [
   {
    "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -120,7 +125,7 @@
    "site": "西交ACM校队（VJudge）",
    "date": "",
    "source": "acm_vjudge",
-   "fetchedAt": "2026-11-25T08:46:25.682603+00:00",
+   "fetchedAt": "2026-11-26T08:29:13.880258+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -141,11 +146,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:30.415160+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -170,9 +170,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:25.682603+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:13.880258+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://tuanwei.xjtu.edu.cn/passage?id=1798",
@@ -180,7 +185,7 @@
    "site": "校团委",
    "date": "2010-01-09",
    "source": "西安交通大学团委",
-   "fetchedAt": "2026-11-25T08:46:24.036919+00:00",
+   "fetchedAt": "2026-11-26T08:29:13.695700+00:00",
    "status": "empty",
    "error": "empty_content",
    "contentHash": "f3b8131d8e8f3703cdd6a89d47701e09a142bacd86905e21ecc0485a0d8b9413",
@@ -201,11 +206,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "empty",
-     "error": "empty_content",
-     "fetchedAt": "2026-11-20T07:25:30.392929+00:00"
-    },
     {
      "status": "empty",
      "error": "empty_content",
@@ -230,9 +230,14 @@
      "status": "empty",
      "error": "empty_content",
      "fetchedAt": "2026-11-25T08:46:24.036919+00:00"
+    },
+    {
+     "status": "empty",
+     "error": "empty_content",
+     "fetchedAt": "2026-11-26T08:29:13.695700+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6086.htm",
@@ -240,7 +245,7 @@
    "site": "研究生院",
    "date": "2019-03-26",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:23.685974+00:00",
+   "fetchedAt": "2026-11-26T08:29:13.605507+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -261,11 +266,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:29.426380+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -290,9 +290,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:23.685974+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:13.605507+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6254.htm",
@@ -300,7 +305,7 @@
    "site": "研究生院",
    "date": "2019-05-28",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:23.596148+00:00",
+   "fetchedAt": "2026-11-26T08:29:12.027033+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -321,11 +326,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:28.318309+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -350,9 +350,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:23.596148+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:12.027033+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6325.htm",
@@ -360,7 +365,7 @@
    "site": "研究生院",
    "date": "2019-07-08",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:21.263052+00:00",
+   "fetchedAt": "2026-11-26T08:29:11.890009+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -381,11 +386,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:28.300137+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -410,9 +410,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:21.263052+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:11.890009+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/6655.htm",
@@ -420,7 +425,7 @@
    "site": "研究生院",
    "date": "2020-01-07",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:20.965716+00:00",
+   "fetchedAt": "2026-11-26T08:29:11.804581+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -441,11 +446,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:27.289109+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -470,9 +470,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:20.965716+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:11.804581+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8024.htm",
@@ -480,7 +485,7 @@
    "site": "研究生院",
    "date": "2021-05-12",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:19.452545+00:00",
+   "fetchedAt": "2026-11-26T08:29:10.257059+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -501,11 +506,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:26.376494+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -530,9 +530,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:19.452545+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:10.257059+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://gs.xjtu.edu.cn/info/1179/8522.htm",
@@ -540,7 +545,7 @@
    "site": "研究生院",
    "date": "2021-11-24",
    "source": "gs_competitions",
-   "fetchedAt": "2026-11-25T08:46:18.822064+00:00",
+   "fetchedAt": "2026-11-26T08:29:10.090929+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -561,11 +566,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:26.152579+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -590,9 +590,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:18.822064+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:10.090929+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1191&wbnewsid=4399",
@@ -600,7 +605,7 @@
    "site": "实践教学中心",
    "date": "2025-01-03",
    "source": "pec",
-   "fetchedAt": "2026-11-25T08:46:18.361583+00:00",
+   "fetchedAt": "2026-11-26T08:29:10.036833+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -621,11 +626,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:24.670943+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -650,9 +650,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:18.361583+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:10.036833+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://xmtxy.xjtu.edu.cn/info/1013/10590.htm",
@@ -660,7 +665,7 @@
    "site": "实践教学中心",
    "date": "2025-04-29",
    "source": "pec",
-   "fetchedAt": "2026-11-25T08:46:17.719523+00:00",
+   "fetchedAt": "2026-11-26T08:29:08.629408+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -681,11 +686,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-20T07:25:24.670051+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -710,9 +710,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-25T08:46:17.719523+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-26T08:29:08.629408+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "http://pec.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1190&wbnewsid=5152",
@@ -720,7 +725,7 @@
    "site": "实践教学中心",
    "date": "2026-03-26",
    "source": "pec",
-   "fetchedAt": "2026-11-25T08:46:16.735009+00:00",
+   "fetchedAt": "2026-11-26T08:29:08.316551+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -741,11 +746,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:24.669557+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -770,9 +770,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:16.735009+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:08.316551+00:00"
     }
    ],
-   "totalAttempts": 22
+   "totalAttempts": 23
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/132.html",
@@ -780,7 +785,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-08",
    "source": "robocon",
-   "fetchedAt": "2026-11-25T08:46:16.535957+00:00",
+   "fetchedAt": "2026-11-26T08:29:05.035041+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -801,11 +806,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-21T07:18:02.015450+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -830,9 +830,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:16.535957+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:05.035041+00:00"
     }
    ],
-   "totalAttempts": 22
+   "totalAttempts": 23
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1099/10511.htm",
@@ -840,7 +845,7 @@
    "site": "教务处",
    "date": "2026-10-14",
    "source": "jwc",
-   "fetchedAt": "2026-11-25T08:46:16.513046+00:00",
+   "fetchedAt": "2026-11-26T08:29:03.769215+00:00",
    "status": "failed",
    "error": "HTTP 404",
    "contentHash": "",
@@ -861,11 +866,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "HTTP 404",
-     "fetchedAt": "2026-11-20T07:25:22.926092+00:00"
-    },
     {
      "status": "failed",
      "error": "HTTP 404",
@@ -890,9 +890,14 @@
      "status": "failed",
      "error": "HTTP 404",
      "fetchedAt": "2026-11-25T08:46:16.513046+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "HTTP 404",
+     "fetchedAt": "2026-11-26T08:29:03.769215+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/133.html",
@@ -900,7 +905,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-20",
    "source": "robocon",
-   "fetchedAt": "2026-11-25T08:46:15.634954+00:00",
+   "fetchedAt": "2026-11-26T08:29:03.766067+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -921,11 +926,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:22.924654+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -950,9 +950,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:15.634954+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:03.766067+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/134.html",
@@ -960,7 +965,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-26",
    "source": "robocon",
-   "fetchedAt": "2026-11-25T08:46:14.605212+00:00",
+   "fetchedAt": "2026-11-26T08:29:03.741537+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -981,11 +986,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-20T07:25:22.923938+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1010,9 +1010,14 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:14.605212+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:03.741537+00:00"
     }
    ],
-   "totalAttempts": 21
+   "totalAttempts": 22
   },
   {
    "url": "https://www.robocon.org.cn/sys-nd/135.html",
@@ -1020,7 +1025,7 @@
    "site": "ROBOCON官网",
    "date": "2026-10-29",
    "source": "robocon",
-   "fetchedAt": "2026-11-25T08:46:14.604297+00:00",
+   "fetchedAt": "2026-11-26T08:29:02.629190+00:00",
    "status": "failed",
    "error": "ValueError:body_not_found: no configured article selector matched",
    "contentHash": "",
@@ -1041,11 +1046,6 @@
    "qq": "",
    "attempts": 1,
    "attemptHistory": [
-    {
-     "status": "failed",
-     "error": "ValueError:body_not_found: no configured article selector matched",
-     "fetchedAt": "2026-11-21T07:18:00.979057+00:00"
-    },
     {
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
@@ -1070,9 +1070,1307 @@
      "status": "failed",
      "error": "ValueError:body_not_found: no configured article selector matched",
      "fetchedAt": "2026-11-25T08:46:14.604297+00:00"
+    },
+    {
+     "status": "failed",
+     "error": "ValueError:body_not_found: no configured article selector matched",
+     "fetchedAt": "2026-11-26T08:29:02.629190+00:00"
     }
    ],
-   "totalAttempts": 22
+   "totalAttempts": 23
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+   "title": "关于开展西安交通大学“思创力”青年创业者俱乐部成员招募的通知",
+   "site": "校团委",
+   "date": "2026-11-23",
+   "source": "共青团西安交通大学委员会   马克思主义学院",
+   "fetchedAt": "2026-11-26T08:29:02.628568+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "4f4407dae39c4940531e4865f449bbfeb0046cab4b7c67e31d8a8ac40337540f",
+   "contentParserVersion": 2,
+   "body": "一、活动主题\n思创聚力·青创致远\n二、活动目的\n为深入贯彻落实创新创业驱动发展战略，坚持立德树人根本任务，将思想政治引领全面融入青年创业实践，共青团西安交通大学委员会、马克思主义学院联合发起，西安交通大学国家大学科技园支持共建“思创力”青年创业者俱乐部。俱乐部挂靠团委学生科技创新指导中心独立运行，依托创业校友捐资设立的西安交通大学思创力发展基金，以“思政铸魂、创业赋能、价值引领、实践育人”为宗旨，汇聚在校创业青年，搭建实践交流平台，强化价值引导，培育兼具家国情怀、商业能力与社会担当的新时代青年创业者。\n三、活动内容\n1.遴选成员并立项扶持\n面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；同步立项扶持20个创业项目，扶持资金总额20万元。\nA类扶持项目4个：每个扶持3万元，用于研发与产品迭代、市场与渠道拓展、设备与生产条件升级、合规财税与知识产权建设等经营发展支出。\nB类一般项目16个：每个扶持5000元，用于企业调研、行业交流、城市间交通、住宿、市内交通、企业参访与展会门票等专项调研支出。\n要素\nA类扶持项目\n（4个）\nB类一般项目\n（16个）\n核心定位\n扶持突破产品定型、渠道铺设、合规搭建、产能扩充等具体增长瓶颈；引导践行社会责任，实现经济效益与社会价值统一\n支持成员“走出去”开展精准企业调研与行业交流，把资金用在实地走访、对标学习上\n资金用途\n研发与产品迭代，市场与渠道拓展，设备与生产条件升级，合规、财税、知识产权建设等经营发展类支出\n城市间交通（火车、长途汽车、经济舱机票）、住宿、市内交通、企业参访与展会门票等调研相关支出\n两类项目不交叉申报，同一成员只能获得一类扶持；同一公司、同一实际控制人不得重复申报。\n2.建立“创业校友导师+思政导师”双导师队伍\n建立“创业校友导师+思政导师”双导师队伍，聘任创业校友担任导师，同步选聘马克思主义学院思政导师若干名，为成员提供创业指导、资源对接和思想价值引领。\n3.对接场地孵化与产业资源\n对接“挑战杯”大学生科创成果转孵化基地、其它校内外孵化载体与办公场地资源，联动科技园提供注册服务、工商财税等一站式创业服务；链接创业校友企业、行业优质企业与校内联合创新平台，常态化开展产业对接、企业参访与供需洽谈，拓展合作场景与发展资源。\n4.搭建交流平台与荣誉推荐\n打造创业沙龙、行业分享等系列交流活动，促进经验共享与资源联动；推荐成员参与各级创新创业赛事、扶持资金与人才项目申报，助力优秀创业项目获得更高平台和更多支持。\n四、报名条件\n申请人须同时具备下列四项条件，缺一不可：\n（1）全日制在校身份：西安交通大学全日制在校本科生、硕士生、博士生，学籍状态正常。\n（2）真实创业实践：本人实际参与创业运营，并符合下列三类情形之一：\n认定路径\n适用对象\n路径一：\n已注册公司\n已注册有限责任公司、合伙企业、个人独资企业，本人为股东（持股不低于10%）、合伙人或者法定代表人，并实际参与日常经营决策\n路径二：\n实体经营未注册\n以个体工商户、工作室形式经营，或以团队形式承接业务并形成稳定收入\n路径三：\n平台型经营\n依托电商、内容、软件平台开展经营，有稳定交易记录与合规运营记录\n下列情形不认定为真实创业：仅报名参加创业赛事，未实际开展经营的；仅为挂名股东、法定代表人，不参与经营、不投入时间、不承担经营责任的；创业主体已停止经营、被吊销营业执照、列入经营异常名录或有严重失信记录的。\n（3）思想政治与品行条件：拥护中国共产党的领导，自觉践行社会主义核心价值观；遵守法律法规和校纪校规，无违纪违规记录；无学术不端、侵犯知识产权、失信被执行等情形；创业主体无经营异常、严重违法失信记录。\n（4）参与投入条件：能够保证参加俱乐部活动的时间，承诺每季度参加活动不少于2次，每年主讲或创业分享不少于1次。\n五、报名方式\n1.报名提交：\n（1）全套申报材料电子版打包为单个压缩包并发送至邮箱：mkssichuangli@163.com，邮件主题、压缩包统一命名为：“负责人姓名-项目名称-联系方式”；压缩包内各文件按“负责人姓名-材料名称”命名；\n（2）纸质材料（PPT除外）经所在二级单位团组织审核、签字盖章后，报送至兴庆校区主E-512或创新港校区涵英楼5-8074。\n2.材料清单\n（1）报名表（须经二级单位团组织审核、签字盖章）；\n（2）项目材料（项目PPT、商业计划书）；\n（3）附件材料（合并为单个PDF，文件大小≤20MB，按需提供，无可不提交）：\n－营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等经营类材料；\n－专利、软著、商标受理通知书或授权证书、相关论文等知识产权成果；\n－其他可佐证项目基础、团队实力的支撑材料。\n（4）负责人学籍证明：学生证扫描件。\n3.截止时间：2026年11月30日17:00。电子版以邮件发送时间为准，纸质版以现场提交时间为准，逾期不予受理。\n4.咨询通知：报名人员请务必加入QQ群：869568956，本群为咨询答疑、面试及评审结果等重要事项的唯一通知渠道，请及时关注群内消息。\n六、招募方式\n采用材料初评+面试答辩两段式选拔，全程贯穿“能力与素养并重、实绩与价值同察”原则：\n1.材料初评：审核报名表、学籍证明、项目计划书与PPT及创业证明材料；\n2.面试答辩：综合考察创业能力、经营实绩与思想素养，具体时间、地点及形式另行通知。\n西安交通大学青年创业者俱乐部成员遴选报名表.docx\n图文 | 共青团西安交通大学委员会\n马克思主义学院\n编辑 | 张雅如\n值班编辑 | 优思新媒体中心 何依彤\n二审 | 优思新媒体中心 冯金泽\n责编 | 优思新媒体中心 陈俊哲\n审核 | 邱辰 魏小雅 李蔚林 刘钊君 徐硕基\n校审 | 毕晓楠 孟浩 边志坚 强伟",
+   "bodyHtml": "<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>一、活动主题</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>思创聚力·青创致远</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>二、活动目的</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p>  为深入贯彻落实创新创业驱动发展战略，坚持立德树人根本任务，将思想政治引领全面融入青年创业实践，<strong>共青团西安交通大学委员会、马克思主义学院联合发起</strong><strong>，西安交通大学<span class=\"\">国家大学科技园</span>支持共建“思创力”青年创业者俱乐部。</strong>俱乐部挂靠团委学生科技创新指导中心独立运行，依托创业校友捐资设立的西安交通大学思创力发展基金，以“思政铸魂、创业赋能、价值引领、实践育人”为宗旨，汇聚在校创业青年，搭建实践交流平台，强化价值引导，培育兼具家国情怀、商业能力与社会担当的新时代青年创业者。</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>三、活动内容</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p><strong>  1.遴选成员并立项扶持</strong></p>\n<p>  面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；同步立项扶持20个创业项目，扶持资金总额20万元。</p>\n<p><strong>  A类扶持项目4个</strong>：每个扶持3万元，用于研发与产品迭代、市场与渠道拓展、设备与生产条件升级、合规财税与知识产权建设等经营发展支出。</p>\n<p><strong>  B类一般项目16个</strong>：每个扶持5000元，用于企业调研、行业交流、城市间交通、住宿、市内交通、企业参访与展会门票等专项调研支出。</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<table>\n<tbody>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p><strong>要素</strong></p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p><strong>A类扶持项目</strong></p>\n<p><strong>（4个）</strong></p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p><strong>B类一般项目</strong></p>\n<p><strong>（16个）</strong></p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p>核心定位</p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p>扶持突破产品定型、渠道铺设、合规搭建、产能扩充等具体增长瓶颈；引导践行社会责任，实现经济效益与社会价值统一</p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p>支持成员“走出去”开展精准企业调研与行业交流，把资金用在实地走访、对标学习上</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p>资金用途</p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p>研发与产品迭代，市场与渠道拓展，设备与生产条件升级，合规、财税、知识产权建设等经营发展类支出</p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p>城市间交通（火车、长途汽车、经济舱机票）、住宿、市内交通、企业参访与展会门票等调研相关支出</p>\n</section>\n</section>\n</td>\n</tr>\n</tbody>\n</table>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p> </p>\n<p>  两类项目不交叉申报，同一成员只能获得一类扶持；同一公司、同一实际控制人不得重复申报。</p>\n<p><strong>  2.建立“创业校友导师+思政导师”双导师队伍</strong></p>\n<p>  建立“创业校友导师+思政导师”双导师队伍，聘任创业校友担任导师，同步选聘马克思主义学院思政导师若干名，为成员提供创业指导、资源对接和思想价值引领。</p>\n<p><strong>  3.对接场地孵化与产业资源</strong></p>\n<p>  对接“挑战杯”大学生科创成果转孵化基地、其它校内外孵化载体与办公场地资源，联动科技园提供注册服务、工商财税等一站式创业服务；链接创业校友企业、行业优质企业与校内联合创新平台，常态化开展产业对接、企业参访与供需洽谈，拓展合作场景与发展资源。</p>\n<p><strong>  4.搭建交流平台与荣誉推荐</strong></p>\n<p>  打造创业沙龙、行业分享等系列交流活动，促进经验共享与资源联动；推荐成员参与各级创新创业赛事、扶持资金与人才项目申报，助力优秀创业项目获得更高平台和更多支持。</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>四、报名条件</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p>  申请人须同时具备下列四项条件，缺一不可：</p>\n<p>  （1）<strong>全日制在校身份</strong>：西安交通大学全日制在校本科生、硕士生、博士生，学籍状态正常。</p>\n<p>  （2）<strong>真实创业实践</strong>：本人实际参与创业运营，并符合下列三类情形之一：</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<table>\n<tbody>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p><strong>认定路径</strong></p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p><strong>适用对象</strong></p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p>路径一：</p>\n<p>已注册公司</p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p>已注册有限责任公司、合伙企业、个人独资企业，本人为股东（持股不低于10%）、合伙人或者法定代表人，并实际参与日常经营决策</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p>路径二：</p>\n<p>实体经营未注册</p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p>以个体工商户、工作室形式经营，或以团队形式承接业务并形成稳定收入</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<p>路径三：</p>\n<p>平台型经营</p>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<p>依托电商、内容、软件平台开展经营，有稳定交易记录与合规运营记录</p>\n</section>\n</td>\n</tr>\n</tbody>\n</table>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p> </p>\n<p>  下列情形不认定为真实创业：仅报名参加创业赛事，未实际开展经营的；仅为挂名股东、法定代表人，不参与经营、不投入时间、不承担经营责任的；创业主体已停止经营、被吊销营业执照、列入经营异常名录或有严重失信记录的。</p>\n<p>  （3）<strong>思想政治与品行条件</strong>：拥护中国共产党的领导，自觉践行社会主义核心价值观；遵守法律法规和校纪校规，无违纪违规记录；无学术不端、侵犯知识产权、失信被执行等情形；创业主体无经营异常、严重违法失信记录。</p>\n<p>  （4）<strong>参与投入条件</strong>：能够保证参加俱乐部活动的时间，承诺每季度参加活动不少于2次，每年主讲或创业分享不少于1次。</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>五、报名方式</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section></section>\n<section>  1.报名提交：</section>\n<section>\n<p>  （1）全套申报材料电子版打包为单个压缩包并发送至邮箱：mkssichuangli@163.com，邮件主题、压缩包统一命名为：“负责人姓名-项目名称-联系方式”；压缩包内各文件按“负责人姓名-材料名称”命名；</p>\n</section>\n<section>  （2）纸质材料（PPT除外）经所在二级单位团组织审核、签字盖章后，报送至兴庆校区主E-512或创新港校区涵英楼5-8074。</section>\n<section>  2.材料清单</section>\n<section>  （1）报名表（须经二级单位团组织审核、签字盖章）；</section>\n<section>  （2）项目材料（项目PPT、商业计划书）；</section>\n<section>  （3）附件材料（合并为单个PDF，文件大小≤20MB，按需提供，无可不提交）：</section>\n<section>  －营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等经营类材料；</section>\n<section>  －专利、软著、商标受理通知书或授权证书、相关论文等知识产权成果；</section>\n<section>  －其他可佐证项目基础、团队实力的支撑材料。</section>\n<section>  （4）负责人学籍证明：学生证扫描件。</section>\n<section>  3.截止时间：2026年11月30日17:00。电子版以邮件发送时间为准，纸质版以现场提交时间为准，逾期不予受理。</section>\n<section>  4.咨询通知：报名人员请务必加入QQ群：869568956，本群为咨询答疑、面试及评审结果等重要事项的唯一通知渠道，请及时关注群内消息。</section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p><strong><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/d85a5ba6-a78b-4cfa-81df-be2812c44b42.jpg\"></strong></p>\n<p> </p>\n<p style=\"text-align: center;\"><strong>六、招募方式</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p>  采用材料初评+面试答辩两段式选拔，全程贯穿“能力与素养并重、实绩与价值同察”原则：</p>\n<p>  1.材料初评：审核报名表、学籍证明、项目计划书与PPT及创业证明材料；</p>\n<p>  2.面试答辩：综合考察创业能力、经营实绩与思想素养，具体时间、地点及形式另行通知。</p>\n<p><span data-pm-slice=\"0 0 []\"><a class=\"weapp_text_link js_weapp_entry wx_tap_link js_wx_tap_highlight\" href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&amp;mid=2247820717&amp;idx=1&amp;sn=442f02fd14c2aa8cf45515bdae84b21c&amp;chksm=e980f11b59f12e2d7d8b736c5b67e23e418c221455313a9b66c798bc5e09a9aab5688198e221&amp;scene=126&amp;sessionid=1795609625&amp;subscene=308&amp;clicktime=1795609665&amp;enterid=1795609665&amp;click_id=734282259&amp;key=daf9bdc5abc4e8d054188a0b2210877c5fe86396d7042550bfb13badd8daa529b182e9b4df6f3acde60bb3b62142f2a4b10e8d96bd1e3c5d9eea7b6c81d1846f2b521be4416336fb0eef923b69c3cf96370049146077cc9f204150fb803508c2966ef1ec542827030b5c8a9602e27da73f1e13ef67befc1201cd8c80aa691fa0&amp;ascene=1&amp;uin=MjI1MjQ1NzMxNw%3D%3D&amp;devicetype=UnifiedPCWindows&amp;version=f254200d&amp;lang=zh_CN&amp;exportkey=n_ChQIAhIQynVgA4ZjNoQ2iFPX13umeRLoAQIE97dBBAEAAAAAAPm4JqaLynkAAAAOpnltbLcz9gKNyK89dVj0Ce6QQjiGWcqdvi6ys7KcyhAylrAqToTvw5Obm%2F86c0NVbWseyR0rOCNJfAg5k6ju2MaFYyVPRbnCE4I2vBP8VRC0fFJjWVq0C4E0Aidf9ZxIHEme3yxRtuUIT5BSugGgSxqeshOnN1JoLGJ4bLOJbWpJ56oU7sGWIwmxvq2Sf9aNHJXMDs21q4FnllAhyAhs%2FHTwH6n48MqKxZOSQg%2F6L4er1sWCyf5BL7E7M8txXyFtq9MQDLCHXo%2FbC0DikxKqFqI%3D&amp;acctmode=0&amp;pass_ticket=l1D0X91MADx9AUHYJEYKysOSMO%2FNq0mfwCLX09PBvTB0O%2BB8Cf3XGCW115lptaBV8feht4vzftPyFM9AjTjErw%3D%3D&amp;wx_header=0&amp;fasttmpl_type=0&amp;fasttmpl_fullversion=8537066-zh_CN-html&amp;from_xworker=1\" data-miniprogram-type=\"text\" data-miniprogram-appid=\"wx561e3eea03592eeb\" data-miniprogram-path=\"pages/doc/doc?uuid=68abec52abe14f40bf2dcc3950a3be23&amp;sid=59879331\" data-miniprogram-nickname=\"轻云档\" data-miniprogram-servicetype=\"\">  西安交通大学青年创业者俱乐部成员遴选报名表.docx</a></span></p>\n</section>\n</section>\n</section>\n</section>\n<section></section>\n</section>\n<p style=\"text-align: right;\" data-pm-slice=\"0 0 []\">图文 | 共青团西安交通大学委员会</p>\n<p style=\"text-align: right;\">马克思主义学院</p>\n<p style=\"text-align: right;\">编辑 | 张雅如</p>\n<p style=\"text-align: right;\">值班编辑 | 优思新媒体中心 何依彤</p>\n<p style=\"text-align: right;\">二审 | 优思新媒体中心 冯金泽</p>\n<p style=\"text-align: right;\">责编 | 优思新媒体中心 陈俊哲</p>\n<p style=\"text-align: right;\">审核 | 邱辰 魏小雅 李蔚林 刘钊君 徐硕基</p>\n<p style=\"text-align: right;\">校审 | 毕晓楠 孟浩 边志坚 强伟</p>",
+   "bodyLen": 2400,
+   "excerpt": "一、活动主题 思创聚力·青创致远 二、活动目的 为深入贯彻落实创新创业驱动发展战略，坚持立德树人根本任务，将思想政治引领全面融入青年创业实践，共青团西安交通大学委员会、马克思主义学院联合发起，西安交通大学国家大学科技园支持共建“思创力”青年创业者俱乐部。俱乐部挂靠团委学生科技创新指导中心独立运行，依托创业校友捐资设立的西安交通大学思创力发展基金，以“思政铸魂、创业赋能、价值引领、实践育人”为宗旨，汇聚在校创业青年，搭建实践交流平台，强化价值引导，培育兼具家国情怀、商业能力与社会担当的新时代青年创业者。 三、活动内容 1.遴选成员并立项扶持 面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；同步立项扶持20个创业项目，扶持资金总额20万元。 A类扶持项目4个：每个扶持3万元，用于研发与产品迭代、市场与渠道拓展、设备与生产条件升级、合规财税与知识产权建设等经营发展支出。 B类一般项目16个：每个扶持5000元，用于企业调研、行业交流、城市间交通、住宿、市内交通、企业参访与展会门票等专项调研支出。",
+   "paragraphs": [
+    "一、活动主题",
+    "思创聚力·青创致远",
+    "二、活动目的",
+    "为深入贯彻落实创新创业驱动发展战略，坚持立德树人根本任务，将思想政治引领全面融入青年创业实践，共青团西安交通大学委员会、马克思主义学院联合发起，西安交通大学国家大学科技园支持共建“思创力”青年创业者俱乐部。俱乐部挂靠团委学生科技创新指导中心独立运行，依托创业校友捐资设立的西安交通大学思创力发展基金，以“思政铸魂、创业赋能、价值引领、实践育人”为宗旨，汇聚在校创业青年，搭建实践交流平台，强化价值引导，培育兼具家国情怀、商业能力与社会担当的新时代青年创业者。",
+    "三、活动内容",
+    "1.遴选成员并立项扶持",
+    "面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；同步立项扶持20个创业项目，扶持资金总额20万元。",
+    "A类扶持项目4个：每个扶持3万元，用于研发与产品迭代、市场与渠道拓展、设备与生产条件升级、合规财税与知识产权建设等经营发展支出。",
+    "B类一般项目16个：每个扶持5000元，用于企业调研、行业交流、城市间交通、住宿、市内交通、企业参访与展会门票等专项调研支出。",
+    "两类项目不交叉申报，同一成员只能获得一类扶持；同一公司、同一实际控制人不得重复申报。",
+    "2.建立“创业校友导师+思政导师”双导师队伍",
+    "建立“创业校友导师+思政导师”双导师队伍，聘任创业校友担任导师，同步选聘马克思主义学院思政导师若干名，为成员提供创业指导、资源对接和思想价值引领。",
+    "3.对接场地孵化与产业资源",
+    "对接“挑战杯”大学生科创成果转孵化基地、其它校内外孵化载体与办公场地资源，联动科技园提供注册服务、工商财税等一站式创业服务；链接创业校友企业、行业优质企业与校内联合创新平台，常态化开展产业对接、企业参访与供需洽谈，拓展合作场景与发展资源。",
+    "4.搭建交流平台与荣誉推荐",
+    "打造创业沙龙、行业分享等系列交流活动，促进经验共享与资源联动；推荐成员参与各级创新创业赛事、扶持资金与人才项目申报，助力优秀创业项目获得更高平台和更多支持。",
+    "四、报名条件",
+    "申请人须同时具备下列四项条件，缺一不可：",
+    "（1）全日制在校身份：西安交通大学全日制在校本科生、硕士生、博士生，学籍状态正常。",
+    "（2）真实创业实践：本人实际参与创业运营，并符合下列三类情形之一：",
+    "下列情形不认定为真实创业：仅报名参加创业赛事，未实际开展经营的；仅为挂名股东、法定代表人，不参与经营、不投入时间、不承担经营责任的；创业主体已停止经营、被吊销营业执照、列入经营异常名录或有严重失信记录的。",
+    "（3）思想政治与品行条件：拥护中国共产党的领导，自觉践行社会主义核心价值观；遵守法律法规和校纪校规，无违纪违规记录；无学术不端、侵犯知识产权、失信被执行等情形；创业主体无经营异常、严重违法失信记录。",
+    "（4）参与投入条件：能够保证参加俱乐部活动的时间，承诺每季度参加活动不少于2次，每年主讲或创业分享不少于1次。",
+    "五、报名方式",
+    "1.报名提交：",
+    "（1）全套申报材料电子版打包为单个压缩包并发送至邮箱：mkssichuangli@163.com，邮件主题、压缩包统一命名为：“负责人姓名-项目名称-联系方式”；压缩包内各文件按“负责人姓名-材料名称”命名；",
+    "（2）纸质材料（PPT除外）经所在二级单位团组织审核、签字盖章后，报送至兴庆校区主E-512或创新港校区涵英楼5-8074。",
+    "2.材料清单",
+    "（1）报名表（须经二级单位团组织审核、签字盖章）；",
+    "（2）项目材料（项目PPT、商业计划书）；",
+    "（3）附件材料（合并为单个PDF，文件大小≤20MB，按需提供，无可不提交）：",
+    "－营业执照、股权结构证明、营收凭证、用户证明、经营场地证明等经营类材料；",
+    "－专利、软著、商标受理通知书或授权证书、相关论文等知识产权成果；",
+    "－其他可佐证项目基础、团队实力的支撑材料。",
+    "（4）负责人学籍证明：学生证扫描件。",
+    "3.截止时间：2026年11月30日17:00。电子版以邮件发送时间为准，纸质版以现场提交时间为准，逾期不予受理。",
+    "4.咨询通知：报名人员请务必加入QQ群：869568956，本群为咨询答疑、面试及评审结果等重要事项的唯一通知渠道，请及时关注群内消息。",
+    "六、招募方式",
+    "采用材料初评+面试答辩两段式选拔，全程贯穿“能力与素养并重、实绩与价值同察”原则：",
+    "1.材料初评：审核报名表、学籍证明、项目计划书与PPT及创业证明材料；",
+    "2.面试答辩：综合考察创业能力、经营实绩与思想素养，具体时间、地点及形式另行通知。",
+    "西安交通大学青年创业者俱乐部成员遴选报名表.docx",
+    "图文 | 共青团西安交通大学委员会",
+    "马克思主义学院",
+    "编辑 | 张雅如",
+    "值班编辑 | 优思新媒体中心 何依彤",
+    "二审 | 优思新媒体中心 冯金泽",
+    "责编 | 优思新媒体中心 陈俊哲",
+    "审核 | 邱辰 魏小雅 李蔚林 刘钊君 徐硕基",
+    "校审 | 毕晓楠 孟浩 边志坚 强伟"
+   ],
+   "tables": [
+    {
+     "rows": [
+      [
+       {
+        "text": "要素",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "A类扶持项目\n\n（4个）",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "B类一般项目\n\n（16个）",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "核心定位",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "扶持突破产品定型、渠道铺设、合规搭建、产能扩充等具体增长瓶颈；引导践行社会责任，实现经济效益与社会价值统一",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "支持成员“走出去”开展精准企业调研与行业交流，把资金用在实地走访、对标学习上",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "资金用途",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "研发与产品迭代，市场与渠道拓展，设备与生产条件升级，合规、财税、知识产权建设等经营发展类支出",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "城市间交通（火车、长途汽车、经济舱机票）、住宿、市内交通、企业参访与展会门票等调研相关支出",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ]
+     ],
+     "html": "<table>\n<tbody>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p><strong>要素</strong></p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p><strong>A类扶持项目</strong></p>\n<p><strong>（4个）</strong></p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p><strong>B类一般项目</strong></p>\n<p><strong>（16个）</strong></p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p>核心定位</p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p>扶持突破产品定型、渠道铺设、合规搭建、产能扩充等具体增长瓶颈；引导践行社会责任，实现经济效益与社会价值统一</p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p>支持成员“走出去”开展精准企业调研与行业交流，把资金用在实地走访、对标学习上</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"11.0000%\" data-colwidth=\"11.0000%\">\n<section>\n<section>\n<p>资金用途</p>\n</section>\n</section>\n</td>\n<td width=\"45.0000%\" data-colwidth=\"45.0000%\">\n<section>\n<section>\n<p>研发与产品迭代，市场与渠道拓展，设备与生产条件升级，合规、财税、知识产权建设等经营发展类支出</p>\n</section>\n</section>\n</td>\n<td width=\"44.0000%\" data-colwidth=\"44.0000%\">\n<section>\n<section>\n<p>城市间交通（火车、长途汽车、经济舱机票）、住宿、市内交通、企业参访与展会门票等调研相关支出</p>\n</section>\n</section>\n</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "rows": [
+      [
+       {
+        "text": "认定路径",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "适用对象",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "路径一：\n\n已注册公司",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "已注册有限责任公司、合伙企业、个人独资企业，本人为股东（持股不低于10%）、合伙人或者法定代表人，并实际参与日常经营决策",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "路径二：\n\n实体经营未注册",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "以个体工商户、工作室形式经营，或以团队形式承接业务并形成稳定收入",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "路径三：\n\n平台型经营",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "依托电商、内容、软件平台开展经营，有稳定交易记录与合规运营记录",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ]
+     ],
+     "html": "<table>\n<tbody>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p><strong>认定路径</strong></p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p><strong>适用对象</strong></p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p>路径一：</p>\n<p>已注册公司</p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p>已注册有限责任公司、合伙企业、个人独资企业，本人为股东（持股不低于10%）、合伙人或者法定代表人，并实际参与日常经营决策</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<section>\n<p>路径二：</p>\n<p>实体经营未注册</p>\n</section>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<section>\n<p>以个体工商户、工作室形式经营，或以团队形式承接业务并形成稳定收入</p>\n</section>\n</section>\n</td>\n</tr>\n<tr>\n<td width=\"35.0000%\" data-colwidth=\"35.0000%\">\n<section>\n<p>路径三：</p>\n<p>平台型经营</p>\n</section>\n</td>\n<td width=\"65.0000%\" data-colwidth=\"65.0000%\">\n<section>\n<p>依托电商、内容、软件平台开展经营，有稳定交易记录与合规运营记录</p>\n</section>\n</td>\n</tr>\n</tbody>\n</table>"
+    }
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "table",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "table",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/d85a5ba6-a78b-4cfa-81df-be2812c44b42.jpg",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [
+    {
+     "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&mid=2247820717&idx=1&sn=442f02fd14c2aa8cf45515bdae84b21c&chksm=e980f11b59f12e2d7d8b736c5b67e23e418c221455313a9b66c798bc5e09a9aab5688198e221&scene=126&sessionid=1795609625&subscene=308&clicktime=1795609665&enterid=1795609665&click_id=734282259&key=daf9bdc5abc4e8d054188a0b2210877c5fe86396d7042550bfb13badd8daa529b182e9b4df6f3acde60bb3b62142f2a4b10e8d96bd1e3c5d9eea7b6c81d1846f2b521be4416336fb0eef923b69c3cf96370049146077cc9f204150fb803508c2966ef1ec542827030b5c8a9602e27da73f1e13ef67befc1201cd8c80aa691fa0&ascene=1&uin=MjI1MjQ1NzMxNw%3D%3D&devicetype=UnifiedPCWindows&version=f254200d&lang=zh_CN&exportkey=n_ChQIAhIQynVgA4ZjNoQ2iFPX13umeRLoAQIE97dBBAEAAAAAAPm4JqaLynkAAAAOpnltbLcz9gKNyK89dVj0Ce6QQjiGWcqdvi6ys7KcyhAylrAqToTvw5Obm%2F86c0NVbWseyR0rOCNJfAg5k6ju2MaFYyVPRbnCE4I2vBP8VRC0fFJjWVq0C4E0Aidf9ZxIHEme3yxRtuUIT5BSugGgSxqeshOnN1JoLGJ4bLOJbWpJ56oU7sGWIwmxvq2Sf9aNHJXMDs21q4FnllAhyAhs%2FHTwH6n48MqKxZOSQg%2F6L4er1sWCyf5BL7E7M8txXyFtq9MQDLCHXo%2FbC0DikxKqFqI%3D&acctmode=0&pass_ticket=l1D0X91MADx9AUHYJEYKysOSMO%2FNq0mfwCLX09PBvTB0O%2BB8Cf3XGCW115lptaBV8feht4vzftPyFM9AjTjErw%3D%3D&wx_header=0&fasttmpl_type=0&fasttmpl_fullversion=8537066-zh_CN-html&from_xworker=1",
+     "text": "西安交通大学青年创业者俱乐部成员遴选报名表.docx",
+     "kind": "form"
+    }
+   ],
+   "contact": "",
+   "phone": "",
+   "email": "mkssichuangli@163.com",
+   "qq": "869568956",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-26T08:29:02.628568+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://tuanwei.xjtu.edu.cn/passage?id=4806",
+   "title": "首雁说 | 实验室安全优秀学生访谈纪实（第四期）",
+   "site": "校团委",
+   "date": "2026-11-24",
+   "source": "“首雁计划”志愿服务团",
+   "fetchedAt": "2026-11-26T08:29:02.627985+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "c7965c0ed34051fb5c58aca409a4d0836f3bfb0bda37343398e02e1d797d1b37",
+   "contentParserVersion": 2,
+   "body": "实验室的安全，藏在一次次细致的巡查中，也体现在一项项隐患整改与日常提醒里。从暑期巡查现场到日常科研一线，从安全知识宣讲到隐患排查，不同岗位上的青年学子正以各自的方式，守护着实验室的平安有序。\n本期“首雁说”，让我们走近俞斐、张佳欣、朱鲲、孙仲顺四位同学，聆听他们在实验室安全工作中的实践故事，感受不同岗位背后共同的责任与担当。\n以细致巡查识隐患 以协作担当护安全\n——俞斐\n俞斐是“首雁计划”志愿服务团暑期实验室安全巡查曲江巡查小组组长。在暑期实践中，俞斐认真组织组员逐间巡查实验室，围绕消防设施、用电安全、气瓶管理、危化品存放等重点内容排查隐患，完成现场记录、台账整理与系统填报，在实践中提升风险识别能力，以细致负责的行动守护实验室安全。\n1.学用结合，在细微之处发现风险\n从理论课堂到实验室安全体验馆，俞斐逐步将安全规范与实验室的实际场景联系起来。通过模拟巡查和隐患识别，原本抽象的条文有了具体含义，杂物是否堵塞消防通道、是否靠近高温设备，都成为巡查时需要认真核对的细节。\n气瓶管理中的问题让俞斐印象深刻，有些气瓶虽然摆放整齐，仔细检查后仍可能发现存在固定措施不到位、信息牌缺失等隐患。俞斐提到，“只有按照检查清单逐项核对，才能真正发现风险。”\n面对涉及专业设备或实验条件、暂时无法判断的问题，俞斐坚持与组员讨论、对照标准核查，保留现场照片并记录情况，再向实验室负责人或老师请教，以审慎判断确保隐患识别准确，以规范巡查保障科研有序开展。\n2.协作提质，将安全责任融入日常\n为提高巡查效率，俞斐注重提前熟悉实验室名单和路线，明确组员分工。现场核对房间信息、拍照与隐患排查相互配合，发现问题及时记录位置、类别和具体情况，系统填报时逐项核对，确保照片、房间信息与隐患描述准确对应。\n参与巡查的经历，也改变了俞斐审视自身实验环境的方式，回到日常科研中，实验台面是否整洁、设备使用后是否及时断电、试剂标识是否规范，都成为主动关注的事项。\n结合实践中遇到的专业知识和填报难题，俞斐还提出加强分类培训、增加典型隐患案例教学、优化现场记录与填报流程等建议，希望让志愿者的专业学习与安全服务结合得更加紧密。\n俯身细查隐蔽风险 用心守护科研平安\n——张佳欣\n作为“首雁计划”暑期实验室安全巡查雁塔一组组长，张佳欣承担组内分工、路线安排、进度协调与材料核对工作，也全程参与现场拍照、隐患识别、台账记录和系统填报。从白天走进实验室逐项排查，到晚上整理材料、核对信息，张佳欣与组员共同把巡查任务落到实处，在细致检查与耐心沟通中践行志愿服务担当。\n1.俯身查隐患，不放过容易忽略的角落\n巡查中，藏在大型仪器夹缝下的插线板给张佳欣留下了深刻印象。实验台面干净、仪器摆放整齐，地面上的插线板却容易被忽略。有的插线板积灰明显，线缆还存在受挤压、磨损的风险，需要俯下身仔细查看才能发现。\n这次经历提醒张佳欣和组员，巡查既要看台面，也要查地面、看缝隙，留意日常操作视线之外的隐患。在现场记录中，小组逐步形成先拍全景、再拍隐患特写的做法，拍摄后及时备注房间号，同步记录隐患点位，减少后续整理中的遗漏与混淆。\n这样的检查习惯也延伸到了自身科研中。实验结束后查看插线板和线缆摆放，离开工位前确认电源、及时归放试剂，成为张佳欣更加自觉的日常行动。\n2.沟通有耐心，让安全提醒落到实处\n实验室暑期科研任务紧张，巡查需要兼顾现场实验安排。遇到同学正在进行关键操作时，张佳欣与组员会先检查周边区域，待操作告一段落后再沟通，说明隐患可能带来的实际风险，争取理解与配合，推动能够现场处理的问题及时整改。\n在共同巡查中，张佳欣逐渐体会到，把风险讲清楚、把沟通做充分，才能让安全要求更好地落实到行动中。面对拿不准的问题，小组共同讨论，必要时请教老师；当天收集的照片与台账，则尽量在当晚完成整理和录入。\n针对上门巡查跑空、部分隐患整改周期较长等情况，张佳欣建议提前对接巡查时间，加强隐蔽点位的安全科普，并完善后续跟进提醒机制，让现场发现的问题得到持续关注。\n从一张试剂标签做起 把安全责任落到细处\n——朱鲲\n朱鲲是一名实验室安全学生网格员。任职以来，朱鲲坚持每周填写安全自查问卷，跟随学院开展安全检查，参与隐患整改，并向实验室同学宣传安全规范。在定期巡查、沟通提醒与整改跟进中，不断加深对实验室风险的认识，用认真细致的日常工作，为同学们安心开展科研做好保障。\n1.细查促整改，在小事中守住安全底线\n一次巡查中，朱鲲发现一份分装试剂的标签信息不完整。经常使用的同学虽然清楚其中内容，其他同学却可能因信息不足发生误用。发现问题后，朱鲲及时向相关同学确认试剂名称和信息，将标签补充完整，减少试剂使用中的安全隐患。\n一张小小的标签，让朱鲲更加体会到网格员工作的责任。危化品是否按要求存放、气瓶是否固定、废液是否分类收集并贴好标签，都需要在日常检查中逐项关注。\n对于发现的隐患，朱鲲主动联系老师和相关同学，明确由谁处理、需要哪些配合，并持续跟进整改情况；遇到超出自身能力范围的问题，及时向老师报告、寻求帮助，推动安全要求落实到具体行动。\n2.自律践初心，在日常服务中传递责任\n科研任务繁重时，朱鲲仍会提前为定期巡查和问卷填报留出时间，按时完成安全工作。长期坚持，也让主动检查成为习惯，实验结束后整理操作区域，离开实验室前再次确认安全事项，把对他人的提醒先落实到自己身上。\n面对同学不熟悉的安全规定，朱鲲耐心解释；发现操作存在隐患，及时说明规范与注意事项。在日常实验中，还主动提醒大家清理公共设备、分类放置废弃物，做好使用交接，减少因沟通不到位影响后续实验的情况。\n从补齐试剂标签到跟进隐患整改，从规范自身操作到帮助同学理解安全要求，朱鲲把服务落实在一件件具体的小事中，带动身边同学共同维护安全、有序的实验环境。\n以常态巡检压实责任 以安全宣教服务同学\n——孙仲顺\n孙仲顺担任实验室安全学生网格员、实验室安全体验馆讲解员，也是首届西安交通大学“首雁计划”志愿服务团组织部成员。任职以来，累计参与实验室处安全专项自查问卷填报30余次，定期开展安全检查，并参与制作实验室安全小视频获三等奖。在日常巡检、组织协调和安全宣教中，持续提升履职能力，为实验室安全贡献力量。\n1,检查落实到人，隐患跟进到底\n为推动检查常态化，孙仲顺制定实验室安全检查计划，将工作日每日安全检查落实到人，通过群内打卡汇报检查情况，并组织每周卫生检查，认真关注用电、危化品存放、气瓶固定、废液处置和通道畅通等风险点。\n一次日常检查中，孙仲顺发现实验室废液桶未及时加盖，立即将桶盖扣紧，并通过查看监控和询问核实相关人员。这件事让孙仲顺更加重视检查责任的落实，发现问题及时处理，也要追查原因、做好后续提醒。\n针对学院检查发现的隐患，孙仲顺主动对接老师与实验室人员，明确整改责任和时限，跟踪检查整改效果。从每日检查到整改复查，把具体事项落实到人，让安全管理有安排、有反馈、有跟进。\n2.宣教贴近实际，让安全知识更易理解\n担任实验室安全体验馆讲解员期间，孙仲顺在加强自身学习的同时，向同学们讲解安全防护知识和应急处置要点。为了把知识讲清楚、把要求说明白，先熟悉规范、再联系实际，也成为对自身履职的要求。\n参与实验室安全小视频制作和安全月活动，让孙仲顺进一步认识到，直观、生动的表达能够帮助同学理解风险、记住规范。结合日常检查中的发现，孙仲顺还提出海报、漫画创作大赛等活动建议，希望让更多同学参与安全宣传。\n作为“首雁计划”志愿服务团组织部成员，孙仲顺参与活动组织与人员协调，将沟通经验运用到日常安全服务中，耐心说明操作要求，提醒做好实验废弃物分类处理，在持续检查与宣传中，帮助同学将安全知识落实到科研实践。\n共同的信念：各展所长，同心守安\n四位同学虽然岗位不同、经历各异，却在实践中展现出对实验室安全工作的共同坚守：\n见微知著\n关注易被忽略的安全细节，细致排查风险，及时消除隐患。\n协同履责\n从巡查分工、现场沟通到责任落实、整改跟进，他们以协作推动工作落实，确保检查有成效、问题有反馈。\n知行相促\n在巡查中深化认识，在科研中践行规范，在宣教中传递知识，以实践提升能力，以行动传递责任。\n他们以细致发现风险，以协作落实责任，以行动守卫安全，共同筑牢实验室安全防线。\n安全始于细节，责任见于行动\n在俞斐、张佳欣、朱鲲、孙仲顺身上，我们看到：\n实验室安全，不是一时的重视，而是日复一日的细致坚守；不止于发现隐患，更在于把每一份责任落到实处。\n岗位不同，责任相通。四位同学以各自的方式诠释着认真、严谨与担当，也让我们看到，实验室安全离不开每一位参与者的主动作为。\n愿更多青年学子从身边小事做起，将安全意识融入科研日常，以实际行动共同筑牢实验室安全防线！\n每一间实验室的安全，都离不开这样一个“你”。\n致敬每一位默默奉献的实验室安全志愿者与学生网格员！\n来源 | “首雁计划”志愿服务团\n编辑 | 邹文轩\n值班编辑丨优思新媒体中心 姜润东\n二审丨优思新媒体中心 孟德鑫\n责编丨优思新媒体中心 熊旭晨\n审核丨宋舒婷 刘钊君 徐硕基\n校审丨毕晓楠 强伟",
+   "bodyHtml": "<section>\n<section>\n<p>  实验室的安全，藏在一次次细致的巡查中，也体现在一项项隐患整改与日常提醒里。从暑期巡查现场到日常科研一线，从安全知识宣讲到隐患排查，<strong>不同岗位上的青年学子正以各自的方式，守护着实验室的平安有序</strong>。</p>\n<p>  本期“首雁说”，让我们走近<strong>俞斐、张佳欣、朱鲲、孙仲顺</strong>四位同学，聆听他们在实验室安全工作中的实践故事，感受不同岗位背后共同的责任与担当。</p>\n<p style=\"text-align: center;\"><strong>以细致巡查识隐患  </strong><strong>以协作担当护安全</strong></p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>                              ——俞斐</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p>  俞斐是“<span class=\"\">首雁计划</span>”志愿服务团<strong>暑期实验室安全巡查曲江巡查小组组长</strong>。在暑期实践中，俞斐认真组织组员逐间巡查实验室，围绕<strong>消防设施、用电安全、气瓶管理、危化品存放</strong>等重点内容排查隐患，完成现场记录、台账整理与系统填报，在实践中<strong>提升风险识别能力</strong>，以细致负责的行动守护实验室安全。</p>\n<section>\n<section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/04c7f21f-d412-4758-affa-f435e4386617.png\" width=\"586\" height=\"439\"></section>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>1.</strong><strong>学用结合，在细微之处发现风险</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<p><strong>  从理论课堂到实验室安全体验馆</strong>，俞斐逐步将安全规范与实验室的实际场景联系起来。通过模拟巡查和隐患识别，原本抽象的条文有了具体含义，杂物是否堵塞消防通道、是否靠近高温设备，都成为巡查时需要认真核对的细节。</p>\n</section>\n</section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/bf79b23d-3800-4a52-a161-9f075c8fc294.png\" width=\"641\" height=\"427\"></section>\n</section>\n<section>\n<p>  气瓶管理中的问题让俞斐印象深刻，有些气瓶虽然摆放整齐，仔细检查后仍可能发现存在<strong>固定措施不到位、信息牌缺失</strong>等隐患。俞斐提到，“<strong>只有按照检查清单逐项核对，才能真正发现风险</strong>。”</p>\n<p>  面对涉及专业设备或实验条件、暂时无法判断的问题，俞斐坚持与组员讨论、对照标准核查，保留现场照片并记录情况，再向实验室负责人或老师请教，以审慎判断确保隐患识别准确，以规范巡查保障科研有序开展。</p>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>2.</strong><strong>协作提质，将安全责任融入日常</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  为提高巡查效率，俞斐注重提前熟悉实验室名单和路线，明确组员分工。现场核对房间信息、拍照与隐患排查相互配合，发现问题及时记录位置、类别和具体情况，系统填报时逐项核对，确保照片、房间信息与隐患描述准确对应。</p>\n<p>  参与巡查的经历，也改变了俞斐审视自身实验环境的方式，<strong>回到日常科研中</strong>，<strong>实验台面是否整洁、设备使用后是否及时断电、试剂标识是否规范</strong>，都成为主动关注的事项。</p>\n<p>  结合实践中遇到的专业知识和填报难题，俞斐还提出<strong>加强分类培训、增加典型隐患案例教学、优化现场记录与填报流程</strong>等建议，希望让志愿者的专业学习与安全服务结合得更加紧密。</p>\n</section>\n<section>\n<section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/18c12f75-4e9c-4d6f-a244-92c6a40188b9.png\" width=\"503\" height=\"337\"></section>\n<section></section>\n<br>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/0148cf0a-bac3-49cb-998c-e6883beef458.png\" width=\"506\" height=\"336\"></section>\n</section>\n<section></section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>俯身细查隐蔽风险  </strong><strong>用心守护科研平安</strong></p>\n<p style=\"text-align: center;\"><strong>                              ——张佳欣</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p>  作为“首雁计划”<strong>暑期实验室安全巡查</strong><strong>雁塔一组组长</strong>，张佳欣承担<strong>组内分工、路线安排、进度协调与材料核对工作</strong>，<strong>也全程参与现场拍照、隐患识别、台账记录和系统填报</strong>。从白天走进实验室逐项排查，到晚上整理材料、核对信息，张佳欣与组员共同把巡查任务落到实处，在细致检查与耐心沟通中践行志愿服务担当。</p>\n</section>\n</section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/6bc58fd9-8bab-4d58-83e3-fa6af0ff48dd.png\" width=\"364\" height=\"490\"></section>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>1.</strong><strong>俯身查隐患，不放过容易忽略的角落</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  巡查中，<strong>藏在大型仪器夹缝下的插线板</strong>给张佳欣留下了深刻印象。实验台面干净、仪器摆放整齐，地面上的插线板却容易被忽略。有的插线板积灰明显，线缆还存在受挤压、磨损的风险，需要俯下身仔细查看才能发现。</p>\n<p>  这次经历提醒张佳欣和组员，巡查<strong>既要看台面，也要查地面、看缝隙</strong>，<strong>留意日常操作视线之外的隐患。</strong>在现场记录中，小组逐步形成先拍全景、再拍隐患特写的做法，拍摄后及时备注房间号，同步记录隐患点位，减少后续整理中的遗漏与混淆。</p>\n<p>  这样的检查习惯也延伸到了自身科研中。实验结束后<strong>查看插线板和线缆摆放，离开工位前确认电源、及时归放试剂</strong>，成为张佳欣更加自觉的日常行动。</p>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/21e77ff6-3bca-41cf-aaae-1f27e29769f2.png\"></p>\n</section>\n<section>\n<section><strong>2.</strong><strong>沟通有耐心，让安全提醒落到实处</strong></section>\n</section>\n<section>\n<p>  实验室暑期科研任务紧张，巡查需要兼顾现场实验安排。遇到同学正在进行关键操作时，张佳欣与组员会先检查周边区域，待操作告一段落后再沟通，说明隐患可能带来的实际风险，争取理解与配合，推动能够现场处理的问题及时整改。</p>\n<p>  在共同巡查中，张佳欣逐渐体会到，<strong>把风险讲清楚、把沟通做充分</strong>，才能让安全要求更好地落实到行动中。面对拿不准的问题，小组共同讨论，必要时请教老师；当天收集的照片与台账，则尽量在当晚完成整理和录入。</p>\n<p>  针对上门巡查跑空、部分隐患整改周期较长等情况，张佳欣建议<strong>提前对接巡查时间，加强隐蔽点位的安全科普</strong>，并完善后续跟进提醒机制，让现场发现的问题得到持续关注。</p>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/0a2aece5-2810-4836-ae9b-8d26089babe1.jpg\" width=\"599\" height=\"448\"></section>\n<section></section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/856f8e52-20f8-4ffa-88bc-ebed5da12d2a.jpg\" width=\"596\" height=\"447\">  </section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p> </p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>从一张试剂标签做起  </strong><strong>把安全责任落到细处</strong></p>\n<p style=\"text-align: center;\"><strong>                               ——朱鲲</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p>  朱鲲是一名<strong>实验室安全学生网格员</strong>。任职以来，朱鲲坚持每周填写<strong>安全自查问卷</strong>，跟随学院开展安全检查，参与隐患整改，并向实验室同学宣传安全规范。在定期巡查、沟通提醒与整改跟进中，不断加深对实验室风险的认识，用认真细致的日常工作，为同学们安心开展科研做好保障。</p>\n</section>\n</section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/d6b949ed-68aa-436d-a7cd-bd7e8a494734.png\"></section>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>1.</strong><strong>细查促整改，在小事中守住安全底线</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  一次巡查中，朱鲲发现<strong>一份<span class=\"\">分装试剂</span>的标签信息不完整</strong>。经常使用的同学虽然清楚其中内容，其他同学却可能因信息不足发生误用。发现问题后，朱鲲及时向相关同学确认试剂名称和信息，将标签补充完整，减少试剂使用中的安全隐患。</p>\n<p>  一张小小的标签，让朱鲲更加体会到网格员工作的责任。<strong>危化品是否按要求存放、气瓶是否固定、废液是否分类收集并贴好标签</strong>，<strong>都需要在日常检查中逐项关注</strong>。</p>\n<p>  对于发现的隐患，朱鲲<strong>主动联系老师和相关同学</strong>，明确由谁处理、需要哪些配合，并持续跟进整改情况；遇到超出自身能力范围的问题，及时向老师报告、寻求帮助，推动安全要求落实到具体行动。</p>\n</section>\n<section>\n<section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/4d6744a2-55f7-4854-927c-5e1d3789a0ba.png\" width=\"355\" height=\"473\"></section>\n<section></section>\n<section></section>\n<section></section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/c1d2c177-4995-4e41-9b6a-ce228f791dc8.png\" width=\"356\" height=\"475\"></section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>2.</strong><strong>自律践初心，在日常服务中传递责任</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  科研任务繁重时，朱鲲仍会<strong>提前为定期巡查和问卷填报留出时间</strong>，按时完成安全工作。长期坚持，也让主动检查成为习惯，实验结束后整理操作区域，离开实验室前再次确认安全事项，把对他人的提醒先落实到自己身上。</p>\n<p><strong>  面对同学不熟悉的安全规定，朱鲲耐心解释；发现操作存在隐患，及时说明规范与注意事项</strong>。在日常实验中，还主动提醒大家<strong>清理公共设备、分类放置废弃物</strong>，<strong>做好使用交接，减少因沟通不到位影响后续实验的情况</strong>。</p>\n<p>  从补齐试剂标签到跟进隐患整改，从规范自身操作到帮助同学理解安全要求，朱鲲把服务落实在一件件具体的小事中，带动身边同学共同维护安全、有序的实验环境。</p>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>以常态巡检压实责任 </strong><strong>以安全宣教服务同学</strong></p>\n<p style=\"text-align: center;\"><strong>                                ——孙仲顺</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<p> </p>\n<section>\n<section>\n<section>\n<section>\n<p>  孙仲顺担任<strong>实验室安全学生网格员、实验室安全体验馆讲解员</strong>，也是<strong>首届西安交通大学“首雁计划”志愿服务团组织部成员</strong>。任职以来，累计参与实验室处安全专项自查问卷填报<strong>30余次</strong>，定期开展安全检查，并参与制作实验室安全小视频<strong>获三等奖</strong>。在日常巡检、组织协调和安全宣教中，持续提升履职能力，为实验室安全贡献力量。</p>\n</section>\n</section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/5cf40995-de96-43f9-a39a-b3d89707a548.png\" width=\"443\" height=\"597\"></section>\n</section>\n<section>\n<p> </p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>1,</strong><strong>检查落实到人，隐患跟进到底</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  为推动检查常态化，孙仲顺<strong>制定实验室安全检查计划</strong><strong>，</strong>将工作日每日安全检查落实到人，通过群内打卡汇报检查情况，并<strong>组织每周卫生检查，</strong>认真关注用电、危化品存放、气瓶固定、废液处置和通道畅通等风险点。</p>\n<p>  一次日常检查中，孙仲顺发现<strong>实</strong><strong>验室废液桶未及时加盖，立即将桶盖扣紧</strong>，并通过查看监控和询问核实相关人员。这件事让孙仲顺更加重视检查责任的落实，发现问题及时处理，也要追查原因、做好后续提醒。</p>\n<p>  针对学院检查发现的隐患，孙仲顺<strong>主动对接老师与实验室人员</strong>，明确整改责任和时限，跟踪检查整改效果。从每日检查到整改复查，把具体事项落实到人，让安全管理有安排、有反馈、有跟进。</p>\n</section>\n<section>\n<section>\n<section>\n<section><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/40455ba9-61c9-44f2-b54e-a86b7e4bc634.png\" width=\"590\" height=\"443\"></section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n<section>\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://tuanwei.xjtu.edu.cn/uploads/20261125/e1d3991e-0561-47e3-9889-7e1410dd9a2f.png\" width=\"588\" height=\"443\"></p>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p><strong>2.</strong><strong>宣教贴近实际，让安全知识更易理解</strong></p>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>  担任实验室安全体验馆讲解员期间，孙仲顺在加强自身学习的同时，<strong>向同学们讲解安全防护知识和应急处置要点</strong>。为了把知识讲清楚、把要求说明白，先熟悉规范、再联系实际，也成为对自身履职的要求。</p>\n<p>  参与实验室安全小视频制作和安全月活动，让孙仲顺进一步认识到，<strong>直观、生动的表达能够帮助同学理解风险、记住规范</strong>。结合日常检查中的发现，孙仲顺还提出<strong>海报、漫画创作大赛</strong>等活动建议，希望让更多同学参与安全宣传。</p>\n<p>  作为“首雁计划”志愿服务团组织部成员，孙仲顺参与活动组织与人员协调，将沟通经验运用到日常安全服务中，耐心说明操作要求，提醒做好实验废弃物分类处理，在持续检查与宣传中，帮助同学将安全知识落实到科研实践。</p>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>共同的信念：各展所长，同心守安 </strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section>\n<p>  四位同学虽然岗位不同、经历各异，却在实践中展现出对实验室安全工作的共同坚守：</p>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p><strong>见微知著</strong></p>\n</section>\n</section>\n</section>\n<section>\n<section></section>\n</section>\n<section>\n<section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<p>  关注易被忽略的安全细节，细致排查风险，及时消除隐患。</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p><strong>协同履责</strong></p>\n</section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<p>  从巡查分工、现场沟通到责任落实、整改跟进，他们以协作推动工作落实，确保检查有成效、问题有反馈。</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n</section>\n</section>\n<section>\n<section>\n<p><strong>知行相促</strong></p>\n</section>\n<section>\n<section></section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<p>  在巡查中深化认识，在科研中践行规范，在宣教中传递知识，以实践提升能力，以行动传递责任。</p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<p>他们以细致发现风险，以协作落实责任，以行动守卫安全，共同筑牢实验室安全防线。</p>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<section></section>\n<section>\n<section>\n<section>\n<section>\n<p style=\"text-align: center;\"><strong>安全始于细节，责任见于行动</strong></p>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n</section>\n<section>\n<section>\n<section>\n<p>  在俞斐、张佳欣、朱鲲、孙仲顺身上，我们看到：</p>\n<p><strong>  实验室安全，不是一时的重视，而是日复一日的细致坚守；不止于发现隐患，更在于把每一份责任落到实处。</strong></p>\n<p>  岗位不同，责任相通。四位同学以各自的方式诠释着认真、严谨与担当，也让我们看到，实验室安全离不开每一位参与者的主动作为。</p>\n<p>  愿更多青年学子<strong>从身边小事做起，将安全意识融入科研日常，以实际行动共同筑牢实验室安全防线！</strong></p>\n</section>\n</section>\n</section>\n<p> </p>\n<section>\n<p style=\"text-align: center;\"><strong>  每一间实验室的安全，都离不开这样一个“你”。<br>致敬每一位默默奉献的实验室安全志愿者与学生网格员！</strong></p>\n</section>\n<p> </p>\n<p> </p>\n<section>\n<section>\n<section>\n<p style=\"text-align: right;\">来源 | “首雁计划”志愿服务团</p>\n<p style=\"text-align: right;\">编辑 | 邹文轩</p>\n<p style=\"text-align: right;\">值班编辑丨优思新媒体中心 姜润东</p>\n<p style=\"text-align: right;\">二审丨优思新媒体中心 孟德鑫</p>\n<p style=\"text-align: right;\">责编丨优思新媒体中心 熊旭晨</p>\n<p style=\"text-align: right;\">审核丨宋舒婷 刘钊君 徐硕基</p>\n<p style=\"text-align: right;\">校审丨毕晓楠 强伟</p>\n</section>\n</section>\n</section>",
+   "bodyLen": 3713,
+   "excerpt": "实验室的安全，藏在一次次细致的巡查中，也体现在一项项隐患整改与日常提醒里。从暑期巡查现场到日常科研一线，从安全知识宣讲到隐患排查，不同岗位上的青年学子正以各自的方式，守护着实验室的平安有序。 本期“首雁说”，让我们走近俞斐、张佳欣、朱鲲、孙仲顺四位同学，聆听他们在实验室安全工作中的实践故事，感受不同岗位背后共同的责任与担当。 以细致巡查识隐患 以协作担当护安全 ——俞斐 俞斐是“首雁计划”志愿服务团暑期实验室安全巡查曲江巡查小组组长。在暑期实践中，俞斐认真组织组员逐间巡查实验室，围绕消防设施、用电安全、气瓶管理、危化品存放等重点内容排查隐患，完成现场记录、台账整理与系统填报，在实践中提升风险识别能力，以细致负责的行动守护实验室安全。 1.学用结合，在细微之处发现风险 从理论课堂到实验室安全体验馆，俞斐逐步将安全规范与实验室的实际场景联系起来。通过模拟巡查和隐患识别，原本抽象的条文有了具体含义，杂物是否堵塞消防通道、是否靠近高温设备，都成为巡查时需要认真核对的细节。",
+   "paragraphs": [
+    "实验室的安全，藏在一次次细致的巡查中，也体现在一项项隐患整改与日常提醒里。从暑期巡查现场到日常科研一线，从安全知识宣讲到隐患排查，不同岗位上的青年学子正以各自的方式，守护着实验室的平安有序。",
+    "本期“首雁说”，让我们走近俞斐、张佳欣、朱鲲、孙仲顺四位同学，聆听他们在实验室安全工作中的实践故事，感受不同岗位背后共同的责任与担当。",
+    "以细致巡查识隐患 以协作担当护安全",
+    "——俞斐",
+    "俞斐是“首雁计划”志愿服务团暑期实验室安全巡查曲江巡查小组组长。在暑期实践中，俞斐认真组织组员逐间巡查实验室，围绕消防设施、用电安全、气瓶管理、危化品存放等重点内容排查隐患，完成现场记录、台账整理与系统填报，在实践中提升风险识别能力，以细致负责的行动守护实验室安全。",
+    "1.学用结合，在细微之处发现风险",
+    "从理论课堂到实验室安全体验馆，俞斐逐步将安全规范与实验室的实际场景联系起来。通过模拟巡查和隐患识别，原本抽象的条文有了具体含义，杂物是否堵塞消防通道、是否靠近高温设备，都成为巡查时需要认真核对的细节。",
+    "气瓶管理中的问题让俞斐印象深刻，有些气瓶虽然摆放整齐，仔细检查后仍可能发现存在固定措施不到位、信息牌缺失等隐患。俞斐提到，“只有按照检查清单逐项核对，才能真正发现风险。”",
+    "面对涉及专业设备或实验条件、暂时无法判断的问题，俞斐坚持与组员讨论、对照标准核查，保留现场照片并记录情况，再向实验室负责人或老师请教，以审慎判断确保隐患识别准确，以规范巡查保障科研有序开展。",
+    "2.协作提质，将安全责任融入日常",
+    "为提高巡查效率，俞斐注重提前熟悉实验室名单和路线，明确组员分工。现场核对房间信息、拍照与隐患排查相互配合，发现问题及时记录位置、类别和具体情况，系统填报时逐项核对，确保照片、房间信息与隐患描述准确对应。",
+    "参与巡查的经历，也改变了俞斐审视自身实验环境的方式，回到日常科研中，实验台面是否整洁、设备使用后是否及时断电、试剂标识是否规范，都成为主动关注的事项。",
+    "结合实践中遇到的专业知识和填报难题，俞斐还提出加强分类培训、增加典型隐患案例教学、优化现场记录与填报流程等建议，希望让志愿者的专业学习与安全服务结合得更加紧密。",
+    "俯身细查隐蔽风险 用心守护科研平安",
+    "——张佳欣",
+    "作为“首雁计划”暑期实验室安全巡查雁塔一组组长，张佳欣承担组内分工、路线安排、进度协调与材料核对工作，也全程参与现场拍照、隐患识别、台账记录和系统填报。从白天走进实验室逐项排查，到晚上整理材料、核对信息，张佳欣与组员共同把巡查任务落到实处，在细致检查与耐心沟通中践行志愿服务担当。",
+    "1.俯身查隐患，不放过容易忽略的角落",
+    "巡查中，藏在大型仪器夹缝下的插线板给张佳欣留下了深刻印象。实验台面干净、仪器摆放整齐，地面上的插线板却容易被忽略。有的插线板积灰明显，线缆还存在受挤压、磨损的风险，需要俯下身仔细查看才能发现。",
+    "这次经历提醒张佳欣和组员，巡查既要看台面，也要查地面、看缝隙，留意日常操作视线之外的隐患。在现场记录中，小组逐步形成先拍全景、再拍隐患特写的做法，拍摄后及时备注房间号，同步记录隐患点位，减少后续整理中的遗漏与混淆。",
+    "这样的检查习惯也延伸到了自身科研中。实验结束后查看插线板和线缆摆放，离开工位前确认电源、及时归放试剂，成为张佳欣更加自觉的日常行动。",
+    "2.",
+    "沟通有耐心，让安全提醒落到实处",
+    "实验室暑期科研任务紧张，巡查需要兼顾现场实验安排。遇到同学正在进行关键操作时，张佳欣与组员会先检查周边区域，待操作告一段落后再沟通，说明隐患可能带来的实际风险，争取理解与配合，推动能够现场处理的问题及时整改。",
+    "在共同巡查中，张佳欣逐渐体会到，把风险讲清楚、把沟通做充分，才能让安全要求更好地落实到行动中。面对拿不准的问题，小组共同讨论，必要时请教老师；当天收集的照片与台账，则尽量在当晚完成整理和录入。",
+    "针对上门巡查跑空、部分隐患整改周期较长等情况，张佳欣建议提前对接巡查时间，加强隐蔽点位的安全科普，并完善后续跟进提醒机制，让现场发现的问题得到持续关注。",
+    "从一张试剂标签做起 把安全责任落到细处",
+    "——朱鲲",
+    "朱鲲是一名实验室安全学生网格员。任职以来，朱鲲坚持每周填写安全自查问卷，跟随学院开展安全检查，参与隐患整改，并向实验室同学宣传安全规范。在定期巡查、沟通提醒与整改跟进中，不断加深对实验室风险的认识，用认真细致的日常工作，为同学们安心开展科研做好保障。",
+    "1.细查促整改，在小事中守住安全底线",
+    "一次巡查中，朱鲲发现一份分装试剂的标签信息不完整。经常使用的同学虽然清楚其中内容，其他同学却可能因信息不足发生误用。发现问题后，朱鲲及时向相关同学确认试剂名称和信息，将标签补充完整，减少试剂使用中的安全隐患。",
+    "一张小小的标签，让朱鲲更加体会到网格员工作的责任。危化品是否按要求存放、气瓶是否固定、废液是否分类收集并贴好标签，都需要在日常检查中逐项关注。",
+    "对于发现的隐患，朱鲲主动联系老师和相关同学，明确由谁处理、需要哪些配合，并持续跟进整改情况；遇到超出自身能力范围的问题，及时向老师报告、寻求帮助，推动安全要求落实到具体行动。",
+    "2.自律践初心，在日常服务中传递责任",
+    "科研任务繁重时，朱鲲仍会提前为定期巡查和问卷填报留出时间，按时完成安全工作。长期坚持，也让主动检查成为习惯，实验结束后整理操作区域，离开实验室前再次确认安全事项，把对他人的提醒先落实到自己身上。",
+    "面对同学不熟悉的安全规定，朱鲲耐心解释；发现操作存在隐患，及时说明规范与注意事项。在日常实验中，还主动提醒大家清理公共设备、分类放置废弃物，做好使用交接，减少因沟通不到位影响后续实验的情况。",
+    "从补齐试剂标签到跟进隐患整改，从规范自身操作到帮助同学理解安全要求，朱鲲把服务落实在一件件具体的小事中，带动身边同学共同维护安全、有序的实验环境。",
+    "以常态巡检压实责任 以安全宣教服务同学",
+    "——孙仲顺",
+    "孙仲顺担任实验室安全学生网格员、实验室安全体验馆讲解员，也是首届西安交通大学“首雁计划”志愿服务团组织部成员。任职以来，累计参与实验室处安全专项自查问卷填报30余次，定期开展安全检查，并参与制作实验室安全小视频获三等奖。在日常巡检、组织协调和安全宣教中，持续提升履职能力，为实验室安全贡献力量。",
+    "1,检查落实到人，隐患跟进到底",
+    "为推动检查常态化，孙仲顺制定实验室安全检查计划，将工作日每日安全检查落实到人，通过群内打卡汇报检查情况，并组织每周卫生检查，认真关注用电、危化品存放、气瓶固定、废液处置和通道畅通等风险点。",
+    "一次日常检查中，孙仲顺发现实验室废液桶未及时加盖，立即将桶盖扣紧，并通过查看监控和询问核实相关人员。这件事让孙仲顺更加重视检查责任的落实，发现问题及时处理，也要追查原因、做好后续提醒。",
+    "针对学院检查发现的隐患，孙仲顺主动对接老师与实验室人员，明确整改责任和时限，跟踪检查整改效果。从每日检查到整改复查，把具体事项落实到人，让安全管理有安排、有反馈、有跟进。",
+    "2.宣教贴近实际，让安全知识更易理解",
+    "担任实验室安全体验馆讲解员期间，孙仲顺在加强自身学习的同时，向同学们讲解安全防护知识和应急处置要点。为了把知识讲清楚、把要求说明白，先熟悉规范、再联系实际，也成为对自身履职的要求。",
+    "参与实验室安全小视频制作和安全月活动，让孙仲顺进一步认识到，直观、生动的表达能够帮助同学理解风险、记住规范。结合日常检查中的发现，孙仲顺还提出海报、漫画创作大赛等活动建议，希望让更多同学参与安全宣传。",
+    "作为“首雁计划”志愿服务团组织部成员，孙仲顺参与活动组织与人员协调，将沟通经验运用到日常安全服务中，耐心说明操作要求，提醒做好实验废弃物分类处理，在持续检查与宣传中，帮助同学将安全知识落实到科研实践。",
+    "共同的信念：各展所长，同心守安",
+    "四位同学虽然岗位不同、经历各异，却在实践中展现出对实验室安全工作的共同坚守：",
+    "见微知著",
+    "关注易被忽略的安全细节，细致排查风险，及时消除隐患。",
+    "协同履责",
+    "从巡查分工、现场沟通到责任落实、整改跟进，他们以协作推动工作落实，确保检查有成效、问题有反馈。",
+    "知行相促",
+    "在巡查中深化认识，在科研中践行规范，在宣教中传递知识，以实践提升能力，以行动传递责任。",
+    "他们以细致发现风险，以协作落实责任，以行动守卫安全，共同筑牢实验室安全防线。",
+    "安全始于细节，责任见于行动",
+    "在俞斐、张佳欣、朱鲲、孙仲顺身上，我们看到：",
+    "实验室安全，不是一时的重视，而是日复一日的细致坚守；不止于发现隐患，更在于把每一份责任落到实处。",
+    "岗位不同，责任相通。四位同学以各自的方式诠释着认真、严谨与担当，也让我们看到，实验室安全离不开每一位参与者的主动作为。",
+    "愿更多青年学子从身边小事做起，将安全意识融入科研日常，以实际行动共同筑牢实验室安全防线！",
+    "每一间实验室的安全，都离不开这样一个“你”。\n致敬每一位默默奉献的实验室安全志愿者与学生网格员！",
+    "来源 | “首雁计划”志愿服务团",
+    "编辑 | 邹文轩",
+    "值班编辑丨优思新媒体中心 姜润东",
+    "二审丨优思新媒体中心 孟德鑫",
+    "责编丨优思新媒体中心 熊旭晨",
+    "审核丨宋舒婷 刘钊君 徐硕基",
+    "校审丨毕晓楠 强伟"
+   ],
+   "tables": [],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    },
+    {
+     "type": "paragraph",
+     "index": 7
+    },
+    {
+     "type": "paragraph",
+     "index": 8
+    },
+    {
+     "type": "paragraph",
+     "index": 9
+    },
+    {
+     "type": "paragraph",
+     "index": 10
+    },
+    {
+     "type": "paragraph",
+     "index": 11
+    },
+    {
+     "type": "paragraph",
+     "index": 12
+    },
+    {
+     "type": "paragraph",
+     "index": 13
+    },
+    {
+     "type": "paragraph",
+     "index": 14
+    },
+    {
+     "type": "paragraph",
+     "index": 15
+    },
+    {
+     "type": "paragraph",
+     "index": 16
+    },
+    {
+     "type": "paragraph",
+     "index": 17
+    },
+    {
+     "type": "paragraph",
+     "index": 18
+    },
+    {
+     "type": "paragraph",
+     "index": 19
+    },
+    {
+     "type": "paragraph",
+     "index": 20
+    },
+    {
+     "type": "paragraph",
+     "index": 21
+    },
+    {
+     "type": "paragraph",
+     "index": 22
+    },
+    {
+     "type": "paragraph",
+     "index": 23
+    },
+    {
+     "type": "paragraph",
+     "index": 24
+    },
+    {
+     "type": "paragraph",
+     "index": 25
+    },
+    {
+     "type": "paragraph",
+     "index": 26
+    },
+    {
+     "type": "paragraph",
+     "index": 27
+    },
+    {
+     "type": "paragraph",
+     "index": 28
+    },
+    {
+     "type": "paragraph",
+     "index": 29
+    },
+    {
+     "type": "paragraph",
+     "index": 30
+    },
+    {
+     "type": "paragraph",
+     "index": 31
+    },
+    {
+     "type": "paragraph",
+     "index": 32
+    },
+    {
+     "type": "paragraph",
+     "index": 33
+    },
+    {
+     "type": "paragraph",
+     "index": 34
+    },
+    {
+     "type": "paragraph",
+     "index": 35
+    },
+    {
+     "type": "paragraph",
+     "index": 36
+    },
+    {
+     "type": "paragraph",
+     "index": 37
+    },
+    {
+     "type": "paragraph",
+     "index": 38
+    },
+    {
+     "type": "paragraph",
+     "index": 39
+    },
+    {
+     "type": "paragraph",
+     "index": 40
+    },
+    {
+     "type": "paragraph",
+     "index": 41
+    },
+    {
+     "type": "paragraph",
+     "index": 42
+    },
+    {
+     "type": "paragraph",
+     "index": 43
+    },
+    {
+     "type": "paragraph",
+     "index": 44
+    },
+    {
+     "type": "paragraph",
+     "index": 45
+    },
+    {
+     "type": "paragraph",
+     "index": 46
+    },
+    {
+     "type": "paragraph",
+     "index": 47
+    },
+    {
+     "type": "paragraph",
+     "index": 48
+    },
+    {
+     "type": "paragraph",
+     "index": 49
+    },
+    {
+     "type": "paragraph",
+     "index": 50
+    },
+    {
+     "type": "paragraph",
+     "index": 51
+    },
+    {
+     "type": "paragraph",
+     "index": 52
+    },
+    {
+     "type": "paragraph",
+     "index": 53
+    },
+    {
+     "type": "paragraph",
+     "index": 54
+    },
+    {
+     "type": "paragraph",
+     "index": 55
+    },
+    {
+     "type": "paragraph",
+     "index": 56
+    },
+    {
+     "type": "paragraph",
+     "index": 57
+    },
+    {
+     "type": "paragraph",
+     "index": 58
+    },
+    {
+     "type": "paragraph",
+     "index": 59
+    },
+    {
+     "type": "paragraph",
+     "index": 60
+    },
+    {
+     "type": "paragraph",
+     "index": 61
+    },
+    {
+     "type": "paragraph",
+     "index": 62
+    },
+    {
+     "type": "paragraph",
+     "index": 63
+    },
+    {
+     "type": "paragraph",
+     "index": 64
+    },
+    {
+     "type": "paragraph",
+     "index": 65
+    },
+    {
+     "type": "paragraph",
+     "index": 66
+    },
+    {
+     "type": "paragraph",
+     "index": 67
+    },
+    {
+     "type": "paragraph",
+     "index": 68
+    }
+   ],
+   "images": [
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/04c7f21f-d412-4758-affa-f435e4386617.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/bf79b23d-3800-4a52-a161-9f075c8fc294.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/18c12f75-4e9c-4d6f-a244-92c6a40188b9.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/0148cf0a-bac3-49cb-998c-e6883beef458.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/6bc58fd9-8bab-4d58-83e3-fa6af0ff48dd.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/21e77ff6-3bca-41cf-aaae-1f27e29769f2.png",
+     "alt": "",
+     "context": "这样的检查习惯也延伸到了自身科研中。实验结束后查看插线板和线缆摆放，离开工位前确认电源、及时归放试剂，成为张佳欣更加自觉的日常行动。"
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/0a2aece5-2810-4836-ae9b-8d26089babe1.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/856f8e52-20f8-4ffa-88bc-ebed5da12d2a.jpg",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/d6b949ed-68aa-436d-a7cd-bd7e8a494734.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/4d6744a2-55f7-4854-927c-5e1d3789a0ba.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/c1d2c177-4995-4e41-9b6a-ce228f791dc8.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/5cf40995-de96-43f9-a39a-b3d89707a548.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/40455ba9-61c9-44f2-b54e-a86b7e4bc634.png",
+     "alt": "",
+     "context": ""
+    },
+    {
+     "url": "https://tuanwei.xjtu.edu.cn/uploads/20261125/e1d3991e-0561-47e3-9889-7e1410dd9a2f.png",
+     "alt": "",
+     "context": ""
+    }
+   ],
+   "attachments": [],
+   "links": [],
+   "contact": "",
+   "phone": "",
+   "email": "",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-26T08:29:02.627985+00:00"
+    }
+   ],
+   "totalAttempts": 1
+  },
+  {
+   "url": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+   "title": "关于西安交通大学2026年本科教学秘书素质能力大赛审评结果的公示",
+   "site": "教务处",
+   "date": "2026-11-25",
+   "source": "jwc",
+   "fetchedAt": "2026-11-26T08:29:02.627070+00:00",
+   "status": "success",
+   "error": "",
+   "contentHash": "8cd32183fb402cf6ed717789f66d0061ef024c13dc46a1f8f16a525b1b0d9060",
+   "contentParserVersion": 2,
+   "body": "根据《关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知》要求，经单位推荐、笔试考核、现场展示及专家评审等环节，本次大赛共评出一等奖3名，二等奖5名，三等奖7名，优秀奖5名（名单详见下表），现予以公示。\n公示期间，如有异议，请以书面形式实名向教务处反映，并提供必要证明材料。逾期或匿名异议不予受理。\n公示时间：2026年11月25日－11月29日\n联系人：张瑶\n联系电话：029-82668373\n邮箱：zhangyao1994123@xjtu.edu.cn\n奖项\n姓名\n学院\n一等奖\n闫安楠\n能动学院\n吴 敏\n生命学院\n来丽君\n航天学院\n二等奖\n俞程成\n外国语学院\n杨 艳\n化工学院\n吕雨桐\n人文学院\n李 俊\n电信学部\n董宸辰\n米兰理工联合学院\n三等奖\n郑曼琦\n经金学院\n周 宁\n米兰理工联合学院\n闫新辉\n材料学院\n那聪秀\n仪器学院\n王亚莉\n航天学院\n马樱支\n新媒体学院\n李田甜\n管理学院\n优秀奖\n罗文成\n数学学院\n张峰瑞\n人居学院\n周志英\n化学学院\n侯迎曦\n未来技术学院\n贾绎冉\n医学部\n教务处\n2026年11月25日",
+   "bodyHtml": "<div class=\"v_news_content\"> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\"><span style=\"font-family:仿宋_GB2312\">根据《关于举办西安交通大学</span><span style=\"font-family:仿宋_GB2312\">2026年本科教学秘书素质能力大赛的通知》要求，经单位推荐、笔试考核、现场展示及专家评审等环节，本次大赛共评出一等奖3名，二等奖5名，三等奖7名，优秀奖5名（名单详见下表），现予以公示。</span></span></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\">公示期间，如有异议，请以书面形式实名向教务处反映，并提供必要证明材料。逾期或匿名异议不予受理。</span></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\"><span style=\"font-family:仿宋_GB2312\">公示时间：</span><span style=\"font-family:仿宋_GB2312\">2026年11月25日－11月29日</span></span></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\">联系人：张瑶</span></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\"><span style=\"font-family:仿宋_GB2312\">联系电话：</span><span style=\"font-family:仿宋_GB2312\">029-82668373</span></span></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><span style=\"font-family:仿宋_gb2312;font-size:21px\">邮箱：</span><a href=\"\"><span style=\"font-family:仿宋_gb2312;font-size:21px\">zhangyao1994123@xjtu.edu.cn</span></a></p> \r\n   <table cellspacing=\"0\" width=\"516\" align=\"center\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\" style=\"height:37px\"> \r\n      <td width=\"137\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0);\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-size: 21px\">奖项</span></strong></p></td> \r\n      <td width=\"142\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) #000000;\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">姓名</span></strong></p></td> \r\n      <td width=\"237\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) #000000;\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学院</span></strong></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"3\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">一等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">闫安楠</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">能动学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">吴</span>  <span style=\"font-family:仿宋_GB2312\">敏</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">生命学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">来丽君</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">航天学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"5\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">二等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">俞程成</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">外国语学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">杨</span>  <span style=\"font-family:仿宋_GB2312\">艳</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">化工学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">吕雨桐</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">人文学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">李</span>  <span style=\"font-family:仿宋_GB2312\">俊</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">电信学部</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">董宸辰</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">米兰理工联合学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"7\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">三等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">郑曼琦</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">经金学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">周</span>  <span style=\"font-family:仿宋_GB2312\">宁</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">米兰理工联合学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">闫新辉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">材料学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">那聪秀</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">仪器学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">王亚莉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">航天学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">马樱支</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">新媒体学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">李田甜</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">管理学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"5\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">优秀奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">罗文成</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">数学学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">张峰瑞</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">人居学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">周志英</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">化学学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">侯迎曦</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">未来技术学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">贾绎冉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">医学部</span></p></td> \r\n     </tr> \r\n    </tbody> \r\n   </table> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><br></p> \r\n   <p style=\"text-align:justify;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph\"><br></p> \r\n   <p style=\"text-align:right;text-indent:43px;text-autospace:ideograph-numeric;\"><span style=\"font-family:仿宋_gb2312;font-size:21px\">教务处</span><span style=\"font-family:仿宋_gb2312;font-size:21px\"><br></span><span style=\"font-family:仿宋_gb2312;font-size:21px\">2026年11月25日</span></p> \r\n   <p><br></p> \r\n  </div>",
+   "bodyLen": 466,
+   "excerpt": "根据《关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知》要求，经单位推荐、笔试考核、现场展示及专家评审等环节，本次大赛共评出一等奖3名，二等奖5名，三等奖7名，优秀奖5名（名单详见下表），现予以公示。 公示期间，如有异议，请以书面形式实名向教务处反映，并提供必要证明材料。逾期或匿名异议不予受理。 公示时间：2026年11月25日－11月29日 联系人：张瑶 联系电话：029-82668373 邮箱：zhangyao1994123@xjtu.edu.cn 奖项 姓名 学院 一等奖 闫安楠 能动学院 吴 敏 生命学院 来丽君 航天学院 二等奖 俞程成 外国语学院 杨 艳 化工学院 吕雨桐 人文学院 李 俊 电信学部 董宸辰 米兰理工联合学院 三等奖 郑曼琦 经金学院 周 宁 米兰理工联合学院 闫新辉 材料学院 那聪秀 仪器学院 王亚莉 航天学院 马樱支 新媒体学院 李田甜 管理学院 优秀奖 罗文成 数学学院 张峰瑞 人居学院 周志英 化学学院 侯迎曦 未来技术学院 贾绎冉 医学部 教务处 2026年11月25日",
+   "paragraphs": [
+    "根据《关于举办西安交通大学2026年本科教学秘书素质能力大赛的通知》要求，经单位推荐、笔试考核、现场展示及专家评审等环节，本次大赛共评出一等奖3名，二等奖5名，三等奖7名，优秀奖5名（名单详见下表），现予以公示。",
+    "公示期间，如有异议，请以书面形式实名向教务处反映，并提供必要证明材料。逾期或匿名异议不予受理。",
+    "公示时间：2026年11月25日－11月29日",
+    "联系人：张瑶",
+    "联系电话：029-82668373",
+    "邮箱：zhangyao1994123@xjtu.edu.cn",
+    "教务处\n2026年11月25日"
+   ],
+   "tables": [
+    {
+     "rows": [
+      [
+       {
+        "text": "奖项",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "姓名",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "一等奖",
+        "rowspan": "3",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "闫安楠",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "能动学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "吴 敏",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "生命学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "来丽君",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "航天学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "二等奖",
+        "rowspan": "5",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "俞程成",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "外国语学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "杨 艳",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "化工学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "吕雨桐",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "人文学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "李 俊",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "电信学部",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "董宸辰",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "米兰理工联合学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "三等奖",
+        "rowspan": "7",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "郑曼琦",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "经金学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "周 宁",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "米兰理工联合学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "闫新辉",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "材料学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "那聪秀",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "仪器学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "王亚莉",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "航天学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "马樱支",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "新媒体学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "李田甜",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "管理学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "优秀奖",
+        "rowspan": "5",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "罗文成",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "数学学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "张峰瑞",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "人居学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "周志英",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "化学学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "侯迎曦",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "未来技术学院",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ],
+      [
+       {
+        "text": "贾绎冉",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       },
+       {
+        "text": "医学部",
+        "rowspan": "1",
+        "colspan": "1",
+        "header": false
+       }
+      ]
+     ],
+     "html": "<table cellspacing=\"0\" width=\"516\" align=\"center\"> \r\n    <tbody> \r\n     <tr class=\"firstRow\" style=\"height:37px\"> \r\n      <td width=\"137\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0);\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-size: 21px\">奖项</span></strong></p></td> \r\n      <td width=\"142\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) #000000;\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">姓名</span></strong></p></td> \r\n      <td width=\"237\" valign=\"center\" nowrap=\"\" style=\"padding: 0px 7px; border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0) #000000;\"><p style=\"text-align:center;vertical-align:middle\"><strong><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">学院</span></strong></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"3\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">一等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">闫安楠</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">能动学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">吴</span>  <span style=\"font-family:仿宋_GB2312\">敏</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">生命学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">来丽君</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">航天学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"5\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">二等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">俞程成</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">外国语学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">杨</span>  <span style=\"font-family:仿宋_GB2312\">艳</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">化工学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">吕雨桐</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">人文学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">李</span>  <span style=\"font-family:仿宋_GB2312\">俊</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">电信学部</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">董宸辰</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">米兰理工联合学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"7\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">三等奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">郑曼琦</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">经金学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\"><span style=\"font-family:仿宋_GB2312\">周</span>  <span style=\"font-family:仿宋_GB2312\">宁</span></span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">米兰理工联合学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">闫新辉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">材料学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">那聪秀</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">仪器学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">王亚莉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">航天学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">马樱支</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">新媒体学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">李田甜</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">管理学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" rowspan=\"5\" style=\"padding:0 7px 0 7px ;border-left:1px solid rgb(0,0,0);border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">优秀奖</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">罗文成</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">数学学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">张峰瑞</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">人居学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">周志英</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">化学学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">侯迎曦</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">未来技术学院</span></p></td> \r\n     </tr> \r\n     <tr style=\"height:36px\"> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">贾绎冉</span></p></td> \r\n      <td valign=\"center\" nowrap=\"\" style=\"padding:0 7px 0 7px ;border-left:none;border-right:1px solid rgb(0,0,0);border-top:none;border-bottom:1px solid rgb(0,0,0)\"><p style=\"text-align:center;vertical-align:middle\"><span style=\"font-family: 仿宋_gb2312;font-size: 21px\">医学部</span></p></td> \r\n     </tr> \r\n    </tbody> \r\n   </table>"
+    }
+   ],
+   "blocks": [
+    {
+     "type": "paragraph",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 1
+    },
+    {
+     "type": "paragraph",
+     "index": 2
+    },
+    {
+     "type": "paragraph",
+     "index": 3
+    },
+    {
+     "type": "paragraph",
+     "index": 4
+    },
+    {
+     "type": "paragraph",
+     "index": 5
+    },
+    {
+     "type": "table",
+     "index": 0
+    },
+    {
+     "type": "paragraph",
+     "index": 6
+    }
+   ],
+   "images": [],
+   "attachments": [],
+   "links": [],
+   "contact": "张瑶",
+   "phone": "029-82668373",
+   "email": "zhangyao1994123@xjtu.edu.cn",
+   "qq": "",
+   "attempts": 1,
+   "attemptHistory": [
+    {
+     "status": "success",
+     "error": "",
+     "fetchedAt": "2026-11-26T08:29:02.627070+00:00"
+    }
+   ],
+   "totalAttempts": 1
   },
   {
    "url": "https://jwc.xjtu.edu.cn/info/1172/10681.htm",

@@ -180,14 +180,14 @@
     "note": "抓各源前 N 页列表，补充来源必要时读取详情页出版日期；按 URL 合并历史。补充来源实抓状态见 source_status.json。"
   },
   "schema_version": 2,
-  "count": 2428,
+  "count": 2431,
   "matched_count": 535,
-  "competition_related_count": 888,
+  "competition_related_count": 889,
   "by_site": {
+    "教务处": 533,
     "实践教学中心": 402,
-    "教务处": 532,
+    "校团委": 1045,
     "电气学院": 227,
-    "校团委": 1043,
     "能动学院": 69,
     "RoboMaster官网": 26,
     "ROBOCON官网": 14,
@@ -201,8 +201,8 @@
     "西交ACM校队（VJudge）": 1
   },
   "by_site_competition": {
+    "教务处": 179,
     "实践教学中心": 332,
-    "教务处": 178,
     "校团委": 206,
     "电气学院": 22,
     "RoboMaster官网": 10,
@@ -217,6 +217,17 @@
     "西交ACM校队（VJudge）": 1
   },
   "items": [
+    {
+      "date": "2026-11-25",
+      "title": "关于西安交通大学2026年本科教学秘书素质能力大赛审评结果的公示",
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+      "source": "jwc",
+      "site": "教务处",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": true
+    },
     {
       "date": "2026-11-25",
       "title": "关于组织开展2026新锐设计竞赛·华灿奖西安交通大学校赛的通知",
@@ -241,6 +252,17 @@
     },
     {
       "date": "2026-11-24",
+      "title": "首雁说 | 实验室安全优秀学生访谈纪实（第四期）",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4806",
+      "source": "tuanwei_news",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
+    },
+    {
+      "date": "2026-11-24",
       "title": "2026年12月全国大学英语四、六级预测考试报名通知",
       "url": "https://jwc.xjtu.edu.cn/info/1171/10676.htm",
       "source": "jwc_ksap",
@@ -249,6 +271,17 @@
       "moe_no": "",
       "matched_keyword": "",
       "is_competition": true
+    },
+    {
+      "date": "2026-11-23",
+      "title": "关于开展西安交通大学“思创力”青年创业者俱乐部成员招募的通知",
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+      "source": "tuanwei",
+      "site": "校团委",
+      "competition": "",
+      "moe_no": "",
+      "matched_keyword": "",
+      "is_competition": false
     },
     {
       "date": "2026-11-23",

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "extractor": "evidence-rules-v1",
-  "count": 1291,
+  "count": 1294,
   "items": [
     {
       "url": "https://vjudge.net/group/xjtu-selection-2026-2027",
@@ -428,6 +428,374 @@
         "requiredMaterials": [],
         "timeline": [],
         "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+      "title": "关于开展西安交通大学“思创力”青年创业者俱乐部成员招募的通知",
+      "date": "2026-11-23",
+      "contentHash": "d35ad35eb32d36210e368d0dfbc9cfd00af1eab119e36b4d43aeb9d36cde6e3a",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "d35ad35eb32d36210e368d0dfbc9cfd00af1eab119e36b4d43aeb9d36cde6e3a",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [
+          {
+            "value": "面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；",
+            "raw": "面向西安交通大学全日制在校真实创业学生，遴选20个青年创业项目进入“思创力”青年创业者俱乐部；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 273,
+              "end": 320
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [
+          {
+            "value": "https://mp.weixin.qq.com/s?__biz=MzIyMzgyNTk5OQ==&mid=2247820717&idx=1&sn=442f02fd14c2aa8cf45515bdae84b21c&chksm=e980f11b59f12e2d7d8b736c5b67e23e418c221455313a9b66c798bc5e09a9aab5688198e221&scene=126&sessionid=1795609625&subscene=308&clicktime=1795609665&enterid=1795609665&click_id=734282259&key=daf9bdc5abc4e8d054188a0b2210877c5fe86396d7042550bfb13badd8daa529b182e9b4df6f3acde60bb3b62142f2a4b10e8d96bd1e3c5d9eea7b6c81d1846f2b521be4416336fb0eef923b69c3cf96370049146077cc9f204150fb803508c2966ef1ec542827030b5c8a9602e27da73f1e13ef67befc1201cd8c80aa691fa0&ascene=1&uin=MjI1MjQ1NzMxNw%3D%3D&devicetype=UnifiedPCWindows&version=f254200d&lang=zh_CN&exportkey=n_ChQIAhIQynVgA4ZjNoQ2iFPX13umeRLoAQIE97dBBAEAAAAAAPm4JqaLynkAAAAOpnltbLcz9gKNyK89dVj0Ce6QQjiGWcqdvi6ys7KcyhAylrAqToTvw5Obm%2F86c0NVbWseyR0rOCNJfAg5k6ju2MaFYyVPRbnCE4I2vBP8VRC0fFJjWVq0C4E0Aidf9ZxIHEme3yxRtuUIT5BSugGgSxqeshOnN1JoLGJ4bLOJbWpJ56oU7sGWIwmxvq2Sf9aNHJXMDs21q4FnllAhyAhs%2FHTwH6n48MqKxZOSQg%2F6L4er1sWCyf5BL7E7M8txXyFtq9MQDLCHXo%2FbC0DikxKqFqI%3D&acctmode=0&pass_ticket=l1D0X91MADx9AUHYJEYKysOSMO%2FNq0mfwCLX09PBvTB0O%2BB8Cf3XGCW115lptaBV8feht4vzftPyFM9AjTjErw%3D%3D&wx_header=0&fasttmpl_type=0&fasttmpl_fullversion=8537066-zh_CN-html&from_xworker=1",
+            "raw": "西安交通大学青年创业者俱乐部成员遴选报名表.docx",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 2243,
+              "end": 2269
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "https://qm.qq.com/q/SUIyrtN80W",
+            "raw": "https://qm.qq.com/q/SUIyrtN80W",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261125/d85a5ba6-a78b-4cfa-81df-be2812c44b42.jpg",
+            "location": {
+              "type": "resource",
+              "resourceId": "80606eb9c75a8e28367931708f5020158d8b7b3ae96f48e430efa983914cfb55",
+              "chunkId": "image-qr-0",
+              "page": null,
+              "start": 0,
+              "end": 30
+            },
+            "method": "qr",
+            "verification": "needs_review",
+            "flags": [
+              "qr_purpose_unverified",
+              "qr_requires_review"
+            ],
+            "trackId": null
+          }
+        ],
+        "requiredMaterials": [
+          {
+            "value": "（2）纸质材料（PPT除外）经所在二级单位团组织审核、签字盖章后，报送至兴庆校区主E-512或创新港校区涵英楼5-8074。",
+            "raw": "（2）纸质材料（PPT除外）经所在二级单位团组织审核、签字盖章后，报送至兴庆校区主E-512或创新港校区涵英楼5-8074。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 1720,
+              "end": 1782
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "（2）项目材料（项目PPT、商业计划书）；",
+            "raw": "（2）项目材料（项目PPT、商业计划书）；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 1816,
+              "end": 1837
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          },
+          {
+            "value": "1.材料初评：审核报名表、学籍证明、项目计划书与PPT及创业证明材料；",
+            "raw": "1.材料初评：审核报名表、学籍证明、项目计划书与PPT及创业证明材料；",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 2165,
+              "end": 2200
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "timeline": [
+          {
+            "value": "2026-11-30",
+            "raw": "3.截止时间：2026年11月30日17:00。",
+            "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+            "location": {
+              "type": "body",
+              "start": 1989,
+              "end": 2013
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": "17:00",
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月30日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [],
+        "groups": [
+          {
+            "kind": "qq",
+            "number": {
+              "value": "869568956",
+              "raw": "4.咨询通知：报名人员请务必加入QQ群：869568956，本群为咨询答疑、面试及评审结果等重要事项的唯一通知渠道，请及时关注群内消息。",
+              "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4807",
+              "location": {
+                "type": "body",
+                "start": 2047,
+                "end": 2115
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          },
+          {
+            "kind": "unknown",
+            "number": {
+              "value": "869568956",
+              "raw": "群号 : 869568956 9 复制",
+              "sourceUrl": "https://tuanwei.xjtu.edu.cn/uploads/20261125/d85a5ba6-a78b-4cfa-81df-be2812c44b42.jpg",
+              "location": {
+                "type": "resource",
+                "resourceId": "80606eb9c75a8e28367931708f5020158d8b7b3ae96f48e430efa983914cfb55",
+                "chunkId": "image-ocr",
+                "page": null,
+                "start": 11,
+                "end": 30
+              },
+              "method": "ocr",
+              "verification": "needs_review",
+              "flags": [
+                "ocr_requires_review"
+              ],
+              "trackId": null
+            },
+            "images": [],
+            "trackId": null
+          }
+        ],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://tuanwei.xjtu.edu.cn/passage?id=4806",
+      "title": "首雁说 | 实验室安全优秀学生访谈纪实（第四期）",
+      "date": "2026-11-24",
+      "contentHash": "b67f4f58abfc59574960604f4fef4b268a5f63a720ea101ca68b31f929d47106",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "b67f4f58abfc59574960604f4fef4b268a5f63a720ea101ca68b31f929d47106",
+        "sourceUrl": "https://tuanwei.xjtu.edu.cn/passage?id=4806",
+        "competitionNames": [],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [],
+        "contacts": [],
+        "groups": [],
+        "model": {
+          "status": "disabled",
+          "error": ""
+        }
+      }
+    },
+    {
+      "url": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+      "title": "关于西安交通大学2026年本科教学秘书素质能力大赛审评结果的公示",
+      "date": "2026-11-25",
+      "contentHash": "8cd32183fb402cf6ed717789f66d0061ef024c13dc46a1f8f16a525b1b0d9060",
+      "status": "success",
+      "error": "",
+      "fields": {
+        "schemaVersion": 2,
+        "contentHash": "8cd32183fb402cf6ed717789f66d0061ef024c13dc46a1f8f16a525b1b0d9060",
+        "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+        "competitionNames": [
+          {
+            "value": "西安交通大学2026年本科教学秘书素质能力大赛",
+            "raw": "关于西安交通大学2026年本科教学秘书素质能力大赛审评结果的公示",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+            "location": {
+              "type": "title",
+              "start": 0,
+              "end": 32
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null
+          }
+        ],
+        "editions": [],
+        "audiences": [],
+        "tracks": [],
+        "registrationMethods": [],
+        "registrationLinks": [],
+        "requiredMaterials": [],
+        "timeline": [
+          {
+            "value": "2026-11-25",
+            "raw": "公示时间：2026年11月25日－11月29日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+            "location": {
+              "type": "body",
+              "start": 155,
+              "end": 178
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月25日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-29",
+            "raw": "公示时间：2026年11月25日－11月29日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+            "location": {
+              "type": "body",
+              "start": 155,
+              "end": 178
+            },
+            "method": "rule",
+            "verification": "needs_review",
+            "flags": [
+              "missing_year"
+            ],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "11月29日",
+            "endDate": null,
+            "superseded": false
+          },
+          {
+            "value": "2026-11-25",
+            "raw": "2026年11月25日",
+            "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+            "location": {
+              "type": "body",
+              "start": 455,
+              "end": 466
+            },
+            "method": "rule",
+            "verification": "source_matched",
+            "flags": [],
+            "trackId": null,
+            "kind": "other",
+            "time": null,
+            "timezone": "Asia/Shanghai",
+            "dateRaw": "2026年11月25日",
+            "endDate": null,
+            "superseded": false
+          }
+        ],
+        "contacts": [
+          {
+            "name": {
+              "value": "张瑶",
+              "raw": "联系人：张瑶",
+              "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+              "location": {
+                "type": "body",
+                "start": 179,
+                "end": 185
+              },
+              "method": "rule",
+              "verification": "source_matched",
+              "flags": [],
+              "trackId": null
+            },
+            "phones": [
+              {
+                "value": "029-82668373",
+                "raw": "联系电话：029-82668373",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+                "location": {
+                  "type": "body",
+                  "start": 186,
+                  "end": 203
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "emails": [
+              {
+                "value": "zhangyao1994123@xjtu.edu.cn",
+                "raw": "邮箱：zhangyao1994123@xjtu.edu.cn",
+                "sourceUrl": "https://jwc.xjtu.edu.cn/info/1092/10682.htm",
+                "location": {
+                  "type": "body",
+                  "start": 204,
+                  "end": 234
+                },
+                "method": "rule",
+                "verification": "source_matched",
+                "flags": [],
+                "trackId": null
+              }
+            ],
+            "qq": [],
+            "trackId": null
+          }
+        ],
         "groups": [],
         "model": {
           "status": "disabled",
